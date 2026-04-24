@@ -1,0 +1,2090 @@
+{
+  "compilation": [
+    {
+      "name": "A Collection Of Great Dance Songs",
+      "artist": "Pink Floyd",
+      "genres": [
+        "rock",
+        "classic rock",
+        "progressive rock"
+      ],
+      "region": "英国",
+      "noise_level": 5.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004fkvOd1QVkSJ",
+      "qq_music_album_mid": "004fkvOd1QVkSJ",
+      "track_count": 6,
+      "duration_seconds": 2500
+    },
+    {
+      "name": "Love Songs",
+      "artist": "Jim Reeves",
+      "genres": [
+        "country",
+        "oldies"
+      ],
+      "region": "美国",
+      "noise_level": 3.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0046aVNI0vkBlR",
+      "qq_music_album_mid": "0046aVNI0vkBlR",
+      "track_count": 16,
+      "duration_seconds": 2314
+    },
+    {
+      "name": "Free Soul Nujabes - Second Collection",
+      "artist": "Nujabes",
+      "genres": [
+        "hip-hop",
+        "jazz hop",
+        "chillout"
+      ],
+      "region": "日本",
+      "noise_level": 4.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003RIi4Z1X8JBY",
+      "qq_music_album_mid": "003RIi4Z1X8JBY",
+      "track_count": 18,
+      "duration_seconds": 4808
+    },
+    {
+      "name": "40 Greatest Hits",
+      "artist": "Hank Williams",
+      "genres": [
+        "country",
+        "honky tonk"
+      ],
+      "region": "美国",
+      "noise_level": 3.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003OgU870p32sj",
+      "qq_music_album_mid": "003OgU870p32sj",
+      "track_count": 39,
+      "duration_seconds": 6235
+    },
+    {
+      "name": "Love Songs - 100 Hits",
+      "artist": "Cyndi Lauper",
+      "genres": [
+        "pop",
+        "new wave"
+      ],
+      "region": "美国",
+      "noise_level": 5.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000Nqc7q0AMOFA",
+      "qq_music_album_mid": "000Nqc7q0AMOFA",
+      "track_count": 98,
+      "duration_seconds": 22106,
+      "tracks": [
+        {
+          "name": "The Power of Love",
+          "duration": 265
+        },
+        {
+          "name": "As Long as You Love Me",
+          "duration": 214
+        },
+        {
+          "name": "Cosmic Girl",
+          "duration": 242
+        },
+        {
+          "name": "Be My Lover",
+          "duration": 241
+        },
+        {
+          "name": "Señorita",
+          "duration": 255
+        },
+        {
+          "name": "Thinking of Me",
+          "duration": 206
+        },
+        {
+          "name": "Love Song",
+          "duration": 258
+        },
+        {
+          "name": "You & Me Song",
+          "duration": 169
+        },
+        {
+          "name": "Marry Me",
+          "duration": 205
+        },
+        {
+          "name": "Half of My Heart",
+          "duration": 250
+        },
+        {
+          "name": "Jealousy",
+          "duration": 193
+        },
+        {
+          "name": "Never Say Never",
+          "duration": 259
+        },
+        {
+          "name": "Stay",
+          "duration": 235
+        },
+        {
+          "name": "Wherever You Will Go",
+          "duration": 207
+        },
+        {
+          "name": "Dreaming of You",
+          "duration": 141
+        },
+        {
+          "name": "Brown Eyed Girl",
+          "duration": 180
+        },
+        {
+          "name": "Somebody to Love",
+          "duration": 177
+        },
+        {
+          "name": "Piece of My Heart",
+          "duration": 255
+        },
+        {
+          "name": "Because the Night",
+          "duration": 202
+        },
+        {
+          "name": "I'll Never Love This Way Again",
+          "duration": 209
+        },
+        {
+          "name": "She's Like the Wind",
+          "duration": 232
+        },
+        {
+          "name": "Kyrie",
+          "duration": 266
+        },
+        {
+          "name": "That Ole Devil Called Love",
+          "duration": 185
+        },
+        {
+          "name": "If You're Lookin' for a Way Out",
+          "duration": 269
+        },
+        {
+          "name": "Perfect Day",
+          "duration": 226
+        },
+        {
+          "name": "Make You Feel My Love",
+          "duration": 212
+        },
+        {
+          "name": "She's Always a Woman",
+          "duration": 200
+        },
+        {
+          "name": "A Thing Called Love",
+          "duration": 151
+        },
+        {
+          "name": "Magic Moments",
+          "duration": 158
+        },
+        {
+          "name": "Put Your Head on My Shoulder",
+          "duration": 159
+        },
+        {
+          "name": "Can't Smile Without You",
+          "duration": 192
+        },
+        {
+          "name": "Annie's Song",
+          "duration": 178
+        },
+        {
+          "name": "Por Ti Seré (You Raise Me Up)",
+          "duration": 242
+        },
+        {
+          "name": "True Colors",
+          "duration": 227
+        },
+        {
+          "name": "Eternal Flame",
+          "duration": 236
+        },
+        {
+          "name": "Underneath Your Clothes",
+          "duration": 224
+        },
+        {
+          "name": "My Love",
+          "duration": 233
+        },
+        {
+          "name": "Torn",
+          "duration": 179
+        },
+        {
+          "name": "Truly Madly Deeply",
+          "duration": 278
+        },
+        {
+          "name": "I Try",
+          "duration": 238
+        },
+        {
+          "name": "Here with Me",
+          "duration": 245
+        },
+        {
+          "name": "Wild Horses",
+          "duration": 241
+        },
+        {
+          "name": "Amazed",
+          "duration": 240
+        },
+        {
+          "name": "I Won't Hold You Back",
+          "duration": 296
+        },
+        {
+          "name": "Kiss On My List",
+          "duration": 263
+        },
+        {
+          "name": "Find My Love",
+          "duration": 223
+        },
+        {
+          "name": "Fever",
+          "duration": 217
+        },
+        {
+          "name": "The Very Thought of You",
+          "duration": 270
+        },
+        {
+          "name": "La-La Means I Love You",
+          "duration": 199
+        },
+        {
+          "name": "Shake You Down",
+          "duration": 245
+        },
+        {
+          "name": "Nice & Slow",
+          "duration": 227
+        },
+        {
+          "name": "Beautiful",
+          "duration": 238
+        },
+        {
+          "name": "Wishing Well",
+          "duration": 213
+        },
+        {
+          "name": "Total Eclipse of the Heart",
+          "duration": 266
+        },
+        {
+          "name": "Born to Make You Happy",
+          "duration": 245
+        },
+        {
+          "name": "Can't Stay Away from You",
+          "duration": 238
+        },
+        {
+          "name": "The Look of Love",
+          "duration": 330
+        },
+        {
+          "name": "Misty",
+          "duration": 214
+        },
+        {
+          "name": "Hungry Heart",
+          "duration": 200
+        },
+        {
+          "name": "All by Myself",
+          "duration": 294
+        },
+        {
+          "name": "Oh, Pretty Woman",
+          "duration": 175
+        },
+        {
+          "name": "Be My Baby",
+          "duration": 160
+        },
+        {
+          "name": "Stay",
+          "duration": 98
+        },
+        {
+          "name": "To Love Somebody",
+          "duration": 158
+        },
+        {
+          "name": "Can't Take My Eyes off You",
+          "duration": 192
+        },
+        {
+          "name": "Love Is Forever",
+          "duration": 248
+        },
+        {
+          "name": "I Live for You",
+          "duration": 160
+        },
+        {
+          "name": "Whiskey Lullaby",
+          "duration": 259
+        },
+        {
+          "name": "I Will Always Love You",
+          "duration": 175
+        },
+        {
+          "name": "You're All That Matters to Me",
+          "duration": 276
+        },
+        {
+          "name": "When a Man Loves a Woman",
+          "duration": 230
+        },
+        {
+          "name": "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+          "duration": 178
+        },
+        {
+          "name": "Me and Mrs. Jones",
+          "duration": 285
+        },
+        {
+          "name": "Your Love Is King",
+          "duration": 222
+        },
+        {
+          "name": "If I Ain't Got You",
+          "duration": 230
+        },
+        {
+          "name": "Breathe Again",
+          "duration": 256
+        },
+        {
+          "name": "Baby I Love U",
+          "duration": 268
+        },
+        {
+          "name": "Someone Should Tell You",
+          "duration": 223
+        },
+        {
+          "name": "Stay with You",
+          "duration": 229
+        },
+        {
+          "name": "If I Could Turn Back the Hands of Time",
+          "duration": 270
+        },
+        {
+          "name": "Lean on Me",
+          "duration": 200
+        },
+        {
+          "name": "Can't Help Falling In Love",
+          "duration": 183
+        },
+        {
+          "name": "Piece of My Heart",
+          "duration": 153
+        },
+        {
+          "name": "Without You",
+          "duration": 199
+        },
+        {
+          "name": "Keep On Loving You",
+          "duration": 200
+        },
+        {
+          "name": "So Amazing",
+          "duration": 212
+        },
+        {
+          "name": "Think Twice",
+          "duration": 288
+        },
+        {
+          "name": "I Got You",
+          "duration": 226
+        },
+        {
+          "name": "Careless Whisper",
+          "duration": 304
+        },
+        {
+          "name": "(I've Had) The Time of My Life",
+          "duration": 285
+        },
+        {
+          "name": "Greatest Love of All",
+          "duration": 291
+        },
+        {
+          "name": "Will You Be There",
+          "duration": 219
+        },
+        {
+          "name": "Hero",
+          "duration": 258
+        },
+        {
+          "name": "I Don't Want to Miss a Thing",
+          "duration": 299
+        },
+        {
+          "name": "Back for Good",
+          "duration": 242
+        },
+        {
+          "name": "We Cry",
+          "duration": 223
+        },
+        {
+          "name": "Because of You",
+          "duration": 219
+        },
+        {
+          "name": "Halo",
+          "duration": 261
+        }
+      ],
+      "keep_tracks": [
+        "True Colors"
+      ]
+    },
+    {
+      "name": "100 Greatest Film Themes - Take 3",
+      "artist": "The City of Prague Philharmonic Orchestra",
+      "genres": [
+        "classical",
+        "symphonic",
+        "soundtrack",
+        "orchestral"
+      ],
+      "region": "捷克",
+      "noise_level": 3.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001lrkrR2LB7IV",
+      "qq_music_album_mid": "001lrkrR2LB7IV",
+      "track_count": 100,
+      "duration_seconds": 23414,
+      "tracks": [
+        {
+          "name": "Imagine the Fire",
+          "duration": 456
+        },
+        {
+          "name": "Young Peter",
+          "duration": 295
+        },
+        {
+          "name": "The Avengers",
+          "duration": 129
+        },
+        {
+          "name": "Snow White",
+          "duration": 216
+        },
+        {
+          "name": "Dreaming of Bag End",
+          "duration": 105
+        },
+        {
+          "name": "Freedom's Call",
+          "duration": 345
+        },
+        {
+          "name": "Life",
+          "duration": 153
+        },
+        {
+          "name": "Ted(End Titles)",
+          "duration": 307
+        },
+        {
+          "name": "Fate and Destiny",
+          "duration": 263
+        },
+        {
+          "name": "Rue's Farewell",
+          "duration": 274
+        },
+        {
+          "name": "Skyfall",
+          "duration": 287
+        },
+        {
+          "name": "I Dreamed a Dream",
+          "duration": 263
+        },
+        {
+          "name": "The Thief",
+          "duration": 257
+        },
+        {
+          "name": "I Drive",
+          "duration": 122
+        },
+        {
+          "name": "Captain America March",
+          "duration": 156
+        },
+        {
+          "name": "Lily's Theme",
+          "duration": 137
+        },
+        {
+          "name": "The Reunion",
+          "duration": 233
+        },
+        {
+          "name": "Love Death Birth",
+          "duration": 370
+        },
+        {
+          "name": "Super 8 Suite",
+          "duration": 370
+        },
+        {
+          "name": "Sky Fight / End Credits",
+          "duration": 137
+        },
+        {
+          "name": "Magneto",
+          "duration": 111
+        },
+        {
+          "name": "The Adventures of Tintin",
+          "duration": 186
+        },
+        {
+          "name": "Thor Kills the Destroyer",
+          "duration": 114
+        },
+        {
+          "name": "It's Our Fight",
+          "duration": 400
+        },
+        {
+          "name": "Mermaids",
+          "duration": 486
+        },
+        {
+          "name": "The King's Speech",
+          "duration": 229
+        },
+        {
+          "name": "Outlands",
+          "duration": 155
+        },
+        {
+          "name": "I Want to Go Home",
+          "duration": 300
+        },
+        {
+          "name": "Obliviate",
+          "duration": 177
+        },
+        {
+          "name": "Forbidden Friendship",
+          "duration": 252
+        },
+        {
+          "name": "Main Theme",
+          "duration": 198
+        },
+        {
+          "name": "Strobe / Flying Home",
+          "duration": 224
+        },
+        {
+          "name": "Time",
+          "duration": 275
+        },
+        {
+          "name": "A Married Life",
+          "duration": 261
+        },
+        {
+          "name": "Perseus",
+          "duration": 384
+        },
+        {
+          "name": "Alice's Theme",
+          "duration": 303
+        },
+        {
+          "name": "Dumbledore's Farewell",
+          "duration": 136
+        },
+        {
+          "name": "160 BPM",
+          "duration": 405
+        },
+        {
+          "name": "Discombobulate",
+          "duration": 142
+        },
+        {
+          "name": "Almost There",
+          "duration": 146
+        },
+        {
+          "name": "Arrival of the Birds / Exodus",
+          "duration": 443
+        },
+        {
+          "name": "Open Spaces",
+          "duration": 236
+        },
+        {
+          "name": "Ratatouille(End Credits)",
+          "duration": 277
+        },
+        {
+          "name": "The People's Princess",
+          "duration": 251
+        },
+        {
+          "name": "Barbastella",
+          "duration": 282
+        },
+        {
+          "name": "Zoosters Breakout",
+          "duration": 100
+        },
+        {
+          "name": "Prologue",
+          "duration": 248
+        },
+        {
+          "name": "Woad to Ruin",
+          "duration": 419
+        },
+        {
+          "name": "Theme",
+          "duration": 136
+        },
+        {
+          "name": "Main Theme",
+          "duration": 87
+        },
+        {
+          "name": "Homeland",
+          "duration": 216
+        },
+        {
+          "name": "Heart of the Volunteer",
+          "duration": 227
+        },
+        {
+          "name": "Leave No Man Behind",
+          "duration": 377
+        },
+        {
+          "name": "A Kaleidoscope of Mathematics",
+          "duration": 332
+        },
+        {
+          "name": "Main Theme",
+          "duration": 243
+        },
+        {
+          "name": "Injection",
+          "duration": 294
+        },
+        {
+          "name": "The Sand Volcano / Love Theme",
+          "duration": 175
+        },
+        {
+          "name": "The Stripper",
+          "duration": 115
+        },
+        {
+          "name": "Main Title",
+          "duration": 110
+        },
+        {
+          "name": "Suite",
+          "duration": 543
+        },
+        {
+          "name": "You've Got a Friend in Me",
+          "duration": 127
+        },
+        {
+          "name": "For the Love of a Princess",
+          "duration": 257
+        },
+        {
+          "name": "Giza, 1928",
+          "duration": 284
+        },
+        {
+          "name": "Christmas Eve Montage",
+          "duration": 270
+        },
+        {
+          "name": "End Titles",
+          "duration": 266
+        },
+        {
+          "name": "Dragon's Heartbeat",
+          "duration": 309
+        },
+        {
+          "name": "Claudia's Theme",
+          "duration": 379
+        },
+        {
+          "name": "A Whole New World",
+          "duration": 162
+        },
+        {
+          "name": "Under the Sea",
+          "duration": 195
+        },
+        {
+          "name": "Eddie's Theme",
+          "duration": 303
+        },
+        {
+          "name": "Danger Zone",
+          "duration": 213
+        },
+        {
+          "name": "Breakfast Machine",
+          "duration": 139
+        },
+        {
+          "name": "Main Theme",
+          "duration": 104
+        },
+        {
+          "name": "The Whammer Strikes Out",
+          "duration": 118
+        },
+        {
+          "name": "Paris Texas",
+          "duration": 176
+        },
+        {
+          "name": "Eye of the Tiger",
+          "duration": 227
+        },
+        {
+          "name": "Everybody Needs Somebody to Love",
+          "duration": 200
+        },
+        {
+          "name": "Intermezzo From Cavalleria Rusticana",
+          "duration": 200
+        },
+        {
+          "name": "Die Walküre: Ride of the Valkyries",
+          "duration": 270
+        },
+        {
+          "name": "Main Theme",
+          "duration": 230
+        },
+        {
+          "name": "Always Look on the Bright Side of Life",
+          "duration": 241
+        },
+        {
+          "name": "The Chase",
+          "duration": 389
+        },
+        {
+          "name": "Summer Nights",
+          "duration": 220
+        },
+        {
+          "name": "Cantina Band",
+          "duration": 178
+        },
+        {
+          "name": "Enter the Dragon Main Theme",
+          "duration": 145
+        },
+        {
+          "name": "Pure Imagination",
+          "duration": 325
+        },
+        {
+          "name": "Getta Bloomin' Move On",
+          "duration": 202
+        },
+        {
+          "name": "True Grit",
+          "duration": 109
+        },
+        {
+          "name": "Don't Rain on My Parade",
+          "duration": 164
+        },
+        {
+          "name": "Chitty Chitty Bang Bang",
+          "duration": 122
+        },
+        {
+          "name": "The Bare Necessities",
+          "duration": 294
+        },
+        {
+          "name": "Alfie",
+          "duration": 196
+        },
+        {
+          "name": "A Man Alone",
+          "duration": 242
+        },
+        {
+          "name": "Goldfinger",
+          "duration": 169
+        },
+        {
+          "name": "Supercalifragilisticexpialidocious",
+          "duration": 126
+        },
+        {
+          "name": "Zip-a-Dee-Doo-Dah",
+          "duration": 147
+        },
+        {
+          "name": "The Sorcerer's Apprentice",
+          "duration": 324
+        },
+        {
+          "name": "Heigh Ho",
+          "duration": 165
+        },
+        {
+          "name": "Smile",
+          "duration": 175
+        },
+        {
+          "name": "Dance of the Cuckoos",
+          "duration": 182
+        }
+      ],
+      "keep_tracks": [
+        "A Married Life"
+      ]
+    },
+    {
+      "name": "Greatest Hits",
+      "artist": "Tracy Chapman",
+      "genres": [
+        "folk",
+        "college rock"
+      ],
+      "region": "美国",
+      "noise_level": 3.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0024nNcH2mfUUe",
+      "qq_music_album_mid": "0024nNcH2mfUUe",
+      "track_count": 17,
+      "duration_seconds": 4416
+    },
+    {
+      "name": "韩国经典歌曲集同感3 旅行",
+      "artist": "Deli Spice",
+      "genres": [
+        "rock"
+      ],
+      "region": "韩国",
+      "noise_level": 4.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001MpzUv371QN8",
+      "qq_music_album_mid": "001MpzUv371QN8",
+      "track_count": 18,
+      "duration_seconds": 4217
+    },
+    {
+      "name": "SpongeBob's Greatest Hits",
+      "artist": "Spongebob Squarepants",
+      "genres": [
+        "soundtrack"
+      ],
+      "region": "美国",
+      "noise_level": 4.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002oMsWJ4IZmaN",
+      "qq_music_album_mid": "002oMsWJ4IZmaN",
+      "track_count": 16,
+      "duration_seconds": 1825
+    },
+    {
+      "name": "Nothing But The Best",
+      "artist": "Frank Sinatra",
+      "genres": [],
+      "region": "美国",
+      "noise_level": 3.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-24",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001q9gTQ0K3BmO",
+      "qq_music_album_mid": "001q9gTQ0K3BmO",
+      "track_count": 22,
+      "duration_seconds": 4461
+    },
+    {
+      "name": "Islands - Essential Einaudi",
+      "artist": "Ludovico Einaudi",
+      "genres": [
+        "piano",
+        "contemporary classical",
+        "classical"
+      ],
+      "region": "意大利",
+      "noise_level": 2.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001wVv6m2QXK3m",
+      "qq_music_album_mid": "001wVv6m2QXK3m",
+      "track_count": 27,
+      "duration_seconds": 9335
+    }
+  ],
+  "various": [
+    {
+      "name": "Blue Shades",
+      "artist": "Trigg & Gusset",
+      "genres": [
+        "dark jazz",
+        "jazz"
+      ],
+      "region": "荷兰",
+      "noise_level": 3.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-25",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003gDTOM3stuPe",
+      "qq_music_album_mid": "003gDTOM3stuPe",
+      "duration_seconds": 287,
+      "tracks": [
+        {
+          "name": "Blue Shades",
+          "duration": 287
+        }
+      ]
+    },
+    {
+      "name": "Vast & Hazy",
+      "artist": "VH (Vast & Hazy)",
+      "genres": [
+        "taiwan"
+      ],
+      "region": "台湾",
+      "noise_level": 5.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004XFfaa0p7Tks",
+      "qq_music_album_mid": "004XFfaa0p7Tks",
+      "track_count": 3,
+      "duration_seconds": 682
+    },
+    {
+      "name": "Cruisin to the Park",
+      "artist": "Durand Jones & The Indications",
+      "genres": [
+        "soul",
+        "neo-soul"
+      ],
+      "region": "美国",
+      "noise_level": 4.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002PdW1i4F1p11",
+      "qq_music_album_mid": "002PdW1i4F1p11",
+      "track_count": 1,
+      "duration_seconds": 212
+    },
+    {
+      "name": "100 Greatest Film Themes - Take 3",
+      "artist": "The City of Prague Philharmonic Orchestra",
+      "genres": [
+        "classical",
+        "symphonic",
+        "soundtrack",
+        "orchestral"
+      ],
+      "region": "捷克",
+      "noise_level": 3.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001lrkrR2LB7IV",
+      "qq_music_album_mid": "001lrkrR2LB7IV",
+      "track_count": 100,
+      "duration_seconds": 23414,
+      "tracks": [
+        {
+          "name": "Imagine the Fire",
+          "duration": 456
+        },
+        {
+          "name": "Young Peter",
+          "duration": 295
+        },
+        {
+          "name": "The Avengers",
+          "duration": 129
+        },
+        {
+          "name": "Snow White",
+          "duration": 216
+        },
+        {
+          "name": "Dreaming of Bag End",
+          "duration": 105
+        },
+        {
+          "name": "Freedom's Call",
+          "duration": 345
+        },
+        {
+          "name": "Life",
+          "duration": 153
+        },
+        {
+          "name": "Ted(End Titles)",
+          "duration": 307
+        },
+        {
+          "name": "Fate and Destiny",
+          "duration": 263
+        },
+        {
+          "name": "Rue's Farewell",
+          "duration": 274
+        },
+        {
+          "name": "Skyfall",
+          "duration": 287
+        },
+        {
+          "name": "I Dreamed a Dream",
+          "duration": 263
+        },
+        {
+          "name": "The Thief",
+          "duration": 257
+        },
+        {
+          "name": "I Drive",
+          "duration": 122
+        },
+        {
+          "name": "Captain America March",
+          "duration": 156
+        },
+        {
+          "name": "Lily's Theme",
+          "duration": 137
+        },
+        {
+          "name": "The Reunion",
+          "duration": 233
+        },
+        {
+          "name": "Love Death Birth",
+          "duration": 370
+        },
+        {
+          "name": "Super 8 Suite",
+          "duration": 370
+        },
+        {
+          "name": "Sky Fight / End Credits",
+          "duration": 137
+        },
+        {
+          "name": "Magneto",
+          "duration": 111
+        },
+        {
+          "name": "The Adventures of Tintin",
+          "duration": 186
+        },
+        {
+          "name": "Thor Kills the Destroyer",
+          "duration": 114
+        },
+        {
+          "name": "It's Our Fight",
+          "duration": 400
+        },
+        {
+          "name": "Mermaids",
+          "duration": 486
+        },
+        {
+          "name": "The King's Speech",
+          "duration": 229
+        },
+        {
+          "name": "Outlands",
+          "duration": 155
+        },
+        {
+          "name": "I Want to Go Home",
+          "duration": 300
+        },
+        {
+          "name": "Obliviate",
+          "duration": 177
+        },
+        {
+          "name": "Forbidden Friendship",
+          "duration": 252
+        },
+        {
+          "name": "Main Theme",
+          "duration": 198
+        },
+        {
+          "name": "Strobe / Flying Home",
+          "duration": 224
+        },
+        {
+          "name": "Time",
+          "duration": 275
+        },
+        {
+          "name": "A Married Life",
+          "duration": 261
+        },
+        {
+          "name": "Perseus",
+          "duration": 384
+        },
+        {
+          "name": "Alice's Theme",
+          "duration": 303
+        },
+        {
+          "name": "Dumbledore's Farewell",
+          "duration": 136
+        },
+        {
+          "name": "160 BPM",
+          "duration": 405
+        },
+        {
+          "name": "Discombobulate",
+          "duration": 142
+        },
+        {
+          "name": "Almost There",
+          "duration": 146
+        },
+        {
+          "name": "Arrival of the Birds / Exodus",
+          "duration": 443
+        },
+        {
+          "name": "Open Spaces",
+          "duration": 236
+        },
+        {
+          "name": "Ratatouille(End Credits)",
+          "duration": 277
+        },
+        {
+          "name": "The People's Princess",
+          "duration": 251
+        },
+        {
+          "name": "Barbastella",
+          "duration": 282
+        },
+        {
+          "name": "Zoosters Breakout",
+          "duration": 100
+        },
+        {
+          "name": "Prologue",
+          "duration": 248
+        },
+        {
+          "name": "Woad to Ruin",
+          "duration": 419
+        },
+        {
+          "name": "Theme",
+          "duration": 136
+        },
+        {
+          "name": "Main Theme",
+          "duration": 87
+        },
+        {
+          "name": "Homeland",
+          "duration": 216
+        },
+        {
+          "name": "Heart of the Volunteer",
+          "duration": 227
+        },
+        {
+          "name": "Leave No Man Behind",
+          "duration": 377
+        },
+        {
+          "name": "A Kaleidoscope of Mathematics",
+          "duration": 332
+        },
+        {
+          "name": "Main Theme",
+          "duration": 243
+        },
+        {
+          "name": "Injection",
+          "duration": 294
+        },
+        {
+          "name": "The Sand Volcano / Love Theme",
+          "duration": 175
+        },
+        {
+          "name": "The Stripper",
+          "duration": 115
+        },
+        {
+          "name": "Main Title",
+          "duration": 110
+        },
+        {
+          "name": "Suite",
+          "duration": 543
+        },
+        {
+          "name": "You've Got a Friend in Me",
+          "duration": 127
+        },
+        {
+          "name": "For the Love of a Princess",
+          "duration": 257
+        },
+        {
+          "name": "Giza, 1928",
+          "duration": 284
+        },
+        {
+          "name": "Christmas Eve Montage",
+          "duration": 270
+        },
+        {
+          "name": "End Titles",
+          "duration": 266
+        },
+        {
+          "name": "Dragon's Heartbeat",
+          "duration": 309
+        },
+        {
+          "name": "Claudia's Theme",
+          "duration": 379
+        },
+        {
+          "name": "A Whole New World",
+          "duration": 162
+        },
+        {
+          "name": "Under the Sea",
+          "duration": 195
+        },
+        {
+          "name": "Eddie's Theme",
+          "duration": 303
+        },
+        {
+          "name": "Danger Zone",
+          "duration": 213
+        },
+        {
+          "name": "Breakfast Machine",
+          "duration": 139
+        },
+        {
+          "name": "Main Theme",
+          "duration": 104
+        },
+        {
+          "name": "The Whammer Strikes Out",
+          "duration": 118
+        },
+        {
+          "name": "Paris Texas",
+          "duration": 176
+        },
+        {
+          "name": "Eye of the Tiger",
+          "duration": 227
+        },
+        {
+          "name": "Everybody Needs Somebody to Love",
+          "duration": 200
+        },
+        {
+          "name": "Intermezzo From Cavalleria Rusticana",
+          "duration": 200
+        },
+        {
+          "name": "Die Walküre: Ride of the Valkyries",
+          "duration": 270
+        },
+        {
+          "name": "Main Theme",
+          "duration": 230
+        },
+        {
+          "name": "Always Look on the Bright Side of Life",
+          "duration": 241
+        },
+        {
+          "name": "The Chase",
+          "duration": 389
+        },
+        {
+          "name": "Summer Nights",
+          "duration": 220
+        },
+        {
+          "name": "Cantina Band",
+          "duration": 178
+        },
+        {
+          "name": "Enter the Dragon Main Theme",
+          "duration": 145
+        },
+        {
+          "name": "Pure Imagination",
+          "duration": 325
+        },
+        {
+          "name": "Getta Bloomin' Move On",
+          "duration": 202
+        },
+        {
+          "name": "True Grit",
+          "duration": 109
+        },
+        {
+          "name": "Don't Rain on My Parade",
+          "duration": 164
+        },
+        {
+          "name": "Chitty Chitty Bang Bang",
+          "duration": 122
+        },
+        {
+          "name": "The Bare Necessities",
+          "duration": 294
+        },
+        {
+          "name": "Alfie",
+          "duration": 196
+        },
+        {
+          "name": "A Man Alone",
+          "duration": 242
+        },
+        {
+          "name": "Goldfinger",
+          "duration": 169
+        },
+        {
+          "name": "Supercalifragilisticexpialidocious",
+          "duration": 126
+        },
+        {
+          "name": "Zip-a-Dee-Doo-Dah",
+          "duration": 147
+        },
+        {
+          "name": "The Sorcerer's Apprentice",
+          "duration": 324
+        },
+        {
+          "name": "Heigh Ho",
+          "duration": 165
+        },
+        {
+          "name": "Smile",
+          "duration": 175
+        },
+        {
+          "name": "Dance of the Cuckoos",
+          "duration": 182
+        }
+      ],
+      "keep_tracks": [
+        "A Married Life"
+      ]
+    },
+    {
+      "name": "Stoney (Deluxe) [Clean]",
+      "artist": "Post Malone",
+      "genres": [
+        "hip-hop",
+        "trap",
+        "cloud rap"
+      ],
+      "region": "美国",
+      "noise_level": 5.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-24",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001tctIT1yaNXd",
+      "qq_music_album_mid": "001tctIT1yaNXd",
+      "track_count": 18,
+      "duration_seconds": 4094
+    },
+    {
+      "name": "スタジオジブリ作品集 Ⅱ",
+      "artist": "Carl Orrje Piano Ensemble",
+      "genres": [
+        "piano",
+        "jazz"
+      ],
+      "region": "瑞典",
+      "noise_level": 2.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0035VeD52ZFk2n",
+      "qq_music_album_mid": "0035VeD52ZFk2n",
+      "track_count": 14,
+      "duration_seconds": 3643
+    },
+    {
+      "name": "Chill Rap",
+      "artist": "Post Malone",
+      "genres": [
+        "hip-hop",
+        "trap",
+        "cloud rap"
+      ],
+      "region": "美国",
+      "noise_level": 5.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0044ACPG23TkVu",
+      "qq_music_album_mid": "0044ACPG23TkVu",
+      "track_count": 2,
+      "duration_seconds": 434
+    },
+    {
+      "name": "Vol. 2 Guardians of the Galaxy: Awesome Mix Vol. 2 (Original Motion Picture Soundtrack)",
+      "artist": "Electric Light Orchestra",
+      "genres": [
+        "classic rock",
+        "progressive rock",
+        "rock"
+      ],
+      "region": "英国",
+      "noise_level": 5.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001OlShv03Ntt5",
+      "qq_music_album_mid": "001OlShv03Ntt5",
+      "track_count": 13,
+      "duration_seconds": 2842
+    },
+    {
+      "name": "Ma Fleur",
+      "artist": "The Cinematic Orchestra",
+      "genres": [
+        "downtempo",
+        "chillout",
+        "jazz"
+      ],
+      "region": "英国",
+      "noise_level": 3.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000QZb1H3eIAZv",
+      "qq_music_album_mid": "000QZb1H3eIAZv",
+      "track_count": 11,
+      "duration_seconds": 3251
+    }
+  ],
+  "live": [
+    {
+      "name": "The Yussef Dayes Experience - Live From Malibu",
+      "artist": "Yussef Dayes",
+      "genres": [
+        "jazz",
+        "jazz fusion"
+      ],
+      "region": "英国",
+      "noise_level": 3.33,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-24",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003sPqxp2nNpQM",
+      "qq_music_album_mid": "003sPqxp2nNpQM",
+      "duration_seconds": 1968,
+      "tracks": [
+        {
+          "name": "Black Classical Music / Afro Cubanism (feat. Venna)",
+          "duration": 405
+        },
+        {
+          "name": "The Colour Purple",
+          "duration": 163
+        },
+        {
+          "name": "Mountain Steppa",
+          "duration": 141
+        },
+        {
+          "name": "Malibu",
+          "duration": 196
+        },
+        {
+          "name": "Tidal Wave",
+          "duration": 240
+        },
+        {
+          "name": "Portrait of Tracy",
+          "duration": 196
+        },
+        {
+          "name": "Istanbul (feat. Elijah Fox)",
+          "duration": 248
+        },
+        {
+          "name": "Tioga Pass (feat. Rocco Palladino)",
+          "duration": 379
+        }
+      ]
+    },
+    {
+      "name": "The Yussef Dayes Experience Live at Joshua Tree (Presented by Soulection)",
+      "artist": "Yussef Dayes",
+      "genres": [
+        "jazz"
+      ],
+      "region": "英国",
+      "noise_level": 2.5,
+      "noise_source": "bandcamp",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-25",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004FaS4l3brGcK",
+      "qq_music_album_mid": "004FaS4l3brGcK",
+      "duration_seconds": 999,
+      "tracks": [
+        {
+          "name": "Golden Hour (feat. Rocco Palladino)",
+          "duration": 261
+        },
+        {
+          "name": "Mystics (feat. Venna)",
+          "duration": 227
+        },
+        {
+          "name": "Rhythms of Xango",
+          "duration": 118
+        },
+        {
+          "name": "Raisins Under the Sun",
+          "duration": 219
+        },
+        {
+          "name": "Odyssey",
+          "duration": 174
+        }
+      ],
+      "bandcamp_url": "https://yussefdayes.bandcamp.com/album/the-yussef-dayes-experience-live-at-joshua-tree-presented-by-soulection?from=search&amp;search_item_id=2494613962&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351968624&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=0dc53530731cf6666d5f9faebd985443"
+    },
+    {
+      "name": "From the North - GoGo Penguin Live in Manchester",
+      "artist": "GoGo Penguin",
+      "genres": [
+        "nu-jazz",
+        "contemporary-jazz"
+      ],
+      "region": "英国",
+      "noise_level": 3.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-24",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002qrgIS2HOtTn",
+      "qq_music_album_mid": "002qrgIS2HOtTn",
+      "duration_seconds": 1839,
+      "tracks": [
+        {
+          "name": "Everything Is Going to Be OK",
+          "duration": 286
+        },
+        {
+          "name": "Parasite",
+          "duration": 353
+        },
+        {
+          "name": "You're Stronger Than You Think",
+          "duration": 190
+        },
+        {
+          "name": "An Unbroken Thread of Awareness",
+          "duration": 181
+        },
+        {
+          "name": "Friday Film Special",
+          "duration": 250
+        },
+        {
+          "name": "Ascent",
+          "duration": 272
+        },
+        {
+          "name": "Wave Decay",
+          "duration": 307
+        }
+      ]
+    },
+    {
+      "name": "Creep (Live at the Avalon, Boston, MA - May 2007) [Explicit]",
+      "artist": "Brandi Carlile",
+      "genres": [
+        "folk",
+        "indie-pop"
+      ],
+      "region": "美国",
+      "noise_level": 4.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000kvh3L4QNqDc",
+      "qq_music_album_mid": "000kvh3L4QNqDc",
+      "track_count": 1,
+      "duration_seconds": 273
+    },
+    {
+      "name": "日全蚀 演唱会现场实录",
+      "artist": "徐佳莹",
+      "genres": [
+        "taiwan",
+        "pop"
+      ],
+      "region": "台湾",
+      "noise_level": 4.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/00407o933Mj4RS",
+      "qq_music_album_mid": "00407o933Mj4RS",
+      "track_count": 28,
+      "duration_seconds": 7033
+    },
+    {
+      "name": "大人故事书 亚洲巡回演唱会影音全纪录",
+      "artist": "王若琳",
+      "genres": [
+        "jazz",
+        "taiwan"
+      ],
+      "region": "台湾",
+      "noise_level": 4.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002EtGiM4W8F2z",
+      "qq_music_album_mid": "002EtGiM4W8F2z",
+      "track_count": 21,
+      "duration_seconds": 4774
+    },
+    {
+      "name": "Folk Ÿou Live Session",
+      "artist": "LÜCY",
+      "genres": [
+        "taiwan",
+        "dream pop"
+      ],
+      "region": "台湾",
+      "noise_level": 4.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001VZ6vj4feaTJ",
+      "qq_music_album_mid": "001VZ6vj4feaTJ",
+      "track_count": 3,
+      "duration_seconds": 616
+    },
+    {
+      "name": "太阳巡回演唱会Immortal Tour影音记录",
+      "artist": "陈绮贞",
+      "genres": [
+        "indie-pop",
+        "folk",
+        "taiwan"
+      ],
+      "region": "台湾",
+      "noise_level": 3.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002StZwT1Ybwos",
+      "qq_music_album_mid": "002StZwT1Ybwos",
+      "track_count": 26,
+      "duration_seconds": 6739
+    },
+    {
+      "name": "Anthology Tour (The Hits Live)",
+      "artist": "McFly",
+      "genres": [
+        "pop rock",
+        "rock",
+        "pop"
+      ],
+      "region": "英国",
+      "noise_level": 5.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-24",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004aT7F208I6RJ",
+      "qq_music_album_mid": "004aT7F208I6RJ",
+      "track_count": 45,
+      "duration_seconds": 10315,
+      "tracks": [
+        {
+          "name": "Foolish",
+          "duration": 82
+        },
+        {
+          "name": "I’ll Be Your Man",
+          "duration": 335
+        },
+        {
+          "name": "Down Goes Another One",
+          "duration": 246
+        },
+        {
+          "name": "The End",
+          "duration": 225
+        },
+        {
+          "name": "Going Though the Motions",
+          "duration": 213
+        },
+        {
+          "name": "Pov",
+          "duration": 231
+        },
+        {
+          "name": "Home Is Where the Heart Is",
+          "duration": 284
+        },
+        {
+          "name": "Do Ya",
+          "duration": 171
+        },
+        {
+          "name": "Everybody Knows",
+          "duration": 195
+        },
+        {
+          "name": "Don’t Stop Me Now",
+          "duration": 212
+        },
+        {
+          "name": "Lonely",
+          "duration": 231
+        },
+        {
+          "name": "Bubble Wrap",
+          "duration": 311
+        },
+        {
+          "name": "Too Close For Comfort",
+          "duration": 322
+        },
+        {
+          "name": "She Falls Asleep",
+          "duration": 276
+        },
+        {
+          "name": "Memory Lane",
+          "duration": 254
+        },
+        {
+          "name": "Nothing",
+          "duration": 247
+        },
+        {
+          "name": "Don’t Know Why",
+          "duration": 247
+        },
+        {
+          "name": "I Wanna Hold You",
+          "duration": 184
+        },
+        {
+          "name": "Ballad of Paul K",
+          "duration": 195
+        },
+        {
+          "name": "I’ve Got You",
+          "duration": 197
+        },
+        {
+          "name": "Silence Is a Scary Sound",
+          "duration": 219
+        },
+        {
+          "name": "Not Alone",
+          "duration": 251
+        },
+        {
+          "name": "Broccoli",
+          "duration": 231
+        },
+        {
+          "name": "Surfer Babe",
+          "duration": 190
+        },
+        {
+          "name": "Unsaid Things",
+          "duration": 217
+        },
+        {
+          "name": "She Left Me",
+          "duration": 224
+        },
+        {
+          "name": "Down By the Lakes",
+          "duration": 163
+        },
+        {
+          "name": "Met This Girl",
+          "duration": 164
+        },
+        {
+          "name": "Hypnotised",
+          "duration": 196
+        },
+        {
+          "name": "Saturday Night",
+          "duration": 177
+        },
+        {
+          "name": "That Girl",
+          "duration": 221
+        },
+        {
+          "name": "Love Is Easy",
+          "duration": 225
+        },
+        {
+          "name": "Shine A Light",
+          "duration": 268
+        },
+        {
+          "name": "Lies",
+          "duration": 241
+        },
+        {
+          "name": "One For The Radio",
+          "duration": 198
+        },
+        {
+          "name": "The Heart Never Lies",
+          "duration": 369
+        },
+        {
+          "name": "Transylvania",
+          "duration": 286
+        },
+        {
+          "name": "Star Girl",
+          "duration": 263
+        },
+        {
+          "name": "Please Please",
+          "duration": 196
+        },
+        {
+          "name": "Ultraviolet",
+          "duration": 227
+        },
+        {
+          "name": "I'll Be Ok",
+          "duration": 218
+        },
+        {
+          "name": "All About You",
+          "duration": 216
+        },
+        {
+          "name": "Room On The 3rd Floor",
+          "duration": 227
+        },
+        {
+          "name": "Obviously",
+          "duration": 209
+        },
+        {
+          "name": "5 Colours In Her Hair",
+          "duration": 261
+        }
+      ],
+      "keep_tracks": [
+        "The Heart Never Lies"
+      ]
+    },
+    {
+      "name": "夏季练习曲世界巡回现场录音",
+      "artist": "陈绮贞",
+      "genres": [
+        "indie-pop",
+        "folk",
+        "taiwan"
+      ],
+      "region": "台湾",
+      "noise_level": 3.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002sz0VI05l6wk",
+      "qq_music_album_mid": "002sz0VI05l6wk",
+      "track_count": 22,
+      "duration_seconds": 5240
+    },
+    {
+      "name": "LIVE IN LIVING '10",
+      "artist": "羊毛とおはな",
+      "genres": [
+        "acoustic"
+      ],
+      "region": "日本",
+      "noise_level": 3.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000Jfx4s0vTmEE",
+      "qq_music_album_mid": "000Jfx4s0vTmEE",
+      "track_count": 11,
+      "duration_seconds": 2202
+    },
+    {
+      "name": "songs in black and white (live from the waiting room, 29.07.16)",
+      "artist": "Isaac Gracie",
+      "genres": [
+        "indie-pop",
+        "indie-folk",
+        "folk"
+      ],
+      "region": "英国",
+      "noise_level": 4.0,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": "2026-04-24",
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000HoWSS4buEMb",
+      "qq_music_album_mid": "000HoWSS4buEMb",
+      "track_count": 4,
+      "duration_seconds": 872
+    },
+    {
+      "name": "The Grenade Sessions",
+      "artist": "Bruno Mars",
+      "genres": [
+        "pop",
+        "r&b"
+      ],
+      "region": "美国",
+      "noise_level": 4.5,
+      "noise_source": "lastfm",
+      "swing_rate": null,
+      "burden_level": null,
+      "last_played": null,
+      "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002BehNA3xlfoI",
+      "qq_music_album_mid": "002BehNA3xlfoI",
+      "track_count": 4,
+      "duration_seconds": 1051
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咖啡店专辑库数据分析</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #f5f4f0;
+    color: #2c2c2a;
+    line-height: 1.7;
+    padding: 0;
+  }
+  .header {
+    background: #fff;
+    border-bottom: 1px solid #e5e4e0;
+    padding: 48px 0 40px;
+    text-align: center;
+  }
+  .header h1 { font-size: 28px; font-weight: 500; letter-spacing: -0.5px; color: #2c2c2a; }
+  .header p { font-size: 14px; color: #888780; margin-top: 8px; }
+  .container { max-width: 1080px; margin: 0 auto; padding: 32px 24px 64px; }
+  .metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  .metric-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    border: 0.5px solid #e5e4e0;
+  }
+  .metric-card .label { font-size: 12px; color: #888780; text-transform: uppercase; letter-spacing: 0.5px; }
+  .metric-card .value { font-size: 28px; font-weight: 500; margin-top: 4px; color: #2c2c2a; }
+  .metric-card .sub { font-size: 12px; color: #b4b2a9; margin-top: 2px; }
+  .section { margin-bottom: 40px; }
+  .section-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e5e4e0;
+    color: #2c2c2a;
+  }
+  .chart-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    border: 0.5px solid #e5e4e0;
+  }
+  .chart-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .chart-label { font-size: 13px; color: #888780; margin-bottom: 12px; font-weight: 500; }
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: #888780;
+  }
+  .legend span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .legend i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+  .rank-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .rank-table th {
+    text-align: left;
+    font-weight: 500;
+    padding: 8px 12px;
+    border-bottom: 1px solid #e5e4e0;
+    color: #888780;
+    font-size: 12px;
+  }
+  .rank-table td {
+    padding: 10px 12px;
+    border-bottom: 0.5px solid #f1efe8;
+    color: #444441;
+  }
+  .rank-table tr:last-child td { border-bottom: none; }
+  .rank-table .num { color: #b4b2a9; font-size: 12px; width: 28px; }
+  .bar-inline {
+    height: 6px;
+    border-radius: 3px;
+    background: #85B7EB;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  .tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    background: #E6F1FB;
+    color: #185FA5;
+    margin: 2px;
+  }
+  .insight-box {
+    background: #FAEEDA;
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #633806;
+    line-height: 1.8;
+  }
+  .insight-box strong { color: #854F0B; }
+  .tab-bar {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+    background: #f5f4f0;
+    border-radius: 8px;
+    padding: 4px;
+  }
+  .tab-btn {
+    padding: 6px 16px;
+    border-radius: 6px;
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #888780;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .tab-btn.active { background: #fff; color: #2c2c2a; font-weight: 500; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+  .noise-meter {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+  }
+  .noise-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+  }
+  .footer {
+    text-align: center;
+    padding: 32px;
+    font-size: 12px;
+    color: #b4b2a9;
+  }
+  @media (max-width: 768px) {
+    .chart-row { grid-template-columns: 1fr; }
+    .metrics-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>咖啡店专辑库数据分析</h1>
+  <p>albums.json / 521 albums / 生成于 2026-04-24</p>
+</div>
+
+<div class="container">
+  <!-- 核心指标 -->
+  <div class="metrics-grid">
+    <div class="metric-card">
+      <div class="label">专辑总数</div>
+      <div class="value">521</div>
+      <div class="sub">412 位艺术家</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">总时长</div>
+      <div class="value">301h</div>
+      <div class="sub">50 分钟</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">平均时长</div>
+      <div class="value">34:46</div>
+      <div class="sub">每张专辑</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">曲风标签</div>
+      <div class="value">194</div>
+      <div class="sub">种不同风格</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">覆盖地区</div>
+      <div class="value">37</div>
+      <div class="sub">个国家/地区</div>
+    </div>
+    <div class="metric-card">
+      <div class="label">数据完整度</div>
+      <div class="value">98.8%</div>
+      <div class="sub">有曲风标签</div>
+    </div>
+  </div>
+
+  <!-- 地区分布 -->
+  <div class="section">
+    <div class="section-title">地区分布</div>
+    <div class="chart-row">
+      <div class="chart-card">
+        <div class="chart-label">Top 10 地区专辑数量</div>
+        <div style="position: relative; height: 340px;">
+          <canvas id="regionChart" role="img" aria-label="地区分布柱状图">地区分布柱状图</canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-label">大区占比</div>
+        <div style="position: relative; height: 340px;">
+          <canvas id="regionPieChart" role="img" aria-label="大区占比饼图">大区占比饼图</canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 曲风分布 -->
+  <div class="section">
+    <div class="section-title">曲风分布</div>
+    <div class="chart-card">
+      <div class="chart-label">Top 20 曲风标签</div>
+      <div style="position: relative; height: 480px;">
+        <canvas id="genreChart" role="img" aria-label="曲风分布横向柱状图">曲风分布横向柱状图</canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- 噪音等级 -->
+  <div class="section">
+    <div class="section-title">噪音等级分析</div>
+    <div class="chart-row">
+      <div class="chart-card">
+        <div class="chart-label">噪音等级分布</div>
+        <div style="position: relative; height: 300px;">
+          <canvas id="noiseChart" role="img" aria-label="噪音等级分布图">噪音等级分布图</canvas>
+        </div>
+        <div class="insight-box" style="margin-top: 16px;">
+          <strong>适用性分析：</strong>咖啡店理想噪音区间为 2-5 级。库中 <strong>96%</strong> 的专辑（499/521）落在该区间内，选曲池非常充裕。Level 4 是众数区间（241张），代表中等能量感。
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-label">各曲风平均噪音等级</div>
+        <div style="position: relative; height: 300px;">
+          <canvas id="genreNoiseChart" role="img" aria-label="曲风噪音雷达图">曲风噪音雷达图</canvas>
+        </div>
+        <div class="insight-box" style="margin-top: 16px;">
+          <strong>曲风-噪音特征：</strong><strong>Jazz</strong>（3.1）和 <strong>Folk</strong>（3.5）最安静，适合早间时段；<strong>Rock</strong>（4.9）和 <strong>Indie-rock</strong>（5.0）最有能量，适合下午高峰。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 时长分布 -->
+  <div class="section">
+    <div class="section-title">专辑时长分析</div>
+    <div class="chart-row">
+      <div class="chart-card">
+        <div class="chart-label">时长分布（分钟）</div>
+        <div style="position: relative; height: 300px;">
+          <canvas id="durationChart" role="img" aria-label="时长分布图">时长分布图</canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-label">各地区平均噪音对比</div>
+        <div style="position: relative; height: 300px;">
+          <canvas id="regionNoiseChart" role="img" aria-label="各地区平均噪音">各地区平均噪音</canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 排行榜 -->
+  <div class="section">
+    <div class="section-title">专辑排行榜</div>
+    <div class="tab-bar" id="rankTabs">
+      <button class="tab-btn active" onclick="showRank('longest')">最长专辑</button>
+      <button class="tab-btn" onclick="showRank('shortest')">最短专辑</button>
+      <button class="tab-btn" onclick="showRank('quietest')">最安静</button>
+      <button class="tab-btn" onclick="showRank('loudest')">最嘈杂</button>
+    </div>
+    <div class="chart-card">
+      <table class="rank-table" id="rankTable">
+        <thead>
+          <tr><th class="num">#</th><th>专辑</th><th>艺术家</th><th id="rankValHeader">时长</th></tr>
+        </thead>
+        <tbody id="rankBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 曲风云 -->
+  <div class="section">
+    <div class="section-title">曲风标签云</div>
+    <div class="chart-card" id="tagCloud" style="text-align: center; padding: 32px;"></div>
+  </div>
+</div>
+
+<div class="footer">cafe-playlist album analysis / 数据来源: albums.json</div>
+
+<script>
+const COLORS = {
+  purple: ['#EEEDFE','#CECBF6','#AFA9EC','#7F77DD','#534AB7','#3C3489','#26215C'],
+  teal:   ['#E1F5EE','#9FE1CB','#5DCAA5','#1D9E75','#0F6E56','#085041','#04342C'],
+  coral:  ['#FAECE7','#F5C4B3','#F0997B','#D85A30','#993C1D','#712B13','#4A1B0C'],
+  blue:   ['#E6F1FB','#B5D4F4','#85B7EB','#378ADD','#185FA5','#0C447C','#042C53'],
+  green:  ['#EAF3DE','#C0DD97','#97C459','#639922','#3B6D11','#27500A','#173404'],
+  amber:  ['#FAEEDA','#FAC775','#EF9F27','#BA7517','#854F0B','#633806','#412402'],
+  red:    ['#FCEBEB','#F7C1C1','#F09595','#E24B4A','#A32D2D','#791F1F','#501313'],
+  pink:   ['#FBEAF0','#F4C0D1','#ED93B1','#D4537E','#993556','#72243E','#4B1528'],
+  gray:   ['#F1EFE8','#D3D1C7','#B4B2A9','#888780','#5F5E5A','#444441','#2C2C2A'],
+};
+
+const regions = [
+  {name:"美国",count:123},{name:"大陆",count:87},{name:"英国",count:67},
+  {name:"日本",count:65},{name:"台湾",count:64},{name:"韩国",count:21},
+  {name:"香港",count:12},{name:"加拿大",count:11},{name:"德国",count:7},
+  {name:"澳大利亚",count:6}
+];
+
+const genres = [
+  {name:"indie-pop",count:115},{name:"pop",count:80},{name:"folk",count:59},
+  {name:"rock",count:50},{name:"r&b",count:47},{name:"electronic",count:40},
+  {name:"jazz",count:40},{name:"soul",count:40},{name:"indie-folk",count:36},
+  {name:"indie-rock",count:33},{name:"hip-hop",count:33},{name:"dream pop",count:28},
+  {name:"alternative",count:27},{name:"taiwan",count:23},{name:"acoustic",count:19},
+  {name:"post-rock",count:16},{name:"folk rock",count:16},{name:"c-pop",count:16},
+  {name:"piano",count:14},{name:"experimental",count:14}
+];
+
+const allGenres = [
+  {name:"indie-pop",count:115},{name:"pop",count:80},{name:"folk",count:59},
+  {name:"rock",count:50},{name:"r&b",count:47},{name:"electronic",count:40},
+  {name:"jazz",count:40},{name:"soul",count:40},{name:"indie-folk",count:36},
+  {name:"indie-rock",count:33},{name:"hip-hop",count:33},{name:"dream pop",count:28},
+  {name:"alternative",count:27},{name:"taiwan",count:23},{name:"acoustic",count:19},
+  {name:"post-rock",count:16},{name:"folk rock",count:16},{name:"c-pop",count:16},
+  {name:"piano",count:14},{name:"experimental",count:14},{name:"soundtrack",count:14},
+  {name:"alternative rock",count:14},{name:"math-rock",count:12},{name:"funk",count:12},
+  {name:"ambient",count:12}
+];
+
+const noiseDist = [
+  {level:1,count:1},{level:2,count:40},{level:3,count:135},
+  {level:4,count:241},{level:5,count:83},{level:6,count:12},
+  {level:7,count:7},{level:8,count:2}
+];
+
+const durDist = [
+  {range:"0-15",count:177},{range:"15-30",count:57},{range:"30-45",count:125},
+  {range:"45-60",count:91},{range:"60-90",count:52},{range:"90+",count:19}
+];
+
+const genreNoise = [
+  {genre:"indie-pop",avg:4.07},{genre:"pop",avg:4.24},{genre:"folk",avg:3.47},
+  {genre:"rock",avg:4.94},{genre:"r&b",avg:4.14},{genre:"electronic",avg:3.87},
+  {genre:"jazz",avg:3.14},{genre:"soul",avg:3.98},{genre:"indie-folk",avg:3.63},
+  {genre:"indie-rock",avg:4.98}
+];
+
+const regionNoise = [
+  {region:"美国",avg:4.24},{region:"大陆",avg:4.26},{region:"英国",avg:3.89},
+  {region:"日本",avg:4.0},{region:"台湾",avg:4.22},{region:"韩国",avg:3.93},
+  {region:"香港",avg:4.25},{region:"加拿大",avg:3.59},{region:"德国",avg:3.98},
+  {region:"澳大利亚",avg:3.67}
+];
+
+const rankings = {
+  longest: [
+    {name:"100 Greatest Film Themes - Take 3",artist:"The City of Prague Philharmonic Orchestra",val:"6h 30m"},
+    {name:"Love Songs - 100 Hits",artist:"Cyndi Lauper",val:"6h 8m"},
+    {name:"Sgt. Pepper's (Super Deluxe)",artist:"The Beatles",val:"3h 23m"},
+    {name:"莫后年代 20周年典藏",artist:"莫文蔚",val:"3h 18m"},
+    {name:"Anthology Tour (Live)",artist:"McFly",val:"2h 51m"}
+  ],
+  shortest: [
+    {name:"fly",artist:"vietra",val:"1:37"},
+    {name:"Clearly",artist:"Hang Over",val:"1:48"},
+    {name:"Falling for U",artist:"Peachy!",val:"2:04"},
+    {name:"ineedyou.",artist:"vietra",val:"2:04"},
+    {name:"Shadow of the Sun",artist:"Alexer Lyton",val:"2:05"}
+  ],
+  quietest: [
+    {name:"~~~",artist:"Ana Roxanne",val:"1.5"},
+    {name:"Esja",artist:"Hania Rani",val:"2.0"},
+    {name:"栖居在溪源之上",artist:"Cicada",val:"2.0"},
+    {name:"Memory One",artist:"Ludovico Einaudi",val:"2.0"},
+    {name:"鲸鱼马戏团VOL.1",artist:"鲸鱼马戏团",val:"2.0"}
+  ],
+  loudest: [
+    {name:"The Stories We Tell Ourselves",artist:"Nothing More",val:"8.0"},
+    {name:"A Thousand Suns",artist:"Linkin Park",val:"8.0"},
+    {name:"21st Century Breakdown",artist:"Green Day",val:"7.0"},
+    {name:"荒诞故事",artist:"杨和苏KeyNG",val:"7.0"},
+    {name:"未来的路",artist:"痛仰乐队",val:"7.0"}
+  ]
+};
+
+const chartDefaults = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: { legend: { display: false } },
+};
+
+// 1. 地区柱状图
+new Chart(document.getElementById('regionChart'), {
+  type: 'bar',
+  data: {
+    labels: regions.map(r => r.name),
+    datasets: [{
+      data: regions.map(r => r.count),
+      backgroundColor: COLORS.blue[2],
+      borderColor: COLORS.blue[4],
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f1efe8' }, ticks: { font: { size: 11 } } },
+      x: { grid: { display: false }, ticks: { font: { size: 11 }, maxRotation: 45 } }
+    }
+  }
+});
+
+// 2. 大区饼图
+const macroRegions = {
+  '北美': 123+11+1,
+  '东亚-大陆': 87,
+  '东亚-台港': 64+12,
+  '日本': 65,
+  '韩国': 21,
+  '欧洲': 67+7+5+3+3+3+3+2+2+2+1+1+1+1+1,
+  '东南亚/大洋洲': 6+6+3+2+1,
+  '其他': 3+2+1+1
+};
+const pieColors = [COLORS.blue[3], COLORS.coral[3], COLORS.teal[3], COLORS.amber[3], COLORS.pink[3], COLORS.purple[3], COLORS.green[3], COLORS.gray[3]];
+new Chart(document.getElementById('regionPieChart'), {
+  type: 'doughnut',
+  data: {
+    labels: Object.keys(macroRegions),
+    datasets: [{
+      data: Object.values(macroRegions),
+      backgroundColor: pieColors,
+      borderWidth: 2,
+      borderColor: '#fff',
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    cutout: '50%',
+    plugins: {
+      legend: {
+        display: true,
+        position: 'right',
+        labels: { font: { size: 11 }, boxWidth: 12, padding: 8, usePointStyle: true, pointStyle: 'rectRounded' }
+      }
+    }
+  }
+});
+
+// 3. 曲风横向条形图
+new Chart(document.getElementById('genreChart'), {
+  type: 'bar',
+  data: {
+    labels: genres.map(g => g.name),
+    datasets: [{
+      data: genres.map(g => g.count),
+      backgroundColor: genres.map((_, i) => {
+        const ramps = [COLORS.blue, COLORS.teal, COLORS.purple, COLORS.coral, COLORS.amber];
+        return ramps[i % ramps.length][2];
+      }),
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    indexAxis: 'y',
+    scales: {
+      x: { beginAtZero: true, grid: { color: '#f1efe8' }, ticks: { font: { size: 11 } } },
+      y: { grid: { display: false }, ticks: { font: { size: 11 } } }
+    }
+  }
+});
+
+// 4. 噪音分布
+new Chart(document.getElementById('noiseChart'), {
+  type: 'bar',
+  data: {
+    labels: noiseDist.map(n => 'Lv.' + n.level),
+    datasets: [{
+      data: noiseDist.map(n => n.count),
+      backgroundColor: noiseDist.map(n => {
+        if (n.level <= 2) return COLORS.teal[2];
+        if (n.level <= 4) return COLORS.blue[2];
+        if (n.level <= 5) return COLORS.amber[2];
+        return COLORS.red[2];
+      }),
+      borderColor: noiseDist.map(n => {
+        if (n.level <= 2) return COLORS.teal[4];
+        if (n.level <= 4) return COLORS.blue[4];
+        if (n.level <= 5) return COLORS.amber[4];
+        return COLORS.red[4];
+      }),
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f1efe8' }, ticks: { font: { size: 11 } } },
+      x: { grid: { display: false }, ticks: { font: { size: 12 }, autoSkip: false } }
+    }
+  }
+});
+
+// 5. 曲风噪音雷达
+new Chart(document.getElementById('genreNoiseChart'), {
+  type: 'radar',
+  data: {
+    labels: genreNoise.map(g => g.genre),
+    datasets: [{
+      label: '平均噪音',
+      data: genreNoise.map(g => g.avg),
+      backgroundColor: 'rgba(55,138,221,0.15)',
+      borderColor: COLORS.blue[3],
+      borderWidth: 2,
+      pointBackgroundColor: COLORS.blue[4],
+      pointRadius: 4,
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    scales: {
+      r: {
+        beginAtZero: true,
+        max: 6,
+        ticks: { font: { size: 10 }, stepSize: 1 },
+        grid: { color: '#e5e4e0' },
+        pointLabels: { font: { size: 10 } }
+      }
+    }
+  }
+});
+
+// 6. 时长分布
+new Chart(document.getElementById('durationChart'), {
+  type: 'bar',
+  data: {
+    labels: durDist.map(d => d.range + ' min'),
+    datasets: [{
+      data: durDist.map(d => d.count),
+      backgroundColor: COLORS.teal[2],
+      borderColor: COLORS.teal[4],
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    scales: {
+      y: { beginAtZero: true, grid: { color: '#f1efe8' }, ticks: { font: { size: 11 } } },
+      x: { grid: { display: false }, ticks: { font: { size: 11 }, autoSkip: false, maxRotation: 45 } }
+    }
+  }
+});
+
+// 7. 地区噪音对比
+new Chart(document.getElementById('regionNoiseChart'), {
+  type: 'bar',
+  data: {
+    labels: regionNoise.map(r => r.region),
+    datasets: [{
+      data: regionNoise.map(r => r.avg),
+      backgroundColor: regionNoise.map(r => {
+        if (r.avg < 3.7) return COLORS.teal[2];
+        if (r.avg < 4.1) return COLORS.blue[2];
+        return COLORS.amber[2];
+      }),
+      borderColor: regionNoise.map(r => {
+        if (r.avg < 3.7) return COLORS.teal[4];
+        if (r.avg < 4.1) return COLORS.blue[4];
+        return COLORS.amber[4];
+      }),
+      borderWidth: 1,
+      borderRadius: 4,
+    }]
+  },
+  options: {
+    ...chartDefaults,
+    scales: {
+      y: { min: 3, max: 5, grid: { color: '#f1efe8' }, ticks: { font: { size: 11 } } },
+      x: { grid: { display: false }, ticks: { font: { size: 11 }, maxRotation: 45 } }
+    }
+  }
+});
+
+// 排行榜交互
+function showRank(type) {
+  const btns = document.querySelectorAll('#rankTabs .tab-btn');
+  const labels = {longest:'最长专辑',shortest:'最短专辑',quietest:'最安静',loudest:'最嘈杂'};
+  const valHeaders = {longest:'时长',shortest:'时长',quietest:'噪音等级',loudest:'噪音等级'};
+  btns.forEach(b => b.classList.remove('active'));
+  [...btns].find(b => b.textContent === labels[type]).classList.add('active');
+  document.getElementById('rankValHeader').textContent = valHeaders[type];
+  const tbody = document.getElementById('rankBody');
+  tbody.innerHTML = rankings[type].map((r, i) => `
+    <tr>
+      <td class="num">${i+1}</td>
+      <td style="font-weight: 500;">${r.name}</td>
+      <td>${r.artist}</td>
+      <td>${r.val}</td>
+    </tr>
+  `).join('');
+}
+showRank('longest');
+
+// 曲风标签云
+const cloud = document.getElementById('tagCloud');
+const maxCount = allGenres[0].count;
+allGenres.forEach(g => {
+  const size = Math.max(11, Math.round(12 + (g.count / maxCount) * 16));
+  const opacity = 0.4 + (g.count / maxCount) * 0.6;
+  const ramps = [COLORS.blue, COLORS.teal, COLORS.purple, COLORS.coral, COLORS.amber, COLORS.pink];
+  const ramp = ramps[Math.floor(Math.random() * ramps.length)];
+  const tag = document.createElement('span');
+  tag.className = 'tag';
+  tag.style.fontSize = size + 'px';
+  tag.style.background = ramp[0];
+  tag.style.color = ramp[4];
+  tag.style.opacity = opacity;
+  tag.style.padding = `${Math.round(size*0.25)}px ${Math.round(size*0.7)}px`;
+  tag.textContent = `${g.name} (${g.count})`;
+  cloud.appendChild(tag);
+});
+</script>
+</body>
+</html>

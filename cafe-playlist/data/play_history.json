@@ -2,97 +2,132 @@
   "2026-04-24": {
     "albums": [
       {
-        "name": "Monument",
+        "name": "好心分手",
         "slot": "早上",
-        "duration_seconds": 2636
+        "duration_seconds": 241
       },
       {
-        "name": "有限无限",
+        "name": "EMOTIONALLY RED",
         "slot": "早上",
-        "duration_seconds": 3093
+        "duration_seconds": 1019
       },
       {
-        "name": "Portico Quartet",
+        "name": "Nothing But The Best",
         "slot": "早上",
-        "duration_seconds": 3091
+        "duration_seconds": 4461
       },
       {
-        "name": "Dreamer On The Run",
+        "name": "Fuerteventura",
+        "slot": "早上",
+        "duration_seconds": 2293
+      },
+      {
+        "name": "Melody Remedy",
         "slot": "中午",
-        "duration_seconds": 2442
+        "duration_seconds": 1198
       },
       {
-        "name": "神游夜话",
+        "name": "Stoney (Deluxe) [Clean]",
         "slot": "中午",
-        "duration_seconds": 376
+        "duration_seconds": 4094
       },
       {
-        "name": "ガウディの憂鬱",
+        "name": "Sorry Bae(prod. 10keys)",
         "slot": "中午",
-        "duration_seconds": 2687
+        "duration_seconds": 192
       },
       {
-        "name": "时间回到秋天的下午",
+        "name": "Dear Annie: Part 1",
         "slot": "中午",
-        "duration_seconds": 250
+        "duration_seconds": 911
       },
       {
-        "name": "Kyiv",
+        "name": "Anthology Tour (The Hits Live)",
         "slot": "中午",
-        "duration_seconds": 210
+        "duration_seconds": 369
       },
       {
-        "name": "From the North - GoGo Penguin Live in Manchester",
+        "name": "Guantanamo Bay Surf Club",
         "slot": "中午",
-        "duration_seconds": 1839
+        "duration_seconds": 2093
       },
       {
-        "name": "地下河 Undercurrent",
+        "name": "偷故事的人",
         "slot": "中午",
-        "duration_seconds": 1501
+        "duration_seconds": 2669
       },
       {
-        "name": "Mars Is A Very Bad Place For Love",
-        "slot": "中午",
-        "duration_seconds": 2662
-      },
-      {
-        "name": "v2.0 (Deluxe Edition)",
+        "name": "songs in black and white (live from the waiting room, 29.07.16)",
         "slot": "下午",
-        "duration_seconds": 3667
+        "duration_seconds": 872
       },
       {
-        "name": "New Conditions",
+        "name": "Back To Bedlam [U.K. Alternate Packaging]",
         "slot": "下午",
-        "duration_seconds": 234
+        "duration_seconds": 2354
       },
       {
-        "name": "Remnants Of A Setting Sun",
+        "name": "yugi",
         "slot": "下午",
-        "duration_seconds": 1158
+        "duration_seconds": 201
       },
       {
-        "name": "Rift",
+        "name": "是时候",
         "slot": "下午",
-        "duration_seconds": 3679
+        "duration_seconds": 2777
       },
       {
-        "name": "Smilewound",
+        "name": "一格格",
         "slot": "下午",
-        "duration_seconds": 3028
+        "duration_seconds": 248
       },
       {
-        "name": "The Yussef Dayes Experience - Live From Malibu",
+        "name": "Toroka",
         "slot": "下午",
-        "duration_seconds": 1968
+        "duration_seconds": 202
       },
       {
-        "name": "Slowly Rolling Camera",
+        "name": "One more time，One more chance",
         "slot": "下午",
-        "duration_seconds": 4090
+        "duration_seconds": 798
+      },
+      {
+        "name": "L.O.V.E.",
+        "slot": "下午",
+        "duration_seconds": 3035
+      },
+      {
+        "name": "Can't Be By Myself",
+        "slot": "下午",
+        "duration_seconds": 175
+      },
+      {
+        "name": "Prisoner",
+        "slot": "下午",
+        "duration_seconds": 156
+      },
+      {
+        "name": "Maybe Maybe",
+        "slot": "下午",
+        "duration_seconds": 212
+      },
+      {
+        "name": "Lay Me Down (Red Nose Day 2015)",
+        "slot": "下午",
+        "duration_seconds": 217
+      },
+      {
+        "name": "Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)",
+        "slot": "下午",
+        "duration_seconds": 160
+      },
+      {
+        "name": "リトルメロディ",
+        "slot": "下午",
+        "duration_seconds": 3669
       }
     ],
-    "generated_at": "2026-04-23T15:38:14.742529"
+    "generated_at": "2026-04-24T18:45:55.309457"
   },
   "2026-04-25": {
     "albums": [

@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "generated_at": "2026-04-23T15:38:14.742529",
+  "generated_at": "2026-04-24T18:45:55.309457",
   "config_snapshot": {
     "business_hours": {
       "start": "09:00",
@@ -15,12 +15,12 @@
     }
   },
   "summary": {
-    "total_albums": 18,
+    "total_albums": 25,
     "target_duration_seconds": 32400,
-    "actual_duration_seconds": 38611,
+    "actual_duration_seconds": 34616,
     "target_duration_display": "9h00m",
-    "actual_duration_display": "10h43m",
-    "fill_percentage": 119.2
+    "actual_duration_display": "9h36m",
+    "fill_percentage": 106.8
   },
   "slots": [
     {
@@ -32,46 +32,53 @@
         4
       ],
       "target_duration_seconds": 7200,
-      "actual_duration_seconds": 8820,
+      "actual_duration_seconds": 8014,
       "albums": [
         {
-          "name": "Monument",
+          "name": "好心分手",
           "genres": [
-            "contemporary-jazz",
-            "ambient jazz",
-            "electronic"
+            "indie-folk",
+            "folk"
           ],
           "noise_level": 3.0,
-          "duration_seconds": 2636,
-          "duration_display": "43:56",
+          "duration_seconds": 241,
+          "duration_display": "4:01",
+          "score": 0.8486,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002OjpDB2Xh0PT"
+        },
+        {
+          "name": "EMOTIONALLY RED",
+          "genres": [
+            "k-pop",
+            "pop",
+            "hip-hop"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 1019,
+          "duration_display": "16:59",
           "score": 0.847,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000TegwF0ngGor"
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002HbPcz1PEXeG"
         },
         {
-          "name": "有限无限",
-          "genres": [
-            "electronic",
-            "synthesizer",
-            "ambient"
-          ],
+          "name": "Nothing But The Best",
+          "genres": [],
           "noise_level": 3.0,
-          "duration_seconds": 3093,
-          "duration_display": "51:33",
-          "score": 0.8444,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000vpol71plqE7"
+          "duration_seconds": 4461,
+          "duration_display": "74:21",
+          "score": 0.8432,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001q9gTQ0K3BmO"
         },
         {
-          "name": "Portico Quartet",
+          "name": "Fuerteventura",
           "genres": [
-            "contemporary-jazz",
-            "ambient jazz",
-            "electronic"
+            "folk",
+            "acoustic"
           ],
           "noise_level": 3.0,
-          "duration_seconds": 3091,
-          "duration_display": "51:31",
-          "score": 0.8419,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000KspuW1xugXg"
+          "duration_seconds": 2293,
+          "duration_display": "38:13",
+          "score": 0.842,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004eKwRM0GWJhc"
         }
       ]
     },
@@ -84,109 +91,101 @@
         6
       ],
       "target_duration_seconds": 10800,
-      "actual_duration_seconds": 11967,
+      "actual_duration_seconds": 11526,
       "albums": [
         {
-          "name": "Dreamer On The Run",
+          "name": "Melody Remedy",
           "genres": [
-            "post-rock"
+            "hip-hop",
+            "korean hiphop",
+            "r&b"
           ],
           "noise_level": 5.0,
-          "duration_seconds": 2442,
-          "duration_display": "40:42",
-          "score": 0.7715,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0003fnjS1SvwvO"
+          "duration_seconds": 1198,
+          "duration_display": "19:58",
+          "score": 0.7936,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0011HHrP3CZDq8"
         },
         {
-          "name": "神游夜话",
+          "name": "Stoney (Deluxe) [Clean]",
           "genres": [
-            "post-rock",
-            "ambient-rock",
-            "electronic"
+            "hip-hop",
+            "trap",
+            "cloud rap"
           ],
-          "noise_level": 4.0,
-          "duration_seconds": 376,
-          "duration_display": "6:16",
-          "score": 0.6227,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003v9CyQ3iSs9z"
+          "noise_level": 5.0,
+          "duration_seconds": 4094,
+          "duration_display": "68:14",
+          "score": 0.7919,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001tctIT1yaNXd"
         },
         {
-          "name": "ガウディの憂鬱",
+          "name": "Sorry Bae(prod. 10keys)",
           "genres": [
-            "fusion jazz",
-            "contemporary-jazz",
-            "funk"
+            "hip-hop",
+            "lo-fi hip-hop"
           ],
-          "noise_level": 3.83,
-          "duration_seconds": 2687,
-          "duration_display": "44:47",
-          "score": 0.6197,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000WFfl80kihuf"
+          "noise_level": 5.0,
+          "duration_seconds": 192,
+          "duration_display": "3:12",
+          "score": 0.7917,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0038ltaC0e0B0B"
         },
         {
-          "name": "时间回到秋天的下午",
+          "name": "Dear Annie: Part 1",
           "genres": [
-            "dream pop",
+            "hip-hop",
+            "underground hip-hop"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 911,
+          "duration_display": "15:11",
+          "score": 0.7896,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002AGocY0a5fMb"
+        },
+        {
+          "name": "Anthology Tour (The Hits Live)",
+          "genres": [
+            "pop rock",
+            "rock",
+            "pop"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 369,
+          "duration_display": "6:09",
+          "score": 0.7882,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004aT7F208I6RJ",
+          "keep_tracks": [
+            "The Heart Never Lies"
+          ],
+          "kept_track_names": [
+            "The Heart Never Lies"
+          ]
+        },
+        {
+          "name": "Guantanamo Bay Surf Club",
+          "genres": [
+            "folk",
+            "surf rock",
             "shoegaze",
-            "indie-rock"
+            "inde alternative"
           ],
-          "noise_level": 4.0,
-          "duration_seconds": 250,
-          "duration_display": "4:10",
-          "score": 0.5925,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000V3jHh2RL7oG"
+          "noise_level": 5.0,
+          "duration_seconds": 2093,
+          "duration_display": "34:53",
+          "score": 0.7854,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003Dfm5b2IUPvd"
         },
         {
-          "name": "Kyiv",
+          "name": "偷故事的人",
           "genres": [
-            "contemporary-jazz",
-            "neo-soul",
-            "funk"
+            "pop"
           ],
-          "noise_level": 3.83,
-          "duration_seconds": 210,
-          "duration_display": "3:30",
-          "score": 0.5864,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003S3bak0DEMDH"
-        },
-        {
-          "name": "From the North - GoGo Penguin Live in Manchester",
-          "genres": [
-            "contemporary-jazz",
-            "electronic",
-            "acoustic"
-          ],
-          "noise_level": 3.5,
-          "duration_seconds": 1839,
-          "duration_display": "30:39",
-          "score": 0.5854,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002qrgIS2HOtTn"
-        },
-        {
-          "name": "地下河 Undercurrent",
-          "genres": [
-            "contemporary-jazz",
-            "fusion jazz",
-            "funk"
-          ],
-          "noise_level": 3.83,
-          "duration_seconds": 1501,
-          "duration_display": "25:01",
-          "score": 0.5828,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0002Pd0Q2oazrv"
-        },
-        {
-          "name": "Mars Is A Very Bad Place For Love",
-          "genres": [
-            "fusion jazz",
-            "electronic",
-            "psychedelic-rock"
-          ],
-          "noise_level": 3.75,
-          "duration_seconds": 2662,
-          "duration_display": "44:22",
-          "score": 0.5774,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0035zJa32oMvX5"
+          "noise_level": 5.0,
+          "duration_seconds": 2669,
+          "duration_display": "44:29",
+          "score": 0.784,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001vt8C105tVY0"
         }
       ]
     },
@@ -199,99 +198,185 @@
         5
       ],
       "target_duration_seconds": 14400,
-      "actual_duration_seconds": 17824,
+      "actual_duration_seconds": 15076,
       "albums": [
         {
-          "name": "v2.0 (Deluxe Edition)",
+          "name": "songs in black and white (live from the waiting room, 29.07.16)",
           "genres": [
-            "contemporary-jazz",
-            "electronic",
-            "acoustic"
+            "indie-pop",
+            "indie-folk",
+            "folk"
           ],
-          "noise_level": 3.5,
-          "duration_seconds": 3667,
-          "duration_display": "61:07",
-          "score": 0.7472,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002Gnhs01VnLuj"
+          "noise_level": 4.0,
+          "duration_seconds": 872,
+          "duration_display": "14:32",
+          "score": 0.7912,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000HoWSS4buEMb"
         },
         {
-          "name": "New Conditions",
+          "name": "Back To Bedlam [U.K. Alternate Packaging]",
           "genres": [
-            "post-rock",
-            "ambient-rock",
-            "new-classical"
-          ],
-          "noise_level": 3.5,
-          "duration_seconds": 234,
-          "duration_display": "3:54",
-          "score": 0.7355,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001gnqmP3xDssY"
-        },
-        {
-          "name": "Remnants Of A Setting Sun",
-          "genres": [
-            "ambient-rock",
-            "post-rock",
-            "new-classical"
-          ],
-          "noise_level": 3.5,
-          "duration_seconds": 1158,
-          "duration_display": "19:18",
-          "score": 0.733,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000D3XDh4NASNn"
-        },
-        {
-          "name": "Rift",
-          "genres": [
-            "ambient-rock",
-            "post-rock",
-            "new-classical"
-          ],
-          "noise_level": 3.5,
-          "duration_seconds": 3679,
-          "duration_display": "61:19",
-          "score": 0.7293,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002s9hWl1gmYpt"
-        },
-        {
-          "name": "Smilewound",
-          "genres": [
-            "electronic",
-            "dream pop",
+            "pop",
+            "acoustic",
             "indie-pop"
           ],
-          "noise_level": 3.5,
-          "duration_seconds": 3028,
-          "duration_display": "50:28",
-          "score": 0.7288,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000Sc5of0SDKMP"
+          "noise_level": 4.0,
+          "duration_seconds": 2354,
+          "duration_display": "39:14",
+          "score": 0.7892,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002W4gb42tSxH4"
         },
         {
-          "name": "The Yussef Dayes Experience - Live From Malibu",
+          "name": "yugi",
           "genres": [
-            "contemporary-jazz",
-            "fusion jazz",
-            "neo-soul"
+            "rock",
+            "pop",
+            "alternative"
           ],
-          "noise_level": 3.33,
-          "duration_seconds": 1968,
-          "duration_display": "32:48",
-          "score": 0.7265,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003sPqxp2nNpQM"
+          "noise_level": 4.0,
+          "duration_seconds": 201,
+          "duration_display": "3:21",
+          "score": 0.7876,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001jYBEZ0Wi6qx"
         },
         {
-          "name": "Slowly Rolling Camera",
+          "name": "是时候",
           "genres": [
-            "electronic",
+            "pop",
+            "c-pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2777,
+          "duration_display": "46:17",
+          "score": 0.7817,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0011TdfZ2J78KH"
+        },
+        {
+          "name": "一格格",
+          "genres": [
+            "pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 248,
+          "duration_display": "4:08",
+          "score": 0.781,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003tBONZ1yREE5"
+        },
+        {
+          "name": "Toroka",
+          "genres": [
+            "r&b",
+            "soul"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 202,
+          "duration_display": "3:22",
+          "score": 0.7808,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000uRD6N2ZiH6r"
+        },
+        {
+          "name": "One more time，One more chance",
+          "genres": [
+            "j-pop",
+            "folk"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 798,
+          "duration_display": "13:18",
+          "score": 0.7808,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004DuNgm1tuQHc"
+        },
+        {
+          "name": "L.O.V.E.",
+          "genres": [
+            "hong kong",
+            "pop",
+            "cantonese"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 3035,
+          "duration_display": "50:35",
+          "score": 0.7804,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002hU81Y0FOVki"
+        },
+        {
+          "name": "Can't Be By Myself",
+          "genres": [
+            "folk"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 175,
+          "duration_display": "2:55",
+          "score": 0.7796,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001x5X6S3hiseq"
+        },
+        {
+          "name": "Prisoner",
+          "genres": [
+            "r&b"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 156,
+          "duration_display": "2:36",
+          "score": 0.7771,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000TGQO516PGHp"
+        },
+        {
+          "name": "Maybe Maybe",
+          "genres": [
+            "indie-folk",
+            "folk rock",
+            "taiwanese indie"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 212,
+          "duration_display": "3:32",
+          "score": 0.7765,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002jcXRN1GJWpY"
+        },
+        {
+          "name": "Lay Me Down (Red Nose Day 2015)",
+          "genres": [
             "soul",
-            "contemporary-jazz",
-            "dream pop"
+            "pop",
+            "electronic"
           ],
-          "noise_level": 3.38,
-          "duration_seconds": 4090,
-          "duration_display": "68:10",
-          "score": 0.7238,
-          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001SuGgV1R7UrJ"
+          "noise_level": 4.0,
+          "duration_seconds": 217,
+          "duration_display": "3:37",
+          "score": 0.7759,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003LxMA601sXsA"
+        },
+        {
+          "name": "Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)",
+          "genres": [
+            "rock",
+            "classic rock",
+            "psychedelic rock"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 160,
+          "duration_display": "2:40",
+          "score": 0.7755,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003alm3501t6X5",
+          "keep_tracks": [
+            "When I'm Sixty Four"
+          ],
+          "kept_track_names": [
+            "When I'm Sixty Four"
+          ]
+        },
+        {
+          "name": "リトルメロディ",
+          "genres": [
+            "alternative",
+            "pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 3669,
+          "duration_display": "61:09",
+          "score": 0.7752,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0023zsdT0KCYC2"
         }
       ]
     }

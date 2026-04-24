@@ -295,8 +295,17 @@ def generate_playlist(
                 break
             
             dur = album.get("duration_seconds") or default_dur
+            keep_tracks = album.get("keep_tracks")
+            kept_track_names = []
             
-            slot_albums.append({
+            # 如果有 keep_tracks，只计算保留曲目的时长
+            if keep_tracks and album.get("tracks"):
+                kept = [t for t in album["tracks"] if t["name"] in keep_tracks]
+                if kept:
+                    dur = sum(t["duration"] for t in kept)
+                    kept_track_names = [t["name"] for t in kept]
+            
+            entry = {
                 "name": album["name"],
                 "genres": album.get("genres", []),
                 "noise_level": album.get("noise_level"),
@@ -304,7 +313,12 @@ def generate_playlist(
                 "duration_display": f"{dur // 60}:{dur % 60:02d}",
                 "score": round(score, 4),
                 "qq_music_url": album.get("qq_music_url"),
-            })
+            }
+            if keep_tracks:
+                entry["keep_tracks"] = keep_tracks
+                entry["kept_track_names"] = kept_track_names
+            
+            slot_albums.append(entry)
             
             filled_duration += dur
             selected_names.add(album["name"])
@@ -437,12 +451,20 @@ def format_playlist(playlist: dict) -> str:
         
         for i, album in enumerate(slot.get("albums", []), 1):
             genres = ", ".join(album.get("genres", [])[:3])
+            keep_info = ""
+            if album.get("keep_tracks"):
+                kept = album.get("kept_track_names", album["keep_tracks"])
+                keep_info = f" 🎯仅保留{len(kept)}首"
             lines.append(
-                f"  {i:2d}. 🎵 {album['name']}"
+                f"  {i:2d}. 🎵 {album['name']}{keep_info}"
                 f"  [{genres}]"
                 f"  噪音:{album.get('noise_level', '?')}"
                 f"  {album.get('duration_display', '?')}"
             )
+            if album.get("keep_tracks"):
+                kept = album.get("kept_track_names", album["keep_tracks"])
+                for tname in kept:
+                    lines.append(f"      ✅ {tname}")
             if album.get("qq_music_url"):
                 lines.append(f"      🔗 {album['qq_music_url']}")
     
