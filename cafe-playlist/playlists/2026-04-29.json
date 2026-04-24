@@ -1,0 +1,239 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-23T15:38:14.794385",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 14,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 34570,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h36m",
+    "fill_percentage": 106.7
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 8282,
+      "albums": [
+        {
+          "name": "枯萎颂",
+          "genres": [
+            "indie-folk"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 3363,
+          "duration_display": "56:03",
+          "score": 0.607,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000IYuaI3KrHq2"
+        },
+        {
+          "name": "Little Nerves (Video Version)",
+          "genres": [
+            "electronic",
+            "contemporary-jazz",
+            "ambient"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 425,
+          "duration_display": "7:05",
+          "score": 0.6068,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001l2ZMz32qzMI"
+        },
+        {
+          "name": "Homeland",
+          "genres": [
+            "electronic",
+            "ambient",
+            "contemporary-jazz"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 1858,
+          "duration_display": "30:58",
+          "score": 0.6053,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003ZN5430Y2xaH"
+        },
+        {
+          "name": "Monument",
+          "genres": [
+            "contemporary-jazz",
+            "ambient jazz",
+            "electronic"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2636,
+          "duration_display": "43:56",
+          "score": 0.5992,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000TegwF0ngGor"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 10847,
+      "albums": [
+        {
+          "name": "Floa",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2589,
+          "duration_display": "43:09",
+          "score": 0.5526,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000xX9bu3f59QG"
+        },
+        {
+          "name": "Gift from the Trees",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2935,
+          "duration_display": "48:55",
+          "score": 0.541,
+          "qq_music_url": "https://c6.y.qq.com/base/fcgi-bin/u?__=Os73DTUb6Hj4"
+        },
+        {
+          "name": "Inner Symphonies",
+          "genres": [
+            "classical",
+            "new-classical"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 3223,
+          "duration_display": "53:43",
+          "score": 0.5397,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002ql0XS0KeHef"
+        },
+        {
+          "name": "Dark Times",
+          "genres": [
+            "hiphop",
+            "jazz hippop",
+            "neo-soul"
+          ],
+          "noise_level": 4.75,
+          "duration_seconds": 2100,
+          "duration_display": "35:00",
+          "score": 0.5385,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001RM0M14RMckU"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 15441,
+      "albums": [
+        {
+          "name": "The Mocking Stars",
+          "genres": [
+            "abstract hiphop",
+            "alternative hiphop",
+            "hiphop",
+            "jazz hippop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 3740,
+          "duration_display": "62:20",
+          "score": 0.5618,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0034xbuT4PX6re"
+        },
+        {
+          "name": "Prayer",
+          "genres": [
+            "ambient jazz",
+            "jazz hippop"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2943,
+          "duration_display": "49:03",
+          "score": 0.5363,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003kIlzk1ADqtI"
+        },
+        {
+          "name": "时间回到秋天的下午",
+          "genres": [
+            "dream pop",
+            "shoegaze",
+            "indie-rock"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 250,
+          "duration_display": "4:10",
+          "score": 0.5354,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000V3jHh2RL7oG"
+        },
+        {
+          "name": "HIT ME HARD AND SOFT",
+          "genres": [
+            "pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2625,
+          "duration_display": "43:45",
+          "score": 0.535,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001YsjnU2ZJYP3"
+        },
+        {
+          "name": "5689",
+          "genres": [
+            "electronic",
+            "indie-rock"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2978,
+          "duration_display": "49:38",
+          "score": 0.5318,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000g7eJO0geW2u"
+        },
+        {
+          "name": "60km/h",
+          "genres": [
+            "electronic",
+            "post-rock"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2905,
+          "duration_display": "48:25",
+          "score": 0.5298,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000at2be185oht"
+        }
+      ]
+    }
+  ]
+}

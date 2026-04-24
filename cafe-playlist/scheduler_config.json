@@ -1,0 +1,76 @@
+{
+  "business_hours": {
+    "start": "09:00",
+    "end": "18:00"
+  },
+  "time_slots": [
+    {
+      "name": "morning",
+      "label": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [2, 4],
+      "description": "安静舒缓，适合早晨"
+    },
+    {
+      "name": "midday",
+      "label": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [4, 6],
+      "description": "稍微活泼，午间氛围"
+    },
+    {
+      "name": "afternoon",
+      "label": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [3, 5],
+      "description": "中等节奏，下午平稳"
+    }
+  ],
+  "weights": {
+    "noise": 0.35,
+    "style": 0.25,
+    "freshness": 0.25,
+    "cohesion": 0.15
+  },
+  "style_preferences": [],
+  "default_duration": 2400,
+  "exclude_albums": [],
+  "seed": null,
+
+  "genre_noise_map": {
+    "___说明___": "风格 → 噪音程度估算值（1-7），用于专辑没有填写噪音程度时自动推断。多个风格取平均值。你可以自由增删改。",
+    "ambient": 1.5,
+    "ambient jazz": 2.0,
+    "Pure-Piano": 2.0,
+    "classical": 2.0,
+    "new-classical": 2.5,
+    "contemporary-jazz": 3.0,
+    "cool jazz": 2.5,
+    "jazz": 3.0,
+    "jazz hippop": 3.5,
+    "fusion jazz": 3.5,
+    "Lofi": 3.0,
+    "dream pop": 3.0,
+    "indie-folk": 3.0,
+    "soul": 3.5,
+    "neo-soul": 3.5,
+    "R&B": 3.5,
+    "synthesizer": 3.5,
+    "electronic": 4.0,
+    "ambient-rock": 3.5,
+    "indie-rock": 4.5,
+    "post-rock": 4.5,
+    "shoegaze": 4.5,
+    "Alternative Rock": 5.0,
+    "math-rock": 5.5,
+    "Psychedelic rock": 5.0,
+    "funk": 5.0,
+    "hiphop": 4.5,
+    "abstract hiphop": 4.0,
+    "pop": 4.0,
+    "闽南": 3.5
+  }
+}

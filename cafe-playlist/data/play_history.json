@@ -1,0 +1,582 @@
+{
+  "2026-04-24": {
+    "albums": [
+      {
+        "name": "Monument",
+        "slot": "早上",
+        "duration_seconds": 2636
+      },
+      {
+        "name": "有限无限",
+        "slot": "早上",
+        "duration_seconds": 3093
+      },
+      {
+        "name": "Portico Quartet",
+        "slot": "早上",
+        "duration_seconds": 3091
+      },
+      {
+        "name": "Dreamer On The Run",
+        "slot": "中午",
+        "duration_seconds": 2442
+      },
+      {
+        "name": "神游夜话",
+        "slot": "中午",
+        "duration_seconds": 376
+      },
+      {
+        "name": "ガウディの憂鬱",
+        "slot": "中午",
+        "duration_seconds": 2687
+      },
+      {
+        "name": "时间回到秋天的下午",
+        "slot": "中午",
+        "duration_seconds": 250
+      },
+      {
+        "name": "Kyiv",
+        "slot": "中午",
+        "duration_seconds": 210
+      },
+      {
+        "name": "From the North - GoGo Penguin Live in Manchester",
+        "slot": "中午",
+        "duration_seconds": 1839
+      },
+      {
+        "name": "地下河 Undercurrent",
+        "slot": "中午",
+        "duration_seconds": 1501
+      },
+      {
+        "name": "Mars Is A Very Bad Place For Love",
+        "slot": "中午",
+        "duration_seconds": 2662
+      },
+      {
+        "name": "v2.0 (Deluxe Edition)",
+        "slot": "下午",
+        "duration_seconds": 3667
+      },
+      {
+        "name": "New Conditions",
+        "slot": "下午",
+        "duration_seconds": 234
+      },
+      {
+        "name": "Remnants Of A Setting Sun",
+        "slot": "下午",
+        "duration_seconds": 1158
+      },
+      {
+        "name": "Rift",
+        "slot": "下午",
+        "duration_seconds": 3679
+      },
+      {
+        "name": "Smilewound",
+        "slot": "下午",
+        "duration_seconds": 3028
+      },
+      {
+        "name": "The Yussef Dayes Experience - Live From Malibu",
+        "slot": "下午",
+        "duration_seconds": 1968
+      },
+      {
+        "name": "Slowly Rolling Camera",
+        "slot": "下午",
+        "duration_seconds": 4090
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.742529"
+  },
+  "2026-04-25": {
+    "albums": [
+      {
+        "name": "Café del Mar, Vol. 22",
+        "slot": "早上",
+        "duration_seconds": 7986
+      },
+      {
+        "name": "Far Away Trains Passing By",
+        "slot": "中午",
+        "duration_seconds": 398
+      },
+      {
+        "name": "Sights & Sounds",
+        "slot": "中午",
+        "duration_seconds": 2326
+      },
+      {
+        "name": "Juniper",
+        "slot": "中午",
+        "duration_seconds": 2547
+      },
+      {
+        "name": "Juniper",
+        "slot": "中午",
+        "duration_seconds": 465
+      },
+      {
+        "name": "v2.0",
+        "slot": "中午",
+        "duration_seconds": 2837
+      },
+      {
+        "name": "Neon Donuts",
+        "slot": "中午",
+        "duration_seconds": 2012
+      },
+      {
+        "name": "Blue Building Blocks",
+        "slot": "中午",
+        "duration_seconds": 2046
+      },
+      {
+        "name": "Blue Shades",
+        "slot": "下午",
+        "duration_seconds": 287
+      },
+      {
+        "name": "栖居在溪源之上",
+        "slot": "下午",
+        "duration_seconds": 2503
+      },
+      {
+        "name": "Floating Signifiers",
+        "slot": "下午",
+        "duration_seconds": 1685
+      },
+      {
+        "name": "The Yussef Dayes Experience Live at Joshua Tree (Presented by Soulection)",
+        "slot": "下午",
+        "duration_seconds": 999
+      },
+      {
+        "name": "Nostalgia",
+        "slot": "下午",
+        "duration_seconds": 186
+      },
+      {
+        "name": "Darkly",
+        "slot": "下午",
+        "duration_seconds": 3777
+      },
+      {
+        "name": "Love Is the Message",
+        "slot": "下午",
+        "duration_seconds": 449
+      },
+      {
+        "name": "GGP/RMX",
+        "slot": "下午",
+        "duration_seconds": 3754
+      },
+      {
+        "name": "The Smashing Machine (Original Motion Picture Soundtrack)",
+        "slot": "下午",
+        "duration_seconds": 1512
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.751804"
+  },
+  "2026-04-26": {
+    "albums": [
+      {
+        "name": "Endlessness",
+        "slot": "早上",
+        "duration_seconds": 2719
+      },
+      {
+        "name": "Little Nerves (Video Version)",
+        "slot": "早上",
+        "duration_seconds": 425
+      },
+      {
+        "name": "Homeland",
+        "slot": "早上",
+        "duration_seconds": 1858
+      },
+      {
+        "name": "Angel Feed",
+        "slot": "早上",
+        "duration_seconds": 260
+      },
+      {
+        "name": "Twilight",
+        "slot": "早上",
+        "duration_seconds": 3525
+      },
+      {
+        "name": "Floa",
+        "slot": "中午",
+        "duration_seconds": 2589
+      },
+      {
+        "name": "朝往暮归",
+        "slot": "中午",
+        "duration_seconds": 2626
+      },
+      {
+        "name": "eye",
+        "slot": "中午",
+        "duration_seconds": 1879
+      },
+      {
+        "name": "Gift from the Trees",
+        "slot": "中午",
+        "duration_seconds": 2935
+      },
+      {
+        "name": "虚构集",
+        "slot": "中午",
+        "duration_seconds": 4040
+      },
+      {
+        "name": "~~~",
+        "slot": "下午",
+        "duration_seconds": 1627
+      },
+      {
+        "name": "Vapor",
+        "slot": "下午",
+        "duration_seconds": 4200
+      },
+      {
+        "name": "Compositions for Piano",
+        "slot": "下午",
+        "duration_seconds": 2457
+      },
+      {
+        "name": "MELODICA",
+        "slot": "下午",
+        "duration_seconds": 3290
+      },
+      {
+        "name": "Shiori",
+        "slot": "下午",
+        "duration_seconds": 2393
+      },
+      {
+        "name": "Becoming",
+        "slot": "下午",
+        "duration_seconds": 1011
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.767281"
+  },
+  "2026-04-27": {
+    "albums": [
+      {
+        "name": "Shadow Work",
+        "slot": "早上",
+        "duration_seconds": 2797
+      },
+      {
+        "name": "Chaser",
+        "slot": "早上",
+        "duration_seconds": 223
+      },
+      {
+        "name": "Endlessness",
+        "slot": "早上",
+        "duration_seconds": 2719
+      },
+      {
+        "name": "枯萎颂",
+        "slot": "早上",
+        "duration_seconds": 3363
+      },
+      {
+        "name": "eye",
+        "slot": "中午",
+        "duration_seconds": 1879
+      },
+      {
+        "name": "Blue Building Blocks",
+        "slot": "中午",
+        "duration_seconds": 2046
+      },
+      {
+        "name": "Dreamer On The Run",
+        "slot": "中午",
+        "duration_seconds": 2442
+      },
+      {
+        "name": "Gift from the Trees",
+        "slot": "中午",
+        "duration_seconds": 2935
+      },
+      {
+        "name": "SABLE, fABLE",
+        "slot": "中午",
+        "duration_seconds": 2497
+      },
+      {
+        "name": "5689",
+        "slot": "下午",
+        "duration_seconds": 2978
+      },
+      {
+        "name": "Necessary Fictions",
+        "slot": "下午",
+        "duration_seconds": 2919
+      },
+      {
+        "name": "Captured Spirits",
+        "slot": "下午",
+        "duration_seconds": 2904
+      },
+      {
+        "name": "Prayer",
+        "slot": "下午",
+        "duration_seconds": 2943
+      },
+      {
+        "name": "French Exit",
+        "slot": "下午",
+        "duration_seconds": 2438
+      },
+      {
+        "name": "60km/h",
+        "slot": "下午",
+        "duration_seconds": 2905
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.776320"
+  },
+  "2026-04-28": {
+    "albums": [
+      {
+        "name": "Monument",
+        "slot": "早上",
+        "duration_seconds": 2636
+      },
+      {
+        "name": "Portico Quartet",
+        "slot": "早上",
+        "duration_seconds": 3091
+      },
+      {
+        "name": "有限无限",
+        "slot": "早上",
+        "duration_seconds": 3093
+      },
+      {
+        "name": "Neon Donuts",
+        "slot": "中午",
+        "duration_seconds": 2012
+      },
+      {
+        "name": "Patch",
+        "slot": "中午",
+        "duration_seconds": 2777
+      },
+      {
+        "name": "Blue Building Blocks",
+        "slot": "中午",
+        "duration_seconds": 2046
+      },
+      {
+        "name": "朝往暮归",
+        "slot": "中午",
+        "duration_seconds": 2626
+      },
+      {
+        "name": "Fast Forward",
+        "slot": "中午",
+        "duration_seconds": 2162
+      },
+      {
+        "name": "神游夜话",
+        "slot": "下午",
+        "duration_seconds": 376
+      },
+      {
+        "name": "story",
+        "slot": "下午",
+        "duration_seconds": 3032
+      },
+      {
+        "name": "Kyiv",
+        "slot": "下午",
+        "duration_seconds": 210
+      },
+      {
+        "name": "Shiori",
+        "slot": "下午",
+        "duration_seconds": 2393
+      },
+      {
+        "name": "Captured Spirits",
+        "slot": "下午",
+        "duration_seconds": 2904
+      },
+      {
+        "name": "Necessary Fictions",
+        "slot": "下午",
+        "duration_seconds": 2919
+      },
+      {
+        "name": "Mars Is A Very Bad Place For Love",
+        "slot": "下午",
+        "duration_seconds": 2662
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.785340"
+  },
+  "2026-04-29": {
+    "albums": [
+      {
+        "name": "枯萎颂",
+        "slot": "早上",
+        "duration_seconds": 3363
+      },
+      {
+        "name": "Little Nerves (Video Version)",
+        "slot": "早上",
+        "duration_seconds": 425
+      },
+      {
+        "name": "Homeland",
+        "slot": "早上",
+        "duration_seconds": 1858
+      },
+      {
+        "name": "Monument",
+        "slot": "早上",
+        "duration_seconds": 2636
+      },
+      {
+        "name": "Floa",
+        "slot": "中午",
+        "duration_seconds": 2589
+      },
+      {
+        "name": "Gift from the Trees",
+        "slot": "中午",
+        "duration_seconds": 2935
+      },
+      {
+        "name": "Inner Symphonies",
+        "slot": "中午",
+        "duration_seconds": 3223
+      },
+      {
+        "name": "Dark Times",
+        "slot": "中午",
+        "duration_seconds": 2100
+      },
+      {
+        "name": "The Mocking Stars",
+        "slot": "下午",
+        "duration_seconds": 3740
+      },
+      {
+        "name": "Prayer",
+        "slot": "下午",
+        "duration_seconds": 2943
+      },
+      {
+        "name": "时间回到秋天的下午",
+        "slot": "下午",
+        "duration_seconds": 250
+      },
+      {
+        "name": "HIT ME HARD AND SOFT",
+        "slot": "下午",
+        "duration_seconds": 2625
+      },
+      {
+        "name": "5689",
+        "slot": "下午",
+        "duration_seconds": 2978
+      },
+      {
+        "name": "60km/h",
+        "slot": "下午",
+        "duration_seconds": 2905
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.794385"
+  },
+  "2026-04-30": {
+    "albums": [
+      {
+        "name": "Dream of the Egg",
+        "slot": "早上",
+        "duration_seconds": 1151
+      },
+      {
+        "name": "Premiers Symptômes",
+        "slot": "早上",
+        "duration_seconds": 2029
+      },
+      {
+        "name": "Sights & Sounds",
+        "slot": "早上",
+        "duration_seconds": 2326
+      },
+      {
+        "name": "MELODICA",
+        "slot": "早上",
+        "duration_seconds": 3290
+      },
+      {
+        "name": "Dreamer On The Run",
+        "slot": "中午",
+        "duration_seconds": 2442
+      },
+      {
+        "name": "十万个为什么",
+        "slot": "中午",
+        "duration_seconds": 3741
+      },
+      {
+        "name": "物件，所在",
+        "slot": "中午",
+        "duration_seconds": 1598
+      },
+      {
+        "name": "Nature Of Everything",
+        "slot": "中午",
+        "duration_seconds": 3686
+      },
+      {
+        "name": "神游夜话",
+        "slot": "下午",
+        "duration_seconds": 376
+      },
+      {
+        "name": "Liquid Yellow Portraits",
+        "slot": "下午",
+        "duration_seconds": 2423
+      },
+      {
+        "name": "Ocean",
+        "slot": "下午",
+        "duration_seconds": 3676
+      },
+      {
+        "name": "60km/h",
+        "slot": "下午",
+        "duration_seconds": 2905
+      },
+      {
+        "name": "Prayer",
+        "slot": "下午",
+        "duration_seconds": 2943
+      },
+      {
+        "name": "French Exit",
+        "slot": "下午",
+        "duration_seconds": 2438
+      }
+    ],
+    "generated_at": "2026-04-23T15:38:14.805052"
+  }
+}

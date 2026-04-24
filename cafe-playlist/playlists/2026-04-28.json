@@ -1,0 +1,258 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-23T15:38:14.785340",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 15,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 34939,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h42m",
+    "fill_percentage": 107.8
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 8820,
+      "albums": [
+        {
+          "name": "Monument",
+          "genres": [
+            "contemporary-jazz",
+            "ambient jazz",
+            "electronic"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2636,
+          "duration_display": "43:56",
+          "score": 0.6165,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000TegwF0ngGor"
+        },
+        {
+          "name": "Portico Quartet",
+          "genres": [
+            "contemporary-jazz",
+            "ambient jazz",
+            "electronic"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 3091,
+          "duration_display": "51:31",
+          "score": 0.6154,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000KspuW1xugXg"
+        },
+        {
+          "name": "有限无限",
+          "genres": [
+            "electronic",
+            "synthesizer",
+            "ambient"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 3093,
+          "duration_display": "51:33",
+          "score": 0.6128,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000vpol71plqE7"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 11623,
+      "albums": [
+        {
+          "name": "Neon Donuts",
+          "genres": [
+            "electronic",
+            "funk",
+            "synthesizer"
+          ],
+          "noise_level": 5.1,
+          "duration_seconds": 2012,
+          "duration_display": "33:32",
+          "score": 0.5671,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0040bYf91qrFOD"
+        },
+        {
+          "name": "Patch",
+          "genres": [
+            "math-rock",
+            "post-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2777,
+          "duration_display": "46:17",
+          "score": 0.5507,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0046faTt1toJt5"
+        },
+        {
+          "name": "Blue Building Blocks",
+          "genres": [
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2046,
+          "duration_display": "34:06",
+          "score": 0.5271,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000CjU1G48VJV0"
+        },
+        {
+          "name": "朝往暮归",
+          "genres": [
+            "indie-rock",
+            "math-rock",
+            "post-rock"
+          ],
+          "noise_level": 4.83,
+          "duration_seconds": 2626,
+          "duration_display": "43:46",
+          "score": 0.5241,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0021ERuL12h9ez"
+        },
+        {
+          "name": "Fast Forward",
+          "genres": [
+            "ambient-rock",
+            "electronic",
+            "math-rock"
+          ],
+          "noise_level": 5.5,
+          "duration_seconds": 2162,
+          "duration_display": "36:02",
+          "score": 0.521,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001XCYG12Btlol"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 14496,
+      "albums": [
+        {
+          "name": "神游夜话",
+          "genres": [
+            "post-rock",
+            "ambient-rock",
+            "electronic"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 376,
+          "duration_display": "6:16",
+          "score": 0.5521,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003v9CyQ3iSs9z"
+        },
+        {
+          "name": "story",
+          "genres": [
+            "contemporary-jazz",
+            "latin",
+            "math-rock",
+            "post-rock"
+          ],
+          "noise_level": 4.33,
+          "duration_seconds": 3032,
+          "duration_display": "50:32",
+          "score": 0.5485,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001u7plI1vsnxm"
+        },
+        {
+          "name": "Kyiv",
+          "genres": [
+            "contemporary-jazz",
+            "neo-soul",
+            "funk"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 210,
+          "duration_display": "3:30",
+          "score": 0.5473,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003S3bak0DEMDH"
+        },
+        {
+          "name": "Shiori",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2393,
+          "duration_display": "39:53",
+          "score": 0.5468,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002xtTRF1HsT4i"
+        },
+        {
+          "name": "Captured Spirits",
+          "genres": [
+            "contemporary-jazz",
+            "jazz",
+            "math-rock"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 2904,
+          "duration_display": "48:24",
+          "score": 0.5344,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001NoMPU2VZaok"
+        },
+        {
+          "name": "Necessary Fictions",
+          "genres": [
+            "contemporary-jazz",
+            "fusion jazz",
+            "math-rock"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2919,
+          "duration_display": "48:39",
+          "score": 0.5333,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000XNHPK0YdvPC"
+        },
+        {
+          "name": "Mars Is A Very Bad Place For Love",
+          "genres": [
+            "fusion jazz",
+            "electronic",
+            "psychedelic-rock"
+          ],
+          "noise_level": 3.75,
+          "duration_seconds": 2662,
+          "duration_display": "44:22",
+          "score": 0.5333,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0035zJa32oMvX5"
+        }
+      ]
+    }
+  ]
+}

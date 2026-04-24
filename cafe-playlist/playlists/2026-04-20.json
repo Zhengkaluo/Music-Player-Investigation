@@ -1,0 +1,211 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-04-22T17:21:14.876858",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 12,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 34238,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h30m",
+    "fill_percentage": 105.7
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 7502,
+      "albums": [
+        {
+          "name": "Esja",
+          "genres": [
+            "Pure-Piano",
+            "ambient jazz",
+            "classical"
+          ],
+          "noise_level": 2.0,
+          "duration_seconds": 2702,
+          "duration_display": "45:02",
+          "score": 0.6626,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000Kr3YY2jmB7D"
+        },
+        {
+          "name": "SoulFa",
+          "genres": [
+            "indie-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 2654,
+          "duration_display": "44:14",
+          "score": 0.6005,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002NGkBo3D39TA"
+        },
+        {
+          "name": "婚礼之途",
+          "genres": [
+            "indie-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 2146,
+          "duration_display": "35:46",
+          "score": 0.59,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001IB8np0vCHB3"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 12032,
+      "albums": [
+        {
+          "name": "十万个为什么",
+          "genres": [
+            "ambient-rock",
+            "post-rock"
+          ],
+          "noise_level": 5.5,
+          "duration_seconds": 3741,
+          "duration_display": "62:21",
+          "score": 0.7102,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001xL5Pl3u3nc5"
+        },
+        {
+          "name": "Nature Of Everything",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 3686,
+          "duration_display": "61:26",
+          "score": 0.7093,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001pZwlK3uTClM"
+        },
+        {
+          "name": "The One Above",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 2726,
+          "duration_display": "45:26",
+          "score": 0.6897,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002OR0n74S7yvu"
+        },
+        {
+          "name": "eye",
+          "genres": [
+            "electronic",
+            "indie-rock",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 1879,
+          "duration_display": "31:19",
+          "score": 0.5353,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/00498NkJ1y2HOe"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 14704,
+      "albums": [
+        {
+          "name": "Captured Spirits",
+          "genres": [
+            "contemporary-jazz",
+            "jazz",
+            "math-rock"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 2904,
+          "duration_display": "48:24",
+          "score": 0.5336,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001NoMPU2VZaok"
+        },
+        {
+          "name": "Expanding To One",
+          "genres": [
+            "ambient jazz",
+            "jazz"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 3705,
+          "duration_display": "61:45",
+          "score": 0.5237,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004cS6jG0ZGjly"
+        },
+        {
+          "name": "HIT ME HARD AND SOFT",
+          "genres": [
+            "pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2625,
+          "duration_display": "43:45",
+          "score": 0.5234,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001YsjnU2ZJYP3"
+        },
+        {
+          "name": "French Exit",
+          "genres": [
+            "Alternative Rock",
+            "Lofi",
+            "electronic"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2438,
+          "duration_display": "40:38",
+          "score": 0.5221,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003Tm2mv0IMOdz"
+        },
+        {
+          "name": "story",
+          "genres": [
+            "contemporary-jazz",
+            "latin",
+            "math-rock",
+            "post-rock"
+          ],
+          "noise_level": 4.33,
+          "duration_seconds": 3032,
+          "duration_display": "50:32",
+          "score": 0.5202,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001u7plI1vsnxm"
+        }
+      ]
+    }
+  ]
+}

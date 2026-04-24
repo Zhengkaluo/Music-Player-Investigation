@@ -1,0 +1,299 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-23T15:38:14.742529",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 18,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 38611,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "10h43m",
+    "fill_percentage": 119.2
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 8820,
+      "albums": [
+        {
+          "name": "Monument",
+          "genres": [
+            "contemporary-jazz",
+            "ambient jazz",
+            "electronic"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2636,
+          "duration_display": "43:56",
+          "score": 0.847,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000TegwF0ngGor"
+        },
+        {
+          "name": "有限无限",
+          "genres": [
+            "electronic",
+            "synthesizer",
+            "ambient"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 3093,
+          "duration_display": "51:33",
+          "score": 0.8444,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000vpol71plqE7"
+        },
+        {
+          "name": "Portico Quartet",
+          "genres": [
+            "contemporary-jazz",
+            "ambient jazz",
+            "electronic"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 3091,
+          "duration_display": "51:31",
+          "score": 0.8419,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000KspuW1xugXg"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 11967,
+      "albums": [
+        {
+          "name": "Dreamer On The Run",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2442,
+          "duration_display": "40:42",
+          "score": 0.7715,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0003fnjS1SvwvO"
+        },
+        {
+          "name": "神游夜话",
+          "genres": [
+            "post-rock",
+            "ambient-rock",
+            "electronic"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 376,
+          "duration_display": "6:16",
+          "score": 0.6227,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003v9CyQ3iSs9z"
+        },
+        {
+          "name": "ガウディの憂鬱",
+          "genres": [
+            "fusion jazz",
+            "contemporary-jazz",
+            "funk"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 2687,
+          "duration_display": "44:47",
+          "score": 0.6197,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000WFfl80kihuf"
+        },
+        {
+          "name": "时间回到秋天的下午",
+          "genres": [
+            "dream pop",
+            "shoegaze",
+            "indie-rock"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 250,
+          "duration_display": "4:10",
+          "score": 0.5925,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000V3jHh2RL7oG"
+        },
+        {
+          "name": "Kyiv",
+          "genres": [
+            "contemporary-jazz",
+            "neo-soul",
+            "funk"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 210,
+          "duration_display": "3:30",
+          "score": 0.5864,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003S3bak0DEMDH"
+        },
+        {
+          "name": "From the North - GoGo Penguin Live in Manchester",
+          "genres": [
+            "contemporary-jazz",
+            "electronic",
+            "acoustic"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 1839,
+          "duration_display": "30:39",
+          "score": 0.5854,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002qrgIS2HOtTn"
+        },
+        {
+          "name": "地下河 Undercurrent",
+          "genres": [
+            "contemporary-jazz",
+            "fusion jazz",
+            "funk"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 1501,
+          "duration_display": "25:01",
+          "score": 0.5828,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0002Pd0Q2oazrv"
+        },
+        {
+          "name": "Mars Is A Very Bad Place For Love",
+          "genres": [
+            "fusion jazz",
+            "electronic",
+            "psychedelic-rock"
+          ],
+          "noise_level": 3.75,
+          "duration_seconds": 2662,
+          "duration_display": "44:22",
+          "score": 0.5774,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0035zJa32oMvX5"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 17824,
+      "albums": [
+        {
+          "name": "v2.0 (Deluxe Edition)",
+          "genres": [
+            "contemporary-jazz",
+            "electronic",
+            "acoustic"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 3667,
+          "duration_display": "61:07",
+          "score": 0.7472,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002Gnhs01VnLuj"
+        },
+        {
+          "name": "New Conditions",
+          "genres": [
+            "post-rock",
+            "ambient-rock",
+            "new-classical"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 234,
+          "duration_display": "3:54",
+          "score": 0.7355,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001gnqmP3xDssY"
+        },
+        {
+          "name": "Remnants Of A Setting Sun",
+          "genres": [
+            "ambient-rock",
+            "post-rock",
+            "new-classical"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 1158,
+          "duration_display": "19:18",
+          "score": 0.733,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000D3XDh4NASNn"
+        },
+        {
+          "name": "Rift",
+          "genres": [
+            "ambient-rock",
+            "post-rock",
+            "new-classical"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 3679,
+          "duration_display": "61:19",
+          "score": 0.7293,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002s9hWl1gmYpt"
+        },
+        {
+          "name": "Smilewound",
+          "genres": [
+            "electronic",
+            "dream pop",
+            "indie-pop"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 3028,
+          "duration_display": "50:28",
+          "score": 0.7288,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000Sc5of0SDKMP"
+        },
+        {
+          "name": "The Yussef Dayes Experience - Live From Malibu",
+          "genres": [
+            "contemporary-jazz",
+            "fusion jazz",
+            "neo-soul"
+          ],
+          "noise_level": 3.33,
+          "duration_seconds": 1968,
+          "duration_display": "32:48",
+          "score": 0.7265,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003sPqxp2nNpQM"
+        },
+        {
+          "name": "Slowly Rolling Camera",
+          "genres": [
+            "electronic",
+            "soul",
+            "contemporary-jazz",
+            "dream pop"
+          ],
+          "noise_level": 3.38,
+          "duration_seconds": 4090,
+          "duration_display": "68:10",
+          "score": 0.7238,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001SuGgV1R7UrJ"
+        }
+      ]
+    }
+  ]
+}

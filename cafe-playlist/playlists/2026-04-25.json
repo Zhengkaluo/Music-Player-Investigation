@@ -1,0 +1,286 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-23T15:38:14.751804",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 17,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 35769,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h56m",
+    "fill_percentage": 110.4
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 7986,
+      "albums": [
+        {
+          "name": "Café del Mar, Vol. 22",
+          "genres": [
+            "electronic",
+            "ambient",
+            "Lofi"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 7986,
+          "duration_display": "133:06",
+          "score": 0.8371,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003kYgbY4Qu0vH"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 12631,
+      "albums": [
+        {
+          "name": "Far Away Trains Passing By",
+          "genres": [
+            "electronic",
+            "shoegaze",
+            "ambient"
+          ],
+          "noise_level": 3.33,
+          "duration_seconds": 398,
+          "duration_display": "6:38",
+          "score": 0.577,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002Q6F2n3mnnTc"
+        },
+        {
+          "name": "Sights & Sounds",
+          "genres": [
+            "ambient",
+            "Lofi",
+            "electronic"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 2326,
+          "duration_display": "38:46",
+          "score": 0.5614,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0004JawC05jmFU"
+        },
+        {
+          "name": "Juniper",
+          "genres": [
+            "electronic",
+            "soul",
+            "contemporary-jazz"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 2547,
+          "duration_display": "42:27",
+          "score": 0.548,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004eROcM1zn3k5"
+        },
+        {
+          "name": "Juniper",
+          "genres": [
+            "electronic",
+            "soul",
+            "contemporary-jazz"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 465,
+          "duration_display": "7:45",
+          "score": 0.5439,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001DRqiC0lYilp"
+        },
+        {
+          "name": "v2.0",
+          "genres": [
+            "contemporary-jazz",
+            "electronic",
+            "acoustic"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 2837,
+          "duration_display": "47:17",
+          "score": 0.5414,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000248gf1azCFQ"
+        },
+        {
+          "name": "Neon Donuts",
+          "genres": [
+            "electronic",
+            "funk",
+            "synthesizer"
+          ],
+          "noise_level": 5.1,
+          "duration_seconds": 2012,
+          "duration_display": "33:32",
+          "score": 0.5381,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0040bYf91qrFOD"
+        },
+        {
+          "name": "Blue Building Blocks",
+          "genres": [
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2046,
+          "duration_display": "34:06",
+          "score": 0.5349,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000CjU1G48VJV0"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 15152,
+      "albums": [
+        {
+          "name": "Blue Shades",
+          "genres": [
+            "contemporary-jazz",
+            "electronic",
+            "soul"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 287,
+          "duration_display": "4:47",
+          "score": 0.7475,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003gDTOM3stuPe"
+        },
+        {
+          "name": "栖居在溪源之上",
+          "genres": [
+            "post-rock",
+            "new-classical",
+            "ambient-rock"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 2503,
+          "duration_display": "41:43",
+          "score": 0.7191,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002sB8en00qbZH"
+        },
+        {
+          "name": "Floating Signifiers",
+          "genres": [
+            "electronic",
+            "dream pop",
+            "indie-pop"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 1685,
+          "duration_display": "28:05",
+          "score": 0.7145,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002AYXKG3drUzY"
+        },
+        {
+          "name": "The Yussef Dayes Experience Live at Joshua Tree (Presented by Soulection)",
+          "genres": [
+            "contemporary-jazz",
+            "fusion jazz",
+            "neo-soul"
+          ],
+          "noise_level": 3.33,
+          "duration_seconds": 999,
+          "duration_display": "16:39",
+          "score": 0.6995,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004FaS4l3brGcK"
+        },
+        {
+          "name": "Nostalgia",
+          "genres": [
+            "contemporary-jazz",
+            "Lofi",
+            "neo-soul"
+          ],
+          "noise_level": 3.17,
+          "duration_seconds": 186,
+          "duration_display": "3:06",
+          "score": 0.6954,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0031vBlh4aq7W9"
+        },
+        {
+          "name": "Darkly",
+          "genres": [
+            "abstract hiphop",
+            "jazz",
+            "electronic",
+            "new-classical"
+          ],
+          "noise_level": 3.38,
+          "duration_seconds": 3777,
+          "duration_display": "62:57",
+          "score": 0.6816,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001XryUr2Byxyq"
+        },
+        {
+          "name": "Love Is the Message",
+          "genres": [
+            "contemporary-jazz",
+            "fusion jazz",
+            "neo-soul"
+          ],
+          "noise_level": 3.33,
+          "duration_seconds": 449,
+          "duration_display": "7:29",
+          "score": 0.6742,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002M8UGJ2aVQyi"
+        },
+        {
+          "name": "GGP/RMX",
+          "genres": [
+            "electronic",
+            "contemporary-jazz",
+            "ambient"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 3754,
+          "duration_display": "62:34",
+          "score": 0.6419,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003cFUsp1srEVr"
+        },
+        {
+          "name": "The Smashing Machine (Original Motion Picture Soundtrack)",
+          "genres": [
+            "ambient jazz",
+            "electronic",
+            "contemporary-jazz"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 1512,
+          "duration_display": "25:12",
+          "score": 0.6411,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004KPLQF2xM15A"
+        }
+      ]
+    }
+  ]
+}

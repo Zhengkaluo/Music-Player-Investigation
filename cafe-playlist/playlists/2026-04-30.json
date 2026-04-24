@@ -1,0 +1,236 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-23T15:38:14.805052",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 14,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 35024,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h43m",
+    "fill_percentage": 108.1
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 8796,
+      "albums": [
+        {
+          "name": "Dream of the Egg",
+          "genres": [
+            "psychedelic-rock",
+            "ambient-rock"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 1151,
+          "duration_display": "19:11",
+          "score": 0.6216,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003lER8W2hf7W9"
+        },
+        {
+          "name": "Premiers Symptômes",
+          "genres": [
+            "ambient jazz",
+            "electronic"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2029,
+          "duration_display": "33:49",
+          "score": 0.6023,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003fnfQs2aom1t"
+        },
+        {
+          "name": "Sights & Sounds",
+          "genres": [
+            "ambient",
+            "Lofi",
+            "electronic"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 2326,
+          "duration_display": "38:46",
+          "score": 0.6015,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0004JawC05jmFU"
+        },
+        {
+          "name": "MELODICA",
+          "genres": [
+            "ambient jazz",
+            "jazz hippop"
+          ],
+          "noise_level": 2.75,
+          "duration_seconds": 3290,
+          "duration_display": "54:50",
+          "score": 0.6012,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003Yjcef0uWh9V"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 11467,
+      "albums": [
+        {
+          "name": "Dreamer On The Run",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2442,
+          "duration_display": "40:42",
+          "score": 0.5357,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0003fnjS1SvwvO"
+        },
+        {
+          "name": "十万个为什么",
+          "genres": [
+            "ambient-rock",
+            "post-rock"
+          ],
+          "noise_level": 5.5,
+          "duration_seconds": 3741,
+          "duration_display": "62:21",
+          "score": 0.5315,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001xL5Pl3u3nc5"
+        },
+        {
+          "name": "物件，所在",
+          "genres": [
+            "funk",
+            "闽南"
+          ],
+          "noise_level": 4.75,
+          "duration_seconds": 1598,
+          "duration_display": "26:38",
+          "score": 0.5295,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003z0eio18Cscz"
+        },
+        {
+          "name": "Nature Of Everything",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 3686,
+          "duration_display": "61:26",
+          "score": 0.525,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001pZwlK3uTClM"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 14761,
+      "albums": [
+        {
+          "name": "神游夜话",
+          "genres": [
+            "post-rock",
+            "ambient-rock",
+            "electronic"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 376,
+          "duration_display": "6:16",
+          "score": 0.5651,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003v9CyQ3iSs9z"
+        },
+        {
+          "name": "Liquid Yellow Portraits",
+          "genres": [
+            "funk",
+            "fusion jazz",
+            "jazz"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 2423,
+          "duration_display": "40:23",
+          "score": 0.5532,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003GJiiS1bGm9o"
+        },
+        {
+          "name": "Ocean",
+          "genres": [
+            "electronic",
+            "post-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 3676,
+          "duration_display": "61:16",
+          "score": 0.5465,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001ihfQL2LRlKE"
+        },
+        {
+          "name": "60km/h",
+          "genres": [
+            "electronic",
+            "post-rock"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2905,
+          "duration_display": "48:25",
+          "score": 0.5453,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000at2be185oht"
+        },
+        {
+          "name": "Prayer",
+          "genres": [
+            "ambient jazz",
+            "jazz hippop"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2943,
+          "duration_display": "49:03",
+          "score": 0.5333,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003kIlzk1ADqtI"
+        },
+        {
+          "name": "French Exit",
+          "genres": [
+            "Alternative Rock",
+            "Lofi",
+            "electronic"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2438,
+          "duration_display": "40:38",
+          "score": 0.5281,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003Tm2mv0IMOdz"
+        }
+      ]
+    }
+  ]
+}

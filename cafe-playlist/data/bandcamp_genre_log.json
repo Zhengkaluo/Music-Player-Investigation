@@ -1,0 +1,746 @@
+{
+  "003Tm2mv0IMOdz": {
+    "artist": "TV Girl",
+    "album": "French Exit",
+    "status": "found",
+    "url": "https://tvgirl.bandcamp.com/album/french-exit?from=search&amp;search_item_id=1257160096&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351960755&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=b1552cb740cb8f0538dcea5c573615bf",
+    "genres": [
+      "https://bandcamp.com/discover/pop"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 3.5,
+    "timestamp": "2026-04-23T19:11:34",
+    "old_genres": [
+      "Alternative Rock",
+      "Lofi",
+      "electronic"
+    ],
+    "old_noise_level": 4.0,
+    "old_region": "美国"
+  },
+  "0034xbuT4PX6re": {
+    "artist": "LAUSSE THE CAT",
+    "album": "The Mocking Stars",
+    "status": "found",
+    "url": "https://laussethecat.bandcamp.com/album/the-mocking-stars?from=search&amp;search_item_id=284475906&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351960976&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=1db82be578b543b068b033efa5ab89f7",
+    "genres": [
+      "https://bandcamp.com/discover/hip-hop-rap"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.0,
+    "timestamp": "2026-04-23T19:11:39",
+    "old_genres": [
+      "abstract hiphop",
+      "alternative hiphop",
+      "hiphop",
+      "jazz hippop"
+    ],
+    "old_noise_level": 4.0,
+    "old_region": "英国"
+  },
+  "000XNHPK0YdvPC": {
+    "artist": "GoGo Penguin",
+    "album": "Necessary Fictions",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:11:43",
+    "old_genres": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "math-rock"
+    ]
+  },
+  "0046faTt1toJt5": {
+    "artist": "Fayzz",
+    "album": "Patch",
+    "status": "found",
+    "url": "https://fayzzchina.bandcamp.com/track/intro-2?from=search&amp;search_item_id=2617616213&amp;search_item_type=t&amp;search_match_part=%3F&amp;search_page_id=5351961394&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=023a7b751b884843866e2b13f48e1a7c",
+    "genres": [
+      "https://bandcamp.com/discover/rock"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.5,
+    "timestamp": "2026-04-23T19:11:50",
+    "old_genres": [
+      "math-rock",
+      "post-rock"
+    ],
+    "old_noise_level": 5.0,
+    "old_region": "大陆"
+  },
+  "000g7eJO0geW2u": {
+    "artist": "超级市场",
+    "album": "5689",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:11:53",
+    "old_genres": [
+      "electronic",
+      "indie-rock"
+    ]
+  },
+  "000cdEFy32MdU9": {
+    "artist": "kanekoayano",
+    "album": "石の糸",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:11:58",
+    "old_genres": [
+      "indie-rock"
+    ]
+  },
+  "000IYuaI3KrHq2": {
+    "artist": "王忆灵",
+    "album": "枯萎颂",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:12:01",
+    "old_genres": [
+      "indie-folk"
+    ]
+  },
+  "003FTtbb0dDsDH": {
+    "artist": "Blood Orange",
+    "album": "Essex Honey",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:12:06",
+    "old_genres": [
+      "R&B"
+    ]
+  },
+  "002RkImF2lsUad": {
+    "artist": "Daniel Caesar",
+    "album": "Son Of Spergy",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:12:11",
+    "old_genres": [
+      "R&B"
+    ]
+  },
+  "004XYLPM4f8FC7": {
+    "artist": "Hope the flowers",
+    "album": "Sonorous Faith, Pt.1",
+    "status": "found",
+    "url": "https://hopetheflowers.bandcamp.com/album/sonorous-faith-pt-1?from=search&amp;search_item_id=4118255789&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351962343&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=22bd173222ae7701da767904cb13d569",
+    "genres": [
+      "https://bandcamp.com/discover/rock"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.5,
+    "timestamp": "2026-04-23T19:12:17",
+    "old_genres": [
+      "post-rock"
+    ],
+    "old_noise_level": 4.5,
+    "old_region": "泰国"
+  },
+  "001HBWcQ0Qykw6": {
+    "artist": "咸空气",
+    "album": "咸空气",
+    "status": "found",
+    "url": "https://illuminatedpaths.bandcamp.com/track/--228?from=search&amp;search_item_id=577405982&amp;search_item_type=t&amp;search_match_part=%3F&amp;search_page_id=5351962576&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=b50e5b910ba20cff16dca9271005eec4",
+    "genres": [
+      "https://bandcamp.com/discover/experimental"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 5.0,
+    "timestamp": "2026-04-23T19:12:24",
+    "old_genres": [
+      "post-rock"
+    ],
+    "old_noise_level": 4.5,
+    "old_region": "大陆"
+  },
+  "002OR0n74S7yvu": {
+    "artist": "Hubris",
+    "album": "The One Above",
+    "status": "found",
+    "url": "https://newnoiseasia.bandcamp.com/album/newn023-hubris-the-one-above?from=search&amp;search_item_id=3221669140&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351962761&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=59e561a5d17b77f89ed969d3b4edb96f",
+    "genres": [
+      "https://bandcamp.com/discover/rock"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.5,
+    "timestamp": "2026-04-23T19:12:29",
+    "old_genres": [
+      "post-rock"
+    ],
+    "old_noise_level": 4.5,
+    "old_region": "瑞士"
+  },
+  "001pZwlK3uTClM": {
+    "artist": "Hope the flowers",
+    "album": "Nature Of Everything",
+    "status": "found",
+    "url": "https://hopetheflowers.bandcamp.com/album/nature-of-everything?from=search&amp;search_item_id=3275125456&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351962921&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=4e6fd670d0ca6cb268e8f415b12dc20d",
+    "genres": [
+      "https://bandcamp.com/discover/rock"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.5,
+    "timestamp": "2026-04-23T19:12:33",
+    "old_genres": [
+      "post-rock"
+    ],
+    "old_noise_level": 4.5,
+    "old_region": "泰国"
+  },
+  "001u7plI1vsnxm": {
+    "artist": "Jizue",
+    "album": "story",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:12:38",
+    "old_genres": [
+      "contemporary-jazz",
+      "latin",
+      "math-rock",
+      "post-rock"
+    ]
+  },
+  "002xtTRF1HsT4i": {
+    "artist": "Jizue",
+    "album": "Shiori",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:12:42",
+    "old_genres": [
+      "contemporary-jazz",
+      "math-rock"
+    ]
+  },
+  "003Yjcef0uWh9V": {
+    "artist": "Haruka Nakamura 中村遥",
+    "album": "MELODICA",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:12:47",
+    "old_genres": [
+      "ambient jazz",
+      "jazz hippop"
+    ]
+  },
+  "001NoMPU2VZaok": {
+    "artist": "Mammal Hands",
+    "album": "Captured Spirits",
+    "status": "found",
+    "url": "https://mammalhands.bandcamp.com/album/captured-spirits?from=search&amp;search_item_id=3188810457&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351963543&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=917e9a2eaf1a42f23100c281de9199ab",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:12:54",
+    "old_genres": [
+      "contemporary-jazz",
+      "jazz",
+      "math-rock"
+    ],
+    "old_noise_level": 3.83,
+    "old_region": "英国"
+  },
+  "001hDY4D4R2O50": {
+    "artist": "Phi-Psonics",
+    "album": "Octava",
+    "status": "found",
+    "url": "https://phi-psonics.bandcamp.com/album/octava?from=search&amp;search_item_id=175003248&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351963837&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=456d15b342bf379fd9fdbc8a38b4d91d",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:12:59",
+    "old_genres": [
+      "ambient jazz",
+      "jazz"
+    ],
+    "old_noise_level": 2.5,
+    "old_region": "美国"
+  },
+  "003fnfQs2aom1t": {
+    "artist": "Air",
+    "album": "Premiers Symptômes",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:03",
+    "old_genres": [
+      "ambient jazz",
+      "electronic"
+    ]
+  },
+  "004TgIzR1NbDxq": {
+    "artist": "Uhsgnǒd 仙童",
+    "album": "泳客 (Re：visions)",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:08",
+    "old_genres": [
+      "indie-rock",
+      "post-rock"
+    ]
+  },
+  "003GJiiS1bGm9o": {
+    "artist": "Shingo Suzuki",
+    "album": "Liquid Yellow Portraits",
+    "status": "found",
+    "url": "https://shingosuzuki.bandcamp.com/track/daisy?from=search&amp;search_item_id=2650205068&amp;search_item_type=t&amp;search_match_part=%3F&amp;search_page_id=5351964379&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=bcbdec5e988c3aa4b373634574328a7a",
+    "genres": [
+      "https://bandcamp.com/discover/r-b-soul"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 3.0,
+    "timestamp": "2026-04-23T19:13:14",
+    "old_genres": [
+      "funk",
+      "fusion jazz",
+      "jazz"
+    ],
+    "old_noise_level": 3.83,
+    "old_region": "日本"
+  },
+  "0021ERuL12h9ez": {
+    "artist": "碎叠",
+    "album": "朝往暮归",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:18",
+    "old_genres": [
+      "indie-rock",
+      "math-rock",
+      "post-rock"
+    ]
+  },
+  "003XJflJ0MLKDZ": {
+    "artist": "Nabowa",
+    "album": "Nabowa",
+    "status": "found",
+    "url": "https://nabowa.bandcamp.com/album/nabowa-2?from=search&amp;search_item_id=713120161&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351964705&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=3746fe40cc36a73a69026d2c950ed9b2",
+    "genres": [
+      "https://bandcamp.com/discover/rock"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.5,
+    "timestamp": "2026-04-23T19:13:24",
+    "old_genres": [
+      "math-rock"
+    ],
+    "old_noise_level": 5.5,
+    "old_region": "日本"
+  },
+  "001IB8np0vCHB3": {
+    "artist": "浅堤",
+    "album": "婚礼之途",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:28",
+    "old_genres": [
+      "indie-rock"
+    ]
+  },
+  "002WJoKs2hnO4d": {
+    "artist": "Bren joy",
+    "album": "twenties",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:33",
+    "old_genres": [
+      "R&B",
+      "funk",
+      "soul"
+    ]
+  },
+  "002NGkBo3D39TA": {
+    "artist": "SoulFa",
+    "album": "SoulFa",
+    "status": "found",
+    "url": "https://mndsgn.bandcamp.com/album/u-shoulda-let-god-cook?from=search&amp;search_item_id=3526473232&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351965218&amp;search_page_no=1&amp;search_rank=5&amp;search_sig=150cf2e14a57444b28aa868e0ef8c9b9",
+    "genres": [
+      "https://bandcamp.com/discover/experimental"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 5.0,
+    "timestamp": "2026-04-23T19:13:39",
+    "old_genres": [
+      "indie-rock"
+    ],
+    "old_noise_level": 4.5,
+    "old_region": "台湾"
+  },
+  "000KWJZx0b6Gk8": {
+    "artist": "Vansdaddy",
+    "album": "牛窝坑之子",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:42",
+    "old_genres": [
+      "hiphop"
+    ]
+  },
+  "000at2be185oht": {
+    "artist": "晨曦光廊",
+    "album": "60km/h",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:13:47",
+    "old_genres": [
+      "electronic",
+      "post-rock"
+    ]
+  },
+  "001YsjnU2ZJYP3": {
+    "artist": "Billie Eilish",
+    "album": "HIT ME HARD AND SOFT",
+    "status": "found",
+    "url": "https://hitmehardandsoft.bandcamp.com/album/billie-eilish?from=search&amp;search_item_id=3713559568&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351965720&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=33bdd6661aaa11f836708196a6dcc921",
+    "genres": [
+      "https://bandcamp.com/discover/experimental"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 5.0,
+    "timestamp": "2026-04-23T19:13:53",
+    "old_genres": [
+      "pop"
+    ],
+    "old_noise_level": 4.0,
+    "old_region": "美国"
+  },
+  "0035zJa32oMvX5": {
+    "artist": "The Breathing Effect",
+    "album": "Mars Is A Very Bad Place For Love",
+    "status": "found",
+    "url": "https://thebreathingeffect.bandcamp.com/album/mars-is-a-very-bad-place-for-love?from=search&amp;search_item_id=2431618418&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351965917&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=78a655d7efc4ecc3e6d3f7087498aa17",
+    "genres": [
+      "https://bandcamp.com/discover/r-b-soul"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 3.0,
+    "timestamp": "2026-04-23T19:14:00",
+    "old_genres": [
+      "fusion jazz",
+      "electronic",
+      "psychedelic-rock"
+    ],
+    "old_noise_level": 3.75,
+    "old_region": "未知"
+  },
+  "004KPLQF2xM15A": {
+    "artist": "Nala Sinephro",
+    "album": "The Smashing Machine (Original Motion Picture Soundtrack)",
+    "status": "found",
+    "url": "https://nalasinephro.bandcamp.com/track/grand-prix-1?from=search&amp;search_item_id=957150721&amp;search_item_type=t&amp;search_match_part=%3F&amp;search_page_id=5351966144&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=889133dc032c472e633b1b2342866397",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:14:07",
+    "old_genres": [
+      "ambient jazz",
+      "electronic",
+      "contemporary-jazz"
+    ],
+    "old_noise_level": 3.0,
+    "old_region": "未知"
+  },
+  "0009teFU21wGej": {
+    "artist": "Nala Sinephro",
+    "album": "Endlessness",
+    "status": "found",
+    "url": "https://nalasinephro.bandcamp.com/album/endlessness?from=search&amp;search_item_id=3750427797&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351966345&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=9bdd50633be1901340e02f3989c4f248",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:14:12",
+    "old_genres": [
+      "ambient jazz",
+      "electronic",
+      "contemporary-jazz"
+    ],
+    "old_noise_level": 3.0,
+    "old_region": "未知"
+  },
+  "003v9CyQ3iSs9z": {
+    "artist": "文雀",
+    "album": "神游夜话",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:14:16",
+    "old_genres": [
+      "post-rock",
+      "ambient-rock",
+      "electronic"
+    ]
+  },
+  "000248gf1azCFQ": {
+    "artist": "GoGo Penguin",
+    "album": "v2.0",
+    "status": "found",
+    "url": "https://gogopenguin.bandcamp.com/album/v20-deluxe-edition?from=search&amp;search_item_id=2696148966&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351966698&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=ea9883ff2dee4560b6b924afb5d8fe33",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:14:21",
+    "old_genres": [
+      "contemporary-jazz",
+      "electronic",
+      "acoustic"
+    ],
+    "old_noise_level": 3.5,
+    "old_region": "未知"
+  },
+  "0002Pd0Q2oazrv": {
+    "artist": "Pu Poo Platter",
+    "album": "地下河 Undercurrent",
+    "status": "found",
+    "url": "https://pupooplatter.bandcamp.com/album/undercurrent?from=search&amp;search_item_id=1652537522&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351966935&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=345ca6f8eb836b8396ccec22835f7b89",
+    "genres": [
+      "https://bandcamp.com/discover/soundtrack"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 4.0,
+    "timestamp": "2026-04-23T19:14:27",
+    "old_genres": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "funk"
+    ],
+    "old_noise_level": 3.83,
+    "old_region": "未知"
+  },
+  "000Sc5of0SDKMP": {
+    "artist": "Múm",
+    "album": "Smilewound",
+    "status": "found",
+    "url": "https://mumband.bandcamp.com/album/smilewound?from=search&amp;search_item_id=1778773713&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351967071&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=ed7bf6396a1be87950de9848c6560f4a",
+    "genres": [
+      "https://bandcamp.com/discover/experimental"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 5.0,
+    "timestamp": "2026-04-23T19:14:33",
+    "old_genres": [
+      "electronic",
+      "dream pop",
+      "indie-pop"
+    ],
+    "old_noise_level": 3.5,
+    "old_region": "未知"
+  },
+  "002sB8en00qbZH": {
+    "artist": "Cicada",
+    "album": "栖居在溪源之上",
+    "status": "found",
+    "url": "https://cicada.bandcamp.com/album/seeking-the-sources-of-streams-2?from=search&amp;search_item_id=1543916421&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351967225&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=6e9e9ee27a9b2ccf3191607620cbfbac",
+    "genres": [
+      "https://bandcamp.com/discover/classical"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.0,
+    "timestamp": "2026-04-23T19:14:39",
+    "old_genres": [
+      "post-rock",
+      "new-classical",
+      "ambient-rock"
+    ],
+    "old_noise_level": 3.5,
+    "old_region": "未知"
+  },
+  "001gnqmP3xDssY": {
+    "artist": "Balmorhea",
+    "album": "New Conditions",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:14:44",
+    "old_genres": [
+      "post-rock",
+      "ambient-rock",
+      "new-classical"
+    ]
+  },
+  "000D3XDh4NASNn": {
+    "artist": "Trevor Kowalski",
+    "album": "Remnants Of A Setting Sun",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:14:49",
+    "old_genres": [
+      "ambient-rock",
+      "post-rock",
+      "new-classical"
+    ]
+  },
+  "000WFfl80kihuf": {
+    "artist": "Hotel New Tokyo",
+    "album": "ガウディの憂鬱",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:14:53",
+    "old_genres": [
+      "fusion jazz",
+      "contemporary-jazz",
+      "funk"
+    ]
+  },
+  "003sPqxp2nNpQM": {
+    "artist": "Yussef Dayes",
+    "album": "The Yussef Dayes Experience - Live From Malibu",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:14:57",
+    "old_genres": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "neo-soul"
+    ]
+  },
+  "001SuGgV1R7UrJ": {
+    "artist": "Slowly Rolling Camera",
+    "album": "Slowly Rolling Camera",
+    "status": "found",
+    "url": "https://slowlyrollingcamera.bandcamp.com/album/slowly-rolling-camera-2?from=search&amp;search_item_id=1445124821&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351967819&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=bf8b4600425dc2e593ad5bf4441b16ed",
+    "genres": [
+      "https://bandcamp.com/discover/electronic"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 3.5,
+    "timestamp": "2026-04-23T19:15:03",
+    "old_genres": [
+      "electronic",
+      "soul",
+      "contemporary-jazz",
+      "dream pop"
+    ],
+    "old_noise_level": 3.38,
+    "old_region": "未知"
+  },
+  "004eROcM1zn3k5": {
+    "artist": "Slowly Rolling Camera",
+    "album": "Juniper",
+    "status": "found",
+    "url": "https://slowlyrollingcamera.bandcamp.com/album/juniper?from=search&amp;search_item_id=2767050528&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351967989&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=f17b17384e9328a6467d2a61a481b659",
+    "genres": [
+      "https://bandcamp.com/discover/electronic"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 3.5,
+    "timestamp": "2026-04-23T19:15:08",
+    "old_genres": [
+      "electronic",
+      "soul",
+      "contemporary-jazz"
+    ],
+    "old_noise_level": 3.5,
+    "old_region": "未知"
+  },
+  "000V3jHh2RL7oG": {
+    "artist": "狄奥尼索斯乐队",
+    "album": "时间回到秋天的下午",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:15:12",
+    "old_genres": [
+      "dream pop",
+      "shoegaze",
+      "indie-rock"
+    ]
+  },
+  "002M8UGJ2aVQyi": {
+    "artist": "Yussef Dayes",
+    "album": "Love Is the Message",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:15:17",
+    "old_genres": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "neo-soul"
+    ]
+  },
+  "003S3bak0DEMDH": {
+    "artist": "Tom Misch",
+    "album": "Kyiv",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:15:21",
+    "old_genres": [
+      "contemporary-jazz",
+      "neo-soul",
+      "funk"
+    ]
+  },
+  "004FaS4l3brGcK": {
+    "artist": "Yussef Dayes",
+    "album": "The Yussef Dayes Experience Live at Joshua Tree (Presented by Soulection)",
+    "status": "found",
+    "url": "https://yussefdayes.bandcamp.com/album/the-yussef-dayes-experience-live-at-joshua-tree-presented-by-soulection?from=search&amp;search_item_id=2494613962&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351968624&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=0dc53530731cf6666d5f9faebd985443",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:15:28",
+    "old_genres": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "neo-soul"
+    ],
+    "old_noise_level": 3.33,
+    "old_region": "未知"
+  },
+  "003BKZ9T1hUpe8": {
+    "artist": "Ana Roxanne",
+    "album": "~~~",
+    "status": "found",
+    "url": "https://anaroxanne.bandcamp.com/album/-?from=search&amp;search_item_id=3052994392&amp;search_item_type=a&amp;search_match_part=%3F&amp;search_page_id=5351968750&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=029a936c6ab3ad1aef27a16587586dbf",
+    "genres": [
+      "https://bandcamp.com/discover/ambient"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 1.5,
+    "timestamp": "2026-04-23T19:15:33",
+    "old_genres": [
+      "ambient",
+      "dream pop",
+      "electronic"
+    ],
+    "old_noise_level": 2.83,
+    "old_region": "未知"
+  },
+  "001TRzDf2Baesq": {
+    "artist": "Mammal Hands",
+    "album": "Chaser",
+    "status": "found",
+    "url": "https://mammalhands.bandcamp.com/track/chaser?from=search&amp;search_item_id=1874245158&amp;search_item_type=t&amp;search_match_part=%3F&amp;search_page_id=5351968935&amp;search_page_no=1&amp;search_rank=1&amp;search_sig=87519b6df620546d5908a37ec7f4fd01",
+    "genres": [
+      "https://bandcamp.com/discover/jazz"
+    ],
+    "location": null,
+    "normalized_region": null,
+    "estimated_noise_level": 2.5,
+    "timestamp": "2026-04-23T19:15:40",
+    "old_genres": [
+      "contemporary-jazz",
+      "ambient jazz",
+      "folk-jazz"
+    ],
+    "old_noise_level": 2.5,
+    "old_region": "未知"
+  },
+  "002Q6F2n3mnnTc": {
+    "artist": "Ulrich Schnauss",
+    "album": "Far Away Trains Passing By",
+    "status": "not_found",
+    "timestamp": "2026-04-23T19:15:43",
+    "old_genres": [
+      "electronic",
+      "shoegaze",
+      "ambient"
+    ]
+  }
+}

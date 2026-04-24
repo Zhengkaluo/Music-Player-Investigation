@@ -1,0 +1,270 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-23T15:38:14.767281",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 16,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 37834,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "10h30m",
+    "fill_percentage": 116.8
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 8787,
+      "albums": [
+        {
+          "name": "Endlessness",
+          "genres": [
+            "ambient jazz",
+            "electronic",
+            "contemporary-jazz"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2719,
+          "duration_display": "45:19",
+          "score": 0.8438,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0009teFU21wGej"
+        },
+        {
+          "name": "Little Nerves (Video Version)",
+          "genres": [
+            "electronic",
+            "contemporary-jazz",
+            "ambient"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 425,
+          "duration_display": "7:05",
+          "score": 0.8424,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001l2ZMz32qzMI"
+        },
+        {
+          "name": "Homeland",
+          "genres": [
+            "electronic",
+            "ambient",
+            "contemporary-jazz"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 1858,
+          "duration_display": "30:58",
+          "score": 0.8397,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003ZN5430Y2xaH"
+        },
+        {
+          "name": "Angel Feed",
+          "genres": [
+            "electronic",
+            "ambient",
+            "experimental"
+          ],
+          "noise_level": 2.75,
+          "duration_seconds": 260,
+          "duration_display": "4:20",
+          "score": 0.8332,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002EH3ZG4HoR1u"
+        },
+        {
+          "name": "Twilight",
+          "genres": [
+            "ambient",
+            "new-classical",
+            "electronic"
+          ],
+          "noise_level": 2.67,
+          "duration_seconds": 3525,
+          "duration_display": "58:45",
+          "score": 0.8277,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0029y0dI3BBul4"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 14069,
+      "albums": [
+        {
+          "name": "Floa",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2589,
+          "duration_display": "43:09",
+          "score": 0.5523,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000xX9bu3f59QG"
+        },
+        {
+          "name": "朝往暮归",
+          "genres": [
+            "indie-rock",
+            "math-rock",
+            "post-rock"
+          ],
+          "noise_level": 4.83,
+          "duration_seconds": 2626,
+          "duration_display": "43:46",
+          "score": 0.5387,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0021ERuL12h9ez"
+        },
+        {
+          "name": "eye",
+          "genres": [
+            "electronic",
+            "indie-rock",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 1879,
+          "duration_display": "31:19",
+          "score": 0.5377,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/00498NkJ1y2HOe"
+        },
+        {
+          "name": "Gift from the Trees",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2935,
+          "duration_display": "48:55",
+          "score": 0.5318,
+          "qq_music_url": "https://c6.y.qq.com/base/fcgi-bin/u?__=Os73DTUb6Hj4"
+        },
+        {
+          "name": "虚构集",
+          "genres": [
+            "electronic",
+            "ambient",
+            "contemporary-jazz"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 4040,
+          "duration_display": "67:20",
+          "score": 0.5315,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002LyuR40S93wP"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 14978,
+      "albums": [
+        {
+          "name": "~~~",
+          "genres": [
+            "ambient",
+            "dream pop",
+            "electronic"
+          ],
+          "noise_level": 2.83,
+          "duration_seconds": 1627,
+          "duration_display": "27:07",
+          "score": 0.5993,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003BKZ9T1hUpe8"
+        },
+        {
+          "name": "Vapor",
+          "genres": [
+            "electronic",
+            "ambient",
+            "experimental"
+          ],
+          "noise_level": 2.75,
+          "duration_seconds": 4200,
+          "duration_display": "70:00",
+          "score": 0.5954,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003AvQi43lovsV"
+        },
+        {
+          "name": "Compositions for Piano",
+          "genres": [
+            "new-classical",
+            "ambient",
+            "electronic"
+          ],
+          "noise_level": 2.67,
+          "duration_seconds": 2457,
+          "duration_display": "40:57",
+          "score": 0.5941,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001ZvVrw3Jk9Ge"
+        },
+        {
+          "name": "MELODICA",
+          "genres": [
+            "ambient jazz",
+            "jazz hippop"
+          ],
+          "noise_level": 2.75,
+          "duration_seconds": 3290,
+          "duration_display": "54:50",
+          "score": 0.5729,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003Yjcef0uWh9V"
+        },
+        {
+          "name": "Shiori",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 2393,
+          "duration_display": "39:53",
+          "score": 0.5678,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002xtTRF1HsT4i"
+        },
+        {
+          "name": "Becoming",
+          "genres": [
+            "contemporary-jazz",
+            "ambient jazz",
+            "folk-jazz"
+          ],
+          "noise_level": 2.5,
+          "duration_seconds": 1011,
+          "duration_display": "16:51",
+          "score": 0.5616,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001blELo2wc24w"
+        }
+      ]
+    }
+  ]
+}

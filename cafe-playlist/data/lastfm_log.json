@@ -1,0 +1,5879 @@
+[
+  {
+    "artist": "GoGo Penguin",
+    "album": "Necessary Fictions",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "math-rock"
+    ],
+    "new": [
+      "jazz",
+      "Jazz Fusion"
+    ]
+  },
+  {
+    "artist": "超级市场",
+    "album": "5689",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "indie-rock"
+    ],
+    "new": [
+      "electronic"
+    ]
+  },
+  {
+    "artist": "kanekoayano",
+    "album": "石の糸",
+    "status": "ok",
+    "old": [
+      "indie-rock"
+    ],
+    "new": [
+      "Neo-Psychedelia",
+      "Slacker Rock",
+      "Shimokita-Kei"
+    ]
+  },
+  {
+    "artist": "王忆灵",
+    "album": "枯萎颂",
+    "status": "ok",
+    "old": [
+      "indie-folk"
+    ],
+    "new": [
+      "Art Rock",
+      "Chamber Music",
+      "Art Pop",
+      "Chamber Folk"
+    ]
+  },
+  {
+    "artist": "Blood Orange",
+    "album": "Essex Honey",
+    "status": "ok",
+    "old": [
+      "R&B"
+    ],
+    "new": [
+      "Chillwave",
+      "Indie",
+      "R&B",
+      "Alternative Rnb"
+    ]
+  },
+  {
+    "artist": "Daniel Caesar",
+    "album": "Son Of Spergy",
+    "status": "ok",
+    "old": [
+      "R&B"
+    ],
+    "new": [
+      "R&B",
+      "soul",
+      "neo-soul"
+    ]
+  },
+  {
+    "artist": "Jizue",
+    "album": "story",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "latin",
+      "math-rock",
+      "post-rock"
+    ],
+    "new": [
+      "post-rock",
+      "Nu Jazz"
+    ]
+  },
+  {
+    "artist": "Jizue",
+    "album": "Shiori",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "math-rock"
+    ],
+    "new": [
+      "jazz",
+      "Math Jazz"
+    ]
+  },
+  {
+    "artist": "Haruka Nakamura 中村遥",
+    "album": "MELODICA",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "Air",
+    "album": "Premiers Symptômes",
+    "status": "ok",
+    "old": [
+      "ambient jazz",
+      "electronic"
+    ],
+    "new": [
+      "electronic",
+      "chillout",
+      "ambient"
+    ]
+  },
+  {
+    "artist": "Uhsgnǒd 仙童",
+    "album": "泳客 (Re：visions)",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "碎叠",
+    "album": "朝往暮归",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "math-rock",
+      "post-rock"
+    ],
+    "new": [
+      "post-rock",
+      "Bejing"
+    ]
+  },
+  {
+    "artist": "浅堤",
+    "album": "婚礼之途",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Bren joy",
+    "album": "twenties",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "funk",
+      "soul"
+    ],
+    "new": [
+      "soul",
+      "jazz",
+      "funk",
+      "gospel"
+    ]
+  },
+  {
+    "artist": "Vansdaddy",
+    "album": "牛窝坑之子",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "晨曦光廊",
+    "album": "60km/h",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "post-rock"
+    ],
+    "new": [
+      "post-rock"
+    ]
+  },
+  {
+    "artist": "文雀",
+    "album": "神游夜话",
+    "status": "ok",
+    "old": [
+      "post-rock",
+      "ambient-rock",
+      "electronic"
+    ],
+    "new": [
+      "post-rock"
+    ]
+  },
+  {
+    "artist": "Balmorhea",
+    "album": "New Conditions",
+    "status": "ok",
+    "old": [
+      "post-rock",
+      "ambient-rock",
+      "new-classical"
+    ],
+    "new": [
+      "post-rock",
+      "ambient",
+      "Piano"
+    ]
+  },
+  {
+    "artist": "Trevor Kowalski",
+    "album": "Remnants Of A Setting Sun",
+    "status": "ok",
+    "old": [
+      "ambient-rock",
+      "post-rock",
+      "new-classical"
+    ],
+    "new": [
+      "Piano",
+      "ambient"
+    ]
+  },
+  {
+    "artist": "Hotel New Tokyo",
+    "album": "ガウディの憂鬱",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Yussef Dayes",
+    "album": "The Yussef Dayes Experience - Live From Malibu",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "neo-soul"
+    ],
+    "new": [
+      "jazz",
+      "Jazz Fusion"
+    ]
+  },
+  {
+    "artist": "狄奥尼索斯乐队",
+    "album": "时间回到秋天的下午",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Yussef Dayes",
+    "album": "Love Is the Message",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "fusion jazz",
+      "neo-soul"
+    ],
+    "new": [
+      "jazz",
+      "Jazz Fusion"
+    ]
+  },
+  {
+    "artist": "Tom Misch",
+    "album": "Kyiv",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "neo-soul",
+      "funk"
+    ],
+    "new": [
+      "soul",
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "Ulrich Schnauss",
+    "album": "Far Away Trains Passing By",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "shoegaze",
+      "ambient"
+    ],
+    "new": [
+      "downtempo",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "超级市场",
+    "album": "有限无限",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "synthesizer",
+      "ambient"
+    ],
+    "new": [
+      "electronic"
+    ]
+  },
+  {
+    "artist": "JaRon Marshall",
+    "album": "Nostalgia",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "Lofi",
+      "neo-soul"
+    ],
+    "new": [
+      "jazz"
+    ]
+  },
+  {
+    "artist": "iimmune",
+    "album": "虚构集",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "contemporary-jazz"
+    ],
+    "new": [
+      "electronic",
+      "post-rock"
+    ]
+  },
+  {
+    "artist": "Shii",
+    "album": "Floating Signifiers",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "dream pop",
+      "indie-pop"
+    ],
+    "new": [
+      "Meow",
+      "electronic",
+      "Nya"
+    ]
+  },
+  {
+    "artist": "Kaishandao",
+    "album": "Homeland",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "contemporary-jazz"
+    ],
+    "new": [
+      "electronic",
+      "House",
+      "Minimal",
+      "Techno"
+    ]
+  },
+  {
+    "artist": "Hugar",
+    "album": "Rift",
+    "status": "ok",
+    "old": [
+      "ambient-rock",
+      "post-rock",
+      "new-classical"
+    ],
+    "new": [
+      "ambient",
+      "Modern Classical",
+      "Contemporary Classical",
+      "Piano"
+    ]
+  },
+  {
+    "artist": "GoGo Penguin",
+    "album": "From the North - GoGo Penguin Live in Manchester",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "electronic",
+      "acoustic"
+    ],
+    "new": [
+      "Nu-Jazz",
+      "contemporary-jazz"
+    ]
+  },
+  {
+    "artist": "GoGo Penguin",
+    "album": "v2.0 (Deluxe Edition)",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "electronic",
+      "acoustic"
+    ],
+    "new": [
+      "contemporary-jazz",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "GoGo Penguin",
+    "album": "Café del Mar, Vol. 22",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "Lofi"
+    ],
+    "new": [
+      "jazz",
+      "Jazz Fusion"
+    ]
+  },
+  {
+    "artist": "Mammal Hands",
+    "album": "Shadow Work",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "ambient jazz",
+      "folk-jazz"
+    ],
+    "new": [
+      "contemporary-jazz",
+      "2017 Releases"
+    ]
+  },
+  {
+    "artist": "GoGo Penguin",
+    "album": "GGP/RMX",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "contemporary-jazz",
+      "ambient"
+    ],
+    "new": [
+      "jazz",
+      "Jazz Fusion"
+    ]
+  },
+  {
+    "artist": "Portico Quartet",
+    "album": "Portico Quartet",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "ambient jazz",
+      "electronic"
+    ],
+    "new": [
+      "jazz",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Portico Quartet",
+    "album": "Monument",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "ambient jazz",
+      "electronic"
+    ],
+    "new": [
+      "jazz",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Binkbeats",
+    "album": "Little Nerves (Video Version)",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "contemporary-jazz",
+      "ambient"
+    ],
+    "new": [
+      "Utrecht",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Yard Nule",
+    "album": "Angel Feed",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "experimental"
+    ],
+    "new": [
+      "acoustic",
+      "jazz",
+      "experimental",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "中村遥",
+    "album": "Twilight",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Long Arm",
+    "album": "Darkly",
+    "status": "ok",
+    "old": [
+      "abstract hiphop",
+      "jazz",
+      "electronic",
+      "new-classical"
+    ],
+    "new": [
+      "Instrumental Hip-Hop",
+      "trip-hop",
+      "jazz",
+      "experimental"
+    ]
+  },
+  {
+    "artist": "Mammal Hands",
+    "album": "Becoming",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "ambient jazz",
+      "folk-jazz"
+    ],
+    "new": [
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Arbour",
+    "album": "Sights & Sounds",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "Lofi",
+      "electronic"
+    ],
+    "new": [
+      "2018 Releases",
+      "Lo-Fi Beat"
+    ]
+  },
+  {
+    "artist": "Yosi Horikawa",
+    "album": "Vapor",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "experimental"
+    ],
+    "new": [
+      "experimental",
+      "electronic",
+      "Idm"
+    ]
+  },
+  {
+    "artist": "The Flashbulb",
+    "album": "Compositions for Piano",
+    "status": "ok",
+    "old": [
+      "new-classical",
+      "ambient",
+      "electronic"
+    ],
+    "new": [
+      "Modern Classical",
+      "Piano"
+    ]
+  },
+  {
+    "artist": "Slowly Rolling Camera",
+    "album": "Juniper",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "soul",
+      "contemporary-jazz"
+    ],
+    "new": [
+      "jazz",
+      "downtempo",
+      "trip-hop",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Trigg & Gusset",
+    "album": "Blue Shades",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "electronic",
+      "soul"
+    ],
+    "new": [
+      "Dark Jazz",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Ludovico Einaudi",
+    "album": "Memory One",
+    "status": "ok",
+    "old": [
+      "neo-classical",
+      "classical"
+    ],
+    "new": [
+      "Piano",
+      "classical",
+      "Contemporary Classical"
+    ]
+  },
+  {
+    "artist": "鲸鱼马戏团",
+    "album": "鲸鱼马戏团VOL.1",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "World's End Girlfriend",
+    "album": "空気人形",
+    "status": "ok",
+    "old": [
+      "post-rock",
+      "classical",
+      "experimental"
+    ],
+    "new": [
+      "Piano",
+      "Daydreaming",
+      "Karmahackers",
+      "Beloved"
+    ]
+  },
+  {
+    "artist": "椎名林檎",
+    "album": "浮き名",
+    "status": "ok",
+    "old": [
+      "J-pop",
+      "rock",
+      "experimental"
+    ],
+    "new": [
+      "J-Rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "鲜于贞娥",
+    "album": "그러려니",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "Jeff Buckley",
+    "album": "Grace (Legacy Edition)",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "folk-rock",
+      "alternative rock"
+    ],
+    "new": [
+      "alternative rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Tony Ann",
+    "album": "EMOTIONALLY RED",
+    "status": "ok",
+    "reason": "no valid tags",
+    "new": [
+      "K-Pop",
+      "pop",
+      "Hip-Hop"
+    ],
+    "old": [],
+    "retry": true
+  },
+  {
+    "artist": "海尾巴",
+    "album": "岭南新民谣 (2023第二辑)",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "森水垚",
+    "album": "治疗师Vol.6",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "幸存者",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "绿橄榄",
+    "album": "2017.8 demo",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "HENRY刘宪华",
+    "album": "Real Love Still Exists (feat. Yuna)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "R&B",
+      "mandopop"
+    ],
+    "new": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "Russian Red",
+    "album": "Fuerteventura",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "folk",
+      "Female Vocalists",
+      "acoustic",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Wulfin Lieske",
+    "album": "Guitar Recital: Lieske, Wulfin - SOR, F. / GIULIANI, M. (The Birth of the Classical Guitar)",
+    "status": "ok",
+    "old": [
+      "classical",
+      "guitar classical"
+    ],
+    "new": [
+      "Classical Guitar",
+      "Klassische Gitarre"
+    ]
+  },
+  {
+    "artist": "Bon Iver",
+    "album": "SABLE,",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "indie-rock",
+      "folktronica"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "singer-songwriter",
+      "acoustic"
+    ]
+  },
+  {
+    "artist": "青葉市子",
+    "album": "qp",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "fingerstyle guitar",
+      "acoustic"
+    ],
+    "new": [
+      "folk",
+      "acoustic",
+      "Female Vocalists",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "祁紫檀",
+    "album": "无归属的她",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "art pop",
+      "experimental folk"
+    ],
+    "new": [
+      "Zhongguo"
+    ]
+  },
+  {
+    "artist": "Carla Morrison",
+    "album": "Déjenme Llorar",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "Latin pop",
+      "dream pop"
+    ],
+    "new": [
+      "Latin Grammy Nominated",
+      "dream pop"
+    ]
+  },
+  {
+    "artist": "Joshua Hyslop",
+    "album": "Hills",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "singer-songwriter",
+      "folk"
+    ]
+  },
+  {
+    "artist": "Shanghai Qiutian",
+    "album": "家：革命",
+    "status": "ok",
+    "reason": "no valid tags",
+    "new": [
+      "Instrumental",
+      "Math Rock"
+    ],
+    "old": [],
+    "retry": true
+  },
+  {
+    "artist": "金永所",
+    "album": "UTOPIA",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "BowAsWell",
+    "album": "Oskoloskos",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "funk",
+      "synthesizer"
+    ],
+    "new": [
+      "Synthpop",
+      "indie-pop",
+      "R&B",
+      "Disco"
+    ]
+  },
+  {
+    "artist": "10keys beats",
+    "album": "Sorry Bae(prod. 10keys)",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "ZaZaZsu咂咂苏",
+    "album": "就是怦然心动",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "咖啡少年",
+    "album": "첫 번째 음악 로스팅 1st Music Roasting",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Kiri T",
+    "album": "至少做一件离谱的事",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indie-pop",
+      "cantonese pop"
+    ],
+    "new": [
+      "electronic",
+      "Hong Kong"
+    ]
+  },
+  {
+    "artist": "ari",
+    "album": "雨上がり",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "J-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "hiphop",
+      "Hardcore"
+    ]
+  },
+  {
+    "artist": "Forest306",
+    "album": "navigation il mare",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "chillout"
+    ],
+    "new": [
+      "Touhou",
+      "acoustic"
+    ]
+  },
+  {
+    "artist": "Humbert Humbert",
+    "album": "今晩はお月さん",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "acoustic"
+    ],
+    "new": [
+      "folk"
+    ]
+  },
+  {
+    "artist": "低苦艾乐队",
+    "album": "花草树木",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "树莉莉 Serrini",
+    "album": "真美",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Prince",
+    "album": "Prince (Explicit)",
+    "status": "ok",
+    "old": [
+      "funk",
+      "R&B",
+      "pop rock",
+      "psychedelic"
+    ],
+    "new": [
+      "funk",
+      "pop",
+      "soul",
+      "rock"
+    ]
+  },
+  {
+    "artist": "椎名林檎",
+    "album": "人間として",
+    "status": "ok",
+    "old": [
+      "J-pop",
+      "rock",
+      "experimental"
+    ],
+    "new": [
+      "J-Rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "羊文学",
+    "album": "トンネルを抜けたら",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "J-pop",
+      "alternative"
+    ],
+    "new": [
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "Benny Sings",
+    "album": "Music",
+    "status": "ok",
+    "old": [
+      "pop",
+      "indie-pop",
+      "Lofi"
+    ],
+    "new": [
+      "Yacht Rock",
+      "Blue-Eyed Soul",
+      "Yacht Rock Revival"
+    ]
+  },
+  {
+    "artist": "Carsick Cars",
+    "album": "叫醒我",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "noise rock"
+    ],
+    "new": [
+      "Post-Punk",
+      "indie-rock",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "表情银行",
+    "album": "嘿！岛 (Black Island)",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "树莉莉 Serrini",
+    "album": "愉快动物病",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Sufjan Stevens",
+    "album": "Javelin (Explicit)",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "baroque pop"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "singer-songwriter",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Bcalm",
+    "album": "Skyline",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "Lofi",
+      "chillwave"
+    ],
+    "new": [
+      "Lofi",
+      "electronic",
+      "United Kingdom"
+    ]
+  },
+  {
+    "artist": "Ruby Pan 潘子爵",
+    "album": "没问题少女",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "景德镇文艺复兴",
+    "album": "水码头",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "art pop"
+    ],
+    "new": [
+      "indie-rock",
+      "Chinese Indie"
+    ]
+  },
+  {
+    "artist": "Pink Floyd",
+    "album": "More",
+    "status": "ok",
+    "old": [
+      "progressive rock",
+      "psychedelic rock",
+      "art rock"
+    ],
+    "new": [
+      "Psychedelic Rock",
+      "soundtrack",
+      "Progressive Rock"
+    ]
+  },
+  {
+    "artist": "ROTH BART BARON",
+    "album": "けものたちの名前",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "art pop"
+    ],
+    "new": [
+      "rock",
+      "Indie",
+      "indie-rock"
+    ]
+  },
+  {
+    "artist": "Michael Bublé",
+    "album": "First Dance",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "pop",
+      "traditional pop"
+    ],
+    "new": [
+      "Swing",
+      "jazz",
+      "Myf"
+    ]
+  },
+  {
+    "artist": "Willis",
+    "album": "Locals 2",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "acoustic"
+    ],
+    "new": [
+      "country",
+      "chillout"
+    ]
+  },
+  {
+    "artist": "万芳",
+    "album": "给你们Dear ALL",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "folk",
+      "taiwanese pop"
+    ],
+    "new": [
+      "Female Vocalists",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Will Blunderfield",
+    "album": "Hallelujah",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "郑宜农",
+    "album": "金黄色的",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk rock",
+      "taiwanese indie"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "pop",
+      "Cpop"
+    ]
+  },
+  {
+    "artist": "小霞",
+    "album": "小霞3.0",
+    "status": "ok",
+    "old": [
+      "folk",
+      "singer-songwriter",
+      "mandopop"
+    ],
+    "new": [
+      "Female Vocalists",
+      "Ballad",
+      "Cpop",
+      "Mandarin"
+    ]
+  },
+  {
+    "artist": "等一下就回家",
+    "album": "2/2",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "Chinese HipHop",
+      "jazz rap"
+    ],
+    "new": [
+      "Hiphop",
+      "hiphop",
+      "Cpop",
+      "C-Pop"
+    ]
+  },
+  {
+    "artist": "Healy",
+    "album": "Subluxe",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indie-pop",
+      "soul"
+    ],
+    "new": [
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "落日飛車",
+    "album": "TV ANIMATION \"Sonny Boy\" original soundtrack",
+    "status": "ok",
+    "old": [
+      "dream pop",
+      "indie-rock",
+      "soft rock"
+    ],
+    "new": [
+      "indie-rock",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Cody Fry",
+    "album": "Things You Said",
+    "status": "ok",
+    "old": [
+      "pop",
+      "orchestral pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Aura Safari",
+    "album": "Aura Safari",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "downtempo",
+      "electronic"
+    ],
+    "new": [
+      "funk",
+      "jazz",
+      "Fusion",
+      "Balearic"
+    ]
+  },
+  {
+    "artist": "Pink Floyd",
+    "album": "A Collection Of Great Dance Songs",
+    "status": "ok",
+    "old": [
+      "progressive rock",
+      "psychedelic rock",
+      "art rock"
+    ],
+    "new": [
+      "rock",
+      "Classic Rock",
+      "Progressive Rock"
+    ]
+  },
+  {
+    "artist": "Jim Reeves",
+    "album": "Love Songs",
+    "status": "ok",
+    "old": [
+      "country",
+      "traditional pop"
+    ],
+    "new": [
+      "country",
+      "Classic Country",
+      "Jim Reeves",
+      "Oldies"
+    ]
+  },
+  {
+    "artist": "Running Blue",
+    "album": "Running Blue",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "张震岳",
+    "album": "我是海雅谷慕",
+    "status": "ok",
+    "old": [
+      "rock",
+      "taiwanese rock",
+      "mandopop"
+    ],
+    "new": [
+      "Taiwan",
+      "Soft Rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Car Seat Headrest",
+    "album": "Twin Fantasy (Explicit)",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "lo-fi rock"
+    ],
+    "new": [
+      "Lofi",
+      "indie-rock",
+      "Indie",
+      "Noise Pop"
+    ]
+  },
+  {
+    "artist": "The 1975",
+    "album": "Part Of The Band",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "synth-pop",
+      "alternative rock"
+    ],
+    "new": [
+      "Indie",
+      "indie-rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "羊文学",
+    "album": "our hope",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "J-pop",
+      "alternative"
+    ],
+    "new": [
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "Toe",
+    "album": "For Long Tomorrow",
+    "status": "ok",
+    "old": [
+      "math-rock",
+      "post-rock"
+    ],
+    "new": [
+      "math-rock",
+      "post-rock"
+    ]
+  },
+  {
+    "artist": "((( O )))",
+    "album": "iFeel",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "experimental"
+    ],
+    "new": [
+      "ambient",
+      "experimental",
+      "R&B",
+      "Drone"
+    ]
+  },
+  {
+    "artist": "92914",
+    "album": "Sunset",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "Korean R&B",
+      "urban"
+    ],
+    "new": [
+      "soul",
+      "folk"
+    ]
+  },
+  {
+    "artist": "庄达菲",
+    "album": "湘江中路",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "羊文学",
+    "album": "光るとき",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "J-pop",
+      "alternative"
+    ],
+    "new": [
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "Hans Zimmer",
+    "album": "Le Petit Prince (Bande originale du film)",
+    "status": "ok",
+    "old": [
+      "soundtrack",
+      "orchestral",
+      "cinematic"
+    ],
+    "new": [
+      "soundtrack",
+      "classical",
+      "Composer"
+    ]
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "The Great Escape Of Our Time",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Jimmie Rodgers",
+    "album": "Blue Yodels",
+    "status": "ok",
+    "old": [
+      "country",
+      "folk",
+      "bluegrass"
+    ],
+    "new": [
+      "country",
+      "folk",
+      "blues"
+    ]
+  },
+  {
+    "artist": "ARAI",
+    "album": "Featuring Uzuhan (Explicit)",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "japanese hiphop",
+      "R&B"
+    ],
+    "new": [
+      "Heavy Metal",
+      "Metal"
+    ]
+  },
+  {
+    "artist": "Novo Amor",
+    "album": "Heiress",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "ambient folk"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "acoustic"
+    ]
+  },
+  {
+    "artist": "羊文学",
+    "album": "きらめき",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "J-pop",
+      "alternative"
+    ],
+    "new": [
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "Lucid Green",
+    "album": "Anywhere",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "Beats"
+    ]
+  },
+  {
+    "artist": "Novo Amor",
+    "album": "Terraform",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "ambient folk"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "acoustic"
+    ]
+  },
+  {
+    "artist": "Lowswimmer",
+    "album": "Can't Be By Myself",
+    "status": "ok",
+    "old": [
+      "bedroom pop",
+      "indie-pop",
+      "dream pop"
+    ],
+    "new": [
+      "folk"
+    ]
+  },
+  {
+    "artist": "Billie Eilish",
+    "album": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
+    "status": "ok",
+    "old": [
+      "pop",
+      "electropop",
+      "alt-pop"
+    ],
+    "new": [
+      "pop",
+      "indie-pop",
+      "Electropop",
+      "Art Pop"
+    ]
+  },
+  {
+    "artist": "莫文蔚",
+    "album": "莫后年代 莫文蔚20周年世纪典藏",
+    "status": "ok",
+    "old": [
+      "cantopop",
+      "mandopop",
+      "pop"
+    ],
+    "new": [
+      "pop",
+      "Hong Kong",
+      "C-Pop"
+    ]
+  },
+  {
+    "artist": "Matt Berninger",
+    "album": "Distant Axis",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "alternative rock",
+      "art rock"
+    ],
+    "new": [
+      "singer-songwriter",
+      "indie-rock"
+    ]
+  },
+  {
+    "artist": "张震岳",
+    "album": "阿岳正传",
+    "status": "ok",
+    "old": [
+      "rock",
+      "taiwanese rock",
+      "mandopop"
+    ],
+    "new": [
+      "Taiwan",
+      "Soft Rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Verandah Project",
+    "album": "Day Off",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "Lofi",
+      "bedroom pop"
+    ],
+    "new": [
+      "Mellow"
+    ]
+  },
+  {
+    "artist": "RADWIMPS",
+    "album": "猫じゃらし",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "alternative rock",
+      "pop rock"
+    ],
+    "new": [
+      "J-Rock",
+      "rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Tom Odell",
+    "album": "Black Friday",
+    "status": "ok",
+    "old": [
+      "piano rock",
+      "indie-pop"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "制造木屋",
+    "album": "制造木屋",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Zoe Boekbinder",
+    "album": "I Am Yesterday",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "anti-folk"
+    ],
+    "new": [
+      "All",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "水星",
+    "album": "告别诗",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Pajaro Sunrise",
+    "album": "Old Goodbyes",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Oh Wonder",
+    "album": "Lonely Star",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "synth-pop",
+      "electropop"
+    ],
+    "new": [
+      "Minimal Pop",
+      "Indie",
+      "electronic",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Leon Bridges",
+    "album": "Inside Friend",
+    "status": "ok",
+    "old": [
+      "soul",
+      "R&B",
+      "southern soul"
+    ],
+    "new": [
+      "soul"
+    ]
+  },
+  {
+    "artist": "Tom Rosenthal",
+    "album": "Buried The Day",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "anti-folk"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "缺省",
+    "album": "共同的土地",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Sam Ock",
+    "album": "I Still Want Your Love (feat. Jinnie)",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "christian R&B",
+      "singer-songwriter"
+    ],
+    "new": [
+      "soul",
+      "R&B",
+      "neo-soul"
+    ]
+  },
+  {
+    "artist": "Jocelyn Pook",
+    "album": "Habitación En Roma",
+    "status": "ok",
+    "old": [
+      "contemporary classical",
+      "soundtrack",
+      "ambient"
+    ],
+    "new": [
+      "soundtrack",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Brandi Carlile",
+    "album": "Creep (Live at the Avalon, Boston, MA - May 2007) [Explicit]",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "country rock"
+    ],
+    "new": [
+      "Female Vocalists",
+      "folk",
+      "singer-songwriter",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "张亚东",
+    "album": "YA TUNG",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Peachy!",
+    "album": "Falling for U",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "lofi R&B",
+      "indie-pop"
+    ],
+    "new": [
+      "Bedroom Pop",
+      "Lofi",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "壞特？te",
+    "album": "Way out",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "mj apanay",
+    "album": "seen 11:23 pm",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "singer-songwriter",
+      "Lofi"
+    ],
+    "new": [
+      "indie-pop",
+      "pop",
+      "Bedroom Pop"
+    ]
+  },
+  {
+    "artist": "纵贯线",
+    "album": "北上列车",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "rock",
+      "pop"
+    ],
+    "new": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "许巍",
+    "album": "无尽光芒",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "MIKA",
+    "album": "Life in Cartoon Motion",
+    "status": "ok",
+    "old": [
+      "pop",
+      "glam pop",
+      "synth-pop"
+    ],
+    "new": [
+      "pop",
+      "Mika"
+    ]
+  },
+  {
+    "artist": "yonawo",
+    "album": "yugi",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "japanese indie"
+    ],
+    "new": [
+      "rock",
+      "pop",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "徐佳莹",
+    "album": "日全蚀 演唱会现场实录",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "indie-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Taiwan",
+      "pop",
+      "singer-songwriter",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "Pat Metheny",
+    "album": "As Falls Wichita, So Falls Wichita Falls",
+    "status": "ok",
+    "old": [
+      "fusion jazz",
+      "jazz"
+    ],
+    "new": [
+      "Guitar",
+      "jazz",
+      "Dreamy"
+    ]
+  },
+  {
+    "artist": "Guantanamo Bay Surf Club",
+    "album": "Guantanamo Bay Surf Club",
+    "status": "ok",
+    "old": [
+      "surf rock",
+      "psychedelic",
+      "exotica"
+    ],
+    "new": [
+      "folk",
+      "Surf Rock",
+      "shoegaze",
+      "Inde Alternative"
+    ]
+  },
+  {
+    "artist": "王若琳",
+    "album": "大人故事书 亚洲巡回演唱会影音全纪录",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "jazz pop",
+      "bossa nova"
+    ],
+    "new": [
+      "jazz",
+      "Taiwan",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Red Hot Chili Peppers",
+    "album": "The Getaway",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "funk rock",
+      "hard rock"
+    ],
+    "new": [
+      "rock",
+      "alternative rock",
+      "Funk Rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "小霞",
+    "album": "向云端",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Bruno Major",
+    "album": "The Most Beautiful Thing",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "jazz"
+    ],
+    "new": [
+      "soul",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "窦靖童",
+    "album": "春游",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "dream pop",
+      "alternative pop"
+    ],
+    "new": [
+      "experimental",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Alexer Lyton",
+    "album": "Shadow of the Sun",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Nujabes",
+    "album": "Free Soul Nujabes - Second Collection",
+    "status": "ok",
+    "old": [
+      "jazz hiphop",
+      "Lofi",
+      "hiphop"
+    ],
+    "new": [
+      "hiphop",
+      "Jazz Hop",
+      "chillout"
+    ]
+  },
+  {
+    "artist": "山崎将义",
+    "album": "One more time，One more chance",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "宋瑀哲",
+    "album": "未来的未来",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "92914",
+    "album": "Home",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "Korean R&B",
+      "urban"
+    ],
+    "new": [
+      "soul",
+      "folk"
+    ]
+  },
+  {
+    "artist": "Adele",
+    "album": "19 (Explicit)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "soul",
+      "R&B"
+    ],
+    "new": [
+      "soul",
+      "Female Vocalists",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Nesian Mystik",
+    "album": "Elevator Musiq",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "polynesian hiphop",
+      "reggae"
+    ],
+    "new": [
+      "R&B",
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "John Legend",
+    "album": "Bigger Love",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "pop"
+    ],
+    "new": [
+      "soul",
+      "hiphop",
+      "R&B",
+      "2025 Albums"
+    ]
+  },
+  {
+    "artist": "Cuco",
+    "album": "Pendant",
+    "status": "ok",
+    "old": [
+      "Latin pop",
+      "bedroom pop",
+      "lofi R&B"
+    ],
+    "new": [
+      "dream pop",
+      "experimental",
+      "indie-pop",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Cuco",
+    "album": "Para Mi (Explicit)",
+    "status": "ok",
+    "old": [
+      "Latin pop",
+      "bedroom pop",
+      "lofi R&B"
+    ],
+    "new": [
+      "dream pop",
+      "experimental",
+      "indie-pop",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Sarah Kang",
+    "album": "once in a moon",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indie-pop",
+      "Lofi"
+    ],
+    "new": [
+      "singer-songwriter",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "FINNEAS",
+    "album": "Life Moves On",
+    "status": "ok",
+    "old": [
+      "pop",
+      "electropop",
+      "indie-pop"
+    ],
+    "new": [
+      "indie-pop",
+      "Alternative",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "吴芊仪",
+    "album": "零(寻找羚少女Chapter.1)",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "陈粒",
+    "album": "陈粒的单曲列表",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Ulena",
+    "album": "be",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Christian Kuria",
+    "album": "Toroka",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "afrobeats"
+    ],
+    "new": [
+      "R&B",
+      "soul"
+    ]
+  },
+  {
+    "artist": "#1 Dads",
+    "album": "About Face",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "Pieater",
+      "Fly The Light Records"
+    ]
+  },
+  {
+    "artist": "陈婧霏",
+    "album": "梦里水乡 (青春重置计划5 请回答1999)",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Appleby",
+    "album": "Young Lost Love",
+    "status": "ok",
+    "old": [
+      "soul",
+      "R&B",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "Ashlee",
+    "album": "Prisoner",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "indie-pop"
+    ],
+    "new": [
+      "R&B"
+    ]
+  },
+  {
+    "artist": "Hang Øver",
+    "album": "Clearly",
+    "status": "ok",
+    "reason": "no valid tags",
+    "new": [
+      "France"
+    ],
+    "old": [],
+    "retry": true
+  },
+  {
+    "artist": "卫兰",
+    "album": "一格格",
+    "status": "ok",
+    "old": [
+      "cantopop",
+      "R&B",
+      "pop"
+    ],
+    "new": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "九连真人",
+    "album": "阿民",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "郑宜农",
+    "album": "海王星",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk rock",
+      "taiwanese indie"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "pop",
+      "Cpop"
+    ]
+  },
+  {
+    "artist": "陶喆",
+    "album": "太平盛世",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "mandopop",
+      "soul"
+    ],
+    "new": [
+      "C-Pop",
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "阿肆",
+    "album": "成为了这样的大人，并不可耻",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "孟慧圆",
+    "album": "盲人戴莫",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Crispy脆乐团",
+    "album": "玩伴",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "宇宙人",
+    "album": "地球漫步",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "alternative pop",
+      "pop rock"
+    ],
+    "new": [
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Mac Demarco",
+    "album": "This Old Dog",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "lo-fi rock"
+    ],
+    "new": [
+      "Lofi",
+      "Indie",
+      "Post-Punk",
+      "experimental"
+    ]
+  },
+  {
+    "artist": "Luisa Sobral",
+    "album": "There's A Flower In My Bedroom",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "jazz",
+      "Vocal Jazz"
+    ]
+  },
+  {
+    "artist": "风子",
+    "album": "我们民谣2022 第2期",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Mree",
+    "album": "Some Days",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "dream pop"
+    ],
+    "new": [
+      "singer-songwriter",
+      "Indie",
+      "folk",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Sunny Shin",
+    "album": "Your Sunday (Sunday Morning) [feat. Ampoff]",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "痛仰乐队",
+    "album": "未来的路",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "関取花",
+    "album": "THE",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "japanese folk"
+    ],
+    "new": [
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "旺福",
+    "album": "一人一半",
+    "status": "ok",
+    "old": [
+      "pop",
+      "indie-pop",
+      "taiwanese pop"
+    ],
+    "new": [
+      "Taiwan"
+    ]
+  },
+  {
+    "artist": "Pajaro Sunrise",
+    "album": "Pajaro Sunrise",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "folk",
+      "Indie",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "安田レイ",
+    "album": "It's you",
+    "status": "ok",
+    "reason": "no valid tags",
+    "new": [
+      "J-Pop",
+      "Female Vocalists"
+    ],
+    "old": [],
+    "retry": true
+  },
+  {
+    "artist": "PASCALS",
+    "album": "TBS系 金曜ドラマ「凪のお暇」オリジナル・サウンドトラック",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "new-classical",
+      "soundtrack"
+    ],
+    "new": [
+      "Indie",
+      "Japanexperimental",
+      "pop"
+    ]
+  },
+  {
+    "artist": "郑宜农",
+    "album": "水逆",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk rock",
+      "taiwanese indie"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "pop",
+      "Cpop"
+    ]
+  },
+  {
+    "artist": "七尾旅人",
+    "album": "リトルメロディ",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "experimental"
+    ],
+    "new": [
+      "Alternative",
+      "singer-songwriter",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Hank Williams",
+    "album": "40 Greatest Hits",
+    "status": "ok",
+    "old": [
+      "country",
+      "folk"
+    ],
+    "new": [
+      "country",
+      "Honky Tonk"
+    ]
+  },
+  {
+    "artist": "Edith Whiskers",
+    "album": "Home",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "acoustic",
+      "lofi folk"
+    ],
+    "new": [
+      "England"
+    ]
+  },
+  {
+    "artist": "陈粒",
+    "album": "洄游",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Chris Garneau",
+    "album": "El Radio",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "baroque pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "singer-songwriter",
+      "Indie",
+      "Piano",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Kamal.",
+    "album": "blue",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "neo-soul",
+      "Lofi"
+    ],
+    "new": [
+      "United Kingdom",
+      "soul"
+    ]
+  },
+  {
+    "artist": "铃木真海子",
+    "album": "Deep Green",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "理想真魔王乐队",
+    "album": "不用说",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "The 1975",
+    "album": "All I Need To Hear",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "synth-pop",
+      "alternative rock"
+    ],
+    "new": [
+      "Indie",
+      "indie-rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Crispy脆乐团",
+    "album": "装帧",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "Boz Scaggs",
+    "album": "Dig",
+    "status": "ok",
+    "old": [
+      "blue-eyed soul",
+      "soft rock",
+      "R&B"
+    ],
+    "new": [
+      "rock",
+      "Guitar",
+      "Classic Rock",
+      "Progressive Rock"
+    ]
+  },
+  {
+    "artist": "张蔓莎",
+    "album": "到时见 (Acoustic Version)",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "JNR Williams",
+    "album": "Here B4",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "soul"
+    ],
+    "new": [
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "mxmtoon",
+    "album": "cliché",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "lofi pop",
+      "bedroom pop"
+    ],
+    "new": [
+      "indie-pop",
+      "pop",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "宇宙人",
+    "album": "右脑",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "alternative pop",
+      "pop rock"
+    ],
+    "new": [
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "柯智棠",
+    "album": "你不真的想流浪",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "singer-songwriter",
+      "C-Pop",
+      "Taiwan",
+      "Mandopop"
+    ]
+  },
+  {
+    "artist": "Luke Chiang",
+    "album": "May I Ask (feat. Alexis Kim)",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "mandopop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "soul",
+      "pop",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "Eric Clapton",
+    "album": "24 Nights",
+    "status": "ok",
+    "old": [
+      "rock",
+      "blues rock",
+      "classic rock"
+    ],
+    "new": [
+      "blues",
+      "Classic Rock",
+      "Blues Rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Trent Dabbs",
+    "album": "Set for Life",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "singer-songwriter",
+      "pop"
+    ],
+    "new": [
+      "singer-songwriter",
+      "Alternative",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Ardhito Pramono",
+    "album": "Craziest thing happened in my backyard (Explicit)",
+    "status": "ok",
+    "old": [
+      "jazz pop",
+      "R&B"
+    ],
+    "new": [
+      "jazz"
+    ]
+  },
+  {
+    "artist": "clairo",
+    "album": "moth girl",
+    "status": "ok",
+    "old": [
+      "bedroom pop",
+      "indie-pop",
+      "Lofi"
+    ],
+    "new": [
+      "Bedroom Pop",
+      "indie-pop",
+      "dream pop",
+      "Lofi"
+    ]
+  },
+  {
+    "artist": "Matt Maltese",
+    "album": "Krystal (Explicit)",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "baroque pop"
+    ],
+    "new": [
+      "indie-pop",
+      "pop",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "旅行团乐队",
+    "album": "Go East",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "许钧",
+    "album": "美梦公司",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "LÜCY",
+    "album": "Folk Ÿou Live Session",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "jazz pop",
+      "R&B"
+    ],
+    "new": [
+      "Taiwan",
+      "dream pop"
+    ]
+  },
+  {
+    "artist": "还潮",
+    "album": "三江夜游（The End of Delusion and the Last Ningbonese）",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Anthony Lazaro",
+    "album": "People on Vacation",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "R&B",
+      "jazz",
+      "Men Written By Women",
+      "Gentle Indie Sounds"
+    ]
+  },
+  {
+    "artist": "陈绮贞",
+    "album": "沙发海",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "Taiwan",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "孙燕姿",
+    "album": "逆光",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "C-Pop"
+    ]
+  },
+  {
+    "artist": "何欣穗",
+    "album": "她的。发光摇摆",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "jazz pop",
+      "taiwanese indie"
+    ],
+    "new": [
+      "Indie",
+      "Taiwan"
+    ]
+  },
+  {
+    "artist": "宇宙人",
+    "album": "不简单",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "alternative pop",
+      "pop rock"
+    ],
+    "new": [
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "The Beatles",
+    "album": "Sgt. Pepper's Lonely Hearts Club Band (Super Deluxe Edition)",
+    "status": "ok",
+    "old": [
+      "rock",
+      "pop rock",
+      "classic rock"
+    ],
+    "new": [
+      "rock",
+      "Classic Rock",
+      "Psychedelic Rock",
+      "Mixtaperoom"
+    ]
+  },
+  {
+    "artist": "陈奕迅",
+    "album": "L.O.V.E.",
+    "status": "ok",
+    "old": [
+      "cantopop",
+      "mandopop",
+      "pop"
+    ],
+    "new": [
+      "Hong Kong",
+      "pop",
+      "Cantonese"
+    ]
+  },
+  {
+    "artist": "吴青峰",
+    "album": "册叶一：一与一",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Bonaparte",
+    "album": "Melody X",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "synth-pop",
+      "electronic"
+    ],
+    "new": [
+      "Indie",
+      "Dance-Punk",
+      "Electro Rock",
+      "Dance Punk"
+    ]
+  },
+  {
+    "artist": "陈婧霏",
+    "album": "陈婧霏",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "RADWIMPS",
+    "album": "人間開花",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "alternative rock",
+      "pop rock"
+    ],
+    "new": [
+      "J-Rock",
+      "rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Mac Miller",
+    "album": "Circles (Explicit)",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "jazz rap",
+      "alternative hip hop"
+    ],
+    "new": [
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "壞特？te",
+    "album": "A Bedroom of One's Own",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "宇多田光",
+    "album": "初恋 (2022 Remastering)",
+    "status": "ok",
+    "old": [
+      "J-pop",
+      "R&B",
+      "electropop"
+    ],
+    "new": [
+      "Female Vocalists",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Humbert Humbert",
+    "album": "アメリカの友人",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "acoustic"
+    ],
+    "new": [
+      "folk"
+    ]
+  },
+  {
+    "artist": "旅行团乐队",
+    "album": "似你似我",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "LOVELY SUNDAY",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "赵雷",
+    "album": "署前街少年",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "藤井风",
+    "album": "LOVE ALL SERVE ALL",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "LUCKY TAPES",
+    "album": "Blend",
+    "status": "ok",
+    "old": [
+      "city pop",
+      "soul",
+      "funk"
+    ],
+    "new": [
+      "funk"
+    ]
+  },
+  {
+    "artist": "The Velvet Underground",
+    "album": "The Velvet Underground",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "art rock"
+    ],
+    "new": [
+      "rock",
+      "60S",
+      "Classic Rock"
+    ]
+  },
+  {
+    "artist": "The Velvet Underground",
+    "album": "The Velvet Underground and Nico",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "art rock"
+    ],
+    "new": [
+      "Garage Rock",
+      "rock",
+      "Proto-Punk",
+      "Psychedelic Rock"
+    ]
+  },
+  {
+    "artist": "関取花",
+    "album": "きんぎょの夢",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "japanese folk"
+    ],
+    "new": [
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "藤井风",
+    "album": "何なんw EP",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "FKJ",
+    "album": "Way Out",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "electronic",
+      "funk"
+    ],
+    "new": [
+      "electronic",
+      "funk",
+      "downtempo",
+      "Nu Jazz"
+    ]
+  },
+  {
+    "artist": "Still Woozy",
+    "album": "Kenny",
+    "status": "ok",
+    "old": [
+      "bedroom pop",
+      "psychedelic pop",
+      "indie-pop"
+    ],
+    "new": [
+      "Bedroom Pop",
+      "Lofi",
+      "Indietronica",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Rich Brian",
+    "album": "1999",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "trap",
+      "asian hip hop"
+    ],
+    "new": [
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "陈绮贞",
+    "album": "太阳巡回演唱会Immortal Tour影音记录",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "Taiwan",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Billie Holiday",
+    "album": "Billie Holiday Sings",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "cool jazz"
+    ],
+    "new": [
+      "Vocal Jazz",
+      "jazz",
+      "50S",
+      "Title Is Declarative"
+    ]
+  },
+  {
+    "artist": "以莉·高露",
+    "album": "轻快的生活",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "谢春花",
+    "album": "知非",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "James Blunt",
+    "album": "Back To Bedlam [U.K. Alternate Packaging]",
+    "status": "ok",
+    "old": [
+      "pop",
+      "soft rock",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "singer-songwriter",
+      "acoustic",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Dennis Kuo",
+    "album": "Track in Time",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "piano",
+      "Lofi"
+    ],
+    "new": [
+      "Piano",
+      "Lesser Known Yet Streamable Artists"
+    ]
+  },
+  {
+    "artist": "郑宜农",
+    "album": "给天王星 (Explicit)",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk rock",
+      "taiwanese indie"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "pop",
+      "Cpop"
+    ]
+  },
+  {
+    "artist": "岛屿心情",
+    "album": "?1",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "VH (Vast & Hazy)",
+    "album": "Vast & Hazy",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "folk rock"
+    ],
+    "new": [
+      "Taiwan"
+    ]
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "Real Love Is...",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "陈婧霏",
+    "album": "逝去的海",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Shawn Mendes",
+    "album": "Wonder (Holiday Deluxe)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "folk-pop"
+    ],
+    "new": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "陈辉阳",
+    "album": "Shall We Talk",
+    "status": "ok",
+    "old": [
+      "cantopop",
+      "soundtrack",
+      "orchestral"
+    ],
+    "new": [
+      "Piano",
+      "classical",
+      "Opera",
+      "String"
+    ]
+  },
+  {
+    "artist": "Cyndi Lauper",
+    "album": "Love Songs - 100 Hits",
+    "status": "ok",
+    "old": [
+      "pop",
+      "80s pop",
+      "rock"
+    ],
+    "new": [
+      "pop",
+      "80S",
+      "Female Vocalists",
+      "New Wave"
+    ]
+  },
+  {
+    "artist": "SoulFa 灵魂沙发",
+    "album": "Slumber Days",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "Maybe Maybe",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Andrew Prahlow",
+    "album": "Outer Wilds: Echoes of the Eye (Original Game Soundtrack)",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "soundtrack",
+      "space ambient"
+    ],
+    "new": [
+      "Video Game Music",
+      "ambient",
+      "soundtrack"
+    ]
+  },
+  {
+    "artist": "mxmtoon",
+    "album": "creep",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "lofi pop",
+      "bedroom pop"
+    ],
+    "new": [
+      "indie-pop",
+      "pop",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "祁紫檀",
+    "album": "Dear Friend",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Teleman",
+    "album": "Breakfast",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "synth-pop",
+      "indie-electronic"
+    ],
+    "new": [
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "海尾巴",
+    "album": "LONG",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Peach Tree Rascals",
+    "album": "Plus (Explicit)",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "hiphop soul",
+      "Lofi"
+    ],
+    "new": [
+      "Indie",
+      "hiphop",
+      "indie-pop",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "圣代",
+    "album": "破茧成蝶 (Rebirth)",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "张蔓姿",
+    "album": "深夜浪漫",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Trap the Moon",
+    "album": "Trap the Moon 陷阱那月",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Make Major",
+    "album": "Empty",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "张悬",
+    "album": "亲爱的…我还不知道",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "Taiwan",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "旅行团乐队",
+    "album": "靠近一点",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "해리안 윤소안",
+    "album": "Harryan Yoonsoan Christmas Carol (Cover)",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "SILICON ESTATE",
+    "album": "If everything was good",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "ambient",
+      "Lofi"
+    ],
+    "new": [
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "NIKI",
+    "album": "Hallway Weather",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indonesian pop",
+      "indie-pop"
+    ],
+    "new": [
+      "Hardcore",
+      "Trance",
+      "Techno",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "恰恰恰恰恰",
+    "album": "自叹不如",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Anson Seabra",
+    "album": "a heartfelt holiday",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Neeks",
+    "album": "when you smile",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "bedroom pop",
+      "Lofi"
+    ],
+    "new": [
+      "chillout",
+      "Chillhop"
+    ]
+  },
+  {
+    "artist": "孙燕姿",
+    "album": "完美的一天",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "C-Pop"
+    ]
+  },
+  {
+    "artist": "FKJ",
+    "album": "Just Piano",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "electronic",
+      "funk"
+    ],
+    "new": [
+      "electronic",
+      "funk",
+      "downtempo",
+      "Nu Jazz"
+    ]
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "Lemonade",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Frank Ocean",
+    "album": "Blonde",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "alternative R&B",
+      "experimental"
+    ],
+    "new": [
+      "Alternative Rnb",
+      "Art Pop",
+      "neo-soul"
+    ]
+  },
+  {
+    "artist": "张蔓姿",
+    "album": "关于缠绵",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Aaron Taylor",
+    "album": "The Long Way Home",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk"
+    ],
+    "new": [
+      "soul",
+      "chillout",
+      "neo-soul",
+      "Lounge"
+    ]
+  },
+  {
+    "artist": "椅子乐团 The Chairs",
+    "album": "Archie's Funeral",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Neo Retros",
+    "album": "Listen to your leader",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "folk pop",
+      "acoustic"
+    ],
+    "new": [
+      "indie-rock",
+      "Indie",
+      "Polish Rock"
+    ]
+  },
+  {
+    "artist": "Brandi Carlile",
+    "album": "By the Way, I Forgive You",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "country rock"
+    ],
+    "new": [
+      "folk rock",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "浅堤",
+    "album": "不完整的村庄",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "南拳妈妈",
+    "album": "南拳妈妈的夏天",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "pop",
+      "indie-pop"
+    ],
+    "new": [
+      "pop",
+      "C-Pop",
+      "Cpop"
+    ]
+  },
+  {
+    "artist": "Durand Jones & The Indications",
+    "album": "Cruisin to the Park",
+    "status": "ok",
+    "old": [
+      "soul",
+      "R&B",
+      "neo-soul"
+    ],
+    "new": [
+      "soul",
+      "neo-soul"
+    ]
+  },
+  {
+    "artist": "宇宙人",
+    "album": "理想状态",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "alternative pop",
+      "pop rock"
+    ],
+    "new": [
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Stacey Kent",
+    "album": "The Changing Lights",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "cool jazz"
+    ],
+    "new": [
+      "Vocal Jazz",
+      "Albums I Have Listened",
+      "contemporary-jazz"
+    ]
+  },
+  {
+    "artist": "刘悦spam",
+    "album": "而立",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "韦礼安",
+    "album": "Sounds of My Life",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "indie-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "pop",
+      "Male Vocalists"
+    ]
+  },
+  {
+    "artist": "McFly",
+    "album": "Anthology Tour (The Hits Live)",
+    "status": "ok",
+    "old": [
+      "pop rock",
+      "power pop",
+      "britpop"
+    ],
+    "new": [
+      "pop rock",
+      "rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Trent Dabbs",
+    "album": "Positano",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "singer-songwriter",
+      "pop"
+    ],
+    "new": [
+      "singer-songwriter",
+      "Alternative",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Masego",
+    "album": "Studying Abroad",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "hiphop",
+      "R&B"
+    ],
+    "new": [
+      "jazz",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "宇宙人",
+    "album": "蓝色的你",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "alternative pop",
+      "pop rock"
+    ],
+    "new": [
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "宇宙人",
+    "album": "一万小时",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "alternative pop",
+      "pop rock"
+    ],
+    "new": [
+      "Taiwan",
+      "pop"
+    ]
+  },
+  {
+    "artist": "张悬",
+    "album": "My Life Will...",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "Taiwan",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "周杰伦",
+    "album": "八度空间",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "R&B",
+      "pop"
+    ],
+    "new": [
+      "C-Pop",
+      "pop",
+      "Jay Chou"
+    ]
+  },
+  {
+    "artist": "Uyama Hiroto",
+    "album": "Stratus",
+    "status": "ok",
+    "old": [
+      "jazz hiphop",
+      "electronic",
+      "Lofi"
+    ],
+    "new": [
+      "jazz",
+      "Nu-Jazz"
+    ]
+  },
+  {
+    "artist": "Leo1Bee",
+    "album": "Rosy Mercury",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Lana Del Rey",
+    "album": "Lust for Life",
+    "status": "ok",
+    "old": [
+      "dream pop",
+      "baroque pop"
+    ],
+    "new": [
+      "pop",
+      "Alternative",
+      "dream pop"
+    ]
+  },
+  {
+    "artist": "Uyama Hiroto",
+    "album": "freedom of the son",
+    "status": "ok",
+    "old": [
+      "jazz hiphop",
+      "electronic",
+      "Lofi"
+    ],
+    "new": [
+      "downtempo",
+      "Lo-Fi Beat"
+    ]
+  },
+  {
+    "artist": "Boyce Avenue",
+    "album": "Careless Whisper",
+    "status": "ok",
+    "old": [
+      "acoustic",
+      "pop",
+      "cover band"
+    ],
+    "new": [
+      "acoustic",
+      "Alternative",
+      "rock",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "郑仁",
+    "album": "Melody Remedy",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "朴树",
+    "album": "猎户星座",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "iwamizu",
+    "album": "Alone",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "electronic",
+      "Lofi"
+    ],
+    "new": [
+      "Lo-Fi Hiphop",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Luna Is A Bep",
+    "album": "每当幻变时",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "dream pop",
+      "bedroom pop"
+    ],
+    "new": [
+      "Indie",
+      "hiphop",
+      "Hong Kong"
+    ]
+  },
+  {
+    "artist": "丁可",
+    "album": "Island",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Conan Gray",
+    "album": "Memories",
+    "status": "ok",
+    "old": [
+      "pop",
+      "indie-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "indie-pop",
+      "Indie",
+      "My Top Songs"
+    ]
+  },
+  {
+    "artist": "朱恩池ZGODZ",
+    "album": "午餐后的无聊人生",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "imase",
+    "album": "逃避行",
+    "status": "ok",
+    "old": [
+      "J-pop",
+      "city pop",
+      "electropop"
+    ],
+    "new": [
+      "pop",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "RADWIMPS",
+    "album": "ANTI ANTI GENERATION",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "alternative rock",
+      "pop rock"
+    ],
+    "new": [
+      "J-Rock",
+      "rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "iwamizu",
+    "album": "Alone 2",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "electronic",
+      "Lofi"
+    ],
+    "new": [
+      "Lo-Fi Hiphop",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Luna Is A Bep",
+    "album": "A Day With Me",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "dream pop",
+      "bedroom pop"
+    ],
+    "new": [
+      "Indie",
+      "hiphop",
+      "Hong Kong"
+    ]
+  },
+  {
+    "artist": "Saint Motel",
+    "album": "Voyeur",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "art pop",
+      "indie-rock"
+    ],
+    "new": [
+      "Finished",
+      "On The Records",
+      "2026 Albums"
+    ]
+  },
+  {
+    "artist": "Berhana",
+    "album": "Berhana",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "psychedelic soul"
+    ],
+    "new": [
+      "R&B",
+      "soul"
+    ]
+  },
+  {
+    "artist": "The City of Prague Philharmonic Orchestra",
+    "album": "100 Greatest Film Themes - Take 3",
+    "status": "ok",
+    "old": [
+      "classical",
+      "soundtrack",
+      "orchestral"
+    ],
+    "new": [
+      "classical",
+      "Symphonic",
+      "soundtrack",
+      "Orchestra"
+    ]
+  },
+  {
+    "artist": "孙燕姿",
+    "album": "是时候",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "C-Pop"
+    ]
+  },
+  {
+    "artist": "陈绮贞",
+    "album": "夏季练习曲世界巡回现场录音",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "Taiwan",
+      "indie-pop"
+    ]
+  },
+  {
+    "artist": "Rejjie Snow",
+    "album": "Dear Annie: Part 1",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "alternative hip hop",
+      "soul"
+    ],
+    "new": [
+      "hiphop",
+      "Underground Hip-Hop"
+    ]
+  },
+  {
+    "artist": "歪歪歪",
+    "album": "出乎意歪",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "杨和苏KeyNG",
+    "album": "荒诞故事",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Andy Tubman",
+    "album": "Quiet Inside",
+    "status": "ok",
+    "old": [
+      "singer-songwriter",
+      "folk",
+      "acoustic"
+    ],
+    "new": [
+      "Country Folk",
+      "folk",
+      "Andy Tubman",
+      "Jacket"
+    ]
+  },
+  {
+    "artist": "2LSON",
+    "album": "Begging You",
+    "status": "ok",
+    "old": [
+      "korean indie",
+      "ballad",
+      "R&B"
+    ],
+    "new": [
+      "soul",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "10CM",
+    "album": "윤일상 작곡가 21주년 기념 앨범 I'm 21 Part.1",
+    "status": "ok",
+    "old": [
+      "korean indie",
+      "ballad",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie",
+      "acoustic",
+      "Korean Indie"
+    ]
+  },
+  {
+    "artist": "Limbo",
+    "album": "Operate (feat. Jay Squared & Chance Thrash)",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "hiphop",
+      "experimental"
+    ],
+    "new": [
+      "Grindcore",
+      "Darkwave",
+      "Ebm",
+      "Industrial"
+    ]
+  },
+  {
+    "artist": "Runrun",
+    "album": "Mirror EP",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "田梦成",
+    "album": "倒立的王冠",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "黑屋乐队",
+    "album": "荒野便利店",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "GONTITI",
+    "album": "オールタイム・ベスト",
+    "status": "ok",
+    "old": [
+      "contemporary-jazz",
+      "acoustic"
+    ],
+    "new": [
+      "acoustic",
+      "Guitar"
+    ]
+  },
+  {
+    "artist": "Hard Life",
+    "album": "see you later maybe never (demos)",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "alternative",
+      "emo"
+    ],
+    "new": [
+      "R&B",
+      "indie-pop",
+      "funk",
+      "pop"
+    ]
+  },
+  {
+    "artist": "落日飛車",
+    "album": "Subtropical South",
+    "status": "ok",
+    "old": [
+      "dream pop",
+      "indie-rock",
+      "soft rock"
+    ],
+    "new": [
+      "indie-rock",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Surfaces",
+    "album": "Pacifico",
+    "status": "ok",
+    "old": [
+      "pop",
+      "feel-good pop",
+      "folk-pop"
+    ],
+    "new": [
+      "soul",
+      "pop",
+      "R&B",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Chevy",
+    "album": "Morning Coffee (bubble ver.)",
+    "status": "ok",
+    "old": [
+      "Lofi",
+      "indie-pop",
+      "bedroom pop"
+    ],
+    "new": [
+      "Nwobhm",
+      "Heavy Metal"
+    ]
+  },
+  {
+    "artist": "Imagine Dragons",
+    "album": "Best Covers Ever (Explicit)",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "pop rock",
+      "electropop"
+    ],
+    "new": [
+      "Indie",
+      "indie-rock",
+      "Alternative",
+      "rock"
+    ]
+  },
+  {
+    "artist": "fcj",
+    "album": "gamble (feat. demxntia)",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "lofi hiphop",
+      "jazz rap"
+    ],
+    "new": [
+      "Lofi",
+      "Beats",
+      "Instrumental Hip Hop"
+    ]
+  },
+  {
+    "artist": "Linkin Park",
+    "album": "A Thousand Suns(Explicit)",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "nu metal",
+      "rap rock"
+    ],
+    "new": [
+      "Nu Metal",
+      "rock",
+      "alternative rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Hana Vu",
+    "album": "How Many Times Have You Driven By",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "R&B",
+      "dream pop"
+    ],
+    "new": [
+      "dream pop",
+      "Indie",
+      "Lofi",
+      "shoegaze"
+    ]
+  },
+  {
+    "artist": "小霞",
+    "album": "我的美丽 (feat.PO8)",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "唐人踢",
+    "album": "苍山雾隐",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Tracy Chapman",
+    "album": "Greatest Hits",
+    "status": "ok",
+    "old": [
+      "singer-songwriter",
+      "folk",
+      "blues"
+    ],
+    "new": [
+      "folk",
+      "College Rock",
+      "Yearning",
+      "Literate"
+    ]
+  },
+  {
+    "artist": "Tai Verdes",
+    "album": "sheluvme",
+    "status": "ok",
+    "old": [
+      "pop",
+      "pop rock",
+      "singer-songwriter"
+    ],
+    "new": [
+      "indie-pop",
+      "Indie",
+      "Los Angeles"
+    ]
+  },
+  {
+    "artist": "Daniel Lanois",
+    "album": "The Music of Red Dead Redemption 2 (Original Soundtrack)",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "folk",
+      "atmospheric rock"
+    ],
+    "new": [
+      "singer-songwriter",
+      "folk",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "伍佰",
+    "album": "风平浪静",
+    "status": "ok",
+    "old": [
+      "rock",
+      "taiwanese rock",
+      "mandopop"
+    ],
+    "new": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "李想Evelyn",
+    "album": "星星开始坠跌",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "张惠妹",
+    "album": "偷故事的人",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "pop",
+      "power ballad"
+    ],
+    "new": [
+      "pop",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "Juliette Armanet",
+    "album": "À la Folie - Hageshiku (Japanese version)",
+    "status": "ok",
+    "old": [
+      "chanson",
+      "french pop"
+    ],
+    "new": [
+      "pop"
+    ]
+  },
+  {
+    "artist": "孟慧圆",
+    "album": "植物学家",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "马良",
+    "album": "再见迪曼",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "周杰伦",
+    "album": "寻找周杰伦",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "R&B",
+      "pop"
+    ],
+    "new": [
+      "C-Pop",
+      "pop",
+      "Jay Chou"
+    ]
+  },
+  {
+    "artist": "沈以诚",
+    "album": "侦探",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "海底时光机",
+    "album": "海底时光机",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "John Adams",
+    "album": "If I Ain't Got You (Acoustic)",
+    "status": "ok",
+    "old": [
+      "classical",
+      "minimalist",
+      "contemporary classical"
+    ],
+    "new": [
+      "Contemporary Classical",
+      "Minimalism",
+      "classical",
+      "Avant-Garde"
+    ]
+  },
+  {
+    "artist": "羊毛とおはな",
+    "album": "LIVE IN LIVING '10",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "japanese indie"
+    ],
+    "new": [
+      "acoustic",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "Isaac Gracie",
+    "album": "songs in black and white (live from the waiting room, 29.07.16)",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "singer-songwriter",
+      "soul"
+    ],
+    "new": [
+      "Indie",
+      "singer-songwriter",
+      "indie-folk",
+      "folk"
+    ]
+  },
+  {
+    "artist": "関取花",
+    "album": "中くらいの話",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "japanese folk"
+    ],
+    "new": [
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "Joel Hanson",
+    "album": "Traveling Light",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "acoustic"
+    ],
+    "new": [
+      "rock",
+      "Alternative",
+      "Christian Rock",
+      "christian"
+    ]
+  },
+  {
+    "artist": "Bahamas",
+    "album": "Bahamas Is Afie",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "soul",
+      "acoustic"
+    ],
+    "new": [
+      "singer-songwriter",
+      "rock",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "vietra",
+    "album": "ineedyou.",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indonesian pop",
+      "soul"
+    ],
+    "new": [
+      "folk",
+      "Ballad",
+      "Mellow Pop",
+      "Jakarta"
+    ]
+  },
+  {
+    "artist": "郭顶",
+    "album": "飞行器的执行周期",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Post Malone",
+    "album": "Stoney (Deluxe) [Clean]",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "pop rap",
+      "R&B"
+    ],
+    "new": [
+      "hiphop",
+      "Trap",
+      "Cloud Rap"
+    ]
+  },
+  {
+    "artist": "Faime",
+    "album": "Feels Like You",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "indie-pop"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "Chillwave",
+      "dream pop"
+    ]
+  },
+  {
+    "artist": "Aimee Mann",
+    "album": "2001 Grammy Nominees",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "alternative rock",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Female Vocalists",
+      "singer-songwriter",
+      "Indie",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Tiwa Savage",
+    "album": "Attention",
+    "status": "ok",
+    "old": [
+      "afrobeats",
+      "pop",
+      "R&B"
+    ],
+    "new": [
+      "Afrobeats",
+      "Nigeria",
+      "Afrobeat",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Davido",
+    "album": "Fall",
+    "status": "ok",
+    "old": [
+      "afrobeats",
+      "afro pop",
+      "dance"
+    ],
+    "new": [
+      "Afrobeat",
+      "Afrobeats",
+      "Nigeria"
+    ]
+  },
+  {
+    "artist": "Mac Miller",
+    "album": "GO:OD AM (Explicit)",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "jazz rap",
+      "alternative hip hop"
+    ],
+    "new": [
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "Regina Spektor",
+    "album": "Far (Bonus Track Version)",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "anti-folk",
+      "baroque pop"
+    ],
+    "new": [
+      "Female Vocalists",
+      "Indie",
+      "singer-songwriter",
+      "Piano"
+    ]
+  },
+  {
+    "artist": "Kat Edmonson",
+    "album": "Cafe Society (Original Motion Picture Soundtrack)",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "traditional pop",
+      "swing"
+    ],
+    "new": [
+      "jazz",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "GIVĒON",
+    "album": "Heartbreak Anniversary",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "pop"
+    ],
+    "new": [
+      "R&B",
+      "soul"
+    ]
+  },
+  {
+    "artist": "Matt Corby",
+    "album": "Rainbow Valley (Explicit)",
+    "status": "ok",
+    "old": [
+      "soul",
+      "folk",
+      "indie-folk"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Nujabes",
+    "album": "Modal Soul",
+    "status": "ok",
+    "old": [
+      "jazz hiphop",
+      "Lofi",
+      "hiphop"
+    ],
+    "new": [
+      "hiphop",
+      "Jazz Rap",
+      "Instrumental Hip Hop"
+    ]
+  },
+  {
+    "artist": "Nao",
+    "album": "Saturn (Explicit)",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "electronica",
+      "UK garage"
+    ],
+    "new": [
+      "R&B",
+      "soul",
+      "Female Vocalists",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Anne-Marie",
+    "album": "Speak Your Mind (Deluxe) [Explicit]",
+    "status": "ok",
+    "old": [
+      "pop",
+      "British pop",
+      "R&B"
+    ],
+    "new": [
+      "pop",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "Michael Jackson",
+    "album": "Invincible",
+    "status": "ok",
+    "old": [
+      "pop",
+      "R&B",
+      "soul"
+    ],
+    "new": [
+      "pop",
+      "soul",
+      "Michael Jackson"
+    ]
+  },
+  {
+    "artist": "还潮",
+    "album": "八月夜桂花（Nuit de Cellophane）",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "FKJ",
+    "album": "Ylang Ylang EP",
+    "status": "ok",
+    "old": [
+      "jazz",
+      "electronic",
+      "funk"
+    ],
+    "new": [
+      "electronic",
+      "funk",
+      "downtempo",
+      "Nu Jazz"
+    ]
+  },
+  {
+    "artist": "Luke Thompson",
+    "album": "Strum Strum",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "singer-songwriter"
+    ],
+    "new": [
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Bruno Major",
+    "album": "To Let A Good Thing Die",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "jazz"
+    ],
+    "new": [
+      "soul",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "Bruno Major",
+    "album": "Nothing",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "jazz"
+    ],
+    "new": [
+      "soul",
+      "R&B"
+    ]
+  },
+  {
+    "artist": "UMI",
+    "album": "Butterfly",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "Lofi",
+      "neo-soul"
+    ],
+    "new": [
+      "R&B"
+    ]
+  },
+  {
+    "artist": "vietra",
+    "album": "fly",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indonesian pop",
+      "soul"
+    ],
+    "new": [
+      "folk",
+      "Ballad",
+      "Mellow Pop",
+      "Jakarta"
+    ]
+  },
+  {
+    "artist": "Galdive",
+    "album": "Cloud",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "indonesian pop",
+      "Lofi"
+    ],
+    "new": [
+      "electronic",
+      "chillout",
+      "dream pop"
+    ]
+  },
+  {
+    "artist": "mamerico",
+    "album": "minuscule",
+    "status": "ok",
+    "old": [
+      "ambient",
+      "new-classical",
+      "minimalist"
+    ],
+    "new": [
+      "Shibuya-Kei"
+    ]
+  },
+  {
+    "artist": "Colde",
+    "album": "I'm In Love",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "Korean R&B",
+      "urban"
+    ],
+    "new": [
+      "soul",
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "Eliza Gilkyson",
+    "album": "Paradise Hotel",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "folk",
+      "americana"
+    ],
+    "new": [
+      "folk",
+      "Female Vocalists",
+      "singer-songwriter",
+      "Alt-Country"
+    ]
+  },
+  {
+    "artist": "刘维",
+    "album": "不得不爱",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "XXXTentacion",
+    "album": "? (Explicit)",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "emotional rap",
+      "alternative R&B"
+    ],
+    "new": [
+      "hiphop",
+      "Cloud Rap",
+      "Trap"
+    ]
+  },
+  {
+    "artist": "Hudson Thames",
+    "album": "Last Call",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "pop"
+    ],
+    "new": [
+      "Funky",
+      "pop",
+      "Dance",
+      "Male Vocalists"
+    ]
+  },
+  {
+    "artist": "sadeyes",
+    "album": "jaded (Explicit)",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "emotional rap",
+      "lofi hip hop"
+    ],
+    "new": [
+      "Emo Rap",
+      "hiphop"
+    ]
+  },
+  {
+    "artist": "Savoir Adore",
+    "album": "When the Summer Ends",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "synth-pop",
+      "dream pop"
+    ],
+    "new": [
+      "Indie",
+      "electronic",
+      "indie-pop",
+      "experimental"
+    ]
+  },
+  {
+    "artist": "Ivy Adara",
+    "album": "Famous",
+    "status": "ok",
+    "old": [
+      "pop",
+      "dance pop",
+      "electropop"
+    ],
+    "new": [
+      "pop",
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "Sophie Rose",
+    "album": "Famous (Explicit)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "dance pop",
+      "country pop"
+    ],
+    "new": [
+      "pop",
+      "Ark Music Factory"
+    ]
+  },
+  {
+    "artist": "Green Day",
+    "album": "21st Century Breakdown",
+    "status": "ok",
+    "old": [
+      "punk rock",
+      "alternative rock"
+    ],
+    "new": [
+      "Punk Rock",
+      "rock",
+      "Pop Punk"
+    ]
+  },
+  {
+    "artist": "Coldplay",
+    "album": "Mylo Xyloto",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "pop rock",
+      "britpop"
+    ],
+    "new": [
+      "rock",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Chinese Football",
+    "album": "Continue?",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Carl Orrje Piano Ensemble",
+    "album": "スタジオジブリ作品集 Ⅱ",
+    "status": "ok",
+    "old": [
+      "classical",
+      "soundtrack",
+      "piano"
+    ],
+    "new": [
+      "Piano",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Любэ",
+    "album": "Полустаночки",
+    "status": "ok",
+    "old": [
+      "rock",
+      "russian rock",
+      "folk rock"
+    ],
+    "new": [
+      "Russian Rock",
+      "folk rock"
+    ]
+  },
+  {
+    "artist": "薛德勇",
+    "album": "好心分手",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Deli Spice",
+    "album": "韩国经典歌曲集同感3 旅行",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "korean indie",
+      "pop rock"
+    ],
+    "new": [
+      "rock"
+    ]
+  },
+  {
+    "artist": "Rod Stewart",
+    "album": "Atlantic Crossing",
+    "status": "ok",
+    "old": [
+      "rock",
+      "soft rock",
+      "blue-eyed soul"
+    ],
+    "new": [
+      "Classic Rock",
+      "rock",
+      "Soft Rock",
+      "70S"
+    ]
+  },
+  {
+    "artist": "骑自行车的风景",
+    "album": "2004国语最强原唱大合辑",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "盘尼西林乐队",
+    "album": "与世界温暖相拥 Embrace the world",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "中村遥",
+    "album": "Grace",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Daniel Powter",
+    "album": "Under the Radar",
+    "status": "ok",
+    "old": [
+      "pop",
+      "piano pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "soul",
+      "Male Vocalists"
+    ]
+  },
+  {
+    "artist": "Sam Smith",
+    "album": "Lay Me Down (Red Nose Day 2015)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "R&B",
+      "soul"
+    ],
+    "new": [
+      "soul",
+      "pop",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "The Chainsmokers",
+    "album": "Inside Out",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "edm",
+      "pop"
+    ],
+    "new": [
+      "electronic",
+      "pop",
+      "House",
+      "Electro House"
+    ]
+  },
+  {
+    "artist": "Keira Knightley",
+    "album": "Begin Again - Music From And Inspired By The Original Motion Picture",
+    "status": "ok",
+    "old": [
+      "pop",
+      "indie-pop",
+      "folk pop"
+    ],
+    "new": [
+      "soundtrack",
+      "Female Vocalists",
+      "Actress"
+    ]
+  },
+  {
+    "artist": "张震岳",
+    "album": "OK",
+    "status": "ok",
+    "old": [
+      "rock",
+      "taiwanese rock",
+      "mandopop"
+    ],
+    "new": [
+      "Taiwan",
+      "Soft Rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Ekali",
+    "album": "Leaving (feat. Yuna)",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "future bass",
+      "ambient"
+    ],
+    "new": [
+      "Trap",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Jason Mraz",
+    "album": "Have It All",
+    "status": "ok",
+    "old": [
+      "pop",
+      "acoustic pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "acoustic",
+      "singer-songwriter",
+      "pop",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "张震岳",
+    "album": "中国新说唱2019 第10期",
+    "status": "ok",
+    "old": [
+      "rock",
+      "taiwanese rock",
+      "mandopop"
+    ],
+    "new": [
+      "Taiwan",
+      "Soft Rock",
+      "pop"
+    ]
+  },
+  {
+    "artist": "Bobby Vinton",
+    "album": "Mr. Lonely",
+    "status": "ok",
+    "old": [
+      "traditional pop",
+      "oldies",
+      "polish-american"
+    ],
+    "new": [
+      "Oldies",
+      "60S",
+      "pop",
+      "Easy Listening"
+    ]
+  },
+  {
+    "artist": "Imagine Dragons",
+    "album": "Evolve",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "pop rock",
+      "electropop"
+    ],
+    "new": [
+      "Indie",
+      "indie-rock",
+      "Alternative",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Nothing More",
+    "album": "The Stories We Tell Ourselves (Explicit)",
+    "status": "ok",
+    "old": [
+      "alternative metal",
+      "hard rock"
+    ],
+    "new": [
+      "Progressive Rock",
+      "alternative rock",
+      "Alternative Metal",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Barcelona",
+    "album": "Love You",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "pop rock"
+    ],
+    "new": [
+      "Indie",
+      "indie-pop",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "Sophie Hunger",
+    "album": "1983",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "soul",
+      "folk"
+    ],
+    "new": [
+      "Albumsdoudoune",
+      "Albums I Own On Vinyl"
+    ]
+  },
+  {
+    "artist": "ThimLife",
+    "album": "Sweetheart",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "孙骁",
+    "album": "丹歌惊鸿 (《一人之下》动画片尾曲王也角色歌)",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Rosie Thomas",
+    "album": "These Friends of Mine",
+    "status": "ok",
+    "old": [
+      "indie-folk",
+      "singer-songwriter",
+      "acoustic"
+    ],
+    "new": [
+      "folk",
+      "My Private Work Station"
+    ]
+  },
+  {
+    "artist": "易烊千玺",
+    "album": "精彩才刚刚开始",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Bruno Mars",
+    "album": "The Grenade Sessions",
+    "status": "ok",
+    "old": [
+      "pop",
+      "R&B",
+      "funk"
+    ],
+    "new": [
+      "pop",
+      "R&B",
+      "Male Vocalists"
+    ]
+  },
+  {
+    "artist": "Whilk",
+    "album": "I Want Your Lovin'",
+    "status": "failed",
+    "reason": "Album not found"
+  },
+  {
+    "artist": "方大同",
+    "album": "Soulboy",
+    "status": "ok",
+    "old": [
+      "R&B",
+      "soul",
+      "mandopop"
+    ],
+    "new": [
+      "Groovy",
+      "Nice Lyrics"
+    ]
+  },
+  {
+    "artist": "英雄联盟",
+    "album": "Awaken (ft. Valerie Broussard) | League of Legends Cinematic - Season 2019",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Spongebob Squarepants",
+    "album": "SpongeBob's Greatest Hits",
+    "status": "ok",
+    "old": [
+      "soundtrack",
+      "children music"
+    ],
+    "new": [
+      "Nick Toons",
+      "Nickelodeon",
+      "Spongebob",
+      "soundtrack"
+    ]
+  },
+  {
+    "artist": "Post Malone",
+    "album": "Chill Rap",
+    "status": "ok",
+    "old": [
+      "hiphop",
+      "pop rap",
+      "R&B"
+    ],
+    "new": [
+      "hiphop",
+      "Trap",
+      "Cloud Rap"
+    ]
+  },
+  {
+    "artist": "Andreas Bourani",
+    "album": "Hey",
+    "status": "ok",
+    "old": [
+      "pop",
+      "german pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "pop",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "Daoko",
+    "album": "打上花火 (初回限定盤)",
+    "status": "ok",
+    "old": [
+      "J-pop",
+      "electropop"
+    ],
+    "new": [
+      "hiphop",
+      "electronic"
+    ]
+  },
+  {
+    "artist": "在忠",
+    "album": "我走后",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "李笛",
+    "album": "응답하라 1988 OST Part 2 (Reply 1988 (Original Television Soundtrack), Pt. 2)",
+    "status": "failed",
+    "reason": "no valid tags"
+  },
+  {
+    "artist": "Frank Sinatra",
+    "album": "Nothing But The Best",
+    "status": "ok",
+    "old": [
+      "traditional pop",
+      "swing",
+      "jazz"
+    ],
+    "new": [
+      "Spokojne",
+      "Frank Sinatra",
+      "Good Ablum"
+    ]
+  },
+  {
+    "artist": "Ludovico Einaudi",
+    "album": "Islands - Essential Einaudi",
+    "status": "ok",
+    "old": [
+      "neo-classical",
+      "classical"
+    ],
+    "new": [
+      "Piano",
+      "Contemporary Classical",
+      "classical"
+    ]
+  },
+  {
+    "artist": "斉藤和義",
+    "album": "45 STONES",
+    "status": "ok",
+    "old": [
+      "japanese folk",
+      "singer-songwriter",
+      "acoustic"
+    ],
+    "new": [
+      "rock",
+      "folk",
+      "J-Rock"
+    ]
+  },
+  {
+    "artist": "梁博",
+    "album": "歌手 第10期",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Johnny Cash",
+    "album": "American IV: The Man Comes Around",
+    "status": "ok",
+    "old": [
+      "country",
+      "folk",
+      "rock"
+    ],
+    "new": [
+      "country",
+      "Johnny Cash"
+    ]
+  },
+  {
+    "artist": "Electric Light Orchestra",
+    "album": "Vol. 2 Guardians of the Galaxy: Awesome Mix Vol. 2 (Original Motion Picture Soundtrack)",
+    "status": "ok",
+    "old": [
+      "rock",
+      "symphonic rock"
+    ],
+    "new": [
+      "Classic Rock",
+      "Progressive Rock",
+      "rock",
+      "70S"
+    ]
+  },
+  {
+    "artist": "王以太",
+    "album": "中国新说唱 第9期",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Elton John",
+    "album": "El Rey León (Banda Sonora Original en Castellano)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "rock",
+      "piano rock"
+    ],
+    "new": [
+      "pop",
+      "Classic Rock",
+      "singer-songwriter",
+      "rock"
+    ]
+  },
+  {
+    "artist": "法老",
+    "album": "生于未来 (Explicit)",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Alan Walker",
+    "album": "All Falls Down",
+    "status": "ok",
+    "old": [
+      "electronic",
+      "edm",
+      "progressive house"
+    ],
+    "new": [
+      "electronic",
+      "House",
+      "Dance"
+    ]
+  },
+  {
+    "artist": "Rie Fu",
+    "album": "Life is Like a Boat (日本版)",
+    "status": "ok",
+    "old": [
+      "J-pop",
+      "indie-pop",
+      "folk pop"
+    ],
+    "new": [
+      "Female Vocalists"
+    ]
+  },
+  {
+    "artist": "Taylor Swift",
+    "album": "Red (Deluxe Edition)",
+    "status": "ok",
+    "old": [
+      "country pop",
+      "pop",
+      "folk-pop"
+    ],
+    "new": [
+      "Red (Taylor'S Version)",
+      "pop",
+      "country"
+    ]
+  },
+  {
+    "artist": "Coldplay",
+    "album": "Paradise",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "pop rock",
+      "britpop"
+    ],
+    "new": [
+      "rock",
+      "Alternative",
+      "alternative rock"
+    ]
+  },
+  {
+    "artist": "George Ezra",
+    "album": "Wanted on Voyage (Expanded Edition)",
+    "status": "ok",
+    "old": [
+      "folk-pop",
+      "blues rock"
+    ],
+    "new": [
+      "Indie",
+      "folk",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Saber梁维嘉",
+    "album": "2017瓜洲云上音乐节LIVE",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "The Cinematic Orchestra",
+    "album": "Ma Fleur",
+    "status": "ok",
+    "old": [
+      "modern jazz",
+      "post-rock",
+      "cinematic"
+    ],
+    "new": [
+      "downtempo",
+      "chillout",
+      "jazz"
+    ]
+  },
+  {
+    "artist": "Cage The Elephant",
+    "album": "Tell Me I'm Pretty",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "garage rock"
+    ],
+    "new": [
+      "indie-rock",
+      "Alternative",
+      "rock",
+      "Indie"
+    ]
+  },
+  {
+    "artist": "ZAYN",
+    "album": "A Whole New World (End Title) [From \"Aladdin\"]",
+    "status": "ok",
+    "old": [
+      "pop",
+      "R&B",
+      "soul"
+    ],
+    "new": [
+      "Banda Sonora",
+      "soundtrack",
+      "Ziontwan"
+    ]
+  },
+  {
+    "artist": "The La's",
+    "album": "The La's",
+    "status": "ok",
+    "old": [
+      "indie-rock",
+      "britpop"
+    ],
+    "new": [
+      "Indie",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "The Hobbit: The Desolation of Smaug (Original Motion Picture Soundtrack) (Special Edition)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "folk-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "acoustic",
+      "singer-songwriter"
+    ]
+  },
+  {
+    "artist": "Ludovico Einaudi",
+    "album": "In A Time Lapse",
+    "status": "ok",
+    "old": [
+      "neo-classical",
+      "classical"
+    ],
+    "new": [
+      "Contemporary Classical",
+      "Neoclassical",
+      "Neo-Classical",
+      "Modern Classical"
+    ]
+  },
+  {
+    "artist": "Glee Cast",
+    "album": "Hold on to Sixteen",
+    "status": "ok",
+    "old": [
+      "pop",
+      "show tune",
+      "cover band"
+    ],
+    "new": [
+      "Musical",
+      "soundtrack",
+      "Glee"
+    ]
+  },
+  {
+    "artist": "周杰伦",
+    "album": "我很忙",
+    "status": "ok",
+    "old": [
+      "mandopop",
+      "R&B",
+      "pop"
+    ],
+    "new": [
+      "C-Pop",
+      "pop",
+      "Jay Chou"
+    ]
+  },
+  {
+    "artist": "Coldplay",
+    "album": "Every Teardrop Is a Waterfall",
+    "status": "ok",
+    "old": [
+      "alternative rock",
+      "pop rock",
+      "britpop"
+    ],
+    "new": [
+      "rock",
+      "Coldplay"
+    ]
+  },
+  {
+    "artist": "One Direction",
+    "album": "FOUR (Deluxe)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "boy band",
+      "pop rock"
+    ],
+    "new": [
+      "pop",
+      "Boyband"
+    ]
+  },
+  {
+    "artist": "Pitbull",
+    "album": "Global Warming: Meltdown (Deluxe Version)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "reggaeton",
+      "dance pop"
+    ],
+    "new": [
+      "Dance",
+      "hiphop",
+      "Reggaeton",
+      "Dance Pop"
+    ]
+  },
+  {
+    "artist": "Jason Mraz",
+    "album": "Extra Credit",
+    "status": "ok",
+    "old": [
+      "pop",
+      "acoustic pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "rock",
+      "singer-songwriter",
+      "00S"
+    ]
+  },
+  {
+    "artist": "Ice Paper",
+    "album": "食色性也",
+    "status": "skipped",
+    "reason": "China region (大陆)"
+  },
+  {
+    "artist": "Maroon 5",
+    "album": "Overexposed (Deluxe)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "rock",
+      "funk pop"
+    ],
+    "new": [
+      "Dance Pop",
+      "Electropop"
+    ]
+  },
+  {
+    "artist": "Maroon 5",
+    "album": "Songs About Jane (Explicit)",
+    "status": "ok",
+    "old": [
+      "pop",
+      "rock",
+      "funk pop"
+    ],
+    "new": [
+      "pop rock",
+      "rock",
+      "pop",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "Maroon 5",
+    "album": "Het Beste Uit De Mega Top 50",
+    "status": "ok",
+    "old": [
+      "pop",
+      "rock",
+      "funk pop"
+    ],
+    "new": [
+      "pop rock",
+      "rock",
+      "pop",
+      "Alternative"
+    ]
+  },
+  {
+    "artist": "OneRepublic",
+    "album": "Dreaming Out Loud",
+    "status": "ok",
+    "old": [
+      "pop rock",
+      "alternative rock"
+    ],
+    "new": [
+      "alternative rock",
+      "rock",
+      "pop rock",
+      "Onerepublic"
+    ]
+  },
+  {
+    "artist": "Jason Walker",
+    "album": "Jason Walker",
+    "status": "ok",
+    "old": [
+      "indie-pop",
+      "singer-songwriter",
+      "rock"
+    ],
+    "new": [
+      "Piano Rock",
+      "rock"
+    ]
+  },
+  {
+    "artist": "Bear McCreary",
+    "album": "Outlander: Season 1, Vol. 1 (Original Television Soundtrack)",
+    "status": "ok",
+    "old": [
+      "soundtrack",
+      "orchestral",
+      "experimental"
+    ],
+    "new": [
+      "soundtrack"
+    ]
+  },
+  {
+    "artist": "Ed Sheeran",
+    "album": "No.6 Collaborations Project",
+    "status": "ok",
+    "old": [
+      "pop",
+      "folk-pop",
+      "singer-songwriter"
+    ],
+    "new": [
+      "acoustic",
+      "singer-songwriter"
+    ]
+  }
+]

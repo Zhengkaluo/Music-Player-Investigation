@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data / credentials
+cafe-playlist/data/qq_credential.json
+cafe-playlist/data/song_id_cache.json
+cafe-playlist/data/sync_log.json
+*.log
+
+# WorkBuddy / IDE
+.workbuddy/
+.codebuddy/
+.vscode/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Exports (large archives)
+Notion Export.zip

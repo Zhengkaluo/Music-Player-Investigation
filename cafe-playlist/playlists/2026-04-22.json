@@ -1,0 +1,217 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T17:21:14.891222",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "noise": 0.35,
+      "style": 0.25,
+      "freshness": 0.25,
+      "cohesion": 0.15
+    }
+  },
+  "summary": {
+    "total_albums": 13,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 34703,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h38m",
+    "fill_percentage": 107.1
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 8300,
+      "albums": [
+        {
+          "name": "Essex Honey",
+          "genres": [
+            "R&B"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 2790,
+          "duration_display": "46:30",
+          "score": 0.793,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003FTtbb0dDsDH"
+        },
+        {
+          "name": "Son Of Spergy",
+          "genres": [
+            "R&B"
+          ],
+          "noise_level": 3.5,
+          "duration_seconds": 3100,
+          "duration_display": "51:40",
+          "score": 0.7757,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002RkImF2lsUad"
+        },
+        {
+          "name": "Octava",
+          "genres": [
+            "ambient jazz",
+            "jazz"
+          ],
+          "noise_level": 2.5,
+          "duration_seconds": 2410,
+          "duration_display": "40:10",
+          "score": 0.7636,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001hDY4D4R2O50"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 11141,
+      "albums": [
+        {
+          "name": "FOR STARTERS",
+          "genres": [
+            "R&B"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 1251,
+          "duration_display": "20:51",
+          "score": 0.7646,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001Jl2Lo4WTXsJ"
+        },
+        {
+          "name": "Neon Donuts",
+          "genres": [
+            "electronic",
+            "funk",
+            "synthesizer"
+          ],
+          "noise_level": 5.1,
+          "duration_seconds": 2012,
+          "duration_display": "33:32",
+          "score": 0.7335,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0040bYf91qrFOD"
+        },
+        {
+          "name": "Nabowa",
+          "genres": [
+            "math-rock"
+          ],
+          "noise_level": 5.5,
+          "duration_seconds": 3638,
+          "duration_display": "60:38",
+          "score": 0.7261,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003XJflJ0MLKDZ"
+        },
+        {
+          "name": "石の糸",
+          "genres": [
+            "indie-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 2282,
+          "duration_display": "38:02",
+          "score": 0.7091,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000cdEFy32MdU9"
+        },
+        {
+          "name": "牛窝坑之子",
+          "genres": [
+            "hiphop"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 1958,
+          "duration_display": "32:38",
+          "score": 0.7046,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000KWJZx0b6Gk8"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 15262,
+      "albums": [
+        {
+          "name": "Sonorous Faith, Pt.1",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 2633,
+          "duration_display": "43:53",
+          "score": 0.719,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004XYLPM4f8FC7"
+        },
+        {
+          "name": "咸空气",
+          "genres": [
+            "post-rock"
+          ],
+          "noise_level": 4.5,
+          "duration_seconds": 2946,
+          "duration_display": "49:06",
+          "score": 0.7137,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001HBWcQ0Qykw6"
+        },
+        {
+          "name": "Captured Spirits",
+          "genres": [
+            "contemporary-jazz",
+            "jazz",
+            "math-rock"
+          ],
+          "noise_level": 3.83,
+          "duration_seconds": 2904,
+          "duration_display": "48:24",
+          "score": 0.5477,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001NoMPU2VZaok"
+        },
+        {
+          "name": "twenties",
+          "genres": [
+            "R&B",
+            "funk",
+            "soul"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 3074,
+          "duration_display": "51:14",
+          "score": 0.5344,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002WJoKs2hnO4d"
+        },
+        {
+          "name": "Expanding To One",
+          "genres": [
+            "ambient jazz",
+            "jazz"
+          ],
+          "noise_level": 4.25,
+          "duration_seconds": 3705,
+          "duration_display": "61:45",
+          "score": 0.5326,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004cS6jG0ZGjly"
+        }
+      ]
+    }
+  ]
+}

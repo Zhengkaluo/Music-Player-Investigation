@@ -1,0 +1,1509 @@
+[
+  {
+    "date": "2026-04-24",
+    "weekday": "周五",
+    "summary": {
+      "total_albums": 18,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 38611,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "10h43m",
+      "fill_percentage": 119.2
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 8820,
+        "albums": [
+          {
+            "name": "Monument",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "electronic"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 2636,
+            "score": 0.847
+          },
+          {
+            "name": "有限无限",
+            "genres": [
+              "electronic",
+              "synthesizer",
+              "ambient"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 3093,
+            "score": 0.8444
+          },
+          {
+            "name": "Portico Quartet",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "electronic"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 3091,
+            "score": 0.8419
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 11967,
+        "albums": [
+          {
+            "name": "Dreamer On The Run",
+            "genres": [
+              "post-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2442,
+            "score": 0.7715
+          },
+          {
+            "name": "神游夜话",
+            "genres": [
+              "post-rock",
+              "ambient-rock",
+              "electronic"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 376,
+            "score": 0.6227
+          },
+          {
+            "name": "ガウディの憂鬱",
+            "genres": [
+              "fusion jazz",
+              "contemporary-jazz",
+              "funk"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 2687,
+            "score": 0.6197
+          },
+          {
+            "name": "时间回到秋天的下午",
+            "genres": [
+              "dream pop",
+              "shoegaze",
+              "indie-rock"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 250,
+            "score": 0.5925
+          },
+          {
+            "name": "Kyiv",
+            "genres": [
+              "contemporary-jazz",
+              "neo-soul",
+              "funk"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 210,
+            "score": 0.5864
+          },
+          {
+            "name": "From the North - GoGo Penguin Live in Manchester",
+            "genres": [
+              "contemporary-jazz",
+              "electronic",
+              "acoustic"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 1839,
+            "score": 0.5854
+          },
+          {
+            "name": "地下河 Undercurrent",
+            "genres": [
+              "contemporary-jazz",
+              "fusion jazz",
+              "funk"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 1501,
+            "score": 0.5828
+          },
+          {
+            "name": "Mars Is A Very Bad Place For Love",
+            "genres": [
+              "fusion jazz",
+              "electronic",
+              "psychedelic-rock"
+            ],
+            "noise_level": 3.75,
+            "duration_seconds": 2662,
+            "score": 0.5774
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 17824,
+        "albums": [
+          {
+            "name": "v2.0 (Deluxe Edition)",
+            "genres": [
+              "contemporary-jazz",
+              "electronic",
+              "acoustic"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 3667,
+            "score": 0.7472
+          },
+          {
+            "name": "New Conditions",
+            "genres": [
+              "post-rock",
+              "ambient-rock",
+              "new-classical"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 234,
+            "score": 0.7355
+          },
+          {
+            "name": "Remnants Of A Setting Sun",
+            "genres": [
+              "ambient-rock",
+              "post-rock",
+              "new-classical"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 1158,
+            "score": 0.733
+          },
+          {
+            "name": "Rift",
+            "genres": [
+              "ambient-rock",
+              "post-rock",
+              "new-classical"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 3679,
+            "score": 0.7293
+          },
+          {
+            "name": "Smilewound",
+            "genres": [
+              "electronic",
+              "dream pop",
+              "indie-pop"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 3028,
+            "score": 0.7288
+          },
+          {
+            "name": "The Yussef Dayes Experience - Live From Malibu",
+            "genres": [
+              "contemporary-jazz",
+              "fusion jazz",
+              "neo-soul"
+            ],
+            "noise_level": 3.33,
+            "duration_seconds": 1968,
+            "score": 0.7265
+          },
+          {
+            "name": "Slowly Rolling Camera",
+            "genres": [
+              "electronic",
+              "soul",
+              "contemporary-jazz",
+              "dream pop"
+            ],
+            "noise_level": 3.38,
+            "duration_seconds": 4090,
+            "score": 0.7238
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-25",
+    "weekday": "周六",
+    "summary": {
+      "total_albums": 17,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 35769,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "9h56m",
+      "fill_percentage": 110.4
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 7986,
+        "albums": [
+          {
+            "name": "Café del Mar, Vol. 22",
+            "genres": [
+              "electronic",
+              "ambient",
+              "Lofi"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 7986,
+            "score": 0.8371
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 12631,
+        "albums": [
+          {
+            "name": "Far Away Trains Passing By",
+            "genres": [
+              "electronic",
+              "shoegaze",
+              "ambient"
+            ],
+            "noise_level": 3.33,
+            "duration_seconds": 398,
+            "score": 0.577
+          },
+          {
+            "name": "Sights & Sounds",
+            "genres": [
+              "ambient",
+              "Lofi",
+              "electronic"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 2326,
+            "score": 0.5614
+          },
+          {
+            "name": "Juniper",
+            "genres": [
+              "electronic",
+              "soul",
+              "contemporary-jazz"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 2547,
+            "score": 0.548
+          },
+          {
+            "name": "Juniper",
+            "genres": [
+              "electronic",
+              "soul",
+              "contemporary-jazz"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 465,
+            "score": 0.5439
+          },
+          {
+            "name": "v2.0",
+            "genres": [
+              "contemporary-jazz",
+              "electronic",
+              "acoustic"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 2837,
+            "score": 0.5414
+          },
+          {
+            "name": "Neon Donuts",
+            "genres": [
+              "electronic",
+              "funk",
+              "synthesizer"
+            ],
+            "noise_level": 5.1,
+            "duration_seconds": 2012,
+            "score": 0.5381
+          },
+          {
+            "name": "Blue Building Blocks",
+            "genres": [
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2046,
+            "score": 0.5349
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 15152,
+        "albums": [
+          {
+            "name": "Blue Shades",
+            "genres": [
+              "contemporary-jazz",
+              "electronic",
+              "soul"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 287,
+            "score": 0.7475
+          },
+          {
+            "name": "栖居在溪源之上",
+            "genres": [
+              "post-rock",
+              "new-classical",
+              "ambient-rock"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 2503,
+            "score": 0.7191
+          },
+          {
+            "name": "Floating Signifiers",
+            "genres": [
+              "electronic",
+              "dream pop",
+              "indie-pop"
+            ],
+            "noise_level": 3.5,
+            "duration_seconds": 1685,
+            "score": 0.7145
+          },
+          {
+            "name": "The Yussef Dayes Experience Live at Joshua Tree (Presented by Soulection)",
+            "genres": [
+              "contemporary-jazz",
+              "fusion jazz",
+              "neo-soul"
+            ],
+            "noise_level": 3.33,
+            "duration_seconds": 999,
+            "score": 0.6995
+          },
+          {
+            "name": "Nostalgia",
+            "genres": [
+              "contemporary-jazz",
+              "Lofi",
+              "neo-soul"
+            ],
+            "noise_level": 3.17,
+            "duration_seconds": 186,
+            "score": 0.6954
+          },
+          {
+            "name": "Darkly",
+            "genres": [
+              "abstract hiphop",
+              "jazz",
+              "electronic",
+              "new-classical"
+            ],
+            "noise_level": 3.38,
+            "duration_seconds": 3777,
+            "score": 0.6816
+          },
+          {
+            "name": "Love Is the Message",
+            "genres": [
+              "contemporary-jazz",
+              "fusion jazz",
+              "neo-soul"
+            ],
+            "noise_level": 3.33,
+            "duration_seconds": 449,
+            "score": 0.6742
+          },
+          {
+            "name": "GGP/RMX",
+            "genres": [
+              "electronic",
+              "contemporary-jazz",
+              "ambient"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 3754,
+            "score": 0.6419
+          },
+          {
+            "name": "The Smashing Machine (Original Motion Picture Soundtrack)",
+            "genres": [
+              "ambient jazz",
+              "electronic",
+              "contemporary-jazz"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 1512,
+            "score": 0.6411
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-26",
+    "weekday": "周日",
+    "summary": {
+      "total_albums": 16,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 37834,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "10h30m",
+      "fill_percentage": 116.8
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 8787,
+        "albums": [
+          {
+            "name": "Endlessness",
+            "genres": [
+              "ambient jazz",
+              "electronic",
+              "contemporary-jazz"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 2719,
+            "score": 0.8438
+          },
+          {
+            "name": "Little Nerves (Video Version)",
+            "genres": [
+              "electronic",
+              "contemporary-jazz",
+              "ambient"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 425,
+            "score": 0.8424
+          },
+          {
+            "name": "Homeland",
+            "genres": [
+              "electronic",
+              "ambient",
+              "contemporary-jazz"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 1858,
+            "score": 0.8397
+          },
+          {
+            "name": "Angel Feed",
+            "genres": [
+              "electronic",
+              "ambient",
+              "experimental"
+            ],
+            "noise_level": 2.75,
+            "duration_seconds": 260,
+            "score": 0.8332
+          },
+          {
+            "name": "Twilight",
+            "genres": [
+              "ambient",
+              "new-classical",
+              "electronic"
+            ],
+            "noise_level": 2.67,
+            "duration_seconds": 3525,
+            "score": 0.8277
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 14069,
+        "albums": [
+          {
+            "name": "Floa",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2589,
+            "score": 0.5523
+          },
+          {
+            "name": "朝往暮归",
+            "genres": [
+              "indie-rock",
+              "math-rock",
+              "post-rock"
+            ],
+            "noise_level": 4.83,
+            "duration_seconds": 2626,
+            "score": 0.5387
+          },
+          {
+            "name": "eye",
+            "genres": [
+              "electronic",
+              "indie-rock",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 1879,
+            "score": 0.5377
+          },
+          {
+            "name": "Gift from the Trees",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2935,
+            "score": 0.5318
+          },
+          {
+            "name": "虚构集",
+            "genres": [
+              "electronic",
+              "ambient",
+              "contemporary-jazz"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 4040,
+            "score": 0.5315
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 14978,
+        "albums": [
+          {
+            "name": "~~~",
+            "genres": [
+              "ambient",
+              "dream pop",
+              "electronic"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 1627,
+            "score": 0.5993
+          },
+          {
+            "name": "Vapor",
+            "genres": [
+              "electronic",
+              "ambient",
+              "experimental"
+            ],
+            "noise_level": 2.75,
+            "duration_seconds": 4200,
+            "score": 0.5954
+          },
+          {
+            "name": "Compositions for Piano",
+            "genres": [
+              "new-classical",
+              "ambient",
+              "electronic"
+            ],
+            "noise_level": 2.67,
+            "duration_seconds": 2457,
+            "score": 0.5941
+          },
+          {
+            "name": "MELODICA",
+            "genres": [
+              "ambient jazz",
+              "jazz hippop"
+            ],
+            "noise_level": 2.75,
+            "duration_seconds": 3290,
+            "score": 0.5729
+          },
+          {
+            "name": "Shiori",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2393,
+            "score": 0.5678
+          },
+          {
+            "name": "Becoming",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "folk-jazz"
+            ],
+            "noise_level": 2.5,
+            "duration_seconds": 1011,
+            "score": 0.5616
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-27",
+    "weekday": "周一",
+    "summary": {
+      "total_albums": 15,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 37988,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "10h33m",
+      "fill_percentage": 117.2
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 9102,
+        "albums": [
+          {
+            "name": "Shadow Work",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "folk-jazz"
+            ],
+            "noise_level": 2.5,
+            "duration_seconds": 2797,
+            "score": 0.7935
+          },
+          {
+            "name": "Chaser",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "folk-jazz"
+            ],
+            "noise_level": 2.5,
+            "duration_seconds": 223,
+            "score": 0.7912
+          },
+          {
+            "name": "Endlessness",
+            "genres": [
+              "ambient jazz",
+              "electronic",
+              "contemporary-jazz"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 2719,
+            "score": 0.6015
+          },
+          {
+            "name": "枯萎颂",
+            "genres": [
+              "indie-folk"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 3363,
+            "score": 0.5976
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 11799,
+        "albums": [
+          {
+            "name": "eye",
+            "genres": [
+              "electronic",
+              "indie-rock",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 1879,
+            "score": 0.5501
+          },
+          {
+            "name": "Blue Building Blocks",
+            "genres": [
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2046,
+            "score": 0.5319
+          },
+          {
+            "name": "Dreamer On The Run",
+            "genres": [
+              "post-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2442,
+            "score": 0.5294
+          },
+          {
+            "name": "Gift from the Trees",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2935,
+            "score": 0.5279
+          },
+          {
+            "name": "SABLE, fABLE",
+            "genres": [
+              "indie-folk"
+            ],
+            "noise_level": 4.75,
+            "duration_seconds": 2497,
+            "score": 0.5275
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 17087,
+        "albums": [
+          {
+            "name": "5689",
+            "genres": [
+              "electronic",
+              "indie-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2978,
+            "score": 0.5678
+          },
+          {
+            "name": "Necessary Fictions",
+            "genres": [
+              "contemporary-jazz",
+              "fusion jazz",
+              "math-rock"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 2919,
+            "score": 0.5524
+          },
+          {
+            "name": "Captured Spirits",
+            "genres": [
+              "contemporary-jazz",
+              "jazz",
+              "math-rock"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 2904,
+            "score": 0.5474
+          },
+          {
+            "name": "Prayer",
+            "genres": [
+              "ambient jazz",
+              "jazz hippop"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2943,
+            "score": 0.54
+          },
+          {
+            "name": "French Exit",
+            "genres": [
+              "Alternative Rock",
+              "Lofi",
+              "electronic"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 2438,
+            "score": 0.5386
+          },
+          {
+            "name": "60km/h",
+            "genres": [
+              "electronic",
+              "post-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2905,
+            "score": 0.5359
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-28",
+    "weekday": "周二",
+    "summary": {
+      "total_albums": 15,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 34939,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "9h42m",
+      "fill_percentage": 107.8
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 8820,
+        "albums": [
+          {
+            "name": "Monument",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "electronic"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 2636,
+            "score": 0.6165
+          },
+          {
+            "name": "Portico Quartet",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "electronic"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 3091,
+            "score": 0.6154
+          },
+          {
+            "name": "有限无限",
+            "genres": [
+              "electronic",
+              "synthesizer",
+              "ambient"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 3093,
+            "score": 0.6128
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 11623,
+        "albums": [
+          {
+            "name": "Neon Donuts",
+            "genres": [
+              "electronic",
+              "funk",
+              "synthesizer"
+            ],
+            "noise_level": 5.1,
+            "duration_seconds": 2012,
+            "score": 0.5671
+          },
+          {
+            "name": "Patch",
+            "genres": [
+              "math-rock",
+              "post-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2777,
+            "score": 0.5507
+          },
+          {
+            "name": "Blue Building Blocks",
+            "genres": [
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2046,
+            "score": 0.5271
+          },
+          {
+            "name": "朝往暮归",
+            "genres": [
+              "indie-rock",
+              "math-rock",
+              "post-rock"
+            ],
+            "noise_level": 4.83,
+            "duration_seconds": 2626,
+            "score": 0.5241
+          },
+          {
+            "name": "Fast Forward",
+            "genres": [
+              "ambient-rock",
+              "electronic",
+              "math-rock"
+            ],
+            "noise_level": 5.5,
+            "duration_seconds": 2162,
+            "score": 0.521
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 14496,
+        "albums": [
+          {
+            "name": "神游夜话",
+            "genres": [
+              "post-rock",
+              "ambient-rock",
+              "electronic"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 376,
+            "score": 0.5521
+          },
+          {
+            "name": "story",
+            "genres": [
+              "contemporary-jazz",
+              "latin",
+              "math-rock",
+              "post-rock"
+            ],
+            "noise_level": 4.33,
+            "duration_seconds": 3032,
+            "score": 0.5485
+          },
+          {
+            "name": "Kyiv",
+            "genres": [
+              "contemporary-jazz",
+              "neo-soul",
+              "funk"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 210,
+            "score": 0.5473
+          },
+          {
+            "name": "Shiori",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2393,
+            "score": 0.5468
+          },
+          {
+            "name": "Captured Spirits",
+            "genres": [
+              "contemporary-jazz",
+              "jazz",
+              "math-rock"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 2904,
+            "score": 0.5344
+          },
+          {
+            "name": "Necessary Fictions",
+            "genres": [
+              "contemporary-jazz",
+              "fusion jazz",
+              "math-rock"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 2919,
+            "score": 0.5333
+          },
+          {
+            "name": "Mars Is A Very Bad Place For Love",
+            "genres": [
+              "fusion jazz",
+              "electronic",
+              "psychedelic-rock"
+            ],
+            "noise_level": 3.75,
+            "duration_seconds": 2662,
+            "score": 0.5333
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-29",
+    "weekday": "周三",
+    "summary": {
+      "total_albums": 14,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 34570,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "9h36m",
+      "fill_percentage": 106.7
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 8282,
+        "albums": [
+          {
+            "name": "枯萎颂",
+            "genres": [
+              "indie-folk"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 3363,
+            "score": 0.607
+          },
+          {
+            "name": "Little Nerves (Video Version)",
+            "genres": [
+              "electronic",
+              "contemporary-jazz",
+              "ambient"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 425,
+            "score": 0.6068
+          },
+          {
+            "name": "Homeland",
+            "genres": [
+              "electronic",
+              "ambient",
+              "contemporary-jazz"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 1858,
+            "score": 0.6053
+          },
+          {
+            "name": "Monument",
+            "genres": [
+              "contemporary-jazz",
+              "ambient jazz",
+              "electronic"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 2636,
+            "score": 0.5992
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 10847,
+        "albums": [
+          {
+            "name": "Floa",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2589,
+            "score": 0.5526
+          },
+          {
+            "name": "Gift from the Trees",
+            "genres": [
+              "contemporary-jazz",
+              "math-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2935,
+            "score": 0.541
+          },
+          {
+            "name": "Inner Symphonies",
+            "genres": [
+              "classical",
+              "new-classical"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 3223,
+            "score": 0.5397
+          },
+          {
+            "name": "Dark Times",
+            "genres": [
+              "hiphop",
+              "jazz hippop",
+              "neo-soul"
+            ],
+            "noise_level": 4.75,
+            "duration_seconds": 2100,
+            "score": 0.5385
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 15441,
+        "albums": [
+          {
+            "name": "The Mocking Stars",
+            "genres": [
+              "abstract hiphop",
+              "alternative hiphop",
+              "hiphop",
+              "jazz hippop"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 3740,
+            "score": 0.5618
+          },
+          {
+            "name": "Prayer",
+            "genres": [
+              "ambient jazz",
+              "jazz hippop"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2943,
+            "score": 0.5363
+          },
+          {
+            "name": "时间回到秋天的下午",
+            "genres": [
+              "dream pop",
+              "shoegaze",
+              "indie-rock"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 250,
+            "score": 0.5354
+          },
+          {
+            "name": "HIT ME HARD AND SOFT",
+            "genres": [
+              "pop"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 2625,
+            "score": 0.535
+          },
+          {
+            "name": "5689",
+            "genres": [
+              "electronic",
+              "indie-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2978,
+            "score": 0.5318
+          },
+          {
+            "name": "60km/h",
+            "genres": [
+              "electronic",
+              "post-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2905,
+            "score": 0.5298
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "date": "2026-04-30",
+    "weekday": "周四",
+    "summary": {
+      "total_albums": 14,
+      "target_duration_seconds": 32400,
+      "actual_duration_seconds": 35024,
+      "target_duration_display": "9h00m",
+      "actual_duration_display": "9h43m",
+      "fill_percentage": 108.1
+    },
+    "slots": [
+      {
+        "slot_name": "早上",
+        "start": "09:00",
+        "end": "11:00",
+        "target_noise": [
+          2,
+          4
+        ],
+        "actual_duration_seconds": 8796,
+        "albums": [
+          {
+            "name": "Dream of the Egg",
+            "genres": [
+              "psychedelic-rock",
+              "ambient-rock"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 1151,
+            "score": 0.6216
+          },
+          {
+            "name": "Premiers Symptômes",
+            "genres": [
+              "ambient jazz",
+              "electronic"
+            ],
+            "noise_level": 3.0,
+            "duration_seconds": 2029,
+            "score": 0.6023
+          },
+          {
+            "name": "Sights & Sounds",
+            "genres": [
+              "ambient",
+              "Lofi",
+              "electronic"
+            ],
+            "noise_level": 2.83,
+            "duration_seconds": 2326,
+            "score": 0.6015
+          },
+          {
+            "name": "MELODICA",
+            "genres": [
+              "ambient jazz",
+              "jazz hippop"
+            ],
+            "noise_level": 2.75,
+            "duration_seconds": 3290,
+            "score": 0.6012
+          }
+        ]
+      },
+      {
+        "slot_name": "中午",
+        "start": "11:00",
+        "end": "14:00",
+        "target_noise": [
+          4,
+          6
+        ],
+        "actual_duration_seconds": 11467,
+        "albums": [
+          {
+            "name": "Dreamer On The Run",
+            "genres": [
+              "post-rock"
+            ],
+            "noise_level": 5.0,
+            "duration_seconds": 2442,
+            "score": 0.5357
+          },
+          {
+            "name": "十万个为什么",
+            "genres": [
+              "ambient-rock",
+              "post-rock"
+            ],
+            "noise_level": 5.5,
+            "duration_seconds": 3741,
+            "score": 0.5315
+          },
+          {
+            "name": "物件，所在",
+            "genres": [
+              "funk",
+              "闽南"
+            ],
+            "noise_level": 4.75,
+            "duration_seconds": 1598,
+            "score": 0.5295
+          },
+          {
+            "name": "Nature Of Everything",
+            "genres": [
+              "post-rock"
+            ],
+            "noise_level": 4.5,
+            "duration_seconds": 3686,
+            "score": 0.525
+          }
+        ]
+      },
+      {
+        "slot_name": "下午",
+        "start": "14:00",
+        "end": "18:00",
+        "target_noise": [
+          3,
+          5
+        ],
+        "actual_duration_seconds": 14761,
+        "albums": [
+          {
+            "name": "神游夜话",
+            "genres": [
+              "post-rock",
+              "ambient-rock",
+              "electronic"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 376,
+            "score": 0.5651
+          },
+          {
+            "name": "Liquid Yellow Portraits",
+            "genres": [
+              "funk",
+              "fusion jazz",
+              "jazz"
+            ],
+            "noise_level": 3.83,
+            "duration_seconds": 2423,
+            "score": 0.5532
+          },
+          {
+            "name": "Ocean",
+            "genres": [
+              "electronic",
+              "post-rock"
+            ],
+            "noise_level": 4.5,
+            "duration_seconds": 3676,
+            "score": 0.5465
+          },
+          {
+            "name": "60km/h",
+            "genres": [
+              "electronic",
+              "post-rock"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2905,
+            "score": 0.5453
+          },
+          {
+            "name": "Prayer",
+            "genres": [
+              "ambient jazz",
+              "jazz hippop"
+            ],
+            "noise_level": 4.25,
+            "duration_seconds": 2943,
+            "score": 0.5333
+          },
+          {
+            "name": "French Exit",
+            "genres": [
+              "Alternative Rock",
+              "Lofi",
+              "electronic"
+            ],
+            "noise_level": 4.0,
+            "duration_seconds": 2438,
+            "score": 0.5281
+          }
+        ]
+      }
+    ]
+  }
+]

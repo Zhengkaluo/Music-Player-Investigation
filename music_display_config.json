@@ -1,0 +1,39 @@
+{
+  "window": {
+    "width": 1734,
+    "height": 851,
+    "x": 1530,
+    "y": 991,
+    "topmost": true,
+    "alpha": 0.95
+  },
+  "style": {
+    "bg_color": "#8080ff",
+    "text_color": "#ffffff",
+    "accent_color": "#804000",
+    "font_family": "Microsoft YaHei UI",
+    "title_size": 25,
+    "artist_size": 19,
+    "album_size": 14
+  },
+  "auto_update": {
+    "enabled": true,
+    "interval": 5
+  },
+  "manual_data": {
+    "title": "Theme No. 1",
+    "artist": "Balmorhea",
+    "album": "Rivers Arms",
+    "status": "正在播放"
+  },
+  "thumbnail": {
+    "size": 400,
+    "show": true
+  },
+  "alignment": {
+    "title": "left",
+    "artist": "left",
+    "album": "left",
+    "status": "left"
+  }
+}

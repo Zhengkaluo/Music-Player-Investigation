@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>咖啡店歌单专辑库分析报告</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #0f0f1a; color: #e0e0e0; padding: 24px; max-width: 1200px; margin: 0 auto; }
+  h1 { font-size: 26px; color: #f0f0f0; margin-bottom: 4px; }
+  .subtitle { color: #888; font-size: 13px; margin-bottom: 24px; }
+  .note { background: #1a2236; border-left: 3px solid #7c6ef0; padding: 10px 16px; border-radius: 0 8px 8px 0; margin-bottom: 20px; font-size: 13px; color: #aaa; line-height: 1.6; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin-bottom: 28px; }
+  .card { background: #1a1a2e; border-radius: 10px; padding: 16px; border: 1px solid #2a2a40; }
+  .card h3 { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+  .card .num { font-size: 28px; font-weight: 700; color: #7c6ef0; }
+  .card .sub { font-size: 12px; color: #aaa; margin-top: 4px; }
+  .prog { height: 6px; background: #2a2a40; border-radius: 3px; overflow: hidden; margin-top: 6px; }
+  .fill { height: 100%; border-radius: 3px; background: linear-gradient(90deg, #7c6ef0, #a78bfa); }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 28px; }
+  @media (max-width: 900px) { .charts { grid-template-columns: 1fr; } }
+  .chart-box { background: #1a1a2e; border-radius: 10px; padding: 18px; border: 1px solid #2a2a40; }
+  .chart-box h2 { font-size: 14px; color: #ccc; margin-bottom: 12px; }
+  .section { background: #1a1a2e; border-radius: 10px; padding: 18px; border: 1px solid #2a2a40; margin-bottom: 20px; }
+  .section h2 { font-size: 14px; color: #ccc; margin-bottom: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; padding: 8px 10px; color: #888; border-bottom: 1px solid #2a2a40; font-weight: 500; }
+  td { padding: 7px 10px; border-bottom: 1px solid #1e1e35; }
+  tr:last-child td { border-bottom: none; }
+  .barw { display: flex; align-items: center; gap: 6px; }
+  .bar { height: 8px; border-radius: 4px; background: linear-gradient(90deg, #7c6ef0, #64b5f6); }
+  .pct { font-size: 11px; color: #888; min-width: 38px; }
+  .tag { display: inline-block; background: #2a2a50; color: #a0a0ff; padding: 2px 7px; border-radius: 4px; font-size: 11px; margin: 2px 3px; }
+  .missing { border-color: #4a2a2a !important; }
+  .missing h2 { color: #ff8888 !important; }
+  .flex2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+  @media (max-width: 700px) { .flex2 { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<h1>📊 咖啡店歌单专辑库分析报告</h1>
+<p class="subtitle">数据文件：cafe-playlist/data/albums.json &nbsp;|&nbsp; 专辑总数：528 张 &nbsp;|&nbsp; 生成时间：2026-04-24</p>
+
+<div class="note">
+  📝 本报告基于 albums.json 全量 528 张专辑自动生成。Region 字段完成度 99.4%（525/528），剩余 3 张待确认。噪音水平以 L1（最安静）至 L7（最吵）标注。
+</div>
+
+<div class="grid">
+  <div class="card"><h3>专辑总数</h3><div class="num">528</div><div class="sub">张专辑已入库</div></div>
+  <div class="card"><h3>覆盖地区</h3><div class="num">25</div><div class="sub">个国家/地区</div></div>
+  <div class="card"><h3>风格标签种类</h3><div class="num">198</div><div class="sub">种不同标签</div></div>
+  <div class="card"><h3>Region 完成度</h3><div class="num">99.4%</div><div class="sub">525/528 已知</div><div class="prog"><div class="fill" style="width:99.4%"></div></div></div>
+  <div class="card"><h3>AI 估算数据</h3><div class="num">476</div><div class="sub">张为 estimated</div></div>
+  <div class="card"><h3>平均噪音水平</h3><div class="num">L3.8</div><div class="sub">整体安静，适合咖啡店</div></div>
+</div>
+
+<div class="charts">
+  <div class="chart-box"><h2>🌍 地区分布（前 12）</h2><canvas id="regionChart"></canvas></div>
+  <div class="chart-box"><h2>🔊 噪音水平分布</h2><canvas id="noiseChart"></canvas></div>
+  <div class="chart-box"><h2>🎵 数据来源分布</h2><canvas id="sourceChart"></canvas></div>
+  <div class="chart-box"><h2>🎶 Top 20 风格标签</h2><canvas id="genreChart"></canvas></div>
+</div>
+
+<div class="flex2">
+  <div class="section">
+    <h2>🌍 地区分布明细（全部）</h2>
+    <table id="regionTable"></table>
+  </div>
+  <div class="section">
+    <h2>🎶 风格标签明细（Top 30）</h2>
+    <table id="genreTable"></table>
+  </div>
+</div>
+
+<div class="section missing">
+  <h2>⚠️ 数据缺失清单（需人工核查）</h2>
+  <table id="missingTable"></table>
+</div>
+
+<script>
+// ============ 数据 ===========
+const REGION_DATA = [
+  ['美国',123],['大陆',92],['英国',67],['日本',66],['台湾',65],
+  ['韩国',21],['香港',12],['加拿大',11],['德国',7],['澳大利亚',6],
+  ['印尼',6],['法国',5],['波兰',3],['荷兰',3],['意大利',3],
+  ['西班牙',3],['爱尔兰',3],['未知',3],['新西兰',3],['新加坡',3],
+  ['瑞典',2],['泰国',2],['瑞士',2],['比利时',2],['冰岛',2],
+  ['尼日利亚',2],['加拿大, 美国',1],['韩国/加拿大',1],['墨西哥',1],
+  ['中国/英国',1],['菲律宾',1],['葡萄牙',1],['巴西',1],['捷克',1],
+  ['俄罗斯',1],['挪威',1],['英国/爱尔兰',1]
+];
+
+const NOISE_DATA = [[1,1],[2,38],[3,138],[4,244],[5,85],[6,13],[7,7],[8,2]];
+const SOURCE_DATA = [['estimated',476],['manual',27],['bandcamp',25]];
+const GENRE_DATA = [
+  ['indie-pop',97],['indie-folk',82],['R&B',78],['singer-songwriter',75],
+  ['folk',61],['pop',61],['electronic',53],['indie-rock',46],['soul',42],
+  ['mandopop',34],['dream pop',32],['ambient',30],['alternative rock',28],
+  ['hiphop',26],['Lofi',26],['pop rock',25],['contemporary-jazz',23],
+  ['rock',23],['folk rock',21],['post-rock',18],['neo-soul',17],
+  ['jazz',16],['chamber pop',15],['synth-pop',14],['indie',14],
+  ['acoustic',13],['country',13],['pop-folk',12],['latin pop',12]
+];
+
+const MISSING_DATA = [
+  ['Alexer Lyton','Shadow of the Sun','region 未知','https://y.qq.com/n/ryqq/albumDetail/003mYlZR4EHraw'],
+  ['Hang Øver','Clearly','region 未知','https://y.qq.com/n/ryqq/albumDetail/002LF2IZ3M50wo'],
+  ['Make Major','Empty','region 未知','https://y.qq.com/n/ryqq/albumDetail/002NO8YJ28p0iw'],
+];
+// ============ 渲染表格 ===========
+function renderTable(id, headers, rows, barMax) {
+  const th = headers.map(h => `<th>${h}</th>`).join('');
+  const tr = rows.map((r, i) => {
+    const cells = r.map((c, j) => {
+      if (j === r.length - 1 && barMax) {
+        const w = (c / barMax * 100).toFixed(1);
+        return `<td><div class="barw"><div class="bar" style="width:${w}%"></div><span class="pct">${c}张</span></div></td>`;
+      }
+      return `<td>${c}</td>`;
+    }).join('');
+    return `<tr>${cells}</tr>`;
+  }).join('');
+  document.getElementById(id).innerHTML = `<tr>${th}</tr>${tr}`;
+}
+
+renderTable('regionTable', ['#','地区','数量','占比','分布'],
+  REGION_DATA.map((r,i) => [i+1, r[0], r[1], (r[1]/528*100).toFixed(1)+'%', r[1]]),
+  123
+);
+renderTable('genreTable', ['#','风格标签','数量','分布'],
+  GENRE_DATA.map((r,i) => [i+1, `<span class="tag">${r[0]}</span>`, r[1], r[1]]),
+  97
+);
+renderTable('missingTable', ['#','艺人','专辑','问题','QQ音乐链接'],
+  MISSING_DATA.map((r,i) => [i+1, r[0], r[1], r[2], `<a href="${r[3]}" target="_blank" style="color:#7c6ef0">查看专辑</a>`])
+);
+
+// ============ 图表 ===========
+const cat = s => s === 'doughnut' ? 'doughnut' : 'bar';
+const base = {
+  plugins: { legend: { labels: { color: '#ccc', font: { size: 12 } } },
+  scales: { x: { ticks: { color: '#888' }, grid: { color: '#1e1e35' } }, y: { ticks: { color: '#888' }, grid: { color: '#1e1e35' } } }
+};
+
+new Chart(regionChart, {
+  type: 'doughnut',
+  data: { labels: REGION_DATA.slice(0,12).map(r=>r[0]), datasets: [{ data: REGION_DATA.slice(0,12).map(r=>r[1]), backgroundColor: ['#7c6ef0','#64b5f6','#4fc3f7','#4dd0e1','#4db6ac','#81c784','#aed581','#ffb74d','#ff8a65','#f06292','#ba68c8','#9575cd'], borderWidth:0 }] },
+  options: { plugins: { legend: { position:'right', labels:{ color:'#ccc', font:{size:11}, padding:8 } } }, responsive:true }
+});
+
+new Chart(noiseChart, {
+  type: 'bar',
+  data: { labels: NOISE_DATA.map(r=>'L'+r[0]), datasets: [{ label:'专辑数', data: NOISE_DATA.map(r=>r[1]), backgroundColor:'#7c6ef0', borderRadius:4 }] },
+  options: { ...base, plugins:{ legend:{ display:false } }, scales:{ ...base.scales, y:{ ...base.scales.y, beginAtZero:true } } }
+});
+
+new Chart(sourceChart, {
+  type: 'doughnut',
+  data: { labels: SOURCE_DATA.map(r=>r[0]), datasets: [{ data: SOURCE_DATA.map(r=>r[1]), backgroundColor: ['#7c6ef0','#4fc3f7','#81c784'], borderWidth:0 }] },
+  options: { plugins: { legend: { position:'bottom', labels:{ color:'#ccc', font:{size:12}, padding:12 } } }, responsive:true }
+});
+
+new Chart(genreChart, {
+  type: 'bar',
+  data: { labels: GENRE_DATA.map(r=>r[0]), datasets: [{ label:'专辑数', data: GENRE_DATA.map(r=>r[1]), backgroundColor:'#64b5f6', borderRadius:4 }] },
+  options: { indexAxis:'x', ...base, plugins:{ legend:{ display:false } }, scales:{ ...base.scales, x:{ ticks:{ color:'#888', font:{size:10}, maxRotation:45, minRotation:0 } } } }
+});
+</script>
+</body>
+</html>

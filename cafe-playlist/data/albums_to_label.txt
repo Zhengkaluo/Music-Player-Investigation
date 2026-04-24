@@ -1,0 +1,186 @@
+============================================================
+Last.fm 标注失败专辑列表（共 58 张）
+============================================================
+
+填写说明：在"genres:"后面写上风格，多个用逗号分隔
+例如：genres: indie-pop, singer-songwriter
+
+============================================================
+1. 10keys beats - Sorry Bae(prod. 10keys)
+genres: 
+
+2. Alexer Lyton - Shadow of the Sun
+genres: 
+
+3. Crispy脆乐团 - 玩伴
+genres: 
+
+4. Crispy脆乐团 - 装帧
+genres: 
+
+5. Haruka Nakamura 中村遥 - MELODICA
+genres: 
+
+6. Hotel New Tokyo - ガウディの憂鬱
+genres: 
+
+7. Make Major - Empty
+genres: 
+
+8. Ruby Pan 潘子爵 - 没问题少女
+genres: 
+
+9. Running Blue - Running Blue
+genres: 
+
+10. Runrun - Mirror EP
+genres: 
+
+11. SoulFa 灵魂沙发 - Slumber Days
+genres: 
+
+12. Sunny Shin - Your Sunday (Sunday Morning) [feat. Ampoff]
+genres: 
+
+13. ThimLife - Sweetheart
+genres: 
+
+14. Uhsgnǒd 仙童 - 泳客 (Re：visions)
+genres: 
+
+15. Ulena - be
+genres: 
+
+16. Vansdaddy - 牛窝坑之子
+genres: 
+
+17. Whilk - I Want Your Lovin'
+genres: 
+
+18. Will Blunderfield - Hallelujah
+genres: 
+
+19. ZaZaZsu咂咂苏 - 就是怦然心动
+genres: 
+
+20. 中村遥 - Twilight
+genres: 
+
+21. 中村遥 - Grace
+genres: 
+
+22. 以莉·高露 - 轻快的生活
+genres: 
+
+23. 低苦艾乐队 - 花草树木
+genres: 
+
+24. 吴芊仪 - 零(寻找羚少女Chapter.1)
+genres: 
+
+25. 吴青峰 - 册叶一：一与一
+genres: 
+
+26. 咖啡少年 - 첫 번째 음악 로스팅 1st Music Roasting
+genres: 
+
+27. 壊特？te - Way out
+genres: 
+
+28. 壊特？te - A Bedroom of One's Own
+genres: 
+
+29. 山崎将义 - One more time，One more chance
+genres: 
+
+30. 张蔓姿 - 深夜浪漫
+genres: 
+
+31. 张蔓姿 - 关于缠绵
+genres: 
+
+32. 张蔓莎 - 到时见 (Acoustic Version)
+genres: 
+
+33. 李笛 - 응답하라 1988 OST Part 2 (Reply 1988 OST)
+genres: 
+
+34. 树莉莉 Serrini - 真美
+genres: 
+
+35. 树莉莉 Serrini - 愉快动物病
+genres: 
+
+36. 森水垚 - 治疗师Vol.6
+genres: 
+
+37. 椅子乐团 The Chairs - 幸存者
+genres: 
+
+38. 椅子乐团 The Chairs - The Great Escape Of Our Time
+genres: 
+
+39. 椅子乐团 The Chairs - LOVELY SUNDAY
+genres: 
+
+40. 椅子乐团 The Chairs - Real Love Is...
+genres: 
+
+41. 椅子乐团 The Chairs - Maybe Maybe
+genres: 
+
+42. 椅子乐团 The Chairs - Lemonade
+genres: 
+
+43. 椅子乐团 The Chairs - Archie's Funeral
+genres: 
+
+44. 浅堤 - 婚礼之途
+genres: 
+
+45. 浅堤 - 不完整的村庄
+genres: 
+
+46. 海尾巴 - 岭南新民谣 (2023第二辑)
+genres: 
+
+47. 狄奥尼索斯乐队 - 时间回到秋天的下午
+genres: 
+
+48. 绿橄榄 - 2017.8 demo
+genres: 
+
+49. 英雄联盟 - Awaken (ft. Valerie Broussard)
+genres: 
+
+50. 藤井风 - LOVE ALL SERVE ALL
+genres: 
+
+51. 藤井风 - 何なんw EP
+genres: 
+
+52. 表情银行 - 嘿！岛 (Black Island)
+genres: 
+
+53. 郑仁 - Melody Remedy
+genres: 
+
+54. 金永所 - UTOPIA
+genres: 
+
+55. 铃木真海子 - Deep Green
+genres: 
+
+56. 鲜于贞娥 - 그러려니
+genres: 
+
+57. 鲸鱼马戏团 - 鲸鱼马戏团VOL.1
+genres: 
+
+58. 해리안 윤소안 - Harryan Yoonsoan Christmas Carol (Cover)
+genres: 
+
+============================================================
+填写完毕后，直接回复这个列表（带 genres 的版本）
+我会帮你批量更新到 albums.json
+============================================================
