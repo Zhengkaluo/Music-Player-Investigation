@@ -21,3 +21,6 @@ Desktop.ini
 
 # Exports (large archives)
 Notion Export.zip
+
+# Runtime config (auto-saved window position)
+music_display_config.json
