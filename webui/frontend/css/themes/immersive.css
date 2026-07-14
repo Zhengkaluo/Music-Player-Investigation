@@ -1,0 +1,25 @@
+/* 深色沉浸主题 —— 大封面 + 模糊封面背景 + 白字叠加。
+   封面提色注入的 --c-* 变量在此主题下直接生效，营造氛围。 */
+
+#app[data-theme="immersive"] {
+  --c-card: rgba(0, 0, 0, 0.18);
+  --c-scrim: linear-gradient(180deg,
+    color-mix(in srgb, var(--c-bg) 40%, transparent) 0%,
+    color-mix(in srgb, var(--c-bg) 78%, transparent) 100%);
+}
+
+#app[data-theme="immersive"] .np-bg { opacity: 1; }
+
+#app[data-theme="immersive"] .np-scrim { background: var(--c-scrim); }
+
+#app[data-theme="immersive"] .np-cover {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+}
+
+#app[data-theme="immersive"] .np-title {
+  text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35);
+}
+
+#app[data-theme="immersive"] .np-status {
+  color: var(--c-accent);
+}

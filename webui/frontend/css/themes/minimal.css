@@ -1,0 +1,35 @@
+/* 极简浅色主题 —— 米白底、细边框、克制排版。
+   固定浅色基调，不跟随封面深浅（强调色可选择性取自封面）。 */
+
+#app[data-theme="minimal"] {
+  --c-bg: #faf9f5;
+  --c-fg: #2c2a24;
+  --c-muted: #8a8478;
+  --c-primary: #e8ddca;
+  --c-accent: #c98a4b;
+  --c-scrim: transparent;
+}
+
+#app[data-theme="minimal"] .np-bg { opacity: 0; }
+#app[data-theme="minimal"] .np-scrim { background: transparent; }
+
+#app[data-theme="minimal"] .np-card {
+  margin: 10px;
+  height: calc(100% - 20px);
+  border: 1px solid #e2ddd0;
+  border-radius: var(--np-radius);
+  background: #ffffff;
+}
+
+#app[data-theme="minimal"] .np-cover {
+  border: 1px solid #ece7db;
+}
+
+#app[data-theme="minimal"] .np-progress-bar {
+  background: #ece7db;
+}
+
+#app[data-theme="minimal"] .np-custom {
+  background: #f5f2ea;
+  border: 1px solid #e2ddd0;
+}

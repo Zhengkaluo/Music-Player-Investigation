@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>正在播放</title>
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/themes/immersive.css" />
+  <link rel="stylesheet" href="css/themes/minimal.css" />
+  <link rel="stylesheet" href="css/themes/adaptive.css" />
+</head>
+<body>
+  <!-- 根：data-theme 切主题；布局模式 grid/responsive 由 JS 设 data-mode -->
+  <div id="app" class="np-root" data-theme="immersive" data-mode="grid">
+
+    <!-- 模糊封面背景层（沉浸主题使用） -->
+    <div class="np-bg" id="npBg"></div>
+    <div class="np-scrim"></div>
+
+    <!-- 网格画布：面板由 GridLayout 动态创建到这里 -->
+    <div class="gl-canvas" id="glCanvas" data-edit="0"></div>
+
+    <!-- 顶部工具条：编辑布局开关、设置齿轮 -->
+    <div class="np-toolbar">
+      <button class="np-tbtn" id="npEditToggle" title="编辑布局">编辑布局</button>
+      <button class="np-tbtn" id="npAddPanel" title="添加内容板块" hidden>+ 板块</button>
+      <button class="np-gear" id="npGear" title="设置" aria-label="设置">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- 设置面板 -->
+    <div class="np-settings" id="npSettings" hidden>
+      <div class="np-settings-head">
+        <span>设置</span>
+        <button id="npSettingsClose" aria-label="关闭">×</button>
+      </div>
+      <div class="np-settings-body">
+        <label class="np-field">
+          <span>主题</span>
+          <select id="npThemeSelect">
+            <option value="immersive">深色沉浸</option>
+            <option value="minimal">极简浅色</option>
+            <option value="adaptive">封面取色自适应</option>
+          </select>
+        </label>
+        <label class="np-field">
+          <span>布局模式</span>
+          <select id="npModeSelect">
+            <option value="grid">自由面板</option>
+            <option value="responsive">自动重排</option>
+          </select>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- 面板内容模板：由 render.js 克隆填充 -->
+  <template id="tplNowPlaying">
+    <div class="np-cover">
+      <div class="np-cover-fallback"></div>
+      <img class="np-cover-img" alt="" hidden />
+    </div>
+    <div class="np-info">
+      <div class="np-status">正在播放</div>
+      <div class="np-title">—</div>
+      <div class="np-artist">—</div>
+      <div class="np-album">—</div>
+      <div class="np-progress" hidden>
+        <div class="np-progress-bar"><span class="np-progress-fill"></span></div>
+        <div class="np-progress-time"><span class="np-pos">0:00</span><span class="np-dur">0:00</span></div>
+      </div>
+    </div>
+  </template>
+
+  <template id="tplCustom">
+    <video class="np-custom-video" hidden loop muted playsinline></video>
+    <img class="np-custom-image" hidden alt="" />
+    <div class="np-custom-text" hidden></div>
+    <div class="np-custom-empty">自定义内容<br/>在设置中配置</div>
+  </template>
+
+  <script src="js/mock.js"></script>
+  <script src="js/grid_layout.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

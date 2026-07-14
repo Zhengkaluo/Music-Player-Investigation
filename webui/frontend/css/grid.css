@@ -1,0 +1,145 @@
+/* grid.css —— 网格画布与面板外壳样式（编辑态/展示态）。 */
+
+.gl-canvas {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+/* 编辑态：显示网格底纹 */
+.gl-canvas[data-edit="1"] {
+  background-image:
+    linear-gradient(to right, color-mix(in srgb, var(--c-fg) 8%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in srgb, var(--c-fg) 8%, transparent) 1px, transparent 1px);
+  background-size: calc(100% / 12) calc(100% / 8);
+}
+
+/* 面板外壳 */
+.gl-panel {
+  position: absolute;
+  border-radius: 12px;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.15s ease;
+}
+
+/* 标题栏：展示态隐藏，编辑态显示为拖动手柄 */
+.gl-bar {
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 11px;
+  color: var(--c-muted);
+  background: color-mix(in srgb, var(--c-fg) 8%, transparent);
+  cursor: default;
+  flex: 0 0 auto;
+  opacity: 0;
+  transition: height 0.15s ease, opacity 0.15s ease;
+}
+.gl-canvas[data-edit="1"] .gl-bar {
+  height: 24px;
+  opacity: 1;
+  cursor: move;
+}
+
+.gl-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 缩放把手：仅编辑态显示 */
+.gl-resize {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  cursor: nwse-resize;
+  display: none;
+  z-index: 3;
+}
+.gl-canvas[data-edit="1"] .gl-resize {
+  display: block;
+  background: linear-gradient(135deg, transparent 50%, var(--c-accent) 50%);
+}
+
+/* 编辑态：面板描边，突出可操作 */
+.gl-canvas[data-edit="1"] .gl-panel {
+  outline: 1px solid color-mix(in srgb, var(--c-accent) 60%, transparent);
+  outline-offset: -1px;
+}
+.gl-canvas[data-edit="1"] .gl-panel[data-locked="1"] {
+  outline-color: color-mix(in srgb, var(--c-muted) 40%, transparent);
+}
+.gl-canvas[data-edit="1"] .gl-panel:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* nowplaying 面板内部：横向封面+信息 */
+.gl-panel[data-type="nowplaying"] .gl-body {
+  display: flex;
+  align-items: center;
+  gap: var(--np-gap);
+  padding: var(--np-pad);
+  background: var(--c-card);
+}
+
+/* custom 面板 */
+.gl-panel[data-type="custom"] .gl-body {
+  background: color-mix(in srgb, var(--c-primary) 26%, var(--c-bg));
+  border: 1px solid color-mix(in srgb, var(--c-accent) 45%, transparent);
+  border-radius: 12px;
+}
+
+/* 顶部工具条 */
+.np-toolbar {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 20;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.np-root:hover .np-toolbar { opacity: 0.95; }
+
+.np-tbtn {
+  font-size: 12px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  background: color-mix(in srgb, var(--c-fg) 14%, transparent);
+  color: var(--c-fg);
+  cursor: pointer;
+}
+.np-tbtn:hover { background: color-mix(in srgb, var(--c-fg) 22%, transparent); }
+.np-tbtn[data-active="1"] {
+  background: var(--c-accent);
+  color: #fff;
+}
+
+/* 自定义内容占位 */
+.np-custom-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--c-muted);
+}
+.np-custom-video, .np-custom-image { width: 100%; height: 100%; object-fit: cover; display: block; }
+.np-custom-text {
+  padding: 12px; font-size: 13px; line-height: 1.6; color: var(--c-fg);
+  overflow: auto; white-space: pre-wrap; width: 100%; height: 100%; box-sizing: border-box;
+}

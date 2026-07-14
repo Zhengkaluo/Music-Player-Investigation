@@ -1,0 +1,27 @@
+/* 封面取色自适应主题 —— 完全跟随封面提色。
+   与沉浸主题的区别：纯色渐变背景（用封面调色板），不做模糊封面，
+   更干净、色块化，明暗随封面 is_dark 自动切换（由 JS 注入 --c-* 完成）。 */
+
+#app[data-theme="adaptive"] {
+  --c-scrim: transparent;
+}
+
+#app[data-theme="adaptive"] .np-bg { opacity: 0; }
+
+#app[data-theme="adaptive"] .np-root,
+#app[data-theme="adaptive"] {
+  background: linear-gradient(135deg,
+    var(--c-bg) 0%,
+    color-mix(in srgb, var(--c-primary) 55%, var(--c-bg)) 100%);
+}
+
+#app[data-theme="adaptive"] .np-scrim { background: transparent; }
+
+#app[data-theme="adaptive"] .np-cover {
+  box-shadow: 0 6px 20px color-mix(in srgb, var(--c-primary) 40%, transparent);
+}
+
+#app[data-theme="adaptive"] .np-custom {
+  background: color-mix(in srgb, var(--c-primary) 22%, var(--c-bg));
+  border-color: color-mix(in srgb, var(--c-accent) 60%, transparent);
+}
