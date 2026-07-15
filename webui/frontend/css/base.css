@@ -138,3 +138,53 @@ html, body {
   background: color-mix(in srgb, var(--c-fg) 8%, transparent);
   color: var(--c-fg); font-size: 13px;
 }
+
+/* 设置面板扩展：分区标题、滑块、开关行、板块编辑器 */
+.np-settings { width: 260px; max-height: 82vh; overflow-y: auto; }
+.np-sec-title {
+  font-size: 11px; letter-spacing: 0.5px; color: var(--c-muted);
+  margin: 6px 0 2px; padding-top: 8px;
+  border-top: 1px solid color-mix(in srgb, var(--c-fg) 12%, transparent);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.np-sec-title:first-child { border-top: none; padding-top: 0; }
+.np-field.np-row { flex-direction: row; align-items: center; justify-content: space-between; }
+.np-field b { color: var(--c-fg); font-weight: 500; }
+.np-field input[type="range"] { width: 100%; accent-color: var(--c-accent); }
+.np-field input[type="checkbox"] { width: 16px; height: 16px; accent-color: var(--c-accent); cursor: pointer; }
+.np-field textarea, .np-field input[type="text"] {
+  padding: 6px 8px; border-radius: 8px; resize: vertical;
+  border: 1px solid color-mix(in srgb, var(--c-fg) 20%, transparent);
+  background: color-mix(in srgb, var(--c-fg) 8%, transparent);
+  color: var(--c-fg); font-size: 13px; font-family: inherit; width: 100%; box-sizing: border-box;
+}
+.np-mini-btn {
+  font-size: 11px; padding: 3px 8px; border-radius: 6px; cursor: pointer;
+  border: 1px solid color-mix(in srgb, var(--c-fg) 20%, transparent);
+  background: color-mix(in srgb, var(--c-fg) 8%, transparent); color: var(--c-fg);
+}
+.np-mini-btn:hover { background: color-mix(in srgb, var(--c-accent) 40%, transparent); }
+.np-panel-list { display: flex; flex-direction: column; gap: 10px; }
+.np-panel-editor {
+  padding: 10px; border-radius: 10px;
+  background: color-mix(in srgb, var(--c-fg) 6%, transparent);
+  display: flex; flex-direction: column; gap: 8px;
+}
+.np-pe-head { display: flex; align-items: center; justify-content: space-between; }
+.np-pe-name { font-size: 12px; font-weight: 500; color: var(--c-fg); }
+.np-pe-del {
+  font-size: 11px; padding: 2px 8px; border-radius: 6px; cursor: pointer;
+  border: 1px solid color-mix(in srgb, #e24b4a 60%, transparent);
+  background: transparent; color: color-mix(in srgb, #e24b4a 90%, var(--c-fg));
+}
+.np-pe-src-row { display: flex; gap: 6px; }
+.np-pe-src-row input { flex: 1 1 auto; }
+.np-pe-save {
+  margin-top: 4px; padding: 7px 10px; border-radius: 8px; cursor: pointer;
+  border: none; background: var(--c-accent); color: #fff; font-size: 13px; font-weight: 500;
+}
+.np-pe-save:hover { filter: brightness(1.1); }
+.np-pe-save[data-saved="1"] {
+  background: color-mix(in srgb, #3aa87e 80%, var(--c-accent));
+}
+

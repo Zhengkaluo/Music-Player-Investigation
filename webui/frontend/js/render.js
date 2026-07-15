@@ -68,6 +68,24 @@
     }
   }
 
+  /* 本地路径 → 可加载 URL 的解析缓存：{ 原始source: 解析后URL } */
+  const _mediaCache = {};
+  function resolveMedia(source, cb) {
+    if (!source) { cb(""); return; }
+    const low = source.toLowerCase();
+    if (low.startsWith("http") || low.startsWith("data:") || low.startsWith("file://")) {
+      cb(source); return;
+    }
+    if (_mediaCache[source] !== undefined) { cb(_mediaCache[source]); return; }
+    const api = (window.pywebview && window.pywebview.api) || window.MockAPI;
+    if (api && api.resolve_media) {
+      api.resolve_media(source).then((url) => { _mediaCache[source] = url || source; cb(_mediaCache[source]); })
+        .catch(() => cb(source));
+    } else {
+      cb(source);
+    }
+  }
+
   function fillCustom(body, panel) {
     if (!body.querySelector(".np-custom-empty")) {
       body.appendChild($("tplCustom").content.cloneNode(true));
@@ -89,12 +107,23 @@
     vid.hidden = !showVideo; img.hidden = !showImage; txt.hidden = !showText;
 
     if (showVideo) {
-      if (vid.getAttribute("src") !== c.source) vid.src = c.source;
       vid.style.objectFit = c.fit || "cover";
-      vid.autoplay = true; vid.play().catch(() => {});
+      resolveMedia(c.source, (url) => {
+        if (vid.getAttribute("data-src-key") !== c.source) {
+          vid.src = url; vid.setAttribute("data-src-key", c.source);
+        }
+        vid.autoplay = true; vid.play().catch(() => {});
+      });
     } else if (!vid.paused) { vid.pause(); }
 
-    if (showImage) { img.src = c.source; img.style.objectFit = c.fit || "cover"; }
+    if (showImage) {
+      img.style.objectFit = c.fit || "cover";
+      resolveMedia(c.source, (url) => {
+        if (img.getAttribute("data-src-key") !== c.source) {
+          img.src = url; img.setAttribute("data-src-key", c.source);
+        }
+      });
+    }
     if (showText) { txt.textContent = c.source; }
   }
 

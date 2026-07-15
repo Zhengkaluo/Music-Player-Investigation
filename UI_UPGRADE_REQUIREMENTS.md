@@ -20,20 +20,28 @@
 | 后端 Bridge（js_api + 轮询推送） | ✅ 完成 | pywebview 冒烟测试通过 |
 | 前端渲染核心 + 深色沉浸主题 | ✅ 完成 | 浏览器 mock 预览正常 |
 | A+3 面板化网格布局引擎 | ✅ 第一版完成 | 拖动/缩放/吸附/禁重叠/比例自适应/增删板块；手感已确认 |
-| A+2 自定义内容区（video/image/text） | ◑ 基本达成 | 已并入 panels 结构；**编辑入口待补**（在设置面板选类型/填内容源） |
+| A+2 自定义内容区（video/image/text） | ✅ 完成并真机验证 | 结构+渲染+设置编辑入口(选类型/填内容/选本地文件/删板块)；真机确认文字/图片正常显示、保存生效 |
 | A+1 响应式三档重排 | ◑ 降级保留 | 作为 `layout.mode="responsive"` 可选项，代码保留，待完善 |
 | ≥3 套主题细节打磨 | ☐ 待办 | 三套已可切换，细节需精修 |
-| 设置面板增强（内容编辑/删板块/样式微调） | ☐ 待办 | 当前仅有主题、布局模式两个下拉 |
-| Windows 真机实测（真实 SMTC + 无边框拖动） | ☐ 待办 | 仅冒烟测过数据流，未长驻实跑 |
+| 设置面板增强（内容编辑/删板块/样式微调） | ✅ 完成 | 外观(主题/布局)+窗口(透明度/置顶)+自定义板块编辑器(类型/内容/文件选择/删除/增加/显式保存按钮) |
+| Windows 真机实测（真实 SMTC + 无边框拖动） | ✅ 完成 | 真机跑通：数据流/封面提色/拖动/缩放角/透明度/置顶/自定义内容全部验证 |
 | 依赖 requirements + README（Windows 安装说明） | ☐ 待办 | 依赖：pywebview 6.2.1、Pillow 12.3 |
 | 对象 B（HTML 报告模板化） | ☐ 未开始 | 待对象 A 收尾后进行 |
 
 **已产出文件清单（对象 A）：**
-- `webui/webui_app.py` — pywebview 入口（无边框/可拖动/置顶/尺寸持久化）
+- `webui/webui_app.py` — pywebview 入口（本地 HTTP 服务加载前端 + 资源 `?v=` 缓存击穿 + 无边框/可拖动/置顶/尺寸持久化 + NP_DEBUG 调试开关）
 - `webui/backend/config_store.py`、`color_extractor.py`、`bridge.py`
 - `webui/frontend/index.html`
 - `webui/frontend/css/base.css`、`grid.css`、`themes/{immersive,minimal,adaptive}.css`
 - `webui/frontend/js/mock.js`、`grid_layout.js`、`render.js`、`app.js`
+- `启动Web版.bat`（日常启动）、`调试模式.bat`（NP_DEBUG=1 带开发者工具）
+
+> **关键踩坑记录（供后续维护）**：
+> 1. **WebView2 强缓存 file:// 资源** → 改代码不生效。解法：本地 HTTP 服务 + 启动时给 js/css 注入 `?v=<时间戳>` 缓存击穿。
+> 2. **`[hidden]` 属性被元素自身 `display:flex/block` 覆盖** → JS 设 `el.hidden=true` 但元素仍显示（占位层盖住内容）。解法：全局 `[hidden]{display:none!important}`。诊断时必须查 `getComputedStyle().display`，不能只看 `.hidden` 属性。
+> 3. **本地图片/视频路径** WebView2 无法直接加载 → 后端 `resolve_media` 转 base64 data URL。
+> 4. **无边框窗口缩放** 不能靠 `resizable` 边缘拖拽 → 前端自绘缩放角 + 后端 `resize_window()`。
+> 5. **`.bat` 禁写中文**（GBK 乱码），一律 ASCII。
 
 ---
 
@@ -180,7 +188,7 @@
   4. 高 DPI 下各档形态均需清晰不糊。
 - 备注：此需求会明显影响技术路线取舍——**Web 套壳（A2）天然用 CSS 媒体查询/容器查询做响应式更省力**；若选 CustomTkinter（A1），需手动监听窗口 resize 事件并切换布局，实现成本更高。接手 Agent 应把这一点纳入路线确认时的说明。
 
-**A+2. 可自定义内容区（视频/图片/文字）** — 状态：◑ 数据结构与渲染已并入 panels 完成；**设置里的内容编辑入口待补**。
+**A+2. 可自定义内容区（视频/图片/文字）** — 状态：✅ 完成。结构、渲染、设置面板编辑入口（选类型/填内容源/原生文件选择/增删板块）均已实现。
 - 背景：用户希望界面上有一块**可自由配置内容的区域**，用来放置个性化内容。
 - 要求：
   1. 提供一块独立的「自定义内容区」，内容类型支持 **三选一**：本地/网络**视频**、**图片**（含 GIF）、**富文本/纯文字**。

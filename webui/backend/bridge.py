@@ -10,6 +10,7 @@
 
 from __future__ import annotations
 
+import os
 import sys
 import threading
 import time
@@ -85,6 +86,98 @@ class Bridge:
         if window_patch:
             self.store.update({"window": window_patch})
         return self.store.config.get("window", {})
+
+    def resize_window(self, width: int, height: int) -> Dict[str, Any]:
+        """由前端缩放角调用：即时调整窗口大小并持久化。"""
+        try:
+            width = max(320, int(width))
+            height = max(200, int(height))
+        except (TypeError, ValueError):
+            return self.store.config.get("window", {})
+        if self._window is not None:
+            try:
+                self._window.resize(width, height)
+            except Exception:
+                pass
+        self.store.update({"window": {"width": width, "height": height}})
+        return self.store.config.get("window", {})
+
+    def set_window_opacity(self, alpha: float) -> Dict[str, Any]:
+        """设置窗口透明度并持久化。alpha 0.2~1.0。
+
+        注意：pywebview 的透明度在窗口创建时通过 transparent 参数决定，
+        运行时逐级调整能力依平台而定；此处始终持久化，下次启动生效，
+        运行时若平台支持则尝试即时应用。
+        """
+        try:
+            alpha = max(0.2, min(1.0, float(alpha)))
+        except (TypeError, ValueError):
+            return self.store.config.get("window", {})
+        self.store.update({"window": {"alpha": alpha}})
+        return self.store.config.get("window", {})
+
+    def set_topmost(self, on: bool) -> Dict[str, Any]:
+        """设置窗口置顶并持久化。"""
+        on = bool(on)
+        self.store.update({"window": {"topmost": on}})
+        if self._window is not None:
+            try:
+                self._window.on_top = on
+            except Exception:
+                pass
+        return self.store.config.get("window", {})
+
+    def pick_file(self, kind: str = "all") -> str:
+        """打开原生文件选择框，返回所选文件路径（取消返回空串）。
+
+        kind: "video" | "image" | "all"，用于过滤文件类型。
+        供自定义内容区选择本地视频/图片。
+        """
+        if self._window is None:
+            return ""
+        try:
+            import webview
+            filters_map = {
+                "video": ("视频文件 (*.mp4;*.webm;*.mov;*.mkv)",),
+                "image": ("图片文件 (*.png;*.jpg;*.jpeg;*.gif;*.webp;*.bmp)",),
+            }
+            file_types = filters_map.get(kind, ("所有文件 (*.*)",))
+            result = self._window.create_file_dialog(
+                webview.OPEN_DIALOG, allow_multiple=False, file_types=file_types
+            )
+            if result:
+                return result[0] if isinstance(result, (list, tuple)) else str(result)
+        except Exception:
+            pass
+        return ""
+
+    def resolve_media(self, source: str) -> str:
+        """把本地文件路径解析为前端可加载的形式。
+
+        WebView2 出于安全策略无法直接用 <img src="E:\\x.jpg"> 加载本地绝对路径。
+        - 若 source 已是 http(s)/data/file URL，原样返回。
+        - 若是本地存在的文件，读为 data URL（base64）返回，供 <img>/<video> 直接用。
+        - 其余原样返回。
+        图片/小视频用 data URL 足够；超大视频建议后续改用本地 http 静态服务。
+        """
+        if not source:
+            return ""
+        low = source.strip().lower()
+        if low.startswith(("http://", "https://", "data:", "file://")):
+            return source
+        try:
+            if os.path.exists(source):
+                import base64 as _b64
+                import mimetypes
+                mime, _ = mimetypes.guess_type(source)
+                mime = mime or "application/octet-stream"
+                with open(source, "rb") as f:
+                    data = f.read()
+                b64 = _b64.b64encode(data).decode("ascii")
+                return "data:%s;base64,%s" % (mime, b64)
+        except Exception:
+            pass
+        return source
 
     def refresh_now(self) -> Dict[str, Any]:
         """前端手动请求立即刷新一次。"""

@@ -33,10 +33,12 @@
     <!-- 设置面板 -->
     <div class="np-settings" id="npSettings" hidden>
       <div class="np-settings-head">
-        <span>设置</span>
+        <span>设置 <small id="npVer" style="opacity:.5;font-weight:400;font-size:10px">v5</small></span>
         <button id="npSettingsClose" aria-label="关闭">×</button>
       </div>
       <div class="np-settings-body">
+
+        <div class="np-sec-title">外观</div>
         <label class="np-field">
           <span>主题</span>
           <select id="npThemeSelect">
@@ -52,9 +54,63 @@
             <option value="responsive">自动重排</option>
           </select>
         </label>
+
+        <div class="np-sec-title">窗口</div>
+        <label class="np-field">
+          <span>透明度 <b id="npAlphaVal">95%</b></span>
+          <input type="range" id="npAlpha" min="20" max="100" step="5" value="95" />
+        </label>
+        <label class="np-field np-row">
+          <span>窗口置顶</span>
+          <input type="checkbox" id="npTopmost" />
+        </label>
+
+        <div class="np-sec-title">
+          自定义内容板块
+          <button class="np-mini-btn" id="npAddPanel2" title="添加板块">+ 添加</button>
+        </div>
+        <div id="npPanelList" class="np-panel-list"></div>
       </div>
     </div>
+
+    <!-- 缩放角：无边框窗口靠它拖拽改大小 -->
+    <div class="np-resize-grip" id="npResizeGrip" title="拖拽调整窗口大小"></div>
   </div>
+
+  <!-- 单个自定义板块的编辑模板 -->
+  <template id="tplPanelEditor">
+    <div class="np-panel-editor" data-pid="">
+      <div class="np-pe-head">
+        <span class="np-pe-name">自定义内容</span>
+        <button class="np-pe-del" title="删除板块">删除</button>
+      </div>
+      <label class="np-field">
+        <span>类型</span>
+        <select class="np-pe-kind">
+          <option value="text">文字</option>
+          <option value="image">图片</option>
+          <option value="video">视频</option>
+        </select>
+      </label>
+      <label class="np-field np-pe-text-field">
+        <span>文字内容</span>
+        <textarea class="np-pe-text" rows="3" placeholder="输入要显示的文字"></textarea>
+      </label>
+      <label class="np-field np-pe-src-field" hidden>
+        <span>内容源（路径 / URL）</span>
+        <div class="np-pe-src-row">
+          <input type="text" class="np-pe-src" placeholder="本地路径或网址" />
+          <button class="np-mini-btn np-pe-pick">选择…</button>
+        </div>
+      </label>
+      <label class="np-field np-row">
+        <span>跟随封面配色</span>
+        <input type="checkbox" class="np-pe-follow" />
+      </label>
+      <button class="np-pe-save">保存修改</button>
+    </div>
+  </template>
+
 
   <!-- 面板内容模板：由 render.js 克隆填充 -->
   <template id="tplNowPlaying">

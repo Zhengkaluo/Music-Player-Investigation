@@ -1,5 +1,16 @@
 /* grid.css —— 网格画布与面板外壳样式（编辑态/展示态）。 */
 
+.np-resize-grip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  z-index: 50;
+  cursor: nwse-resize;
+  background: linear-gradient(135deg, transparent 45%, color-mix(in srgb, var(--c-fg) 35%, transparent) 45%, color-mix(in srgb, var(--c-fg) 35%, transparent) 55%, transparent 55%, transparent 70%, color-mix(in srgb, var(--c-fg) 35%, transparent) 70%, color-mix(in srgb, var(--c-fg) 35%, transparent) 80%, transparent 80%);
+}
+
 .gl-canvas {
   position: absolute;
   inset: 0;
@@ -138,6 +149,8 @@
   line-height: 1.6;
   color: var(--c-muted);
 }
+/* 关键：hidden 属性必须强制隐藏，否则 display:flex/block 会盖过 [hidden] 的默认 display:none */
+[hidden] { display: none !important; }
 .np-custom-video, .np-custom-image { width: 100%; height: 100%; object-fit: cover; display: block; }
 .np-custom-text {
   padding: 12px; font-size: 13px; line-height: 1.6; color: var(--c-fg);

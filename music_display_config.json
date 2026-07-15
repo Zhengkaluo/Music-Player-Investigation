@@ -1,20 +1,31 @@
 {
+  "theme_id": "adaptive",
   "window": {
-    "width": 1734,
-    "height": 851,
-    "x": 1530,
-    "y": 991,
-    "topmost": true,
-    "alpha": 0.95
+    "width": 1618,
+    "height": 794,
+    "x": 440,
+    "y": 370,
+    "alpha": 0.95,
+    "topmost": true
   },
   "style": {
-    "bg_color": "#8080ff",
-    "text_color": "#ffffff",
-    "accent_color": "#804000",
     "font_family": "Microsoft YaHei UI",
     "title_size": 25,
     "artist_size": 19,
-    "album_size": 14
+    "album_size": 14,
+    "bg_color": "#1f1b2e",
+    "text_color": "#ffffff",
+    "accent_color": "#8f7fe0",
+    "alignment": {
+      "title": "left",
+      "artist": "left",
+      "album": "left",
+      "status": "left"
+    }
+  },
+  "thumbnail": {
+    "show": true,
+    "size": 400
   },
   "auto_update": {
     "enabled": true,
@@ -26,14 +37,76 @@
     "album": "Rivers Arms",
     "status": "正在播放"
   },
-  "thumbnail": {
-    "size": 400,
-    "show": true
+  "custom_content": {
+    "enabled": true,
+    "type": "text",
+    "source": "不是的\n",
+    "follow_theme": true,
+    "fit": "cover",
+    "position": "right",
+    "size": {
+      "w": 0,
+      "h": 0
+    }
   },
-  "alignment": {
-    "title": "left",
-    "artist": "left",
-    "album": "left",
-    "status": "left"
-  }
+  "layout": {
+    "mode": "grid",
+    "grid": {
+      "cols": 12,
+      "rows": 8
+    },
+    "edit": true,
+    "snap": true,
+    "overlap": false
+  },
+  "panels": [
+    {
+      "id": "nowplaying",
+      "type": "nowplaying",
+      "visible": true,
+      "grid": {
+        "col": 0,
+        "row": 0,
+        "w": 7,
+        "h": 4
+      },
+      "locked": false
+    },
+    {
+      "id": "custom-1784105356707",
+      "type": "custom",
+      "visible": true,
+      "locked": false,
+      "grid": {
+        "col": 7,
+        "row": 3,
+        "w": 4,
+        "h": 3
+      },
+      "content": {
+        "kind": "text",
+        "source": "不是的\n",
+        "follow_theme": true,
+        "fit": "cover"
+      }
+    },
+    {
+      "id": "custom-1784107385966",
+      "type": "custom",
+      "visible": true,
+      "locked": false,
+      "grid": {
+        "col": 7,
+        "row": 0,
+        "w": 4,
+        "h": 3
+      },
+      "content": {
+        "kind": "text",
+        "source": "今日上线\n",
+        "follow_theme": false,
+        "fit": "cover"
+      }
+    }
+  ]
 }

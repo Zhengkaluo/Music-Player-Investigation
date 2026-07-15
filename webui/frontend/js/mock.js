@@ -85,6 +85,11 @@
       return Promise.resolve(cfg);
     },
     set_window_bounds() { return Promise.resolve(this._state.config.window); },
+    set_window_opacity(a) { this._state.config.window.alpha = a; return Promise.resolve(this._state.config.window); },
+    set_topmost(on) { this._state.config.window.topmost = on; return Promise.resolve(this._state.config.window); },
+    resize_window(w, h) { this._state.config.window.width = w; this._state.config.window.height = h; return Promise.resolve(this._state.config.window); },
+    pick_file() { return Promise.resolve(""); },
+    resolve_media(s) { return Promise.resolve(s); },
     refresh_now() { return Promise.resolve(this._state); },
   };
 })();
