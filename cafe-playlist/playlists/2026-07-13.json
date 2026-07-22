@@ -1,0 +1,301 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T22:20:39.089812",
+  "config_snapshot": {
+    "business_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "style_preferences": [],
+    "weights": {
+      "___说明___": "六维评分权重。burden(负担程度)/swing(摇摆程度)在专辑缺失该值时自动不参与，权重按比例重分给其他维度。四维基础权重与旧版(0.35/0.25/0.25/0.15)严格等比，因此当前数据全空时排序与旧版完全一致；补全数据后 burden/swing 自动生效。",
+      "noise": 0.2975,
+      "style": 0.2125,
+      "freshness": 0.2125,
+      "cohesion": 0.1275,
+      "burden": 0.085,
+      "swing": 0.0725
+    }
+  },
+  "summary": {
+    "total_albums": 19,
+    "target_duration_seconds": 32400,
+    "actual_duration_seconds": 35401,
+    "target_duration_display": "9h00m",
+    "actual_duration_display": "9h50m",
+    "fill_percentage": 109.3
+  },
+  "slots": [
+    {
+      "slot_name": "早上",
+      "start": "09:00",
+      "end": "11:00",
+      "target_noise": [
+        2,
+        4
+      ],
+      "target_duration_seconds": 7200,
+      "actual_duration_seconds": 7782,
+      "albums": [
+        {
+          "name": "岭南新民谣 (2023第二辑)",
+          "genres": [
+            "indie-folk",
+            "folk"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2272,
+          "duration_display": "37:52",
+          "score": 0.8488,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003YXPci3jIpYa"
+        },
+        {
+          "name": "The Changing Lights",
+          "genres": [
+            "vocal jazz",
+            "contemporary-jazz"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 3481,
+          "duration_display": "58:01",
+          "score": 0.8468,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001Z5Xq42ukRHA"
+        },
+        {
+          "name": "Premiers Symptômes",
+          "genres": [
+            "electronic",
+            "chillout",
+            "ambient"
+          ],
+          "noise_level": 3.0,
+          "duration_seconds": 2029,
+          "duration_display": "33:49",
+          "score": 0.846,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003fnfQs2aom1t"
+        }
+      ]
+    },
+    {
+      "slot_name": "中午",
+      "start": "11:00",
+      "end": "14:00",
+      "target_noise": [
+        4,
+        6
+      ],
+      "target_duration_seconds": 10800,
+      "actual_duration_seconds": 12688,
+      "albums": [
+        {
+          "name": "eye",
+          "genres": [
+            "electronic",
+            "indie-rock",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 1879,
+          "duration_display": "31:19",
+          "score": 0.8084,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/00498NkJ1y2HOe"
+        },
+        {
+          "name": "Guantanamo Bay Surf Club",
+          "genres": [
+            "folk",
+            "surf rock",
+            "shoegaze",
+            "inde alternative"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2093,
+          "duration_display": "34:53",
+          "score": 0.7881,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003Dfm5b2IUPvd"
+        },
+        {
+          "name": "Gift from the Trees",
+          "genres": [
+            "contemporary-jazz",
+            "math-rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 2935,
+          "duration_display": "48:55",
+          "score": 0.7872,
+          "qq_music_url": "https://c6.y.qq.com/base/fcgi-bin/u?__=Os73DTUb6Hj4"
+        },
+        {
+          "name": "Voyeur",
+          "genres": [],
+          "noise_level": 5.0,
+          "duration_seconds": 2586,
+          "duration_display": "43:06",
+          "score": 0.7851,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002FDG6m12svjH"
+        },
+        {
+          "name": "The La's",
+          "genres": [
+            "indie-pop",
+            "rock"
+          ],
+          "noise_level": 5.0,
+          "duration_seconds": 3195,
+          "duration_display": "53:15",
+          "score": 0.7747,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/004S72sY1g1HcU"
+        }
+      ]
+    },
+    {
+      "slot_name": "下午",
+      "start": "14:00",
+      "end": "18:00",
+      "target_noise": [
+        3,
+        5
+      ],
+      "target_duration_seconds": 14400,
+      "actual_duration_seconds": 14931,
+      "albums": [
+        {
+          "name": "1983",
+          "genres": [],
+          "noise_level": 4.0,
+          "duration_seconds": 2725,
+          "duration_display": "45:25",
+          "score": 0.8045,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0036nuid2U0sVj"
+        },
+        {
+          "name": "けものたちの名前",
+          "genres": [
+            "rock",
+            "indie-pop",
+            "indie-rock"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 2610,
+          "duration_display": "43:30",
+          "score": 0.7904,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001VSALo3RgOfJ"
+        },
+        {
+          "name": "梦里水乡 (青春重置计划5 请回答1999)",
+          "genres": [
+            "indie-pop",
+            "dream pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 474,
+          "duration_display": "7:54",
+          "score": 0.7849,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/001zZm8u3gRgny"
+        },
+        {
+          "name": "Hey",
+          "genres": [
+            "pop",
+            "indie-pop"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 3016,
+          "duration_display": "50:16",
+          "score": 0.7847,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0028i9A42wCKDt"
+        },
+        {
+          "name": "Life Moves On",
+          "genres": [
+            "indie-pop",
+            "alternative"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 251,
+          "duration_display": "4:11",
+          "score": 0.784,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003AN3jH2oJg9k"
+        },
+        {
+          "name": "songs in black and white (live from the waiting room, 29.07.16)",
+          "genres": [
+            "indie-pop",
+            "indie-folk",
+            "folk"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 872,
+          "duration_display": "14:32",
+          "score": 0.7829,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000HoWSS4buEMb"
+        },
+        {
+          "name": "Maybe Maybe",
+          "genres": [
+            "indie-folk",
+            "folk rock",
+            "taiwanese indie"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 212,
+          "duration_display": "3:32",
+          "score": 0.7826,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/002jcXRN1GJWpY"
+        },
+        {
+          "name": "每当幻变时",
+          "genres": [
+            "indie-pop",
+            "hip-hop",
+            "hong kong"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 213,
+          "duration_display": "3:33",
+          "score": 0.7813,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/000tMKZq23pT6l"
+        },
+        {
+          "name": "Wanted on Voyage (Expanded Edition)",
+          "genres": [
+            "indie-pop",
+            "folk"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 3438,
+          "duration_display": "57:18",
+          "score": 0.781,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/003CyxHn1KM9yU"
+        },
+        {
+          "name": "Archie's Funeral",
+          "genres": [
+            "indie-folk",
+            "folk rock",
+            "taiwanese indie"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 174,
+          "duration_display": "2:54",
+          "score": 0.7804,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0026PHUw3laXro"
+        },
+        {
+          "name": "Rosy Mercury",
+          "genres": [
+            "indie-pop",
+            "dream pop",
+            "r&b"
+          ],
+          "noise_level": 4.0,
+          "duration_seconds": 946,
+          "duration_display": "15:46",
+          "score": 0.7794,
+          "qq_music_url": "https://y.qq.com/n/ryqq/albumDetail/0018MSYy0cxHHD"
+        }
+      ]
+    }
+  ]
+}

@@ -52,25 +52,27 @@ def _slot_duration_seconds(slot: dict) -> int:
 # ─── 评分函数 ───
 
 
-def _noise_match_score(album_noise: float, target_range: list[float]) -> float:
+def _gaussian_match_score(value: float, target_range: list[float]) -> float:
     """
-    噪音匹配评分。
-    使用高斯距离：噪音落在 target_range 中间时得分最高。
-    
+    通用高斯匹配评分：value 落在 target_range 中心时得分最高（峰值 1.0）。
+    noise / burden / swing 三个维度共用同一套匹配逻辑。
+
     target_range: [low, high]，如 [2, 4]
     """
     low, high = target_range
     center = (low + high) / 2.0
     sigma = (high - low) / 2.0  # 标准差设为范围的一半
-    
+
     if sigma <= 0:
         sigma = 1.0
-    
-    # 高斯函数，峰值为 1.0
-    distance = abs(album_noise - center)
-    score = math.exp(-(distance ** 2) / (2 * sigma ** 2))
-    
-    return score
+
+    distance = abs(value - center)
+    return math.exp(-(distance ** 2) / (2 * sigma ** 2))
+
+
+def _noise_match_score(album_noise: float, target_range: list[float]) -> float:
+    """噪音匹配评分（保留旧接口，内部复用通用高斯匹配）。"""
+    return _gaussian_match_score(album_noise, target_range)
 
 
 def _style_preference_score(album_genres: list[str], preferences: list[str]) -> float:
@@ -150,39 +152,62 @@ def compute_score(
     play_history: dict,
 ) -> float:
     """
-    计算专辑的综合评分。
-    
-    score = w_noise * noise_match 
-          + w_style * style_preference 
-          + w_fresh * freshness 
-          + w_cohesion * cohesion
+    计算专辑的综合评分（六维，动态权重重归一化）。
+
+    维度：noise 噪音 / style 风格偏好 / freshness 新鲜度 /
+          cohesion 一致性 / burden 负担 / swing 摇摆
+
+    关键设计——动态权重重归一化：
+      burden / swing 依赖专辑填写的 burden_level / swing_rate。
+      若某专辑缺失该值，则该维度不参与评分，其权重按比例
+      重新分配给其余"有效"维度。因此：
+      · 当前数据几乎全空 → burden/swing 自动让位，结果≈旧版；
+      · 数据补全后 → 自动生效，无需再改代码。
     """
     weights = config.get("weights", {})
     w_noise = weights.get("noise", 0.35)
     w_style = weights.get("style", 0.25)
     w_fresh = weights.get("freshness", 0.25)
     w_cohesion = weights.get("cohesion", 0.15)
-    
+    w_burden = weights.get("burden", 0.0)
+    w_swing = weights.get("swing", 0.0)
+
     # 获取上次播放日期（优先从播放历史中获取，其次从专辑数据中获取）
     last_played = _get_last_played(album["name"], play_history) or album.get("last_played")
-    
-    s_noise = _noise_match_score(
-        album.get("noise_level", 4.0),
-        slot.get("target_noise", [3, 5])
-    )
-    s_style = _style_preference_score(
-        album.get("genres", []),
-        config.get("style_preferences", [])
-    )
-    s_fresh = _freshness_score(last_played, today)
-    s_cohesion = _cohesion_score(album.get("genres", []), selected_genres)
-    
-    total = (w_noise * s_noise 
-             + w_style * s_style 
-             + w_fresh * s_fresh 
-             + w_cohesion * s_cohesion)
-    
-    return total
+
+    # 始终参与的四个维度
+    components: list[tuple[float, float]] = [
+        (w_noise, _noise_match_score(
+            album.get("noise_level", 4.0),
+            slot.get("target_noise", [3, 5]),
+        )),
+        (w_style, _style_preference_score(
+            album.get("genres", []),
+            config.get("style_preferences", []),
+        )),
+        (w_fresh, _freshness_score(last_played, today)),
+        (w_cohesion, _cohesion_score(album.get("genres", []), selected_genres)),
+    ]
+
+    # 条件参与：仅当专辑填写了对应值时才计入
+    burden_val = album.get("burden_level")
+    if burden_val is not None and w_burden > 0:
+        components.append((w_burden, _gaussian_match_score(
+            burden_val, slot.get("target_burden", [2, 5]),
+        )))
+
+    swing_val = album.get("swing_rate")
+    if swing_val is not None and w_swing > 0:
+        components.append((w_swing, _gaussian_match_score(
+            swing_val, slot.get("target_swing", [2, 5]),
+        )))
+
+    # 动态权重重归一化：把生效维度的权重之和缩放回 1.0
+    total_w = sum(w for w, _ in components)
+    if total_w <= 0:
+        return 0.0
+
+    return sum(w * s for w, s in components) / total_w
 
 
 def _get_last_played(album_name: str, play_history: dict) -> Optional[str]:

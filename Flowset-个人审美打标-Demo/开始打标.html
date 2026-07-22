@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Flowset 个人审美打标</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__eyebrow">FLOWSET · LOCAL LISTENING STUDY</div>
+      <div class="hero__row">
+        <div>
+          <h1>个人审美打标</h1>
+          <p>听完整首或任意片段，用你自己的词描述音乐。所有音频只在本机播放。</p>
+        </div>
+        <div class="privacy-badge">离线 · 不上传音频</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel setup-panel" aria-labelledby="setup-title">
+        <div class="section-heading">
+          <div>
+            <span class="step">01</span>
+            <div>
+              <h2 id="setup-title">载入音乐</h2>
+              <p>解压 ZIP 后，选择同目录下的“音乐”文件夹；也可以选择任意一组音频文件。</p>
+            </div>
+          </div>
+          <div class="button-row">
+            <button id="chooseFolderButton" class="button button--primary" type="button">选择音乐文件夹</button>
+            <button id="chooseFilesButton" class="button button--secondary" type="button">选择多个文件</button>
+          </div>
+        </div>
+        <input id="folderInput" type="file" webkitdirectory multiple accept="audio/*" hidden />
+        <input id="filesInput" type="file" multiple accept="audio/*" hidden />
+        <div id="dropZone" class="drop-zone" tabindex="0">
+          <strong>也可以把音乐文件拖到这里</strong>
+          <span>支持 MP3、M4A、WAV、FLAC、OGG、AAC</span>
+        </div>
+        <div id="loadStatus" class="status-line" aria-live="polite">尚未载入音乐</div>
+      </section>
+
+      <section class="panel" aria-labelledby="identity-title">
+        <div class="section-heading section-heading--compact">
+          <div>
+            <span class="step">02</span>
+            <div>
+              <h2 id="identity-title">这次是谁在听？</h2>
+              <p>可以填写昵称或匿名编号；它只会写入导出的 JSON。</p>
+            </div>
+          </div>
+        </div>
+        <div class="two-column-form">
+          <label>
+            <span>标注者</span>
+            <input id="annotatorInput" type="text" placeholder="例如：friend-01" autocomplete="off" />
+          </label>
+          <label>
+            <span>本次数据集名称</span>
+            <input id="datasetInput" type="text" value="Flowset 个人审美样本" autocomplete="off" />
+          </label>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="dimension-title">
+        <div class="section-heading section-heading--compact">
+          <div>
+            <span class="step">03</span>
+            <div>
+              <h2 id="dimension-title">定义审美维度</h2>
+              <p>默认维度可直接使用，也可以改名、改选项或新建维度。多个选项请用逗号分隔。</p>
+            </div>
+          </div>
+          <button id="addDimensionButton" class="button button--secondary" type="button">＋ 新建维度</button>
+        </div>
+        <div id="dimensionEditor" class="dimension-editor"></div>
+      </section>
+
+      <section class="panel tracks-panel" aria-labelledby="tracks-title">
+        <div class="tracks-toolbar">
+          <div class="section-heading section-heading--compact">
+            <div>
+              <span class="step">04</span>
+              <div>
+                <h2 id="tracks-title">试听并打标</h2>
+                <p>标签没有标准答案；请按你的第一感受选择。</p>
+              </div>
+            </div>
+          </div>
+          <div class="toolbar-controls">
+            <label class="search-field">
+              <span class="sr-only">搜索曲目</span>
+              <input id="searchInput" type="search" placeholder="搜索曲名" />
+            </label>
+            <label class="switch-label">
+              <input id="unfinishedOnlyInput" type="checkbox" />
+              <span>只看未标注</span>
+            </label>
+          </div>
+        </div>
+        <div id="emptyState" class="empty-state">
+          <div class="empty-state__mark">♫</div>
+          <h3>先选择一个音乐文件夹</h3>
+          <p>载入后，每一首歌都会显示独立播放器、时间轴和标签表。</p>
+        </div>
+        <div id="trackList" class="track-list"></div>
+      </section>
+    </main>
+
+    <footer class="export-bar">
+      <div class="export-progress">
+        <div class="export-progress__topline">
+          <span id="progressLabel">0 / 0 首已标注</span>
+          <span id="draftStatus">草稿会自动保存在本机浏览器</span>
+        </div>
+        <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+      </div>
+      <div class="button-row">
+        <button id="importButton" class="button button--quiet" type="button">导入 JSON</button>
+        <input id="importInput" type="file" accept="application/json,.json" hidden />
+        <button id="clearDraftButton" class="button button--quiet" type="button">清空草稿</button>
+        <button id="exportButton" class="button button--accent" type="button" disabled>导出标注 JSON</button>
+      </div>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

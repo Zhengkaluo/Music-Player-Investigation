@@ -10,7 +10,9 @@
       "start": "09:00",
       "end": "11:00",
       "target_noise": [2, 4],
-      "description": "安静舒缓，适合早晨"
+      "target_burden": [1, 3],
+      "target_swing": [3, 5],
+      "description": "安静舒缓轻盈，低负担，适合早晨"
     },
     {
       "name": "midday",
@@ -18,7 +20,9 @@
       "start": "11:00",
       "end": "14:00",
       "target_noise": [4, 6],
-      "description": "稍微活泼，午间氛围"
+      "target_burden": [4, 6],
+      "target_swing": [5, 7],
+      "description": "稍微活泼，中等负担+高摇摆，午间氛围"
     },
     {
       "name": "afternoon",
@@ -26,14 +30,19 @@
       "start": "14:00",
       "end": "18:00",
       "target_noise": [3, 5],
-      "description": "中等节奏，下午平稳"
+      "target_burden": [3, 5],
+      "target_swing": [4, 6],
+      "description": "中等节奏，中负担中摇摆，下午平稳"
     }
   ],
   "weights": {
-    "noise": 0.35,
-    "style": 0.25,
-    "freshness": 0.25,
-    "cohesion": 0.15
+    "___说明___": "六维评分权重。burden(负担程度)/swing(摇摆程度)在专辑缺失该值时自动不参与，权重按比例重分给其他维度。四维基础权重与旧版(0.35/0.25/0.25/0.15)严格等比，因此当前数据全空时排序与旧版完全一致；补全数据后 burden/swing 自动生效。",
+    "noise": 0.2975,
+    "style": 0.2125,
+    "freshness": 0.2125,
+    "cohesion": 0.1275,
+    "burden": 0.085,
+    "swing": 0.0725
   },
   "style_preferences": [],
   "default_duration": 2400,
@@ -72,5 +81,72 @@
     "abstract hiphop": 4.0,
     "pop": 4.0,
     "闽南": 3.5
+  },
+
+  "genre_burden_map": {
+    "___说明___": "风格 → 负担程度估算值（量表1-10）。负担=听觉信息密度+情绪重量，越需集中精力消化/情绪越沉重则越高。与噪音无关(古典交响噪音低但负担高)。仅在专辑无 burden_level 且无法音频分析时兜底。多风格取平均。锚点见 BURDEN_SWING_LABELING_STANDARD.md。",
+    "ambient": 1.5,
+    "Pure-Piano": 2.0,
+    "acoustic": 2.0,
+    "indie-folk": 2.0,
+    "folk": 2.0,
+    "folk rock": 2.5,
+    "Lofi": 2.0,
+    "dream pop": 2.5,
+    "shoegaze": 3.5,
+    "indie-pop": 3.0,
+    "pop": 3.0,
+    "c-pop": 3.0,
+    "soul": 3.0,
+    "neo-soul": 3.0,
+    "R&B": 3.0,
+    "hip-hop": 3.0,
+    "jazz hip-hop": 3.0,
+    "ambient jazz": 3.5,
+    "jazz": 4.0,
+    "electronic": 3.5,
+    "indie-rock": 4.0,
+    "math-rock": 4.0,
+    "post-rock": 4.5,
+    "alternative rock": 4.5,
+    "funk": 4.0,
+    "experimental": 5.5,
+    "fusion jazz": 6.0,
+    "classical": 7.0,
+    "contemporary classical": 7.5,
+    "new-classical": 6.5
+  },
+
+  "genre_swing_map": {
+    "___说明___": "风格 → 摇摆速率估算值（量表1-10）。摇摆=律动/节奏摆动感/groove，爵士funk嘻哈高，ambient古典drone低。仅在专辑无 swing_rate 且无法音频分析时兜底。多风格取平均。注意：已标注样本仅4张且全为高值(5-6.55)，低值区为推测，待补标后校准。",
+    "ambient": 1.0,
+    "classical": 1.5,
+    "contemporary classical": 1.5,
+    "Pure-Piano": 1.5,
+    "new-classical": 1.5,
+    "shoegaze": 2.5,
+    "dream pop": 2.5,
+    "post-rock": 3.5,
+    "acoustic": 2.5,
+    "indie-folk": 3.0,
+    "folk": 3.0,
+    "folk rock": 3.5,
+    "indie-pop": 3.5,
+    "pop": 4.0,
+    "c-pop": 4.0,
+    "electronic": 4.0,
+    "indie-rock": 4.0,
+    "alternative rock": 4.5,
+    "Lofi": 4.0,
+    "R&B": 4.5,
+    "soul": 5.0,
+    "neo-soul": 5.5,
+    "hip-hop": 5.5,
+    "jazz hip-hop": 6.0,
+    "math-rock": 6.0,
+    "funk": 6.5,
+    "jazz": 6.0,
+    "fusion jazz": 6.0,
+    "swing": 8.0
   }
 }

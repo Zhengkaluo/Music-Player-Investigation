@@ -613,5 +613,105 @@
       }
     ],
     "generated_at": "2026-04-23T15:38:14.805052"
+  },
+  "2026-07-13": {
+    "albums": [
+      {
+        "name": "岭南新民谣 (2023第二辑)",
+        "slot": "早上",
+        "duration_seconds": 2272
+      },
+      {
+        "name": "The Changing Lights",
+        "slot": "早上",
+        "duration_seconds": 3481
+      },
+      {
+        "name": "Premiers Symptômes",
+        "slot": "早上",
+        "duration_seconds": 2029
+      },
+      {
+        "name": "eye",
+        "slot": "中午",
+        "duration_seconds": 1879
+      },
+      {
+        "name": "Guantanamo Bay Surf Club",
+        "slot": "中午",
+        "duration_seconds": 2093
+      },
+      {
+        "name": "Gift from the Trees",
+        "slot": "中午",
+        "duration_seconds": 2935
+      },
+      {
+        "name": "Voyeur",
+        "slot": "中午",
+        "duration_seconds": 2586
+      },
+      {
+        "name": "The La's",
+        "slot": "中午",
+        "duration_seconds": 3195
+      },
+      {
+        "name": "1983",
+        "slot": "下午",
+        "duration_seconds": 2725
+      },
+      {
+        "name": "けものたちの名前",
+        "slot": "下午",
+        "duration_seconds": 2610
+      },
+      {
+        "name": "梦里水乡 (青春重置计划5 请回答1999)",
+        "slot": "下午",
+        "duration_seconds": 474
+      },
+      {
+        "name": "Hey",
+        "slot": "下午",
+        "duration_seconds": 3016
+      },
+      {
+        "name": "Life Moves On",
+        "slot": "下午",
+        "duration_seconds": 251
+      },
+      {
+        "name": "songs in black and white (live from the waiting room, 29.07.16)",
+        "slot": "下午",
+        "duration_seconds": 872
+      },
+      {
+        "name": "Maybe Maybe",
+        "slot": "下午",
+        "duration_seconds": 212
+      },
+      {
+        "name": "每当幻变时",
+        "slot": "下午",
+        "duration_seconds": 213
+      },
+      {
+        "name": "Wanted on Voyage (Expanded Edition)",
+        "slot": "下午",
+        "duration_seconds": 3438
+      },
+      {
+        "name": "Archie's Funeral",
+        "slot": "下午",
+        "duration_seconds": 174
+      },
+      {
+        "name": "Rosy Mercury",
+        "slot": "下午",
+        "duration_seconds": 946
+      }
+    ],
+    "generated_at": "2026-07-13T22:20:39.089812"
   }
 }
