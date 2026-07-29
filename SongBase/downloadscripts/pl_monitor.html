@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>歌单更新监控</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f5f5f5;color:#333;padding:20px}
+.container{max-width:650px;margin:0 auto}
+h1{font-size:22px;margin-bottom:6px}
+.sub{color:#888;font-size:13px;margin-bottom:20px}
+.card{background:#fff;border-radius:10px;padding:20px;margin-bottom:14px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.status-running{display:inline-block;width:10px;height:10px;background:#27ae60;border-radius:50%;animation:pulse 1.5s infinite;margin-right:6px;vertical-align:middle}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.status-done{display:inline-block;width:10px;height:10px;background:#3498db;border-radius:50%;margin-right:6px;vertical-align:middle}
+.pl-row{display:flex;align-items:center;padding:10px 0;border-bottom:1px solid #f0f0f0}
+.pl-row:last-child{border-bottom:none}
+.pl-info{flex:1}
+.pl-name{font-weight:600;font-size:15px}
+.pl-meta{font-size:12px;color:#999;margin-top:2px}
+.pl-yt{font-size:13px;color:#27ae60;font-weight:600;min-width:50px;text-align:right}
+.pl-bar-wrap{flex:1;margin:0 14px;height:6px;background:#eee;border-radius:3px;overflow:hidden}
+.pl-bar{height:100%;background:linear-gradient(90deg,#f39c12,#27ae60);border-radius:3px;transition:width 1s}
+.stats{display:flex;gap:16px;flex-wrap:wrap;margin-bottom:4px}
+.stat{flex:1;min-width:80px}
+.stat .num{font-size:28px;font-weight:700}
+.stat .label{font-size:11px;color:#999}
+.stat.yt .num{color:#27ae60}
+.stat.wait .num{color:#f39c12}
+.log{max-height:300px;overflow-y:auto;font-size:12px;font-family:'SF Mono',Menlo,monospace;background:#1a1a2e;color:#e0e0e0;border-radius:8px;padding:12px;line-height:1.6}
+.log .ok{color:#2ecc71}
+#refreshed{font-size:11px;color:#ccc;text-align:right;margin-top:10px}
+.hint{font-size:12px;color:#888;background:#fffbe6;padding:8px 12px;border-radius:6px;border:1px solid #ffe58f;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>📋 歌单更新监控</h1>
+<div class="sub" id="status-line">加载中...</div>
+
+<div class="card">
+  <div class="stats" id="stats"></div>
+  <div id="playlist-rows"></div>
+  <div class="hint">💡 数据在每份歌单的 YouTube 搜索完成后批量写入 JSON，进度会阶段性跳变</div>
+</div>
+
+<div class="card">
+  <div style="font-weight:600;margin-bottom:8px">📊 全部歌单汇总</div>
+  <div class="stats" id="all-stats"></div>
+</div>
+
+<div id="refreshed"></div>
+</div>
+
+<script>
+async function refresh(){
+  try{
+    const r=await fetch('_pl_progress.json?t='+Date.now());
+    const d=await r.json();
+    const done=d.status==='完成';
+
+    document.getElementById('status-line').innerHTML=
+      (done?'<span class="status-done"></span>':'<span class="status-running"></span>')+
+      '状态: '+d.status+' | 更新于 '+d.updated_at;
+
+    document.getElementById('stats').innerHTML=`
+      <div class="stat yt"><div class="num">${d.yt_matched}</div><div class="label">YouTube 已匹配</div></div>
+      <div class="stat wait"><div class="num">${d.total_songs-d.yt_matched}</div><div class="label">待搜索</div></div>
+      <div class="stat"><div class="num">${d.pct}%</div><div class="label">完成度</div></div>
+      <div class="stat"><div class="num">${(d.playlists||[]).length}</div><div class="label">新歌单</div></div>
+    `;
+
+    let rows='';
+    for(const pl of (d.playlists||[])){
+      const pct=pl.total>0?Math.round(pl.yt/pl.total*100):0;
+      rows+=`<div class="pl-row">
+        <div class="pl-info">
+          <div class="pl-name">${esc(pl.name)}</div>
+          <div class="pl-meta">${pl.yt}/${pl.total} 首已匹配 YouTube</div>
+        </div>
+        <div class="pl-bar-wrap"><div class="pl-bar" style="width:${pct}%"></div></div>
+        <div class="pl-yt">${pct}%</div>
+      </div>`;
+    }
+    document.getElementById('playlist-rows').innerHTML=rows;
+
+    document.getElementById('all-stats').innerHTML=`
+      <div class="stat"><div class="num">${d.all_playlists_count||0}</div><div class="label">歌单总数</div></div>
+      <div class="stat"><div class="num">${d.all_songs_count||0}</div><div class="label">歌曲总数</div></div>
+      <div class="stat yt"><div class="num">${d.all_yt_count||0}</div><div class="label">YouTube 链接</div></div>
+    `;
+
+    document.getElementById('refreshed').textContent='刷新: '+new Date().toLocaleTimeString();
+  }catch(e){
+    document.getElementById('status-line').textContent='等待数据...';
+    document.getElementById('refreshed').textContent='刷新: '+new Date().toLocaleTimeString()+' (无数据)';
+  }
+}
+function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+refresh();
+setInterval(refresh,8000);
+</script>
+</body>
+</html>

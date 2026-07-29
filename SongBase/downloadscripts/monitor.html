@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YouTube 下载监控</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f5f5f5; color: #333; padding: 20px; }
+.container { max-width: 700px; margin: 0 auto; }
+h1 { font-size: 22px; margin-bottom: 8px; }
+.sub { color: #888; font-size: 13px; margin-bottom: 20px; }
+.card { background: #fff; border-radius: 10px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,.06); }
+.stats { display: flex; gap: 16px; flex-wrap: wrap; }
+.stat { flex: 1; min-width: 100px; text-align: center; }
+.stat .num { font-size: 36px; font-weight: 700; }
+.stat .label { font-size: 12px; color: #999; margin-top: 2px; }
+.stat.success .num { color: #27ae60; }
+.stat.fail .num { color: #e74c3c; }
+.stat.pending .num { color: #f39c12; }
+.progress-bar { height: 8px; background: #eee; border-radius: 4px; margin: 16px 0 6px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, #27ae60, #2ecc71); border-radius: 4px; transition: width .5s; }
+.pct { font-size: 13px; color: #888; text-align: right; }
+.logs { max-height: 400px; overflow-y: auto; font-size: 12px; font-family: 'SF Mono', Menlo, monospace; background: #1a1a2e; color: #e0e0e0; border-radius: 8px; padding: 12px; }
+.log-line { padding: 2px 0; white-space: pre-wrap; word-break: break-all; }
+.log-line .ok { color: #2ecc71; }
+.log-line .err { color: #e74c3c; }
+.log-line .skip { color: #f39c12; }
+.log-line .ts { color: #888; }
+.current-card { background: #fffbe6; border: 1px solid #ffe58f; }
+.current-card .song-name { font-size: 16px; font-weight: 600; }
+#refreshed { font-size: 11px; color: #ccc; text-align: right; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>🎵 YouTube 音频下载监控</h1>
+<div class="sub" id="status-line">加载中...</div>
+
+<div class="card">
+  <div class="stats" id="stats"></div>
+  <div class="progress-bar"><div class="progress-fill" id="progress-bar" style="width:0%"></div></div>
+  <div class="pct" id="pct"></div>
+</div>
+
+<div class="card current-card" id="current-card" style="display:none">
+  <div class="label">正在下载</div>
+  <div class="song-name" id="current-song">—</div>
+  <div style="font-size:12px;color:#999;margin-top:4px" id="current-url">—</div>
+</div>
+
+<div class="card">
+  <div style="font-weight:600;margin-bottom:8px;">📋 最近日志</div>
+  <div class="logs" id="logs">加载中...</div>
+</div>
+
+<div id="refreshed"></div>
+</div>
+
+<script>
+const STATS_KEY = 'dl_monitor_stats';
+
+async function refresh() {
+  try {
+    const resp = await fetch('_dl_progress.json?t=' + Date.now());
+    if (resp.ok) {
+      const data = await resp.json();
+      render(data);
+      localStorage.setItem(STATS_KEY, JSON.stringify(data));
+    } else {
+      // 降级：用本地缓存
+      const cached = localStorage.getItem(STATS_KEY);
+      if (cached) render(JSON.parse(cached));
+    }
+  } catch(e) {
+    const cached = localStorage.getItem(STATS_KEY);
+    if (cached) render(JSON.parse(cached));
+  }
+
+  const now = new Date();
+  document.getElementById('refreshed').textContent = '上次刷新: ' + now.toLocaleTimeString();
+}
+
+function render(data) {
+  const {total, completed, failed, skipped, pending, pct, logs, current} = data;
+
+  document.getElementById('status-line').textContent =
+    `总任务 ${total} 首 | 来源: 三个 QQ 音乐歌单 YouTube 链接`;
+
+  document.getElementById('stats').innerHTML = `
+    <div class="stat success"><div class="num">${completed}</div><div class="label">已完成</div></div>
+    <div class="stat pending"><div class="num">${pending}</div><div class="label">待下载</div></div>
+    <div class="stat fail"><div class="num">${failed}</div><div class="label">失败</div></div>
+    <div class="stat" style="color:#aaa"><div class="num">${skipped}</div><div class="label">跳过</div></div>
+  `;
+
+  document.getElementById('progress-bar').style.width = pct + '%';
+  document.getElementById('pct').textContent = pct.toFixed(1) + '%';
+
+  // 当前
+  if (current) {
+    document.getElementById('current-card').style.display = '';
+    document.getElementById('current-song').textContent = current.name + ' — ' + current.artist;
+    document.getElementById('current-url').textContent = current.url || '';
+  } else {
+    document.getElementById('current-card').style.display = 'none';
+  }
+
+  // 日志
+  const logDiv = document.getElementById('logs');
+  logDiv.innerHTML = logs.map(l => {
+    let cls = '';
+    if (l.type === 'ok') cls = 'ok';
+    else if (l.type === 'err') cls = 'err';
+    else if (l.type === 'skip') cls = 'skip';
+    return `<div class="log-line"><span class="ts">${l.ts}</span> ${cls ? '<span class="'+cls+'">' : ''}${esc(l.text)}${cls ? '</span>' : ''}</div>`;
+  }).join('');
+  logDiv.scrollTop = logDiv.scrollHeight;
+}
+
+function esc(s) {
+  return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+refresh();
+setInterval(refresh, 10000);
+</script>
+</body>
+</html>

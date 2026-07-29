@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>下载进度监控</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,sans-serif;background:#f5f5f5;color:#333;padding:20px}
+.c{max-width:480px;margin:0 auto}
+h1{font-size:18px;margin-bottom:6px}
+.card{background:#fff;border-radius:10px;padding:20px;margin-bottom:12px}
+.stats{display:flex;gap:12px}
+.s{flex:1;text-align:center}
+.s .n{font-size:30px;font-weight:700}
+.s .l{font-size:11px;color:#999;margin-top:2px}
+.s.ok .n{color:#27ae60}
+.s.fail .n{color:#e74c3c}
+.s.wait .n{color:#f39c12}
+.bar{height:6px;background:#eee;border-radius:3px;margin:14px 0 4px}
+.bar .f{height:100%;border-radius:3px;background:#27ae60;transition:width .5s}
+.pct{font-size:12px;color:#888;text-align:right}
+.cur{font-size:14px;font-weight:600;color:#555;margin-top:12px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
+.dot.on{background:#27ae60;animation:pulse 2s infinite}
+.dot.off{background:#e74c3c}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+</style>
+</head>
+<body>
+<div class="c">
+<h1>YouTube 音频下载</h1>
+<div style="font-size:12px;color:#999;margin-bottom:16px" id="status">加载中...</div>
+<div class="card">
+  <div class="stats" id="stats"></div>
+  <div class="bar"><div class="f" id="bar" style="width:0%"></div></div>
+  <div class="pct" id="pct"></div>
+</div>
+<div class="card" style="background:#fffbe6;border:1px solid #ffe58f">
+  <div style="font-size:11px;color:#999">正在下载</div>
+  <div class="cur" id="cur">—</div>
+</div>
+</div>
+<script>
+async function r(){
+  try{
+    const res=await fetch('_search_progress.json?t='+Date.now());
+    const d=await res.json();
+    document.getElementById('status').innerHTML='<span class="dot on"></span>'+d.updated;
+    document.getElementById('stats').innerHTML=
+      '<div class="s ok"><div class="n">'+d.completed+'</div><div class="l">已完成</div></div>'+
+      '<div class="s wait"><div class="n">'+d.pending+'</div><div class="l">待下载</div></div>'+
+      '<div class="s fail"><div class="n">'+d.failed+'</div><div class="l">失败</div></div>';
+    document.getElementById('bar').style.width=d.pct+'%';
+    document.getElementById('pct').textContent=d.pct+'%';
+    document.getElementById('cur').textContent=d.current||'等待中...';
+  }catch(e){
+    document.getElementById('status').innerHTML='<span class="dot off"></span>离线';
+  }
+}
+r();setInterval(r,8000);
+</script>
+</body>
+</html>

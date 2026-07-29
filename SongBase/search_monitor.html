@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YT/BL 链接搜索监控</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f5f5;color:#333;padding:20px}
+.container{max-width:500px;margin:0 auto}
+h1{font-size:20px;margin-bottom:4px}
+.sub{font-size:12px;color:#999;margin-bottom:20px}
+.card{background:#fff;border-radius:10px;padding:20px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,.04)}
+.stats{display:flex;gap:12px}
+.stat{flex:1;text-align:center}
+.stat .num{font-size:32px;font-weight:700}
+.stat .label{font-size:11px;color:#999;margin-top:2px}
+.stat.yt .num{color:#e74c3c}
+.stat.bl .num{color:#fb7299}
+.stat.wait .num{color:#f39c12}
+.bar-wrap{height:6px;background:#eee;border-radius:3px;margin:14px 0 4px;overflow:hidden}
+.bar{height:100%;border-radius:3px;transition:width .5s}
+.bar.yt{background:linear-gradient(90deg,#e74c3c,#ff6b6b)}
+.bar.bl{background:linear-gradient(90deg,#fb7299,#ff8eb8)}
+.pct{font-size:12px;color:#888;text-align:right}
+.rule{font-size:11px;color:#666;background:#f0fff4;padding:8px 12px;border-radius:6px;line-height:1.6}
+.status{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.status.on{background:#27ae60;animation:pulse 1.5s infinite}
+.status.off{background:#e74c3c}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+#refreshed{font-size:10px;color:#ccc;text-align:right;margin-top:8px}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>YouTube / Bilibili 链接搜索</h1>
+<div class="sub" id="status-line">加载中...</div>
+
+<div class="card">
+  <div class="stats" id="stats"></div>
+  <div class="bar-wrap"><div class="bar yt" id="bar-yt" style="width:0%"></div></div>
+  <div class="pct" id="pct-yt"></div>
+</div>
+
+<div class="card">
+  <div class="rule">
+    仅官方 Artist 频道 / Artist - Topic<br>
+    oEmbed API 二次确认频道归属<br>
+    歌名必须在视频标题中出现<br>
+    拒绝 token 模糊匹配 / 子串推测
+  </div>
+</div>
+
+<div class="card" id="current-card" style="display:none;background:#fffbe6;border:1px solid #ffe58f">
+  <div class="label" style="font-size:11px;color:#999">正在搜索</div>
+  <div style="font-size:15px;font-weight:600" id="current-song">—</div>
+</div>
+
+<div id="refreshed"></div>
+</div>
+
+<script>
+async function refresh(){
+  try{
+    const r=await fetch('_search_progress.json?t='+Date.now());
+    const d=await r.json();
+
+    document.getElementById('status-line').innerHTML=
+      '<span class="status on"></span>'+d.singers_total+'位艺人 · '+d.total+'首 · '+d.updated_at;
+
+    const pl = d.pending;
+    document.getElementById('stats').innerHTML=
+      '<div class="stat yt"><div class="num">'+d.yt+'</div><div class="label">YouTube</div></div>'+
+      '<div class="stat wait"><div class="num">'+pl+'</div><div class="label">待搜索</div></div>'+
+      '<div class="stat"><div class="num">'+d.total+'</div><div class="label">总歌曲</div></div>';
+
+    document.getElementById('bar-yt').style.width=d.pct_yt+'%';
+    document.getElementById('pct-yt').textContent=d.pct_yt+'%';
+
+    if(d.current){
+      document.getElementById('current-card').style.display='';
+      document.getElementById('current-song').textContent=d.current;
+    } else {
+      document.getElementById('current-card').style.display='none';
+    }
+
+    document.getElementById('refreshed').textContent='刷新: '+new Date().toLocaleTimeString();
+  }catch(e){
+    document.getElementById('status-line').innerHTML='<span class="status off"></span>监控离线';
+  }
+}
+refresh();
+setInterval(refresh,8000);
+</script>
+</body>
+</html>

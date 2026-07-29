@@ -1,0 +1,1057 @@
+[08:59:15] 加载 264 个下载任务
+[08:59:15] [1/264] Age of Aquarius - RIOPY
+[08:59:55]   ❌ 下载失败
+[08:59:55] [2/264] American Dream - RIOPY
+[09:00:36]   ❌ 下载失败
+[09:00:36] [3/264] Attraction - RIOPY
+[09:01:55] 加载 264 个下载任务
+[09:01:55] [1/264] Age of Aquarius - RIOPY
+[09:02:25]   ✅ 5.3MB
+[09:02:27] [2/264] American Dream - RIOPY
+[09:02:58]   ✅ 4.9MB
+[09:03:00] [3/264] Attraction - RIOPY
+[09:03:28]   ✅ 4.6MB
+[09:03:30] [4/264] Blue Moon - RIOPY
+[09:03:58]   ✅ 4.5MB
+[09:04:00] [5/264] Come With Me - RIOPY
+[09:04:14]   ✅ 6.0MB
+[09:04:16] [6/264] Drive - RIOPY
+[09:04:43]   ✅ 7.3MB
+[09:04:45] [7/264] Feeling Safe - RIOPY
+[09:05:14]   ✅ 6.1MB
+[09:05:16] [8/264] Flo - RIOPY
+[09:05:41]   ✅ 5.4MB
+[09:05:43] [9/264] Forgive Me - RIOPY
+[09:06:08]   ✅ 4.7MB
+[09:06:10] [10/264] From You - RIOPY
+[09:06:37]   ✅ 5.4MB
+[09:06:39] [11/264] Law of One - RIOPY
+[09:07:06]   ✅ 7.8MB
+[09:07:08] [12/264] Lost Soul - RIOPY
+[09:07:32]   ✅ 3.8MB
+[09:07:34] [13/264] Minimal Game - RIOPY
+[09:08:01]   ✅ 4.8MB
+[09:08:03] [14/264] New World - RIOPY
+[09:08:30]   ✅ 1.6MB
+[09:08:32] [15/264] New York - RIOPY
+[09:09:00]   ✅ 4.6MB
+[09:09:02] [16/264] Old Soul - RIOPY
+[09:09:29]   ✅ 4.3MB
+[09:09:31] [17/264] Piano 17 - RIOPY
+[09:09:56]   ✅ 6.6MB
+[09:09:58] [18/264] Summer Night - RIOPY
+[09:10:24]   ✅ 7.1MB
+[09:10:26] [19/264] Sunrise - RIOPY
+[09:10:53]   ✅ 3.9MB
+[09:10:55] [20/264] Tree of Light - A Call to Arms - RIOPY
+[09:11:23]   ✅ 3.5MB
+[09:11:25] [21/264] Ukiyo - RIOPY
+[09:11:49]   ✅ 5.4MB
+[09:11:51] [22/264] Waiting For A Sign - RIOPY
+[09:12:20]   ✅ 5.6MB
+[09:12:22] [23/264] Wyden Down - RIOPY
+[09:12:46]   ✅ 4.7MB
+[09:12:48] [24/264] a,s,a - fox capture plan
+[09:13:16]   ✅ 6.7MB
+[09:13:18] [25/264] Discovery the New World - fox capture plan
+[09:13:43]   ✅ 5.8MB
+[09:13:45] [26/264] Helios - fox capture plan
+[09:14:10]   ✅ 7.6MB
+[09:14:12] [27/264] Into the Spiral - fox capture plan
+[09:14:41]   ✅ 6.5MB
+[09:14:43] [28/264] into the wall - fox capture plan
+[09:15:07]   ✅ 1.2MB
+[09:15:09] [29/264] Narrow Edge - fox capture plan
+[09:15:30]   ✅ 6.3MB
+[09:15:32] [30/264] Numb - fox capture plan
+[09:15:56]   ✅ 4.8MB
+[09:15:58] [31/264] Paranoid Android - fox capture plan
+[09:16:24]   ✅ 9.0MB
+[09:16:26] [32/264] Sprinter - fox capture plan
+[09:16:53]   ✅ 5.2MB
+[09:16:55] [33/264] Stand My Heroes - fox capture plan
+[09:17:20]   ✅ 6.3MB
+[09:17:22] [34/264] this wall - fox capture plan
+[09:17:51]   ✅ 6.0MB
+[09:17:53] [35/264] tong poo - fox capture plan
+[09:18:18]   ✅ 6.3MB
+[09:18:20] [36/264] unsolved - fox capture plan
+[09:25:41] 加载 264 个下载任务
+[09:25:41] [1/264] Age of Aquarius - RIOPY (已存在，跳过)
+[09:25:41] [2/264] American Dream - RIOPY (已存在，跳过)
+[09:25:41] [3/264] Attraction - RIOPY (已存在，跳过)
+[09:25:41] [4/264] Blue Moon - RIOPY (已存在，跳过)
+[09:25:41] [5/264] Come With Me - RIOPY (已存在，跳过)
+[09:25:41] [6/264] Drive - RIOPY (已存在，跳过)
+[09:25:41] [7/264] Feeling Safe - RIOPY (已存在，跳过)
+[09:25:41] [8/264] Flo - RIOPY (已存在，跳过)
+[09:25:41] [9/264] Forgive Me - RIOPY (已存在，跳过)
+[09:25:41] [10/264] From You - RIOPY (已存在，跳过)
+[09:25:41] [11/264] Law of One - RIOPY (已存在，跳过)
+[09:25:41] [12/264] Lost Soul - RIOPY (已存在，跳过)
+[09:25:41] [13/264] Minimal Game - RIOPY (已存在，跳过)
+[09:25:41] [14/264] New World - RIOPY (已存在，跳过)
+[09:25:41] [15/264] New York - RIOPY (已存在，跳过)
+[09:25:41] [16/264] Old Soul - RIOPY (已存在，跳过)
+[09:25:41] [17/264] Piano 17 - RIOPY (已存在，跳过)
+[09:25:41] [18/264] Summer Night - RIOPY (已存在，跳过)
+[09:25:41] [19/264] Sunrise - RIOPY (已存在，跳过)
+[09:25:41] [20/264] Tree of Light - A Call to Arms - RIOPY (已存在，跳过)
+[09:25:41] [21/264] Ukiyo - RIOPY (已存在，跳过)
+[09:25:41] [22/264] Waiting For A Sign - RIOPY (已存在，跳过)
+[09:25:41] [23/264] Wyden Down - RIOPY (已存在，跳过)
+[09:25:41] [24/264] a,s,a - fox capture plan (已存在，跳过)
+[09:25:41] [25/264] Discovery the New World - fox capture plan (已存在，跳过)
+[09:25:41] [26/264] Helios - fox capture plan (已存在，跳过)
+[09:25:41] [27/264] Into the Spiral - fox capture plan (已存在，跳过)
+[09:25:41] [28/264] into the wall - fox capture plan (已存在，跳过)
+[09:25:41] [29/264] Narrow Edge - fox capture plan (已存在，跳过)
+[09:25:41] [30/264] Numb - fox capture plan (已存在，跳过)
+[09:25:41] [31/264] Paranoid Android - fox capture plan (已存在，跳过)
+[09:25:41] [32/264] Sprinter - fox capture plan (已存在，跳过)
+[09:25:41] [33/264] Stand My Heroes - fox capture plan (已存在，跳过)
+[09:25:41] [34/264] this wall - fox capture plan (已存在，跳过)
+[09:25:41] [35/264] tong poo - fox capture plan (已存在，跳过)
+[09:25:41] [36/264] unsolved - fox capture plan
+[09:26:07]   ✅ 7.6MB
+[09:26:09] [37/264] 不可思議のカルテ - fox capture plan
+[09:26:33]   ✅ 5.6MB
+[09:26:35] [38/264] 夜間航路 - fox capture plan
+[09:27:03]   ✅ 5.6MB
+[09:27:05] [39/264] 疾走する閃光 - fox capture plan
+[09:27:43]   ✅ 5.4MB
+[09:27:45] [40/264] 2AM in New York - iwamizu
+[09:28:01]   ✅ 9.2MB
+[09:28:03] [41/264] Akumu - iwamizu
+[09:28:41]   ✅ 4.2MB
+[09:28:43] [42/264] Amsterdam - iwamizu
+[09:29:08]   ✅ 4.6MB
+[09:29:10] [43/264] Bad at Love - iwamizu
+[09:29:40]   ✅ 4.7MB
+[09:29:42] [44/264] Dear Mr. Petrucciani - iwamizu
+[09:31:05]   ✅ 3.6MB
+[09:35:14] [45/264] Gardenia - iwamizu
+[09:35:15]   ❌ 下载失败
+[09:35:15] [46/264] Guilt and Shame - iwamizu
+[09:35:15]   ❌ 下载失败
+[09:35:15] [47/264] I Will Always Be Waiting For You - iwamizu
+[09:35:15]   ❌ 下载失败
+[09:35:15] [48/264] Merci - iwamizu
+[09:35:15]   ❌ 下载失败
+[09:35:15] [49/264] Michelle - iwamizu
+[09:35:15]   ❌ 下载失败
+[09:35:15] [50/264] November 15, 2023 - iwamizu
+[09:35:16]   ❌ 下载失败
+[09:35:16] [51/264] Phantom Troupe - iwamizu
+[09:35:16]   ❌ 下载失败
+[09:35:16] [52/264] Sweet Sorrow - iwamizu
+[09:35:16]   ❌ 下载失败
+[09:35:16] [53/264] Unrequited Love - iwamizu
+[09:35:16]   ❌ 下载失败
+[09:35:16] [54/264] Valse Lente - iwamizu
+[09:35:16]   ❌ 下载失败
+[09:35:16] [55/264] August Twelve - Khruangbin
+[09:35:16]   ❌ 下载失败
+[09:35:16] [56/264] Balls and Pins - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [57/264] Caja de la Sala - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [58/264] Dearest Alfred - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [59/264] Dern Kala - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [60/264] Farolim de Felgueiras - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [61/264] Juegos y Nubes - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [62/264] Les Petits Gris - Khruangbin
+[09:35:17]   ❌ 下载失败
+[09:35:17] [63/264] People Everywhere - Khruangbin
+[09:35:18]   ❌ 下载失败
+[09:35:18] [64/264] Pon Pón - Khruangbin
+[09:35:18]   ❌ 下载失败
+[09:35:18] [65/264] The Man Who Took My Sunglasses - Khruangbin
+[09:35:18]   ❌ 下载失败
+[09:35:18] [66/264] Three From Two - Khruangbin
+[09:35:18]   ❌ 下载失败
+[09:35:18] [67/264] Todavía Viva - Khruangbin
+[09:35:18]   ❌ 下载失败
+[09:35:18] [68/264] Two Fish and an Elephant - Khruangbin
+[09:35:19]   ❌ 下载失败
+[09:35:19] [69/264] Zionsville - Khruangbin
+[09:35:19]   ❌ 下载失败
+[09:35:19] [70/264] A Thread in the Dark - Mammal Hands
+[09:35:19]   ❌ 下载失败
+[09:35:19] [71/264] Alia's Abandon - Mammal Hands
+[09:35:19]   ❌ 下载失败
+[09:35:19] [72/264] Bustle - Mammal Hands
+[09:35:19]   ❌ 下载失败
+[09:35:19] [73/264] Fallow Tide - Mammal Hands
+[09:35:20]   ❌ 下载失败
+[09:35:20] [74/264] Forgotten Friend - Mammal Hands
+[09:35:20]   ❌ 下载失败
+[09:35:20] [75/264] Four Flowers - Mammal Hands
+[09:35:20]   ❌ 下载失败
+[09:35:20] [76/264] Helios - Mammal Hands
+[09:35:20]   ❌ 下载失败
+[09:35:20] [77/264] Inuit Party - Mammal Hands
+[09:35:21]   ❌ 下载失败
+[09:35:21] [78/264] Kandaiki - Mammal Hands
+[09:35:21]   ❌ 下载失败
+[09:35:21] [79/264] Paper Boats - Mammal Hands
+[09:35:21]   ❌ 下载失败
+[09:35:21] [80/264] Snow Bough - Mammal Hands
+[09:35:22]   ❌ 下载失败
+[09:35:22] [81/264] Street Sweeper - Mammal Hands
+[09:35:22]   ❌ 下载失败
+[09:35:22] [82/264] Submerge - Mammal Hands
+[09:35:22]   ❌ 下载失败
+[09:35:22] [83/264] Tiny Crumb - Mammal Hands
+[09:35:23]   ❌ 下载失败
+[09:35:23] [84/264] Window to Your World - Mammal Hands
+[09:35:24]   ❌ 下载失败
+[09:35:24] [85/264] A Fall and Rebirth - Re:Plus
+[09:35:24]   ❌ 下载失败
+[09:35:24] [86/264] Dec.27 - Re:Plus
+[09:35:25]   ❌ 下载失败
+[09:35:25] [87/264] Everlasting Truth - Re:Plus
+[09:35:26]   ❌ 下载失败
+[09:35:26] [88/264] Getting Close - Re:Plus
+[09:35:26]   ❌ 下载失败
+[09:35:26] [89/264] Interlude - Re:Plus
+[09:35:27]   ❌ 下载失败
+[09:35:27] [90/264] It All Turns Out Great feat. MC Newsense from ArtOfficial & Nate Vibez - Re:Plus
+[09:35:27]   ❌ 下载失败
+[09:35:27] [91/264] Moonscape - Re:Plus
+[09:35:28]   ❌ 下载失败
+[09:35:28] [92/264] Nighttime - Re:Plus
+[09:35:28]   ❌ 下载失败
+[09:35:28] [93/264] On and On feat. Noah King & Leah Hanna King - Re:Plus
+[09:35:29]   ❌ 下载失败
+[09:35:29] [94/264] One Dream feat. Sam Ock - Re:Plus
+[09:35:29]   ❌ 下载失败
+[09:35:29] [95/264] Quietblue - Re:Plus
+[09:35:30]   ❌ 下载失败
+[09:35:30] [96/264] Re:lax and Chill feat. Othello - Re:Plus
+[09:35:30]   ❌ 下载失败
+[09:35:30] [97/264] Regret - Re:Plus
+[09:35:31]   ❌ 下载失败
+[09:35:31] [98/264] We the People feat. Pismo - Re:Plus
+[09:35:31]   ❌ 下载失败
+[09:35:31] [99/264] White Avenue - Re:Plus
+[09:35:31]   ❌ 下载失败
+[09:35:31] [100/264] 7th October - Alfa Mist
+[09:35:32]   ❌ 下载失败
+[09:35:32] [101/264] Attune - Alfa Mist
+[09:35:32]   ❌ 下载失败
+[09:35:32] [102/264] Brian - Alfa Mist
+[09:35:33]   ❌ 下载失败
+[09:35:33] [103/264] Coasting - Alfa Mist
+[09:35:33]   ❌ 下载失败
+[09:35:33] [104/264] Errors - Alfa Mist
+[09:35:34]   ❌ 下载失败
+[09:35:34] [105/264] Keep On - Alfa Mist
+[09:35:34]   ❌ 下载失败
+[09:35:34] [106/264] Kyoki - Alfa Mist
+[09:35:35]   ❌ 下载失败
+[09:35:35] [107/264] Mind The Gap - Alfa Mist
+[09:35:35]   ❌ 下载失败
+[09:35:35] [108/264] Nucleus - Alfa Mist
+[09:35:36]   ❌ 下载失败
+[09:35:36] [109/264] Once A Year - Alfa Mist
+[09:35:37]   ❌ 下载失败
+[09:35:37] [110/264] Organic Rust - Alfa Mist
+[09:35:37]   ❌ 下载失败
+[09:35:37] [111/264] People - Alfa Mist
+[09:35:38]   ❌ 下载失败
+[09:35:38] [112/264] Potential - Alfa Mist
+[09:35:38]   ❌ 下载失败
+[09:35:38] [113/264] Teki - Alfa Mist
+[09:35:39]   ❌ 下载失败
+[09:35:39] [114/264] A Day in Never - Hania Rani
+[09:35:40]   ❌ 下载失败
+[09:35:40] [115/264] Come Back Home - Hania Rani
+[09:35:40]   ❌ 下载失败
+[09:35:40] [116/264] Hello - Hania Rani
+[09:35:41]   ❌ 下载失败
+[09:35:41] [117/264] Home - Hania Rani
+[09:35:41]   ❌ 下载失败
+[09:35:41] [118/264] I'll Never Find Your Soul - Hania Rani
+[09:35:42]   ❌ 下载失败
+[09:35:42] [119/264] Komeda - Hania Rani
+[09:35:42]   ❌ 下载失败
+[09:35:42] [120/264] Letter to Glass - Hania Rani
+[09:35:43]   ❌ 下载失败
+[09:35:43] [121/264] Moans - Hania Rani
+[09:35:43]   ❌ 下载失败
+[09:35:43] [122/264] Nest - Hania Rani
+[09:35:44]   ❌ 下载失败
+[09:35:44] [123/264] Ombelico - Hania Rani
+[09:35:44]   ❌ 下载失败
+[09:35:44] [124/264] Summer - Hania Rani
+[09:35:45]   ❌ 下载失败
+[09:35:45] [125/264] Thin Line - Hania Rani
+[09:35:45]   ❌ 下载失败
+[09:35:45] [126/264] Utrata - Hania Rani
+[09:35:46]   ❌ 下载失败
+[09:35:46] [127/264] Erdaydidder-Erdiddar - Bibio
+[09:35:46]   ❌ 下载失败
+[09:35:46] [128/264] Frankincense And Coal - Bibio
+[09:35:46]   ❌ 下载失败
+[09:35:46] [129/264] It’s Your Bones - Bibio
+[09:35:47]   ❌ 下载失败
+[09:35:47] [130/264] Old Graffiti - Bibio
+[09:35:47]   ❌ 下载失败
+[09:35:47] [131/264] Patchouli May - Bibio
+[09:35:48]   ❌ 下载失败
+[09:35:48] [132/264] Pretty Ribbons And Lovely Flowers - Bibio
+[09:35:48]   ❌ 下载失败
+[09:35:48] [133/264] Quarters - Bibio
+[09:35:49]   ❌ 下载失败
+[09:35:49] [134/264] Under A Lone Ash - Bibio
+[09:35:49]   ❌ 下载失败
+[09:35:49] [135/264] Valley Wulf - Bibio
+[09:35:49]   ❌ 下载失败
+[09:35:49] [136/264] You Couldn’t Even Hear The Birds Singing - Bibio
+[09:35:50]   ❌ 下载失败
+[09:35:50] [137/264] Arboretum - Choker
+[09:35:50]   ❌ 下载失败
+[09:35:50] [138/264] Baby Boy - Choker
+[09:35:51]   ❌ 下载失败
+[09:35:51] [139/264] Daisy - Choker
+[09:35:51]   ❌ 下载失败
+[09:35:51] [140/264] Fuji Unlimited - Choker
+[09:35:52]   ❌ 下载失败
+[09:35:52] [141/264] Gusher - Choker
+[09:35:52]   ❌ 下载失败
+[09:35:52] [142/264] Juno - Choker
+[09:35:53]   ❌ 下载失败
+[09:35:53] [143/264] Rocket - Choker
+[09:35:53]   ❌ 下载失败
+[09:35:53] [144/264] Screw Wave - Choker
+[09:35:54]   ❌ 下载失败
+[09:35:54] [145/264] Suzuki Peaches - Choker
+[09:35:54]   ❌ 下载失败
+[09:35:54] [146/264] Windbreaker - Choker
+[09:35:54]   ❌ 下载失败
+[09:35:54] [147/264] Butterfly - Cleo Sol
+[09:35:55]   ❌ 下载失败
+[09:35:55] [148/264] Her Light - Cleo Sol
+[09:35:55]   ❌ 下载失败
+[09:35:55] [149/264] I Love You - Cleo Sol
+[09:35:56]   ❌ 下载失败
+[09:35:56] [150/264] One Love - Cleo Sol
+[09:35:56]   ❌ 下载失败
+[09:35:56] [151/264] Rewind - Cleo Sol
+[09:35:57]   ❌ 下载失败
+[09:35:57] [152/264] Rose in the Dark - Cleo Sol
+[09:35:57]   ❌ 下载失败
+[09:35:57] [153/264] Sideways - Cleo Sol
+[09:35:57]   ❌ 下载失败
+[09:35:57] [154/264] Sure of Myself - Cleo Sol
+[09:35:58]   ❌ 下载失败
+[09:35:58] [155/264] When I'm in Your Arms - Cleo Sol
+[09:35:58]   ❌ 下载失败
+[09:35:58] [156/264] Why Don't You - Cleo Sol
+[09:35:59]   ❌ 下载失败
+[09:35:59] [157/264] Coast Off - Helios
+[09:35:59]   ❌ 下载失败
+[09:35:59] [158/264] Dragonfly Across An Ancient Sky - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [159/264] Emancipation - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [160/264] First Dream Called Ocean - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [161/264] For Years And Years - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [162/264] Halving The Compass - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [163/264] Paper Tiger - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [164/264] Sons Of Light And Darkness - Helios
+[09:36:00]   ❌ 下载失败
+[09:36:00] [165/264] The Toy Garden - Helios
+[09:36:01]   ❌ 下载失败
+[09:36:01] [166/264] Vargtimme - Helios
+[09:36:01]   ❌ 下载失败
+[09:36:01] [167/264] 5Am Waltz - Men I Trust
+[09:36:01]   ❌ 下载失败
+[09:36:01] [168/264] A Cycle (2021) - Men I Trust
+[09:36:32]   ❌ 下载失败
+[09:36:32] [169/264] Ante Meridiem - Men I Trust
+[09:36:32]   ❌ 下载失败
+[09:36:32] [170/264] Before Dawn - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [171/264] Beluga - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [172/264] Black Hole Era - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [173/264] Lifelong Song - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [174/264] Organon - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [175/264] Serenade of Water - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [176/264] Shoulders - Men I Trust
+[09:36:33]   ❌ 下载失败
+[09:36:33] [177/264] Bluesen - Svaneborg Kardyb
+[09:36:34]   ❌ 下载失败
+[09:36:34] [178/264] Dialekt - Svaneborg Kardyb
+[09:36:34]   ❌ 下载失败
+[09:36:34] [179/264] Dæmningen - Svaneborg Kardyb
+[09:36:34]   ❌ 下载失败
+[09:36:34] [180/264] Fløjtesangen - Svaneborg Kardyb
+[09:36:34]   ❌ 下载失败
+[09:36:34] [181/264] Haven - Svaneborg Kardyb
+[09:36:34]   ❌ 下载失败
+[09:36:34] [182/264] Havn - Svaneborg Kardyb
+[09:36:34]   ❌ 下载失败
+[09:36:34] [183/264] Omvej - Svaneborg Kardyb
+[09:36:35]   ❌ 下载失败
+[09:36:35] [184/264] Post - Svaneborg Kardyb
+[09:36:35]   ❌ 下载失败
+[09:36:35] [185/264] Sommer - Svaneborg Kardyb
+[09:36:35]   ❌ 下载失败
+[09:36:35] [186/264] Til Eline - Svaneborg Kardyb
+[09:36:35]   ❌ 下载失败
+[09:36:35] [187/264] Book - Chon
+[09:36:35]   ❌ 下载失败
+[09:36:35] [188/264] But - Chon
+[09:36:35]   ❌ 下载失败
+[09:36:35] [189/264] Can't Wait - Chon
+[09:36:36]   ❌ 下载失败
+[09:36:36] [190/264] Echo - Chon
+[09:36:36]   ❌ 下载失败
+[09:36:36] [191/264] Fall - Chon
+[09:36:36]   ❌ 下载失败
+[09:36:36] [192/264] Knot - Chon
+[09:36:36]   ❌ 下载失败
+[09:36:36] [193/264] Moon - Chon
+[09:36:36]   ❌ 下载失败
+[09:36:36] [194/264] Splash - Chon
+[09:36:36]   ❌ 下载失败
+[09:36:36] [195/264] Suda - Chon
+[09:36:37]   ❌ 下载失败
+[09:36:37] [196/264] Bellows - Loscil
+[09:36:37]   ❌ 下载失败
+[09:36:37] [197/264] Charlie - Loscil
+[09:36:37]   ❌ 下载失败
+[09:36:37] [198/264] Chinook - Loscil
+[09:36:37]   ❌ 下载失败
+[09:36:37] [199/264] Halcyon - Loscil
+[09:36:38]   ❌ 下载失败
+[09:36:38] [200/264] Mistral - Loscil
+[09:36:38]   ❌ 下载失败
+[09:36:38] [201/264] Motoc - Loscil
+[09:36:38]   ❌ 下载失败
+[09:36:38] [202/264] Rorschach - Loscil
+[09:36:38]   ❌ 下载失败
+[09:36:38] [203/264] Steam - Loscil
+[09:36:39]   ❌ 下载失败
+[09:36:39] [204/264] Zephyr - Loscil
+[09:36:39]   ❌ 下载失败
+[09:36:39] [205/264] AFTER WEST - toconoma
+[09:36:39]   ❌ 下载失败
+[09:36:39] [206/264] Apollo - toconoma
+[09:36:40]   ❌ 下载失败
+[09:36:40] [207/264] Fitz Roy - toconoma
+[09:36:40]   ❌ 下载失败
+[09:36:40] [208/264] monolith - toconoma
+[09:36:41]   ❌ 下载失败
+[09:36:41] [209/264] nebula - toconoma
+[09:38:55]   ❌ 下载失败
+[09:38:55] [210/264] Orange Valley - toconoma
+[09:38:55]   ❌ 下载失败
+[09:38:55] [211/264] seesaw - toconoma
+[09:38:55]   ❌ 下载失败
+[09:38:55] [212/264] vermelho do sol - toconoma
+[09:38:56]   ❌ 下载失败
+[09:38:56] [213/264] wander wander - toconoma
+[09:38:56]   ❌ 下载失败
+[09:38:56] [214/264] En - jizue
+[09:38:56]   ❌ 下载失败
+[09:38:56] [215/264] home - jizue
+[09:38:56]   ❌ 下载失败
+[09:38:56] [216/264] Island - jizue
+[09:38:57]   ❌ 下载失败
+[09:38:57] [217/264] Rain Dog - jizue
+[09:38:57]   ❌ 下载失败
+[09:38:57] [218/264] SAKURA - jizue
+[09:38:57]   ❌ 下载失败
+[09:38:57] [219/264] sister - jizue
+[09:38:57]   ❌ 下载失败
+[09:38:57] [220/264] Tower - jizue
+[09:38:58]   ❌ 下载失败
+[09:38:58] [221/264] 最後の朝 - jizue
+[09:38:58]   ❌ 下载失败
+[09:38:58] [222/264] Baghon Main - AROOJ AFTAB
+[09:38:58]   ❌ 下载失败
+[09:38:58] [223/264] Diya Hai - AROOJ AFTAB
+[09:38:59]   ❌ 下载失败
+[09:38:59] [224/264] Inayaat - AROOJ AFTAB
+[09:38:59]   ❌ 下载失败
+[09:38:59] [225/264] Last Night - AROOJ AFTAB
+[09:38:59]   ❌ 下载失败
+[09:38:59] [226/264] Mohabbat - AROOJ AFTAB
+[09:39:08]   ❌ 下载失败
+[09:39:08] [227/264] Saans Lo - AROOJ AFTAB
+[09:39:08]   ❌ 下载失败
+[09:39:08] [228/264] Suroor - AROOJ AFTAB
+[09:39:09]   ❌ 下载失败
+[09:39:09] [229/264] Burst - Kiasmos
+[09:39:09]   ❌ 下载失败
+[09:39:09] [230/264] Dazed - Kiasmos
+[09:39:09]   ❌ 下载失败
+[09:39:09] [231/264] Grown - Kiasmos
+[09:39:09]   ❌ 下载失败
+[09:39:09] [232/264] Laced - Kiasmos
+[09:39:10]   ❌ 下载失败
+[09:39:10] [233/264] Sailed - Kiasmos
+[09:39:10]   ❌ 下载失败
+[09:39:10] [234/264] Squared - Kiasmos
+[09:39:10]   ❌ 下载失败
+[09:39:10] [235/264] Told - Kiasmos
+[09:39:10]   ❌ 下载失败
+[09:39:10] [236/264] Always - Daniel Caesar
+[09:39:10]   ❌ 下载失败
+[09:39:10] [237/264] Do You Like Me? - Daniel Caesar
+[09:39:11]   ❌ 下载失败
+[09:39:11] [238/264] Pain Is Inevitable - Daniel Caesar
+[09:39:11]   ❌ 下载失败
+[09:39:11] [239/264] Unstoppable - Daniel Caesar
+[09:39:11]   ❌ 下载失败
+[09:39:11] [240/264] Valentina - Daniel Caesar
+[09:39:12]   ❌ 下载失败
+[09:39:12] [241/264] Vince Van Gogh - Daniel Caesar
+[09:39:12]   ❌ 下载失败
+[09:39:12] [242/264] fxck it then - Yaya Bey
+[09:39:28]   ❌ 下载失败
+[09:39:28] [243/264] industry love / a protection spell - Yaya Bey
+[09:39:28]   ❌ 下载失败
+[09:39:28] [244/264] september 13th - Yaya Bey
+[09:39:29]   ❌ 下载失败
+[09:39:29] [245/264] the root of a thing - Yaya Bey
+[09:39:29]   ❌ 下载失败
+[09:39:29] [246/264] we'll skate soon - Yaya Bey
+[09:39:29]   ❌ 下载失败
+[09:39:29] [247/264] you up? - Yaya Bey
+[09:39:29]   ❌ 下载失败
+[09:39:29] [248/264] Areti's Love - Kiefer
+[09:39:30]   ❌ 下载失败
+[09:39:30] [249/264] crybaby - Kiefer
+[09:39:30]   ❌ 下载失败
+[09:39:30] [250/264] earthly things - Kiefer
+[09:39:30]   ❌ 下载失败
+[09:39:30] [251/264] loving hands - Kiefer
+[09:39:30]   ❌ 下载失败
+[09:39:30] [252/264] All Farewells are Sudden - A Winged Victory for the Sullen
+[09:39:31]   ❌ 下载失败
+[09:39:31] [253/264] Minuet for a Cheap Piano Number Two - A Winged Victory for the Sullen
+[09:39:31]   ❌ 下载失败
+[09:39:31] [254/264] Steep Hills of Vicodin Tears - A Winged Victory for the Sullen
+[09:39:31]   ❌ 下载失败
+[09:39:31] [255/264] Always Alright - Alabama Shakes
+[09:39:31]   ❌ 下载失败
+[09:39:31] [256/264] Etude No. 3 Op. 10/3 - European Jazz Trio (已存在，跳过)
+[09:39:31] [257/264] pm7:42 - Hotel New Tokyo (已存在，跳过)
+[09:39:31] [258/264] Ri:ng - Jizue (已存在，跳过)
+[09:39:31] [259/264] I Walk, I Fly - Long Arm
+[09:39:32]   ❌ 下载失败
+[09:39:32] [260/264] Better Not - Louis the child
+[09:39:32]   ❌ 下载失败
+[09:39:32] [261/264] Be Happy - Mary J. Blige
+[09:39:33]   ❌ 下载失败
+[09:39:33] [262/264] I Know You Are but What Am I? - Mogwai (已存在，跳过)
+[09:39:33] [263/264] 我爱你 - 新裤子
+[09:39:33]   ❌ 下载失败
+[09:39:33] [264/264] 尕连手 - 段兴华
+[09:39:34]   ❌ 下载失败
+[09:39:34] 
+==================================================
+[09:39:34] 完成! 成功:9 失败:216 总计:264 耗时:833s
+[09:39:34] 输出: /Users/kaluozheng/Music-Player-Investigation/SongBase/SongResources
+[10:18:07] 加载 264 个下载任务
+[10:18:07] [1/264] Age of Aquarius - RIOPY (已存在，跳过)
+[10:18:07] [2/264] American Dream - RIOPY (已存在，跳过)
+[10:18:07] [3/264] Attraction - RIOPY (已存在，跳过)
+[10:18:07] [4/264] Blue Moon - RIOPY (已存在，跳过)
+[10:18:07] [5/264] Come With Me - RIOPY (已存在，跳过)
+[10:18:07] [6/264] Drive - RIOPY (已存在，跳过)
+[10:18:07] [7/264] Feeling Safe - RIOPY (已存在，跳过)
+[10:18:07] [8/264] Flo - RIOPY (已存在，跳过)
+[10:18:07] [9/264] Forgive Me - RIOPY (已存在，跳过)
+[10:18:07] [10/264] From You - RIOPY (已存在，跳过)
+[10:18:07] [11/264] Law of One - RIOPY (已存在，跳过)
+[10:18:07] [12/264] Lost Soul - RIOPY (已存在，跳过)
+[10:18:07] [13/264] Minimal Game - RIOPY (已存在，跳过)
+[10:18:07] [14/264] New World - RIOPY (已存在，跳过)
+[10:18:07] [15/264] New York - RIOPY (已存在，跳过)
+[10:18:07] [16/264] Old Soul - RIOPY (已存在，跳过)
+[10:18:07] [17/264] Piano 17 - RIOPY (已存在，跳过)
+[10:18:07] [18/264] Summer Night - RIOPY (已存在，跳过)
+[10:18:07] [19/264] Sunrise - RIOPY (已存在，跳过)
+[10:18:07] [20/264] Tree of Light - A Call to Arms - RIOPY (已存在，跳过)
+[10:18:07] [21/264] Ukiyo - RIOPY (已存在，跳过)
+[10:18:07] [22/264] Waiting For A Sign - RIOPY (已存在，跳过)
+[10:18:07] [23/264] Wyden Down - RIOPY (已存在，跳过)
+[10:18:07] [24/264] a,s,a - fox capture plan (已存在，跳过)
+[10:18:07] [25/264] Discovery the New World - fox capture plan (已存在，跳过)
+[10:18:07] [26/264] Helios - fox capture plan (已存在，跳过)
+[10:18:07] [27/264] Into the Spiral - fox capture plan (已存在，跳过)
+[10:18:07] [28/264] into the wall - fox capture plan (已存在，跳过)
+[10:18:07] [29/264] Narrow Edge - fox capture plan (已存在，跳过)
+[10:18:07] [30/264] Numb - fox capture plan (已存在，跳过)
+[10:18:07] [31/264] Paranoid Android - fox capture plan (已存在，跳过)
+[10:18:07] [32/264] Sprinter - fox capture plan (已存在，跳过)
+[10:18:07] [33/264] Stand My Heroes - fox capture plan (已存在，跳过)
+[10:18:07] [34/264] this wall - fox capture plan (已存在，跳过)
+[10:18:07] [35/264] tong poo - fox capture plan (已存在，跳过)
+[10:18:07] [36/264] unsolved - fox capture plan (已存在，跳过)
+[10:18:07] [37/264] 不可思議のカルテ - fox capture plan (已存在，跳过)
+[10:18:07] [38/264] 夜間航路 - fox capture plan (已存在，跳过)
+[10:18:07] [39/264] 疾走する閃光 - fox capture plan (已存在，跳过)
+[10:18:07] [40/264] 2AM in New York - iwamizu (已存在，跳过)
+[10:18:07] [41/264] Akumu - iwamizu (已存在，跳过)
+[10:18:07] [42/264] Amsterdam - iwamizu (已存在，跳过)
+[10:18:07] [43/264] Bad at Love - iwamizu (已存在，跳过)
+[10:18:07] [44/264] Dear Mr. Petrucciani - iwamizu (已存在，跳过)
+[10:18:07] [45/264] Gardenia - iwamizu
+[10:18:18]   ✅ 3.8MB
+[10:18:20] [46/264] Guilt and Shame - iwamizu
+[10:18:31]   ✅ 2.7MB
+[10:18:33] [47/264] I Will Always Be Waiting For You - iwamizu
+[10:18:43]   ✅ 3.0MB
+[10:18:45] [48/264] Merci - iwamizu
+[10:18:53]   ✅ 4.1MB
+[10:18:55] [49/264] Michelle - iwamizu
+[10:19:06]   ✅ 4.4MB
+[10:19:08] [50/264] November 15, 2023 - iwamizu
+[10:19:17]   ✅ 4.1MB
+[10:19:19] [51/264] Phantom Troupe - iwamizu
+[10:19:27]   ✅ 2.8MB
+[10:19:29] [52/264] Sweet Sorrow - iwamizu
+[10:19:38]   ✅ 3.8MB
+[10:19:40] [53/264] Unrequited Love - iwamizu
+[10:19:50]   ✅ 3.9MB
+[10:19:52] [54/264] Valse Lente - iwamizu
+[10:20:02]   ✅ 3.8MB
+[10:20:04] [55/264] August Twelve - Khruangbin
+[10:20:15]   ✅ 8.9MB
+[10:20:17] [56/264] Balls and Pins - Khruangbin
+[10:20:28]   ✅ 6.3MB
+[10:20:30] [57/264] Caja de la Sala - Khruangbin
+[10:20:39]   ✅ 2.5MB
+[10:20:41] [58/264] Dearest Alfred - Khruangbin
+[10:20:50]   ✅ 5.8MB
+[10:20:52] [59/264] Dern Kala - Khruangbin
+[10:21:02]   ✅ 5.1MB
+[10:21:04] [60/264] Farolim de Felgueiras - Khruangbin
+[10:21:13]   ✅ 2.8MB
+[10:21:15] [61/264] Juegos y Nubes - Khruangbin
+[10:21:24]   ✅ 2.8MB
+[10:21:26] [62/264] Les Petits Gris - Khruangbin
+[10:21:35]   ✅ 5.5MB
+[10:21:37] [63/264] People Everywhere - Khruangbin
+[10:21:49]   ✅ 10.9MB
+[10:21:51] [64/264] Pon Pón - Khruangbin
+[10:22:01]   ✅ 4.1MB
+[10:22:03] [65/264] The Man Who Took My Sunglasses - Khruangbin
+[10:22:12]   ✅ 2.5MB
+[10:22:14] [66/264] Three From Two - Khruangbin
+[10:22:24]   ✅ 4.9MB
+[10:22:26] [67/264] Todavía Viva - Khruangbin
+[10:22:36]   ✅ 6.0MB
+[10:22:38] [68/264] Two Fish and an Elephant - Khruangbin
+[10:22:47]   ✅ 4.9MB
+[10:22:49] [69/264] Zionsville - Khruangbin
+[10:23:00]   ✅ 7.8MB
+[10:23:02] [70/264] A Thread in the Dark - Mammal Hands
+[10:23:12]   ✅ 7.4MB
+[10:23:14] [71/264] Alia's Abandon - Mammal Hands
+[10:23:24]   ✅ 6.0MB
+[10:23:26] [72/264] Bustle - Mammal Hands
+[10:23:36]   ✅ 6.2MB
+[10:23:38] [73/264] Fallow Tide - Mammal Hands
+[10:23:49]   ✅ 3.3MB
+[10:23:51] [74/264] Forgotten Friend - Mammal Hands
+[10:24:00]   ✅ 5.6MB
+[10:24:02] [75/264] Four Flowers - Mammal Hands
+[10:24:12]   ✅ 6.6MB
+[10:24:14] [76/264] Helios - Mammal Hands
+[10:24:24]   ✅ 5.8MB
+[10:24:26] [77/264] Inuit Party - Mammal Hands
+[10:24:38]   ✅ 8.1MB
+[10:24:40] [78/264] Kandaiki - Mammal Hands
+[10:24:50]   ✅ 8.2MB
+[10:24:52] [79/264] Paper Boats - Mammal Hands
+[10:25:02]   ✅ 5.8MB
+[10:25:04] [80/264] Snow Bough - Mammal Hands
+[10:25:13]   ✅ 3.6MB
+[10:25:15] [81/264] Street Sweeper - Mammal Hands
+[10:25:27]   ✅ 4.5MB
+[10:25:29] [82/264] Submerge - Mammal Hands
+[10:25:41]   ✅ 8.9MB
+[10:25:43] [83/264] Tiny Crumb - Mammal Hands
+[10:25:55]   ✅ 10.7MB
+[10:25:57] [84/264] Window to Your World - Mammal Hands
+[10:26:09]   ✅ 7.2MB
+[10:26:11] [85/264] A Fall and Rebirth - Re:Plus
+[10:26:22]   ✅ 7.1MB
+[10:26:24] [86/264] Dec.27 - Re:Plus
+[10:26:36]   ✅ 4.5MB
+[10:26:38] [87/264] Everlasting Truth - Re:Plus
+[10:26:48]   ✅ 5.3MB
+[10:26:50] [88/264] Getting Close - Re:Plus
+[10:27:00]   ✅ 5.2MB
+[10:27:02] [89/264] Interlude - Re:Plus
+[10:27:11]   ✅ 1.3MB
+[10:27:13] [90/264] It All Turns Out Great feat. MC Newsense from ArtOfficial & Nate Vibez - Re:Plus
+[10:27:23]   ✅ 4.9MB
+[10:27:25] [91/264] Moonscape - Re:Plus
+[10:27:35]   ✅ 3.8MB
+[10:27:37] [92/264] Nighttime - Re:Plus
+[10:27:48]   ✅ 5.6MB
+[10:27:50] [93/264] On and On feat. Noah King & Leah Hanna King - Re:Plus
+[10:27:59]   ✅ 4.9MB
+[10:28:01] [94/264] One Dream feat. Sam Ock - Re:Plus
+[10:28:12]   ✅ 5.6MB
+[10:28:14] [95/264] Quietblue - Re:Plus
+[10:28:23]   ✅ 5.1MB
+[10:28:25] [96/264] Re:lax and Chill feat. Othello - Re:Plus
+[10:28:36]   ✅ 5.8MB
+[10:28:38] [97/264] Regret - Re:Plus
+[10:28:49]   ✅ 6.5MB
+[10:28:51] [98/264] We the People feat. Pismo - Re:Plus
+[10:29:00]   ✅ 4.7MB
+[10:29:02] [99/264] White Avenue - Re:Plus
+[10:29:13]   ✅ 7.0MB
+[10:29:15] [100/264] 7th October - Alfa Mist
+[10:29:25]   ✅ 5.7MB
+[10:29:27] [101/264] Attune - Alfa Mist
+[10:29:39]   ✅ 9.7MB
+[10:29:41] [102/264] Brian - Alfa Mist
+[10:29:50]   ✅ 3.5MB
+[10:29:52] [103/264] Coasting - Alfa Mist
+[10:30:03]   ✅ 6.6MB
+[10:30:05] [104/264] Errors - Alfa Mist
+[10:30:18]   ✅ 13.8MB
+[10:30:20] [105/264] Keep On - Alfa Mist
+[10:30:34]   ✅ 14.8MB
+[10:30:36] [106/264] Kyoki - Alfa Mist
+[10:30:47]   ✅ 8.4MB
+[10:30:49] [107/264] Mind The Gap - Alfa Mist
+[10:31:00]   ✅ 4.8MB
+[10:31:02] [108/264] Nucleus - Alfa Mist
+[10:31:13]   ✅ 9.2MB
+[10:31:15] [109/264] Once A Year - Alfa Mist
+[10:31:25]   ✅ 1.9MB
+[10:31:27] [110/264] Organic Rust - Alfa Mist
+[10:31:37]   ✅ 6.3MB
+[10:31:39] [111/264] People - Alfa Mist
+[10:31:50]   ✅ 4.1MB
+[10:31:52] [112/264] Potential - Alfa Mist
+[10:32:02]   ✅ 7.1MB
+[10:32:04] [113/264] Teki - Alfa Mist
+[10:32:15]   ✅ 8.3MB
+[10:32:17] [114/264] A Day in Never - Hania Rani
+[10:32:28]   ✅ 6.1MB
+[10:32:30] [115/264] Come Back Home - Hania Rani
+[10:32:41]   ✅ 6.4MB
+[10:32:43] [116/264] Hello - Hania Rani
+[10:32:55]   ✅ 7.1MB
+[10:32:57] [117/264] Home - Hania Rani
+[10:33:07]   ✅ 6.0MB
+[10:33:09] [118/264] I'll Never Find Your Soul - Hania Rani
+[10:33:19]   ✅ 4.7MB
+[10:33:21] [119/264] Komeda - Hania Rani
+[10:33:34]   ✅ 15.2MB
+[10:33:36] [120/264] Letter to Glass - Hania Rani
+[10:33:47]   ✅ 4.9MB
+[10:33:49] [121/264] Moans - Hania Rani
+[10:34:00]   ✅ 6.3MB
+[10:34:02] [122/264] Nest - Hania Rani
+[10:34:12]   ✅ 6.0MB
+[10:34:14] [123/264] Ombelico - Hania Rani
+[10:34:23]   ✅ 4.1MB
+[10:34:25] [124/264] Summer - Hania Rani
+[10:34:37]   ✅ 7.4MB
+[10:34:39] [125/264] Thin Line - Hania Rani
+[10:34:51]   ✅ 5.9MB
+[10:34:53] [126/264] Utrata - Hania Rani
+[10:35:03]   ✅ 5.8MB
+[10:35:05] [127/264] Erdaydidder-Erdiddar - Bibio
+[10:35:16]   ✅ 6.8MB
+[10:35:18] [128/264] Frankincense And Coal - Bibio
+[10:35:29]   ✅ 2.5MB
+[10:35:31] [129/264] It’s Your Bones - Bibio
+[10:35:42]   ✅ 6.5MB
+[10:35:44] [130/264] Old Graffiti - Bibio
+[10:35:53]   ✅ 5.3MB
+[10:35:55] [131/264] Patchouli May - Bibio
+[10:36:05]   ✅ 5.6MB
+[10:36:07] [132/264] Pretty Ribbons And Lovely Flowers - Bibio
+[10:36:18]   ✅ 5.9MB
+[10:36:20] [133/264] Quarters - Bibio
+[10:36:30]   ✅ 4.6MB
+[10:36:32] [134/264] Under A Lone Ash - Bibio
+[10:36:42]   ✅ 4.0MB
+[10:36:44] [135/264] Valley Wulf - Bibio
+[10:36:55]   ✅ 4.6MB
+[10:36:57] [136/264] You Couldn’t Even Hear The Birds Singing - Bibio
+[10:37:06]   ✅ 1.9MB
+[10:37:08] [137/264] Arboretum - Choker
+[10:37:19]   ✅ 4.8MB
+[10:37:21] [138/264] Baby Boy - Choker
+[10:37:31]   ✅ 3.9MB
+[10:37:33] [139/264] Daisy - Choker
+[10:37:44]   ✅ 8.4MB
+[10:37:46] [140/264] Fuji Unlimited - Choker
+[10:37:57]   ✅ 3.6MB
+[10:37:59] [141/264] Gusher - Choker
+[10:38:10]   ✅ 2.5MB
+[10:38:12] [142/264] Juno - Choker
+[10:38:21]   ✅ 5.3MB
+[10:38:23] [143/264] Rocket - Choker
+[10:38:34]   ✅ 9.0MB
+[10:38:36] [144/264] Screw Wave - Choker
+[10:38:46]   ✅ 1.8MB
+[10:38:48] [145/264] Suzuki Peaches - Choker
+[10:38:58]   ✅ 5.3MB
+[10:39:00] [146/264] Windbreaker - Choker
+[10:39:10]   ✅ 3.9MB
+[10:39:12] [147/264] Butterfly - Cleo Sol
+[10:39:22]   ✅ 5.0MB
+[10:39:24] [148/264] Her Light - Cleo Sol
+[10:39:33]   ✅ 5.6MB
+[10:39:35] [149/264] I Love You - Cleo Sol
+[10:39:45]   ✅ 4.1MB
+[10:39:47] [150/264] One Love - Cleo Sol
+[10:39:55]   ✅ 1.8MB
+[10:39:57] [151/264] Rewind - Cleo Sol
+[10:40:07]   ✅ 3.3MB
+[10:40:09] [152/264] Rose in the Dark - Cleo Sol
+[10:40:19]   ✅ 5.2MB
+[10:40:21] [153/264] Sideways - Cleo Sol
+[10:40:30]   ✅ 4.4MB
+[10:40:32] [154/264] Sure of Myself - Cleo Sol
+[10:40:42]   ✅ 5.0MB
+[10:40:44] [155/264] When I'm in Your Arms - Cleo Sol
+[10:40:54]   ✅ 7.7MB
+[10:40:56] [156/264] Why Don't You - Cleo Sol
+[10:41:06]   ✅ 5.3MB
+[10:41:08] [157/264] Coast Off - Helios
+[10:41:17]   ✅ 6.7MB
+[10:41:19] [158/264] Dragonfly Across An Ancient Sky - Helios
+[10:41:39]   ✅ 7.8MB
+[10:41:41] [159/264] Emancipation - Helios
+[10:41:49]   ✅ 3.5MB
+[10:41:51] [160/264] First Dream Called Ocean - Helios
+[10:42:01]   ✅ 5.3MB
+[10:42:03] [161/264] For Years And Years - Helios
+[10:42:15]   ✅ 7.6MB
+[10:42:17] [162/264] Halving The Compass - Helios
+[10:42:29]   ✅ 7.5MB
+[10:42:31] [163/264] Paper Tiger - Helios
+[10:42:42]   ✅ 6.3MB
+[10:42:44] [164/264] Sons Of Light And Darkness - Helios
+[10:42:56]   ✅ 6.2MB
+[10:42:58] [165/264] The Toy Garden - Helios
+[10:43:08]   ✅ 6.5MB
+[10:43:10] [166/264] Vargtimme - Helios
+[10:43:21]   ✅ 5.4MB
+[10:43:23] [167/264] 5Am Waltz - Men I Trust
+[10:43:32]   ✅ 2.4MB
+[10:43:34] [168/264] A Cycle (2021) - Men I Trust
+[10:43:44]   ✅ 5.6MB
+[10:43:46] [169/264] Ante Meridiem - Men I Trust
+[10:43:55]   ✅ 3.3MB
+[10:43:57] [170/264] Before Dawn - Men I Trust
+[10:44:08]   ✅ 4.9MB
+[10:44:10] [171/264] Beluga - Men I Trust
+[10:44:19]   ✅ 1.6MB
+[10:44:21] [172/264] Black Hole Era - Men I Trust
+[10:44:31]   ✅ 3.8MB
+[10:44:33] [173/264] Lifelong Song - Men I Trust
+[10:44:42]   ✅ 4.2MB
+[10:44:44] [174/264] Organon - Men I Trust
+[10:44:53]   ✅ 3.5MB
+[10:44:55] [175/264] Serenade of Water - Men I Trust
+[10:45:04]   ✅ 4.2MB
+[10:45:06] [176/264] Shoulders - Men I Trust
+[10:45:16]   ✅ 4.7MB
+[10:45:18] [177/264] Bluesen - Svaneborg Kardyb
+[10:45:28]   ✅ 4.1MB
+[10:45:30] [178/264] Dialekt - Svaneborg Kardyb
+[10:45:40]   ✅ 7.3MB
+[10:45:42] [179/264] Dæmningen - Svaneborg Kardyb
+[10:45:51]   ✅ 5.6MB
+[10:45:53] [180/264] Fløjtesangen - Svaneborg Kardyb
+[10:46:03]   ✅ 3.2MB
+[10:46:05] [181/264] Haven - Svaneborg Kardyb
+[10:46:15]   ✅ 4.9MB
+[10:46:17] [182/264] Havn - Svaneborg Kardyb
+[10:46:29]   ✅ 8.2MB
+[10:46:31] [183/264] Omvej - Svaneborg Kardyb
+[10:46:41]   ✅ 2.8MB
+[10:46:43] [184/264] Post - Svaneborg Kardyb
+[10:46:53]   ✅ 4.0MB
+[10:46:55] [185/264] Sommer - Svaneborg Kardyb
+[10:47:06]   ✅ 4.7MB
+[10:47:08] [186/264] Til Eline - Svaneborg Kardyb
+[10:47:18]   ✅ 5.2MB
+[10:47:20] [187/264] Book - Chon
+[10:47:29]   ✅ 3.7MB
+[10:47:31] [188/264] But - Chon
+[10:47:42]   ✅ 5.3MB
+[10:47:44] [189/264] Can't Wait - Chon
+[10:47:53]   ✅ 4.3MB
+[10:47:55] [190/264] Echo - Chon
+[10:48:04]   ✅ 3.9MB
+[10:48:06] [191/264] Fall - Chon
+[10:48:16]   ✅ 5.0MB
+[10:48:18] [192/264] Knot - Chon
+[10:48:28]   ✅ 4.2MB
+[10:48:30] [193/264] Moon - Chon
+[10:48:37]   ✅ 1.9MB
+[10:48:39] [194/264] Splash - Chon
+[10:48:49]   ✅ 3.4MB
+[10:48:51] [195/264] Suda - Chon
+[10:49:01]   ✅ 4.2MB
+[10:49:03] [196/264] Bellows - Loscil
+[10:49:14]   ✅ 8.8MB
+[10:49:16] [197/264] Charlie - Loscil
+[10:49:28]   ✅ 12.1MB
+[10:49:30] [198/264] Chinook - Loscil
+[10:49:41]   ✅ 9.5MB
+[10:49:43] [199/264] Halcyon - Loscil
+[10:49:54]   ✅ 10.1MB
+[10:49:56] [200/264] Mistral - Loscil
+[10:50:07]   ✅ 8.3MB
+[10:50:09] [201/264] Motoc - Loscil
+[10:50:21]   ✅ 8.9MB
+[10:50:23] [202/264] Rorschach - Loscil
+[10:50:34]   ✅ 11.4MB
+[10:50:36] [203/264] Steam - Loscil
+[10:50:48]   ✅ 9.5MB
+[10:50:50] [204/264] Zephyr - Loscil
+[10:51:00]   ✅ 7.3MB
+[10:51:02] [205/264] AFTER WEST - toconoma
+[10:51:13]   ✅ 6.1MB
+[10:51:15] [206/264] Apollo - toconoma
+[10:51:27]   ✅ 7.8MB
+[10:51:29] [207/264] Fitz Roy - toconoma
+[10:51:40]   ✅ 7.6MB
+[10:51:42] [208/264] monolith - toconoma
+[10:51:53]   ✅ 6.3MB
+[10:51:55] [209/264] nebula - toconoma
+[10:52:09]   ✅ 8.2MB
+[10:52:11] [210/264] Orange Valley - toconoma
+[10:52:22]   ✅ 6.4MB
+[10:52:24] [211/264] seesaw - toconoma
+[10:52:34]   ✅ 7.5MB
+[10:52:36] [212/264] vermelho do sol - toconoma
+[10:52:47]   ✅ 7.0MB
+[10:52:49] [213/264] wander wander - toconoma
+[10:53:00]   ✅ 5.3MB
+[10:53:02] [214/264] En - jizue
+[10:53:13]   ✅ 8.5MB
+[10:53:15] [215/264] home - jizue
+[10:53:27]   ✅ 9.3MB
+[10:53:29] [216/264] Island - jizue
+[10:53:40]   ✅ 5.9MB
+[10:53:42] [217/264] Rain Dog - jizue
+[10:53:54]   ✅ 6.0MB
+[10:53:56] [218/264] SAKURA - jizue
+[10:54:06]   ✅ 7.6MB
+[10:54:08] [219/264] sister - jizue
+[10:54:20]   ✅ 8.2MB
+[10:54:22] [220/264] Tower - jizue
+[10:54:33]   ✅ 7.3MB
+[10:54:35] [221/264] 最後の朝 - jizue
+[10:54:47]   ✅ 7.9MB
+[10:54:49] [222/264] Baghon Main - AROOJ AFTAB
+[10:54:59]   ✅ 9.3MB
+[10:55:01] [223/264] Diya Hai - AROOJ AFTAB
+[10:55:14]   ✅ 6.8MB
+[10:55:16] [224/264] Inayaat - AROOJ AFTAB
+[10:55:26]   ✅ 10.7MB
+[10:55:28] [225/264] Last Night - AROOJ AFTAB
+[10:55:40]   ✅ 8.2MB
+[10:55:42] [226/264] Mohabbat - AROOJ AFTAB
+[10:55:52]   ✅ 10.6MB
+[10:55:54] [227/264] Saans Lo - AROOJ AFTAB
+[10:56:06]   ✅ 10.3MB
+[10:56:08] [228/264] Suroor - AROOJ AFTAB
+[10:56:20]   ✅ 7.1MB
+[10:56:22] [229/264] Burst - Kiasmos
+[10:56:32]   ✅ 6.2MB
+[10:56:34] [230/264] Dazed - Kiasmos
+[10:56:44]   ✅ 7.0MB
+[10:56:46] [231/264] Grown - Kiasmos
+[10:56:58]   ✅ 9.7MB
+[10:57:00] [232/264] Laced - Kiasmos
+[10:57:10]   ✅ 5.2MB
+[10:57:12] [233/264] Sailed - Kiasmos
+[10:57:22]   ✅ 5.9MB
+[10:57:24] [234/264] Squared - Kiasmos
+[10:57:35]   ✅ 7.3MB
+[10:57:37] [235/264] Told - Kiasmos
+[10:57:46]   ✅ 7.8MB
+[10:57:48] [236/264] Always - Daniel Caesar
+[10:57:58]   ✅ 5.2MB
+[10:58:00] [237/264] Do You Like Me? - Daniel Caesar
+[10:58:11]   ✅ 5.2MB
+[10:58:13] [238/264] Pain Is Inevitable - Daniel Caesar
+[10:58:25]   ✅ 6.8MB
+[10:58:27] [239/264] Unstoppable - Daniel Caesar
+[10:58:36]   ✅ 5.7MB
+[10:58:38] [240/264] Valentina - Daniel Caesar
+[10:58:47]   ✅ 5.4MB
+[10:58:49] [241/264] Vince Van Gogh - Daniel Caesar
+[10:58:59]   ✅ 3.8MB
+[10:59:01] [242/264] fxck it then - Yaya Bey
+[10:59:11]   ✅ 3.2MB
+[10:59:13] [243/264] industry love / a protection spell - Yaya Bey
+[10:59:23]   ✅ 5.2MB
+[10:59:25] [244/264] september 13th - Yaya Bey
+[10:59:35]   ✅ 2.9MB
+[10:59:37] [245/264] the root of a thing - Yaya Bey
+[10:59:46]   ✅ 4.0MB
+[10:59:48] [246/264] we'll skate soon - Yaya Bey
+[10:59:59]   ✅ 4.5MB
+[11:00:01] [247/264] you up? - Yaya Bey
+[11:00:10]   ✅ 1.7MB
+[11:00:12] [248/264] Areti's Love - Kiefer
+[11:00:22]   ✅ 5.3MB
+[11:00:24] [249/264] crybaby - Kiefer
+[11:00:35]   ✅ 6.6MB
+[11:00:37] [250/264] earthly things - Kiefer
+[11:00:47]   ✅ 7.0MB
+[11:00:49] [251/264] loving hands - Kiefer
+[11:00:59]   ✅ 2.9MB
+[11:01:01] [252/264] All Farewells are Sudden - A Winged Victory for the Sullen
+[11:01:12]   ✅ 10.4MB
+[11:01:14] [253/264] Minuet for a Cheap Piano Number Two - A Winged Victory for the Sullen
+[11:01:25]   ✅ 5.7MB
+[11:01:27] [254/264] Steep Hills of Vicodin Tears - A Winged Victory for the Sullen
+[11:01:31]   ✅ 6.1MB
+[11:01:33] [255/264] Always Alright - Alabama Shakes
+[11:01:43]   ✅ 5.7MB
+[11:01:45] [256/264] Etude No. 3 Op. 10/3 - European Jazz Trio (已存在，跳过)
+[11:01:45] [257/264] pm7:42 - Hotel New Tokyo (已存在，跳过)
+[11:01:45] [258/264] Ri:ng - Jizue (已存在，跳过)
+[11:01:45] [259/264] I Walk, I Fly - Long Arm
+[11:01:54]   ✅ 3.4MB
+[11:01:56] [260/264] Better Not - Louis the child
+[11:02:07]   ✅ 5.1MB
+[11:02:09] [261/264] Be Happy - Mary J. Blige
+[11:02:19]   ✅ 5.4MB
+[11:02:21] [262/264] I Know You Are but What Am I? - Mogwai (已存在，跳过)
+[11:02:21] [263/264] 我爱你 - 新裤子
+[11:02:31]   ✅ 7.2MB
+[11:02:33] [264/264] 尕连手 - 段兴华
+[11:02:43]   ✅ 5.3MB
+[11:02:45] 
+==================================================
+[11:02:45] 完成! 成功:216 失败:0 总计:264 耗时:2677s
+[11:02:45] 输出: /Users/kaluozheng/Music-Player-Investigation/SongBase/SongResources

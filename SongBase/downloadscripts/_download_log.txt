@@ -1,0 +1,2245 @@
+[16:29:52] 加载 205 个任务，已完成 1，待下载 204
+[16:29:52] [2/205] The 400 Blues 唐詩四百首 — Pu Poo Platter
+[16:29:52]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:29:57] [3/205] The Beyond — LITE
+[16:29:57]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:02] [4/205] The Turn Within — GoGo Penguin
+[16:30:02]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:07] [5/205] Cold Meteor Showers — The Breathing Effect
+[16:30:07]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:12] [6/205] The Smashing Machine — Nala Sinephro
+[16:30:12]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:17] [7/205] Continuum 1 — Nala Sinephro
+[16:30:17]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:22] [8/205] 神游夜话 — 文雀
+[16:30:22]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:27] [9/205] One Percent — GoGo Penguin
+[16:30:27]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:33] [10/205] New Conditions — Balmorhea, Joseph Shabason, Jason Treuting
+[16:30:33]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:38] [11/205] Homeward — Trevor Kowalski
+[16:30:38]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:43] [12/205] Hopopono — GoGo Penguin
+[16:30:43]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:48] [13/205] 東京ワルツ — Hotel New Tokyo
+[16:30:48]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:53] [14/205] To Drown in You — GoGo Penguin
+[16:30:53]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:30:58] [15/205] Protagonist — Slowly Rolling Camera, Dave Stapleton, Deri Roberts, Dionne Bennett, Eliot Bennett
+[16:30:58]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:03] [16/205] Juniper — Slowly Rolling Camera, Dave Stapleton, Deri Roberts, Elliot Bennett
+[16:31:03]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:08] [17/205] Love Is the Message — Yussef Dayes, Alfa Mist, Mansur Brown
+[16:31:08]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:13] [18/205] Raisins Under the Sun — Yussef Dayes
+[16:31:13]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:18] [19/205] Slowness — Ana Roxanne
+[16:31:18]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:23] [20/205] Distance — Fayzz
+[16:31:23]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:28] [21/205] Rhizome — Mammal Hands
+[16:31:28]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:33] [22/205] 我 — 超级市场
+[16:31:33]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:38] [23/205] Nostalgia — JaRon Marshall, Béesau
+[16:31:38]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:43] [24/205] 数字天体 — iimmune
+[16:31:43]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:48] [25/205] Bubble — Shii
+[16:31:48]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:53] [26/205] To the East Coast — Kaishandao
+[16:31:53]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:31:58] [27/205] 蝉 — iimmune
+[16:31:58]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:03] [28/205] volt — Hugar
+[16:32:03]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:09] [29/205] Labyrinth — Mammal Hands
+[16:32:09]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:14] [30/205] An Unbroken Thread of Awareness — GoGo Penguin
+[16:32:14]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:19] [31/205] Quiet Fire — Mammal Hands
+[16:32:19]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:24] [32/205] Murmuration — GoGo Penguin
+[16:32:24]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:29] [33/205] Offset — Portico Quartet
+[16:32:29]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:34] [34/205] Wringer — Mammal Hands
+[16:32:34]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:34] 加载 205 个任务，已完成 1，待下载 204
+[16:32:34] [2/205] The 400 Blues 唐詩四百首 — Pu Poo Platter
+[16:32:39] [35/205] Embers — GoGo Penguin, Yosi Horikawa
+[16:32:39]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:44] [36/205] Spinner — Portico Quartet
+[16:32:44]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:45]   ✅ 5.6MB
+[16:32:48] [3/205] The Beyond — LITE
+[16:32:49] [37/205] Little Nerves — Binkbeats, Niels Broos
+[16:32:49]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:54] [38/205] Angel Feed — Yard Nule
+[16:32:54]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:32:59] [39/205] Living Frost — Mammal Hands
+[16:32:59]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:04]   ✅ 6.1MB
+[16:33:04] [40/205] Becoming — Mammal Hands
+[16:33:04]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:07] [4/205] The Turn Within — GoGo Penguin
+[16:33:09] [41/205] Flyaway — Arbour
+[16:33:09]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:14] [42/205] Tap on Damen — The Flashbulb
+[16:33:14]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:19] [43/205] With, Beside, Against — Portico Quartet
+[16:33:19]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:24] [44/205] Blue Shades — Trigg & Gusset
+[16:33:24]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:25]   ✅ 8.0MB
+[16:33:28] [5/205] Cold Meteor Showers — The Breathing Effect
+[16:33:29] [45/205] 回転・天使 — betcover!!
+[16:33:29]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:34] [46/205] Madison Area — Tortoise
+[16:33:34]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:39] [47/205] Black Spider — Mogwai
+[16:33:39]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:44] [48/205] Night Squall — Balmorhea
+[16:33:44]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:46]   ✅ 9.4MB
+[16:33:49] [49/205] Moments (Part 2) — FKJ
+[16:33:49]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:49] [6/205] The Smashing Machine — Nala Sinephro
+[16:33:54] [50/205] Continuum 3 — Nala Sinephro
+[16:33:54]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:33:59] [51/205] Elegy — Balmorhea
+[16:33:59]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:04] [52/205] I Know You Are but What Am I? — Mogwai
+[16:34:04]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:09] [53/205] Hold On — Running Blue
+[16:34:10]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:15] [54/205] Rollerball — Mogwai
+[16:34:15]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:19]   ✅ 34.7MB
+[16:34:20] [55/205] Etude No. 3 Op. 10/3 — European Jazz Trio
+[16:34:20]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:25] [56/205] Hard Drive — Cassandra Jenkins
+[16:34:25]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:27] [7/205] Continuum 1 — Nala Sinephro
+[16:34:30] [57/205] Dancing Queen — European Jazz Trio
+[16:34:30]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:35] [58/205] The Lamp Is Low — Laurindo Almeida
+[16:34:35]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:40] [59/205] Sunburst — All India Radio
+[16:34:40]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:45] [60/205] あるてぃすと — ハナレグミ
+[16:34:45]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:45]   ✅ 9.9MB
+[16:34:48] [8/205] 神游夜话 — 文雀
+[16:34:50] [61/205] Mirror (Bedroom Session) — Chestnut Bakery
+[16:34:50]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:34:55] [62/205] Secret Pint — Mogwai
+[16:34:55]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:00] [63/205] A Thousand Lights — Slowly Rolling Camera, Mark Lockheart, Dave Stapleton, Deri Roberts, Elliot Bennett
+[16:35:00]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:05] [64/205] old pictures of you — i don't like mirrors
+[16:35:05]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:07]   ✅ 8.6MB
+[16:35:10] [9/205] One Percent — GoGo Penguin
+[16:35:10] [65/205] i miss your warm hands — i don't like mirrors
+[16:35:10]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:15] [66/205] Hourglass — Gowe
+[16:35:15]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:20] [67/205] L'exil — Laurie Darmon
+[16:35:20]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:28] [68/205] If — Joe Pass
+[16:35:28]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:31]   ✅ 7.7MB
+[16:35:33] [69/205] Hearts Awakening — Parijat
+[16:35:33]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:34] [10/205] New Conditions — Balmorhea, Joseph Shabason, Jason Treuting
+[16:35:38] [70/205] The Deep South — Adam Young
+[16:35:38]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:43] [71/205] Spartacus Love Theme — Re:Plus
+[16:35:43]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:48] [72/205] 海边的曼彻斯特 — 森水垚
+[16:35:48]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:49]   ✅ 5.4MB
+[16:35:52] [11/205] Homeward — Trevor Kowalski
+[16:35:53] [73/205] 小孩儿 — THE BOOTLEGS 靴腿乐队
+[16:35:53]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:35:58] [74/205] Long Way Home — Lamplighters点灯人
+[16:35:58]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:03] [75/205] Blue Sky — GYVUS
+[16:36:03]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:08] [76/205] Borderlines — Vraell
+[16:36:08]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:09]   ✅ 3.7MB
+[16:36:18] [77/205] Lost In The Light — Bahamas
+[16:36:18]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:22] [12/205] Hopopono — GoGo Penguin
+[16:36:23] [78/205] Nothing Without You — Vienna Teng
+[16:36:23]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:28] [79/205] Golden Hour — Matthew Pinder
+[16:36:28]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:33] [80/205] Everyone Adores You (quiet) — Matt Maltese
+[16:36:34]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:38]   ✅ 4.1MB
+[16:36:39] [81/205] Lucky Love — Michael Seyer
+[16:36:39]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:41] [13/205] 東京ワルツ — Hotel New Tokyo
+[16:36:44] [82/205] As It Was — Vancouver Sleep Clinic, Pop Goes Ambient, Amelia Magdalena
+[16:36:44]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:49] [83/205] Drinking For Two — Cherry Ghost
+[16:36:49]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:54] [84/205] Utopia (feat. Marti Fischer) — Cory Wong, Metropole Orkest, Jules Buckley, Marti Fischer
+[16:36:54]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:36:58]   ✅ 9.0MB
+[16:36:59] [85/205] Overcast — 吴卓玲
+[16:36:59]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:01] [14/205] To Drown in You — GoGo Penguin
+[16:37:06] [86/205] Och du Vackra — Sejd
+[16:37:06]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:11] [87/205] SUNSET — LITE, Yvette Young
+[16:37:11]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:16] [88/205] Dry Fantasy — Mogwai
+[16:37:16]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:21] [89/205] Selenge — Céline Dessberg
+[16:37:21]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:22]   ✅ 8.9MB
+[16:37:25] [15/205] Protagonist — Slowly Rolling Camera, Dave Stapleton, Deri Roberts, Dionne Bennett, Eliot Bennett
+[16:37:26] [90/205] 10th sentimen — sow
+[16:37:26]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:31] [91/205] Chateau — Cory Wong, Metropole Orkest, Jules Buckley
+[16:37:31]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:36] [92/205] Cœur croisé — Polo & Pan
+[16:37:36]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:41] [93/205] Hell Yes — Beck
+[16:37:41]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:46]   ✅ 7.5MB
+[16:37:46] [94/205] Halves and Quarters — Guantanamo Bay Surf Club
+[16:37:46]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:49] [16/205] Juniper — Slowly Rolling Camera, Dave Stapleton, Deri Roberts, Elliot Bennett
+[16:37:51] [95/205] We Complete Each Other — Youzee Music
+[16:37:51]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:37:57] [96/205] New notes — 陳嫺靜
+[16:37:57]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:02] [97/205] Things Change — Busty and the Bass
+[16:38:02]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:07] [98/205] Plantasia — Mort Garson
+[16:38:07]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:08]   ✅ 10.7MB
+[16:38:12] [99/205] Snap Back — twenty one pilots
+[16:38:12]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:16] [17/205] Love Is the Message — Yussef Dayes, Alfa Mist, Mansur Brown
+[16:38:17] [100/205] Rust (feat. Tom Misch) — Yussef Dayes, Tom Misch
+[16:38:17]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:22] [101/205] Yes! I Am a Long Way from Home — Mogwai
+[16:38:22]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:27] [102/205] Fort — GoGo Penguin
+[16:38:27]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:32] [103/205] Rose Bay — Ludovico Einaudi
+[16:38:32]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:33]   ✅ 10.3MB
+[16:38:36] [18/205] Raisins Under the Sun — Yussef Dayes
+[16:38:37] [104/205] Hate Yourself — TV Girl
+[16:38:37]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:46] [105/205] Breathe — Alfa Mist, Kaya Thomas-Dyke
+[16:38:46]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:51] [106/205] Hungry Face — Mogwai
+[16:38:51]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:56] [107/205] Doremi Raggae — ハナレグミ
+[16:38:56]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:38:57]   ✅ 6.2MB
+[16:39:00] [19/205] Slowness — Ana Roxanne
+[16:39:01] [108/205] Preface — The Shanghai Restoration Project, Di Johnston
+[16:39:01]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:06] [109/205] Affirmation — George Benson
+[16:39:06]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:11] [110/205] 丸ノ内サディスティック — 椎名林檎
+[16:39:11]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:13]   ✅ 6.0MB
+[16:39:16] [111/205] 眩暈 — 椎名林檎
+[16:39:16]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:16] [20/205] Distance — Fayzz
+[16:39:21] [112/205] Red Moon — Tom Misch
+[16:39:21]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:26] [113/205] nonfiction — sucola
+[16:39:26]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:38] [114/205] 腕の中でしか眠れない猫のように — カネコアヤノ
+[16:39:38]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:41]   ✅ 6.9MB
+[16:39:43] [115/205] your trip — chilldspot
+[16:39:43]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:44] [21/205] Rhizome — Mammal Hands
+[16:39:48] [116/205] 科幻小说 (prod. by Sōryo) — 陳嫺靜
+[16:39:48]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:53] [117/205] 美梦成空 (Dream fades) — Fayzz
+[16:39:53]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:39:58] [118/205] 季风 (Monsoon) — Fayzz
+[16:39:58]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:01]   ✅ 8.9MB
+[16:40:03] [119/205] Kaleidoscope — fox capture plan
+[16:40:03]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:08] [120/205] Black Sails — Mammal Hands
+[16:40:08]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:09] [22/205] 我 — 超级市场
+[16:40:13] [121/205] The Road — As The Stars Fall
+[16:40:14]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:19] [122/205] As Far As the Eye Can See — As The Stars Fall
+[16:40:19]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:24] [123/205] Belle Âme — Jordan Critz
+[16:40:24]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:27]   ✅ 8.8MB
+[16:40:29] [124/205] Pearl Lakes — U137
+[16:40:29]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:30] [23/205] Nostalgia — JaRon Marshall, Béesau
+[16:40:34] [125/205] 大事 — 陈文非
+[16:40:34]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:39] [126/205] semiautomatic — how to count one to ten
+[16:40:39]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:44] [127/205] Don't Look Back In Anger — 羊毛とおはな
+[16:40:44]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:45]   ✅ 4.3MB
+[16:40:48] [24/205] 数字天体 — iimmune
+[16:40:49] [128/205] 门 — Funkymo
+[16:40:49]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:54] [129/205] 置き手紙 — Vaundy
+[16:40:54]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:40:59] [130/205] calm — Jizue
+[16:40:59]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:04] [131/205] One Day — OMA, Shing02, Uyama Hiroto, SPIN MASTER A-1, Troy Everett
+[16:41:04]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:06]   ✅ 7.4MB
+[16:41:09] [25/205] Bubble — Shii
+[16:41:09] [132/205] Can You Focus — Jiyoung Chung
+[16:41:09]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:14] [133/205] White Iverson — Post Malone
+[16:41:14]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:19] [134/205] Wild Orchid — Devon Rea, Etymology Records
+[16:41:19]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:23]   ✅ 5.4MB
+[16:41:24] [135/205] Morning Sunrise — Yazmin Lacey
+[16:41:24]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:26] [26/205] To the East Coast — Kaishandao
+[16:41:29] [136/205] The Last Day of the End of the World — NoMBe
+[16:41:29]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:34] [137/205] Young Coconut — Mac Demarco
+[16:41:34]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:39] [138/205] Enchante — Jusqu'à Grand-Père
+[16:41:39]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:43]   ✅ 8.1MB
+[16:41:44] [139/205] showers with sunny intervals — how to count one to ten
+[16:41:44]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:49] [140/205] Don't Come Home Today — Good Morning
+[16:41:49]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:51] [27/205] 蝉 — iimmune
+[16:41:54] [141/205] New Day — Devon Rea, goson
+[16:41:54]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:41:59] [142/205] 住在十六层的少年 — 16层乐队
+[16:41:59]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:04] [143/205] About You — The 1975
+[16:42:04]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:09]   ✅ 7.3MB
+[16:42:09] [144/205] WANDERLUST — Paul Partohap
+[16:42:10]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:12] [28/205] volt — Hugar
+[16:42:15] [145/205] オトノケ - Otonoke — Creepy Nuts
+[16:42:15]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:20] [146/205] fu uh — Chilli Beans.
+[16:42:20]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:25] [147/205] GO TO WORK — KOHEI JAPAN
+[16:42:25]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:28]   ✅ 8.5MB
+[16:42:30] [148/205] Yin and Yang — Uyama Hiroto
+[16:42:30]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:31] [29/205] Labyrinth — Mammal Hands
+[16:42:35] [149/205] Take 1 — Guantanamo Bay Surf Club
+[16:42:35]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:40] [150/205] Escargot Blues — Guantanamo Bay Surf Club
+[16:42:40]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:45] [151/205] 南方郵便船 — GONTITI
+[16:42:45]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:46]   ✅ 7.2MB
+[16:42:49] [30/205] An Unbroken Thread of Awareness — GoGo Penguin
+[16:42:50] [152/205] バンブーチェアー — GONTITI
+[16:42:50]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:42:55] [153/205] Long Walk, Short Dock — Blue Wednesday, juniorodeo
+[16:42:55]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:00] [154/205] Let's Be Still — The Head And The Heart
+[16:43:00]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:02]   ✅ 4.2MB
+[16:43:05] [155/205] Luv Sic, Pt. 3 — Funky DL
+[16:43:05]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:05] [31/205] Quiet Fire — Mammal Hands
+[16:43:10] [156/205] June — Surfaces, Benny Sings
+[16:43:10]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:15] [157/205] Driftless — Vansire
+[16:43:15]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:20] [158/205] Breakfast in Bed — Stephanie Poetri
+[16:43:20]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:24]   ✅ 9.2MB
+[16:43:25] [159/205] Menina — Chimp Beams
+[16:43:25]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:30] [160/205] Save Room — John Legend
+[16:43:30]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:32] [32/205] Murmuration — GoGo Penguin
+[16:43:35] [161/205] 波よせて — clammbon
+[16:43:35]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:40] [162/205] May Ninth — Khruangbin
+[16:43:40]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:45] [163/205] trot — Jizue
+[16:43:45]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:48]   ✅ 5.8MB
+[16:43:50] [164/205] Ooo La La — Cradle, Nieve & Cook
+[16:43:50]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:43:51] [33/205] Offset — Portico Quartet
+[16:43:55] [165/205] 1リッター分の愛をこめて — Vaundy
+[16:43:55]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:00] [166/205] Twice As Nice — Shing02, Cradle Orchestra
+[16:44:01]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:06] [167/205] Ask for Love — Joey Pecoraro
+[16:44:06]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:09]   ✅ 6.6MB
+[16:44:11] [168/205] Dreams Today — Efterklang
+[16:44:11]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:12] [34/205] Wringer — Mammal Hands
+[16:44:16] [169/205] Pulse — Re:Plus
+[16:44:16]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:21] [170/205] It Runs Through Me (feat. De La Soul) — Tom Misch, De La Soul
+[16:44:21]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:26] [171/205] Currently — Keaton Simons
+[16:44:26]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:29]   ✅ 4.4MB
+[16:44:31] [172/205] PUKE — Hidetake Takayama
+[16:44:31]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:32] [35/205] Embers — GoGo Penguin, Yosi Horikawa
+[16:44:36] [173/205] Glittering sea — Re:Plus, 島裕介
+[16:44:36]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:41] [174/205] Aesthetic — Tollan Kim, Kudasaibeats
+[16:44:41]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:46] [175/205] The World — Benny Sings
+[16:44:46]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:48]   ✅ 4.1MB
+[16:44:51] [176/205] Let's Get It On — Marvin Gaye
+[16:44:51]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:44:51] [36/205] Spinner — Portico Quartet
+[16:44:56] [177/205] Lovelight — Cosmo's Midnight
+[16:44:56]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:01] [178/205] on the pisces moon — Yaya Bey
+[16:45:01]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:06]   ✅ 6.4MB
+[16:45:06] [179/205] meet me in brooklyn — Yaya Bey
+[16:45:06]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:11] [180/205] Wait for the Moment — Vulfpeck
+[16:45:11]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:14] [37/205] Little Nerves — Binkbeats, Niels Broos
+[16:45:16] [181/205] Said N Done — 21 Savage, Metro Boomin
+[16:45:16]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:21] [182/205] Love Of The Loveless — Eels
+[16:45:21]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:26]   ✅ 9.8MB
+[16:45:26] [183/205] 拨云 — Howie Lee
+[16:45:26]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:29] [38/205] Angel Feed — Yard Nule
+[16:45:31] [184/205] 10 Years Ago — FKJ
+[16:45:31]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:36] [185/205] 男の子女の子 — Les 5-4-3-2-1
+[16:45:36]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:41] [186/205] Room 27 — Rejjie Snow, Dana Williams
+[16:45:41]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:44]   ✅ 6.0MB
+[16:45:46] [187/205] Lucky — Choker
+[16:45:46]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:47] [39/205] Living Frost — Mammal Hands
+[16:45:51] [188/205] emergency contact — corook
+[16:45:51]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:45:57] [189/205] 天马行空 — 林子良
+[16:45:57]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:02] [190/205] Sunday Am — Shing02, Chimp Beams
+[16:46:02]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:06]   ✅ 8.9MB
+[16:46:07] [191/205] Better Distractions — Faye Webster
+[16:46:07]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:09] [40/205] Becoming — Mammal Hands
+[16:46:12] [192/205] 世界の秘密 — Vaundy
+[16:46:12]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:17] [193/205] epitaph — Hippo Campus
+[16:46:17]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:22] [194/205] Surf — Mac Miller
+[16:46:22]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:27] [195/205] When You're In Love — Jazzinuf, Intel Music
+[16:46:27]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:28]   ✅ 10.2MB
+[16:46:31] [41/205] Flyaway — Arbour
+[16:46:32] [196/205] The Idiot — Seth Staton Watkins
+[16:46:32]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:37] [197/205] roses & sunflowers — Timmy Albert
+[16:46:37]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:42] [198/205] Ariana — Tony Anderson
+[16:46:42]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:46]   ✅ 3.2MB
+[16:46:47] [199/205] Acceptance Speech - 8Track — Walker Hayes
+[16:46:47]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:52] [200/205] We Had to End It — Cuco
+[16:46:52]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:46:54] [42/205] Tap on Damen — The Flashbulb
+[16:46:57] [201/205] oooWooo — David Kushner
+[16:46:57]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:47:02] [202/205] Sepia feat. Yusuke Shima — Re:Plus, Yusuke Shima
+[16:47:02]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:47:07] [203/205] reflection eternal — Nujabes
+[16:47:07]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:47:08]   ✅ 2.9MB
+[16:47:11] [43/205] With, Beside, Against — Portico Quartet
+[16:47:12] [204/205] morning time — Tai Verdes
+[16:47:12]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:47:17] [205/205] Morning Horizon — Nitsua
+[16:47:17]   ❌ 下载失败: g = get_ffmpeg()
+  File "/Users/kaluozheng/.workbuddy/skills/video-audio-to-mp3/video_audio.py", line 69, in get_ffmpeg
+    import imageio_ffmpeg
+ModuleNotFoundError: No module named 'imageio_ffmpeg'
+
+[16:47:22] 
+==================================================
+[16:47:22] 完成! 成功: 0 | 失败: 204 | 总计: 205
+[16:47:22] 输出目录: /Users/kaluozheng/Music-Player-Investigation/SongResources
+[16:47:27]   ✅ 5.7MB
+[16:47:30] [44/205] Blue Shades — Trigg & Gusset
+[16:47:47]   ✅ 6.6MB
+[16:47:50] [45/205] 回転・天使 — betcover!!
+[16:48:08]   ✅ 7.8MB
+[16:48:11] [46/205] Madison Area — Tortoise
+[16:48:28]   ✅ 4.8MB
+[16:48:36] [47/205] Black Spider — Mogwai
+[16:48:53]   ✅ 7.1MB
+[16:48:56] [48/205] Night Squall — Balmorhea
+[16:49:13]   ✅ 4.9MB
+[16:49:16] [49/205] Moments (Part 2) — FKJ
+[16:49:31]   ✅ 4.5MB
+[16:49:34] [50/205] Continuum 3 — Nala Sinephro
+[16:49:51]   ✅ 5.7MB
+[16:49:54] [51/205] Elegy — Balmorhea
+[16:50:10]   ✅ 3.2MB
+[16:50:18] [52/205] I Know You Are but What Am I? — Mogwai
+[16:50:36]   ✅ 7.3MB
+[16:50:39] [53/205] Hold On — Running Blue
+[16:50:56]   ✅ 5.2MB
+[16:50:59] [54/205] Rollerball — Mogwai
+[16:51:17]   ✅ 5.2MB
+[16:51:20] [55/205] Etude No. 3 Op. 10/3 — European Jazz Trio
+[16:51:35]   ✅ 6.8MB
+[16:51:38] [56/205] Hard Drive — Cassandra Jenkins
+[16:51:56]   ✅ 7.5MB
+[16:52:04] [57/205] Dancing Queen — European Jazz Trio
+[16:52:21]   ✅ 7.8MB
+[16:52:24] [58/205] The Lamp Is Low — Laurindo Almeida
+[16:52:41]   ✅ 3.9MB
+[16:52:44] [59/205] Sunburst — All India Radio
+[16:53:01]   ✅ 5.9MB
+[16:53:04] [60/205] あるてぃすと — ハナレグミ
+[16:53:21]   ✅ 6.0MB
+[16:53:24] [61/205] Mirror (Bedroom Session) — Chestnut Bakery
+[16:53:40]   ✅ 5.8MB
+[16:53:48] [62/205] Secret Pint — Mogwai
+[16:54:05]   ✅ 5.0MB
+[16:54:08] [63/205] A Thousand Lights — Slowly Rolling Camera, Mark Lockheart, Dave Stapleton, Deri Roberts, Elliot Bennett
+[16:54:20]   ✅ 3.8MB
+[16:54:23] [64/205] old pictures of you — i don't like mirrors
+[16:54:37]   ✅ 3.0MB
+[16:54:40] [65/205] i miss your warm hands — i don't like mirrors
+[16:54:55]   ✅ 3.0MB
+[16:54:58] [66/205] Hourglass — Gowe
+[16:55:13]   ✅ 5.1MB
+[16:55:21] [67/205] L'exil — Laurie Darmon
+[16:55:35]   ✅ 5.6MB
+[16:55:38] [68/205] If — Joe Pass
+[16:55:57]   ✅ 7.0MB
+[16:56:00] [69/205] Hearts Awakening — Parijat
+[16:56:16]   ✅ 9.6MB
+[16:56:19] [70/205] The Deep South — Adam Young
+[16:56:37]   ✅ 4.5MB
+[16:56:40] [71/205] Spartacus Love Theme — Re:Plus
+[16:56:57]   ✅ 6.1MB
+[16:57:05] [72/205] 海边的曼彻斯特 — 森水垚
+[16:57:22]   ✅ 5.3MB
+[16:57:25] [73/205] 小孩儿 — THE BOOTLEGS 靴腿乐队
+[16:57:51]   ✅ 5.8MB
+[16:57:54] [74/205] Long Way Home — Lamplighters点灯人
+[16:58:25]   ✅ 5.0MB
+[16:58:28] [75/205] Blue Sky — GYVUS
+[16:58:47]   ✅ 4.7MB
+[16:58:50] [76/205] Borderlines — Vraell
+[16:59:05]   ✅ 5.9MB
+[16:59:13] [77/205] Lost In The Light — Bahamas
+[16:59:32]   ✅ 5.4MB
+[16:59:35] [78/205] Nothing Without You — Vienna Teng
+[16:59:49]   ✅ 5.0MB
+[16:59:52] [79/205] Golden Hour — Matthew Pinder
+[17:00:07]   ✅ 4.8MB
+[17:00:10] [80/205] Everyone Adores You (quiet) — Matt Maltese
+[17:00:27]   ✅ 4.7MB
+[17:00:30] [81/205] Lucky Love — Michael Seyer
+[17:00:49]   ✅ 6.6MB
+[17:00:57] [82/205] As It Was — Vancouver Sleep Clinic, Pop Goes Ambient, Amelia Magdalena
+[17:01:12]   ✅ 9.2MB
+[17:01:15] [83/205] Drinking For Two — Cherry Ghost
+[17:01:28]   ✅ 6.9MB
+[17:01:31] [84/205] Utopia (feat. Marti Fischer) — Cory Wong, Metropole Orkest, Jules Buckley, Marti Fischer
+[17:01:46]   ✅ 5.1MB
+[17:01:49] [85/205] Overcast — 吴卓玲
+[17:02:06]   ✅ 8.5MB
+[17:02:09] [86/205] Och du Vackra — Sejd
+[17:02:28]   ✅ 8.9MB
+[17:02:36] [87/205] SUNSET — LITE, Yvette Young
+[17:02:52]   ✅ 5.8MB
+[17:02:55] [88/205] Dry Fantasy — Mogwai
+[17:03:09]   ✅ 7.1MB
+[17:03:12] [89/205] Selenge — Céline Dessberg
+[17:03:30]   ✅ 4.6MB
+[17:03:33] [90/205] 10th sentimen — sow
+[17:03:43]   ✅ 6.9MB
+[17:03:46] [91/205] Chateau — Cory Wong, Metropole Orkest, Jules Buckley
+[17:04:04]   ✅ 5.4MB
+[17:04:12] [92/205] Cœur croisé — Polo & Pan
+[17:04:56]   ✅ 79.2MB
+[17:04:59] [93/205] Hell Yes — Beck
+[17:05:15]   ✅ 5.0MB
+[17:05:18] [94/205] Halves and Quarters — Guantanamo Bay Surf Club
+[17:05:36]   ✅ 6.5MB
+[17:05:39] [95/205] We Complete Each Other — Youzee Music
+[17:05:53]   ✅ 3.5MB
+[17:05:56] [96/205] New notes — 陳嫺靜
+[17:06:13]   ✅ 4.6MB
+[17:06:21] [97/205] Things Change — Busty and the Bass
+[17:06:38]   ✅ 6.3MB
+[17:06:41] [98/205] Plantasia — Mort Garson
+[17:06:58]   ✅ 4.6MB
+[17:07:01] [99/205] Snap Back — twenty one pilots
+[17:07:17]   ✅ 5.0MB
+[17:07:20] [100/205] Rust (feat. Tom Misch) — Yussef Dayes, Tom Misch
+[17:07:34]   ✅ 5.5MB
+[17:07:37] [101/205] Yes! I Am a Long Way from Home — Mogwai
+[17:07:57]   ✅ 8.2MB
+[17:08:05] [102/205] Fort — GoGo Penguin
+[17:08:19]   ✅ 4.5MB
+[17:08:22] [103/205] Rose Bay — Ludovico Einaudi
+[17:08:36]   ✅ 5.9MB
+[17:08:39] [104/205] Hate Yourself — TV Girl
+[17:08:53]   ✅ 4.9MB
+[17:08:56] [105/205] Breathe — Alfa Mist, Kaya Thomas-Dyke
+[17:09:14]   ✅ 10.2MB
+[17:09:17] [106/205] Hungry Face — Mogwai
+[17:09:32]   ✅ 3.3MB
+[17:09:40] [107/205] Doremi Raggae — ハナレグミ
+[17:09:57]   ✅ 5.2MB
+[17:10:00] [108/205] Preface — The Shanghai Restoration Project, Di Johnston
+[17:10:14]   ✅ 3.9MB
+[17:10:17] [109/205] Affirmation — George Benson
+[17:10:32]   ✅ 9.6MB
+[17:10:35] [110/205] 丸ノ内サディスティック — 椎名林檎
+[17:10:49]   ✅ 5.4MB
+[17:10:52] [111/205] 眩暈 — 椎名林檎
+[17:11:09]   ✅ 6.4MB
+[17:11:17] [112/205] Red Moon — Tom Misch
+[17:11:29]   ✅ 1.4MB
+[17:11:32] [113/205] nonfiction — sucola
+[17:12:14]   ✅ 7.3MB
+[17:12:17] [114/205] 腕の中でしか眠れない猫のように — カネコアヤノ
+[17:12:32]   ✅ 5.5MB
+[17:12:35] [115/205] your trip — chilldspot
+[17:12:49]   ✅ 5.5MB
+[17:12:52] [116/205] 科幻小说 (prod. by Sōryo) — 陳嫺靜
+[17:13:16]   ✅ 4.4MB
+[17:13:24] [117/205] 美梦成空 (Dream fades) — Fayzz
+[17:13:43]   ✅ 7.3MB
+[17:13:46] [118/205] 季风 (Monsoon) — Fayzz
+[17:14:01]   ✅ 6.4MB
+[17:14:04] [119/205] Kaleidoscope — fox capture plan
+[17:14:18]   ✅ 6.3MB
+[17:14:21] [120/205] Black Sails — Mammal Hands
+[17:14:39]   ✅ 6.6MB
+[17:14:42] [121/205] The Road — As The Stars Fall
+[17:14:59]   ✅ 6.5MB
+[17:15:07] [122/205] As Far As the Eye Can See — As The Stars Fall
+[17:15:27]   ✅ 9.3MB
+[17:15:30] [123/205] Belle Âme — Jordan Critz
+[17:15:46]   ✅ 4.4MB
+[17:15:49] [124/205] Pearl Lakes — U137
+[17:16:04]   ✅ 7.1MB
+[17:16:07] [125/205] 大事 — 陈文非
+[17:16:21]   ✅ 7.3MB
+[17:16:24] [126/205] semiautomatic — how to count one to ten
+[17:16:41]   ✅ 8.5MB
+[17:16:49] [127/205] Don't Look Back In Anger — 羊毛とおはな
+[17:17:05]   ✅ 6.8MB
+[17:17:08] [128/205] 门 — Funkymo
+[17:17:32]   ✅ 5.7MB
+[17:17:35] [129/205] 置き手紙 — Vaundy
+[17:17:48]   ✅ 6.2MB
+[17:17:51] [130/205] calm — Jizue
+[17:18:39]   ✅ 5.5MB
+[17:18:42] [131/205] One Day — OMA, Shing02, Uyama Hiroto, SPIN MASTER A-1, Troy Everett
+[17:19:00]   ✅ 7.0MB
+[17:19:08] [132/205] Can You Focus — Jiyoung Chung
+[17:19:35]   ✅ 2.9MB
+[17:19:38] [133/205] White Iverson — Post Malone
+[17:19:56]   ✅ 6.5MB
+[17:19:59] [134/205] Wild Orchid — Devon Rea, Etymology Records
+[17:20:18]   ✅ 4.3MB
+[17:20:21] [135/205] Morning Sunrise — Yazmin Lacey
+[17:20:35]   ✅ 7.1MB
+[17:20:38] [136/205] The Last Day of the End of the World — NoMBe
+[17:20:56]   ✅ 5.0MB
+[17:21:04] [137/205] Young Coconut — Mac Demarco
+[17:21:20]   ✅ 3.7MB
+[17:21:23] [138/205] Enchante — Jusqu'à Grand-Père
+[17:21:39]   ✅ 5.6MB
+[17:21:42] [139/205] showers with sunny intervals — how to count one to ten
+[17:21:57]   ✅ 7.3MB
+[17:22:00] [140/205] Don't Come Home Today — Good Morning
+[17:22:17]   ✅ 4.3MB
+[17:22:20] [141/205] New Day — Devon Rea, goson
+[17:22:33]   ✅ 2.9MB
+[17:22:41] [142/205] 住在十六层的少年 — 16层乐队
+[17:22:57]   ✅ 11.3MB
+[17:23:00] [143/205] About You — The 1975
+[17:23:14]   ✅ 7.5MB
+[17:23:17] [144/205] WANDERLUST — Paul Partohap
+[17:23:32]   ✅ 5.5MB
+[17:23:35] [145/205] オトノケ - Otonoke — Creepy Nuts
+[17:23:51]   ✅ 4.5MB
+[17:23:54] [146/205] fu uh — Chilli Beans.
+[17:24:08]   ✅ 6.1MB
+[17:24:16] [147/205] GO TO WORK — KOHEI JAPAN
+[17:24:34]   ✅ 6.6MB
+[17:24:37] [148/205] Yin and Yang — Uyama Hiroto
+[17:24:51]   ✅ 4.4MB
+[17:24:54] [149/205] Take 1 — Guantanamo Bay Surf Club
+[17:25:11]   ✅ 6.7MB
+[17:25:14] [150/205] Escargot Blues — Guantanamo Bay Surf Club
+[17:25:32]   ✅ 5.7MB
+[17:25:35] [151/205] 南方郵便船 — GONTITI
+[17:25:51]   ✅ 5.2MB
+[17:25:59] [152/205] バンブーチェアー — GONTITI
+[17:26:16]   ✅ 5.8MB
+[17:26:19] [153/205] Long Walk, Short Dock — Blue Wednesday, juniorodeo
+[17:26:34]   ✅ 4.9MB
+[17:26:37] [154/205] Let's Be Still — The Head And The Heart
+[17:26:52]   ✅ 6.2MB
+[17:26:55] [155/205] Luv Sic, Pt. 3 — Funky DL
+[17:27:10]   ✅ 6.1MB
+[17:27:13] [156/205] June — Surfaces, Benny Sings
+[17:27:28]   ✅ 3.8MB
+[17:27:36] [157/205] Driftless — Vansire
+[17:27:53]   ✅ 4.6MB
+[17:27:56] [158/205] Breakfast in Bed — Stephanie Poetri
+[17:28:10]   ✅ 3.8MB
+[17:28:13] [159/205] Menina — Chimp Beams
+[17:28:27]   ✅ 7.2MB
+[17:28:30] [160/205] Save Room — John Legend
+[17:28:47]   ✅ 5.4MB
+[17:28:50] [161/205] 波よせて — clammbon
+[17:29:06]   ✅ 7.1MB
+[17:29:14] [162/205] May Ninth — Khruangbin
+[17:29:28]   ✅ 4.4MB
+[17:29:31] [163/205] trot — Jizue
+[17:29:48]   ✅ 7.6MB
+[17:29:51] [164/205] Ooo La La — Cradle, Nieve & Cook
+[17:30:09]   ✅ 5.7MB
+[17:30:12] [165/205] 1リッター分の愛をこめて — Vaundy
+[17:30:30]   ✅ 4.4MB
+[17:30:33] [166/205] Twice As Nice — Shing02, Cradle Orchestra
+[17:30:50]   ✅ 6.3MB
+[17:30:58] [167/205] Ask for Love — Joey Pecoraro
+[17:31:12]   ✅ 4.2MB
+[17:31:15] [168/205] Dreams Today — Efterklang
+[17:31:31]   ✅ 4.1MB
+[17:31:34] [169/205] Pulse — Re:Plus
+[17:31:49]   ✅ 4.6MB
+[17:31:52] [170/205] It Runs Through Me (feat. De La Soul) — Tom Misch, De La Soul
+[17:32:12]   ✅ 6.8MB
+[17:32:15] [171/205] Currently — Keaton Simons
+[17:32:29]   ✅ 4.3MB
+[17:32:37] [172/205] PUKE — Hidetake Takayama
+[17:32:53]   ✅ 8.0MB
+[17:32:56] [173/205] Glittering sea — Re:Plus, 島裕介
+[17:33:14]   ✅ 6.6MB
+[17:33:17] [174/205] Aesthetic — Tollan Kim, Kudasaibeats
+[17:33:34]   ✅ 3.1MB
+[17:33:37] [175/205] The World — Benny Sings
+[17:34:23]   ✅ 50.4MB
+[17:34:26] [176/205] Let's Get It On — Marvin Gaye
+[17:34:43]   ✅ 6.7MB
+[17:34:51] [177/205] Lovelight — Cosmo's Midnight
+[17:35:35]   ✅ 4.3MB
+[17:35:38] [178/205] on the pisces moon — Yaya Bey
+[17:35:53]   ✅ 3.8MB
+[17:35:56] [179/205] meet me in brooklyn — Yaya Bey
+[18:54:53] 加载 452 个任务，已完成 178，待下载 274
+[18:54:53] [179/452] meet me in brooklyn — Yaya Bey
+[18:55:08]   ✅ 2.1MB
+[18:55:11] [180/452] Wait for the Moment — Vulfpeck
+[18:55:24]   ✅ 5.7MB
+[18:55:27] [181/452] Said N Done — 21 Savage, Metro Boomin
+[18:55:42]   ✅ 5.3MB
+[18:55:45] [182/452] Love Of The Loveless — Eels
+[18:56:02]   ✅ 4.8MB
+[18:56:05] [183/452] 拨云 — Howie Lee
+[18:56:20]   ✅ 3.4MB
+[18:56:28] [184/452] 10 Years Ago — FKJ
+[18:56:44]   ✅ 4.6MB
+[18:56:47] [185/452] 男の子女の子 — Les 5-4-3-2-1
+[18:57:02]   ✅ 5.2MB
+[18:57:05] [186/452] Room 27 — Rejjie Snow, Dana Williams
+[18:57:20]   ✅ 4.4MB
+[18:57:23] [187/452] Lucky — Choker
+[18:57:37]   ✅ 6.0MB
+[18:57:40] [188/452] emergency contact — corook
+[18:57:55]   ✅ 4.8MB
+[18:58:03] [189/452] 天马行空 — 林子良
+[18:58:21]   ✅ 5.9MB
+[18:58:24] [190/452] Sunday Am — Shing02, Chimp Beams
+[18:58:41]   ✅ 6.4MB
+[18:58:44] [191/452] Better Distractions — Faye Webster
+[18:59:00]   ✅ 5.7MB
+[18:59:03] [192/452] 世界の秘密 — Vaundy
+[18:59:14]   ✅ 5.4MB
+[18:59:17] [193/452] epitaph — Hippo Campus
+[18:59:30]   ✅ 5.9MB
+[18:59:38] [194/452] Surf — Mac Miller
+[18:59:55]   ✅ 7.6MB
+[18:59:58] [195/452] When You're In Love — Jazzinuf, Intel Music
+[19:00:13]   ✅ 10.1MB
+[19:00:16] [196/452] The Idiot — Seth Staton Watkins
+[19:00:31]   ✅ 3.4MB
+[19:00:34] [197/452] roses & sunflowers — Timmy Albert
+[19:00:51]   ✅ 4.8MB
+[19:00:54] [198/452] Ariana — Tony Anderson
+[19:01:09]   ✅ 12.8MB
+[19:01:17] [199/452] Acceptance Speech - 8Track — Walker Hayes
+[19:01:33]   ✅ 3.1MB
+[19:01:36] [200/452] We Had to End It — Cuco
+[19:01:54]   ✅ 8.0MB
+[19:01:57] [201/452] oooWooo — David Kushner
+[19:02:10]   ✅ 4.2MB
+[19:02:13] [202/452] Sepia feat. Yusuke Shima — Re:Plus, Yusuke Shima
+[19:02:27]   ✅ 5.6MB
+[19:02:30] [203/452] reflection eternal — Nujabes
+[19:02:48]   ✅ 5.9MB
+[19:02:56] [204/452] morning time — Tai Verdes
+[19:03:09]   ✅ 4.4MB
+[19:03:12] [205/452] Morning Horizon — Nitsua
+[19:03:29]   ✅ 5.6MB
+[19:03:32] [206/452] Salem Sisters — Black Country, New Road
+[19:03:46]   ✅ 4.4MB
+[19:03:49] [207/452] Keep You — Airiel
+[19:04:05]   ✅ 8.5MB
+[19:04:08] [208/452] So That The Childen Will Always Shout Her Name — Sleepmakeswaves
+[19:04:24]   ✅ 9.7MB
+[19:04:32] [209/452] The edge of everything — Sleepmakeswaves
+[19:04:51]   ✅ 14.5MB
+[19:04:54] [210/452] To light and then return — Sleepmakeswaves
+[19:05:08]   ✅ 6.8MB
+[19:05:11] [211/452] ゆめみちゃった — betcover!!
+[19:05:26]   ✅ 13.7MB
+[19:05:29] [212/452] Saturnine — GoGo Penguin
+[19:05:45]   ✅ 6.7MB
+[19:05:48] [213/452] 本当みたい — OGRE YOU A**HOLE
+[19:06:05]   ✅ 6.2MB
+[19:06:13] [214/452] King Bozzi (feat. Sam Greenfield) — Cory Wong, Metropole Orkest, Jules Buckley, Sam Greenfield
+[19:06:29]   ✅ 6.3MB
+[19:06:32] [215/452] Drifting — Omar Apollo
+[19:06:50]   ✅ 6.1MB
+[19:06:53] [216/452] Clementine — Sarah Jaffe
+[19:07:10]   ✅ 6.6MB
+[19:07:14] [217/452] Aqualand — Polo & Pan
+[19:07:31]   ✅ 5.9MB
+[19:07:34] [218/452] 秋水 — She Never Sings Our Songs
+[19:07:53]   ✅ 7.5MB
+[19:08:01] [219/452] Days of Daze — tfvsjs
+[19:08:16]   ✅ 6.5MB
+[19:08:19] [220/452] Starcourt — Kyle Dixon & Michael Stein
+[19:08:34]   ✅ 4.2MB
+[19:08:37] [221/452] Up Top — Busty and the Bass
+[19:08:52]   ✅ 6.5MB
+[19:08:55] [222/452] Free Shoes — Busty and the Bass
+[19:09:11]   ✅ 5.8MB
+[19:09:14] [223/452] Days — Balmorhea
+[19:09:33]   ✅ 12.0MB
+[19:09:41] [224/452] Masollan — Balmorhea
+[19:09:58]   ✅ 7.2MB
+[19:10:01] [225/452] Mindtrip — Pg.Lost
+[19:10:16]   ✅ 7.0MB
+[19:10:19] [226/452] Diamond Cut — 文雀
+[19:10:35]   ✅ 6.8MB
+[19:10:38] [227/452] Cascade — Vaudlow
+[19:10:53]   ✅ 5.4MB
+[19:10:56] [228/452] Autumn — Murphy Radio
+[19:11:13]   ✅ 11.1MB
+[19:11:21] [229/452] Ceiling Granny — Mogwai
+[19:11:36]   ✅ 5.4MB
+[19:11:39] [230/452] The Sun Smells Too Loud — Mogwai
+[19:11:56]   ✅ 9.6MB
+[19:11:59] [231/452] Signal In The Noise — GoGo Penguin
+[19:12:18]   ✅ 8.3MB
+[19:12:21] [232/452] Lecture On Nothing — Mt.
+[19:12:41]   ✅ 10.6MB
+[19:12:44] [233/452] Open — GoGo Penguin
+[19:13:00]   ✅ 6.6MB
+[19:13:08] [234/452] So We Won't Forget — Khruangbin
+[19:13:26]   ✅ 7.8MB
+[19:13:29] [235/452] Graduation Song — Murphy Radio
+[19:13:45]   ✅ 7.6MB
+[19:13:48] [236/452] Tunnel Party — Chestnut Bakery
+[19:14:04]   ✅ 6.2MB
+[19:14:07] [237/452] Ri:ng — Jizue
+[19:14:24]   ✅ 6.1MB
+[19:14:27] [238/452] APPLE — 椎名林檎
+[19:14:54]   ✅ 4.8MB
+[19:15:02] [239/452] Here We, Here We, Here We Go Forever — Mogwai
+[19:15:14]   ✅ 6.5MB
+[19:15:17] [240/452] Miss Na Kita — Overhead, The Albatross
+[19:15:40]   ✅ 5.1MB
+[19:15:43] [241/452] Your Last Breath — Overhead, The Albatross
+[19:16:26]   ✅ 12.5MB
+[19:16:29] [242/452] The View from Here — I Spell it Nature
+[19:16:46]   ✅ 8.1MB
+[19:16:49] [243/452] Empty Places, Smiling Faces — I Spell it Nature
+[19:17:05]   ✅ 7.4MB
+[19:17:13] [244/452] Swimming in Purple Clouds — The Shanghai Restoration Project
+[19:17:31]   ✅ 5.9MB
+[19:17:34] [245/452] Swelling Time — The Shanghai Restoration Project
+[19:17:50]   ✅ 4.9MB
+[19:17:53] [246/452] Silhouette — Ax and the Hatchetmen
+[19:18:10]   ✅ 5.7MB
+[19:18:13] [247/452] Love Lost — Mac Miller, The Temper Trap
+[19:18:28]   ✅ 3.7MB
+[19:18:31] [248/452] Love Lost — The Temper Trap
+[19:18:45]   ✅ 5.6MB
+[19:18:53] [249/452] ワールドレコード — cero
+[19:19:11]   ✅ 5.8MB
+[19:19:14] [250/452] Icebreaker — Final Days Society
+[19:20:02]   ✅ 14.1MB
+[19:20:05] [251/452] 3+1 — Hotel New Tokyo
+[19:20:19]   ✅ 6.4MB
+[19:20:22] [252/452] 未定 — chilldspot
+[19:21:09]   ✅ 5.0MB
+[19:21:12] [253/452] Class Historian — Broncho
+[19:21:29]   ✅ 5.1MB
+[19:21:42] [254/452] Sunshine — OneRepublic
+[19:22:07]   ✅ 3.8MB
+[19:22:10] [255/452] Passacaglia (fugler med ord i nebbet) — Spurv
+[19:22:43]   ✅ 19.5MB
+[19:22:46] [256/452] 好日 — BLU-SWING
+[19:23:01]   ✅ 4.5MB
+[19:23:04] [257/452] Raise — Chilli Beans.
+[19:24:21]   ✅ 5.0MB
+[19:24:24] [258/452] Plug In Baby — fox capture plan
+[19:29:58]   ❌ 下载失败: iled: 502 Bad Gateway>')); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
+
+[19:30:03] [259/452] Supersonic — fox capture plan
+[19:30:04]   ❌ 下载失败: 未知错误
+[19:30:09] [260/452] Father Stretch — Sunday Service Choir
+[19:30:11]   ❌ 下载失败: 未知错误
+[19:30:16] [261/452] This Is Hell — As The Stars Fall
+[19:30:17]   ❌ 下载失败: 未知错误
+[19:30:22] [262/452] Messy — Lola Young
+[19:31:12]   ❌ 下载失败: 未知错误
+[20:15:17] 加载 452 个任务，已完成 257，待下载 195
+[20:15:17] [258/452] Plug In Baby — fox capture plan
+[20:15:58]   ❌ 下载失败: 未知错误
+[20:16:03] [259/452] Supersonic — fox capture plan
+[20:16:44]   ❌ 下载失败: 未知错误
+[20:16:49] [260/452] Father Stretch — Sunday Service Choir
+[20:17:30]   ❌ 下载失败: 未知错误
+[20:17:35] [261/452] This Is Hell — As The Stars Fall
+[20:18:16]   ❌ 下载失败: 未知错误
+[20:18:21] [262/452] Messy — Lola Young
+[20:19:02]   ❌ 下载失败: 未知错误
+[20:19:07] [263/452] 惊蛰 — 天声乐队
+[20:19:48]   ❌ 下载失败: 未知错误
+[20:19:53] [264/452] SLUMP — Stray Kids
+[20:20:34]   ❌ 下载失败: 未知错误
+[20:20:39] [265/452] 友人A — Creepy Nuts
+[20:21:20]   ❌ 下载失败: 未知错误
+[20:21:25] [266/452] Swashers — Yosi Horikawa
+[20:22:06]   ❌ 下载失败: 未知错误
+[20:22:11] [267/452] Cassiopeia — EDD-989
+[20:23:16]   ❌ 下载失败: 未知错误
+[20:23:21] [268/452] Ophelia — The Lumineers
+[20:23:22] 加载 452 个任务，已完成 257，待下载 195
+[20:23:22] [258/452] Plug In Baby — fox capture plan
+[20:24:02]   ❌ 下载失败: 未知错误
+[20:24:03]   ❌ 下载失败: 未知错误
+[20:24:07] [269/452] Cloak & Dagger (feat. J Hus) — Burna Boy, J Hus
+[20:24:08] [259/452] Supersonic — fox capture plan
+[20:24:48]   ❌ 下载失败: 未知错误
+[20:24:49]   ❌ 下载失败: 未知错误
+[20:24:53] [270/452] Plantago Fengdouensis — Shii
+[20:24:54] [260/452] Father Stretch — Sunday Service Choir
+[20:25:34]   ❌ 下载失败: 未知错误
+[20:25:35]   ❌ 下载失败: 未知错误
+[20:25:39] [271/452] ロスタイム - Losstime — Creepy Nuts
+[20:25:40] [261/452] This Is Hell — As The Stars Fall
+[20:26:20]   ❌ 下载失败: 未知错误
+[20:26:21]   ❌ 下载失败: 未知错误
+[20:26:25] [272/452] 双位循环 — She Never Sings Our Songs
+[20:26:26] [262/452] Messy — Lola Young
+[20:27:06]   ❌ 下载失败: 未知错误
+[20:27:07]   ❌ 下载失败: 未知错误
+[20:27:11] [273/452] In Your Room — Airiel
+[20:27:12] [263/452] 惊蛰 — 天声乐队
+[20:51:38] 加载 452 个任务，已完成 257，待下载 195
+[20:51:38] [258/452] Plug In Baby — fox capture plan
+[20:52:51]   ✅ 6.3MB
+[20:52:54] [259/452] Supersonic — fox capture plan
+[20:53:53]   ✅ 4.8MB
+[20:53:56] [260/452] Father Stretch — Sunday Service Choir
+[20:54:51]   ✅ 8.1MB
+[20:54:54] [261/452] This Is Hell — As The Stars Fall
+[20:56:02]   ✅ 8.4MB
+[20:56:05] [262/452] Messy — Lola Young
+[20:56:55]   ✅ 6.5MB
+[20:57:03] [263/452] 惊蛰 — 天声乐队
+[20:58:03]   ✅ 7.3MB
+[20:58:06] [264/452] SLUMP — Stray Kids
+[20:58:48]   ✅ 3.4MB
+[20:58:51] [265/452] 友人A — Creepy Nuts
+[20:59:38]   ✅ 4.1MB
+[20:59:41] [266/452] Swashers — Yosi Horikawa
+[21:00:44]   ✅ 7.7MB
+[21:00:47] [267/452] Cassiopeia — EDD-989
+[21:01:52]   ✅ 12.9MB
+[21:02:00] [268/452] Ophelia — The Lumineers
+[21:02:37]   ✅ 3.7MB
+[21:02:40] [269/452] Cloak & Dagger (feat. J Hus) — Burna Boy, J Hus
+[21:03:26]   ✅ 4.8MB
+[21:03:29] [270/452] Plantago Fengdouensis — Shii
+[21:04:32]   ✅ 4.7MB
+[21:04:35] [271/452] ロスタイム - Losstime — Creepy Nuts
+[21:05:25]   ✅ 5.0MB
+[21:05:28] [272/452] 双位循环 — She Never Sings Our Songs
+[21:06:37]   ✅ 8.7MB
+[21:06:45] [273/452] In Your Room — Airiel
+[21:07:50]   ✅ 13.0MB
+[21:07:53] [274/452] Run, Run, Run — McKinley Dixon
+[21:08:39]   ✅ 4.4MB
+[21:08:42] [275/452] Polly — Moses Sumney
+[21:09:40]   ✅ 5.0MB
+[21:09:43] [276/452] From The Window Of My Room — Dorena
+[21:10:48]   ✅ 9.5MB
+[21:10:51] [277/452] 半空日落色 — Uhsgnǒd
+[21:21:40] 加载 452 个任务，已完成 276，待下载 176
+[21:21:40] [277/452] 半空日落色 — Uhsgnǒd
+[21:22:15] 加载 452 个任务，已完成 277，待下载 175
+[21:22:15] [278/452] Sleepy Tea — Chon
+[21:23:18]   ✅ 4.2MB
+[21:23:21] [279/452] June — Horsebeach
+[21:24:25]   ✅ 4.6MB
+[21:24:28] [280/452] Explore the World — I Spell it Nature
+[21:25:34]   ✅ 8.5MB
+[21:25:37] [281/452] Every Painting Has a Price (feat. BJ The Chicago Kid and Eryn Allen Kane) — Saba, No Id, BJ The Chicago Kid, Eryn Allen Kane
+[21:26:29]   ✅ 4.9MB
+[21:26:32] [282/452] Morning Glow — Heavenstamp
+[21:27:33]   ✅ 7.8MB
+[21:27:41] [283/452] Utopia — Din of Celestial Birds
+[21:28:52]   ✅ 6.4MB
+[21:28:55] [284/452] Launch — Din of Celestial Birds
+[21:29:46]   ✅ 7.4MB
+[21:29:49] [285/452] Julia — Pray For Sound
+[21:30:40]   ✅ 4.9MB
+[21:30:43] [286/452] Hello goodbye — toconoma
+[21:31:27]   ✅ 5.8MB
+[21:31:30] [287/452] butterfly track — euphoria
+[21:32:32]   ✅ 6.7MB
+[21:32:40] [288/452] Breaking News — Deluxe, ASM
+[21:33:43]   ✅ 5.7MB
+[21:33:46] [289/452] In My Feelings — Brasstracks
+[21:34:34]   ✅ 4.6MB
+[21:34:37] [290/452] Starship Syncopation — Cory Wong, Metropole Orkest, Jules Buckley
+[21:35:26]   ✅ 5.3MB
+[21:35:29] [291/452] Classic — Joakim Karud
+[21:36:14]   ✅ 5.3MB
+[21:36:17] [292/452] Remarkable Diving Feat — Sea Power
+[21:37:05]   ✅ 5.9MB
+[21:37:13] [293/452] Sweet Disposition — The Temper Trap
+[21:37:55]   ✅ 5.4MB
+[21:37:58] [294/452] What You Know — Two Door Cinema Club
+[21:38:42]   ✅ 4.4MB
+[21:38:45] [295/452] Road movie — Organic Stereo
+[21:39:34]   ✅ 3.0MB
+[21:39:37] [296/452] TEXAS HOLD 'EM — Beyoncé
+[21:40:27]   ✅ 5.4MB
+[21:40:30] [297/452] Meet Me Halfway — Black Eyed Peas
+[21:41:18]   ✅ 6.6MB
+[21:41:26] [298/452] Darling, I — Tyler, The Creator
+[21:42:18]   ✅ 6.6MB
+[21:42:21] [299/452] You're so Good to Me — Curtis Mayfield
+[21:56:48] 加载 452 个任务，已完成 298，待下载 154
+[21:56:48] [299/452] You're so Good to Me — Curtis Mayfield
+[21:58:49]   ❌ 下载失败: 未知错误
+[21:58:54] [300/452] Be Happy — Mary J. Blige
+[22:00:55]   ❌ 下载失败: 未知错误
+[22:01:00] [301/452] Summer Nights — Lil' Rob
+[22:03:01]   ❌ 下载失败: 未知错误
+[22:03:06] [302/452] Let Me Ride — Dr. Dre, Jewell
+[22:05:06]   ❌ 下载失败: 未知错误
+[22:05:11] [303/452] Wave — 邓乐怡, HYPEEZY, CHECKYHON, Handsome Lau
+[22:07:12]   ❌ 下载失败: 未知错误
+[22:07:17] [304/452] Honky Tonk Women — The Rolling Stones
+[22:10:44] 加载 452 个任务，已完成 298，待下载 154
+[22:10:44] [299/452] You're so Good to Me — Curtis Mayfield
+[22:11:23]   ✅ 9.5MB
+[22:11:26] [300/452] Be Happy — Mary J. Blige
+[22:11:45]   ✅ 5.4MB
+[22:11:48] [301/452] Summer Nights — Lil' Rob
+[22:12:21]   ✅ 5.9MB
+[22:12:24] [302/452] Let Me Ride — Dr. Dre, Jewell
+[22:12:44]   ✅ 5.9MB
+[22:12:47] [303/452] Wave — 邓乐怡, HYPEEZY, CHECKYHON, Handsome Lau
+[22:13:06]   ✅ 4.1MB
+[22:13:14] [304/452] Honky Tonk Women — The Rolling Stones
+[22:13:45]   ✅ 4.2MB
+[22:13:48] [305/452] Hard Times — Kurtis Blow
+[22:14:22]   ✅ 6.4MB
+[22:14:25] [306/452] Ferrari — Bebe Rexha
+[22:14:49]   ✅ 4.9MB
+[22:14:52] [307/452] 在意与默契 — DSPS
+[22:15:17]   ✅ 8.8MB
+[22:15:20] [308/452] Смотрю в глаза — Где Фантом?
+[22:15:43]   ✅ 5.9MB
+[22:15:51] [309/452] 星际 — 花招
+[22:16:19]   ✅ 7.0MB
+[22:16:22] [310/452] 我爱你 — 新裤子
+[22:17:00]   ✅ 7.2MB
+[22:17:03] [311/452] TOMATO — 7co
+[22:17:24]   ✅ 3.8MB
+[22:17:27] [312/452] Jetzt — Cro
+[22:18:04]   ✅ 3.3MB
+[22:18:07] [313/452] Say U Won't — Brasstracks
+[22:18:19]   ✅ 4.4MB
+[22:18:27] [314/452] Musicology — Prince
+[22:18:49]   ✅ 6.8MB
+[22:18:52] [315/452] 找自己 — 陶喆
+[22:19:26]   ✅ 12.6MB
+[22:19:29] [316/452] Hell N Back — Bakar
+[22:19:41]   ✅ 4.9MB
+[22:19:44] [317/452] Just Like Honey — The Jesus And Mary Chain
+[22:19:55]   ✅ 17.3MB
+[22:19:58] [318/452] Sea Gets Hotter — Durand Jones, Durand Jones & The Indications, Aaron Frazer
+[22:20:17]   ✅ 4.5MB
+[22:20:25] [319/452] 夢の続き feat. 田我流 — EVISBEATS
+[22:20:45]   ✅ 7.1MB
+[22:20:48] [320/452] 尕连手 — 段兴华
+[22:21:08]   ✅ 5.3MB
+[22:21:11] [321/452] Welcome Back — Brasstracks
+[22:21:45]   ✅ 5.0MB
+[22:21:48] [322/452] Panama — Sports
+[22:22:06]   ✅ 4.5MB
+[22:22:09] [323/452] bliss — iogi
+[22:22:35]   ✅ 4.8MB
+[22:22:43] [324/452] Goodmood — Nabes
+[22:23:25]   ✅ 3.8MB
+[22:23:28] [325/452] レイテストナンバー — Toe
+[22:24:01]   ✅ 7.6MB
+[22:24:04] [326/452] 21 Questions — Unwrapped
+[22:24:33]   ✅ 6.2MB
+[22:24:36] [327/452] Easy Does It — Harry McNally
+[22:25:18]   ✅ 5.3MB
+[22:25:21] [328/452] Lost Myslf — Tai Verdes
+[22:25:46]   ✅ 5.3MB
+[22:25:54] [329/452] We Shouldn‘t But .. — ARAI
+[22:26:21]   ✅ 6.1MB
+[22:26:24] [330/452] Leave My Home — FKJ
+[22:27:03]   ✅ 5.1MB
+[22:27:06] [331/452] Wildfires — SAULT
+[22:55:18] 加载 452 个任务，已完成 330，待下载 122
+[22:55:18] [331/452] Wildfires — SAULT
+[22:55:31]   ✅ 1.2MB
+[22:55:34] [332/452] Cold Cold Cold — Cage The Elephant
+[22:56:20]   ✅ 6.6MB
+[22:56:23] [333/452] 全部アナタのせいなんだ — I Don't Like Mondays.
+[22:56:51]   ✅ 5.3MB
+[22:56:54] [334/452] Xtralovable — Prince
+[22:57:37]   ✅ 6.9MB
+[22:57:40] [335/452] I Feel for You — Prince
+[22:58:25]   ✅ 4.7MB
+[22:58:33] [336/452] When You Were Mine — Prince
+[22:58:48]   ✅ 5.2MB
+[22:58:51] [337/452] trippin' — Nabowa
+[22:59:32]   ✅ 3.4MB
+[22:59:35] [338/452] Sweet Home Alabama — Lynyrd Skynyrd
+[23:00:01]   ✅ 6.5MB
+[23:00:04] [339/452] Siesta Freestyle — Lewis OfMan, Alicia te quiero
+[23:00:31]   ✅ 4.4MB
+[23:00:34] [340/452] Feel It — d4vd
+[23:01:01]   ✅ 3.5MB
+[23:01:09] [341/452] Tú No Me Tienes Que Salvar — Depresión Sonora, Marcos Crespo García
+[23:01:48]   ✅ 5.3MB
+[23:01:51] [342/452] Worship — Lizzo
+[23:02:33]   ✅ 4.1MB
+[23:02:36] [343/452] In the Aeroplane over the Sea — Neutral Milk Hotel
+[23:03:01]   ✅ 4.6MB
+[23:03:04] [344/452] Ms. Jackson — Outkast
+[23:03:32]   ✅ 6.8MB
+[23:03:35] [345/452] relive — toconoma
+[23:04:18]   ✅ 6.8MB
+[23:04:26] [346/452] いなごが飛んでる — Fishmans
+[23:04:51]   ✅ 5.4MB
+[23:04:54] [347/452] Far Away — EASHA
+[23:05:53]   ✅ 4.3MB
+[23:05:56] [348/452] Always Alright — Alabama Shakes
+[23:06:25]   ✅ 5.7MB
+[23:06:28] [349/452] Get Up — Mother Mother
+[23:06:45]   ✅ 4.6MB
+[23:06:48] [350/452] You So (Youth Soul) — I Mean US
+[23:07:03]   ✅ 7.7MB
+[23:07:11] [351/452] BABY BLUE — Fishmans
+[23:07:37]   ✅ 8.5MB
+[23:07:40] [352/452] Reflektor — Arcade Fire
+[23:08:07]   ✅ 10.6MB
+[23:08:10] [353/452] Yellow Surf — toconoma
+[23:08:52]   ✅ 8.5MB
+[23:08:55] [354/452] Virile — The Blaze
+[23:09:22]   ✅ 7.7MB
+[23:09:25] [355/452] Summer Lovin' — The Tuesday Crew
+[23:09:53]   ✅ 5.5MB
+[23:10:01] [356/452] Joy — FKJ
+[23:10:25]   ✅ 8.3MB
+[23:10:28] [357/452] Casey Jones (with Dan Kelly of Fortunate Youth) — Roots of Creation, Grateful Dub, Fortunate Youth, Brett Wilson, Dan Kelly
+[23:24:04] 加载 452 个任务，已完成 356，待下载 96
+[23:24:04] [357/452] Casey Jones (with Dan Kelly of Fortunate Youth) — Roots of Creation, Grateful Dub, Fortunate Youth, Brett Wilson, Dan Kelly
+[23:24:33]   ✅ 5.8MB
+[23:24:36] [358/452] Why Am I the One — Fun.
+[23:25:21]   ✅ 6.0MB
+[23:25:24] [359/452] Mariposa — Peach Tree Rascals
+[23:25:42]   ✅ 5.5MB
+[23:25:45] [360/452] 今日の歌 — カネヨリマサル
+[23:26:30]   ✅ 5.4MB
+[23:26:33] [361/452] Ozan Koukle — Lafayette Afro Rock Band, Ice
+[23:27:01]   ✅ 8.0MB
+[23:27:09] [362/452] Wish You Were Dead — Lola Young
+[23:27:37]   ✅ 4.5MB
+[23:27:40] [363/452] Dem My Dogs — Healy, Trapo
+[23:28:20]   ✅ 5.7MB
+[23:28:23] [364/452] Wasted Summers — juju<3
+[23:28:51]   ✅ 2.7MB
+[23:28:54] [365/452] Sleep On The Floor — The Lumineers
+[23:29:19]   ✅ 6.5MB
+[23:29:22] [366/452] One on One — Wildson, Astyn Turr
+[23:29:49]   ✅ 4.8MB
+[23:29:57] [367/452] For No Reason — YAØ
+[23:30:22]   ✅ 4.4MB
+[23:30:25] [368/452] Anything Can Happen — Violet Palms
+[23:30:53]   ✅ 3.8MB
+[23:30:56] [369/452] I Need Some Sleep — Celler Dwellers
+[23:31:36]   ✅ 4.9MB
+[23:31:39] [370/452] Local Paradise — Parker
+[23:32:08]   ✅ 4.5MB
+[23:32:11] [371/452] Girls from Nyc — Harrison Hudson
+[23:32:38]   ✅ 2.9MB
+[23:32:46] [372/452] What's New — Ax and the Hatchetmen
+[23:33:02]   ✅ 4.7MB
+[23:33:05] [373/452] Better Not — Louis the child
+[23:33:33]   ✅ 5.1MB
+[23:33:36] [374/452] Chicken Strut — The Meters
+[23:34:01]   ✅ 4.5MB
+[23:34:04] [375/452] The Adults Are Talking — The Strokes
+[23:34:36]   ✅ 6.6MB
+[23:34:39] [376/452] Umbrella — I Don't Like Mondays.
+[23:35:04]   ✅ 4.9MB
+[23:35:12] [377/452] 世界多古怪 — ManhanD
+[23:35:40]   ✅ 5.8MB
+[23:35:43] [378/452] Featuring Uzuhan — ARAI, Uzuhan
+[23:36:10]   ✅ 8.2MB
+[23:36:13] [379/452] Play Me — Orion Song, Uzuhan, Patrick Hizon
+[23:36:28]   ✅ 3.6MB
+[23:36:31] [380/452] Rewrite — milet
+[23:36:57]   ✅ 5.6MB
+[23:37:00] [381/452] つくる — ひとひら
+[23:37:28]   ✅ 4.5MB
+[23:37:36] [382/452] Soulmate — April Rain
+[23:38:06]   ✅ 8.7MB
+[23:38:09] [383/452] Moksha — Choker
+[23:38:34]   ✅ 4.8MB
+[23:38:37] [384/452] Needs — Tinashe
+[03:10:46] 加载 452 个任务，已完成 384，待下载 68
+[03:10:46] [385/452] Deep End — Fousheé
+[05:08:50] 加载 452 个任务，已完成 385，待下载 67
+[05:08:50] [386/452] Broke — Samm Henshaw
+[05:26:00]   ✅ 4.7MB
+[05:29:31] [387/452] San Francisco Street — Sun Rai
+[06:19:35]   ✅ 6.1MB
+[06:19:38] [388/452] Build — Healy
+[06:59:01] 加载 452 个任务，已完成 388，待下载 64
+[06:59:01] [389/452] 日本ロマンチック街道 — sucola
+[07:30:55]   ✅ 5.2MB
+[07:30:58] [390/452] MOON NIGHT — I Don't Like Mondays.
+[07:56:36]   ✅ 4.5MB
+[07:56:39] [391/452] Awake — TWO LANES
+[07:57:32]   ✅ 3.7MB
+[07:57:35] [392/452] Headaches — Raveena
+[07:58:24]   ✅ 7.2MB
+[07:58:27] [393/452] Telescope — Cage The Elephant
+[07:59:15]   ✅ 5.2MB
+[07:59:23] [394/452] Us - A COLORS SHOW — FKJ
+[08:01:12]   ✅ 5.4MB
+[08:01:15] [395/452] Don't Throw Out My Legos — AJR
+[08:02:06]   ✅ 5.7MB
+[08:02:09] [396/452] My Lover Lies Under — Cherry Ghost
+[08:02:57]   ✅ 5.0MB
+[08:03:00] [397/452] Skyline — FKJ
+[08:03:45]   ✅ 5.7MB
+[08:03:48] [398/452] 弥生之春 — Youzee Music
+[08:04:32]   ✅ 3.4MB
+[08:04:40] [399/452] anemo — euphoria
+[08:05:30]   ✅ 7.3MB
+[08:05:33] [400/452] 81 autumn — Uyama Hiroto
+[08:06:17]   ✅ 4.8MB
+[08:06:20] [401/452] 她 — Youzee Music
+[08:07:06]   ✅ 3.3MB
+[08:07:09] [402/452] Photosynthesis — Youzee Music
+[08:08:05]   ✅ 3.4MB
+[08:08:08] [403/452] 人间风景 — Fayzz
+[08:08:53]   ✅ 6.7MB
+[08:09:01] [404/452] Summer Suite — Jordan Critz
+[08:09:46]   ✅ 4.5MB
+[08:09:49] [405/452] Lights — Josh Ritter
+[08:10:57]   ✅ 5.5MB
+[08:11:00] [406/452] Dream — Rabpit
+[08:11:45]   ✅ 6.2MB
+[08:11:48] [407/452] El Transcurrir De Las Horas — Bosques De Mi Mente
+[08:12:36]   ✅ 4.4MB
+[08:12:39] [408/452] pm7:42 — Hotel New Tokyo
+[08:13:23]   ✅ 3.3MB
+[08:13:31] [409/452] September — Peter Bence
+[08:16:10]   ✅ 4.8MB
+[08:16:13] [410/452] 春天是一首浪漫诗 — Youzee Music
+[08:17:07]   ✅ 3.6MB
+[08:17:10] [411/452] Belle Âme (Piano) — Jordan Critz
+[08:18:00]   ✅ 4.0MB
+[08:18:03] [412/452] I Giorni — Ludovico Einaudi
+[08:18:49]   ✅ 8.2MB
+[08:18:52] [413/452] Prelude No. 1 in C Major, BWV 846 — Glenn Gould, Johann Sebastian Bach
+[08:19:36]   ✅ 3.3MB
+[08:19:44] [414/452] Beauté — Jordan Critz
+[08:20:28]   ✅ 3.8MB
+[08:20:31] [415/452] postlude — FLOWER FLOWER
+[08:21:19]   ✅ 4.7MB
+[08:21:22] [416/452] 悋気 — iwamizu
+[08:22:09]   ✅ 4.2MB
+[08:22:12] [417/452] Woven Song — piano reworks — Hania Rani, Ólafur Arnalds
+[08:22:58]   ✅ 5.5MB
+[08:23:01] [418/452] Pure Imagination (arr. piano) — Sophie Hutchings
+[08:23:49]   ✅ 4.7MB
+[08:23:57] [419/452] Joy — RIOPY
+[08:24:42]   ✅ 3.2MB
+[08:24:45] [420/452] Sakura — RIOPY
+[08:25:09]   ✅ 5.2MB
+[08:25:12] [421/452] Remembrance — Balmorhea
+[08:25:59]   ✅ 8.2MB
+[08:26:02] [422/452] Anthem — FKJ
+[08:26:50]   ✅ 3.6MB
+[08:26:53] [423/452] Last Hour — FKJ
+[08:27:40]   ✅ 3.7MB
+[08:27:48] [424/452] Nr. 1 — Martin Ermen
+[08:28:33]   ✅ 4.4MB
+[08:28:36] [425/452] Costa da Caparica — RIOPY
+[08:29:25]   ✅ 5.2MB
+[08:29:28] [426/452] Sway, Sway — Heinali
+[08:30:17]   ✅ 6.7MB
+[08:30:20] [427/452] Mediterraneo — Bruno Bavota
+[08:31:08]   ✅ 4.0MB
+[08:31:11] [428/452] One Is Glad to Be of Service — April Rain
+[08:32:01]   ✅ 13.5MB
+[08:32:09] [429/452] 南方 — 文雀
+[08:32:58]   ✅ 7.3MB
+[08:33:01] [430/452] One — Sleeping At Last
+[08:33:46]   ✅ 6.3MB
+[08:33:49] [431/452] Ditto — DooPiano
+[08:34:33]   ✅ 4.8MB
+[08:34:36] [432/452] MotherLake — JABBERLOOP
+[08:35:25]   ✅ 6.9MB
+[08:35:28] [433/452] Sweet dream — RIOPY
+[08:36:14]   ✅ 4.7MB
+[08:36:22] [434/452] Remove The Complexities — Peter Sandberg
+[08:36:49]   ✅ 3.1MB
+[08:36:52] [435/452] Bee — RIOPY
+[08:37:36]   ✅ 3.1MB
+[08:37:39] [436/452] Are You Lost — park bird
+[08:38:23]   ❌ 下载失败: e-delete][SAFE_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["/Users/kaluozheng/Music-Player-Investigation/SongResources/_tmp/Are You Lost.webm"],"targetCount":1}
+
+[08:38:28] [437/452] Cornfield Chase — Dorian Marko
+[08:39:13]   ❌ 下载失败: ULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["/Users/kaluozheng/Music-Player-Investigation/SongResources/_tmp/Cornfield Chase Piano FULL TUTORIAL.webm"],"targetCount":1}
+
+[08:39:18] [438/452] To Our Daughter(Lullaby) — My Best Friend Jacob
+[08:40:03]   ❌ 下载失败: E_DELETE_BULK_CONFIRM_REQUIRED] {"count":50,"threshold":50,"scope":"turn","targets":["/Users/kaluozheng/Music-Player-Investigation/SongResources/_tmp/To Our Daughter (Lullaby).webm"],"targetCount":1}
+
+[08:40:08] [439/452] Nuvole Bianche — Ludovico Einaudi
+[08:43:46]   ❌ 下载失败: ] {"count":50,"threshold":50,"scope":"turn","targets":["/Users/kaluozheng/Music-Player-Investigation/SongResources/_tmp/Ludovico Einaudi - Nuvole Bianche (Official Visualiser).webm"],"targetCount":1}
+
+[08:43:51] [440/452] 仁恕 — iwamizu
+[08:44:18] 加载 452 个任务，已完成 435，待下载 17
+[08:44:18] [436/452] Are You Lost — park bird
+[08:44:46]   ✅ 3.8MB
+[08:44:49] [437/452] Cornfield Chase — Dorian Marko
+[08:45:13]   ✅ 5.0MB
+[08:45:16] [438/452] To Our Daughter(Lullaby) — My Best Friend Jacob
+[08:45:34]   ✅ 4.8MB
+[08:45:37] [439/452] Nuvole Bianche — Ludovico Einaudi
+[08:46:02]   ✅ 8.3MB
+[08:46:05] [440/452] 仁恕 — iwamizu
+[08:46:30]   ✅ 4.5MB
+[08:46:38] [441/452] eau — yutaka hirasaka
+[08:47:03]   ✅ 5.1MB
+[08:47:06] [442/452] distance from palette and orange lines — yutaka hirasaka
+[08:47:31]   ✅ 4.8MB
+[08:47:34] [443/452] Sundays — FKJ
+[08:47:59]   ✅ 4.9MB
+[08:48:02] [444/452] Hawaii Oslo — Hania Rani
+[08:48:30]   ✅ 5.9MB
+[08:48:33] [445/452] 4 Her — iwamizu
+[08:48:58]   ✅ 3.8MB
+[08:49:06] [446/452] Take Five — Minoru Muraoka
+[08:49:31]   ✅ 6.8MB
+[08:49:34] [447/452] Voyage — Ryo Fukui
+[08:49:59]   ✅ 4.9MB
+[08:50:02] [448/452] Track in Time — Dennis Kuo
+[08:50:17]   ✅ 7.3MB
+[08:50:20] [449/452] はんなり — ko-ko-ya
+[08:50:33]   ✅ 2.8MB
+[08:50:36] [450/452] 告白 — hideyuki hashimoto
+[08:51:06]   ✅ 10.2MB
+[08:51:14] [451/452] Underwood — Ludovico Einaudi
+[08:51:42]   ✅ 5.8MB
+[08:51:45] [452/452] 85mm — Ludovico Einaudi
+[08:52:13]   ✅ 4.1MB
+[08:52:16] 
+==================================================
+[08:52:16] 完成! 成功: 17 | 失败: 0 | 总计: 452
+[08:52:16] 输出目录: /Users/kaluozheng/Music-Player-Investigation/SongResources
+[08:57:25] 加载 452 个任务，已完成 448，待下载 4
+[08:57:25] [449/452] 半空日落色 — Uhsgnǒd
+[08:57:53]   ✅ 6.0MB
+[08:57:56] [450/452] Needs — Tinashe
+[08:58:22]   ✅ 4.2MB
+[08:58:25] [451/452] Deep End — Fousheé
+[08:58:52]   ✅ 5.1MB
+[08:58:55] [452/452] Build — Healy
+[08:59:12]   ✅ 5.1MB
+[08:59:15] 
+==================================================
+[08:59:15] 完成! 成功: 4 | 失败: 0 | 总计: 452
+[08:59:15] 输出目录: /Users/kaluozheng/Music-Player-Investigation/SongResources
+[09:04:53] 加载 452 个任务，已完成 0，待下载 452
+[09:04:53] [1/452] Morning Dew — Timothée Couteau
+[09:05:41]   ✅ 5.0MB
+[09:05:44] [2/452] The 400 Blues 唐詩四百首 — Pu Poo Platter
