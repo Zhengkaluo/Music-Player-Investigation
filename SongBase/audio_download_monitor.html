@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SongBase 音频同步</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b100f;
+      --panel: #121a18;
+      --panel-raised: #18221f;
+      --line: #293733;
+      --text: #edf5f1;
+      --muted: #91a59d;
+      --accent: #d7ed8f;
+      --accent-ink: #182007;
+      --blue: #75bfff;
+      --green: #70d7a0;
+      --red: #ff8c85;
+      --amber: #f2c66d;
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 15% -10%, rgba(117,191,255,.11), transparent 30%),
+        radial-gradient(circle at 85% 0%, rgba(215,237,143,.09), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      font: 14px/1.5 ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    button, input { font: inherit; }
+    button { cursor: pointer; }
+    .shell { width: min(1480px, calc(100% - 32px)); margin: 0 auto; padding: 28px 0 52px; }
+    .topbar { display: flex; justify-content: space-between; gap: 24px; align-items: flex-start; }
+    .eyebrow { color: var(--accent); text-transform: uppercase; letter-spacing: .13em; font-size: 11px; margin: 0 0 7px; }
+    h1 { margin: 0; font-size: clamp(28px, 4vw, 43px); letter-spacing: -.04em; line-height: 1.1; }
+    .subhead { color: var(--muted); margin: 9px 0 0; }
+    .status-pill {
+      display: inline-flex; align-items: center; gap: 8px; flex: none;
+      border: 1px solid var(--line); border-radius: 999px; padding: 8px 12px;
+      background: rgba(18,26,24,.88); color: var(--muted);
+    }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+    .dot.active { background: var(--green); box-shadow: 0 0 0 6px rgba(112,215,160,.1); animation: pulse 1.5s infinite; }
+    .dot.error { background: var(--red); }
+    @keyframes pulse { 50% { opacity: .42; } }
+    .metrics { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; margin: 24px 0 12px; }
+    .metric, .panel {
+      background: rgba(18,26,24,.92); border: 1px solid var(--line);
+      border-radius: var(--radius);
+    }
+    .metric { padding: 15px 16px; min-height: 92px; }
+    .metric strong { display: block; font-size: 26px; letter-spacing: -.035em; }
+    .metric span { display: block; color: var(--muted); font-size: 12px; margin-top: 3px; }
+    .metric.success strong { color: var(--green); }
+    .metric.failed strong { color: var(--red); }
+    .progress-panel { padding: 18px; margin-bottom: 12px; }
+    .progress-line { display: flex; justify-content: space-between; gap: 14px; align-items: baseline; }
+    .progress-line strong { font-size: 16px; }
+    .progress-line span { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .progress-track { height: 10px; background: #0a0f0e; border-radius: 999px; overflow: hidden; margin: 13px 0 9px; }
+    .progress-fill { height: 100%; width: 0; background: linear-gradient(90deg, var(--blue), var(--accent)); border-radius: inherit; transition: width .35s ease; }
+    .progress-meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 12px; }
+    .current {
+      display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 18px;
+      align-items: center; padding: 20px; margin-bottom: 12px;
+      background: linear-gradient(135deg, rgba(24,34,31,.98), rgba(18,26,24,.96));
+    }
+    .current-label { color: var(--accent); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+    .current-title { font-size: 21px; font-weight: 720; letter-spacing: -.02em; margin: 4px 0 2px; overflow-wrap: anywhere; }
+    .current-meta { color: var(--muted); overflow-wrap: anywhere; }
+    .source-badge { display: inline-flex; border: 1px solid rgba(117,191,255,.34); color: var(--blue); border-radius: 999px; padding: 4px 9px; font-size: 12px; margin-top: 10px; }
+    .stop {
+      border: 1px solid rgba(255,140,133,.4); color: var(--red); background: rgba(255,140,133,.06);
+      border-radius: 11px; padding: 10px 14px;
+    }
+    .stop:disabled { opacity: .4; cursor: not-allowed; }
+    .toolbar {
+      display: grid; grid-template-columns: minmax(220px, 1fr) auto; gap: 12px;
+      align-items: center; padding: 14px; margin-bottom: 12px;
+    }
+    .search {
+      color: var(--text); background: #0c1210; border: 1px solid var(--line);
+      border-radius: 11px; padding: 10px 12px; width: 100%; outline: none;
+    }
+    .search:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(215,237,143,.1); }
+    .filters { display: flex; gap: 7px; flex-wrap: wrap; }
+    .filter {
+      color: var(--muted); background: transparent; border: 1px solid var(--line);
+      border-radius: 999px; padding: 7px 11px;
+    }
+    .filter.active { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); font-weight: 700; }
+    .content-grid { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(300px, .7fr); gap: 12px; }
+    .queue-panel, .log-panel { min-height: 510px; overflow: hidden; }
+    .panel-head { display: flex; justify-content: space-between; padding: 15px 17px; border-bottom: 1px solid var(--line); }
+    .panel-head strong { font-size: 14px; }
+    .panel-head span { color: var(--muted); font-size: 12px; }
+    .queue { max-height: 610px; overflow: auto; }
+    .task {
+      display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 11px;
+      padding: 12px 16px; border-bottom: 1px solid rgba(41,55,51,.72); align-items: center;
+    }
+    .task:last-child { border-bottom: 0; }
+    .task.current-row { background: rgba(117,191,255,.055); }
+    .task-index {
+      width: 28px; height: 28px; border-radius: 9px; display: grid; place-items: center;
+      color: var(--muted); background: #0c1210; font-size: 11px; font-variant-numeric: tabular-nums;
+    }
+    .task-title { font-weight: 650; overflow-wrap: anywhere; }
+    .task-meta, .task-message { color: var(--muted); font-size: 12px; overflow-wrap: anywhere; }
+    .task-message { text-align: right; max-width: 230px; }
+    .state { display: inline-flex; align-items: center; gap: 6px; }
+    .state::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+    .state.downloading { color: var(--blue); }
+    .state.downloading::before { background: var(--blue); animation: pulse 1.2s infinite; }
+    .state.success { color: var(--green); }
+    .state.success::before { background: var(--green); }
+    .state.failed { color: var(--red); }
+    .state.failed::before { background: var(--red); }
+    .state.skipped { color: var(--amber); }
+    .state.skipped::before { background: var(--amber); }
+    .logs { max-height: 610px; overflow: auto; padding: 9px 14px 16px; font: 12px/1.6 ui-monospace, "SFMono-Regular", Menlo, monospace; }
+    .log { padding: 7px 0; border-bottom: 1px solid rgba(41,55,51,.52); overflow-wrap: anywhere; }
+    .log-time { color: #657870; margin-right: 8px; }
+    .log.success { color: var(--green); }
+    .log.error { color: var(--red); }
+    .log.warning { color: var(--amber); }
+    .empty { color: var(--muted); text-align: center; padding: 64px 20px; }
+    .connection-error {
+      display: none; position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%);
+      background: #371b1a; color: #ffd5d2; border: 1px solid #6d3430; border-radius: 12px;
+      padding: 10px 14px; box-shadow: 0 12px 40px rgba(0,0,0,.35);
+    }
+    @media (max-width: 1050px) {
+      .metrics { grid-template-columns: repeat(3, 1fr); }
+      .content-grid { grid-template-columns: 1fr; }
+      .queue-panel, .log-panel { min-height: 0; }
+      .logs, .queue { max-height: 470px; }
+    }
+    @media (max-width: 680px) {
+      .shell { width: min(100% - 20px, 1480px); padding-top: 18px; }
+      .topbar { display: block; }
+      .status-pill { margin-top: 16px; }
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+      .toolbar { grid-template-columns: 1fr; }
+      .current { grid-template-columns: 1fr; }
+      .task { grid-template-columns: 30px minmax(0, 1fr); }
+      .task-message { grid-column: 2; text-align: left; max-width: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Local audio sync</p>
+        <h1>SongBase 音频同步</h1>
+        <p class="subhead" id="subhead">正在连接本地下载服务…</p>
+      </div>
+      <div class="status-pill"><span class="dot" id="statusDot"></span><span id="phase">连接中</span></div>
+    </header>
+
+    <section class="metrics" aria-label="下载概览">
+      <div class="metric"><strong id="total">—</strong><span>需要下载</span></div>
+      <div class="metric"><strong id="remaining">—</strong><span>尚未处理</span></div>
+      <div class="metric success"><strong id="success">—</strong><span>下载成功</span></div>
+      <div class="metric failed"><strong id="failed">—</strong><span>下载失败</span></div>
+      <div class="metric"><strong id="downloaded">—</strong><span id="downloadedLabel">本次下载大小</span></div>
+      <div class="metric"><strong id="elapsed">—</strong><span>已用时间</span></div>
+    </section>
+
+    <section class="panel progress-panel">
+      <div class="progress-line"><strong>整体进度</strong><span id="progressText">0 / 0</span></div>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <div class="progress-meta"><span id="progressPct">0%</span><span id="eta">预计剩余 —</span></div>
+    </section>
+
+    <section class="panel current">
+      <div>
+        <div class="current-label">正在处理</div>
+        <div class="current-title" id="currentTitle">等待任务开始</div>
+        <div class="current-meta" id="currentMeta">—</div>
+        <div class="source-badge" id="currentSource">尚未开始</div>
+      </div>
+      <button class="stop" id="stopButton" type="button">完成当前曲目后停止</button>
+    </section>
+
+    <section class="panel toolbar">
+      <input class="search" id="search" type="search" placeholder="搜索歌曲、艺人或专辑…" autocomplete="off">
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all" type="button">全部</button>
+        <button class="filter" data-filter="pending" type="button">待下载</button>
+        <button class="filter" data-filter="downloading" type="button">正在下载</button>
+        <button class="filter" data-filter="success" type="button">成功</button>
+        <button class="filter" data-filter="failed" type="button">失败</button>
+        <button class="filter" data-filter="skipped" type="button">跳过</button>
+      </div>
+    </section>
+
+    <div class="content-grid">
+      <section class="panel queue-panel">
+        <div class="panel-head"><strong>下载队列</strong><span id="queueCount">0 首</span></div>
+        <div class="queue" id="queue"></div>
+      </section>
+      <section class="panel log-panel">
+        <div class="panel-head"><strong>实时记录</strong><span>最近 200 条</span></div>
+        <div class="logs" id="logs"></div>
+      </section>
+    </div>
+  </main>
+  <div class="connection-error" id="connectionError">无法连接下载服务，正在重试…</div>
+
+  <script>
+    const labels = {
+      ready: "准备中", downloading: "正在下载", stopping: "正在停止",
+      completed: "已完成", stopped: "已停止", error: "发生错误"
+    };
+    const stateLabels = {
+      pending: "等待", downloading: "下载中", success: "成功",
+      failed: "失败", skipped: "跳过"
+    };
+    let latest = null;
+    let activeFilter = "all";
+    let searchText = "";
+    let wasConnected = false;
+    const $ = id => document.getElementById(id);
+    const escapeHtml = value => String(value ?? "").replace(/[&<>'"]/g, char => ({
+      "&":"&amp;", "<":"&lt;", ">":"&gt;", "'":"&#39;", '"':"&quot;"
+    })[char]);
+
+    function duration(seconds) {
+      seconds = Math.max(0, Number(seconds) || 0);
+      const hours = Math.floor(seconds / 3600);
+      const minutes = Math.floor((seconds % 3600) / 60);
+      const secs = Math.floor(seconds % 60);
+      return hours ? `${hours}时 ${minutes}分` : minutes ? `${minutes}分 ${secs}秒` : `${secs}秒`;
+    }
+
+    function taskMatches(task) {
+      if (activeFilter !== "all" && task.status !== activeFilter) return false;
+      const needle = searchText.trim().toLocaleLowerCase();
+      if (!needle) return true;
+      return [task.title, task.artist, task.album, task.filename]
+        .join(" ").toLocaleLowerCase().includes(needle);
+    }
+
+    function renderQueue(data) {
+      const tasks = data.tasks.filter(taskMatches);
+      $("queueCount").textContent = `${tasks.length} 首`;
+      if (!tasks.length) {
+        $("queue").innerHTML = '<div class="empty">没有符合条件的任务</div>';
+        return;
+      }
+      $("queue").innerHTML = tasks.map(task => `
+        <article class="task ${task.id === data.current_id ? "current-row" : ""}">
+          <div class="task-index">${task.id}</div>
+          <div>
+            <div class="task-title">${escapeHtml(task.title)}</div>
+            <div class="task-meta">${escapeHtml(task.artist)} · ${escapeHtml(task.album)} · ${escapeHtml(task.provider)}</div>
+          </div>
+          <div class="task-message">
+            <span class="state ${task.status}">${stateLabels[task.status] || task.status}</span>
+            <div>${escapeHtml(task.message)}${task.size_mb ? ` · ${task.size_mb} MB` : ""}</div>
+          </div>
+        </article>`).join("");
+    }
+
+    function renderLogs(logs) {
+      const el = $("logs");
+      const nearBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
+      el.innerHTML = logs.length ? logs.map(log => `
+        <div class="log ${escapeHtml(log.level)}"><span class="log-time">${escapeHtml(log.time)}</span>${escapeHtml(log.message)}</div>`
+      ).join("") : '<div class="empty">任务开始后会在这里显示记录</div>';
+      if (nearBottom) el.scrollTop = el.scrollHeight;
+    }
+
+    function render(data) {
+      latest = data;
+      const counts = data.counts;
+      $("total").textContent = data.total.toLocaleString();
+      $("remaining").textContent = data.remaining.toLocaleString();
+      $("success").textContent = counts.success.toLocaleString();
+      $("failed").textContent = counts.failed.toLocaleString();
+      $("downloaded").textContent = `${data.downloaded_mb} MB`;
+      $("downloadedLabel").textContent = `本次下载 · 磁盘可用 ${data.disk_free_gb} GB`;
+      $("elapsed").textContent = duration(data.elapsed_seconds);
+      $("progressText").textContent = `${data.processed} / ${data.total}`;
+      $("progressPct").textContent = `${data.progress}%`;
+      $("progressFill").style.width = `${data.progress}%`;
+      $("eta").textContent = data.remaining && data.eta_seconds
+        ? `预计剩余 ${duration(data.eta_seconds)}` : "预计剩余 —";
+      $("phase").textContent = labels[data.phase] || data.phase;
+      $("statusDot").className = `dot ${data.phase === "downloading" ? "active" : data.phase === "error" ? "error" : ""}`;
+      $("subhead").textContent =
+        `曲库 ${data.scan.library_songs.toLocaleString()} 首 · 有链接 ${data.scan.linked_songs.toLocaleString()} 首 · 无链接 ${(data.scan.library_songs - data.scan.linked_songs).toLocaleString()} 首 · 本地音频 ${data.scan.local_audio.toLocaleString()} 首`;
+
+      const current = data.tasks.find(task => task.id === data.current_id);
+      $("currentTitle").textContent = current ? current.title :
+        data.phase === "completed" ? "全部任务处理完成" :
+        data.phase === "stopped" ? "任务已停止" : "等待任务开始";
+      $("currentMeta").textContent = current ? `${current.artist} · ${current.album}` :
+        data.error || "—";
+      $("currentSource").textContent = current ? current.provider :
+        data.phase === "completed" ? "同步完成" : "尚未开始";
+      $("stopButton").disabled = !["ready", "downloading", "stopping"].includes(data.phase) || data.stop_requested;
+      $("stopButton").textContent = data.stop_requested ? "已请求停止" : "完成当前曲目后停止";
+      renderQueue(data);
+      renderLogs(data.logs);
+    }
+
+    async function refresh() {
+      try {
+        const response = await fetch("/api/status", {cache: "no-store"});
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        render(data);
+        $("connectionError").style.display = "none";
+        wasConnected = true;
+      } catch (error) {
+        if (wasConnected) $("connectionError").style.display = "block";
+      }
+    }
+
+    $("search").addEventListener("input", event => {
+      searchText = event.target.value;
+      if (latest) renderQueue(latest);
+    });
+    $("filters").addEventListener("click", event => {
+      const button = event.target.closest("[data-filter]");
+      if (!button) return;
+      activeFilter = button.dataset.filter;
+      document.querySelectorAll(".filter").forEach(item => item.classList.toggle("active", item === button));
+      if (latest) renderQueue(latest);
+    });
+    $("stopButton").addEventListener("click", async () => {
+      if (!confirm("当前曲目完成后停止剩余下载？")) return;
+      $("stopButton").disabled = true;
+      try { await fetch("/api/stop", {method: "POST"}); } catch (_) {}
+      refresh();
+    });
+
+    refresh();
+    setInterval(refresh, 1000);
+  </script>
+</body>
+</html>

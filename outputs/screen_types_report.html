@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>屏幕显示技术全景研究报告</title>
+<style>
+  :root {
+    --bg: #fafaf8;
+    --card-bg: #ffffff;
+    --text: #1a1a1a;
+    --text-secondary: #666;
+    --border: #e5e5e0;
+    --accent: #2563eb;
+    --accent-light: #eff6ff;
+    --green: #059669;
+    --green-light: #ecfdf5;
+    --orange: #ea580c;
+    --orange-light: #fff7ed;
+    --purple: #7c3aed;
+    --purple-light: #f5f3ff;
+    --red: #dc2626;
+    --red-light: #fef2f2;
+    --yellow: #ca8a04;
+    --yellow-light: #fefce8;
+    --gray: #6b7280;
+    --radius: 10px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.7;
+  }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 40%, #312e81 100%);
+    color: #fff; padding: 60px 0 48px; text-align: center; position: relative; overflow: hidden;
+  }
+  header::before {
+    content: ''; position: absolute; top:-50%; left:-50%; width:200%; height:200%;
+    background: radial-gradient(circle at 30% 70%, rgba(99,102,241,0.15) 0%, transparent 50%),
+                radial-gradient(circle at 70% 30%, rgba(14,165,233,0.1) 0%, transparent 50%);
+  }
+  header h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.5px; position: relative; }
+  header p { font-size: 16px; opacity: 0.75; margin-top: 10px; position: relative; }
+  header .date { font-size: 13px; opacity: 0.5; margin-top: 6px; position: relative; }
+
+  /* Nav */
+  nav {
+    position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.88);
+    backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); overflow-x: auto;
+  }
+  nav .container { display:flex; gap:4px; padding:0 24px; }
+  nav a {
+    display:inline-block; padding:12px 16px; font-size:13px; color:var(--text-secondary);
+    text-decoration:none; white-space:nowrap; border-bottom:2px solid transparent; transition:all 0.2s;
+    font-weight: 500;
+  }
+  nav a:hover, nav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  /* Sections */
+  section { padding: 48px 0; }
+  section h2 {
+    font-size: 28px; font-weight: 700; margin-bottom: 8px; color: #0f172a;
+    display: flex; align-items: center; gap: 12px;
+  }
+  section h2 .icon { font-size: 32px; }
+  section p.lead { color: var(--text-secondary); font-size: 15px; margin-bottom: 28px; max-width: 800px; }
+
+  /* Family section */
+  .family { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 32px; margin-bottom: 28px; box-shadow: var(--shadow); }
+  .family-header { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 24px; }
+  .family-icon { font-size: 40px; line-height: 1; }
+  .family h3 { font-size: 22px; font-weight: 700; }
+  .family .family-subtitle { color: var(--text-secondary); font-size: 14px; margin-top: 4px; }
+
+  /* Tech cards grid */
+  .tech-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 18px; }
+  .tech-card {
+    background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 22px; box-shadow: var(--shadow); transition: box-shadow 0.2s;
+  }
+  .tech-card:hover { box-shadow: var(--shadow-hover); }
+  .tech-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+  .tech-card .summary { font-size: 13px; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.6; }
+  .tech-card .specs { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; font-size: 12px; }
+  .specs .spec-label { color: var(--gray); }
+  .specs .spec-value { font-weight: 600; }
+
+  /* Highlight box */
+  .highlight-box {
+    border-left: 3px solid var(--accent); background: var(--accent-light);
+    padding: 14px 18px; border-radius: 0 var(--radius) var(--radius) 0; margin: 18px 0;
+    font-size: 13px; line-height: 1.6;
+  }
+  .highlight-box.orange { border-color: var(--orange); background: var(--orange-light); }
+  .highlight-box.green { border-color: var(--green); background: var(--green-light); }
+  .highlight-box.purple { border-color: var(--purple); background: var(--purple-light); }
+
+  /* Image section */
+  .product-img { width: 100%; border-radius: var(--radius); margin: 18px 0; box-shadow: var(--shadow); }
+  .img-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 18px 0; }
+  .img-row img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); }
+  .img-caption { text-align: center; font-size: 12px; color: var(--text-secondary); margin-top: 6px; }
+
+  /* Product table */
+  .product-table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 18px 0; }
+  .product-table th {
+    background: #f8fafc; text-align: left; padding: 10px 14px; font-weight: 600;
+    border-bottom: 2px solid var(--border); color: #475569; font-size: 12px; text-transform: uppercase;
+  }
+  .product-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); }
+  .product-table tr:hover td { background: #f8fafc; }
+  .product-table .price { font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .product-table a { color: var(--accent); text-decoration: none; font-weight: 500; }
+  .product-table a:hover { text-decoration: underline; }
+  .product-table .tag {
+    display:inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px;
+    font-weight: 600; margin-left: 6px;
+  }
+  .tag.jd { background: #fef3c7; color: #92400e; }
+
+  /* E-ink Deep Dive */
+  .deep-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-top: 16px; }
+  .deep-card { background: #f9fafb; border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: box-shadow 0.2s; }
+  .deep-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+  .deep-img-wrap { height: 200px; overflow: hidden; background: #f1f5f9; display: flex; align-items: center; justify-content: center; }
+  .deep-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+  .deep-img-fb { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 14px; }
+  .deep-info { padding: 14px; }
+  .deep-title { font-weight: 700; font-size: 15px; color: var(--text); margin-bottom: 6px; }
+  .deep-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+  .deep-tags span { background: #e2e8f0; color: #475569; font-size: 11px; padding: 2px 8px; border-radius: 8px; }
+  .deep-quote { font-size: 13px; color: #475569; line-height: 1.5; margin-bottom: 8px; font-style: italic; border-left: 3px solid var(--accent); padding-left: 10px; }
+  .deep-meta { font-size: 11px; color: #94a3b8; margin-bottom: 10px; }
+  .deep-link { display: inline-block; color: var(--accent); font-size: 13px; font-weight: 600; text-decoration: none; }
+  .deep-link:hover { text-decoration: underline; }
+  .tag.taobao { background: #fce7f3; color: #9d174d; }
+  .tag.official { background: #dbeafe; color: #1e40af; }
+
+  /* Matrix table */
+  .matrix-wrap { overflow-x: auto; margin: 20px 0; }
+  .matrix { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .matrix th:first-child { position: sticky; left: 0; background: #f8fafc; z-index: 2; }
+  .matrix td:first-child { position: sticky; left: 0; background: #fff; z-index: 1; font-weight: 600; }
+  .matrix th {
+    background: #f1f5f9; padding: 8px 10px; writing-mode: horizontal-tb;
+    font-size: 11px; color: #475569; text-align: center; border: 1px solid var(--border);
+  }
+  .matrix td { padding: 8px 10px; text-align: center; border: 1px solid #f1f5f9; }
+  .matrix tr:hover td { background: #fafafa; }
+  .matrix tr:hover td:first-child { background: #fafafa; }
+  .score-5 { color: var(--green); font-weight: 700; }
+  .score-4 { color: #65a30d; font-weight: 500; }
+  .score-3 { color: var(--yellow); }
+  .score-2 { color: var(--orange); }
+  .score-1 { color: var(--red); }
+  .score-na { color: var(--gray); }
+
+  /* Bar chart */
+  .bar-row { display:flex; align-items:center; gap:10px; margin:8px 0; font-size:13px; }
+  .bar-label { width: 160px; text-align: right; font-weight: 500; flex-shrink: 0; }
+  .bar-track { flex:1; height:22px; background:#f1f5f9; border-radius:11px; overflow:hidden; position:relative; }
+  .bar-fill { height:100%; border-radius:11px; transition:width 0.5s; display:flex; align-items:center; padding-left:10px; }
+  .bar-fill span { font-size:11px; color:#fff; font-weight:600; text-shadow:0 1px 2px rgba(0,0,0,0.2); }
+  .bar-fill.blue { background:linear-gradient(90deg, #3b82f6, #2563eb); }
+  .bar-fill.green { background:linear-gradient(90deg, #10b981, #059669); }
+  .bar-fill.orange { background:linear-gradient(90deg, #f59e0b, #d97706); }
+  .bar-fill.red { background:linear-gradient(90deg, #ef4444, #dc2626); }
+  .bar-fill.purple { background:linear-gradient(90deg, #8b5cf6, #7c3aed); }
+
+  /* SVG container */
+  .svg-diagram { background: #fafafa; border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px; margin: 18px 0; text-align: center; overflow-x: auto; }
+  .svg-diagram svg { max-width: 100%; height: auto; }
+
+  /* Scenario cards */
+  .scenario-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 18px; margin-top: 20px; }
+  .scenario-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 20px; box-shadow: var(--shadow); }
+  .scenario-card h4 { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+  .scenario-card .rec { font-size: 13px; color: var(--accent); font-weight: 600; margin-bottom: 8px; }
+  .scenario-card p { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+
+  /* Footer */
+  footer {
+    text-align: center; padding: 40px 0; font-size: 12px; color: var(--gray);
+    border-top: 1px solid var(--border); margin-top: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .tech-grid { grid-template-columns: 1fr; }
+    .img-row { grid-template-columns: 1fr; }
+    header h1 { font-size: 26px; }
+    nav a { padding: 10px 12px; font-size: 12px; }
+    .bar-label { width: 110px; font-size: 11px; }
+    .family { padding: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== HEADER ==================== -->
+<header>
+  <div class="container">
+    <h1>屏幕显示技术全景研究报告</h1>
+    <p>从 CRT 到 Micro-LED —— 16 种显示技术的原理、特性、光线表现与购买指南</p>
+    <div class="date">2026年8月 · 综合调研</div>
+  </div>
+</header>
+
+<!-- ==================== NAV ==================== -->
+<nav>
+  <div class="container">
+    <a href="#intro">概览</a>
+    <a href="#product-images">产品对比图</a>
+    <a href="#lcd">LCD 液晶</a>
+    <a href="#led">LED 背光</a>
+    <a href="#oled">OLED 自发光</a>
+    <a href="#microled">Micro-LED</a>
+    <a href="#eink">E-Ink 墨水屏</a>
+    <a href="#reflective">反射式屏幕</a>
+    <a href="#projection">投影技术</a>
+    <a href="#legacy">历史技术</a>
+    <a href="#matrix">综合对比矩阵</a>
+    <a href="#lighting">光线适应性</a>
+    <a href="#customize">可定制性</a>
+    <a href="#scenarios">选屏建议</a>
+    <a href="#products">产品购买参考</a>
+    <a href="#eink-deep">E-ink 深度探索 ✨</a>
+  </div>
+</nav>
+
+<div class="container">
+
+<!-- ==================== INTRO ==================== -->
+<section id="intro">
+  <h2><span class="icon">📊</span> 报告概览</h2>
+  <p class="lead">本报告系统梳理了当前市面上的 16 种主流屏幕技术，按显示原理分为五大家族，从 LCD 液晶到 Micro-LED 自发光，从 E-Ink 墨水屏到投影技术。每一种技术都涵盖显示原理、可定制性（颜色/亮度/分辨率/刷新率）、不同光线下的表现质感和代表产品。</p>
+
+  <div class="svg-diagram">
+    <svg viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="gLcd" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1d4ed8"/></linearGradient>
+        <linearGradient id="gLed" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#06b6d4"/><stop offset="100%" stop-color="#0891b2"/></linearGradient>
+        <linearGradient id="gOled" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient>
+        <linearGradient id="gMicro" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+        <linearGradient id="gEink" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#10b981"/><stop offset="100%" stop-color="#047857"/></linearGradient>
+        <linearGradient id="gProj" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ef4444"/><stop offset="100%" stop-color="#b91c1c"/></linearGradient>
+      </defs>
+      <text x="500" y="30" text-anchor="middle" font-size="16" font-weight="700" fill="#1e293b">五大显示技术家族全景图</text>
+
+      <!-- LCD Family -->
+      <rect x="20" y="60" width="185" height="300" rx="12" fill="url(#gLcd)" opacity="0.12"/>
+      <rect x="20" y="60" width="185" height="50" rx="12" fill="url(#gLcd)"/>
+      <text x="112" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">LCD 液晶家族</text>
+      <text x="112" y="120" text-anchor="middle" font-size="11" fill="#1e40af">背光源 + 液晶层遮光</text>
+      <text x="50" y="148" font-size="11" fill="#334155">TN 扭曲向列</text>
+      <text x="50" y="170" font-size="11" fill="#334155">IPS 平面切换</text>
+      <text x="50" y="192" font-size="11" fill="#334155">VA 垂直排列</text>
+      <text x="50" y="214" font-size="11" fill="#334155">FFS 边缘场切换</text>
+      <line x1="40" y1="232" x2="185" y2="232" stroke="#93c5fd" stroke-width="1"/>
+      <text x="50" y="252" font-size="11" fill="#334155">Mini-LED 背光</text>
+      <text x="50" y="274" font-size="11" fill="#334155">QD-Mini LED</text>
+      <text x="50" y="296" font-size="11" fill="#334155">RGB-Mini LED</text>
+
+      <!-- OLED Family -->
+      <rect x="218" y="60" width="185" height="300" rx="12" fill="url(#gOled)" opacity="0.12"/>
+      <rect x="218" y="60" width="185" height="50" rx="12" fill="url(#gOled)"/>
+      <text x="310" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">OLED 自发光家族</text>
+      <text x="310" y="120" text-anchor="middle" font-size="11" fill="#5b21b6">像素自发光 · 无需背光</text>
+      <text x="248" y="148" font-size="11" fill="#334155">WRGB OLED (LG)</text>
+      <text x="248" y="170" font-size="11" fill="#334155">QD-OLED (Samsung)</text>
+      <text x="248" y="192" font-size="11" fill="#334155">AMOLED (手机)</text>
+      <text x="248" y="214" font-size="11" fill="#334155">Micro OLED/OLEDoS</text>
+
+      <!-- Micro-LED -->
+      <rect x="416" y="60" width="185" height="300" rx="12" fill="url(#gMicro)" opacity="0.12"/>
+      <rect x="416" y="60" width="185" height="50" rx="12" fill="url(#gMicro)"/>
+      <text x="508" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">Micro-LED</text>
+      <text x="508" y="120" text-anchor="middle" font-size="11" fill="#92400e">无机自发光终极方案</text>
+      <text x="446" y="148" font-size="11" fill="#334155">GaN 基 Micro LED</text>
+      <text x="446" y="170" font-size="11" fill="#334155">模块化拼接</text>
+      <text x="446" y="192" font-size="11" fill="#334155">无机材料 · 不烧屏</text>
+      <text x="446" y="214" font-size="11" fill="#334155">峰值亮度 5000+ nits</text>
+
+      <!-- E-Ink -->
+      <rect x="614" y="60" width="185" height="300" rx="12" fill="url(#gEink)" opacity="0.12"/>
+      <rect x="614" y="60" width="185" height="50" rx="12" fill="url(#gEink)"/>
+      <text x="706" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">E-Ink 墨水屏</text>
+      <text x="706" y="120" text-anchor="middle" font-size="11" fill="#047857">反射式 · 双稳态 · 零蓝光</text>
+      <text x="644" y="148" font-size="11" fill="#334155">经典黑白 E-Ink</text>
+      <text x="644" y="170" font-size="11" fill="#334155">Kaleido 彩色</text>
+      <text x="644" y="192" font-size="11" fill="#334155">Gallery 3 / ACeP</text>
+      <text x="644" y="214" font-size="11" fill="#334155">Spectra 电子价签</text>
+      <line x1="634" y1="232" x2="789" y2="232" stroke="#6ee7b7" stroke-width="1"/>
+      <text x="644" y="252" font-size="11" fill="#334155">反射式 LCD (RLCD)</text>
+      <text x="644" y="274" font-size="11" fill="#334155">半反半透 LCD</text>
+
+      <!-- Projection -->
+      <rect x="812" y="60" width="170" height="300" rx="12" fill="url(#gProj)" opacity="0.12"/>
+      <rect x="812" y="60" width="170" height="50" rx="12" fill="url(#gProj)"/>
+      <text x="897" y="90" text-anchor="middle" font-size="14" font-weight="700" fill="#fff">投影技术</text>
+      <text x="897" y="120" text-anchor="middle" font-size="11" fill="#991b1b">反射/透射投影成像</text>
+      <text x="842" y="148" font-size="11" fill="#334155">DLP (DMD 芯片)</text>
+      <text x="842" y="170" font-size="11" fill="#334155">LCoS (硅基液晶)</text>
+      <text x="842" y="192" font-size="11" fill="#334155">3LCD (三片透射)</text>
+
+      <!-- Comparison summary -->
+      <text x="500" y="395" text-anchor="middle" font-size="11" fill="#94a3b8">▲ 五大家族覆盖 16 种细分技术，按显示原理从「需要背光」到「自发光」，从「透射式」到「反射式」的系统性分类</text>
+    </svg>
+  </div>
+</section>
+
+<!-- ==================== PRODUCT IMAGES ==================== -->
+<section id="product-images">
+  <h2><span class="icon">📸</span> 屏幕技术产品对比图</h2>
+  <p class="lead">以下四组产品对比图直观展示不同屏幕技术在实际场景中的显示质感差异。</p>
+
+  <div>
+    <img class="product-img" src="images/A_side_by_side_comparison_phot_2026-08-01T08-39-36.png"
+         alt="E-Ink / LCD / OLED 三屏同内容对比" loading="lazy">
+    <div class="img-caption">同一内容在三种屏幕上的显示质感对比：E-Ink（左）纸质感哑光、LCD IPS（中）通透鲜艳、OLED（右）深邃高对比</div>
+  </div>
+
+  <div class="img-row">
+    <div>
+      <img src="images/A_realistic_product_photo_of_a_2026-08-01T08-39-37.png"
+           alt="Kindle E-ink 阅读器产品图" loading="lazy">
+      <div class="img-caption">Kindle E-Ink 电子墨水阅读器：纸质感、无眩光、自然光下完美可读</div>
+    </div>
+    <div>
+      <img src="images/A_visual_comparison_demonstrat_2026-08-01T08-39-39.png"
+           alt="户外阳光 E-Ink vs OLED 对比" loading="lazy">
+      <div class="img-caption">户外阳光直射：E-Ink（左）清晰如纸 vs OLED（右）严重反光</div>
+    </div>
+  </div>
+
+  <div>
+    <img class="product-img" src="images/A_stunning_OLED_TV_in_a_dark_h_2026-08-01T08-39-34.png"
+         alt="OLED 电视暗室星空场景" loading="lazy">
+    <div class="img-caption">OLED 电视在暗室中显示星空场景：像素级纯黑 + 无限对比度，每颗星星独立发光</div>
+  </div>
+</section>
+
+<!-- ==================== FAMILY 1: LCD ==================== -->
+<section id="lcd">
+  <h2><span class="icon">💡</span> LCD 液晶家族</h2>
+  <p class="lead">LCD（Liquid Crystal Display）是所有液晶显示技术的总称。其核心原理是：背光层发出白色光 → 液晶层通过电场控制每个像素的透光率 → 彩色滤光片将白光过滤为 RGB 三色。不同子类型主要在液晶分子的排列和旋转方式上有所区别。</p>
+
+  <!-- LCD Principle SVG -->
+  <div class="svg-diagram">
+    <svg viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg">
+      <text x="400" y="24" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">LCD 液晶屏层叠结构（从背光到人眼）</text>
+      <rect x="60" y="45" width="120" height="260" rx="6" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+      <text x="120" y="180" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">LED 背光</text>
+      <text x="120" y="198" text-anchor="middle" font-size="10" fill="#78716c">白色 LED 灯珠</text>
+      <text x="405" y="180" text-anchor="middle" font-size="10" fill="#78716c">(或 Mini-LED 分区)</text>
+
+      <rect x="195" y="50" width="100" height="250" rx="4" fill="#e0e7ff" stroke="#6366f1" stroke-width="1.5"/>
+      <text x="245" y="105" text-anchor="middle" font-size="11" font-weight="600" fill="#3730a3">偏光片 ①</text>
+      <text x="245" y="122" text-anchor="middle" font-size="10" fill="#6366f1">→ 方向偏振光</text>
+
+      <rect x="305" y="55" width="90" height="240" rx="4" fill="#fce7f3" stroke="#ec4899" stroke-width="1.5"/>
+      <text x="350" y="105" text-anchor="middle" font-size="11" font-weight="600" fill="#9d174d">液晶层</text>
+      <text x="350" y="125" text-anchor="middle" font-size="10" fill="#db2777">电场控制扭转</text>
+      <text x="350" y="143" text-anchor="middle" font-size="10" fill="#db2777">控制透光量</text>
+
+      <rect x="405" y="55" width="110" height="240" rx="4" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+      <text x="460" y="105" text-anchor="middle" font-size="11" font-weight="600" fill="#0f766e">彩色滤光片</text>
+      <text x="460" y="125" text-anchor="middle" font-size="10" fill="#14b8a6">RGB 子像素</text>
+      <text x="460" y="143" text-anchor="middle" font-size="10" fill="#14b8a6">将白光变彩色</text>
+
+      <rect x="525" y="55" width="100" height="240" rx="4" fill="#e0e7ff" stroke="#6366f1" stroke-width="1.5"/>
+      <text x="575" y="105" text-anchor="middle" font-size="11" font-weight="600" fill="#3730a3">偏光片 ②</text>
+      <text x="575" y="122" text-anchor="middle" font-size="10" fill="#6366f1">90°检偏</text>
+
+      <rect x="635" y="55" width="110" height="240" rx="4" fill="#f3f4f6" stroke="#9ca3af" stroke-width="1.5"/>
+      <text x="690" y="105" text-anchor="middle" font-size="11" font-weight="600" fill="#374151">玻璃基板</text>
+      <text x="690" y="122" text-anchor="middle" font-size="10" fill="#6b7280">TFT 驱动电路</text>
+
+      <path d="M745,180 L785,180" stroke="#1e293b" stroke-width="2" marker-end="url(#arrow)"/>
+      <text x="775" y="198" text-anchor="middle" font-size="10" fill="#4b5563">人眼</text>
+      <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#1e293b"/></marker></defs>
+
+      <rect x="60" y="275" width="340" height="32" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="230" y="295" text-anchor="middle" font-size="10" fill="#64748b">TN / IPS / VA / FFS 的区别在于液晶分子的排列和旋转方式</text>
+
+      <rect x="420" y="275" width="325" height="32" rx="4" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="582" y="295" text-anchor="middle" font-size="10" fill="#64748b">Mini-LED / QD-Mini LED 的区别在于背光灯珠的大小和分区数量</text>
+    </svg>
+  </div>
+
+  <!-- TN -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">⚡</div><div><h3>TN（Twisted Nematic）扭曲向列</h3><div class="family-subtitle">速度之王 · 视角牺牲者</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>显示原理</h4>
+        <div class="summary">液晶分子呈 90° 螺旋排列。不加电压时透光（Normally White），加电压时液晶竖起来遮光。响应速度是所有 LCD 中最快的。</div>
+        <h4 style="margin-top:12px">核心参数</h4>
+        <div class="specs">
+          <div class="spec-label">响应时间</div><div class="spec-value">0.5-1ms (GTG)</div>
+          <div class="spec-label">刷新率</div><div class="spec-value">最高 540Hz</div>
+          <div class="spec-label">对比度</div><div class="spec-value">600:1 ~ 1000:1</div>
+          <div class="spec-label">色域</div><div class="spec-value">~72% NTSC</div>
+          <div class="spec-label">可视角度</div><div class="spec-value">160°/140°</div>
+          <div class="spec-label">色深</div><div class="spec-value">6-bit + FRC</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点与光线下表现</h4>
+        <div class="summary">色彩偏淡，6-bit 面板原生 26 万色需靠抖动达到 16.7M。视角极差——俯视泛白、仰视泛黑。户外强光下因亮度不够（通常 250-400nit）可读性差。但在竞技游戏中无可替代：360Hz 刷新率 + 0.5ms 响应是无拖影的保证。</div>
+        <div class="highlight-box orange"><strong>典型用户：</strong>FPS 竞技玩家（CS2、Valorant）。对颜色和视角不敏感，但对每一帧延迟极其敏感。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- IPS -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🎨</div><div><h3>IPS（In-Plane Switching）平面切换</h3><div class="family-subtitle">色彩标杆 · 专业之选</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>显示原理</h4>
+        <div class="summary">液晶分子水平排列，电场作用下在同一平面内旋转。由于液晶分子始终平行于基板，从任何角度看透光率一致，因此拥有四大 LCD 类型中最宽的视角。</div>
+        <h4 style="margin-top:12px">核心参数</h4>
+        <div class="specs">
+          <div class="spec-label">响应时间</div><div class="spec-value">3-5ms (GTG)</div>
+          <div class="spec-label">刷新率</div><div class="spec-value">60-360Hz</div>
+          <div class="spec-label">对比度</div><div class="spec-value">1000:1 ~ 2000:1 (IPS Black)</div>
+          <div class="spec-label">色域</div><div class="spec-value">可达 100% DCI-P3</div>
+          <div class="spec-label">可视角度</div><div class="spec-value">178°/178°</div>
+          <div class="spec-label">色深</div><div class="spec-value">8-bit ~ 10-bit</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点与光线下表现</h4>
+        <div class="summary">色彩准确度最高，出厂校色 ΔE&lt;2。缺陷是 IPS Glow（四角漏光），暗室显示黑色时会泛白。亮度 250-500nit，户外强光下配合雾面涂层勉强可用。Dell U 系列是专业设计领域的黄金标准。</div>
+        <div class="highlight-box"><strong>典型用户：</strong>设计师、摄影师、视频剪辑师。需要广色域、高色准和多人围观屏幕时的宽视角。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VA -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🌑</div><div><h3>VA（Vertical Alignment）垂直排列</h3><div class="family-subtitle">暗场之王 · 曲面爱好者</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>显示原理</h4>
+        <div class="summary">液晶分子在不加电压时垂直排列，完全遮光 → 原生对比度极高。加电压后分子倾斜透光。黑色就是真正的黑，而不是 IPS 那种灰黑。</div>
+        <h4 style="margin-top:12px">核心参数</h4>
+        <div class="specs">
+          <div class="spec-label">响应时间</div><div class="spec-value">2-4ms (GTG)，暗部偏慢</div>
+          <div class="spec-label">刷新率</div><div class="spec-value">60-240Hz</div>
+          <div class="spec-label">对比度</div><div class="spec-value">3000:1 ~ 5000:1</div>
+          <div class="spec-label">色域</div><div class="spec-value">可达 90% DCI-P3</div>
+          <div class="spec-label">可视角度</div><div class="spec-value">178°/178°</div>
+          <div class="spec-label">色深</div><div class="spec-value">8-bit ~ 10-bit</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点与光线下表现</h4>
+        <div class="summary">暗部细节出色，黑色深邃，非常适合观影。缺陷是暗部响应时间慢（VA Smearing/Black Smearing），快速移动的暗色物体会有拖影。配合大曲率曲面屏能减轻视角色偏。亮度 300-600nit。</div>
+        <div class="highlight-box purple"><strong>典型用户：</strong>电影爱好者、主机游戏玩家、追求沉浸感的大屏用户。特别适合弯曲环绕的曲面屏设计。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FFS -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">📱</div><div><h3>FFS（Fringe Field Switching）边缘场切换</h3><div class="family-subtitle">移动端的 IPS 进化 · 触摸之王</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>显示原理</h4>
+        <div class="summary">IPS 的变体，由韩国 Hydis（现 BOE）开发。将电极从像素两侧改到像素下方，利用边缘电场驱动液晶。好处是开口率更高（更亮/更省电），且按压时不会出现水波纹（对触摸屏至关重要）。</div>
+        <div class="specs">
+          <div class="spec-label">代表产品</div><div class="spec-value">iPad（全系 LCD 款）</div>
+          <div class="spec-label">对比度</div><div class="spec-value">1000:1 ~ 1500:1</div>
+          <div class="spec-label">刷新率</div><div class="spec-value">60-120Hz (ProMotion)</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点</h4>
+        <div class="summary">目前绝大多数手机/平板的 LCD 屏幕都是 FFS 或其衍生技术。兼具 IPS 的宽视角和出色的触摸体验。户外亮度 500-600nit，iPad Pro 12.9 的 Liquid Retina XDR 通过 Mini-LED 背光峰值甚至达到 1600nit。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAMILY 2: LED 背光进阶 ==================== -->
+<section id="led">
+  <h2><span class="icon">🔆</span> LED 背光进阶技术</h2>
+  <p class="lead">严格来说「LED 屏幕」其实是 LCD 的一种背光升级方案。传统 LCD 使用侧入式白光 LED 背光，而 Mini-LED 和 QD-Mini LED 通过数以千计的微型灯珠和量子点材料，让 LCD 的画质逼近甚至超越 OLED。</p>
+
+  <div class="family">
+    <div class="family-header"><div class="family-icon">💎</div><div><h3>QD-Mini LED</h3><div class="family-subtitle">量子点 + 万级分区 · LCD 画质的巅峰</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">
+          <strong>Mini-LED：</strong>将背光灯珠缩小到 50-200μm，一张 65 寸面板可排布数万颗灯珠，实现上千个独立控光分区。暗区关闭灯珠 → 黑更黑；亮区全开 → 峰值亮度可破 2000nit。<br><br>
+          <strong>量子点（QD）：</strong>在蓝色 LED 灯珠前放置量子点膜，将蓝光转换为更纯净的红光和绿光，色域可达 98% DCI-P3 以上。
+        </div>
+        <div class="specs" style="margin-top:12px;">
+          <div class="spec-label">峰值亮度</div><div class="spec-value">2000-5000 nits</div>
+          <div class="spec-label">分区数</div><div class="spec-value">500-20,000+</div>
+          <div class="spec-label">色域</div><div class="spec-value">98% DCI-P3</div>
+          <div class="spec-label">HDR</div><div class="spec-value">Dolby Vision IQ</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>光线下表现与特点</h4>
+        <div class="summary">暗室 HDR 观影接近 OLED 的深邃，明亮客厅也能凭借超高亮度压制环境光反射。TCL Q10L 系列在国补后仅 ¥5,000+ 就能买到 65 寸 QD-Mini LED，性价比极高。缺点是仍有视角色偏（VA 面板通病）和光晕效应（Bloom），分区不够时暗区周围的亮物体会泛光。</div>
+        <div class="highlight-box green"><strong>推荐场景：</strong>明亮客厅、HDR 电影、体育赛事。是目前家庭电视的最均衡选择。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RGB-Mini LED -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🌈</div><div><h3>RGB-Mini LED</h3><div class="family-subtitle">去掉彩色滤光片 · 直接三色背光</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">传统 LCD 使用白光 LED + 彩色滤光片，滤光片会损失约 70% 的光。RGB-Mini LED 直接用红/绿/蓝三色 mini LED 作背光，省去了彩色滤光片。海信 ULED X 系列采用此方案，在亮度和色彩纯度上更进一步。</div>
+      </div>
+      <div class="tech-card">
+        <h4>特点</h4>
+        <div class="summary">光效更高（同功耗更亮），色纯度更好。但三色 LED 的老化速度不一致，长期使用可能出现色偏。目前主要在高端旗舰电视上使用，成本较高。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAMILY 3: OLED ==================== -->
+<section id="oled">
+  <h2><span class="icon">🖤</span> OLED 有机自发光家族</h2>
+  <p class="lead">OLED（Organic Light-Emitting Diode）不需要背光——每个像素自己就是一个小灯泡。通电就亮、断电就黑，因此能实现真正的像素级纯黑和近乎无限的对比度。代价是有机材料会随时间老化（烧屏），且峰值亮度不如 Mini-LED。</p>
+
+  <!-- OLED vs LCD SVG -->
+  <div class="svg-diagram">
+    <svg viewBox="0 0 800 280" xmlns="http://www.w3.org/2000/svg">
+      <text x="400" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">OLED 自发光 vs LCD 背光 —— 本质区别</text>
+
+      <!-- LCD Side -->
+      <rect x="30" y="40" width="340" height="220" rx="10" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+      <text x="200" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#475569">LCD · 需要背光</text>
+      <!-- Backlight -->
+      <rect x="70" y="75" width="260" height="30" rx="4" fill="#fef3c7" stroke="#f59e0b"/>
+      <text x="200" y="95" text-anchor="middle" font-size="10" fill="#92400e">LED 背光（一直亮着）</text>
+      <!-- LC Layer -->
+      <rect x="70" y="120" width="260" height="35" rx="4" fill="#dbeafe" stroke="#3b82f6"/>
+      <text x="200" y="142" text-anchor="middle" font-size="10" fill="#1e40af">液晶遮光层（控制通断）</text>
+      <!-- Color Filter -->
+      <rect x="70" y="170" width="260" height="35" rx="4" fill="#ccfbf1" stroke="#14b8a6"/>
+      <text x="200" y="192" text-anchor="middle" font-size="10" fill="#0f766e">彩色滤光片（白光→RGB）</text>
+      <!-- Light paths -->
+      <line x1="200" y1="105" x2="200" y2="120" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3"/>
+      <text x="110" y="232" font-size="10" fill="#ef4444">✗ 漏光：黑色区域仍有微光</text>
+
+      <!-- OLED Side -->
+      <rect x="410" y="40" width="360" height="220" rx="10" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.5"/>
+      <text x="590" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#c4b5fd">OLED · 像素自发光</text>
+      <!-- Self-emissive pixels -->
+      <rect x="455" y="78" width="80" height="60" rx="6" fill="#ef4444" opacity="0.9"/>
+      <text x="495" y="115" text-anchor="middle" font-size="10" fill="#fff">🔴 红色像素</text>
+      <rect x="550" y="78" width="80" height="60" rx="6" fill="#22c55e" opacity="0.9"/>
+      <text x="590" y="115" text-anchor="middle" font-size="10" fill="#fff">🟢 绿色像素</text>
+      <rect x="645" y="78" width="80" height="60" rx="6" fill="#3b82f6" opacity="0.9"/>
+      <text x="685" y="115" text-anchor="middle" font-size="10" fill="#fff">🔵 蓝色像素</text>
+      <!-- Off pixel -->
+      <rect x="455" y="155" width="270" height="30" rx="4" fill="#0f0f23" stroke="#4b5563" stroke-dasharray="3"/>
+      <text x="590" y="175" text-anchor="middle" font-size="10" fill="#6b7280">⚫ 关闭的像素 = 完全黑色</text>
+      <text x="590" y="232" text-anchor="middle" font-size="10" fill="#34d399">✓ 纯黑：断电像素完全不发光</text>
+    </svg>
+  </div>
+
+  <!-- WRGB OLED -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">📺</div><div><h3>WRGB OLED（LG WOLED）</h3><div class="family-subtitle">电视 OLED 的绝对主力 · 白色子像素增强亮度</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">LG Display 的专利方案。在传统 RGB 三个子像素之外增加一个白色（W）子像素。纯 RGB 时色彩准确，需要高亮度时白色子像素介入增强，但高亮度下色彩饱和度会有所下降（White Wash 效应）。</div>
+        <div class="specs" style="margin-top:12px;">
+          <div class="spec-label">峰值亮度</div><div class="spec-value">~1000 nits (OLED evo)</div>
+          <div class="spec-label">对比度</div><div class="spec-value">∞:1（像素级纯黑）</div>
+          <div class="spec-label">色域</div><div class="spec-value">97% DCI-P3</div>
+          <div class="spec-label">响应时间</div><div class="spec-value">0.1ms</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>光线下表现</h4>
+        <div class="summary">暗室表现无敌——每一个星星都在纯黑背景上独立发光。明亮客厅则受限于峰值亮度不如 Mini-LED，但有抗反射涂层的型号（如 LG C5/C4）在白天也能接受。最大风险是烧屏（Burn-in）：长期显示固定元素（台标、HUD）会被永久烙印。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- QD-OLED -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🔮</div><div><h3>QD-OLED（Samsung）</h3><div class="family-subtitle">量子点 + OLED 的梦幻组合 · 色彩最纯粹</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">Samsung Display 的方案：蓝色 OLED 发光层作为基底，上方覆盖量子点转换层，将蓝光分别转换为纯红和纯绿。因为没有白色子像素和彩色滤光片，色彩纯净度极高，高亮度下也能维持饱和度。</div>
+        <div class="specs">
+          <div class="spec-label">峰值亮度</div><div class="spec-value">~1650 nits</div>
+          <div class="spec-label">色域</div><div class="spec-value">99% DCI-P3</div>
+          <div class="spec-label">色准</div><div class="spec-value">Pantone 认证</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点</h4>
+        <div class="summary">亮度比 WRGB OLED 高，暗室色彩保真度最佳。但黑色在环境光下可能微微泛紫（因缺少偏光片）。成本高于 WOLED，价格通常是同尺寸 WOLED 的 1.5-2 倍。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AMOLED -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">📱</div><div><h3>AMOLED（Active Matrix OLED）</h3><div class="family-subtitle">手机屏幕之王 · 柔性 · 超薄</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">每个像素由独立的 TFT 薄膜晶体管驱动（Active Matrix）。主流手机屏幕的 RGB 排列通常不是标准 RGB，而是 Pentile/Diamond 排列（共用蓝色/红色子像素），在同等分辨率下文字清晰度略低于 LCD。</div>
+        <div class="specs">
+          <div class="spec-label">峰值亮度</div><div class="spec-value">1000-2600 nits</div>
+          <div class="spec-label">刷新率</div><div class="spec-value">1-120Hz (LTPO)</div>
+          <div class="spec-label">色域</div><div class="spec-value">100% DCI-P3</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点</h4>
+        <div class="summary">可做曲面、折叠，支持 Always-On Display（仅点亮部分像素显示时间）。低亮度下 PWM 调光可能导致部分人眼睛疲劳（DC 调光模式可缓解）。户外峰值亮度足够强光下也能看清。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Micro OLED -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🥽</div><div><h3>Micro OLED（OLEDoS）硅基 OLED</h3><div class="family-subtitle">XR 头显的标配 · 像素密度之王</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">将 OLED 直接制作在单晶硅背板上（而非玻璃），像素尺寸仅 4-7μm。单眼分辨率可达 4K+，PPI 高达 3000+。Apple Vision Pro 采用双 Micro OLED 屏幕，单眼分辨率超过 4K。</div>
+        <div class="specs">
+          <div class="spec-label">像素密度</div><div class="spec-value">3000+ PPI</div>
+          <div class="spec-label">尺寸</div><div class="spec-value">0.5-1.4 英寸</div>
+          <div class="spec-label">亮度</div><div class="spec-value">1000-5000 nits</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>特点</h4>
+        <div class="summary">主要用于 VR/AR/MR 头显。极其微小但清晰无比——在 1 英寸大小的屏幕上塞进 4K 分辨率。Sony 和 BOE 是主要供应商。成本极高，Vision Pro 售价 ¥29,999。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAMILY 4: MICRO-LED ==================== -->
+<section id="microled">
+  <h2><span class="icon">🌟</span> Micro-LED —— 终极显示技术</h2>
+  <p class="lead">Micro-LED 使用无机半导体材料（GaN）制成微米级的自发光 LED，兼具 OLED 的纯黑对比度和 Mini-LED 的超高亮度，同时不会烧屏。是目前理论上的终极显示方案——但量产极其困难，价格极其昂贵。</p>
+
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🏆</div><div><h3>Micro-LED 核心技术特性</h3><div class="family-subtitle">无机自发光 · 模块化 · 不烧屏 · 100,000 小时寿命</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>为什么是终极方案？</h4>
+        <div class="summary">
+          ✅ <strong>完美黑位：</strong>像素自发光，关闭即纯黑<br>
+          ✅ <strong>超高亮度：</strong>2000-5000+ nits，远超 OLED<br>
+          ✅ <strong>不烧屏：</strong>无机材料，寿命 100,000 小时以上<br>
+          ✅ <strong>模块化：</strong>可拼接任意尺寸（110 寸到 1000 寸）<br>
+          ✅ <strong>超快响应：</strong>&lt;1μs，无拖影<br>
+          ✅ <strong>宽色域：</strong>100% DCI-P3<br>
+          ❌ <strong>天价：</strong>Samsung The Wall 110 寸约 ¥105 万
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>当前困境与前景</h4>
+        <div class="summary">Micro-LED 的核心难题是「巨量转移」——需要将数百万颗 μm 级 LED 芯片精准转移到驱动背板上，良率极低。目前仅实现 110 寸以上的高端商用产品。消费级 Micro-LED 电视（如 75-98 寸）预计 2027-2028 年才能大规模量产，价格有望降至 5-10 万元。</div>
+        <div class="highlight-box orange"><strong>现状：</strong>商用/超高端奢侈品级。普通消费者还需等待 3-5 年。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FAMILY 5: E-INK ==================== -->
+<section id="eink">
+  <h2><span class="icon">📖</span> E-Ink 电子墨水屏家族</h2>
+  <p class="lead">E-Ink（电子墨水）是一种完全不同的显示理念——它不是发光体，而是反射环境光，像真正的纸张一样。核心技术是微胶囊电泳：胶囊内悬浮带正/负电荷的黑白粒子，电场控制粒子上下移动形成图像。双稳态特性意味着画面静止时完全不耗电。</p>
+
+  <!-- E-Ink Principle SVG -->
+  <div class="svg-diagram">
+    <svg viewBox="0 0 840 520" xmlns="http://www.w3.org/2000/svg">
+      <text x="420" y="22" text-anchor="middle" font-size="14" font-weight="700" fill="#1e293b">E-Ink 电子墨水显示原理</text>
+
+      <!-- Microcapsule -->
+      <rect x="60" y="40" width="280" height="200" rx="12" fill="#f0fdf4" stroke="#10b981" stroke-width="2"/>
+      <text x="200" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#047857">黑白 E-Ink · 微胶囊结构</text>
+
+      <circle cx="140" cy="130" r="55" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <text x="140" y="100" text-anchor="middle" font-size="9" fill="#64748b">透明液体</text>
+      <circle cx="130" cy="125" r="10" fill="#fff" stroke="#94a3b8"/>
+      <text x="130" y="129" text-anchor="middle" font-size="6" fill="#64748b">⊕白</text>
+      <circle cx="150" cy="140" r="10" fill="#1e293b" stroke="#334155"/>
+      <text x="150" y="144" text-anchor="middle" font-size="6" fill="#fff">⊖黑</text>
+
+      <circle cx="250" cy="130" r="55" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+      <circle cx="240" cy="140" r="11" fill="#fff" stroke="#94a3b8"/>
+      <text x="240" y="144" text-anchor="middle" font-size="6" fill="#64748b">⊕白</text>
+      <circle cx="260" cy="120" r="11" fill="#1e293b" stroke="#334155"/>
+      <text x="260" y="124" text-anchor="middle" font-size="6" fill="#fff">⊖黑</text>
+
+      <text x="200" y="210" text-anchor="middle" font-size="10" fill="#059669">⚡ 电场翻转 → 粒子移动 → 刷新</text>
+      <text x="200" y="228" text-anchor="middle" font-size="9" fill="#64748b">画面静止后无需电力维持（双稳态）</text>
+
+      <!-- Kaleido -->
+      <rect x="370" y="40" width="200" height="200" rx="12" fill="#fdf4ff" stroke="#a855f7" stroke-width="2"/>
+      <text x="470" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#7e22ce">Kaleido 3 彩色方案</text>
+      <rect x="390" y="80" width="160" height="55" rx="4" fill="#fce7f3" stroke="#ec4899" stroke-width="1"/>
+      <text x="470" y="105" text-anchor="middle" font-size="10" font-weight="600" fill="#9d174d">彩色滤光片 (CFA)</text>
+      <text x="470" y="120" text-anchor="middle" font-size="9" fill="#be185d">R / G / B 滤光阵列</text>
+      <rect x="390" y="145" width="160" height="55" rx="4" fill="#f0fdf4" stroke="#10b981" stroke-width="1"/>
+      <text x="470" y="170" text-anchor="middle" font-size="10" font-weight="600" fill="#047857">黑白 E-Ink 层</text>
+      <text x="470" y="185" text-anchor="middle" font-size="9" fill="#059669">显示灰度底图</text>
+      <text x="470" y="218" text-anchor="middle" font-size="9" fill="#7e22ce">黑白 300PPI / 彩色 150PPI</text>
+      <text x="470" y="232" text-anchor="middle" font-size="9" fill="#64748b">滤光片减光 → 屏幕偏暗</text>
+
+      <!-- Gallery 3 -->
+      <rect x="600" y="40" width="210" height="200" rx="12" fill="#fefce8" stroke="#eab308" stroke-width="2"/>
+      <text x="705" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#a16207">Gallery 3 (ACeP) 彩色方案</text>
+      <rect x="625" y="82" width="160" height="30" rx="4" fill="#fef2f2" stroke="#ef4444"/>
+      <text x="705" y="102" text-anchor="middle" font-size="10" fill="#b91c1c">青色 (C) 粒子层</text>
+      <rect x="625" y="118" width="160" height="30" rx="4" fill="#fdf4ff" stroke="#a855f7"/>
+      <text x="705" y="138" text-anchor="middle" font-size="10" fill="#7e22ce">洋红 (M) 粒子层</text>
+      <rect x="625" y="154" width="160" height="30" rx="4" fill="#fefce8" stroke="#eab308"/>
+      <text x="705" y="174" text-anchor="middle" font-size="10" fill="#a16207">黄色 (Y) 粒子层</text>
+      <text x="705" y="210" text-anchor="middle" font-size="9" fill="#a16207">CMY 四粒子全色域</text>
+      <text x="705" y="226" text-anchor="middle" font-size="9" fill="#ca8a04">300PPI 全彩色 · 刷新慢</text>
+
+      <!-- Spec table -->
+      <text x="420" y="285" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">三种 E-Ink 彩色方案对比</text>
+      <rect x="60" y="298" width="750" height="80" rx="6" fill="#f8fafc" stroke="#e2e8f0"/>
+      <text x="110" y="322" text-anchor="middle" font-size="10" fill="#64748b">方案</text>
+      <text x="250" y="322" text-anchor="middle" font-size="10" fill="#64748b">色彩方式</text>
+      <text x="390" y="322" text-anchor="middle" font-size="10" fill="#64748b">分辨率</text>
+      <text x="510" y="322" text-anchor="middle" font-size="10" fill="#64748b">刷新速度</text>
+      <text x="650" y="322" text-anchor="middle" font-size="10" fill="#64748b">色彩表现</text>
+      <text x="770" y="322" text-anchor="middle" font-size="10" fill="#64748b">代表产品</text>
+
+      <text x="110" y="348" text-anchor="middle" font-size="10" fill="#7e22ce">Kaleido 3</text>
+      <text x="250" y="348" text-anchor="middle" font-size="9" fill="#334155">黑白层 + RGB 滤光片</text>
+      <text x="390" y="348" text-anchor="middle" font-size="9" fill="#334155">黑白 300 / 彩色 150</text>
+      <text x="510" y="348" text-anchor="middle" font-size="9" fill="#334155">较快 · 支持动画</text>
+      <text x="650" y="348" text-anchor="middle" font-size="9" fill="#334155">4096色 · 饱和度一般</text>
+      <text x="770" y="348" text-anchor="middle" font-size="9" fill="#334155">BOOX Leaf5C</text>
+
+      <text x="110" y="368" text-anchor="middle" font-size="10" fill="#a16207">Gallery 3</text>
+      <text x="250" y="368" text-anchor="middle" font-size="9" fill="#334155">CMY 四色粒子直接混合</text>
+      <text x="390" y="368" text-anchor="middle" font-size="9" fill="#334155">300 PPI 全彩色</text>
+      <text x="510" y="368" text-anchor="middle" font-size="9" fill="#334155">慢 · 1-1.5秒/页</text>
+      <text x="650" y="368" text-anchor="middle" font-size="9" fill="#334155">50,000色 · 接近印刷</text>
+      <text x="770" y="368" text-anchor="middle" font-size="9" fill="#334155">大我 Galy</text>
+    </svg>
+  </div>
+
+  <!-- E-Ink B&W -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">📄</div><div><h3>经典黑白 E-Ink</h3><div class="family-subtitle">最接近纸张的电子阅读体验</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>显示原理</h4>
+        <div class="summary">微胶囊内含带正电的白粒子和带负电的黑粒子。电场控制粒子上浮/下沉形成黑白图像。双稳态：图像形成后完全断电也能保持（像写在纸上的字一样），刷新时才耗电。</div>
+        <div class="specs">
+          <div class="spec-label">分辨率</div><div class="spec-value">300 PPI (7寸)</div>
+          <div class="spec-label">色深</div><div class="spec-value">16 级灰度</div>
+          <div class="spec-label">刷新率</div><div class="spec-value">~7.5fps（快速模式）</div>
+          <div class="spec-label">对比度</div><div class="spec-value">15:1</div>
+          <div class="spec-label">功耗</div><div class="spec-value">刷新时才耗电</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>光线下表现</h4>
+        <div class="summary">这是 E-Ink 最大的卖点——<strong>户外阳光直射下完美可读</strong>。它是反射式显示，越亮越清晰，和纸质书完全一样的阅读体验。没有背光、没有蓝光伤害、没有频闪。内置阅读灯（Front Light，从屏幕上方打光而非背光）让暗光下也能阅读。长时间阅读眼睛不累。</div>
+        <div class="highlight-box green"><strong>最佳场景：</strong>长时间文字阅读、户外使用、学术论文批注。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Color E-Ink -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🎨</div><div><h3>彩色 E-Ink 方案对比</h3></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>Kaleido 3</h4>
+        <div class="summary">主流消费级彩色方案。在黑白 E-Ink 上方叠加 RGB 彩色滤光片阵列。滤光片会衰减光线 → 屏幕比黑白暗、彩色只有 150PPI（黑白 300PPI）。但刷新速度可接受，适合看漫画和彩色杂志。</div>
+        <div class="specs"><div class="spec-label">颜色数</div><div class="spec-value">4,096 色</div><div class="spec-label">代表</div><div class="spec-value">BOOX Leaf5C ¥1,799</div></div>
+      </div>
+      <div class="tech-card">
+        <h4>Gallery 3 (ACeP)</h4>
+        <div class="summary">每个微胶囊内含青/洋红/黄/白四色粒子，无需滤光片即可呈现全彩。300PPI 全彩色、超过 50,000 种颜色、色彩接近印刷品质。代价是刷新极慢（1-1.5 秒/页），不适合频繁翻页的阅读场景，更适合电子相框、广告牌。</div>
+        <div class="specs"><div class="spec-label">颜色数</div><div class="spec-value">50,000+ 色</div><div class="spec-label">代表</div><div class="spec-value">大我 Galy ~¥3,500</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- E-Ink Spectra -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">🏷️</div><div><h3>E-Ink Spectra 系列</h3><div class="family-subtitle">电子价签 · 物流标签 · 户外广告牌</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术特点</h4>
+        <div class="summary">针对商用场景优化：支持黑/白/红/黄多色显示，超低功耗（纽扣电池驱动数月），耐候性强。汉朔（Hanshow）是全球最大电子价签供应商，广泛用于超市、仓库。Waveform 技术可实现局部刷新。</div>
+      </div>
+      <div class="tech-card">
+        <h4>适用场景</h4>
+        <div class="summary">商超电子价签、物流标签、会议桌牌、公交站牌、户外信息牌。不适合消费级阅读，但在商业显示领域无可替代。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== REFLECTIVE ==================== -->
+<section id="reflective">
+  <h2><span class="icon">🪞</span> 反射式 / 半反半透 LCD</h2>
+  <p class="lead">介于 E-Ink 和传统 LCD 之间：在阳光下利用反射环境光、暗处则开启背光。是户外运动手表的首选屏幕方案，也是极少数「不用背光就能看」的彩色屏。</p>
+
+  <div class="family">
+    <div class="family-header"><div class="family-icon">⌚</div><div><h3>Transflective LCD（半反半透）</h3><div class="family-subtitle">户外无需背光也能看 · 运动手表标配</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术原理</h4>
+        <div class="summary">在传统 LCD 像素中集成反射层。每个子像素一半是透射区（背光），一半是反射区（反射环境光）。阳光下靠反射层显示 → 越亮越清晰；暗处开启背光 → 正常显示。Garmin 称之为 MIP（Memory-In-Pixel）屏。</div>
+        <div class="specs">
+          <div class="spec-label">阳光下可读</div><div class="spec-value">⭐⭐⭐⭐⭐</div>
+          <div class="spec-label">色彩</div><div class="spec-value">低饱和度（反射模式）</div>
+          <div class="spec-label">功耗</div><div class="spec-value">极低（反射模式 0 功耗）</div>
+        </div>
+      </div>
+      <div class="tech-card">
+        <h4>代表产品</h4>
+        <div class="summary">Garmin Fenix 系列（Fenix 8 MIP 版）、Suunto、Coros 户外手表。在户外跑步/骑行/登山时，阳光越强、屏幕越清晰，且几乎不耗电——一次充电用数周。缺点是室内色彩暗淡、分辨率低（小尺寸 240×240 级别）。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RLCD -->
+  <div class="family">
+    <div class="family-header"><div class="family-icon">☀️</div><div><h3>RLCD（Reflective LCD）全反射式</h3><div class="family-subtitle">完全没有背光 · 极致户外可读</div></div></div>
+    <div class="tech-grid">
+      <div class="tech-card">
+        <h4>技术特点</h4>
+        <div class="summary">完全依赖环境光反射，不设背光源。功耗极低，阳光下完美可读。彩色 RLCD 近年来有新产品出现（如 Sun Vision Display 的 32 寸户外显示器），可在阳光直射下以彩色显示内容，但整体色彩饱和度偏低。</div>
+      </div>
+      <div class="tech-card">
+        <h4>局限</h4>
+        <div class="summary">暗环境下完全不可用（因为没有背光）。应用场景非常受限，主要在户外广告牌、公交站牌等有充足环境光的场所。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== PROJECTION ==================== -->
+<section id="projection">
+  <h2><span class="icon">🎬</span> 投影技术</h2>
+  <p class="lead">投影仪不是传统意义上的「屏幕」，但它是大尺寸显示的重要解决方案。三种主流技术各有优劣。</p>
+
+  <div class="tech-grid">
+    <div class="tech-card">
+      <h4>DLP（Digital Light Processing）</h4>
+      <div class="summary">德州仪器（TI）的 DMD 芯片上有数百万个微型镜片，每个镜片对应一个像素，通过倾斜控制光反射。优势是锐度高、体积小、寿命长。单 DLP 靠色轮分色，可能出现「彩虹效应」。代表：极米、坚果。</div>
+      <div class="specs"><div class="spec-label">亮度</div><div class="spec-value">3000-4000 ISO 流明</div><div class="spec-label">代表产品</div><div class="spec-value">极米 RS 10 Ultra ¥9,999</div></div>
+    </div>
+    <div class="tech-card">
+      <h4>LCoS（Liquid Crystal on Silicon）</h4>
+      <div class="summary">液晶层涂在硅基反射镜上，分辨率极高、像素间隙极小（无纱窗效应）、黑色表现好。成本高、体积大。Sony SXRD 和 JVC D-ILA 是 LCoS 变体。代表：Sony 高端家用投影。</div>
+      <div class="specs"><div class="spec-label">原生 4K</div><div class="spec-value">4096×2160</div><div class="spec-label">代表产品</div><div class="spec-value">Sony VPL-XW5000 ¥29,999</div></div>
+    </div>
+    <div class="tech-card">
+      <h4>3LCD（Three-Chip LCD）</h4>
+      <div class="summary">Epson 专利。白光分离为 RGB 三路，分别通过三片 LCD 面板再合成。色彩亮度最高（彩色亮度 = 白色亮度），无彩虹效应。缺点是对比度不如 DLP、面板老化后有偏色风险。代表：Epson。</div>
+      <div class="specs"><div class="spec-label">色彩亮度</div><div class="spec-value">高（COLOR LIGHT OUTPUT）</div><div class="spec-label">代表产品</div><div class="spec-value">Epson TW6280T ¥7,499</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== LEGACY ==================== -->
+<section id="legacy">
+  <h2><span class="icon">📼</span> 历史/过渡技术</h2>
+  <div class="tech-grid">
+    <div class="tech-card">
+      <h4>CRT（Cathode Ray Tube）阴极射线管</h4>
+      <div class="summary">电子枪发射电子束扫描荧光屏。优势：原生零输入延迟、完美黑色、任意分辨率不模糊、高刷新率。缺点：体积巨大、功耗高、有辐射。在复古游戏圈仍有忠实用户（Sony PVM/BVM 彩监）。</div>
+    </div>
+    <div class="tech-card">
+      <h4>Plasma 等离子</h4>
+      <div class="summary">小气室内的等离子体放电激发荧光粉发光。自发光、对比度极高、运动清晰度极佳。2000-2014 年间的「画质之王」（Pioneer Kuro、Panasonic Viera）。因功耗太高、无法做 4K 小尺寸而被淘汰。</div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== COMPARISON MATRIX ==================== -->
+<section id="matrix">
+  <h2><span class="icon">📊</span> 综合对比矩阵</h2>
+  <p class="lead">10 维度横向对比，从亮度、色彩到功耗、价格，一览各技术的优劣势。评分 1-5 星。</p>
+
+  <div class="matrix-wrap">
+    <table class="matrix">
+      <thead>
+        <tr>
+          <th style="min-width:110px">技术</th>
+          <th>亮度</th><th>对比度</th><th>色域</th><th>响应</th>
+          <th>刷新率</th><th>视角</th><th>烧屏风险</th><th>功耗</th><th>价格</th><th>综合</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>TN LCD</td><td>⭐⭐</td><td>⭐⭐</td><td>⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td>⭐⭐</td><td class="score-5">无</td><td>⭐⭐</td><td class="score-5">¥</td><td class="score-3">7.0</td></tr>
+        <tr><td>IPS LCD</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">无</td><td>⭐⭐</td><td class="score-4">¥¥</td><td class="score-4">8.0</td></tr>
+        <tr><td>VA LCD</td><td>⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">无</td><td>⭐⭐</td><td class="score-4">¥¥</td><td class="score-4">7.5</td></tr>
+        <tr><td>Mini-LED</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">无</td><td>⭐⭐</td><td class="score-3">¥¥¥</td><td class="score-4">8.5</td></tr>
+        <tr><td>QD-Mini LED</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">无</td><td>⭐⭐</td><td class="score-3">¥¥¥</td><td class="score-5">9.0</td></tr>
+        <tr><td>OLED (WRGB)</td><td>⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-2">⚠ 有</td><td>⭐⭐⭐</td><td>⭐⭐</td><td class="score-5">8.5</td></tr>
+        <tr><td>QD-OLED</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-2">⚠ 有</td><td>⭐⭐⭐</td><td class="score-1">¥¥¥¥</td><td class="score-5">9.0</td></tr>
+        <tr><td>AMOLED</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-2">⚠ 轻微</td><td class="score-4">⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td class="score-5">9.0</td></tr>
+        <tr><td>Micro OLED</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-4">⭐⭐⭐⭐</td><td class="score-2">⚠ 有</td><td>⭐⭐⭐</td><td class="score-1">¥¥¥¥¥</td><td class="score-4">8.5</td></tr>
+        <tr><td>Micro-LED</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">无</td><td>⭐⭐⭐</td><td class="score-1">¥¥¥¥¥</td><td class="score-5">9.5</td></tr>
+        <tr><td>E-Ink 黑白</td><td class="score-na">N/A(反射)</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐</td><td>⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">无</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">¥</td><td class="score-4">7.5</td></tr>
+        <tr><td>E-Ink Kaleido</td><td class="score-na">N/A(反射)</td><td>⭐⭐⭐</td><td>⭐⭐</td><td>⭐</td><td>⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">无</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-4">¥¥</td><td class="score-3">7.0</td></tr>
+        <tr><td>E-Ink Gallery 3</td><td class="score-na">N/A(反射)</td><td>⭐⭐⭐</td><td>⭐⭐⭐</td><td>⭐</td><td>⭐</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-5">无</td><td class="score-5">⭐⭐⭐⭐⭐</td><td class="score-3">¥¥¥</td><td class="score-3">7.0</td></tr>
+        <tr><td>Transflective LCD</td><td>⭐⭐</td><td>⭐⭐</td><td>⭐⭐</td><td>⭐⭐</td><td>⭐⭐</td><td>⭐⭐⭐</td><td class="score-5">无</td><td class="score-5">⭐⭐⭐⭐⭐</td><td>⭐⭐⭐</td><td class="score-3">6.5</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="text-align:center; font-size:12px; color:var(--text-secondary); margin-top:6px;">※ 评分基于该技术类别的平均水平。具体产品表现可能有所不同。</div>
+</section>
+
+<!-- ==================== LIGHTING ==================== -->
+<section id="lighting">
+  <h2><span class="icon">☀️</span> 光线适应性对比图谱</h2>
+  <p class="lead">不同屏幕技术在不同光线条件下的表现天差地别。以下按「暗室 → 室内 → 阴天户外 → 阳光直射」四种环境，展示各技术的最佳使用场景。</p>
+
+  <div class="family">
+    <h3 style="font-size:16px; margin-bottom:16px;">亮度适应性评分（满分 5 分）</h3>
+
+    <div style="font-weight:600; font-size:13px; color:#475569; margin-bottom:6px;">🏠 暗室 / 深夜</div>
+    <div class="bar-row"><div class="bar-label">OLED / QD-OLED</div><div class="bar-track"><div class="bar-fill purple" style="width:100%"><span>5.0 — 纯黑完美，影院级体验</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">Micro-LED</div><div class="bar-track"><div class="bar-fill purple" style="width:100%"><span>5.0 — 同样纯黑 + 更高亮度</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">QD-Mini LED</div><div class="bar-track"><div class="bar-fill blue" style="width:82%"><span>4.1 — Bloom 光晕略影响</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">VA LCD</div><div class="bar-track"><div class="bar-fill blue" style="width:68%"><span>3.4 — 对比度高但仍漏光</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">E-Ink（开阅读灯）</div><div class="bar-track"><div class="bar-fill green" style="width:60%"><span>3.0 — 前光柔和舒适</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">IPS LCD</div><div class="bar-track"><div class="bar-fill orange" style="width:52%"><span>2.6 — IPS Glow 四角泛白</span></div></div></div>
+
+    <div style="font-weight:600; font-size:13px; color:#475569; margin:16px 0 6px;">🏢 室内办公 / 客厅（正常照明）</div>
+    <div class="bar-row"><div class="bar-label">QD-Mini LED</div><div class="bar-track"><div class="bar-fill blue" style="width:100%"><span>5.0 — 高亮度压制环境光</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">OLED / QD-OLED</div><div class="bar-track"><div class="bar-fill blue" style="width:88%"><span>4.4 — 抗反射涂层加分</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">IPS LCD</div><div class="bar-track"><div class="bar-fill blue" style="width:76%"><span>3.8 — 雾面屏舒适</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">VA LCD</div><div class="bar-track"><div class="bar-fill blue" style="width:72%"><span>3.6 — 视角偏色需正对</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">E-Ink（开阅读灯）</div><div class="bar-track"><div class="bar-fill green" style="width:66%"><span>3.3 — 前光分布均匀</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">TN LCD</div><div class="bar-track"><div class="bar-fill orange" style="width:58%"><span>2.9 — 亮度不足</span></div></div></div>
+
+    <div style="font-weight:600; font-size:13px; color:#475569; margin:16px 0 6px;">🌥️ 阴天 / 窗边（自然光）</div>
+    <div class="bar-row"><div class="bar-label">E-Ink 黑白</div><div class="bar-track"><div class="bar-fill green" style="width:100%"><span>5.0 — 反射自然光，纸感完美</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">Transflective LCD</div><div class="bar-track"><div class="bar-fill green" style="width:90%"><span>4.5 — 反射模式清晰</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">QD-Mini LED</div><div class="bar-track"><div class="bar-fill blue" style="width:72%"><span>3.6 — 需高亮度对抗窗外光</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">E-Ink Kaleido</div><div class="bar-track"><div class="bar-fill green" style="width:72%"><span>3.6 — 滤光片衰减，略暗</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">OLED</div><div class="bar-track"><div class="bar-fill orange" style="width:56%"><span>2.8 — 镜面反光严重</span></div></div></div>
+
+    <div style="font-weight:600; font-size:13px; color:#475569; margin:16px 0 6px;">☀️ 户外阳光直射</div>
+    <div class="bar-row"><div class="bar-label">E-Ink 黑白</div><div class="bar-track"><div class="bar-fill green" style="width:100%"><span>5.0 — 越亮越清晰！</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">Transflective LCD</div><div class="bar-track"><div class="bar-fill green" style="width:92%"><span>4.6 — 反射为主，阅读无压力</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">E-Ink Kaleido</div><div class="bar-track"><div class="bar-fill green" style="width:82%"><span>4.1 — 色彩衰减但可读</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">RLCD</div><div class="bar-track"><div class="bar-fill green" style="width:80%"><span>4.0 — 完全反射，天然适合</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">QD-Mini LED (峰值)</div><div class="bar-track"><div class="bar-fill blue" style="width:52%"><span>2.6 — 需极高亮度勉强可读</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">OLED 手机 (峰值)</div><div class="bar-track"><div class="bar-fill orange" style="width:42%"><span>2.1 — 反光严重，伤眼</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">IPS LCD</div><div class="bar-track"><div class="bar-fill red" style="width:28%"><span>1.4 — 基本不可用</span></div></div></div>
+    <div class="bar-row"><div class="bar-label">TN LCD</div><div class="bar-track"><div class="bar-fill red" style="width:20%"><span>1.0 — 完全不可用</span></div></div></div>
+  </div>
+</section>
+
+<!-- ==================== CUSTOMIZABILITY ==================== -->
+<section id="customize">
+  <h2><span class="icon">⚙️</span> 可定制性总览</h2>
+  <p class="lead">各屏幕技术在色彩、亮度、分辨率、刷新率、物理形态等方面的可定制空间对比。</p>
+
+  <div class="matrix-wrap">
+    <table class="matrix">
+      <thead>
+        <tr>
+          <th style="min-width:110px">技术</th>
+          <th>色彩深度</th><th>亮度范围</th><th>分辨率弹性</th><th>刷新率范围</th><th>尺寸范围</th><th>物理形态</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>TN LCD</td><td>6-bit+FRC</td><td>200-400 nit</td><td>1080p-4K</td><td>60-540Hz</td><td>24-27"</td><td>平面</td></tr>
+        <tr><td>IPS LCD</td><td>8-bit ~ 10-bit</td><td>250-600 nit</td><td>1080p-8K</td><td>60-360Hz</td><td>5-85"</td><td>平面为主</td></tr>
+        <tr><td>VA LCD</td><td>8-bit ~ 10-bit</td><td>300-600 nit</td><td>1080p-4K</td><td>60-240Hz</td><td>24-85"</td><td>曲面/平面</td></tr>
+        <tr><td>Mini-LED</td><td>10-bit ~ 12-bit</td><td>500-5000 nit</td><td>4K-8K</td><td>60-240Hz</td><td>27-110"</td><td>平面/曲面</td></tr>
+        <tr><td>QD-Mini LED</td><td>10-bit ~ 12-bit</td><td>500-5000 nit</td><td>4K-8K</td><td>60-240Hz</td><td>55-110"</td><td>平面/曲面</td></tr>
+        <tr><td>WRGB OLED</td><td>10-bit</td><td>0-1000 nit</td><td>4K-8K</td><td>48-144Hz</td><td>42-97"</td><td>平面/曲面/卷曲/透明</td></tr>
+        <tr><td>QD-OLED</td><td>10-bit</td><td>0-1650 nit</td><td>4K</td><td>48-144Hz</td><td>55-77"</td><td>平面</td></tr>
+        <tr><td>AMOLED</td><td>8-bit ~ 10-bit</td><td>0-2600 nit</td><td>FHD-4K</td><td>1-120Hz LTPO</td><td>1-17"</td><td>柔性/折叠/卷曲</td></tr>
+        <tr><td>Micro OLED</td><td>10-bit</td><td>0-5000 nit</td><td>单眼 4K+</td><td>90-120Hz</td><td>0.5-1.4"</td><td>微型固定</td></tr>
+        <tr><td>Micro-LED</td><td>10-bit ~ 20-bit</td><td>0-5000 nit</td><td>任意(模块化)</td><td>60-120Hz</td><td>任意拼接</td><td>模块化自由组合</td></tr>
+        <tr><td>E-Ink 黑白</td><td>4-bit 灰度</td><td>反射式（环境光）</td><td>167-300 PPI</td><td>&lt;15fps</td><td>1-42"</td><td>柔性/可弯曲</td></tr>
+        <tr><td>E-Ink Kaleido 3</td><td>4096色</td><td>反射式（环境光）</td><td>黑白300/彩色150 PPI</td><td>&lt;12fps</td><td>5-13"</td><td>平面/柔性</td></tr>
+        <tr><td>E-Ink Gallery 3</td><td>50000+色</td><td>反射式（环境光）</td><td>300 PPI</td><td>&lt;2fps</td><td>8-13"</td><td>平面</td></tr>
+        <tr><td>Transflective LCD</td><td>6-bit ~ 8-bit</td><td>反射+背光辅助</td><td>低-中</td><td>固定</td><td>1-5"</td><td>圆形/方形/异形</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="highlight-box purple" style="margin-top:16px">
+    <strong>关键洞察：</strong>OLED 和 AMOLED 在物理形态定制上最具优势——可以做成弯曲、卷曲甚至透明屏幕。Micro-LED 的模块化设计使其可以拼接成任意尺寸和比例（从 110 寸到 1000+ 寸）。E-Ink 的可弯曲特性使其可用于电子标签、智能卡片等超薄设备。
+  </div>
+</section>
+
+<!-- ==================== SCENARIOS ==================== -->
+<section id="scenarios">
+  <h2><span class="icon">🎯</span> 选屏建议（按使用场景）</h2>
+  <p class="lead">没有「最好的屏幕」，只有「最适合你场景的屏幕」。以下是六大典型场景的推荐。</p>
+
+  <div class="scenario-grid">
+    <div class="scenario-card">
+      <h4>🎮 竞技游戏</h4>
+      <div class="rec">推荐：TN (360Hz+) 或 IPS (240-360Hz)</div>
+      <p>响应速度是第一优先级。ZOWIE XL2566K（TN, 360Hz）是 CS/Valorant 选手标配。如果也需要色彩，选 360Hz IPS 如 ROG PG27AQN。</p>
+    </div>
+    <div class="scenario-card">
+      <h4>🎬 家庭影院</h4>
+      <div class="rec">推荐：QD-OLED 或 QD-Mini LED</div>
+      <p>暗室观影 OLED 的纯黑无可替代。客厅明亮环境则 Mini-LED 的亮度优势更明显。Samsung S95D（QD-OLED）和 TCL Q10L（QD-Mini LED）都是顶级选择。</p>
+    </div>
+    <div class="scenario-card">
+      <h4>🎨 专业设计</h4>
+      <div class="rec">推荐：IPS（10-bit, 硬件校色）</div>
+      <p>色准 ΔE&lt;2、硬件校色、100% sRGB/DCI-P3 是刚需。Dell U2724D 或 Eizo ColorEdge 系列。不推荐 OLED（烧屏+色彩随老化漂移）。</p>
+    </div>
+    <div class="scenario-card">
+      <h4>📖 长时间阅读</h4>
+      <div class="rec">推荐：E-Ink 黑白 / Kaleido 彩色</div>
+      <p>零蓝光、零频闪、纸质感。Kindle Paperwhite 是入门首选，如需开放系统和彩色漫画选 BOOX Leaf5C。一天看 8 小时眼不累——其他屏幕做不到。</p>
+    </div>
+    <div class="scenario-card">
+      <h4>🏕️ 户外使用</h4>
+      <div class="rec">推荐：E-Ink / Transflective LCD</div>
+      <p>阳光直射场景 E-Ink 无敌。需要彩色+运动数据监控（如跑步）则 Garmin Fenix 的 MIP 半反半透屏是唯一解。手机/平板在烈日下基本不可用。</p>
+    </div>
+    <div class="scenario-card">
+      <h4>🥽 VR/AR/MR 头显</h4>
+      <div class="rec">推荐：Micro OLED (OLEDoS)</div>
+      <p>高 PPI（3000+）是 VR 消除纱窗效应的前提。Apple Vision Pro、Meta Quest 系列均采用 Micro OLED。未来 Micro-LED 可能成为终极头显屏幕。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== E-INK DEEP DIVE ==================== -->
+<section id="eink-deep">
+  <h2><span class="icon">🔬</span> E-ink 墨水屏深度探索 <span style="font-size:0.7em;font-weight:400;color:#92400e;background:#fef3c7;padding:2px 10px;border-radius:10px;">小红书真实产品图</span></h2>
+  <p class="lead">以下内容基于小红书（XHS）平台的真实用户开箱、实拍和深度体验帖，覆盖四大品类：便携阅读器、彩色墨水屏、墨水屏手机、墨水屏显示器。所有图片链接均为小红书用户实拍，非 AI 生成。</p>
+
+  <!-- Category 1: 便携阅读器 -->
+  <div class="family-card" style="margin-bottom:24px;">
+    <div class="fc-header"><span class="fc-tag" style="background:#f0fdf4;color:#166534;">品类一</span><h3>📖 便携墨水屏阅读器（6-7寸）</h3><span class="fc-count">最主流品类</span></div>
+    <div class="deep-grid">
+      <!-- Kindle Scribe 2025 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i6.xhscdn.com/notes_pre_post/1040g3k0320kf0bp8m25g5nrs2rtg8pu25ua1c60?imageView2/2/w/720/format/webp/q/85" alt="Kindle Scribe 2025 开箱" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 Kindle Scribe 2025 开箱实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">Kindle Scribe 2025</div>
+          <div class="deep-tags"><span>10.2" 300PPI</span><span>四边等宽</span><span>手写笔</span></div>
+          <div class="deep-quote">"Kindle 集大成之作，墨水屏设计的最后一公里，无可挑剔的工业设计。"</div>
+          <div class="deep-meta">👍 365 · ⭐ 166 · 💬 161 · @YYY</div>
+          <a href="https://www.xiaohongshu.com/explore/6a15477f000000000803ce50" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- Kindle Scribe 2025 开箱2 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i6.xhscdn.com/note_pre_post_uhdr/1040g3r831qoojg6e7o5g5orf4m97rerdqvdcc6o?imageView2/2/w/720/format/webp/q/85" alt="Kindle Scribe 2025 无前光版开箱" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 Kindle Scribe 2025 详细开箱</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">Kindle Scribe 2025 黑白款</div>
+          <div class="deep-tags"><span>无前光/有前光</span><span>64G</span><span>对比2022款</span></div>
+          <div class="deep-quote">"前光均匀，没有亮点坏点。比 2022 款轻了 30g，反应速度也更快。"</div>
+          <div class="deep-meta">👍 168 · ⭐ 57 · 💬 94 · @欧阳杼</div>
+          <a href="https://www.xiaohongshu.com/explore/695514110000000022020876" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 文石 Leaf5+ -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/notes_pre_post/1040g3k8320o9m074mecg5ps3caki7jef0d5v8n8?imageView2/2/w/720/format/webp/q/85" alt="文石 Leaf5+ 阅读器 奶黄色" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 Leaf5+ 奶黄色实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 Leaf5+</div>
+          <div class="deep-tags"><span>2025新品销量TOP1</span><span>7"</span><span>奶黄/天蓝</span></div>
+          <div class="deep-quote">"618 最值的一次消费！看书护眼又方便，奶黄色超级无敌可爱！"</div>
+          <div class="deep-meta">👍 2461 · ⭐ 238 · 💬 62 · @半眠桃桃</div>
+          <a href="https://www.xiaohongshu.com/explore/6a180e790000000036032bca" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 文石 Poke7 Pro -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/notes_pre_post/1040g3k0320kgrm2km23g5ng85olg84i2b03h1d8?imageView2/2/w/720/format/webp/q/85" alt="文石 Poke7 Pro 淡蓝色" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 Poke7 Pro 淡蓝色实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 Poke7 Pro</div>
+          <div class="deep-tags"><span>6"</span><span>高通8核</span><span>淡蓝色机身</span></div>
+          <div class="deep-quote">"纠结好久终于下手了！淡淡蓝色很好看，实物比图片美，选对了！"</div>
+          <div class="deep-meta">👍 105 · ⭐ 56 · 💬 15 · @爱吃饭的小麦</div>
+          <a href="https://www.xiaohongshu.com/explore/6a1558ae000000003703475d" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 汉王 Clear7 锦鲤 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/1040g2sg31upd3epe2af05plslq5nc3tncv0ga38?imageView2/2/w/720/format/webp/q/85" alt="汉王 Clear7 锦鲤 开箱" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 汉王 Clear7 锦鲤 开箱实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">汉王 Clear7 锦鲤</div>
+          <div class="deep-tags"><span>7" Carta1300</span><span>CNC铝合金</span><span>锦鲤橙配色</span></div>
+          <div class="deep-quote">"被李雪琴种草的！刷新快到我以为开了倍速！CNC 铝合金中框手感绝了。"</div>
+          <div class="deep-meta">👍 1170 · ⭐ 350 · @加冰芒果桶</div>
+          <a href="https://www.xiaohongshu.com/explore/69d8cbb3000000001a020f5d" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 汉王 N6Pro -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/1040g0083231o558tnk005n6aqug4n95p0b9k3n0?imageView2/2/w/720/format/webp/q/85" alt="汉王 N6Pro 开箱实拍" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 汉王 N6Pro 开箱实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">汉王 N6Pro</div>
+          <div class="deep-tags"><span>6" 300PPI</span><span>纯平减屏层</span><span>无背光无触控</span></div>
+          <div class="deep-quote">"减屏层设计让底色更白，白天室内不开灯也能看，追求极致阅读体验的选择。"</div>
+          <div class="deep-meta">👍 33 · ⭐ 12 · 💬 48 · @豆酱</div>
+          <a href="https://www.xiaohongshu.com/explore/6a646b9f000000000301c2c1" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Category 2: 彩色墨水屏 -->
+  <div class="family-card" style="margin-bottom:24px;">
+    <div class="fc-header"><span class="fc-tag" style="background:#fdf2f8;color:#9d174d;">品类二</span><h3>🎨 彩色墨水屏阅读器/平板</h3><span class="fc-count">看漫画 & 笔记神器</span></div>
+    <div class="deep-grid">
+      <!-- 文石 Tab10C 看漫画 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/1040g2sg314pf5aitgs704a5646mojblt5knk97o?imageView2/2/w/720/format/webp/q/85" alt="文石 Tab10C 彩色墨水屏看漫画" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 Tab10C 彩色墨水屏看漫画</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 Tab10C 彩墨平板</div>
+          <div class="deep-tags"><span>10.3" Kaleido 3</span><span>彩色4096色</span><span>开放系统</span></div>
+          <div class="deep-quote">"在家里看电锯人被妈妈撵出来了…找了个舒舒服服的地方，掏出小巧的彩墨屏看漫画，颜色太舒服了！"</div>
+          <div class="deep-meta">👍 3598 · ⭐ 1049 · 💬 40 · @光月定大青蛙</div>
+          <a href="https://www.xiaohongshu.com/explore/6684e4c9000000001e011d14" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 文石 T10C 真假报纸 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/spectrum/1040g0k0317lvv9j00o005o09b6o09atec7bfld0?imageView2/2/w/720/format/webp/q/85" alt="文石 T10C 像报纸一样的显示质感" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 T10C 真假报纸对比</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 T10C 彩墨办公本</div>
+          <div class="deep-tags"><span>10.3" Kaleido 3</span><span>BSR色彩调校2.0</span><span>电磁笔</span></div>
+          <div class="deep-quote">"这一刻，「纸感显示」这个词具象化了！和真实报纸放在一起，简直分不出来！"</div>
+          <div class="deep-meta">👍 118 · ⭐ 15 · 💬 28 · @文石BOOX</div>
+          <a href="https://www.xiaohongshu.com/explore/66e3d761000000000c01a779" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 文石 T10C 实拍 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/spectrum/1040g34o3180gjc7l0q0g5o09b6o09ateu0th2eg?imageView2/2/w/720/format/webp/q/85" alt="文石 T10C 实拍图" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 T10C 用户实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 T10C（用户好评）</div>
+          <div class="deep-tags"><span>Kaleido 3</span><span>色彩不艳不俗</span><span>轻薄办公</span></div>
+          <div class="deep-quote">"如果不是亲眼所见，你敢信？文石彩墨调校 2.0 技术优化后，色彩不艳不俗，刚刚好的舒服。"</div>
+          <div class="deep-meta">👍 156 · ⭐ 36 · 💬 54 · @文石BOOX</div>
+          <a href="https://www.xiaohongshu.com/explore/66ee6a61000000000c01b75d" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- Tab10C 考试用 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/1040g2sg30t29lfmi3q004a46vr34bj1lknqon1g?imageView2/2/w/720/format/webp/q/85" alt="彩色墨水屏备考中级经济师" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 Tab10C 备考刷题场景</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 Tab10C（备考神器）</div>
+          <div class="deep-tags"><span>PDF讲义</span><span>APP刷题</span><span>彩色标记</span></div>
+          <div class="deep-quote">"用来看中级经济师 PDF 讲义和刷题，然后我一次性考过了！彩墨屏笔记太方便了！"</div>
+          <div class="deep-meta">👍 875 · ⭐ 558 · 💬 138 · @高乐糕</div>
+          <a href="https://www.xiaohongshu.com/explore/6587ca2f000000000901b30e" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 阳光下的彩墨屏 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/spectrum/1040g34o31l5fsf6c2a305pcrom98h632ct0sv8g?imageView2/2/w/720/format/webp/q/85" alt="阳光下的彩色墨水屏" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 阳光下的彩色墨水屏阅读</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">阳光下的彩色墨水屏</div>
+          <div class="deep-tags"><span>户外可读</span><span>色彩舒服</span><span>不刺眼</span></div>
+          <div class="deep-quote">"真想让你亲眼看看阳光下的彩色墨水屏！屏幕清晰透亮，色彩舒服不刺眼，翻页就像翻纸质书。"</div>
+          <div class="deep-meta">👍 54 · ⭐ 14 · 💬 35 · @文石科技</div>
+          <a href="https://www.xiaohongshu.com/explore/689d8359000000001c03d869" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- T10C+ 新品 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/note_pre_post_uhdr/1040g3r831u669p6m2g904a5t762rhjhmrms1fv0?imageView2/2/w/720/format/webp/q/85" alt="文石 T10C+ 彩墨屏新品" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 T10C+ 用户上手</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 T10C+（新品）</div>
+          <div class="deep-tags"><span>Kaleido 3</span><span>开放系统</span><span>轻办公</span></div>
+          <div class="deep-quote">"用了黑白墨水屏很多年，第一次接触彩墨屏，属实被惊艳到了，开放系统+彩墨屏太香了。"</div>
+          <div class="deep-meta">👍 54 · ⭐ 18 · 💬 23 · @Amoets</div>
+          <a href="https://www.xiaohongshu.com/explore/69c52853000000002301c0a6" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Category 3: 墨水屏手机 -->
+  <div class="family-card" style="margin-bottom:24px;">
+    <div class="fc-header"><span class="fc-tag" style="background:#eff6ff;color:#1e40af;">品类三</span><h3>📱 墨水屏手机</h3><span class="fc-count">护眼极简新选择</span></div>
+    <div class="deep-grid">
+      <!-- 海信 A9 后悔买晚了 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/1040g00831fanumqn6e505ofpt6u8dfe6rfq73hg?imageView2/2/w/720/format/webp/q/85" alt="海信 A9 墨水屏手机" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 海信 A9 墨水屏手机实拍</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">海信 A9</div>
+          <div class="deep-tags"><span>6.1" 300PPI</span><span>6+128G</span><span>骁龙662</span></div>
+          <div class="deep-quote">"后悔买晚了！！用了半个多月，几乎成了另一部主力机。眼睛好受了很多，不吃叶黄素也没不舒服。"</div>
+          <div class="deep-meta">👍 5606 · ⭐ 5204 · 💬 465 · @momo</div>
+          <a href="https://www.xiaohongshu.com/explore/67de4d16000000001d02efa9" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 海信 A9 英区主力机 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/1040g2sg315bnfgvch46g5oge7l2k1t7lv5l4s4o?imageView2/2/w/720/format/webp/q/85" alt="海信 A9 墨水屏做唯一主力机" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 海信 A9 留学主力机体验</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">海信 A9（主力机一年）</div>
+          <div class="deep-tags"><span>英区留学</span><span>唯一手机</span><span>1891元</span></div>
+          <div class="deep-quote">"英区一年，墨水屏做唯一主力机的真实感受。扫码、支付、导航都能用，眼睛再也不累了。"</div>
+          <div class="deep-meta">👍 1942 · ⭐ 1317 · 💬 188 · @江湖骗子</div>
+          <a href="https://www.xiaohongshu.com/explore/6697977b00000000250145ff" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 海信墨水屏回归 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/spectrum/1040g34o322h9ltopn2005qigl2fjvf029rfg2h8?imageView2/2/w/720/format/webp/q/85" alt="海信墨水屏手机项目负责人回归" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 海信墨水屏项目负责人发声</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">海信墨水屏 重磅回归</div>
+          <div class="deep-tags"><span>官方消息</span><span>项目重启</span><span>老左回归</span></div>
+          <div class="deep-quote">"三年后，先认真和大家说一句：好久不见。我是老左，海信墨水屏手机项目的负责人。整整三年，终于能认认真真跟大家说话了。"</div>
+          <div class="deep-meta">👍 944 · ⭐ 227 · 💬 1091 · @海信墨水屏.老左</div>
+          <a href="https://www.xiaohongshu.com/explore/6a5375620000000011006754" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 大我 Hibreak Pro -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/notes_pre_post/1040g3k031ii87r0tgc004atnlnlq6fmfd724koo?imageView2/2/w/720/format/webp/q/85" alt="大我 Hibreak Pro 墨水屏手机" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 大我 Hibreak Pro 墨水屏手机</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">大我 Hibreak Pro</div>
+          <div class="deep-tags"><span>墨水屏手机</span><span>护眼+极简</span><span>Android</span></div>
+          <div class="deep-quote">"护眼+极简=墨水屏手机。使用了两个多月，从毛坯房终于更新成了可堪一用的主力机。"</div>
+          <div class="deep-meta">👍 170 · ⭐ 119 · 💬 25 · @如风如光</div>
+          <a href="https://www.xiaohongshu.com/explore/6848418c000000000f03be64" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 海信 A7 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/1040g008318b797qj3u005p9hbb0qlbr680ea8q8?imageView2/2/w/720/format/webp/q/85" alt="海信 A7 墨水屏手机" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 海信 A7 深度使用</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">海信 A7</div>
+          <div class="deep-tags"><span>6.7"大屏</span><span>海信绝唱</span><span>二手价坚挺</span></div>
+          <div class="deep-quote">"20 年发布至今四年过去，价格逆天的不降反升，海信墨水屏手机的绝唱。买来做主力机用。"</div>
+          <div class="deep-meta">👍 357 · ⭐ 409 · 💬 87 · @繁星</div>
+          <a href="https://www.xiaohongshu.com/explore/66f960aa000000002c02ae09" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 海信 A9 + A5 + A7 全家福 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i1.xhscdn.com/1040g2sg31cv96cd10u705n89kt9k0jp7l3n0kp0?imageView2/2/w/720/format/webp/q/85" alt="海信 A5 A7 A9 全家福" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 海信 A5/A7/A9 全家福对比</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">海信墨水屏全家福</div>
+          <div class="deep-tags"><span>A5 + A7 + A9</span><span>三代同堂</span><span>对比展示</span></div>
+          <div class="deep-quote">"一家三口👨‍👩‍👧 左边 A9，中间 A5，右边 A7。不得不说海信每一代都有自己的味道。"</div>
+          <div class="deep-meta">👍 167 · ⭐ 69 · 💬 105 · @咩咩羊</div>
+          <a href="https://www.xiaohongshu.com/explore/6790fd960000000029011a0c" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Category 4: 墨水屏显示器 -->
+  <div class="family-card" style="margin-bottom:24px;">
+    <div class="fc-header"><span class="fc-tag" style="background:#fef3c7;color:#92400e;">品类四</span><h3>🖥️ 墨水屏显示器</h3><span class="fc-count">程序员 & 作家的护眼神器</span></div>
+    <div class="deep-grid">
+      <!-- 大上 Paperlike 103 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/1040g2sg31g4mdhqmhecg5oimbu0odfbudlquhao?imageView2/2/w/720/format/webp/q/85" alt="大上科技 60Hz 超高刷墨水屏显示器" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 大上 Paperlike 103 革命者</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">大上 Paperlike 103 革命者</div>
+          <div class="deep-tags"><span>60Hz超高刷</span><span>10.3"</span><span>地表最快</span></div>
+          <div class="deep-quote">"挑战地表最快墨水屏！码字党、网文作家速速围观。60Hz 刷新率，打字终于不卡了！"</div>
+          <div class="deep-meta">👍 1170 · ⭐ 899 · 💬 660 · @DASUNG大上科技</div>
+          <a href="https://www.xiaohongshu.com/explore/67f8d63b000000001c002c13" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 文石 Mira Pro -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/spectrum/1040g0k031gmta0icj4005o09b6o09ate0bb9t48?imageView2/2/w/720/format/webp/q/85" alt="文石 Mira Pro 25.3寸彩墨屏显示器" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 Mira Pro 彩墨显示器</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 Mira Pro 彩墨屏</div>
+          <div class="deep-tags"><span>25.3"巨无霸</span><span>K3彩墨</span><span>铝合金机身</span></div>
+          <div class="deep-quote">"25.3 英寸彩墨屏显示器！铝合金机身，高端护眼办公神器。写代码、看论文、写文档全搞定。"</div>
+          <div class="deep-meta">👍 163 · ⭐ 83 · 💬 73 · @文石BOOX</div>
+          <a href="https://www.xiaohongshu.com/explore/680b553a000000001d022c1b" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- Mira Pro 使用心得 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/1040g008316814j5dhe6g5n22m971ehmagjtqr6g?imageView2/2/w/720/format/webp/q/85" alt="文石 Mira Pro 使用心得" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 文石 Mira Pro 一年半使用心得</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">文石 Mira Pro（深度体验）</div>
+          <div class="deep-tags"><span>25.3"</span><span>干眼症救星</span><span>1年半使用</span></div>
+          <div class="deep-quote">"对于文石 Mira Pro 25.3 墨水屏显示器已使用 1 年半，本人一直是干眼症患者，墨水屏确实是救命的存在。"</div>
+          <div class="deep-meta">👍 173 · ⭐ 116 · 💬 26 · @E-than</div>
+          <a href="https://www.xiaohongshu.com/explore/66b393800000000005038b1e" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 大上 13K 彩色 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/notes_pre_post/1040g3k831i8q5g0l6q605opmfsgm5rcqt5ok0do?imageView2/2/w/720/format/webp/q/85" alt="大上 彩色墨水屏 显示器" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 大上 13K 彩色墨水屏显示器</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">大上 13K 彩色墨水屏</div>
+          <div class="deep-tags"><span>13.3"彩色</span><span>Kaleido 3</span><span>办公神器</span></div>
+          <div class="deep-quote">"购入大上彩色墨水屏啦！很惊喜！最近办公实在是眼睛疼的不行，比较了很多款，最后选了大上。"</div>
+          <div class="deep-meta">👍 49 · ⭐ 60 · 💬 25 · @momo爱护眼</div>
+          <a href="https://www.xiaohongshu.com/explore/683e96f4000000002300e588" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 大上 13K 革命者 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/1040g2sg321fe0u3v74k05oc96dr0kedkoalnef0?imageView2/2/w/720/format/webp/q/85" alt="大上 13K 革命者 天花板" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 大上 13K 革命者 黑白版</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">大上 13K 革命者（黑白）</div>
+          <div class="deep-tags"><span>13.3"</span><span>3K分辨率</span><span>天花板级别</span></div>
+          <div class="deep-quote">"毫无疑问是墨水屏显示器这个领域里，显示效果天花板级别的存在。底色白、对比度高、刷新快。"</div>
+          <div class="deep-meta">👍 71 · ⭐ 49 · 💬 67 · @马上去野</div>
+          <a href="https://www.xiaohongshu.com/explore/6a30e3e9000000001101cb2c" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+      <!-- 墨水屏显示器 值得买吗 -->
+      <div class="deep-card">
+        <div class="deep-img-wrap">
+          <img src="https://sns-na-i4.xhscdn.com/1040g2sg30ubkj8225g004be4l0btnduqbql09h8?imageView2/2/w/720/format/webp/q/85" alt="墨水屏显示器测评" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+          <div class="deep-img-fb" style="display:none;"><span>📷 墨水屏显示器深度测评</span></div>
+        </div>
+        <div class="deep-info">
+          <div class="deep-title">墨水屏显示器测评</div>
+          <div class="deep-tags"><span>多品牌对比</span><span>是否值得买</span><span>深度体验</span></div>
+          <div class="deep-quote">"高强度长时间使用电子屏幕，眼睛容易疲劳酸胀。墨水屏本身不发光，没有频闪和蓝光问题。但刷新率是硬伤。"</div>
+          <div class="deep-meta">👍 98 · ⭐ 36 · 💬 23 · @baLouD</div>
+          <a href="https://www.xiaohongshu.com/explore/65b21f99000000001100c6aa" target="_blank" class="deep-link">在小红书查看 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 总结 -->
+  <div class="highlight-box" style="margin-top:24px;">
+    <strong>📊 小红书墨水屏品类洞察：</strong>
+    <ul style="margin:8px 0 0 0;padding-left:20px;">
+      <li><strong>便携阅读器</strong> 是讨论量最大的品类，文石 Leaf5 获 2025 新品销量 TOP1，汉王靠抽奖营销获大量曝光</li>
+      <li><strong>彩色墨水屏</strong> 关注度增长迅猛，文石 T10C/Tab10C 系列凭借 BSR 色彩调校技术成为标杆</li>
+      <li><strong>墨水屏手机</strong> 是最狂热的细分社群，海信 A9 用户粘性极高，海信项目负责人 2026 年宣布回归引发轰动</li>
+      <li><strong>墨水屏显示器</strong> 是护眼刚需人群（程序员/作家/研究生）的最后防线，大上 60Hz 高刷和文石 Mira Pro 是最受关注的两大产品线</li>
+      <li>用户核心痛点：刷新率不够快、彩色不够鲜艳、价格偏高。但"护眼"这一刚需让大多数用户愿意忍受这些不足。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ==================== PRODUCTS ==================== -->
+<section id="products">
+  <h2><span class="icon">🛒</span> 产品购买参考</h2>
+  <p class="lead">为每一种屏幕技术精选了市售代表产品，附带尺寸、参考价格和购买链接。价格截至 2026 年 7 月，以实际购买时为准。</p>
+
+  <div class="matrix-wrap">
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>#</th><th>屏幕技术</th><th>代表产品</th><th>尺寸</th><th>参考价格</th><th>购买</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td><td>TN LCD</td>
+          <td>ZOWIE XL2566K</td>
+          <td>24.5" / 1080p / 360Hz</td>
+          <td class="price">¥3,768-5,499</td>
+          <td><a href="https://search.jd.com/Search?keyword=ZOWIE+XL2566K" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>2</td><td>IPS LCD</td>
+          <td>Dell UltraSharp U2724D</td>
+          <td>27" / 2K / 120Hz / IPS Black</td>
+          <td class="price">¥2,113-2,499</td>
+          <td><a href="https://search.jd.com/Search?keyword=Dell+U2724D" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>3</td><td>VA LCD</td>
+          <td>Samsung Odyssey G7 32"</td>
+          <td>32" / 2K / 240Hz / 1000R</td>
+          <td class="price">~¥3,500-4,500</td>
+          <td><a href="https://search.jd.com/Search?keyword=三星+Odyssey+G7+32+240Hz" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>4</td><td>FFS LCD</td>
+          <td>Apple iPad（第10代）</td>
+          <td>10.9" / Liquid Retina</td>
+          <td class="price">¥2,999 起</td>
+          <td><a href="https://www.apple.com.cn/ipad-10.9/" target="_blank">Apple 官网</a> <span class="tag official">官网</span></td>
+        </tr>
+        <tr>
+          <td>5</td><td>QD-Mini LED</td>
+          <td>TCL 65Q10L</td>
+          <td>65" / 4K / 144Hz / 万象分区</td>
+          <td class="price">¥4,711-5,975</td>
+          <td><a href="https://search.jd.com/Search?keyword=TCL+65Q10L" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>6</td><td>RGB-Mini LED</td>
+          <td>海信 ULED X 系列</td>
+          <td>65-85" / 4K-8K</td>
+          <td class="price">¥8,000-12,000</td>
+          <td><a href="https://search.jd.com/Search?keyword=海信+ULED+X+Mini+LED" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>7</td><td>WRGB OLED</td>
+          <td>LG C5 65" (OLED65C5PCA)</td>
+          <td>65" / 4K / 144Hz / OLED evo</td>
+          <td class="price">¥10,273-12,699</td>
+          <td><a href="https://search.jd.com/Search?keyword=LG+C5+OLED+65英寸" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>8</td><td>QD-OLED</td>
+          <td>Samsung S95D 65"</td>
+          <td>65" / 4K / 144Hz</td>
+          <td class="price">¥10,267-20,699</td>
+          <td><a href="https://search.jd.com/Search?keyword=三星+S95D+65+QD-OLED" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>9</td><td>AMOLED</td>
+          <td>iPhone 16 Pro</td>
+          <td>6.3" / Super Retina XDR / LTPO</td>
+          <td class="price">¥7,999 起</td>
+          <td><a href="https://www.apple.com.cn/iphone-16-pro/" target="_blank">Apple 官网</a> <span class="tag official">官网</span></td>
+        </tr>
+        <tr>
+          <td>10</td><td>Micro OLED</td>
+          <td>Apple Vision Pro (256GB)</td>
+          <td>双 1.4" Micro OLED / 单眼 4K+</td>
+          <td class="price">¥29,999</td>
+          <td><a href="https://search.jd.com/Search?keyword=Apple+Vision+Pro" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>11</td><td>Micro-LED</td>
+          <td>Samsung The Wall 110"</td>
+          <td>110" / 4K / 模块化拼接</td>
+          <td class="price">¥1,049,999</td>
+          <td><a href="https://www.samsung.com.cn/business/led-signage/the-wall/" target="_blank">Samsung 官网</a> <span class="tag official">官网</span></td>
+        </tr>
+        <tr>
+          <td>12</td><td>E-Ink 黑白</td>
+          <td>Kindle Paperwhite 12th Gen</td>
+          <td>7" / 300 PPI / 防水 IPX8</td>
+          <td class="price">¥1,048-1,529</td>
+          <td><a href="https://search.jd.com/Search?keyword=Kindle+Paperwhite+12代" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>13</td><td>E-Ink Kaleido 3</td>
+          <td>BOOX Leaf5C</td>
+          <td>7" / 黑白300PPI / 彩色150PPI</td>
+          <td class="price">¥1,679-1,799</td>
+          <td><a href="https://search.jd.com/Search?keyword=BOOX+文石+Leaf5C" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>14</td><td>E-Ink Gallery 3</td>
+          <td>Bigme 大我 Galy</td>
+          <td>8" / 300PPI 全彩 / 50,000+色</td>
+          <td class="price">~¥3,500</td>
+          <td><a href="https://search.jd.com/Search?keyword=大我+Galy+Gallery3" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>15</td><td>E-Ink Spectra</td>
+          <td>汉朔(Hanshow)电子价签</td>
+          <td>2-7" / 黑白红黄四色</td>
+          <td class="price">企业采购（批量）</td>
+          <td><a href="https://www.hanshow.com" target="_blank">官网</a> <span class="tag official">官网</span></td>
+        </tr>
+        <tr>
+          <td>16</td><td>Transflective LCD</td>
+          <td>Garmin Fenix 8 (47mm MIP)</td>
+          <td>1.4" / MIP 半反半透</td>
+          <td class="price">¥6,780-9,280</td>
+          <td><a href="https://search.jd.com/Search?keyword=Garmin+Fenix+8+MIP" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>17</td><td>DLP 投影</td>
+          <td>极米 RS 10 Ultra</td>
+          <td>投 80-200" / 4K</td>
+          <td class="price">¥9,999</td>
+          <td><a href="https://search.jd.com/Search?keyword=极米+RS+10+Ultra" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>18</td><td>LCoS 投影</td>
+          <td>Sony VPL-XW5000</td>
+          <td>投 60-300" / 原生 4K SXRD</td>
+          <td class="price">¥29,999</td>
+          <td><a href="https://search.jd.com/Search?keyword=Sony+VPL-XW5000" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+        <tr>
+          <td>19</td><td>3LCD 投影</td>
+          <td>Epson TW6280T</td>
+          <td>投 40-500" / 4K PRO-UHD</td>
+          <td class="price">¥7,499</td>
+          <td><a href="https://search.jd.com/Search?keyword=爱普生+TW6280T" target="_blank">京东</a> <span class="tag jd">JD</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="highlight-box" style="margin-top:12px;">
+    <strong>📌 说明：</strong>价格为补贴/促销后的参考到手价区间，实际购买时请以京东等平台实时价格为准。部分高端/商用产品建议通过品牌官网或授权经销商购买。
+  </div>
+</section>
+
+</div><!-- /container -->
+
+<footer>
+  <div class="container">
+    <p>屏幕显示技术全景研究报告 · 2026年8月 · 数据来源：各品牌官网、京东、什么值得买、知乎、科技媒体</p>
+    <p style="margin-top:4px;">本报告仅供技术研究参考，产品价格以实际购买时为准。产品图由 AI 生成，仅供参考显示效果对比。</p>
+  </div>
+</footer>
+
+</body>
+</html>

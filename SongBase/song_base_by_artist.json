@@ -1,7 +1,7 @@
 {
-  "export_date": "2026-07-28",
+  "export_date": "2026-08-28",
   "total_singers": 436,
-  "total_unique_songs": 1013,
+  "total_unique_songs": 1072,
   "singers": [
     {
       "name": "16层乐队",
@@ -72,77 +72,6 @@
       ]
     },
     {
-      "name": "A Winged Victory for the Sullen",
-      "song_count": 7,
-      "youtube": 3,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "A Symphony Pathetique",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 761,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003YO8pp3KT7u8",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "All Farewells are Sudden",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 455,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Oofbb0mgl5R",
-          "youtube": "https://youtube.com/watch?v=8rHTf-wELfg",
-          "bilibili": ""
-        },
-        {
-          "title": "Minuet for a Cheap Piano Number Two",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 189,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0002ctuk2EYo4a",
-          "youtube": "https://youtube.com/watch?v=A5FtHCcrgbI",
-          "bilibili": ""
-        },
-        {
-          "title": "Requiem for the Static King, Pt. 1",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 165,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000NJkdk1GW30p",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Requiem for the Static King, Pt. 2",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 457,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003DkcVm48zrBY",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Steep Hills of Vicodin Tears",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 266,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000ZPwBn36YQ54",
-          "youtube": "https://youtube.com/watch?v=sudR4wwChFI",
-          "bilibili": ""
-        },
-        {
-          "title": "We Played Some Open Chords and Rejoiced, for the Earth had Circled the Sun Yet Another Year",
-          "full_singer": "A Winged Victory for the Sullen, Adam Wiltzie, Dustin O'Halloran",
-          "album": "A Winged Victory for The Sullen",
-          "duration": 378,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003b3qfJ0TqDOE",
-          "youtube": "",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
       "name": "Adam Young",
       "song_count": 1,
       "youtube": 1,
@@ -203,37 +132,11 @@
       ]
     },
     {
-      "name": "Alabama Shakes",
-      "song_count": 1,
-      "youtube": 1,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "Always Alright",
-          "full_singer": "Alabama Shakes",
-          "album": "Silver Linings Playbook",
-          "duration": 249,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002fOXue4XxDKv",
-          "youtube": "https://youtube.com/watch?v=a99fUbOrqLk",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
       "name": "Alfa Mist",
-      "song_count": 17,
-      "youtube": 15,
+      "song_count": 10,
+      "youtube": 8,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "7th October",
-          "full_singer": "Alfa Mist",
-          "album": "Antiphon",
-          "duration": 249,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001tbde71zlbZU",
-          "youtube": "https://youtube.com/watch?v=GR-JKk_Hlbs",
-          "bilibili": ""
-        },
         {
           "title": "Attune",
           "full_singer": "Alfa Mist",
@@ -241,15 +144,6 @@
           "duration": 424,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Wvz723OsKcX",
           "youtube": "https://youtube.com/watch?v=9e6DeqULpb0",
-          "bilibili": ""
-        },
-        {
-          "title": "Breathe",
-          "full_singer": "Alfa Mist, Kaya Thomas-Dyke",
-          "album": "Antiphon",
-          "duration": 447,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001G4C2J211NxM",
-          "youtube": "https://youtube.com/watch?v=5-hQsfSoxmI",
           "bilibili": ""
         },
         {
@@ -307,57 +201,12 @@
           "bilibili": ""
         },
         {
-          "title": "Mind The Gap",
-          "full_singer": "Alfa Mist, Lex Amor",
-          "album": "Bring Backs",
-          "duration": 208,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Sp0Fn33IHDa",
-          "youtube": "https://youtube.com/watch?v=hVrMjwTZIW0",
-          "bilibili": ""
-        },
-        {
           "title": "Nucleus",
           "full_singer": "Alfa Mist",
           "album": "Antiphon",
           "duration": 402,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Rwyen1wQ0vi",
           "youtube": "https://youtube.com/watch?v=4LW8OZp5GHA",
-          "bilibili": ""
-        },
-        {
-          "title": "Once A Year",
-          "full_singer": "Alfa Mist",
-          "album": "Bring Backs",
-          "duration": 82,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000bNq0S3oeNNy",
-          "youtube": "https://youtube.com/watch?v=J5UXExjmkvk",
-          "bilibili": ""
-        },
-        {
-          "title": "Organic Rust",
-          "full_singer": "Alfa Mist",
-          "album": "Bring Backs",
-          "duration": 276,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003kKAGD0BskKP",
-          "youtube": "https://youtube.com/watch?v=kkkfjpwCv6E",
-          "bilibili": ""
-        },
-        {
-          "title": "People",
-          "full_singer": "Alfa Mist, Kaya Thomas-Dyke",
-          "album": "Bring Backs",
-          "duration": 179,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0015KQdc4KRQwZ",
-          "youtube": "https://youtube.com/watch?v=ovpJu5z8UOY",
-          "bilibili": ""
-        },
-        {
-          "title": "Potential",
-          "full_singer": "Alfa Mist",
-          "album": "Antiphon",
-          "duration": 309,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0001G21E0sip1G",
-          "youtube": "https://youtube.com/watch?v=wdYSP0ObDzY",
           "bilibili": ""
         },
         {
@@ -433,19 +282,10 @@
     },
     {
       "name": "April Rain",
-      "song_count": 2,
-      "youtube": 2,
+      "song_count": 1,
+      "youtube": 1,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "One Is Glad to Be of Service",
-          "full_singer": "April Rain",
-          "album": "One Is Glad to Be of Service",
-          "duration": 590,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003lNEZq2o8VeW",
-          "youtube": "https://youtube.com/watch?v=G4krGZb8al8",
-          "bilibili": ""
-        },
         {
           "title": "Soulmate",
           "full_singer": "April Rain",
@@ -519,8 +359,8 @@
     },
     {
       "name": "AROOJ AFTAB",
-      "song_count": 7,
-      "youtube": 7,
+      "song_count": 5,
+      "youtube": 5,
       "bilibili": 0,
       "songs": [
         {
@@ -551,15 +391,6 @@
           "bilibili": ""
         },
         {
-          "title": "Last Night",
-          "full_singer": "Arooj Aftab",
-          "album": "Vulture Prince",
-          "duration": 358,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003C1cZZ0xluqS",
-          "youtube": "https://youtube.com/watch?v=XX1ResoIGc8",
-          "bilibili": ""
-        },
-        {
           "title": "Mohabbat",
           "full_singer": "Arooj Aftab",
           "album": "Vulture Prince",
@@ -575,15 +406,6 @@
           "duration": 451,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0031jUG02CmUjU",
           "youtube": "https://youtube.com/watch?v=IPyG9WEe1vk",
-          "bilibili": ""
-        },
-        {
-          "title": "Suroor",
-          "full_singer": "Arooj Aftab",
-          "album": "Vulture Prince",
-          "duration": 312,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002U9F3W13oqWX",
-          "youtube": "https://youtube.com/watch?v=CkTG45CbFII",
           "bilibili": ""
         }
       ]
@@ -918,64 +740,10 @@
     },
     {
       "name": "Bibio",
-      "song_count": 10,
-      "youtube": 10,
+      "song_count": 3,
+      "youtube": 3,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "Erdaydidder-Erdiddar",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 295,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000BLOiJ0ccqwg",
-          "youtube": "https://youtube.com/watch?v=q5iGvsAft7g",
-          "bilibili": ""
-        },
-        {
-          "title": "Frankincense And Coal",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 110,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0013y2TQ3GZK6v",
-          "youtube": "https://youtube.com/watch?v=iugpI5GE198",
-          "bilibili": ""
-        },
-        {
-          "title": "It’s Your Bones",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 283,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003G1sd52Os8FU",
-          "youtube": "https://youtube.com/watch?v=yBrENGlTnpg",
-          "bilibili": ""
-        },
-        {
-          "title": "Old Graffiti",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 208,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002L2fyx27jHw7",
-          "youtube": "https://youtube.com/watch?v=-LEDq7iAGy0",
-          "bilibili": ""
-        },
-        {
-          "title": "Patchouli May",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 244,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003FxzCN2nGBR3",
-          "youtube": "https://youtube.com/watch?v=y6HFx1-K-Vo",
-          "bilibili": ""
-        },
-        {
-          "title": "Pretty Ribbons And Lovely Flowers",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 257,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002NZWiH0qxJjZ",
-          "youtube": "https://youtube.com/watch?v=xvSZqgIo9Zg",
-          "bilibili": ""
-        },
         {
           "title": "Quarters",
           "full_singer": "Bibio",
@@ -1001,15 +769,6 @@
           "duration": 200,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002ukzuo0u5PpB",
           "youtube": "https://youtube.com/watch?v=Qt7wCX1td04",
-          "bilibili": ""
-        },
-        {
-          "title": "You Couldn’t Even Hear The Birds Singing",
-          "full_singer": "Bibio",
-          "album": "Ribbons",
-          "duration": 83,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002w1paD1mcY89",
-          "youtube": "https://youtube.com/watch?v=z1Z2u90iktU",
           "bilibili": ""
         }
       ]
@@ -1522,19 +1281,10 @@
     },
     {
       "name": "Choker",
-      "song_count": 12,
-      "youtube": 12,
+      "song_count": 5,
+      "youtube": 5,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "Arboretum",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 211,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003BcGnT3ZR8HU",
-          "youtube": "https://youtube.com/watch?v=rhgFP2cc1tE",
-          "bilibili": ""
-        },
         {
           "title": "Baby Boy",
           "full_singer": "Choker",
@@ -1542,33 +1292,6 @@
           "duration": 170,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0000AfxH4IPzsZ",
           "youtube": "https://youtube.com/watch?v=8FscBQAqcjs",
-          "bilibili": ""
-        },
-        {
-          "title": "Daisy",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 368,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000fremh0zhFft",
-          "youtube": "https://youtube.com/watch?v=xACg6DLM2Dk",
-          "bilibili": ""
-        },
-        {
-          "title": "Fuji Unlimited",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 155,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0012DmFw2t4FUk",
-          "youtube": "https://youtube.com/watch?v=0sw7KrP7W3w",
-          "bilibili": ""
-        },
-        {
-          "title": "Gusher",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 107,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002e7Q1j3m794H",
-          "youtube": "https://youtube.com/watch?v=x3UgcSnmiNk",
           "bilibili": ""
         },
         {
@@ -1599,33 +1322,6 @@
           "bilibili": ""
         },
         {
-          "title": "Rocket",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 392,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002amwTs4EyG0j",
-          "youtube": "https://youtube.com/watch?v=AUy9Dpy1-58",
-          "bilibili": ""
-        },
-        {
-          "title": "Screw Wave",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 76,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004LeHCk1Qw5jX",
-          "youtube": "https://youtube.com/watch?v=wHzU9nJBa3k",
-          "bilibili": ""
-        },
-        {
-          "title": "Suzuki Peaches",
-          "full_singer": "Choker",
-          "album": "Honeybloom (Explicit)",
-          "duration": 231,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004NGyM32lDWOY",
-          "youtube": "https://youtube.com/watch?v=Wk-wz1tuaB0",
-          "bilibili": ""
-        },
-        {
           "title": "Windbreaker",
           "full_singer": "Choker",
           "album": "Honeybloom (Explicit)",
@@ -1638,8 +1334,8 @@
     },
     {
       "name": "Chon",
-      "song_count": 13,
-      "youtube": 10,
+      "song_count": 8,
+      "youtube": 6,
       "bilibili": 0,
       "songs": [
         {
@@ -1661,39 +1357,12 @@
           "bilibili": ""
         },
         {
-          "title": "Can't Wait",
-          "full_singer": "Chon",
-          "album": "Grow",
-          "duration": 188,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0015qqUV4ZV5ax",
-          "youtube": "https://youtube.com/watch?v=kszahyKnlfQ",
-          "bilibili": ""
-        },
-        {
-          "title": "Echo",
-          "full_singer": "Chon",
-          "album": "Grow",
-          "duration": 172,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Y4gFY3SBaQI",
-          "youtube": "https://youtube.com/watch?v=C3INFMiyn8c",
-          "bilibili": ""
-        },
-        {
           "title": "Fall",
           "full_singer": "Chon",
           "album": "Grow",
           "duration": 219,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003mSMTO49SmOq",
           "youtube": "https://youtube.com/watch?v=4F266lQPh74",
-          "bilibili": ""
-        },
-        {
-          "title": "Knot",
-          "full_singer": "Chon",
-          "album": "Grow",
-          "duration": 182,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001h9leo0kgNe3",
-          "youtube": "https://youtube.com/watch?v=WfDZpxoBvzI",
           "bilibili": ""
         },
         {
@@ -1711,15 +1380,6 @@
           "album": "Peace",
           "duration": 212,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003gCbmt4TcRrj",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Perfect Pillow",
-          "full_singer": "Chon",
-          "album": "Grow",
-          "duration": 215,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0002Xz3Q0JCMek",
           "youtube": "",
           "bilibili": ""
         },
@@ -1742,15 +1402,6 @@
           "bilibili": ""
         },
         {
-          "title": "Splash",
-          "full_singer": "Chon",
-          "album": "Grow",
-          "duration": 147,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001r0lPd1Qz9CV",
-          "youtube": "https://youtube.com/watch?v=EfHlzmchXpo",
-          "bilibili": ""
-        },
-        {
           "title": "Suda",
           "full_singer": "Chon",
           "album": "Grow",
@@ -1763,7 +1414,7 @@
     },
     {
       "name": "Cicada",
-      "song_count": 5,
+      "song_count": 13,
       "youtube": 0,
       "bilibili": 0,
       "songs": [
@@ -1809,6 +1460,78 @@
           "album": "不在的你们都去了哪里",
           "duration": 327,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0034uviW1j1TyW",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "走入有雾的森林",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 215,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004WaNQe1SWcZ8",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "降落在金黄色草坡",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 488,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002kUgQ21HBnKX",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "总是有水的地方",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 117,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0021TyNp4QsM9i",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "骤雨",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 287,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003n9kj63R1CsX",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "树根与石缝之间",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 106,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001oE1nl3v7cJv",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "山屋里的小脚印",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 128,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001S7hHz2aaHLo",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "踏出一条白色的路",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 434,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003rYwGY4fuCCq",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "俯瞰我们的家",
+          "full_singer": "Cicada",
+          "album": "走入有雾的森林",
+          "duration": 252,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0025YYJ00pmdxO",
           "youtube": "",
           "bilibili": ""
         }
@@ -2180,8 +1903,8 @@
     },
     {
       "name": "Daniel Caesar",
-      "song_count": 12,
-      "youtube": 6,
+      "song_count": 11,
+      "youtube": 5,
       "bilibili": 0,
       "songs": [
         {
@@ -2272,15 +1995,6 @@
           "duration": 154,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0021PJbZ1wilnK",
           "youtube": "https://youtube.com/watch?v=uTX21VzHLSI",
-          "bilibili": ""
-        },
-        {
-          "title": "Vince Van Gogh",
-          "full_singer": "Daniel Caesar",
-          "album": "NEVER ENOUGH (Explicit)",
-          "duration": 164,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002DiSOZ3C1fnr",
-          "youtube": "https://youtube.com/watch?v=rrhHf0-WXpI",
           "bilibili": ""
         },
         {
@@ -2629,7 +2343,7 @@
     },
     {
       "name": "El Ten Eleven",
-      "song_count": 12,
+      "song_count": 11,
       "youtube": 0,
       "bilibili": 0,
       "songs": [
@@ -2702,15 +2416,6 @@
           "album": "El Ten Eleven",
           "duration": 236,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002qPi590D694I",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Numb Tooth",
-          "full_singer": "El Ten Eleven",
-          "album": "These Promises Are Being Videotaped",
-          "duration": 100,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0039rE4Y3MBlYX",
           "youtube": "",
           "bilibili": ""
         },
@@ -2917,23 +2622,6 @@
       ]
     },
     {
-      "name": "Final Days Society",
-      "song_count": 1,
-      "youtube": 1,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "Icebreaker",
-          "full_singer": "Final Days Society",
-          "album": "Icebreaker",
-          "duration": 616,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000aQs971SnVr1",
-          "youtube": "https://youtube.com/watch?v=OkL1vNbYSy0",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
       "name": "Fishmans",
       "song_count": 2,
       "youtube": 2,
@@ -3049,6 +2737,104 @@
       ]
     },
     {
+      "name": "Flica",
+      "song_count": 10,
+      "youtube": 10,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Yi",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 322,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002xHhan2swqcQ",
+          "youtube": "https://youtube.com/watch?v=S2fxHORP6Lw",
+          "bilibili": ""
+        },
+        {
+          "title": "Mid",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 293,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001rm65114DkQX",
+          "youtube": "https://youtube.com/watch?v=b-b46Ibf1ok",
+          "bilibili": ""
+        },
+        {
+          "title": "Walk",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 345,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Z85uF116bOm",
+          "youtube": "https://youtube.com/watch?v=z3bbOGOYBMQ",
+          "bilibili": ""
+        },
+        {
+          "title": "Light",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 292,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002a4oDB4DdzBL",
+          "youtube": "https://youtube.com/watch?v=V_HbjB7AvWg",
+          "bilibili": ""
+        },
+        {
+          "title": "Back",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 260,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002OHwJy0LqkiC",
+          "youtube": "https://youtube.com/watch?v=i5GMg54Rda0",
+          "bilibili": ""
+        },
+        {
+          "title": "Fucir",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 301,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002HMDQJ4dTZss",
+          "youtube": "https://youtube.com/watch?v=rg7bC_MGrUw",
+          "bilibili": ""
+        },
+        {
+          "title": "Well",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 232,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001ASRjB0qBaX0",
+          "youtube": "https://youtube.com/watch?v=aWDegAYVNM4",
+          "bilibili": ""
+        },
+        {
+          "title": "Find",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 297,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00181SoX0DnUMy",
+          "youtube": "https://youtube.com/watch?v=qnkMg0fW8YQ",
+          "bilibili": ""
+        },
+        {
+          "title": "All",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 211,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001ryrRg3yQxem",
+          "youtube": "https://youtube.com/watch?v=LEjCvJ4KWew",
+          "bilibili": ""
+        },
+        {
+          "title": "Say",
+          "full_singer": "Flica",
+          "album": "Nocturnal",
+          "duration": 134,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001W9IQe4B7eJu",
+          "youtube": "https://youtube.com/watch?v=RPzZMznJUSI",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "FLOWER FLOWER",
       "song_count": 1,
       "youtube": 1,
@@ -3118,8 +2904,8 @@
     },
     {
       "name": "fox capture plan",
-      "song_count": 23,
-      "youtube": 19,
+      "song_count": 22,
+      "youtube": 18,
       "bilibili": 0,
       "songs": [
         {
@@ -3165,15 +2951,6 @@
           "duration": 284,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003nrM7x1bxBZn",
           "youtube": "https://youtube.com/watch?v=25UbDoJPYQE",
-          "bilibili": ""
-        },
-        {
-          "title": "into the wall",
-          "full_singer": "fox capture plan",
-          "album": "WALL",
-          "duration": 54,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Ry4cg0wD0Ip",
-          "youtube": "https://youtube.com/watch?v=DqiR0xl5G6U",
           "bilibili": ""
         },
         {
@@ -3567,6 +3344,104 @@
       ]
     },
     {
+      "name": "Goldmund",
+      "song_count": 10,
+      "youtube": 10,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Ouendake",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 212,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Ary8j1DXl68",
+          "youtube": "https://youtube.com/watch?v=p9N2ApNFXek",
+          "bilibili": ""
+        },
+        {
+          "title": "John Harrington",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 364,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003C2dYj2Jv7KE",
+          "youtube": "https://youtube.com/watch?v=XAZoWGpVVAc",
+          "bilibili": ""
+        },
+        {
+          "title": "Threnody",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 281,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001GltvP3VyNv0",
+          "youtube": "https://youtube.com/watch?v=Yyl5X7HqYAA",
+          "bilibili": ""
+        },
+        {
+          "title": "The Gardener",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 85,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000mu3254DVuzk",
+          "youtube": "https://youtube.com/watch?v=xJ0zxQYnxGU",
+          "bilibili": ""
+        },
+        {
+          "title": "Gifts",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 253,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0025L1kw4cJAFl",
+          "youtube": "https://youtube.com/watch?v=Vvna542N5Lk",
+          "bilibili": ""
+        },
+        {
+          "title": "Image-Autumn-Womb",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 185,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Dmb1d1hpNH4",
+          "youtube": "https://youtube.com/watch?v=qMrbOf35Vss",
+          "bilibili": ""
+        },
+        {
+          "title": "Evelyn",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 415,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002hQKfz3CWvP8",
+          "youtube": "https://youtube.com/watch?v=eIRdX2lez5A",
+          "bilibili": ""
+        },
+        {
+          "title": "Clement Danes",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 251,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0045rgSi36tNTs",
+          "youtube": "https://youtube.com/watch?v=DCrKNyngP90",
+          "bilibili": ""
+        },
+        {
+          "title": "In A Notebook",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 132,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002k1aaf1RoipX",
+          "youtube": "https://youtube.com/watch?v=RgD2_rt_2PY",
+          "bilibili": ""
+        },
+        {
+          "title": "Apalachee",
+          "full_singer": "Goldmund",
+          "album": "The Malady of Elegance",
+          "duration": 298,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003WZxOr0nISl8",
+          "youtube": "https://youtube.com/watch?v=M10S-FNoasA",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "GONTITI",
       "song_count": 2,
       "youtube": 2,
@@ -3714,19 +3589,10 @@
     },
     {
       "name": "Hania Rani",
-      "song_count": 22,
-      "youtube": 16,
+      "song_count": 20,
+      "youtube": 14,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "A Day in Never",
-          "full_singer": "Hania Rani",
-          "album": "Ghosts",
-          "duration": 265,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001LIeK713O0QD",
-          "youtube": "https://youtube.com/watch?v=5Dvq1HePJbE",
-          "bilibili": ""
-        },
         {
           "title": "Come Back Home",
           "full_singer": "Hania Rani",
@@ -3887,15 +3753,6 @@
           "duration": 258,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000xsyAg32NiSk",
           "youtube": "https://youtube.com/watch?v=w_FXW_t-LOA",
-          "bilibili": ""
-        },
-        {
-          "title": "Utrata",
-          "full_singer": "Hania Rani",
-          "album": "Ghosts",
-          "duration": 251,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001YimTr1c7FTH",
-          "youtube": "https://youtube.com/watch?v=JQyHpe9gAZ0",
           "bilibili": ""
         },
         {
@@ -4192,6 +4049,167 @@
           "duration": 255,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002N8yWT2bsLEo",
           "youtube": "https://youtube.com/watch?v=0JhhzJlDg0A",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "Hiroshi Yoshimura",
+      "song_count": 17,
+      "youtube": 17,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "GREEN",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 314,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000k14Hg23gMTJ",
+          "youtube": "https://youtube.com/watch?v=TO8kwMJuSvU",
+          "bilibili": ""
+        },
+        {
+          "title": "FEEL",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 267,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Din7j32GT2W",
+          "youtube": "https://youtube.com/watch?v=xOQjZ-PFE1o",
+          "bilibili": ""
+        },
+        {
+          "title": "STREET",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 406,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002YoArc28MSGv",
+          "youtube": "https://youtube.com/watch?v=67oSBxOEzZ8",
+          "bilibili": ""
+        },
+        {
+          "title": "SLEEP",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 385,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004OAlMp0D65NA",
+          "youtube": "https://youtube.com/watch?v=pFoF2Og6AXw",
+          "bilibili": ""
+        },
+        {
+          "title": "TEEVEE",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 216,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003BqwPq1xAEoC",
+          "youtube": "https://youtube.com/watch?v=ffWtJPbkVNc",
+          "bilibili": ""
+        },
+        {
+          "title": "SHEEP",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 319,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Uil5o4QR5Bg",
+          "youtube": "https://youtube.com/watch?v=OSOPJ8UbOYg",
+          "bilibili": ""
+        },
+        {
+          "title": "FEET",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 373,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Zjzok3Pa3nl",
+          "youtube": "https://youtube.com/watch?v=1O58bqXvAsE",
+          "bilibili": ""
+        },
+        {
+          "title": "CREEK",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Green",
+          "duration": 293,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003t03791sFq4k",
+          "youtube": "https://youtube.com/watch?v=nQkdHvIP0zg",
+          "bilibili": ""
+        },
+        {
+          "title": "Dance PM",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 392,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001F06id4BjbVK",
+          "youtube": "https://youtube.com/watch?v=_V8okq0vWRU",
+          "bilibili": ""
+        },
+        {
+          "title": "Clouds",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 354,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000WKy8A2xm6h7",
+          "youtube": "https://youtube.com/watch?v=BcQfU4KD_QI",
+          "bilibili": ""
+        },
+        {
+          "title": "Water Copy",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 371,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Itbg62svmkp",
+          "youtube": "https://youtube.com/watch?v=N-NDBd5rN3c",
+          "bilibili": ""
+        },
+        {
+          "title": "View from My Window",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 375,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000UwUpi3ndx75",
+          "youtube": "https://youtube.com/watch?v=i21ebibIJF4",
+          "bilibili": ""
+        },
+        {
+          "title": "Dream",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 334,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002On4ok12vsCz",
+          "youtube": "https://youtube.com/watch?v=BfyNxs2SJb4",
+          "bilibili": ""
+        },
+        {
+          "title": "Urban Snow",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 285,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xuISP2Js28q",
+          "youtube": "https://youtube.com/watch?v=ndTlsLupWGw",
+          "bilibili": ""
+        },
+        {
+          "title": "Blink",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 282,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000MbXwN10jhlK",
+          "youtube": "https://youtube.com/watch?v=07CpKqYiZtM",
+          "bilibili": ""
+        },
+        {
+          "title": "Soto Wa Ame - Rain out of Window",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 276,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001D46eN4MbWR1",
+          "youtube": "https://youtube.com/watch?v=UfbfKhzUy4Q",
+          "bilibili": ""
+        },
+        {
+          "title": "Ice Copy",
+          "full_singer": "Hiroshi Yoshimura",
+          "album": "Music For Nine Post Cards",
+          "duration": 175,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001U6SJ94Utc87",
+          "youtube": "https://youtube.com/watch?v=B-2t4FPKmZE",
           "bilibili": ""
         }
       ]
@@ -4835,19 +4853,10 @@
     },
     {
       "name": "jizue",
-      "song_count": 8,
-      "youtube": 8,
+      "song_count": 2,
+      "youtube": 2,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "En",
-          "full_singer": "Jizue",
-          "album": "Bookshelf",
-          "duration": 373,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0025Fqiw0aO3If",
-          "youtube": "https://youtube.com/watch?v=bac66aMFSgw",
-          "bilibili": ""
-        },
         {
           "title": "home",
           "full_singer": "Jizue",
@@ -4864,51 +4873,6 @@
           "duration": 259,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000jYQMs0HPaDE",
           "youtube": "https://youtube.com/watch?v=sWX9e5Gbgd0",
-          "bilibili": ""
-        },
-        {
-          "title": "Rain Dog",
-          "full_singer": "Jizue",
-          "album": "Bookshelf",
-          "duration": 260,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0015195i09L6tk",
-          "youtube": "https://youtube.com/watch?v=glbQlIXAlx0",
-          "bilibili": ""
-        },
-        {
-          "title": "SAKURA",
-          "full_singer": "Jizue",
-          "album": "Bookshelf",
-          "duration": 232,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001DpRph0eHF9h",
-          "youtube": "https://youtube.com/watch?v=PN3Mwe2Vugc",
-          "bilibili": ""
-        },
-        {
-          "title": "sister",
-          "full_singer": "Jizue",
-          "album": "Bookshelf",
-          "duration": 359,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001NMzxS2uAyt2",
-          "youtube": "https://youtube.com/watch?v=cfNxfGT5DJE",
-          "bilibili": ""
-        },
-        {
-          "title": "Tower",
-          "full_singer": "Jizue",
-          "album": "Bookshelf",
-          "duration": 320,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0037LPql3N0J9q",
-          "youtube": "https://youtube.com/watch?v=9KGQG99ia8k",
-          "bilibili": ""
-        },
-        {
-          "title": "最後の朝",
-          "full_singer": "Jizue",
-          "album": "Bookshelf",
-          "duration": 345,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000MBhM43qe375",
-          "youtube": "https://youtube.com/watch?v=7hehzL53rmQ",
           "bilibili": ""
         }
       ]
@@ -5146,8 +5110,8 @@
     },
     {
       "name": "Khruangbin",
-      "song_count": 32,
-      "youtube": 17,
+      "song_count": 28,
+      "youtube": 14,
       "bilibili": 0,
       "songs": [
         {
@@ -5214,39 +5178,12 @@
           "bilibili": ""
         },
         {
-          "title": "Dearest Alfred",
-          "full_singer": "Khruangbin",
-          "album": "Mordechai",
-          "duration": 238,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0002v5pr4GdYBj",
-          "youtube": "https://youtube.com/watch?v=Ths1EYXLBhw",
-          "bilibili": ""
-        },
-        {
           "title": "Dern Kala",
           "full_singer": "Khruangbin",
           "album": "The Universe Smiles Upon You",
           "duration": 219,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001oWQwh3Sb3D6",
           "youtube": "https://youtube.com/watch?v=E4bvprAyPNE",
-          "bilibili": ""
-        },
-        {
-          "title": "Farolim de Felgueiras",
-          "full_singer": "Khruangbin",
-          "album": "A LA SALA",
-          "duration": 120,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002WLQQJ4MvtBl",
-          "youtube": "https://youtube.com/watch?v=NDxQTrhI0Jc",
-          "bilibili": ""
-        },
-        {
-          "title": "Father Bird, Mother Bird",
-          "full_singer": "Khruangbin",
-          "album": "Mordechai",
-          "duration": 185,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000npnQ54cNJ7H",
-          "youtube": "",
           "bilibili": ""
         },
         {
@@ -5400,15 +5337,6 @@
           "duration": 342,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001ShxbZ14nHcT",
           "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Todavía Viva",
-          "full_singer": "Khruangbin",
-          "album": "A LA SALA",
-          "duration": 263,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0048y93K4UsMNo",
-          "youtube": "https://youtube.com/watch?v=B2m_Jx_rksc",
           "bilibili": ""
         },
         {
@@ -5584,19 +5512,10 @@
     },
     {
       "name": "Kiefer",
-      "song_count": 10,
-      "youtube": 4,
+      "song_count": 8,
+      "youtube": 3,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "Areti's Love",
-          "full_singer": "Kiefer",
-          "album": "When There's Love Around",
-          "duration": 231,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0049KgbP1kIky1",
-          "youtube": "https://youtube.com/watch?v=kP5XDbZx050",
-          "bilibili": ""
-        },
         {
           "title": "crybaby",
           "full_singer": "Kiefer",
@@ -5666,15 +5585,6 @@
           "album": "When There's Love Around",
           "duration": 303,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0032qs3a4aQN4O",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "with you where you are",
-          "full_singer": "Kiefer feat. Erin Bentlage",
-          "album": "When There's Love Around",
-          "duration": 124,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0029Xzse1oeIdI",
           "youtube": "",
           "bilibili": ""
         }
@@ -5997,26 +5907,9 @@
       ]
     },
     {
-      "name": "Long Distance Calling",
-      "song_count": 1,
-      "youtube": 0,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "Beyond The Void",
-          "full_singer": "Long Distance Calling",
-          "album": "Long Distance Calling",
-          "duration": 700,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0001AiQD4A8HBM",
-          "youtube": "",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
       "name": "Loscil",
-      "song_count": 9,
-      "youtube": 9,
+      "song_count": 4,
+      "youtube": 4,
       "bilibili": 0,
       "songs": [
         {
@@ -6053,51 +5946,6 @@
           "duration": 441,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Vpshv2Yob9q",
           "youtube": "https://youtube.com/watch?v=36hSyE-F0H0",
-          "bilibili": ""
-        },
-        {
-          "title": "Mistral",
-          "full_singer": "loscil",
-          "album": "Plume",
-          "duration": 360,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Bc1gO43Y509",
-          "youtube": "https://youtube.com/watch?v=2rzkn_74crs",
-          "bilibili": ""
-        },
-        {
-          "title": "Motoc",
-          "full_singer": "loscil",
-          "album": "Plume",
-          "duration": 389,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000dXo3E1pBplh",
-          "youtube": "https://youtube.com/watch?v=zBCKNhgD2A8",
-          "bilibili": ""
-        },
-        {
-          "title": "Rorschach",
-          "full_singer": "loscil",
-          "album": "Plume",
-          "duration": 499,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0043JvIy3rM2d8",
-          "youtube": "https://youtube.com/watch?v=-VxwbHL78HI",
-          "bilibili": ""
-        },
-        {
-          "title": "Steam",
-          "full_singer": "loscil",
-          "album": "Plume",
-          "duration": 415,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004dqi3R2kQw8E",
-          "youtube": "https://youtube.com/watch?v=xEUg_TDpwg0",
-          "bilibili": ""
-        },
-        {
-          "title": "Zephyr",
-          "full_singer": "loscil",
-          "album": "Plume",
-          "duration": 319,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002bcWjn1XMihS",
-          "youtube": "https://youtube.com/watch?v=1EXc96ZBPX4",
           "bilibili": ""
         }
       ]
@@ -6251,8 +6099,8 @@
     },
     {
       "name": "Mammal Hands",
-      "song_count": 26,
-      "youtube": 22,
+      "song_count": 22,
+      "youtube": 18,
       "bilibili": 0,
       "songs": [
         {
@@ -6355,15 +6203,6 @@
           "bilibili": ""
         },
         {
-          "title": "Inuit Party",
-          "full_singer": "Mammal Hands",
-          "album": "Animalia",
-          "duration": 352,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002L3CuO0VtQ3G",
-          "youtube": "https://youtube.com/watch?v=lulPxW_5laY",
-          "bilibili": ""
-        },
-        {
           "title": "Kandaiki",
           "full_singer": "Mammal Hands",
           "album": "Animalia",
@@ -6442,33 +6281,6 @@
           "duration": 277,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/00379HQN0zynlr",
           "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Street Sweeper",
-          "full_singer": "Mammal Hands",
-          "album": "Animalia",
-          "duration": 194,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003y0SqX1cAdAX",
-          "youtube": "https://youtube.com/watch?v=QsMmS1k_CJI",
-          "bilibili": ""
-        },
-        {
-          "title": "Submerge",
-          "full_singer": "Mammal Hands",
-          "album": "Circadia",
-          "duration": 389,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000EpAD64IIE2w",
-          "youtube": "https://youtube.com/watch?v=7nRg8bw9c4U",
-          "bilibili": ""
-        },
-        {
-          "title": "Tiny Crumb",
-          "full_singer": "Mammal Hands",
-          "album": "Animalia",
-          "duration": 466,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001erySg0ZLdlY",
-          "youtube": "https://youtube.com/watch?v=Il6EgmetMP0",
           "bilibili": ""
         },
         {
@@ -6560,6 +6372,23 @@
       ]
     },
     {
+      "name": "Masakatsu Takagi",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Marginalia #5",
+          "full_singer": "Masakatsu Takagi",
+          "album": "Marginalia",
+          "duration": 537,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000YI2j62oBArL",
+          "youtube": "https://youtube.com/watch?v=QmRu36i7hrM",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Master Class",
       "song_count": 1,
       "youtube": 0,
@@ -6571,23 +6400,6 @@
           "album": "MasterClass Free Compilation Album",
           "duration": 254,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002JpKhu4BYPH3",
-          "youtube": "",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
-      "name": "Master KG",
-      "song_count": 1,
-      "youtube": 0,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "Jerusalema (feat. Nomcebo Zikode)",
-          "full_singer": "Master KG, Nomcebo Zikode",
-          "album": "Jerusalema",
-          "duration": 342,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002KShv84dkszH",
           "youtube": "",
           "bilibili": ""
         }
@@ -6646,8 +6458,8 @@
     },
     {
       "name": "Men I Trust",
-      "song_count": 10,
-      "youtube": 10,
+      "song_count": 6,
+      "youtube": 6,
       "bilibili": 0,
       "songs": [
         {
@@ -6657,15 +6469,6 @@
           "duration": 108,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Ivfhy114Vlr",
           "youtube": "https://youtube.com/watch?v=YvUsIq7mvjo",
-          "bilibili": ""
-        },
-        {
-          "title": "A Cycle (2021)",
-          "full_singer": "Men I Trust",
-          "album": "Untourable Album",
-          "duration": 243,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001jB08c2Nc3X0",
-          "youtube": "https://youtube.com/watch?v=KiMn6suJ_VE",
           "bilibili": ""
         },
         {
@@ -6711,33 +6514,6 @@
           "duration": 183,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0002pRmO0fauKi",
           "youtube": "https://youtube.com/watch?v=o3SWjF8wxCs",
-          "bilibili": ""
-        },
-        {
-          "title": "Organon",
-          "full_singer": "Men I Trust",
-          "album": "Untourable Album",
-          "duration": 150,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001ox3Lh4KzqiC",
-          "youtube": "https://youtube.com/watch?v=RItrzOEkGbc",
-          "bilibili": ""
-        },
-        {
-          "title": "Serenade of Water",
-          "full_singer": "Men I Trust",
-          "album": "Untourable Album",
-          "duration": 185,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002vdwdr1cpRK7",
-          "youtube": "https://youtube.com/watch?v=VgErI4qnYY0",
-          "bilibili": ""
-        },
-        {
-          "title": "Shoulders",
-          "full_singer": "Men I Trust",
-          "album": "Untourable Album",
-          "duration": 206,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001M6CKL2vbk1N",
-          "youtube": "https://youtube.com/watch?v=R17PlTKQeCg",
           "bilibili": ""
         }
       ]
@@ -7184,23 +6960,6 @@
       ]
     },
     {
-      "name": "Nicholas Hooper",
-      "song_count": 1,
-      "youtube": 0,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "Slughorn's Confession",
-          "full_singer": "Nicholas Hooper",
-          "album": "Harry Potter And The Half-Blood Prince: Original Motion Picture Soundtrack",
-          "duration": 213,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002eKGuP3cFgif",
-          "youtube": "",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
       "name": "Nitsua",
       "song_count": 1,
       "youtube": 1,
@@ -7253,8 +7012,8 @@
     },
     {
       "name": "Nujabes",
-      "song_count": 1,
-      "youtube": 1,
+      "song_count": 9,
+      "youtube": 7,
       "bilibili": 0,
       "songs": [
         {
@@ -7264,6 +7023,78 @@
           "duration": 260,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000dpx1K39ZkOj",
           "youtube": "https://youtube.com/watch?v=2wK27xW4OFI",
+          "bilibili": ""
+        },
+        {
+          "title": "Feather",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 175,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002fTWca0uywtP",
+          "youtube": "https://youtube.com/watch?v=hQ5x8pHoIPA",
+          "bilibili": ""
+        },
+        {
+          "title": "sea of cloud",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 181,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000QQaTJ1vQy0g",
+          "youtube": "https://youtube.com/watch?v=FLk_nvHZW2Y",
+          "bilibili": ""
+        },
+        {
+          "title": "Light on the land",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 235,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003dIBUs2CA00m",
+          "youtube": "https://youtube.com/watch?v=0qR3B1i3FBk",
+          "bilibili": ""
+        },
+        {
+          "title": "Horizon",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 441,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001dEPl41oHWH7",
+          "youtube": "https://youtube.com/watch?v=4XMQ_IkErYg",
+          "bilibili": ""
+        },
+        {
+          "title": "Modal Soul",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 281,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004UN0Gp4HFHDH",
+          "youtube": "https://youtube.com/watch?v=hwJo9Cs7vSU",
+          "bilibili": ""
+        },
+        {
+          "title": "Luv(sic.)pt3",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 337,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0049PojS4Yt1ll",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "World's end Rhapsody",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 341,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003UCgNC1uTuU1",
+          "youtube": "https://youtube.com/watch?v=0XJFSTYryv4",
+          "bilibili": ""
+        },
+        {
+          "title": "reflection eternal",
+          "full_singer": "Nujabes",
+          "album": "modal soul",
+          "duration": 260,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000dpx1K39ZkOj",
+          "youtube": "",
           "bilibili": ""
         }
       ]
@@ -7459,6 +7290,131 @@
       ]
     },
     {
+      "name": "Paniyolo",
+      "song_count": 13,
+      "youtube": 13,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Color",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 287,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001XBqqc1V1Wv0",
+          "youtube": "https://youtube.com/watch?v=i-43jgTKCdw",
+          "bilibili": ""
+        },
+        {
+          "title": "Motif",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 167,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000I9Lmb2o3XdF",
+          "youtube": "https://youtube.com/watch?v=k1OROG1hWPQ",
+          "bilibili": ""
+        },
+        {
+          "title": "Drop",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 101,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003yBcuM2XBdKy",
+          "youtube": "https://youtube.com/watch?v=1Tk6IENuenE",
+          "bilibili": ""
+        },
+        {
+          "title": "Recall",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 162,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00396pOu0pu3yl",
+          "youtube": "https://youtube.com/watch?v=1HEi3_o9H3Y",
+          "bilibili": ""
+        },
+        {
+          "title": "Good Night",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 214,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001rATD736J55B",
+          "youtube": "https://youtube.com/watch?v=ksXfoUpp_eE",
+          "bilibili": ""
+        },
+        {
+          "title": "Deep Breath",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 40,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002cBVub1Kncz5",
+          "youtube": "https://youtube.com/watch?v=XbMDoV1fLso",
+          "bilibili": ""
+        },
+        {
+          "title": "Riverside's Flower",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 142,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004DFpGq4YrgDA",
+          "youtube": "https://youtube.com/watch?v=CCM_BxyzAW8",
+          "bilibili": ""
+        },
+        {
+          "title": "Four Seasons",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 170,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0007Wkb12sLyuc",
+          "youtube": "https://youtube.com/watch?v=QowppEaNjIU",
+          "bilibili": ""
+        },
+        {
+          "title": "Veranda",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 69,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003GodMr2VU5HH",
+          "youtube": "https://youtube.com/watch?v=hURxp71ZbIM",
+          "bilibili": ""
+        },
+        {
+          "title": "Spring Garden",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 184,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0003vhfz0DPvnM",
+          "youtube": "https://youtube.com/watch?v=_ySkBoj7HAg",
+          "bilibili": ""
+        },
+        {
+          "title": "Aina",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 138,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00366WEu0Wb0GU",
+          "youtube": "https://youtube.com/watch?v=Oavk0UJYx-0",
+          "bilibili": ""
+        },
+        {
+          "title": "Irodori",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 163,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001NJKKs3c4Zj3",
+          "youtube": "https://youtube.com/watch?v=UtsIUOeDj14",
+          "bilibili": ""
+        },
+        {
+          "title": "Hitotema",
+          "full_singer": "Paniyolo",
+          "album": "ひとてま",
+          "duration": 176,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004dtJeX1ziiFd",
+          "youtube": "https://youtube.com/watch?v=SPVODRNzPic",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Parijat",
       "song_count": 1,
       "youtube": 1,
@@ -7544,6 +7500,104 @@
       ]
     },
     {
+      "name": "Penguin Cafe Orchestra",
+      "song_count": 10,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Swing The Cat",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 205,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003rTJEr1ArWak",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Perpetuum Mobile",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 267,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002Oz4fZ0MldPB",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Sketch",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 202,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001qgTVB2zglwh",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Dirt",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 288,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000PyUza330crf",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Rosasolis",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 262,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002NPVpD3AufWG",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "The Snake And The Lotus(The Pond)",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 175,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Bozy20khHjx",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Oscar Tango",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 194,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000jKMsb1nOF33",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Horns Of The Bull",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 275,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002cPyat0Pu8vT",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Southern Jukebox Music",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 278,
+          "qq_music": "https://y.qq.com/n/ryqq_v2/songDetail/001wBr0t2SIS66",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Bean Fields",
+          "full_singer": "Penguin Cafe Orchestra",
+          "album": "Signs of Life",
+          "duration": 265,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000FSYyo1eypBE",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Peter Bence",
       "song_count": 1,
       "youtube": 1,
@@ -7622,8 +7676,8 @@
     },
     {
       "name": "Portico Quartet",
-      "song_count": 5,
-      "youtube": 3,
+      "song_count": 4,
+      "youtube": 2,
       "bilibili": 0,
       "songs": [
         {
@@ -7633,15 +7687,6 @@
           "duration": 280,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Qd9qP42Bgkh",
           "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Offset",
-          "full_singer": "Portico Quartet",
-          "album": "Memory Streams",
-          "duration": 271,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0015zDwM4a5Olq",
-          "youtube": "https://youtube.com/watch?v=fHSQHl4b0QA",
           "bilibili": ""
         },
         {
@@ -7866,19 +7911,10 @@
     },
     {
       "name": "Re:Plus",
-      "song_count": 25,
-      "youtube": 19,
+      "song_count": 17,
+      "youtube": 16,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "4 AM feat. I Hate This Place",
-          "full_singer": "Re:Plus, I Hate This Place",
-          "album": "Everlasting Truth",
-          "duration": 336,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002eX8KT0860i3",
-          "youtube": "",
-          "bilibili": ""
-        },
         {
           "title": "A Fall and Rebirth",
           "full_singer": "Re:Plus",
@@ -7886,15 +7922,6 @@
           "duration": 312,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001nzNs10VvmEX",
           "youtube": "https://youtube.com/watch?v=WndOOv-Mzz4",
-          "bilibili": ""
-        },
-        {
-          "title": "Blue Sky feat. Cokiyu",
-          "full_singer": "Re:Plus, Cokiyu",
-          "album": "Everlasting Truth",
-          "duration": 336,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000WnaRA0pOh8Q",
-          "youtube": "",
           "bilibili": ""
         },
         {
@@ -7925,15 +7952,6 @@
           "bilibili": ""
         },
         {
-          "title": "Fading Red feat. I Hate This Place & Nick Smalc from Vitium",
-          "full_singer": "Re:Plus, I Hate This Place, Nick Smalc",
-          "album": "Ordinary Landscape",
-          "duration": 265,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003WOadj4G3igR",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
           "title": "Getting Close",
           "full_singer": "Re:Plus",
           "album": "Everlasting Truth",
@@ -7952,24 +7970,6 @@
           "bilibili": ""
         },
         {
-          "title": "Interlude",
-          "full_singer": "Re:Plus",
-          "album": "Ordinary Landscape",
-          "duration": 149,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003C71TX1tOIoR",
-          "youtube": "https://youtube.com/watch?v=YyoyUnqwx3A",
-          "bilibili": ""
-        },
-        {
-          "title": "It All Turns Out Great feat. MC Newsense from ArtOfficial & Nate Vibez",
-          "full_singer": "Re:Plus, MC Newsense, Nate Vibez",
-          "album": "Ordinary Landscape",
-          "duration": 213,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002IsH3E1BrPH6",
-          "youtube": "https://youtube.com/watch?v=_PfTAEuzrHc",
-          "bilibili": ""
-        },
-        {
           "title": "Moonscape",
           "full_singer": "Re:Plus",
           "album": "Everlasting Truth",
@@ -7979,30 +7979,12 @@
           "bilibili": ""
         },
         {
-          "title": "New Horizon feat. Ben Hameen of Collective Efforts and Dillon Maurer",
-          "full_singer": "Re:Plus, Ben Hameen, Dillon Maurer",
-          "album": "Ordinary Landscape",
-          "duration": 201,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004VxaWJ4BWTV4",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
           "title": "Nighttime",
           "full_singer": "Re:Plus",
           "album": "Ordinary Landscape",
           "duration": 243,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000HaICk25YWHO",
           "youtube": "https://youtube.com/watch?v=2irCLNsgkwM",
-          "bilibili": ""
-        },
-        {
-          "title": "On and On feat. Noah King & Leah Hanna King",
-          "full_singer": "Re:Plus, Noah King, Leah Hanna King",
-          "album": "Everlasting Truth",
-          "duration": 214,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003QcOnq33Jv6x",
-          "youtube": "https://youtube.com/watch?v=ko2Jqhqyx5Q",
           "bilibili": ""
         },
         {
@@ -8060,15 +8042,6 @@
           "bilibili": ""
         },
         {
-          "title": "Sol feat. Cise Star",
-          "full_singer": "Re:Plus, Cise Star",
-          "album": "Everlasting Truth",
-          "duration": 209,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Xyqrc1CnlmQ",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
           "title": "Spartacus Love Theme",
           "full_singer": "Re:Plus",
           "album": "miscellany",
@@ -8116,8 +8089,8 @@
     },
     {
       "name": "RIOPY",
-      "song_count": 35,
-      "youtube": 28,
+      "song_count": 29,
+      "youtube": 25,
       "bilibili": 0,
       "songs": [
         {
@@ -8175,15 +8148,6 @@
           "bilibili": ""
         },
         {
-          "title": "Come With Me",
-          "full_singer": "RIOPY",
-          "album": "Be Love",
-          "duration": 263,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001rYGrm0Ru1DB",
-          "youtube": "https://youtube.com/watch?v=XZGhoauwA9g",
-          "bilibili": ""
-        },
-        {
           "title": "Costa da Caparica",
           "full_singer": "RIOPY",
           "album": "Costa da Caparica",
@@ -8202,30 +8166,12 @@
           "bilibili": ""
         },
         {
-          "title": "Feeling Safe",
-          "full_singer": "RIOPY",
-          "album": "Be Love",
-          "duration": 266,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Sdu7H0xDe6B",
-          "youtube": "https://youtube.com/watch?v=inW_6YgMVkU",
-          "bilibili": ""
-        },
-        {
           "title": "Flo",
           "full_singer": "RIOPY",
           "album": "Tree of Light",
           "duration": 232,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Yc57U1jTeAJ",
           "youtube": "https://youtube.com/watch?v=SNOxgA7mXEg",
-          "bilibili": ""
-        },
-        {
-          "title": "Forgive Me",
-          "full_singer": "RIOPY",
-          "album": "RIOPY",
-          "duration": 207,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004M6UCS0OGykV",
-          "youtube": "https://youtube.com/watch?v=zu1FFp7OLQU",
           "bilibili": ""
         },
         {
@@ -8256,15 +8202,6 @@
           "bilibili": ""
         },
         {
-          "title": "Let's Be Love",
-          "full_singer": "RIOPY",
-          "album": "Be Love",
-          "duration": 247,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002mWWg31aOyVP",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
           "title": "Lost Soul",
           "full_singer": "RIOPY",
           "album": "RIOPY",
@@ -8280,15 +8217,6 @@
           "duration": 209,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0040YFWl3Qsvlf",
           "youtube": "https://youtube.com/watch?v=bePCiRnUbsE",
-          "bilibili": ""
-        },
-        {
-          "title": "My Lady's Chords",
-          "full_singer": "RIOPY",
-          "album": "Be Love",
-          "duration": 206,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0033EY1t2y3w8m",
-          "youtube": "",
           "bilibili": ""
         },
         {
@@ -8316,15 +8244,6 @@
           "duration": 188,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001U8XC30DrZXa",
           "youtube": "https://youtube.com/watch?v=9fuuEtTu-2g",
-          "bilibili": ""
-        },
-        {
-          "title": "Peace of Mind",
-          "full_singer": "RIOPY",
-          "album": "Tree of Light",
-          "duration": 262,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003LBToT4Z49sM",
-          "youtube": "",
           "bilibili": ""
         },
         {
@@ -8913,23 +8832,6 @@
           "duration": 163,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002qIVN52Tm5YO",
           "youtube": "https://youtube.com/watch?v=0CGjL5Ph3SY",
-          "bilibili": ""
-        }
-      ]
-    },
-    {
-      "name": "Stray Kids",
-      "song_count": 1,
-      "youtube": 1,
-      "bilibili": 0,
-      "songs": [
-        {
-          "title": "SLUMP",
-          "full_singer": "Stray Kids",
-          "album": "TOP",
-          "duration": 134,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003awQti2nL7lb",
-          "youtube": "https://youtube.com/watch?v=7SPnJMGB9u4",
           "bilibili": ""
         }
       ]
@@ -10211,28 +10113,10 @@
     },
     {
       "name": "Yaya Bey",
-      "song_count": 8,
-      "youtube": 8,
+      "song_count": 3,
+      "youtube": 3,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "fxck it then",
-          "full_singer": "Yaya Bey",
-          "album": "The Things I Can't Take With Me (Explicit)",
-          "duration": 135,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003delOW1DZWww",
-          "youtube": "https://youtube.com/watch?v=1hiFBFzbmjs",
-          "bilibili": ""
-        },
-        {
-          "title": "industry love / a protection spell",
-          "full_singer": "Yaya Bey",
-          "album": "The Things I Can't Take With Me (Explicit)",
-          "duration": 224,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002h6Ymd2U7GiL",
-          "youtube": "https://youtube.com/watch?v=T36lMSvFTEM",
-          "bilibili": ""
-        },
         {
           "title": "meet me in brooklyn",
           "full_singer": "Yaya Bey",
@@ -10258,33 +10142,6 @@
           "duration": 129,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000uIvKZ4e2WeA",
           "youtube": "https://youtube.com/watch?v=96FNBRAHUMY",
-          "bilibili": ""
-        },
-        {
-          "title": "the root of a thing",
-          "full_singer": "Yaya Bey",
-          "album": "The Things I Can't Take With Me (Explicit)",
-          "duration": 171,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002igury3jNepk",
-          "youtube": "https://youtube.com/watch?v=Drq0WqrFN2E",
-          "bilibili": ""
-        },
-        {
-          "title": "we'll skate soon",
-          "full_singer": "Yaya Bey",
-          "album": "The Things I Can't Take With Me (Explicit)",
-          "duration": 196,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002hn9f42f0EeU",
-          "youtube": "https://youtube.com/watch?v=5WYPsyNAdUk",
-          "bilibili": ""
-        },
-        {
-          "title": "you up?",
-          "full_singer": "Yaya Bey",
-          "album": "The Things I Can't Take With Me (Explicit)",
-          "duration": 74,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002X4GW14WWJDq",
-          "youtube": "https://youtube.com/watch?v=KFd_s0ZeRwI",
           "bilibili": ""
         }
       ]
@@ -10408,21 +10265,21 @@
       "bilibili": 0,
       "songs": [
         {
-          "title": "Stars",
-          "full_singer": "Yosi Horikawa",
-          "album": "Vapor",
-          "duration": 379,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001d9ove248j60",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
           "title": "Swashers",
           "full_singer": "Yosi Horikawa",
           "album": "Spaces",
           "duration": 338,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000BKhUC3KCJeq",
           "youtube": "https://youtube.com/watch?v=0VL1Uyx0MHI",
+          "bilibili": ""
+        },
+        {
+          "title": "Beer",
+          "full_singer": "Yosi Horikawa",
+          "album": "Vapor",
+          "duration": 202,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002X6BID3oubKE",
+          "youtube": "",
           "bilibili": ""
         }
       ]
@@ -10526,19 +10383,10 @@
     },
     {
       "name": "Yussef Kamaal",
-      "song_count": 10,
+      "song_count": 5,
       "youtube": 0,
       "bilibili": 0,
       "songs": [
-        {
-          "title": "Ayla",
-          "full_singer": "Yussef Kamaal",
-          "album": "Black Focus",
-          "duration": 46,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Iei483Js7Ll",
-          "youtube": "",
-          "bilibili": ""
-        },
         {
           "title": "Black Focus",
           "full_singer": "Yussef Kamaal",
@@ -10549,38 +10397,11 @@
           "bilibili": ""
         },
         {
-          "title": "Joint 17",
-          "full_singer": "Yussef Kamaal",
-          "album": "Black Focus",
-          "duration": 499,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000gUuII12Tu2O",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
           "title": "Lowrider",
           "full_singer": "Yussef Kamaal",
           "album": "Black Focus",
           "duration": 268,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0028bPwM4ZfdSq",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "Mansur's Message",
-          "full_singer": "Yussef Kamaal",
-          "album": "Black Focus",
-          "duration": 126,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0013wlsz2Jb96E",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "O. G .",
-          "full_singer": "Yussef Kamaal",
-          "album": "Black Focus",
-          "duration": 46,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003S65XJ2gBSiM",
           "youtube": "",
           "bilibili": ""
         },
@@ -10610,22 +10431,13 @@
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000FiJNX0DGE8O",
           "youtube": "",
           "bilibili": ""
-        },
-        {
-          "title": "Yo Chavez",
-          "full_singer": "Yussef Kamaal",
-          "album": "Black Focus",
-          "duration": 239,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001lhEnH3htGqv",
-          "youtube": "",
-          "bilibili": ""
         }
       ]
     },
     {
       "name": "yutaka hirasaka",
-      "song_count": 2,
-      "youtube": 2,
+      "song_count": 8,
+      "youtube": 4,
       "bilibili": 0,
       "songs": [
         {
@@ -10644,6 +10456,60 @@
           "duration": 223,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002XMYU020TiOO",
           "youtube": "https://youtube.com/watch?v=l2k7SjfT7mc",
+          "bilibili": ""
+        },
+        {
+          "title": "an evening",
+          "full_singer": "Yutaka Hirasaka",
+          "album": "still glow",
+          "duration": 201,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0002W4XM3jqEeg",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "your light",
+          "full_singer": "Yutaka Hirasaka",
+          "album": "still glow",
+          "duration": 303,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Gt0FA4Qee19",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "letter",
+          "full_singer": "Yutaka Hirasaka",
+          "album": "still glow",
+          "duration": 246,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002pb1i81puzIH",
+          "youtube": "https://youtube.com/watch?v=vbjRK3eajBY",
+          "bilibili": ""
+        },
+        {
+          "title": "breathing",
+          "full_singer": "Yutaka Hirasaka",
+          "album": "still glow",
+          "duration": 135,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002T5BMO4Nykll",
+          "youtube": "https://youtube.com/watch?v=EkmTupde0A4",
+          "bilibili": ""
+        },
+        {
+          "title": "opus - in the C -",
+          "full_singer": "Yutaka Hirasaka",
+          "album": "still glow",
+          "duration": 240,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0048oazT3R5Wqi",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "bed side",
+          "full_singer": "Yutaka Hirasaka",
+          "album": "still glow",
+          "duration": 114,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001HtKbT1DM1jU",
+          "youtube": "",
           "bilibili": ""
         }
       ]
@@ -10933,8 +10799,8 @@
     },
     {
       "name": "中村遥",
-      "song_count": 3,
-      "youtube": 0,
+      "song_count": 37,
+      "youtube": 29,
       "bilibili": 0,
       "songs": [
         {
@@ -10961,6 +10827,464 @@
           "album": "grace",
           "duration": 256,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/00308O0k0f6qNj",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "光",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 394,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0039X9fb3v53ho",
+          "youtube": "https://youtube.com/watch?v=PNZt6lstkBs",
+          "bilibili": ""
+        },
+        {
+          "title": "The Light",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 147,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0010vInP2YWtgV",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "カーテンコール",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 174,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Tg9nI0F9a19",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Twilight",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 520,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0012XJ5X3P0Zft",
+          "youtube": "https://youtube.com/watch?v=GAfwlgs0a1k",
+          "bilibili": ""
+        },
+        {
+          "title": "音楽のある風景",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 184,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002smmhd0vwmso",
+          "youtube": "https://youtube.com/watch?v=N7TkK2joi4I",
+          "bilibili": ""
+        },
+        {
+          "title": "Dialogo",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 215,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000jkjPC3WtgEa",
+          "youtube": "https://youtube.com/watch?v=azihNY9Y4PU",
+          "bilibili": ""
+        },
+        {
+          "title": "光景",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 236,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0025G8dU3Kzapi",
+          "youtube": "https://youtube.com/watch?v=qtCTj-arXn8",
+          "bilibili": ""
+        },
+        {
+          "title": "ベランダにて",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 128,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004NCC9Q1SOacX",
+          "youtube": "https://youtube.com/watch?v=dKFEezfNAa0",
+          "bilibili": ""
+        },
+        {
+          "title": "Memoria",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 174,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001eH1XX47e8LW",
+          "youtube": "https://youtube.com/watch?v=cBxPvA9PPLA",
+          "bilibili": ""
+        },
+        {
+          "title": "窓辺",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 158,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003ZhGYP2XBpwS",
+          "youtube": "https://youtube.com/watch?v=-fh5mYyc7ho",
+          "bilibili": ""
+        },
+        {
+          "title": "彼方",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 164,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002e7ir11f1VHo",
+          "youtube": "https://youtube.com/watch?v=7FdiYXfH3F0",
+          "bilibili": ""
+        },
+        {
+          "title": "Harmonie Du Soir",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 194,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0042Q9Y131Uj0w",
+          "youtube": "https://youtube.com/watch?v=QNvB5g-KUeM",
+          "bilibili": ""
+        },
+        {
+          "title": "夕べの祈り",
+          "full_singer": "haruka nakamura",
+          "album": "Twilight",
+          "duration": 320,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Tv8T80mmUC3",
+          "youtube": "https://youtube.com/watch?v=g8K3MBM02XU",
+          "bilibili": ""
+        },
+        {
+          "title": "Elm",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 150,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001f14BU1FFKRH",
+          "youtube": "https://youtube.com/watch?v=Ccd_SEqEDpU",
+          "bilibili": ""
+        },
+        {
+          "title": "Elm/2",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 102,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001szxa14bRair",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Lamp",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 334,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004OpdZp248Bd5",
+          "youtube": "https://youtube.com/watch?v=cHQ-oVSYkeU",
+          "bilibili": ""
+        },
+        {
+          "title": "Every Day",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 195,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002FErJd18H9xJ",
+          "youtube": "https://youtube.com/watch?v=bDfbC6gxRNA",
+          "bilibili": ""
+        },
+        {
+          "title": "Luz",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 225,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004LB0iY191uXY",
+          "youtube": "https://youtube.com/watch?v=wKPXqXBSeqM",
+          "bilibili": ""
+        },
+        {
+          "title": "Arne",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 217,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002kvoC20rw3o4",
+          "youtube": "https://youtube.com/watch?v=9sl-2Fuo9c0",
+          "bilibili": ""
+        },
+        {
+          "title": "Opus",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 196,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002ApQ3l4AVjgw",
+          "youtube": "https://youtube.com/watch?v=Ccwg8rmi1SU",
+          "bilibili": ""
+        },
+        {
+          "title": "Ralgo",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 287,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001LE6ik28dTWo",
+          "youtube": "https://youtube.com/watch?v=AxfWe2Lra2o",
+          "bilibili": ""
+        },
+        {
+          "title": "Lang",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 153,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000SfpPp1elfp6",
+          "youtube": "https://youtube.com/watch?v=_vcxXv4Rpq8",
+          "bilibili": ""
+        },
+        {
+          "title": "Cielo",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 286,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003DurQU321VDo",
+          "youtube": "https://youtube.com/watch?v=pGyIBE8DlQU",
+          "bilibili": ""
+        },
+        {
+          "title": "Cadenza",
+          "full_singer": "haruka nakamura",
+          "album": "Grace",
+          "duration": 149,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0041kPwe0ou521",
+          "youtube": "https://youtube.com/watch?v=WZ_6bfEIJWY",
+          "bilibili": ""
+        },
+        {
+          "title": "let go",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 312,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001dSmcj112SZa",
+          "youtube": "https://youtube.com/watch?v=9grgdU-NZiw",
+          "bilibili": ""
+        },
+        {
+          "title": "SUNSET LINE",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 274,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xf9O01xLZPD",
+          "youtube": "https://youtube.com/watch?v=NPy_SDjW2EE",
+          "bilibili": ""
+        },
+        {
+          "title": "fragrance like home",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 313,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0001jtij4JXGMK",
+          "youtube": "https://youtube.com/watch?v=sudQL11jKuM",
+          "bilibili": ""
+        },
+        {
+          "title": "delight",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 314,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003b8kYE1ikWQg",
+          "youtube": "https://youtube.com/watch?v=VY3Q1Ef8HZY",
+          "bilibili": ""
+        },
+        {
+          "title": "MELODICA",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 343,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001EV2nt13Dwij",
+          "youtube": "https://youtube.com/watch?v=2HE4xf-3qE0",
+          "bilibili": ""
+        },
+        {
+          "title": "enzo",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 66,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001g30Qn0eqmUp",
+          "youtube": "https://youtube.com/watch?v=8tyI-7qc2IY",
+          "bilibili": ""
+        },
+        {
+          "title": "days",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 113,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003WtNS01hE28v",
+          "youtube": "https://youtube.com/watch?v=o_8Z4UrSDlk",
+          "bilibili": ""
+        },
+        {
+          "title": "soar",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 277,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002WPQKv0DK82h",
+          "youtube": "https://youtube.com/watch?v=Y-R-lLAyQu8",
+          "bilibili": ""
+        },
+        {
+          "title": "AURORA",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 211,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0009v77J2FUFvx",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Lamp",
+          "full_singer": "haruka nakamura",
+          "album": "MELODICA",
+          "duration": 400,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001jzOWo2xqSAK",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "北村英治",
+      "song_count": 16,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "身も心も",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 265,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0045gjRg3Mxwit",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "二人でお茶を",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 234,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001mFQ2V2rKzQ9",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "ON THE SUNNY SIDE OF THE STREET",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 257,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0025m6Oq20gi6p",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "嘘は罪",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 173,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003u7pXn2K7Ky0",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "The Very Thought of You",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 218,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002KMFzx43pq2Z",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "いいだしかねて",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 168,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003YxbtJ33sSAJ",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "HAPPY COOKING",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 271,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003C33fZ3vTKck",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "I'll Always Be In Love With You",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 168,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0015zyJ50EiBIp",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "DREAM A LITTLE DREAM OF ME",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 231,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00029pT90Kr3rw",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "TIME ON MY HANDS",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 220,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001t6oZ31JP5da",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "HOW HIGH THE MOON",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 116,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000IELhd1ehNCg",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "SWEET SUE JUST YOU",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 474,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003HZxAm3EpYNh",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "星ふるアラバマ",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 224,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001gVyz02QB7dW",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "いい娘をみつけた",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 197,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0025ct5e0oT59i",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Moonlight Becomes You",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 195,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0040UKrx0tcUCR",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "君去りし後",
+          "full_singer": "北村英治",
+          "album": "不滅のベスト TRIO RECORDS編",
+          "duration": 245,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Hs9sX1Cu0LB",
           "youtube": "",
           "bilibili": ""
         }
@@ -11184,8 +11508,8 @@
     },
     {
       "name": "小濑村晶",
-      "song_count": 3,
-      "youtube": 0,
+      "song_count": 28,
+      "youtube": 23,
       "bilibili": 0,
       "songs": [
         {
@@ -11212,6 +11536,231 @@
           "album": "Looking in the Same Direction (From \"Rudy\" Soundtrack)",
           "duration": 244,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003WGsQx2wsVmC",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Venice",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 260,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004P7xQc4edF1F",
+          "youtube": "https://youtube.com/watch?v=EpioWKLEQVU",
+          "bilibili": ""
+        },
+        {
+          "title": "Guitar",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 90,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003gyppy37XCdT",
+          "youtube": "https://youtube.com/watch?v=J7hkYFGcIaQ",
+          "bilibili": ""
+        },
+        {
+          "title": "Tyme",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 218,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000F1T8U4D9yme",
+          "youtube": "https://youtube.com/watch?v=LTmpWOuxafk",
+          "bilibili": ""
+        },
+        {
+          "title": "Look",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 107,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003aTunO0Gw3ZD",
+          "youtube": "https://youtube.com/watch?v=CHq02_eaJmg",
+          "bilibili": ""
+        },
+        {
+          "title": "Tale",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 116,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001AscM34FraSP",
+          "youtube": "https://youtube.com/watch?v=JaUs5YQqiPc",
+          "bilibili": ""
+        },
+        {
+          "title": "Sign",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 140,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0037ONQc01qrqA",
+          "youtube": "https://youtube.com/watch?v=Dy7ItYi-dwg",
+          "bilibili": ""
+        },
+        {
+          "title": "Would",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 186,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003AGu980N7rcV",
+          "youtube": "https://youtube.com/watch?v=wMEFLdBg-5o",
+          "bilibili": ""
+        },
+        {
+          "title": "April",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 194,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000k0wjJ18IyA5",
+          "youtube": "https://youtube.com/watch?v=M2uuhk3rVeY",
+          "bilibili": ""
+        },
+        {
+          "title": "Faire",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 100,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001c5fLw2IeIHC",
+          "youtube": "https://youtube.com/watch?v=MV9O0pqFXHY",
+          "bilibili": ""
+        },
+        {
+          "title": "Hicari",
+          "full_singer": "Akira Kosemura",
+          "album": "Polaroid Piano",
+          "duration": 124,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002KkZUc09vxV7",
+          "youtube": "https://youtube.com/watch?v=s9hTUv6F3-M",
+          "bilibili": ""
+        },
+        {
+          "title": "Letter From A Distance",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 112,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001sG52G1ozPxX",
+          "youtube": "https://youtube.com/watch?v=5Ko4aHerwG4",
+          "bilibili": ""
+        },
+        {
+          "title": "Stillness Of The Holy Place",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 598,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001V3dnU3lAf6a",
+          "youtube": "https://youtube.com/watch?v=rwMUyYQNywc",
+          "bilibili": ""
+        },
+        {
+          "title": "The Cycle Of Nature",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 219,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001FFskn42EHxR",
+          "youtube": "https://youtube.com/watch?v=t8rePrlf9pw",
+          "bilibili": ""
+        },
+        {
+          "title": "Spark",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 128,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0037sDr60vT6P8",
+          "youtube": "https://youtube.com/watch?v=iR2LSWkuJaE",
+          "bilibili": ""
+        },
+        {
+          "title": "Snowy Sky",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 96,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004aaCOg244X4X",
+          "youtube": "https://youtube.com/watch?v=bjQYl_x1hlI",
+          "bilibili": ""
+        },
+        {
+          "title": "Moving",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 51,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000fh8cc1aKwmJ",
+          "youtube": "https://youtube.com/watch?v=WuT-oyNQhIg",
+          "bilibili": ""
+        },
+        {
+          "title": "Dedicated To Laura Palmer",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 283,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000gwXTH24nTk5",
+          "youtube": "https://youtube.com/watch?v=kDvbd7HRHys",
+          "bilibili": ""
+        },
+        {
+          "title": "Shadow",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 137,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004UhAuY4PTdFV",
+          "youtube": "https://youtube.com/watch?v=VzOCpjrP78A",
+          "bilibili": ""
+        },
+        {
+          "title": "Inside River #2",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 160,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/0021CCQt09zdDq",
+          "youtube": "https://youtube.com/watch?v=z-YifEQhS6o",
+          "bilibili": ""
+        },
+        {
+          "title": "Inside River #1",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 144,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002JTDdZ0nLKAD",
+          "youtube": "https://youtube.com/watch?v=U7rbF4oR9e4",
+          "bilibili": ""
+        },
+        {
+          "title": "Kaleidoscope Of Happiness",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 93,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001kJG2P0CCOay",
+          "youtube": "https://youtube.com/watch?v=FLPd1LClVNA",
+          "bilibili": ""
+        },
+        {
+          "title": "Sphere",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 261,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001EQen03Sva8i",
+          "youtube": "https://youtube.com/watch?v=KxyLUSVxdj0",
+          "bilibili": ""
+        },
+        {
+          "title": "Between The Trees",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 209,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003IiDsd32QrAY",
+          "youtube": "https://youtube.com/watch?v=RvV-AHi5oOg",
+          "bilibili": ""
+        },
+        {
+          "title": "Resonance",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 121,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xFjAa34zgpU",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "DNA",
+          "full_singer": "Akira Kosemura",
+          "album": "In The Dark Woods",
+          "duration": 316,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000hIrIO1UfDfc",
           "youtube": "",
           "bilibili": ""
         }
@@ -12335,7 +12884,7 @@
     },
     {
       "name": "青葉市子",
-      "song_count": 21,
+      "song_count": 20,
       "youtube": 0,
       "bilibili": 0,
       "songs": [
@@ -12417,15 +12966,6 @@
           "album": "さよならペンギン",
           "duration": 111,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001sEBpU4eSUwP",
-          "youtube": "",
-          "bilibili": ""
-        },
-        {
-          "title": "はるなつあきふゆ",
-          "full_singer": "青葉市子",
-          "album": "0",
-          "duration": 381,
-          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002utTAa1r1c56",
           "youtube": "",
           "bilibili": ""
         },

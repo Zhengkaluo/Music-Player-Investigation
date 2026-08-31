@@ -7,6 +7,7 @@ __pycache__/
 cafe-playlist/data/qq_credential.json
 cafe-playlist/data/song_id_cache.json
 cafe-playlist/data/sync_log.json
+.qqmusic/
 *.log
 
 # WorkBuddy / IDE
@@ -24,3 +25,15 @@ Notion Export.zip
 
 # Runtime config (auto-saved window position)
 music_display_config.json
+
+# SongBase downloaded media and runtime state
+# Existing tracked sample files are unaffected; new downloads stay local.
+SongBase/SongResources/*.mp3
+SongBase/SongResources/_download_log.txt
+SongBase/_search_live.txt
+SongBase/_search_progress.json
+SongBase/_audio_download_status.json
+SongBase/_audio_download_log.txt
+SongBase/SongResources/_audio_download_log.txt
+SongBase/downloadscripts/_*.json
+SongBase/downloadscripts/*_log.txt

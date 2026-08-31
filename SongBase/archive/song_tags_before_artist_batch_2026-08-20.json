@@ -1,0 +1,25 @@
+{
+  "schema_version": "songbase.tags/v1",
+  "taxonomy_version": "2026-08-07",
+  "updated_at": "2026-08-16",
+  "taxonomy": {
+    "genres": [
+      "Ambient / Neo-Classical",
+      "Post-Rock / Cinematic",
+      "Electronic",
+      "Jazz / Soul",
+      "Folk / Singer-Songwriter",
+      "Rock / Alternative",
+      "Hip-Hop / R&B"
+    ],
+    "languages": [
+      "Minnan",
+      "Japanese",
+      "Other Languages"
+    ],
+    "forms": [
+      "Instrumental"
+    ]
+  },
+  "tracks": {}
+}

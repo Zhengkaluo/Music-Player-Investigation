@@ -10,6 +10,7 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent
 SOURCE = BASE / "song_base_by_artist.json"
 OUTPUT = BASE / "song_base_browser.html"
+DISCARDED_SOURCE = BASE / "archive" / "removed_tracks" / "discarded_tracks.json"
 
 
 TEMPLATE = r'''<!doctype html>
@@ -177,6 +178,17 @@ TEMPLATE = r'''<!doctype html>
 
 def main() -> None:
     library = json.loads(SOURCE.read_text(encoding="utf-8"))
+    if DISCARDED_SOURCE.exists():
+        discarded = json.loads(DISCARDED_SOURCE.read_text(encoding="utf-8")).get("tracks", {})
+        library_ids = {
+            "qq:" + song["qq_music"].split("/songDetail/", 1)[1].split("?", 1)[0].split("#", 1)[0]
+            for singer in library.get("singers", [])
+            for song in singer.get("songs", [])
+            if "/songDetail/" in song.get("qq_music", "")
+        }
+        overlap = sorted(set(discarded) & library_ids)
+        if overlap:
+            raise ValueError("归档舍弃曲目仍存在于主 SongBase: " + ", ".join(overlap))
     payload = json.dumps(library, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     OUTPUT.write_text(TEMPLATE.replace("__LIBRARY_JSON__", payload), encoding="utf-8")
     print(f"Built {OUTPUT.name}: {library['total_unique_songs']} songs, {library['total_singers']} artists")

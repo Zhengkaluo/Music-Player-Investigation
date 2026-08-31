@@ -1,0 +1,736 @@
+{
+  "schema_version": "songbase.tag-mapping/v1",
+  "version": "2026-08-11",
+  "updated_at": "2026-08-11",
+  "description": "将外部平台的原始风格标签映射为 SongTagInstruction 的目标风格。规则只生成候选，不直接写入 song_tags.json。",
+  "genres": [
+    "Ambient / Neo-Classical",
+    "Post-Rock / Cinematic",
+    "Electronic",
+    "Jazz / Soul",
+    "Folk / Singer-Songwriter",
+    "Rock / Alternative",
+    "Hip-Hop / R&B"
+  ],
+  "direct_rules": [
+    {
+      "id": "ambient-core",
+      "target": "Ambient / Neo-Classical",
+      "match_any": [
+        "ambient",
+        "neo-classical",
+        "neo classical",
+        "modern classical",
+        "contemporary classical"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "氛围、现代古典与当代古典是该目标标签的核心外部信号。"
+    },
+    {
+      "id": "ambient-support",
+      "target": "Ambient / Neo-Classical",
+      "match_any": [
+        "minimalism",
+        "minimalist",
+        "drone",
+        "chamber music",
+        "new age"
+      ],
+      "score": 3,
+      "status": "proposed",
+      "note": "支持信号；单独出现时保留候选，不应与核心词同等看待。"
+    },
+    {
+      "id": "post-rock-core",
+      "target": "Post-Rock / Cinematic",
+      "match_any": [
+        "post-rock",
+        "post rock",
+        "chinese post-rock"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "后摇及明确地域子类是直接强映射。"
+    },
+    {
+      "id": "cinematic-support",
+      "target": "Post-Rock / Cinematic",
+      "match_any": [
+        "cinematic",
+        "film score",
+        "soundtrack"
+      ],
+      "score": 3,
+      "status": "proposed",
+      "note": "电影感或原声带并不必然是后摇，仅作为支持信号。"
+    },
+    {
+      "id": "electronic-core",
+      "target": "Electronic",
+      "match_any": [
+        "electronic",
+        "electronica",
+        "idm",
+        "ambient techno"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "电子制作主导的强映射。"
+    },
+    {
+      "id": "electronic-variants",
+      "target": "Electronic",
+      "match_any": [
+        "downtempo",
+        "house",
+        "techno",
+        "synth",
+        "synthpop",
+        "synth-pop",
+        "trip-hop",
+        "trip hop",
+        "glitch"
+      ],
+      "score": 4,
+      "status": "verified",
+      "note": "电子子流派；与 Hip-Hop / R&B 证据冲突时进入复核。"
+    },
+    {
+      "id": "jazz-core",
+      "target": "Jazz / Soul",
+      "match_any": [
+        "jazz",
+        "nu jazz",
+        "jazz fusion",
+        "bossa nova"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "爵士及明确子流派的强映射。"
+    },
+    {
+      "id": "soul-core",
+      "target": "Jazz / Soul",
+      "match_any": [
+        "soul",
+        "neo-soul",
+        "neo soul",
+        "funk"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "Soul 与 Neo-Soul 在当前 SongTag 体系归入 Jazz / Soul。"
+    },
+    {
+      "id": "jazz-soul-support",
+      "target": "Jazz / Soul",
+      "match_any": [
+        "fusion",
+        "jazz hip hop"
+      ],
+      "score": 3,
+      "status": "proposed",
+      "note": "仅作支持信号，需观察是否同时出现 Jazz、Soul 或 Hip-Hop 证据。"
+    },
+    {
+      "id": "folk-core",
+      "target": "Folk / Singer-Songwriter",
+      "match_any": [
+        "folk",
+        "indie folk",
+        "indie-folk",
+        "singer-songwriter",
+        "singer songwriter"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "民谣与唱作的直接强映射。"
+    },
+    {
+      "id": "folk-support",
+      "target": "Folk / Singer-Songwriter",
+      "match_any": [
+        "americana",
+        "folk rock"
+      ],
+      "score": 3,
+      "status": "proposed",
+      "note": "辅助判断；Acoustic 不在此处单独映射。"
+    },
+    {
+      "id": "rock-core",
+      "target": "Rock / Alternative",
+      "match_any": [
+        "rock",
+        "alternative",
+        "alternative rock",
+        "indie rock",
+        "indie-rock",
+        "dream pop",
+        "shoegaze",
+        "britpop"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "乐队骨架、Dream Pop、Shoegaze 与 Britpop 的直接映射。"
+    },
+    {
+      "id": "rock-variants",
+      "target": "Rock / Alternative",
+      "match_any": [
+        "post-punk",
+        "post punk",
+        "psychedelic rock",
+        "art rock"
+      ],
+      "score": 4,
+      "status": "verified",
+      "note": "摇滚子流派；不包含 Math Rock，后者依当前 SongTag 约定归入 Post-Rock / Cinematic。"
+    },
+    {
+      "id": "hiphop-core",
+      "target": "Hip-Hop / R&B",
+      "match_any": [
+        "hip hop",
+        "hip-hop",
+        "rap",
+        "trap",
+        "lo-fi hip hop",
+        "lofi hip hop",
+        "lo-fi hiphop",
+        "jazz-hop",
+        "hip hop jazz"
+      ],
+      "score": 6,
+      "status": "verified",
+      "note": "嘻哈、说唱与 Jazz-Hop / Hip Hop Jazz 的节奏骨架均直接归入 Hip-Hop / R&B。"
+    },
+    {
+      "id": "rnb-default",
+      "target": "Hip-Hop / R&B",
+      "match_any": [
+        "r&b",
+        "rnb",
+        "rhythm and blues"
+      ],
+      "score": 5,
+      "status": "verified",
+      "note": "R&B 默认归入 Hip-Hop / R&B；若同现 Soul、Neo-Soul 或 Jazz，由组合规则提升 Jazz / Soul。"
+    },
+    {
+      "id": "post-rock-math-rock",
+      "target": "Post-Rock / Cinematic",
+      "match_any": [
+        "math rock",
+        "math-rock"
+      ],
+      "score": 4,
+      "status": "verified",
+      "note": "本体系将 Math Rock 作为后摇的操作性子类处理；基于 Chon 与 tfvsjs 的人工复核。"
+    }
+  ],
+  "combination_rules": [
+    {
+      "id": "piano-with-ambient",
+      "target": "Ambient / Neo-Classical",
+      "match_all": [
+        "piano"
+      ],
+      "require_any": [
+        "ambient",
+        "minimalism",
+        "minimalist",
+        "neo-classical",
+        "neo classical",
+        "modern classical",
+        "contemporary classical"
+      ],
+      "score": 5,
+      "status": "verified",
+      "note": "Piano 只有与氛围/现代古典信号共现时，才强化 Ambient / Neo-Classical。"
+    },
+    {
+      "id": "piano-with-jazz-soul",
+      "target": "Jazz / Soul",
+      "match_all": [
+        "piano"
+      ],
+      "require_any": [
+        "jazz",
+        "nu jazz",
+        "soul",
+        "neo-soul",
+        "neo soul",
+        "funk"
+      ],
+      "score": 5,
+      "status": "proposed",
+      "note": "Piano 与 Jazz/Soul 同时出现时偏向 Jazz / Soul，而不是自动归入现代古典。"
+    },
+    {
+      "id": "rnb-with-soul",
+      "target": "Hip-Hop / R&B",
+      "match_all": [
+        "r&b"
+      ],
+      "require_any": [
+        "soul",
+        "neo-soul",
+        "neo soul",
+        "jazz",
+        "nu jazz"
+      ],
+      "score": 5,
+      "status": "proposed",
+      "note": "R&B 与 Soul/Neo-Soul/Jazz 共现时，先保留在 Hip-Hop / R&B；仍需更多人工样本校准与 Jazz / Soul 的边界。"
+    },
+    {
+      "id": "rnb-abbrev-with-soul",
+      "target": "Hip-Hop / R&B",
+      "match_all": [
+        "rnb"
+      ],
+      "require_any": [
+        "soul",
+        "neo-soul",
+        "neo soul",
+        "jazz",
+        "nu jazz"
+      ],
+      "score": 5,
+      "status": "proposed",
+      "note": "与 rnb-with-soul 同义，覆盖 Last.fm 常见缩写；暂作边界支持信号，不单独决定归类。"
+    },
+    {
+      "id": "beats-with-electronic",
+      "target": "Electronic",
+      "match_all": [
+        "beats"
+      ],
+      "require_any": [
+        "electronic",
+        "electronica",
+        "idm",
+        "downtempo",
+        "glitch"
+      ],
+      "score": 4,
+      "status": "proposed",
+      "note": "Beats 单独不判断；与电子制作信号共现时增强 Electronic。"
+    },
+    {
+      "id": "acoustic-with-folk",
+      "target": "Folk / Singer-Songwriter",
+      "match_all": [
+        "acoustic"
+      ],
+      "require_any": [
+        "folk",
+        "indie folk",
+        "indie-folk",
+        "singer-songwriter",
+        "singer songwriter"
+      ],
+      "score": 4,
+      "status": "proposed",
+      "note": "Acoustic 是编制描述，只有与 Folk/唱作信号共现时才增强该类别。"
+    }
+  ],
+  "weak_terms": [
+    {
+      "term": "piano",
+      "reason": "可指现代古典、爵士钢琴、流行编制或配乐，不能单独定类。"
+    },
+    {
+      "term": "acoustic",
+      "reason": "编制而非主风格，必须结合 Folk/唱作等信号。"
+    },
+    {
+      "term": "indie",
+      "reason": "过于宽泛；若无 Rock、Dream Pop、Folk 等上下文，不单独映射。"
+    },
+    {
+      "term": "pop",
+      "reason": "当前 SongTag 没有独立 Pop 类，不强行归入 Rock 或 Electronic。"
+    },
+    {
+      "term": "experimental",
+      "reason": "表达创作方法而非稳定风格，必须结合音色或流派词。"
+    },
+    {
+      "term": "soundtrack",
+      "reason": "可为现代古典、电子或管弦配乐；只作为 Cinematic 支持信号。"
+    },
+    {
+      "term": "beats",
+      "reason": "既可能是 Hip-Hop，也可能是电子；需要组合条件。"
+    }
+  ],
+  "ignored_terms": [
+    "chill",
+    "relaxing",
+    "calm",
+    "energetic",
+    "beautiful",
+    "favorite",
+    "instrumental",
+    "male vocalist",
+    "female vocalist",
+    "japanese",
+    "chinese",
+    "korean",
+    "live",
+    "cover",
+    "remix"
+  ],
+  "maintenance": {
+    "rule_status": [
+      "proposed",
+      "verified",
+      "deprecated"
+    ],
+    "update_policy": "每次人工复核一批候选后，记录误判、补充规则或调整 score；不要只因单首歌曲修改 verified 规则。",
+    "review_threshold": "只有曲目级或专辑级证据能进入高置信复核；艺人级推断始终需要人工确认。",
+    "review_findings": [
+      {
+        "date": "2026-08-10",
+        "source": "song_tag_corrections_2026-08-10.json（5 条人工确认修正）",
+        "mapping_updates": [
+          "将 chinese post-rock 纳入 Post-Rock / Cinematic 的直接强映射。",
+          "补充 lo-fi hiphop、jazz-hop、hip hop jazz 到 Hip-Hop / R&B 的直接映射。",
+          "R&B + Soul/Jazz 的组合规则改为指向 Hip-Hop / R&B，并补充 rnb 缩写变体；仍为 proposed。"
+        ],
+        "calibration_watch": [
+          "Ambient 与 Electronic 同时出现时，电子近义标签的累加可能压过专辑级 ambient；这需要调整候选计算的去重或竞争策略，不应仅靠映射词加分。",
+          "艺人级 Jazz / Soul 标签会遗漏曲目级 Hip-Hop / R&B 或 Folk 特征；该类证据只能作为人工复核线索。",
+          "纯音乐的 language 应视为不适用，而非默认中文/英文；这是正式标签模型待补的状态。"
+        ]
+      },
+      {
+        "date": "2026-08-10",
+        "source": "song_tag_corrections_2026-08-10 - Second Round.json（5 条导出反馈；其中 3 首移出 SongBase）",
+        "mapping_updates": [],
+        "calibration_watch": [
+          "Loscil — Charlie：专辑/艺人级 ambient、drone 证据仍被多个 Electronic 近义词的累加压过；人工归为 Ambient / Neo-Classical。单曲反馈先作为候选计算的观察样本，不单独改通用映射规则。",
+          "Múm — Underwater Snow：候选为 Electronic（80%，专辑/艺人级），但人工认为边界不清，已标记 deferred、不进入正式标签。来源一致性不能替代风格边界判断。",
+          "三首曲目被明确移出 SongBase，因而不应作为映射正确性或置信度校准样本。"
+        ]
+      },
+      {
+        "date": "2026-08-10",
+        "source": "song_tag_corrections_2026-08-10 Third Round Greater than 80%.json（9 条高置信复核）",
+        "mapping_updates": [
+          "将 math rock / math-rock 从 Rock / Alternative 的弱映射移至 Post-Rock / Cinematic；按当前 SongTag 的归类约定标记为 verified。"
+        ],
+        "calibration_watch": [
+          "Bibio — Quarters：Electronic 候选经人工改为 Ambient / Neo-Classical，暂作为个曲边界样本，不单独改动 Electronic 通用规则。",
+          "toconoma — Yellow Surf：人工选择 Post-Rock / Cinematic，但同时保留 Jazz 可能性；先作为人工标签，不将单曲结论泛化为映射规则。",
+          "Múm — Underwater Snow 继续 deferred；即使候选为 80%，也不进入正式标签。",
+          "Wildlife、O. G .、honj 被移出 SongBase，不纳入映射准确率校准。"
+        ]
+      },
+      {
+        "date": "2026-08-10",
+        "source": "人工校准：Hania Rani 的 Ambient / Neo-Classical 候选",
+        "mapping_updates": [
+          "新增 Hania Rani → Ambient / Neo-Classical 的艺人置信度校准：+5 个百分点，最高 70%。"
+        ],
+        "calibration_watch": [
+          "该规则只影响候选排序与复核优先级；不能自动写入正式标签。若后续出现反例，应降低加成或改回普通艺人级上限。"
+        ]
+      },
+      {
+        "date": "2026-08-10",
+        "source": "song_tag_corrections_2026-08-10 Third round Rest of all.json（16 条剩余候选复核）",
+        "mapping_updates": [],
+        "calibration_watch": [
+          "Cicada 的两首 Electronic 候选均被人工改为 Ambient / Neo-Classical，并标记 source_unreliable；继续收集样本后再考虑艺人或专辑级校准。",
+          "Paniyolo — Spring Garden 由 Electronic 改为 Ambient / Neo-Classical，同样标记 source_unreliable；不据单首曲目改动全局 Electronic 词映射。",
+          "Masakatsu Takagi 的 Marginalia 系列两首曲目均被人工定为 Ambient / Neo-Classical；这是可考虑专辑级规则的重复信号。",
+          "Busty and the Bass、Daniel Caesar 的个曲被人工归入 Hip-Hop / R&B；Cherry Ghost 则从 Rock / Alternative 改为 Folk / Singer-Songwriter，先保留为艺人/曲目边界样本。"
+        ]
+      },
+      {
+        "date": "2026-08-10",
+        "source": "人工复盘校准升级：Cicada、Paniyolo、Masakatsu Takagi — Marginalia",
+        "mapping_updates": [
+          "新增 Cicada → Ambient / Neo-Classical 的艺人风格先验（+4.25 分，verified）。",
+          "新增 Paniyolo → Ambient / Neo-Classical 的艺人风格先验（+2.00 分，proposed）。",
+          "新增 Masakatsu Takagi + Marginalia → Ambient / Neo-Classical 的专辑级风格先验（+2.00 分，verified）。"
+        ],
+        "calibration_watch": [
+          "这些规则只改变候选风格之间的竞争分数；校准本身不计入来源层级，因此不会把艺人级证据伪装为曲目级或专辑级置信度。",
+          "Paniyolo 当前只有一首人工样本，应继续复核更多曲目；若出现明显反例，优先降级或删除该 proposed 先验。",
+          "Cicada 与 Marginalia 已各有两首同向人工样本；仍应在未来批次中留意跨专辑、跨时期的边界。"
+        ]
+      },
+      {
+        "date": "2026-08-11",
+        "source": "song_tag_corrections_2026-08-11.json 与 song_tags_formal_updates_2026-08-11.json（12 首确认入库、3 首修正、3 首移出）",
+        "mapping_updates": [
+          "Hania Rani 的 Ambient / Neo-Classical 置信度校准上限从 70% 调整为 85%，使专辑级 ambient 候选可获得 +5 个百分点的人工先验加成。",
+          "新增中村遥 / haruka nakamura → Ambient / Neo-Classical 的艺人风格先验（+3.00 分，verified）；本批 5 首同向确认。",
+          "新增 fox capture plan、jizue、Cicada 的艺人复核政策：前两者的 Jazz / Soul 与 Post-Rock / Cinematic 命中均视为边界可接受；Cicada 的 Electronic 命中自动暂缓复核。"
+        ],
+        "calibration_watch": [
+          "Clairo — Pretty Girl：曲目级 synthpop 候选（Electronic，87%）被人工改为 Folk / Singer-Songwriter，并标记 source_unreliable。保留为单曲来源异常样本，不降低 synthpop 的通用 Electronic 映射，也不建立 Clairo 艺人先验。",
+          "fox capture plan — 疾走する閃光、jizue — 最後の朝：外部 Jazz / Fusion 信号很强，但人工听感可偏 Post-Rock / Cinematic。两位艺人的 Jazz / Soul 与 Post-Rock / Cinematic 都是边界可接受结果，不视为映射错误；不添加单向风格先验，也不削弱 Jazz / Fusion 的通用映射。",
+          "青葉市子的人工作品集中在 Folk / Singer-Songwriter，但反馈同时提示其 Ambient 边界；暂不增加单向艺人先验，继续按曲目或专辑证据判断。",
+          "betcover!! 的 Rock / Alternative 结论与候选一致；Post-Rock 仍作为可能边界，暂无规则调整。",
+          "明确移出 SongBase 的 Alfa Mist — 7th October、Men I Trust — A Cycle (2021)、Re:Plus — 4 AM feat. I Hate This Place 不纳入映射准确率或置信度校准。"
+        ]
+      },
+      {
+        "date": "2026-08-11",
+        "source": "song_tag_corrections_2026-08-11 - second round.json 与 song_tags_formal_updates_2026-08-11 - second round.json（13 首确认入库、2 首修正、1 首移出）",
+        "mapping_updates": [
+          "新增 Flica → Ambient / Neo-Classical 的艺人风格先验（+2.00 分，proposed）；其专辑/艺人级 ambient 证据与 Electronic 仅差 1.83 分，人工确认当前 SongTag 语境应归 Ambient。",
+          "新增 Slowly Rolling Camera 的艺人复核政策：Jazz / Soul 与 Ambient / Neo-Classical 可接受，Electronic 自动暂缓人工复核。",
+          "新增坂本龙一 / Ryuichi Sakamoto 的 Ambient / Neo-Classical 艺人复核认可：当前 SongBase 范围内命中 Ambient 即视为正常正确，但不设单向分数或置信度加成。"
+        ],
+        "calibration_watch": [
+          "小濑村晶、El Ten Eleven、iimmune、坂本龙一的本批确认均与既有候选相符，暂不重复叠加艺人先验；后续出现反例时再调整。",
+          "fox capture plan 的 Jazz / Soul 确认再次验证其边界可接受政策。",
+          "Yussef Kamaal — Ayla 被移出 SongBase，不纳入映射准确率或置信度校准。"
+        ]
+      },
+      {
+        "date": "2026-08-11",
+        "source": "SongBase 全库艺人规则集中复盘",
+        "mapping_updates": [
+          "为 15 位单一稳定风格艺人新增复核认可与目标风格置信度校准：+10 个百分点，最高 85%。",
+          "为 12 位双风格边界艺人的每个可接受目标新增置信度校准：+5 个百分点，最高 85%；同时记录 boundary_accepted 复核政策。",
+          "为 iwamizu 新增 Hip-Hop / R&B、Ambient / Neo-Classical、Post-Rock / Cinematic 三类边界政策，但因范围较宽不提升置信度。",
+          "新增 Chon → Post-Rock / Cinematic 的艺人风格先验（+2.00 分）；Jazz / Soul 仍作为可接受边界。"
+        ],
+        "calibration_watch": [
+          "艺人置信度校准只在当前胜出风格命中认可目标时生效，不凭空生成候选，也不替代曲目或专辑证据。",
+          "单一风格艺人级候选通常可由 65% 提至最高 75%；专辑级候选可由 80% 提至最高 85%，实际加成仍受未封顶置信度限制。",
+          "持续观察跨时期、跨专辑反例；出现稳定反例时优先降低加成、改为边界政策或限定专辑范围。"
+        ]
+      }
+    ]
+  },
+  "artist_confidence_adjustments": [
+    {
+      "id": "hania-rani-ambient-confidence",
+      "artist_match_any": [
+        "Hania Rani"
+      ],
+      "target": "Ambient / Neo-Classical",
+      "confidence_delta": 0.05,
+      "max_confidence": 0.85,
+      "status": "verified",
+      "note": "当 Hania Rani 的候选归入 Ambient / Neo-Classical 时，基于重复人工确认提高 5 个百分点，最高 85%；可放宽专辑级 80% 上限，但不替代曲目或专辑证据。"
+    },
+    {"id":"akira-kosemura-ambient-confidence","artist_match_any":["小濑村晶","Akira Kosemura"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"多首、多专辑结果稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"replus-hiphop-confidence","artist_match_any":["Re:Plus","re:plus"],"target":"Hip-Hop / R&B","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Hip-Hop / R&B 时提高 10 个百分点，最高 85%。"},
+    {"id":"hiroshi-yoshimura-ambient-confidence","artist_match_any":["Hiroshi Yoshimura","吉村弘"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 结果稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"alfa-mist-jazz-confidence","artist_match_any":["Alfa Mist"],"target":"Jazz / Soul","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 结果稳定；命中 Jazz / Soul 时提高 10 个百分点，最高 85%。"},
+    {"id":"nujabes-hiphop-confidence","artist_match_any":["Nujabes"],"target":"Hip-Hop / R&B","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 结果稳定；命中 Hip-Hop / R&B 时提高 10 个百分点，最高 85%。"},
+    {"id":"el-ten-eleven-postrock-confidence","artist_match_any":["El Ten Eleven"],"target":"Post-Rock / Cinematic","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"多专辑结果及人工反馈稳定；命中 Post-Rock / Cinematic 时提高 10 个百分点，最高 85%。"},
+    {"id":"gogo-penguin-jazz-confidence","artist_match_any":["GoGo Penguin"],"target":"Jazz / Soul","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Jazz / Soul 时提高 10 个百分点，最高 85%。"},
+    {"id":"mogwai-postrock-confidence","artist_match_any":["Mogwai"],"target":"Post-Rock / Cinematic","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Post-Rock / Cinematic 时提高 10 个百分点，最高 85%。"},
+    {"id":"goldmund-ambient-confidence","artist_match_any":["Goldmund"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 结果稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"awvfts-ambient-confidence","artist_match_any":["A Winged Victory for the Sullen"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 结果及人工反馈稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"balmorhea-ambient-confidence","artist_match_any":["Balmorhea"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"hers-rock-confidence","artist_match_any":["Her's"],"target":"Rock / Alternative","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 跨专辑及人工确认结果稳定；命中 Rock / Alternative 时提高 10 个百分点，最高 85%。"},
+    {"id":"ludovico-einaudi-ambient-confidence","artist_match_any":["Ludovico Einaudi"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"hitsujibungaku-rock-confidence","artist_match_any":["羊文学","Hitsujibungaku"],"target":"Rock / Alternative","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Rock / Alternative 时提高 10 个百分点，最高 85%。"},
+    {"id":"riopy-ambient-confidence","artist_match_any":["RIOPY"],"target":"Ambient / Neo-Classical","confidence_delta":0.1,"max_confidence":0.85,"status":"verified","note":"当前 SongBase 多专辑结果稳定；命中 Ambient / Neo-Classical 时提高 10 个百分点，最高 85%。"},
+    {"id":"yosi-horikawa-electronic-confidence","artist_match_any":["Yosi Horikawa"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"yosi-horikawa-ambient-confidence","artist_match_any":["Yosi Horikawa"],"target":"Ambient / Neo-Classical","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Ambient / Neo-Classical 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"kiasmos-electronic-confidence","artist_match_any":["Kiasmos"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"kiasmos-ambient-confidence","artist_match_any":["Kiasmos"],"target":"Ambient / Neo-Classical","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Ambient / Neo-Classical 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"ichiko-aoba-folk-confidence","artist_match_any":["青葉市子","Ichiko Aoba"],"target":"Folk / Singer-Songwriter","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Folk / Singer-Songwriter 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"ichiko-aoba-ambient-confidence","artist_match_any":["青葉市子","Ichiko Aoba"],"target":"Ambient / Neo-Classical","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Ambient / Neo-Classical 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"mammal-hands-jazz-confidence","artist_match_any":["Mammal Hands"],"target":"Jazz / Soul","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Jazz / Soul 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"mammal-hands-postrock-confidence","artist_match_any":["Mammal Hands"],"target":"Post-Rock / Cinematic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Post-Rock / Cinematic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"toconoma-jazz-confidence","artist_match_any":["toconoma"],"target":"Jazz / Soul","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Jazz / Soul 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"toconoma-postrock-confidence","artist_match_any":["toconoma"],"target":"Post-Rock / Cinematic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Post-Rock / Cinematic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"chon-postrock-confidence","artist_match_any":["Chon"],"target":"Post-Rock / Cinematic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Post-Rock / Cinematic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"chon-jazz-confidence","artist_match_any":["Chon"],"target":"Jazz / Soul","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Jazz / Soul 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"helios-ambient-confidence","artist_match_any":["Helios"],"target":"Ambient / Neo-Classical","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Ambient / Neo-Classical 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"helios-electronic-confidence","artist_match_any":["Helios"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"loscil-ambient-confidence","artist_match_any":["Loscil"],"target":"Ambient / Neo-Classical","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Ambient / Neo-Classical 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"loscil-electronic-confidence","artist_match_any":["Loscil"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"bibio-electronic-confidence","artist_match_any":["Bibio"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"bibio-ambient-confidence","artist_match_any":["Bibio"],"target":"Ambient / Neo-Classical","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Ambient / Neo-Classical 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"kiefer-jazz-confidence","artist_match_any":["Kiefer"],"target":"Jazz / Soul","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Jazz / Soul 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"kiefer-electronic-confidence","artist_match_any":["Kiefer"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"daniel-caesar-jazz-confidence","artist_match_any":["Daniel Caesar"],"target":"Jazz / Soul","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Jazz / Soul 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"daniel-caesar-hiphop-confidence","artist_match_any":["Daniel Caesar"],"target":"Hip-Hop / R&B","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Hip-Hop / R&B 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"men-i-trust-electronic-confidence","artist_match_any":["Men I Trust"],"target":"Electronic","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Electronic 为可接受边界；命中时提高 5 个百分点，最高 85%。"},
+    {"id":"men-i-trust-rock-confidence","artist_match_any":["Men I Trust"],"target":"Rock / Alternative","confidence_delta":0.05,"max_confidence":0.85,"status":"verified","note":"Rock / Alternative 为可接受边界；命中时提高 5 个百分点，最高 85%。"}
+  ],
+  "artist_genre_calibrations": [
+    {
+      "id": "cicada-ambient-genre-prior",
+      "artist_match_any": [
+        "Cicada"
+      ],
+      "target": "Ambient / Neo-Classical",
+      "score_bonus": 4.25,
+      "status": "verified",
+      "note": "两首人工复核均为 Ambient / Neo-Classical；用于抵消外部 Electronic 标签的累加偏差。只影响候选风格竞争，不提升来源上限。"
+    },
+    {
+      "id": "paniyolo-ambient-genre-prior",
+      "artist_match_any": [
+        "Paniyolo"
+      ],
+      "target": "Ambient / Neo-Classical",
+      "score_bonus": 2.0,
+      "status": "proposed",
+      "note": "Spring Garden 经人工复核归为 Ambient / Neo-Classical；先以候选先验记录，待更多样本验证。"
+    },
+    {
+      "id": "masakatsu-takagi-marginalia-ambient-prior",
+      "artist_match_any": [
+        "Masakatsu Takagi",
+        "高木正胜"
+      ],
+      "album_match_any": [
+        "Marginalia"
+      ],
+      "target": "Ambient / Neo-Classical",
+      "score_bonus": 2.0,
+      "status": "verified",
+      "note": "Marginalia #8 / #11 两首均经人工确定为 Ambient / Neo-Classical；仅在该专辑内生效。"
+    },
+    {
+      "id": "haruka-nakamura-ambient-genre-prior",
+      "artist_match_any": [
+        "中村遥",
+        "haruka nakamura"
+      ],
+      "target": "Ambient / Neo-Classical",
+      "score_bonus": 3.0,
+      "status": "verified",
+      "note": "音楽のある風景、夕べの祈り、光景、光、窓辺共 5 首经人工确认归入 Ambient / Neo-Classical；保留 Jazz / Hip-Hop 与 Post-Rock 的逐曲边界，不抬高来源置信度。"
+    },
+    {
+      "id": "flica-ambient-genre-prior",
+      "artist_match_any": [
+        "Flica"
+      ],
+      "target": "Ambient / Neo-Classical",
+      "score_bonus": 2.0,
+      "status": "proposed",
+      "note": "All 经人工纠错为 Ambient / Neo-Classical；外部 ambient 证据仅略低于 Electronic，按 SongTag 语境以小幅先验表达 Flica 偏 Ambient 的归类。"
+    },
+    {
+      "id": "chon-postrock-genre-prior",
+      "artist_match_any": [
+        "Chon"
+      ],
+      "target": "Post-Rock / Cinematic",
+      "score_bonus": 2.0,
+      "status": "verified",
+      "note": "Fall、Moon 的重复人工反馈认为 Chon 主要是 Math Rock；按当前 SongTag 约定映射为 Post-Rock / Cinematic。Jazz / Soul 仍作为可接受边界。"
+    }
+  ],
+  "artist_review_policies": [
+    {
+      "id": "fox-capture-plan-jazz-postrock-boundary",
+      "artist_match_any": [
+        "fox capture plan"
+      ],
+      "accepted_genres": [
+        "Jazz / Soul",
+        "Post-Rock / Cinematic"
+      ],
+      "on_accepted": "boundary_accepted",
+      "status": "verified",
+      "note": "Jazz / Fusion 与 Post-Rock 均为可接受归类；命中任一项不视为映射错误，正式入库时保留当前候选的单一风格。"
+    },
+    {
+      "id": "jizue-jazz-postrock-boundary",
+      "artist_match_any": [
+        "Jizue",
+        "jizue"
+      ],
+      "accepted_genres": [
+        "Jazz / Soul",
+        "Post-Rock / Cinematic"
+      ],
+      "on_accepted": "boundary_accepted",
+      "status": "verified",
+      "note": "Jazz / Fusion 与 Post-Rock 均为可接受归类；命中任一项不视为映射错误，正式入库时保留当前候选的单一风格。"
+    },
+    {
+      "id": "slowly-rolling-camera-non-electronic-boundary",
+      "artist_match_any": [
+        "Slowly Rolling Camera"
+      ],
+      "accepted_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "rejected_genres": [
+        "Electronic"
+      ],
+      "on_rejected": "deferred",
+      "status": "verified",
+      "note": "人工反馈认为该艺人通常偏 Jazz / Soul 或 Ambient / Neo-Classical，Electronic 可能性低；Electronic 候选必须人工复核，不可直接入库。"
+    },
+    {
+      "id": "ryuichi-sakamoto-ambient-review-context",
+      "artist_match_any": [
+        "坂本龙一",
+        "Ryuichi Sakamoto"
+      ],
+      "accepted_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "on_accepted": "accepted",
+      "status": "verified",
+      "note": "andata、async 经人工确认，且当前 SongBase 候选均为 Ambient / Neo-Classical。该政策仅记录可接受归类，不抬高分数或置信度，也不否定其他时期可能存在的电子/实验作品。"
+    },
+    {
+      "id": "cicada-ambient-only-review",
+      "artist_match_any": [
+        "Cicada"
+      ],
+      "accepted_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "on_accepted": "accepted",
+      "rejected_genres": [
+        "Electronic"
+      ],
+      "on_rejected": "deferred",
+      "status": "verified",
+      "note": "Cicada 的 Electronic 候选视为错误；自动标记为暂缓入库并需要人工复核。Ambient / Neo-Classical 才是可接受归类。"
+    },
+    {"id":"akira-kosemura-ambient-review","artist_match_any":["小濑村晶","Akira Kosemura"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多首、多专辑结果稳定指向 Ambient / Neo-Classical。"},
+    {"id":"replus-hiphop-review","artist_match_any":["Re:Plus","re:plus"],"accepted_genres":["Hip-Hop / R&B"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Hip-Hop / R&B。"},
+    {"id":"hiroshi-yoshimura-ambient-review","artist_match_any":["Hiroshi Yoshimura","吉村弘"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 结果稳定指向 Ambient / Neo-Classical。"},
+    {"id":"alfa-mist-jazz-review","artist_match_any":["Alfa Mist"],"accepted_genres":["Jazz / Soul"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 结果稳定指向 Jazz / Soul。"},
+    {"id":"nujabes-hiphop-review","artist_match_any":["Nujabes"],"accepted_genres":["Hip-Hop / R&B"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 结果稳定指向 Hip-Hop / R&B。"},
+    {"id":"el-ten-eleven-postrock-review","artist_match_any":["El Ten Eleven"],"accepted_genres":["Post-Rock / Cinematic"],"on_accepted":"accepted","status":"verified","note":"多专辑结果及人工反馈稳定指向 Post-Rock / Cinematic。"},
+    {"id":"gogo-penguin-jazz-review","artist_match_any":["GoGo Penguin"],"accepted_genres":["Jazz / Soul"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Jazz / Soul。"},
+    {"id":"mogwai-postrock-review","artist_match_any":["Mogwai"],"accepted_genres":["Post-Rock / Cinematic"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Post-Rock / Cinematic。"},
+    {"id":"goldmund-ambient-review","artist_match_any":["Goldmund"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 结果稳定指向 Ambient / Neo-Classical。"},
+    {"id":"awvfts-ambient-review","artist_match_any":["A Winged Victory for the Sullen"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 结果及人工反馈稳定指向 Ambient / Neo-Classical。"},
+    {"id":"balmorhea-ambient-review","artist_match_any":["Balmorhea"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Ambient / Neo-Classical。"},
+    {"id":"hers-rock-review","artist_match_any":["Her's"],"accepted_genres":["Rock / Alternative"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 跨专辑及人工确认结果稳定指向 Rock / Alternative。"},
+    {"id":"ludovico-einaudi-ambient-review","artist_match_any":["Ludovico Einaudi"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Ambient / Neo-Classical。"},
+    {"id":"hitsujibungaku-rock-review","artist_match_any":["羊文学","Hitsujibungaku"],"accepted_genres":["Rock / Alternative"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Rock / Alternative。"},
+    {"id":"riopy-ambient-review","artist_match_any":["RIOPY"],"accepted_genres":["Ambient / Neo-Classical"],"on_accepted":"accepted","status":"verified","note":"当前 SongBase 多专辑结果稳定指向 Ambient / Neo-Classical。"},
+    {"id":"yosi-horikawa-electronic-ambient-boundary","artist_match_any":["Yosi Horikawa"],"accepted_genres":["Electronic","Ambient / Neo-Classical"],"on_accepted":"boundary_accepted","status":"verified","note":"Electronic 与 Ambient / Neo-Classical 均为可接受归类，不设置单向风格先验。"},
+    {"id":"kiasmos-electronic-ambient-boundary","artist_match_any":["Kiasmos"],"accepted_genres":["Electronic","Ambient / Neo-Classical"],"on_accepted":"boundary_accepted","status":"verified","note":"Electronic 与 Ambient / Neo-Classical 均为可接受归类，不设置单向风格先验。"},
+    {"id":"ichiko-aoba-folk-ambient-boundary","artist_match_any":["青葉市子","Ichiko Aoba"],"accepted_genres":["Folk / Singer-Songwriter","Ambient / Neo-Classical"],"on_accepted":"boundary_accepted","status":"verified","note":"当前人工样本集中于 Folk / Singer-Songwriter，同时保留 Ambient / Neo-Classical 的逐曲边界。"},
+    {"id":"mammal-hands-jazz-postrock-boundary","artist_match_any":["Mammal Hands"],"accepted_genres":["Jazz / Soul","Post-Rock / Cinematic"],"on_accepted":"boundary_accepted","status":"verified","note":"Jazz / Soul 与 Post-Rock / Cinematic 均有当前库证据，命中任一项视为边界可接受。"},
+    {"id":"toconoma-jazz-postrock-boundary","artist_match_any":["toconoma"],"accepted_genres":["Jazz / Soul","Post-Rock / Cinematic"],"rejected_genres":["Rock / Alternative"],"on_accepted":"boundary_accepted","on_rejected":"deferred","status":"verified","note":"Jazz / Soul 与 Post-Rock / Cinematic 均可接受；普通 Rock / Alternative 候选需暂缓复核。"},
+    {"id":"chon-postrock-jazz-boundary","artist_match_any":["Chon"],"accepted_genres":["Post-Rock / Cinematic","Jazz / Soul"],"rejected_genres":["Rock / Alternative"],"on_accepted":"boundary_accepted","on_rejected":"deferred","status":"verified","note":"按当前体系优先将 Math Rock 归入 Post-Rock / Cinematic，同时保留 Jazz / Soul 边界；普通 Rock 候选需复核。"},
+    {"id":"helios-ambient-electronic-boundary","artist_match_any":["Helios"],"accepted_genres":["Ambient / Neo-Classical","Electronic"],"on_accepted":"boundary_accepted","status":"verified","note":"Ambient / Neo-Classical 与 Electronic 均为可接受归类。"},
+    {"id":"loscil-ambient-electronic-boundary","artist_match_any":["Loscil"],"accepted_genres":["Ambient / Neo-Classical","Electronic"],"on_accepted":"boundary_accepted","status":"verified","note":"Ambient / Neo-Classical 与 Electronic 均为可接受归类。"},
+    {"id":"bibio-electronic-ambient-boundary","artist_match_any":["Bibio"],"accepted_genres":["Electronic","Ambient / Neo-Classical"],"on_accepted":"boundary_accepted","status":"verified","note":"Electronic 与 Ambient / Neo-Classical 均为可接受归类，继续按曲目判断。"},
+    {"id":"kiefer-jazz-electronic-boundary","artist_match_any":["Kiefer"],"accepted_genres":["Jazz / Soul","Electronic"],"on_accepted":"boundary_accepted","status":"verified","note":"Jazz / Soul 与 Electronic 均为可接受归类。"},
+    {"id":"daniel-caesar-jazz-hiphop-boundary","artist_match_any":["Daniel Caesar"],"accepted_genres":["Jazz / Soul","Hip-Hop / R&B"],"on_accepted":"boundary_accepted","status":"verified","note":"Jazz / Soul 与 Hip-Hop / R&B 均有人工及候选证据，命中任一项视为边界可接受。"},
+    {"id":"men-i-trust-electronic-rock-boundary","artist_match_any":["Men I Trust"],"accepted_genres":["Electronic","Rock / Alternative"],"on_accepted":"boundary_accepted","status":"verified","note":"Electronic 与 Rock / Alternative 均为可接受归类，器乐曲与人声曲继续按曲目证据判断。"},
+    {"id":"iwamizu-multi-genre-boundary","artist_match_any":["iwamizu"],"accepted_genres":["Hip-Hop / R&B","Ambient / Neo-Classical","Post-Rock / Cinematic"],"on_accepted":"boundary_accepted","status":"verified","note":"人工反馈指出 Jazz Hip-Hop、Ambient 与 Post-Rock 均可能；范围较宽，仅记录边界，不提升置信度。"}
+  ]
+}
