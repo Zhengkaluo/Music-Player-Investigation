@@ -60,6 +60,7 @@ python3 SongBase/archive_discarded_tracks.py \
 | `manage_albums.py` | 添加专辑、补官方链接、查看进度 | 作为曲库维护主入口 |
 | `build_song_base_browser.py` | 从主数据生成离线浏览页 | 保留，由主入口调用 |
 | `build_song_tags_browser.py` | 合并曲库与标签，校验并生成标签浏览页 | 修改标签后运行 |
+| `build_manual_tagging_browser.py` | 生成无候选曲目的逐首手动标注子页面 | 候选无法定类时使用 |
 | `generate_song_tag_candidates.py` | 从公开平台生成只读标签候选与复核报告 | 批量标注前运行 |
 | `song_tag_mapping_editor.html` | 可双击打开的离线映射规则编辑器 | 调整标签映射时使用 |
 | `sync_missing_audio.py` | 自动比较曲库与本地音频、下载缺失项并显示监控页面 | 作为当前音频同步入口 |
@@ -91,7 +92,7 @@ python3 SongBase/archive_discarded_tracks.py \
 }
 ```
 
-完成修改后运行：
+完成修改后运行；该命令也会同步刷新无候选手动标注子页面：
 
 ```bash
 python3 SongBase/build_song_tags_browser.py
@@ -104,6 +105,8 @@ python3 SongBase/build_song_tags_browser.py
 浏览器中的“候选纠错”页读取 `song_tag_candidates.json`，默认展示置信度 ≥65% 的风格候选。可逐首确认或改正主风格、选择最多两个副风格、补充语言和器乐性，并标明映射规则是正确、太宽泛、目标错误、缺少组合规则，还是来源不可靠。反馈先保存在浏览器本机，不会改写 `song_tags.json`、`song_tag_mapping.json` 或候选文件。
 
 点击“导出纠错 JSON”会生成 `song_tag_corrections_YYYY-MM-DD.json`。其中保留曲目、原候选、命中的映射规则、原始平台证据及人工反馈；把这份文件交给 agent，即可据此总结哪些词应保留、降权、改目标或增补组合规则。
+
+标签浏览器顶部的“无候选手动标注”进入独立子页面 `song_manual_tagging.html`。它只列出尚未正式标注、且没有形成主风格候选的曲目。主 Tag、副 Tag、语言、器乐状态和备注会自动保存在当前浏览器本机；完成一批后点击“导出已完成 JSON”，生成 `song_manual_tags_YYYY-MM-DD.json`，再交给 agent 写回正式库。该页面本身不会修改任何 JSON。
 
 ### 生成批量标签候选
 
@@ -198,6 +201,7 @@ python3 SongBase/sync_missing_audio.py --limit 5
 | `song_base_by_artist.md` | `manage_albums.py` |
 | `song_base_browser.html` | `build_song_base_browser.py` |
 | `song_tags_browser.html` | `build_song_tags_browser.py` |
+| `song_manual_tagging.html` | `build_manual_tagging_browser.py` |
 | `song_tag_mapping.json` | `generate_song_tag_candidates.py` |
 | `song_tag_candidates.json`、`song_tag_candidate_report.md` | `generate_song_tag_candidates.py` |
 | `_search_progress.json`、`_search_live.txt` | 搜索/下载监控 |

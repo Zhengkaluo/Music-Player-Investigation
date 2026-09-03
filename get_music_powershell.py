@@ -42,6 +42,17 @@ $mediaProperties = Await ($currentSession.TryGetMediaPropertiesAsync()) ([Window
 
 $playbackInfo = $currentSession.GetPlaybackInfo()
 $playbackStatus = $playbackInfo.PlaybackStatus
+$positionSeconds = $null
+$durationSeconds = $null
+try {
+    $timeline = $currentSession.GetTimelineProperties()
+    if ($null -ne $timeline) {
+        $positionSeconds = [Math]::Max(0, $timeline.Position.TotalSeconds)
+        $durationSeconds = [Math]::Max(0, ($timeline.EndTime - $timeline.StartTime).TotalSeconds)
+    }
+} catch {
+    # 有些播放器不发布时间线；保留为空，由上层安全降级
+}
 
 $statusMap = @{
     0 = "已关闭"
@@ -62,6 +73,8 @@ $info = @{
     track_number = $mediaProperties.TrackNumber
     playback_status = $statusMap[[int]$playbackStatus]
     playback_status_code = [int]$playbackStatus
+    position = $positionSeconds
+    duration = $durationSeconds
 }
 
 $json = $info | ConvertTo-Json -Compress
@@ -106,6 +119,17 @@ $mediaProperties = Await ($currentSession.TryGetMediaPropertiesAsync()) ([Window
 
 $playbackInfo = $currentSession.GetPlaybackInfo()
 $playbackStatus = $playbackInfo.PlaybackStatus
+$positionSeconds = $null
+$durationSeconds = $null
+try {
+    $timeline = $currentSession.GetTimelineProperties()
+    if ($null -ne $timeline) {
+        $positionSeconds = [Math]::Max(0, $timeline.Position.TotalSeconds)
+        $durationSeconds = [Math]::Max(0, ($timeline.EndTime - $timeline.StartTime).TotalSeconds)
+    }
+} catch {
+    # 有些播放器不发布时间线；保留为空，由上层安全降级
+}
 
 $statusMap = @{
     0 = "已关闭"
@@ -155,6 +179,8 @@ $info = @{
     track_number = $mediaProperties.TrackNumber
     playback_status = $statusMap[[int]$playbackStatus]
     playback_status_code = [int]$playbackStatus
+    position = $positionSeconds
+    duration = $durationSeconds
     thumbnail_base64 = $thumbnailBase64
 }
 
