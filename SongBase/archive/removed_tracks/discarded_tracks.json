@@ -1,6 +1,6 @@
 {
   "schema_version": "songbase.discarded-tracks/v1",
-  "updated_at": "2026-08-28",
+  "updated_at": "2026-09-09",
   "policy": {
     "canonical_directory": "SongBase/archive/removed_tracks",
     "meaning": "归档舍弃：记录保留在本清单，且不得出现在主 SongBase、正式标签、候选或主浏览页中。",
@@ -41983,6 +41983,827 @@
       "archived_audio": [
         "Offset - Portico Quartet.mp3"
       ]
+    },
+    "qq:003asT742x1gzz": {
+      "id": "qq:003asT742x1gzz",
+      "title": "这璀璨又迷人的星空却让人看不透，就像是Ta",
+      "artist": "沉默演讲",
+      "full_singer": "沉默演讲",
+      "album": "不稳定的规律/有序混沌",
+      "duration": 414,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003asT742x1gzz",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "这璀璨又迷人的星空却让人看不透，就像是Ta",
+        "artist": "沉默演讲",
+        "album": "不稳定的规律/有序混沌",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:000RgG4o3qFexO": {
+      "id": "qq:000RgG4o3qFexO",
+      "title": "Wave",
+      "artist": "邓乐怡",
+      "full_singer": "邓乐怡, HYPEEZY, CHECKYHON, Handsome Lau",
+      "album": "Wave",
+      "duration": 181,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000RgG4o3qFexO",
+      "youtube": "https://youtube.com/watch?v=R0-GDohFxZQ",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Wave",
+        "artist": "邓乐怡",
+        "album": "Wave",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "Wave - 邓乐怡.mp3"
+      ]
+    },
+    "qq:0009gkgB2FfU4l": {
+      "id": "qq:0009gkgB2FfU4l",
+      "title": "空城的雾",
+      "artist": "邓永鹏",
+      "full_singer": "邓永鹏",
+      "album": "不歌唱",
+      "duration": 293,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0009gkgB2FfU4l",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "空城的雾",
+        "artist": "邓永鹏",
+        "album": "不歌唱",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:002PcnLc3mhGto": {
+      "id": "qq:002PcnLc3mhGto",
+      "title": "Cornfield Chase",
+      "artist": "Dorian Marko",
+      "full_singer": "Dorian Marko",
+      "album": "Cornfield Chase",
+      "duration": 127,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002PcnLc3mhGto",
+      "youtube": "https://youtube.com/watch?v=lkDXg_JNgC0",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Cornfield Chase",
+        "artist": "Dorian Marko",
+        "album": "Cornfield Chase",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "piano",
+                "count": 100
+              }
+            ]
+          }
+        ],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "Cornfield Chase - Dorian Marko.mp3"
+      ]
+    },
+    "qq:002MFZtI1Q3yDS": {
+      "id": "qq:002MFZtI1Q3yDS",
+      "title": "Prelude No. 1 in C Major, BWV 846",
+      "artist": "Glenn Gould",
+      "full_singer": "Glenn Gould, Johann Sebastian Bach",
+      "album": "Piano Romance",
+      "duration": 144,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002MFZtI1Q3yDS",
+      "youtube": "https://youtube.com/watch?v=1CVlBSgj0bk",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Prelude No. 1 in C Major, BWV 846",
+        "artist": "Glenn Gould",
+        "album": "Piano Romance",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": true,
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "Classical",
+                "count": 100
+              },
+              {
+                "name": "piano",
+                "count": 83
+              },
+              {
+                "name": "baroque",
+                "count": 21
+              },
+              {
+                "name": "Canadian",
+                "count": 20
+              },
+              {
+                "name": "Bach",
+                "count": 9
+              },
+              {
+                "name": "pianist",
+                "count": 4
+              },
+              {
+                "name": "classical piano",
+                "count": 2
+              },
+              {
+                "name": "Glenn Gould",
+                "count": 1
+              },
+              {
+                "name": "instrumental",
+                "count": 1
+              },
+              {
+                "name": "Virtuoso",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_album: Album not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "Prelude No. 1 in C Major, BWV 846 - Glenn Gould.mp3"
+      ]
+    },
+    "qq:004JsIAS3H53X2": {
+      "id": "qq:004JsIAS3H53X2",
+      "title": "此曲献给理想主义者",
+      "artist": "万炯鸣(Ch1rpy)",
+      "full_singer": "万炯鸣(Ch1rpy)",
+      "album": "\"梵离纱写给伊利斯的信\"",
+      "duration": 349,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004JsIAS3H53X2",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "此曲献给理想主义者",
+        "artist": "万炯鸣(Ch1rpy)",
+        "album": "\"梵离纱写给伊利斯的信\"",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found",
+          "lastfm_album: Album not found",
+          "lastfm_artist: The artist you supplied could not be found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:000Ax95I1jFHa8": {
+      "id": "qq:000Ax95I1jFHa8",
+      "title": "天马行空",
+      "artist": "林子良",
+      "full_singer": "林子良",
+      "album": "FREE STYLE R&B全创作1号",
+      "duration": 258,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Ax95I1jFHa8",
+      "youtube": "https://youtube.com/watch?v=AUVGCjXxCIc",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "天马行空",
+        "artist": "林子良",
+        "album": "FREE STYLE R&B全创作1号",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "天马行空 - 林子良.mp3"
+      ]
+    },
+    "qq:000hHhHq29dCNY": {
+      "id": "qq:000hHhHq29dCNY",
+      "title": "尕连手",
+      "artist": "段兴华",
+      "full_singer": "段兴华",
+      "album": "尕连手（雷鬼版）",
+      "duration": 232,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000hHhHq29dCNY",
+      "youtube": "https://youtube.com/watch?v=VZZcnKOTL64",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "尕连手",
+        "artist": "段兴华",
+        "album": "尕连手（雷鬼版）",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_album: Album not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "尕连手 - 段兴华.mp3"
+      ]
+    },
+    "qq:003xlaqb1BNDgt": {
+      "id": "qq:003xlaqb1BNDgt",
+      "title": "旗帜",
+      "artist": "污甩乐队 Dirt Left",
+      "full_singer": "污甩乐队 Dirt Left",
+      "album": "我试图寻找他存在的证据",
+      "duration": 234,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xlaqb1BNDgt",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "旗帜",
+        "artist": "污甩乐队 Dirt Left",
+        "album": "我试图寻找他存在的证据",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:000tNtIl1W1GRS": {
+      "id": "qq:000tNtIl1W1GRS",
+      "title": "去时风",
+      "artist": "聲無哀樂",
+      "full_singer": "聲無哀樂",
+      "album": "聲有·水無貳",
+      "duration": 388,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000tNtIl1W1GRS",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "去时风",
+        "artist": "聲無哀樂",
+        "album": "聲有·水無貳",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:00117npI1bVJgw": {
+      "id": "qq:00117npI1bVJgw",
+      "title": "种树",
+      "artist": "马飞",
+      "full_singer": "马飞",
+      "album": "摩登天空7",
+      "duration": 215,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00117npI1bVJgw",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "种树",
+        "artist": "马飞",
+        "album": "摩登天空7",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "c-indie",
+                "count": 100
+              }
+            ]
+          }
+        ],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:000nrWLM4C4Egb": {
+      "id": "qq:000nrWLM4C4Egb",
+      "title": "雨中庭院",
+      "artist": "鲸鱼马戏团",
+      "full_singer": "鲸鱼马戏团",
+      "album": "鲸鱼马戏团 Vol.2 Whisper",
+      "duration": 390,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000nrWLM4C4Egb",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "雨中庭院",
+        "artist": "鲸鱼马戏团",
+        "album": "鲸鱼马戏团 Vol.2 Whisper",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:00214Jid0QoBUz": {
+      "id": "qq:00214Jid0QoBUz",
+      "title": "Long Way Home",
+      "artist": "Lamplighters点灯人",
+      "full_singer": "Lamplighters点灯人",
+      "album": "Lamplighters",
+      "duration": 220,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00214Jid0QoBUz",
+      "youtube": "https://youtube.com/watch?v=OzMXXlLz8HI",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Long Way Home",
+        "artist": "Lamplighters点灯人",
+        "album": "Lamplighters",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found",
+          "lastfm_album: Album not found",
+          "lastfm_artist: The artist you supplied could not be found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "Long Way Home - Lamplighters点灯人.mp3"
+      ]
+    },
+    "qq:000Gfo3c3oVtX1": {
+      "id": "qq:000Gfo3c3oVtX1",
+      "title": "踊り子 (舞女)",
+      "artist": "MINJI",
+      "full_singer": "MINJI",
+      "album": "",
+      "duration": 227,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Gfo3c3oVtX1",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "踊り子 (舞女)",
+        "artist": "MINJI",
+        "album": "",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "j-pop",
+                "count": 100
+              },
+              {
+                "name": "k-pop",
+                "count": 100
+              },
+              {
+                "name": "Korean",
+                "count": 66
+              },
+              {
+                "name": "Kpop",
+                "count": 66
+              },
+              {
+                "name": "Jpop women solo",
+                "count": 33
+              },
+              {
+                "name": "newjeans",
+                "count": 33
+              },
+              {
+                "name": "Minji",
+                "count": 33
+              },
+              {
+                "name": "new jeans",
+                "count": 10
+              }
+            ]
+          }
+        ],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found",
+          "lastfm_album: HTTP Error 400: Bad Request"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:003YOCyG19vRL8": {
+      "id": "qq:003YOCyG19vRL8",
+      "title": "Hold On",
+      "artist": "Running Blue",
+      "full_singer": "Running Blue",
+      "album": "Hold On",
+      "duration": 228,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003YOCyG19vRL8",
+      "youtube": "https://youtube.com/watch?v=J1RemPHcKiU",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Hold On",
+        "artist": "Running Blue",
+        "album": "Hold On",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "Hold On - Running Blue.mp3"
+      ]
+    },
+    "qq:003hpGdf3O4LVn": {
+      "id": "qq:003hpGdf3O4LVn",
+      "title": "For No Reason",
+      "artist": "YAØ",
+      "full_singer": "YAØ",
+      "album": "For No Reason",
+      "duration": 195,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003hpGdf3O4LVn",
+      "youtube": "https://youtube.com/watch?v=SB39pqaStUU",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "For No Reason",
+        "artist": "YAØ",
+        "album": "For No Reason",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "singapore",
+                "count": 100
+              },
+              {
+                "name": "pop",
+                "count": 25
+              }
+            ]
+          }
+        ],
+        "matched_tags": [],
+        "errors": [],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": [
+        "For No Reason - YAØ.mp3"
+      ]
+    },
+    "qq:001wJNLh1kxRNx": {
+      "id": "qq:001wJNLh1kxRNx",
+      "title": "Yiruma - Blind Film (Audio)",
+      "artist": "YirumaVEVO",
+      "full_singer": "YirumaVEVO",
+      "album": "钢琴曲 | 轻松音律 舒缓压力",
+      "duration": 240,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001wJNLh1kxRNx",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Yiruma - Blind Film (Audio)",
+        "artist": "YirumaVEVO",
+        "album": "钢琴曲 | 轻松音律 舒缓压力",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found",
+          "lastfm_album: Album not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
+    },
+    "qq:000pf3I33nxCiE": {
+      "id": "qq:000pf3I33nxCiE",
+      "title": "Yiruma - Forest Fantasy (Audio)",
+      "artist": "YirumaVEVO",
+      "full_singer": "YirumaVEVO",
+      "album": "钢琴曲 | 轻松音律 舒缓压力",
+      "duration": 216,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000pf3I33nxCiE",
+      "youtube": "",
+      "bilibili": "",
+      "discarded_at": "2026-09-09",
+      "reason": "无候选手动标注复核：用户备注要求舍弃",
+      "source": "archive_discarded_tracks.py",
+      "former_formal_tag": null,
+      "former_candidate": {
+        "title": "Yiruma - Forest Fantasy (Audio)",
+        "artist": "YirumaVEVO",
+        "album": "钢琴曲 | 轻松音律 舒缓压力",
+        "genre_candidate": null,
+        "confidence": 0.0,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [],
+          "reason": "没有原始标签命中任何风格映射规则",
+          "final_confidence": 0.0
+        },
+        "status": "candidate",
+        "instrumental_candidate": null,
+        "evidence": [],
+        "matched_tags": [],
+        "errors": [
+          "lastfm_track: Track not found",
+          "lastfm_album: Album not found"
+        ],
+        "secondary_genre_candidates": []
+      },
+      "archived_audio": []
     }
   }
 }

@@ -2,9 +2,9 @@
   "schema_version": "songbase.tag-candidates/v1",
   "generated_at": "2026-08-21",
   "sample": {
-    "size": 266,
+    "size": 384,
     "mode": "all_untagged",
-    "population": 266
+    "population": 384
   },
   "taxonomy": {
     "genres": [
@@ -289,6 +289,53 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:003gOw9r392aWb": {
+      "title": "Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244",
+      "artist": "郎朗",
+      "album": "The Best & Rarities (Asia)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "piano",
+              "count": 100
+            },
+            {
+              "name": "Classical",
+              "count": 100
+            },
+            {
+              "name": "China",
+              "count": 66
+            },
+            {
+              "name": "asia",
+              "count": 66
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:002zhKMg3Z3RXT": {
       "title": "We Shouldn‘t But ..",
       "artist": "ARAI",
@@ -463,6 +510,25 @@
           ]
         }
       ]
+    },
+    "qq:001QLzwK2zSpmz": {
+      "title": "Fire Fly",
+      "artist": "渡边贞夫",
+      "album": "Rendezvous",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:0003gkVo27dywO": {
       "title": "What You Know",
@@ -754,6 +820,80 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:000004Ps4OMaCi": {
+      "title": "小孩儿",
+      "artist": "THE BOOTLEGS 靴腿乐队",
+      "album": "小孩儿",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:004KMRH61Ljgwt": {
+      "title": "オトノケ - Otonoke",
+      "artist": "Creepy Nuts",
+      "album": "オトノケ - Otonoke",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "peak",
+              "count": 100
+            },
+            {
+              "name": "Japanese hip hop",
+              "count": 100
+            },
+            {
+              "name": "jersey club rap",
+              "count": 66
+            },
+            {
+              "name": "jersey club",
+              "count": 66
+            },
+            {
+              "name": "2020s",
+              "count": 33
+            },
+            {
+              "name": "japanese jersey club rap",
+              "count": 33
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:004LcEAa3hGLGq": {
       "title": "Seeker",
       "artist": "上原ひろみ",
@@ -908,6 +1048,49 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:001Kkllt3ZWunf": {
+      "title": "roses & sunflowers",
+      "artist": "Timmy Albert",
+      "album": "roses & sunflowers",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "pop",
+              "count": 100
+            },
+            {
+              "name": "indie",
+              "count": 25
+            },
+            {
+              "name": "pop indie",
+              "count": 16
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:004Lze9o1l2NHm": {
       "title": "未定",
       "artist": "chilldspot",
@@ -1030,6 +1213,49 @@
           "score": 2.11
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002Se7OC34yFhZ": {
+      "title": "What's New",
+      "artist": "Ax and the Hatchetmen",
+      "album": "Bear on the Roof",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "indie pop",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 100
+            },
+            {
+              "name": "USA",
+              "count": 66
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -1284,6 +1510,25 @@
           ]
         }
       ]
+    },
+    "qq:002vRxmB2XHA8X": {
+      "title": "New Day",
+      "artist": "Devon Rea",
+      "album": "New Day & Cherry",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:0044thS03J3WXq": {
       "title": "New Conditions",
@@ -1779,6 +2024,25 @@
           ]
         }
       ]
+    },
+    "qq:001qbVUi0c3ofI": {
+      "title": "The 400 Blues 唐詩四百首",
+      "artist": "Pu Poo Platter",
+      "album": "A Chilling Winter Night 夜食堂駭人事件",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:003ixGFh017eGb": {
       "title": "Remembering",
@@ -2425,6 +2689,97 @@
         }
       ]
     },
+    "qq:002mufhV0yVqrL": {
+      "title": "日本ロマンチック街道",
+      "artist": "sucola",
+      "album": "Room to the Studio",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japan",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:000NzQjw0WD8m9": {
+      "title": "プレイガール",
+      "artist": "Hotel New Tokyo",
+      "album": "ガウディの憂鬱",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002kzPLC0439Kl": {
+      "title": "Goldfish memory",
+      "artist": "Kidult.",
+      "album": "005",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:000ptCkP0XhwGC": {
       "title": "Play Me",
       "artist": "Orion Song",
@@ -3014,6 +3369,25 @@
           ]
         }
       ]
+    },
+    "qq:000UvxCT1u5gP2": {
+      "title": "春天是一首浪漫诗",
+      "artist": "Youzee Music",
+      "album": "春天和我的三次同频",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:000zFOEV3jMZht": {
       "title": "In Your Room",
@@ -3938,6 +4312,25 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:003agrX73jEW1g": {
+      "title": "夜班车",
+      "artist": "Allenvave",
+      "album": "Summernight",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:0020exsa1lzTSy": {
       "title": "Hell N Back",
       "artist": "Bakar",
@@ -4568,6 +4961,96 @@
         }
       ]
     },
+    "qq:0015AcHz3i1JOR": {
+      "title": "Silhouette",
+      "artist": "Ax and the Hatchetmen",
+      "album": "Bear on the Roof",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "indie pop",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 100
+            },
+            {
+              "name": "USA",
+              "count": 66
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001Iu7gC0qaWQ5": {
+      "title": "Never Been Better",
+      "artist": "Ben Abraham",
+      "album": "Never Been Better",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "indie",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 100
+            },
+            {
+              "name": "australian",
+              "count": 66
+            },
+            {
+              "name": "roots",
+              "count": 66
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:002rsnfh4ReTtN": {
       "title": "Ferrari",
       "artist": "Bebe Rexha",
@@ -4766,6 +5249,47 @@
           ]
         }
       ]
+    },
+    "qq:0045qBlS24pkhK": {
+      "title": "河",
+      "artist": "Before the Sunrise",
+      "album": "河",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000quKhf3FvCwK": {
+      "title": "Indian Summer",
+      "artist": "Banzo",
+      "album": "IN YA MELLOW TONE 10",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
     },
     "qq:001zBi301xkhkP": {
       "title": "Hell Yes",
@@ -6356,6 +6880,29 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:000fr5BQ0jAxGk": {
+      "title": "El Transcurrir De Las Horas",
+      "artist": "Bosques De Mi Mente",
+      "album": "Nueve Días De Invierno",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found",
+        "lastfm_artist: The artist you supplied could not be found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:0014o7Ta4HLLAF": {
       "title": "Cloak & Dagger (feat. J Hus)",
       "artist": "Burna Boy",
@@ -7461,6 +8008,47 @@
         }
       ],
       "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000mE2OE0QmTxY": {
+      "title": "自己做决定 feat.陈绮贞",
+      "artist": "Cee",
+      "album": "自己做决定 feat.陈绮贞",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "booba",
+              "count": 100
+            },
+            {
+              "name": "neighbourhood",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_album: <urlopen error _ssl.c:1112: The handshake operation timed out>"
+      ],
       "secondary_genre_candidates": []
     },
     "qq:002egewX3cCsqX": {
@@ -9121,6 +9709,76 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:00133oqQ2ragaQ": {
+      "title": "Wild Orchid",
+      "artist": "Devon Rea",
+      "album": "Wild Orchid",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003kokjK2mtbbP": {
+      "title": "Track in Time",
+      "artist": "Dennis Kuo",
+      "album": "Track in Time",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "piano",
+              "count": 100
+            },
+            {
+              "name": "lesser known yet streamable artists",
+              "count": 44
+            },
+            {
+              "name": "chill",
+              "count": 7
+            },
+            {
+              "name": "american",
+              "count": 7
+            },
+            {
+              "name": "study music",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:002ZTVhb0fIvtH": {
       "title": "Breaking News",
       "artist": "Deluxe",
@@ -9281,6 +9939,112 @@
           ]
         }
       ]
+    },
+    "qq:0015jyw41OJ2BE": {
+      "title": "Ditto",
+      "artist": "DooPiano",
+      "album": "Ditto",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "piano",
+              "count": 100
+            },
+            {
+              "name": "covers",
+              "count": 44
+            },
+            {
+              "name": "Kpop",
+              "count": 29
+            },
+            {
+              "name": "k-pop",
+              "count": 29
+            },
+            {
+              "name": "instrumental",
+              "count": 4
+            },
+            {
+              "name": "pop",
+              "count": 4
+            },
+            {
+              "name": "acoustic",
+              "count": 4
+            },
+            {
+              "name": "cover",
+              "count": 1
+            },
+            {
+              "name": "piano cover",
+              "count": 1
+            },
+            {
+              "name": "Classical",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002PcnLc3mhGto": {
+      "title": "Cornfield Chase",
+      "artist": "Dorian Marko",
+      "album": "Cornfield Chase",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "piano",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:0014V4Mf2zvudb": {
       "title": "guess how much i love you",
@@ -11039,6 +11803,77 @@
         }
       ]
     },
+    "qq:002a4Uef1G98uI": {
+      "title": "アイスカフェラテ",
+      "artist": "Forest306",
+      "album": "navigation il mare",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "touhou",
+              "count": 100
+            },
+            {
+              "name": "acoustic",
+              "count": 56
+            },
+            {
+              "name": "instrumental",
+              "count": 37
+            },
+            {
+              "name": "Classical",
+              "count": 17
+            },
+            {
+              "name": "doujin",
+              "count": 8
+            },
+            {
+              "name": "japan",
+              "count": 2
+            },
+            {
+              "name": "country",
+              "count": 2
+            },
+            {
+              "name": "remix",
+              "count": 1
+            },
+            {
+              "name": "acoustic guitar",
+              "count": 1
+            },
+            {
+              "name": "Unplugged",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:002KaR411pNx4d": {
       "title": "jealous.",
       "artist": "Ford",
@@ -11319,6 +12154,96 @@
           ]
         }
       ]
+    },
+    "qq:0022QVT24BuBNZ": {
+      "title": "跳舞的洋娃娃",
+      "artist": "Fritz Kreisler",
+      "album": "克莱斯勒大全集",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "Classical",
+              "count": 100
+            },
+            {
+              "name": "violin",
+              "count": 64
+            },
+            {
+              "name": "composer",
+              "count": 21
+            },
+            {
+              "name": "instrumental",
+              "count": 14
+            },
+            {
+              "name": "composers",
+              "count": 3
+            },
+            {
+              "name": "austrian",
+              "count": 3
+            },
+            {
+              "name": "musique classique",
+              "count": 2
+            },
+            {
+              "name": "violinist",
+              "count": 1
+            },
+            {
+              "name": "USA",
+              "count": 1
+            },
+            {
+              "name": "american",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0030sSjW17cSWD": {
+      "title": "门",
+      "artist": "Funkymo",
+      "album": "物件，所在",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:002I4Sn81ZKRqZ": {
       "title": "Why Am I the One",
@@ -11774,6 +12699,79 @@
         }
       ],
       "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002MFZtI1Q3yDS": {
+      "title": "Prelude No. 1 in C Major, BWV 846",
+      "artist": "Glenn Gould",
+      "album": "Piano Romance",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "Classical",
+              "count": 100
+            },
+            {
+              "name": "piano",
+              "count": 83
+            },
+            {
+              "name": "baroque",
+              "count": 21
+            },
+            {
+              "name": "Canadian",
+              "count": 20
+            },
+            {
+              "name": "Bach",
+              "count": 9
+            },
+            {
+              "name": "pianist",
+              "count": 4
+            },
+            {
+              "name": "classical piano",
+              "count": 2
+            },
+            {
+              "name": "Glenn Gould",
+              "count": 1
+            },
+            {
+              "name": "instrumental",
+              "count": 1
+            },
+            {
+              "name": "Virtuoso",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_album: Album not found"
+      ],
       "secondary_genre_candidates": []
     },
     "qq:003u141L3pAKss": {
@@ -14052,6 +15050,146 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:004VzX4a4BcmEv": {
+      "title": "pm7:42",
+      "artist": "Hotel New Tokyo",
+      "album": "ガウディの憂鬱",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001RioFX0rz0UJ": {
+      "title": "ローラースケート☆ドリーム2",
+      "artist": "Hotel New Tokyo",
+      "album": "ガウディの憂鬱",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0046lNIa2q0FRB": {
+      "title": "東京ワルツ",
+      "artist": "Hotel New Tokyo",
+      "album": "ガウディの憂鬱",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000TwCQn1LrW4g": {
+      "title": "3+1",
+      "artist": "Hotel New Tokyo",
+      "album": "yes?",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:001SxfqB3cSWpH": {
       "title": "あたたかな手",
       "artist": "Humbert Humbert",
@@ -15472,6 +16610,77 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:002ai4GX46Su8z": {
+      "title": "Be Mine",
+      "artist": "Jazzinuf",
+      "album": "The Harlem Barber Swing (Explicit)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "instrumental",
+              "count": 100
+            },
+            {
+              "name": "instrumental hip-hop",
+              "count": 51
+            },
+            {
+              "name": "Jazz Hop",
+              "count": 34
+            },
+            {
+              "name": "chillhop",
+              "count": 22
+            },
+            {
+              "name": "Lo-Fi",
+              "count": 6
+            },
+            {
+              "name": "chill hop",
+              "count": 6
+            },
+            {
+              "name": "United States",
+              "count": 3
+            },
+            {
+              "name": "jazzhop",
+              "count": 1
+            },
+            {
+              "name": "Chill-Hop",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:000ZoJq13ysJxD": {
       "title": "Nostalgia",
       "artist": "JaRon Marshall",
@@ -15696,6 +16905,99 @@
         }
       ],
       "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0047G4074JFmHp": {
+      "title": "When You're In Love",
+      "artist": "Jazzinuf",
+      "album": "Lithography Vol 1.1",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "instrumental",
+              "count": 100
+            },
+            {
+              "name": "instrumental hip-hop",
+              "count": 51
+            },
+            {
+              "name": "Jazz Hop",
+              "count": 34
+            },
+            {
+              "name": "chillhop",
+              "count": 22
+            },
+            {
+              "name": "Lo-Fi",
+              "count": 6
+            },
+            {
+              "name": "chill hop",
+              "count": 6
+            },
+            {
+              "name": "United States",
+              "count": 3
+            },
+            {
+              "name": "jazzhop",
+              "count": 1
+            },
+            {
+              "name": "Chill-Hop",
+              "count": 1
+            },
+            {
+              "name": "instrumental hip hop",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000up5Sy41DSCS": {
+      "title": "Can You Focus",
+      "artist": "Jiyoung Chung",
+      "album": "Bubble Tea Café",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
       "secondary_genre_candidates": []
     },
     "qq:003oI5Us2PYbRL": {
@@ -17860,6 +19162,186 @@
           "score": 2.16
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000xuQkh0Df42Y": {
+      "title": "HOT",
+      "artist": "LE SSERAFIM",
+      "album": "HOT (English ver.) (feat. JADE)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "kazuha do bernardo",
+              "count": 100
+            },
+            {
+              "name": "pop rock",
+              "count": 44
+            },
+            {
+              "name": "k-pop",
+              "count": 29
+            },
+            {
+              "name": "Korean",
+              "count": 29
+            },
+            {
+              "name": "Kpop",
+              "count": 15
+            },
+            {
+              "name": "new wave",
+              "count": 4
+            },
+            {
+              "name": "electropop",
+              "count": 4
+            },
+            {
+              "name": "scat",
+              "count": 1
+            },
+            {
+              "name": "Disco",
+              "count": 1
+            },
+            {
+              "name": "dance-pop",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:00214Jid0QoBUz": {
+      "title": "Long Way Home",
+      "artist": "Lamplighters点灯人",
+      "album": "Lamplighters",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found",
+        "lastfm_artist: The artist you supplied could not be found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:0045Rlyq2LM2yR": {
+      "title": "L'exil",
+      "artist": "Laurie Darmon",
+      "album": "L'exil",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "french",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 100
+            },
+            {
+              "name": "french pop",
+              "count": 66
+            },
+            {
+              "name": "france",
+              "count": 66
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:004MW3K31ntIbj": {
+      "title": "Siesta Freestyle",
+      "artist": "Lewis OfMan",
+      "album": "Dancy Party",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "Kitchen Confidential with Butterknife",
+              "count": 100
+            },
+            {
+              "name": "WSUM 91.7 FM Madison",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -20636,6 +22118,25 @@
         }
       ]
     },
+    "qq:002JpKhu4BYPH3": {
+      "title": "Beauty Of Lie",
+      "artist": "Master Class",
+      "album": "MasterClass Free Compilation Album",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:004Mlj3H2MtQWo": {
       "title": "Run, Run, Run",
       "artist": "McKinley Dixon",
@@ -20834,6 +22335,186 @@
           ]
         }
       ]
+    },
+    "qq:002NT6Y52IjvTe": {
+      "title": "Rewrite",
+      "artist": "milet",
+      "album": "us",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "j-pop",
+              "count": 100
+            },
+            {
+              "name": "japanese",
+              "count": 44
+            },
+            {
+              "name": "female vocalists",
+              "count": 20
+            },
+            {
+              "name": "pop",
+              "count": 3
+            },
+            {
+              "name": "rutracker",
+              "count": 2
+            },
+            {
+              "name": "piano",
+              "count": 1
+            },
+            {
+              "name": "JPop",
+              "count": 1
+            },
+            {
+              "name": "anime",
+              "count": 1
+            },
+            {
+              "name": "japan",
+              "count": 1
+            },
+            {
+              "name": "pop rock",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0029XvhG143tPB": {
+      "title": "1 to 10",
+      "artist": "Midnight Jogging Club",
+      "album": "1 to 10",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "Korean",
+              "count": 100
+            },
+            {
+              "name": "indie",
+              "count": 100
+            },
+            {
+              "name": "k-indie",
+              "count": 66
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000Gfo3c3oVtX1": {
+      "title": "踊り子 (舞女)",
+      "artist": "MINJI",
+      "album": "",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "j-pop",
+              "count": 100
+            },
+            {
+              "name": "k-pop",
+              "count": 100
+            },
+            {
+              "name": "Korean",
+              "count": 66
+            },
+            {
+              "name": "Kpop",
+              "count": 66
+            },
+            {
+              "name": "Jpop women solo",
+              "count": 33
+            },
+            {
+              "name": "newjeans",
+              "count": 33
+            },
+            {
+              "name": "Minji",
+              "count": 33
+            },
+            {
+              "name": "new jeans",
+              "count": 10
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: HTTP Error 400: Bad Request"
+      ],
+      "secondary_genre_candidates": []
     },
     "qq:000MON9D0pQLrp": {
       "title": "Lucky Love",
@@ -22104,6 +23785,27 @@
         }
       ],
       "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:004U5Nds1SvJpy": {
+      "title": "To Our Daughter(Lullaby)",
+      "artist": "My Best Friend Jacob",
+      "album": "To Our Daughter (Lullaby)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
       "secondary_genre_candidates": []
     },
     "qq:000mm88j1GnWlk": {
@@ -24562,6 +26264,57 @@
         }
       ]
     },
+    "qq:002XVgjG0z8TcU": {
+      "title": "September",
+      "artist": "Peter Bence",
+      "album": "September",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "piano",
+              "count": 100
+            },
+            {
+              "name": "Classical",
+              "count": 100
+            },
+            {
+              "name": "classical crossover",
+              "count": 66
+            },
+            {
+              "name": "Soundtracks",
+              "count": 66
+            },
+            {
+              "name": "hungary",
+              "count": 33
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:001I5qRB1fQ2qV": {
       "title": "Dream",
       "artist": "Rabpit",
@@ -24645,6 +26398,25 @@
           "score": 2.45
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003KesC12gFpK0": {
+      "title": "地下河 Undercurrent",
+      "artist": "Pu Poo Platter",
+      "album": "地下河 Undercurrent",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -25011,6 +26783,25 @@
           "score": 2.17
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003YOCyG19vRL8": {
+      "title": "Hold On",
+      "artist": "Running Blue",
+      "album": "Hold On",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -26231,6 +28022,41 @@
         }
       ]
     },
+    "qq:003zVwHk2xsG8w": {
+      "title": "The Idiot",
+      "artist": "Seth Staton Watkins",
+      "album": "Working Folk",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "USA",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:000ZjXv33PGxp3": {
       "title": "One",
       "artist": "Sleeping At Last",
@@ -26526,6 +28352,25 @@
           "score": 2.13
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:004Qvc0R3esF61": {
+      "title": "Spartacus Love Theme",
+      "artist": "SOIL&\"P**P\"SESSIONS",
+      "album": "Brothers & Sisters",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -26907,6 +28752,41 @@
         }
       ]
     },
+    "qq:003qdvZC299bhX": {
+      "title": "東京晴れ舞台",
+      "artist": "sucola",
+      "album": "Room to the Studio",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japan",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:0030kLf23uNKKo": {
       "title": "Summer Situation",
       "artist": "STUTS",
@@ -27033,6 +28913,25 @@
           "score": 2.11
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001hJlfG2bLQfk": {
+      "title": "沙发上的白日梦",
+      "artist": "SoulFa 灵魂沙发",
+      "album": "So Far",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -27223,6 +29122,41 @@
           "score": 2.12
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0015ewmN2kpRe2": {
+      "title": "nonfiction",
+      "artist": "sucola",
+      "album": "Room to the Studio",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japan",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -28775,6 +30709,28 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:003hZ0gD1B7hDu": {
+      "title": "脏短袖",
+      "artist": "THE BOOTLEGS 靴腿乐队",
+      "album": "脏短袖",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:001jOlKF2r6plo": {
       "title": "Chicken Strut",
       "artist": "The Meters",
@@ -29333,6 +31289,111 @@
           "score": 1.75
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001NaJgM4Bygbc": {
+      "title": "Morning Dew",
+      "artist": "Timothée Couteau",
+      "album": "Emotion - Cello Journey",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002LPSzH3j4F4P": {
+      "title": "Summer Lovin'",
+      "artist": "The Tuesday Crew",
+      "album": "Summer Lovin'",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000ZIAfo2RSwxU": {
+      "title": "Aesthetic",
+      "artist": "Tollan Kim",
+      "album": "Aesthetic",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": true,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "instrumental hip-hop",
+              "count": 100
+            },
+            {
+              "name": "instrumental",
+              "count": 100
+            },
+            {
+              "name": "aesthetic",
+              "count": 66
+            },
+            {
+              "name": "south korea",
+              "count": 66
+            },
+            {
+              "name": "lo-fi hip-hop",
+              "count": 33
+            },
+            {
+              "name": "focus beats",
+              "count": 33
+            },
+            {
+              "name": "tiktok",
+              "count": 33
+            },
+            {
+              "name": "viet lo-fi",
+              "count": 10
+            },
+            {
+              "name": "japanese vgm",
+              "count": 10
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -30486,6 +32547,25 @@
       ],
       "secondary_genre_candidates": []
     },
+    "qq:002Dtbtf3ZIb3Y": {
+      "title": "半空日落色",
+      "artist": "Uhsgnǒd",
+      "album": "半空日落色",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:004EoRME3iYKXo": {
       "title": "As It Was",
       "artist": "Vancouver Sleep Clinic",
@@ -30896,6 +32976,27 @@
         }
       ]
     },
+    "qq:002JLy6B3bZx4J": {
+      "title": "Anything Can Happen",
+      "artist": "Violet Palms",
+      "album": "Anything Can Happen (Explicit)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:000CaK1p3SZWcc": {
       "title": "Miller Time",
       "artist": "Victor Wooten",
@@ -31125,6 +33226,142 @@
           ]
         }
       ]
+    },
+    "qq:0005TLIJ2KzqZ9": {
+      "title": "置き手紙",
+      "artist": "Vaundy",
+      "album": "置き手紙",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            },
+            {
+              "name": "j-pop",
+              "count": 56
+            },
+            {
+              "name": "japan",
+              "count": 4
+            },
+            {
+              "name": "JPop",
+              "count": 4
+            },
+            {
+              "name": "J-rock",
+              "count": 2
+            },
+            {
+              "name": "male vocalist",
+              "count": 2
+            },
+            {
+              "name": "J-Indie",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000ImK5G1uqJtT": {
+      "title": "1リッター分の愛をこめて",
+      "artist": "Vaundy",
+      "album": "replica",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_album",
+            "weight": 0.7
+          },
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_album",
+          "source_weight": 0.7,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            },
+            {
+              "name": "JPop",
+              "count": 100
+            }
+          ]
+        },
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            },
+            {
+              "name": "j-pop",
+              "count": 56
+            },
+            {
+              "name": "japan",
+              "count": 4
+            },
+            {
+              "name": "JPop",
+              "count": 4
+            },
+            {
+              "name": "J-rock",
+              "count": 2
+            },
+            {
+              "name": "male vocalist",
+              "count": 2
+            },
+            {
+              "name": "J-Indie",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
     },
     "qq:001bp0Yk2yH056": {
       "title": "Borderlines",
@@ -31578,6 +33815,65 @@
         }
       ]
     },
+    "qq:000kO8IT0dzvgA": {
+      "title": "世界の秘密",
+      "artist": "Vaundy",
+      "album": "世界の秘密",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "japanese",
+              "count": 100
+            },
+            {
+              "name": "j-pop",
+              "count": 56
+            },
+            {
+              "name": "japan",
+              "count": 4
+            },
+            {
+              "name": "JPop",
+              "count": 4
+            },
+            {
+              "name": "J-rock",
+              "count": 2
+            },
+            {
+              "name": "male vocalist",
+              "count": 2
+            },
+            {
+              "name": "J-Indie",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:004DO1QH30haO6": {
       "title": "Wait for the Moment",
       "artist": "Vulfpeck",
@@ -31968,6 +34264,61 @@
         }
       ]
     },
+    "qq:003A0eJs30RZmw": {
+      "title": "Acceptance Speech - 8Track",
+      "artist": "Walker Hayes",
+      "album": "8Tracks, Vol. 3: Black Sheep",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "country",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 25
+            },
+            {
+              "name": "not country",
+              "count": 16
+            },
+            {
+              "name": "who",
+              "count": 16
+            },
+            {
+              "name": "bro-country",
+              "count": 8
+            },
+            {
+              "name": "country rap",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:000stu0v1vkqek": {
       "title": "One on One",
       "artist": "Wildson",
@@ -32262,6 +34613,172 @@
         }
       ]
     },
+    "qq:003jU74h1iNPXR": {
+      "title": "Gone",
+      "artist": "Ye (侃爷)",
+      "album": "Late Registration",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:003OINAS0HgM7w": {
+      "title": "Hey Mama",
+      "artist": "Ye (侃爷)",
+      "album": "Late Registration (Explicit)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:003hpGdf3O4LVn": {
+      "title": "For No Reason",
+      "artist": "YAØ",
+      "album": "For No Reason",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "singapore",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 25
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000MPW5o3vrlG6": {
+      "title": "Ghost Town",
+      "artist": "Ye (侃爷)",
+      "album": "ye",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "unexpected collection error: The read operation timed out"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:0007VCE245Eyd0": {
+      "title": "Slow Burner",
+      "artist": "YĪN YĪN",
+      "album": "Yatta!",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001wJNLh1kxRNx": {
+      "title": "Yiruma - Blind Film (Audio)",
+      "artist": "YirumaVEVO",
+      "album": "钢琴曲 | 轻松音律 舒缓压力",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:000pf3I33nxCiE": {
+      "title": "Yiruma - Forest Fantasy (Audio)",
+      "artist": "YirumaVEVO",
+      "album": "钢琴曲 | 轻松音律 舒缓压力",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:000BKhUC3KCJeq": {
       "title": "Swashers",
       "artist": "Yosi Horikawa",
@@ -32441,6 +34958,82 @@
         "status": "verified",
         "note": "Electronic 与 Ambient / Neo-Classical 均为可接受归类，不设置单向风格先验。"
       },
+      "secondary_genre_candidates": []
+    },
+    "qq:001mozjL215yEp": {
+      "title": "她",
+      "artist": "Youzee Music",
+      "album": "她",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003VhZ1Q2CgDA8": {
+      "title": "Photosynthesis",
+      "artist": "Youzee Music",
+      "album": "Photosynthesis",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0028CsmM4EThqV": {
+      "title": "We Complete Each Other",
+      "artist": "Youzee Music",
+      "album": "双人成行",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001fYkQB2itUcR": {
+      "title": "弥生之春",
+      "artist": "Youzee Music",
+      "album": "弥生之春",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
       "secondary_genre_candidates": []
     },
     "qq:000DdmbL0PJlHm": {
@@ -32932,6 +35525,25 @@
           "score": 1.56
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000s5UNP25797o": {
+      "title": "春に微熱",
+      "artist": "クボタカイ",
+      "album": "春に微熱",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -33494,6 +36106,174 @@
       "errors": [],
       "secondary_genre_candidates": []
     },
+    "qq:00121f760v5gN3": {
+      "title": "わたしのうた",
+      "artist": "ラブリーサマーちゃん",
+      "album": "LSC",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_album",
+            "weight": 0.7
+          },
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_album",
+          "source_weight": 0.7,
+          "raw_tags": [
+            {
+              "name": "j-pop",
+              "count": 100
+            },
+            {
+              "name": "japanese",
+              "count": 100
+            },
+            {
+              "name": "female vocalists",
+              "count": 66
+            },
+            {
+              "name": "JPop",
+              "count": 66
+            },
+            {
+              "name": "Asian Pop",
+              "count": 33
+            },
+            {
+              "name": "Asian",
+              "count": 33
+            }
+          ]
+        },
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "j-pop",
+              "count": 100
+            },
+            {
+              "name": "indie pop",
+              "count": 64
+            },
+            {
+              "name": "Lo-Fi",
+              "count": 24
+            },
+            {
+              "name": "japanese",
+              "count": 24
+            },
+            {
+              "name": "twee pop",
+              "count": 12
+            },
+            {
+              "name": "female vocalists",
+              "count": 12
+            },
+            {
+              "name": "guitar pop",
+              "count": 12
+            },
+            {
+              "name": "voice of an angel",
+              "count": 4
+            },
+            {
+              "name": "youthwave",
+              "count": 2
+            },
+            {
+              "name": "Asian Pop",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001hDf0i32mWUJ": {
+      "title": "Open Air",
+      "artist": "东京酒吐座",
+      "album": "Turnaround",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000QG2qS1R1Lke": {
+      "title": "Just Alright",
+      "artist": "东京酒吐座",
+      "album": "crystallize (remastered)",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:004JsIAS3H53X2": {
+      "title": "此曲献给理想主义者",
+      "artist": "万炯鸣(Ch1rpy)",
+      "album": "\"梵离纱写给伊利斯的信\"",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found",
+        "lastfm_artist: The artist you supplied could not be found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:003D1uIB0zqMXf": {
       "title": "Overcast",
       "artist": "吴卓玲",
@@ -33878,6 +36658,347 @@
         }
       ]
     },
+    "qq:001ibzed4YD80W": {
+      "title": "惊蛰",
+      "artist": "天声乐队",
+      "album": "时代幻景",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003yvy462HQoBo": {
+      "title": "雪戏",
+      "artist": "天声乐队",
+      "album": "雪戏",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:004RjKlW1MYcwk": {
+      "title": "Sweet Child O' Mine",
+      "artist": "孙燕姿",
+      "album": "彩虹金刚",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "chinese",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 82
+            },
+            {
+              "name": "singapore",
+              "count": 49
+            },
+            {
+              "name": "C-pop",
+              "count": 41
+            },
+            {
+              "name": "female vocalists",
+              "count": 14
+            },
+            {
+              "name": "mandarin",
+              "count": 11
+            },
+            {
+              "name": "Asian",
+              "count": 5
+            },
+            {
+              "name": "female",
+              "count": 1
+            },
+            {
+              "name": "female vocalist",
+              "count": 1
+            },
+            {
+              "name": "Singaporean",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001RvSi60a5xaa": {
+      "title": "One more time, One more chance",
+      "artist": "天门",
+      "album": "劇場映画「秒速5センチメートル」-Soundtracks",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003tUeWx0Eh9LX": {
+      "title": "懒得去管",
+      "artist": "孙燕姿",
+      "album": "The Moment",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "chinese",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 82
+            },
+            {
+              "name": "singapore",
+              "count": 49
+            },
+            {
+              "name": "C-pop",
+              "count": 41
+            },
+            {
+              "name": "female vocalists",
+              "count": 14
+            },
+            {
+              "name": "mandarin",
+              "count": 11
+            },
+            {
+              "name": "Asian",
+              "count": 5
+            },
+            {
+              "name": "female",
+              "count": 1
+            },
+            {
+              "name": "female vocalist",
+              "count": 1
+            },
+            {
+              "name": "Singaporean",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000sPOPw1FgNDK": {
+      "title": "种",
+      "artist": "孙燕姿",
+      "album": "Stefanie",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "chinese",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 82
+            },
+            {
+              "name": "singapore",
+              "count": 49
+            },
+            {
+              "name": "C-pop",
+              "count": 41
+            },
+            {
+              "name": "female vocalists",
+              "count": 14
+            },
+            {
+              "name": "mandarin",
+              "count": 11
+            },
+            {
+              "name": "Asian",
+              "count": 5
+            },
+            {
+              "name": "female",
+              "count": 1
+            },
+            {
+              "name": "female vocalist",
+              "count": 1
+            },
+            {
+              "name": "Singaporean",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:001ApxMS0O2X0f": {
+      "title": "祝你开心",
+      "artist": "孙燕姿",
+      "album": "Stefanie",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "chinese",
+              "count": 100
+            },
+            {
+              "name": "pop",
+              "count": 82
+            },
+            {
+              "name": "singapore",
+              "count": 49
+            },
+            {
+              "name": "C-pop",
+              "count": 41
+            },
+            {
+              "name": "female vocalists",
+              "count": 14
+            },
+            {
+              "name": "mandarin",
+              "count": 11
+            },
+            {
+              "name": "Asian",
+              "count": 5
+            },
+            {
+              "name": "female",
+              "count": 1
+            },
+            {
+              "name": "female vocalist",
+              "count": 1
+            },
+            {
+              "name": "Singaporean",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:003sNL1q2TytB7": {
       "title": "滴いっぱいの記憶",
       "artist": "平沢進",
@@ -34068,6 +37189,25 @@
         }
       ]
     },
+    "qq:001nxeR53eekRp": {
+      "title": "Sémillon",
+      "artist": "尚先生",
+      "album": "不打烊的小酒馆 贰",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:001T13Gu43Ufnu": {
       "title": "Beautiful Woman",
       "artist": "张悬",
@@ -34195,6 +37335,66 @@
         }
       ],
       "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003ZFB4X2c2p3g": {
+      "title": "亲吻你的行星 (Kiss Your Planet)",
+      "artist": "巧克力工厂",
+      "album": "亲吻你的行星",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003MsKzd3WTMCy": {
+      "title": "風の詩",
+      "artist": "押尾光太郎",
+      "album": "Dramatic",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003xntsb1q7guG": {
+      "title": "b l ū - the blue between",
+      "artist": "李闰珉",
+      "album": "b l ū - the blue between",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
       "secondary_genre_candidates": []
     },
     "qq:000RMp580QOCBV": {
@@ -34487,6 +37687,66 @@
         }
       ]
     },
+    "qq:004QJ7xe4FMbnN": {
+      "title": "non è la fine",
+      "artist": "李闰珉",
+      "album": "non è la fine",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:000Ax95I1jFHa8": {
+      "title": "天马行空",
+      "artist": "林子良",
+      "album": "FREE STYLE R&B全创作1号",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:003SIa8W0Su7m1": {
+      "title": "海边的曼彻斯特",
+      "artist": "森水垚",
+      "album": "治疗师Vol.6",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
     "qq:004LMRgO42vmG7": {
       "title": "MIYAKO",
       "artist": "水中スピカ",
@@ -34606,6 +37866,48 @@
         }
       ],
       "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000hHhHq29dCNY": {
+      "title": "尕连手",
+      "artist": "段兴华",
+      "album": "尕连手（雷鬼版）",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:003xlaqb1BNDgt": {
+      "title": "旗帜",
+      "artist": "污甩乐队 Dirt Left",
+      "album": "我试图寻找他存在的证据",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
       "secondary_genre_candidates": []
     },
     "qq:0025oZ351kzLu2": {
@@ -34795,6 +38097,88 @@
         }
       ]
     },
+    "qq:000PFi7O2pxmSj": {
+      "title": "时间回到秋天的下午",
+      "artist": "狄奥尼索斯乐队",
+      "album": "时间回到秋天的下午",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000wTvRi0NDbWq": {
+      "title": "和谐频率",
+      "artist": "知浦伸司",
+      "album": "平衡空间．奇迹音频疗愈",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:00260sXv1K2vx6": {
+      "title": "阴转晴",
+      "artist": "琥珀乐队",
+      "album": "宿醉之星",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000adBhd4SKCte": {
+      "title": "无意义的逃生不如歌唱",
+      "artist": "琥珀乐队",
+      "album": "半平零三",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:000FHBUk3hkHTd": {
       "title": "Blue Dragon",
       "artist": "澤野弘之",
@@ -34959,6 +38343,27 @@
           ]
         }
       ]
+    },
+    "qq:001yPgcn3STB0R": {
+      "title": "鹭屿",
+      "artist": "琥珀乐队",
+      "album": "不歌唱",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
+      "secondary_genre_candidates": []
     },
     "qq:003t9znv34JkTJ": {
       "title": "云朵 (feat.九维)",
@@ -35159,6 +38564,144 @@
         }
       ]
     },
+    "qq:000tNtIl1W1GRS": {
+      "title": "去时风",
+      "artist": "聲無哀樂",
+      "album": "聲有·水無貳",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:004RuZ4w411AuY": {
+      "title": "星际",
+      "artist": "花招",
+      "album": "星际大篷车",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002aLMGJ4No678": {
+      "title": "在这里请你随意",
+      "artist": "苏运莹",
+      "album": "幻",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "cpop",
+              "count": 100
+            },
+            {
+              "name": "chinese",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000kHhMj2B3rvI": {
+      "title": "In Circles (feat. Tennyson)",
+      "artist": "英雄联盟",
+      "album": "Sessions: Vi",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:001GZWug22bVQL": {
+      "title": "Gnomes' Campfire Dance Ritual at Dawn",
+      "artist": "许郁瑛",
+      "album": "In the Cave",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002kTbin2yvEEs": {
+      "title": "Never Let Go",
+      "artist": "西原健一郎",
+      "album": "Elastic Afterwords",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
+      "secondary_genre_candidates": []
+    },
     "qq:003Aayu02tPYhI": {
       "title": "Cherished Memories",
       "artist": "菅野祐悟",
@@ -35282,6 +38825,68 @@
         }
       ],
       "errors": [
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:004Wsmgb06c7st": {
+      "title": "Serendipity",
+      "artist": "西原健一郎",
+      "album": "Illuminus",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002fabwQ2tJNbu": {
+      "title": "どっかの土曜日",
+      "artist": "铃木真海子",
+      "album": "ms",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:000hPvJ00kV0lE": {
+      "title": "Lazy river",
+      "artist": "铃木真海子",
+      "album": "Lazy river",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
         "lastfm_album: Album not found"
       ],
       "secondary_genre_candidates": []
@@ -35799,6 +39404,139 @@
           "score": 2.2
         }
       ],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000F8aV32nHJxf": {
+      "title": "最初的爱情 (The Love Story)",
+      "artist": "鲸鱼马戏团",
+      "album": "鲸鱼马戏团VOL.7 索拉里斯Solareti——时间与永恒 About Time And Eternity",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [
+        "lastfm_track: Track not found",
+        "lastfm_album: Album not found"
+      ],
+      "secondary_genre_candidates": []
+    },
+    "qq:001He8N20yipDD": {
+      "title": "有时候",
+      "artist": "鲸鱼马戏团",
+      "album": "鲸鱼马戏团VOL.1",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:0003AT4M14g9re": {
+      "title": "落雨",
+      "artist": "鲸鱼马戏团",
+      "album": "鲸鱼马戏团VOL.1",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:000nrWLM4C4Egb": {
+      "title": "雨中庭院",
+      "artist": "鲸鱼马戏团",
+      "album": "鲸鱼马戏团 Vol.2 Whisper",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:00117npI1bVJgw": {
+      "title": "种树",
+      "artist": "马飞",
+      "album": "摩登天空7",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_artist",
+            "weight": 0.35
+          }
+        ],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_artist",
+          "source_weight": 0.35,
+          "raw_tags": [
+            {
+              "name": "c-indie",
+              "count": 100
+            }
+          ]
+        }
+      ],
+      "matched_tags": [],
+      "errors": [],
+      "secondary_genre_candidates": []
+    },
+    "qq:002J3n0H0c64Rn": {
+      "title": "PRINCESS",
+      "artist": "鹤The Crane",
+      "album": "PRINCESS",
+      "genre_candidate": null,
+      "confidence": 0.0,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [],
+        "reason": "没有原始标签命中任何风格映射规则",
+        "final_confidence": 0.0
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [],
+      "matched_tags": [],
       "errors": [],
       "secondary_genre_candidates": []
     },
@@ -37056,6 +40794,286 @@
           "rule_status": "verified",
           "count_bonus": 1.0,
           "score": 1.75
+        }
+      ],
+      "errors": []
+    },
+    "qq:000afH2Z0gIzbI": {
+      "title": "Cold Cold Cold",
+      "artist": "Cage The Elephant",
+      "album": "Tell Me I'm Pretty",
+      "genre_candidate": "Rock / Alternative",
+      "secondary_genre_candidates": [],
+      "confidence": 0.88,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "winner": {
+          "genre": "Rock / Alternative",
+          "score": 22.25,
+          "sources": [
+            "lastfm_track"
+          ],
+          "source_count": 1
+        },
+        "runner_up": null,
+        "all_target_scores": [
+          {
+            "genre": "Rock / Alternative",
+            "score": 22.25
+          }
+        ],
+        "margin": 0.957,
+        "components": {
+          "base": 0.36,
+          "source_diversity": 0.17,
+          "separation": 0.4019,
+          "uncapped_confidence": 0.9319
+        },
+        "source_cap": {
+          "value": 0.88,
+          "basis": "lastfm_track",
+          "applied": true,
+          "base_value": 0.88
+        },
+        "artist_genre_calibrations": [],
+        "artist_calibration": null,
+        "secondary_candidates": [],
+        "final_confidence": 0.88,
+        "notes": [
+          "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+          "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+          "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+        ]
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "WSUM 91.7 FM Madison",
+              "count": 100
+            },
+            {
+              "name": "pick n mix",
+              "count": 44
+            },
+            {
+              "name": "indie",
+              "count": 16
+            },
+            {
+              "name": "indie rock",
+              "count": 16
+            },
+            {
+              "name": "american",
+              "count": 4
+            },
+            {
+              "name": "Psychedelic Rock",
+              "count": 4
+            },
+            {
+              "name": "rock",
+              "count": 4
+            },
+            {
+              "name": "psychedelic",
+              "count": 1
+            },
+            {
+              "name": "Garage Rock",
+              "count": 1
+            },
+            {
+              "name": "alternative",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "indie rock",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.16,
+          "score": 6.16
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "rock",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.04,
+          "score": 6.04
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "alternative",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.01,
+          "score": 6.01
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "Psychedelic Rock",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-variants",
+          "rule_score": 4,
+          "rule_status": "verified",
+          "count_bonus": 0.04,
+          "score": 4.04
+        }
+      ],
+      "errors": []
+    },
+    "qq:0048buGv2Ed4db": {
+      "title": "Meet Me Halfway",
+      "artist": "Black Eyed Peas",
+      "album": "THE E.N.D. (THE ENERGY NEVER DIES) [International Deluxe Version]",
+      "genre_candidate": "Hip-Hop / R&B",
+      "secondary_genre_candidates": [],
+      "confidence": 0.88,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "winner": {
+          "genre": "Hip-Hop / R&B",
+          "score": 13.04,
+          "sources": [
+            "lastfm_track"
+          ],
+          "source_count": 1
+        },
+        "runner_up": null,
+        "all_target_scores": [
+          {
+            "genre": "Hip-Hop / R&B",
+            "score": 13.04
+          }
+        ],
+        "margin": 0.9288,
+        "components": {
+          "base": 0.36,
+          "source_diversity": 0.17,
+          "separation": 0.3901,
+          "uncapped_confidence": 0.9201
+        },
+        "source_cap": {
+          "value": 0.88,
+          "basis": "lastfm_track",
+          "applied": true,
+          "base_value": 0.88
+        },
+        "artist_genre_calibrations": [],
+        "artist_calibration": null,
+        "secondary_candidates": [],
+        "final_confidence": 0.88,
+        "notes": [
+          "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+          "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+          "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+        ]
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "pop",
+              "count": 100
+            },
+            {
+              "name": "Hip-Hop",
+              "count": 90
+            },
+            {
+              "name": "black eyed peas",
+              "count": 53
+            },
+            {
+              "name": "dance",
+              "count": 30
+            },
+            {
+              "name": "rap",
+              "count": 14
+            },
+            {
+              "name": "personal",
+              "count": 10
+            },
+            {
+              "name": "i wish i could make a video for this",
+              "count": 8
+            },
+            {
+              "name": "dance all night",
+              "count": 2
+            },
+            {
+              "name": "i can imagine that song in a movie",
+              "count": 2
+            },
+            {
+              "name": "Love",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "Hip-Hop",
+          "genre": "Hip-Hop / R&B",
+          "rule_id": "hiphop-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.9,
+          "score": 6.9
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "rap",
+          "genre": "Hip-Hop / R&B",
+          "rule_id": "hiphop-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.14,
+          "score": 6.14
         }
       ],
       "errors": []
@@ -40123,6 +44141,135 @@
       ],
       "errors": []
     },
+    "qq:002aplaD2uRp5x": {
+      "title": "Messy",
+      "artist": "Lola Young",
+      "album": "Messy (Explicit)",
+      "genre_candidate": "Rock / Alternative",
+      "secondary_genre_candidates": [],
+      "confidence": 0.88,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "winner": {
+          "genre": "Rock / Alternative",
+          "score": 13.25,
+          "sources": [
+            "lastfm_track"
+          ],
+          "source_count": 1
+        },
+        "runner_up": null,
+        "all_target_scores": [
+          {
+            "genre": "Rock / Alternative",
+            "score": 13.25
+          }
+        ],
+        "margin": 0.9298,
+        "components": {
+          "base": 0.36,
+          "source_diversity": 0.17,
+          "separation": 0.3905,
+          "uncapped_confidence": 0.9205
+        },
+        "source_cap": {
+          "value": 0.88,
+          "basis": "lastfm_track",
+          "applied": true,
+          "base_value": 0.88
+        },
+        "artist_genre_calibrations": [],
+        "artist_calibration": null,
+        "secondary_candidates": [],
+        "final_confidence": 0.88,
+        "notes": [
+          "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+          "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+          "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+        ]
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "indie rock",
+              "count": 100
+            },
+            {
+              "name": "rock",
+              "count": 25
+            },
+            {
+              "name": "indie pop",
+              "count": 17
+            },
+            {
+              "name": "Neo-Psychedelia",
+              "count": 17
+            },
+            {
+              "name": "Post-punk revival",
+              "count": 8
+            },
+            {
+              "name": "20s",
+              "count": 8
+            },
+            {
+              "name": "british",
+              "count": 8
+            },
+            {
+              "name": "playlista rmf fm",
+              "count": 3
+            },
+            {
+              "name": "uk number one",
+              "count": 3
+            },
+            {
+              "name": "grammy winning song",
+              "count": 3
+            }
+          ]
+        }
+      ],
+      "matched_tags": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "indie rock",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 1.0,
+          "score": 7.0
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "rock",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.25,
+          "score": 6.25
+        }
+      ],
+      "errors": []
+    },
     "qq:002RBbP70CnemQ": {
       "title": "Summer Nights",
       "artist": "Lil' Rob",
@@ -40388,6 +44535,146 @@
           "rule_status": "verified",
           "count_bonus": 0.35,
           "score": 6.35
+        }
+      ],
+      "errors": []
+    },
+    "qq:0038Vq2C02uayk": {
+      "title": "Love Lost",
+      "artist": "Mac Miller",
+      "album": "I Love Life, Thank You (Explicit)",
+      "genre_candidate": "Hip-Hop / R&B",
+      "secondary_genre_candidates": [],
+      "confidence": 0.88,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "winner": {
+          "genre": "Hip-Hop / R&B",
+          "score": 19.24,
+          "sources": [
+            "lastfm_track"
+          ],
+          "source_count": 1
+        },
+        "runner_up": null,
+        "all_target_scores": [
+          {
+            "genre": "Hip-Hop / R&B",
+            "score": 19.24
+          }
+        ],
+        "margin": 0.9506,
+        "components": {
+          "base": 0.36,
+          "source_diversity": 0.17,
+          "separation": 0.3992,
+          "uncapped_confidence": 0.9292
+        },
+        "source_cap": {
+          "value": 0.88,
+          "basis": "lastfm_track",
+          "applied": true,
+          "base_value": 0.88
+        },
+        "artist_genre_calibrations": [],
+        "artist_calibration": null,
+        "secondary_candidates": [],
+        "final_confidence": 0.88,
+        "notes": [
+          "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+          "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+          "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+        ]
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "hip hop",
+              "count": 100
+            },
+            {
+              "name": "pop rap",
+              "count": 100
+            },
+            {
+              "name": "indie",
+              "count": 16
+            },
+            {
+              "name": "rap",
+              "count": 16
+            },
+            {
+              "name": "chill",
+              "count": 8
+            },
+            {
+              "name": "indie pop",
+              "count": 8
+            },
+            {
+              "name": "Hip-Hop",
+              "count": 8
+            },
+            {
+              "name": "melodic",
+              "count": 2
+            },
+            {
+              "name": "everything",
+              "count": 2
+            },
+            {
+              "name": "melancholic",
+              "count": 2
+            }
+          ]
+        }
+      ],
+      "matched_tags": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "hip hop",
+          "genre": "Hip-Hop / R&B",
+          "rule_id": "hiphop-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 1.0,
+          "score": 7.0
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "rap",
+          "genre": "Hip-Hop / R&B",
+          "rule_id": "hiphop-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.16,
+          "score": 6.16
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "Hip-Hop",
+          "genre": "Hip-Hop / R&B",
+          "rule_id": "hiphop-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.08,
+          "score": 6.08
         }
       ],
       "errors": []
@@ -41885,6 +46172,135 @@
           "rule_status": "verified",
           "count_bonus": 0.1,
           "score": 2.13
+        }
+      ],
+      "errors": []
+    },
+    "qq:000bR3XJ0iICzQ": {
+      "title": "About You",
+      "artist": "The 1975",
+      "album": "Being Funny In A Foreign Language (Explicit)",
+      "genre_candidate": "Rock / Alternative",
+      "secondary_genre_candidates": [],
+      "confidence": 0.88,
+      "confidence_details": {
+        "formula_version": "songbase.candidate-confidence/v4",
+        "input_sources": [
+          {
+            "source": "lastfm_track",
+            "weight": 1.0
+          }
+        ],
+        "winner": {
+          "genre": "Rock / Alternative",
+          "score": 13.42,
+          "sources": [
+            "lastfm_track"
+          ],
+          "source_count": 1
+        },
+        "runner_up": null,
+        "all_target_scores": [
+          {
+            "genre": "Rock / Alternative",
+            "score": 13.42
+          }
+        ],
+        "margin": 0.9307,
+        "components": {
+          "base": 0.36,
+          "source_diversity": 0.17,
+          "separation": 0.3909,
+          "uncapped_confidence": 0.9209
+        },
+        "source_cap": {
+          "value": 0.88,
+          "basis": "lastfm_track",
+          "applied": true,
+          "base_value": 0.88
+        },
+        "artist_genre_calibrations": [],
+        "artist_calibration": null,
+        "secondary_candidates": [],
+        "final_confidence": 0.88,
+        "notes": [
+          "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+          "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+          "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+        ]
+      },
+      "status": "candidate",
+      "instrumental_candidate": null,
+      "evidence": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "raw_tags": [
+            {
+              "name": "WSUM 91.7 FM Madison",
+              "count": 100
+            },
+            {
+              "name": "dream pop",
+              "count": 100
+            },
+            {
+              "name": "shoegaze",
+              "count": 42
+            },
+            {
+              "name": "Big Music",
+              "count": 42
+            },
+            {
+              "name": "indie pop",
+              "count": 12
+            },
+            {
+              "name": "Wavelength with DJ Izzy",
+              "count": 12
+            },
+            {
+              "name": "indie",
+              "count": 5
+            },
+            {
+              "name": "Daytrip Mixtape",
+              "count": 2
+            },
+            {
+              "name": "Reelin In The Years",
+              "count": 2
+            },
+            {
+              "name": "Sophisti-Pop",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "matched_tags": [
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "dream pop",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 1.0,
+          "score": 7.0
+        },
+        {
+          "source": "lastfm_track",
+          "source_weight": 1.0,
+          "tag": "shoegaze",
+          "genre": "Rock / Alternative",
+          "rule_id": "rock-core",
+          "rule_score": 6,
+          "rule_status": "verified",
+          "count_bonus": 0.42,
+          "score": 6.42
         }
       ],
       "errors": []
@@ -43990,5 +48406,5 @@
     }
   },
   "rescored_at": "2026-08-21",
-  "pruned_at": "2026-09-10"
+  "pruned_at": "2026-09-09"
 }

@@ -1,7 +1,7 @@
 {
   "export_date": "2026-09-09",
-  "total_singers": 420,
-  "total_unique_songs": 1054,
+  "total_singers": 425,
+  "total_unique_songs": 1060,
   "singers": [
     {
       "name": "16层乐队",
@@ -5642,6 +5642,23 @@
       ]
     },
     {
+      "name": "Lamplighters点灯人",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Long Way Home",
+          "full_singer": "Lamplighters点灯人",
+          "album": "Lamplighters",
+          "duration": 220,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00214Jid0QoBUz",
+          "youtube": "https://youtube.com/watch?v=OzMXXlLz8HI",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Laurie Darmon",
       "song_count": 1,
       "youtube": 1,
@@ -6514,6 +6531,23 @@
           "duration": 245,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002NT6Y52IjvTe",
           "youtube": "https://youtube.com/watch?v=-TKJVVeRD8Q",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "MINJI",
+      "song_count": 1,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "踊り子 (舞女)",
+          "full_singer": "MINJI",
+          "album": "",
+          "duration": 227,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Gfo3c3oVtX1",
+          "youtube": "",
           "bilibili": ""
         }
       ]
@@ -8306,6 +8340,23 @@
       ]
     },
     {
+      "name": "Running Blue",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Hold On",
+          "full_singer": "Running Blue",
+          "album": "Hold On",
+          "duration": 228,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003YOCyG19vRL8",
+          "youtube": "https://youtube.com/watch?v=J1RemPHcKiU",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Ryo Fukui",
       "song_count": 1,
       "youtube": 1,
@@ -10079,6 +10130,23 @@
       ]
     },
     {
+      "name": "YAØ",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "For No Reason",
+          "full_singer": "YAØ",
+          "album": "For No Reason",
+          "duration": 195,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003hpGdf3O4LVn",
+          "youtube": "https://youtube.com/watch?v=SB39pqaStUU",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Ye (侃爷)",
       "song_count": 3,
       "youtube": 0,
@@ -10108,6 +10176,32 @@
           "album": "Late Registration (Explicit)",
           "duration": 305,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003OINAS0HgM7w",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "YirumaVEVO",
+      "song_count": 2,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Yiruma - Blind Film (Audio)",
+          "full_singer": "YirumaVEVO",
+          "album": "钢琴曲 | 轻松音律 舒缓压力",
+          "duration": 240,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001wJNLh1kxRNx",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Yiruma - Forest Fantasy (Audio)",
+          "full_singer": "YirumaVEVO",
+          "album": "钢琴曲 | 轻松音律 舒缓压力",
+          "duration": 216,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000pf3I33nxCiE",
           "youtube": "",
           "bilibili": ""
         }

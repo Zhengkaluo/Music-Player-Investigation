@@ -106,7 +106,7 @@ python3 SongBase/build_song_tags_browser.py
 
 点击“导出纠错 JSON”会生成 `song_tag_corrections_YYYY-MM-DD.json`。其中保留曲目、原候选、命中的映射规则、原始平台证据及人工反馈；把这份文件交给 agent，即可据此总结哪些词应保留、降权、改目标或增补组合规则。
 
-标签浏览器顶部的“无候选手动标注”进入独立子页面 `song_manual_tagging.html`。它只列出尚未正式标注、且没有形成主风格候选的曲目。主 Tag、副 Tag、语言、器乐状态和备注会自动保存在当前浏览器本机；完成一批后点击“导出已完成 JSON”，生成 `song_manual_tags_YYYY-MM-DD.json`，再交给 agent 写回正式库。该页面本身不会修改任何 JSON。
+标签浏览器顶部的“无候选手动标注”进入独立子页面 `song_manual_tagging.html`。它只列出尚未正式标注、且没有形成主风格候选的曲目。主 Tag、副 Tag、语言、器乐状态和备注会自动作为草稿保存在当前浏览器本机；只有点击“完成本首并下一首”后，该曲才会计入完成进度与导出范围。完成一批后点击“导出已完成 JSON”，生成 `song_manual_tags_YYYY-MM-DD.json`，再交给 agent 写回正式库。该页面本身不会修改任何 JSON。
 
 ### 生成批量标签候选
 

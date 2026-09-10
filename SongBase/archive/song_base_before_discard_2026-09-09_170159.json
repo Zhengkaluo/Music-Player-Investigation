@@ -1,7 +1,7 @@
 {
   "export_date": "2026-09-09",
-  "total_singers": 420,
-  "total_unique_songs": 1054,
+  "total_singers": 433,
+  "total_unique_songs": 1069,
   "singers": [
     {
       "name": "16层乐队",
@@ -2172,6 +2172,23 @@
       ]
     },
     {
+      "name": "Dorian Marko",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Cornfield Chase",
+          "full_singer": "Dorian Marko",
+          "album": "Cornfield Chase",
+          "duration": 127,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002PcnLc3mhGto",
+          "youtube": "https://youtube.com/watch?v=lkDXg_JNgC0",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Dr. Dre",
       "song_count": 1,
       "youtube": 1,
@@ -3189,6 +3206,23 @@
           "duration": 418,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/000tcIIw4H4p2g",
           "youtube": "https://youtube.com/watch?v=LzlyBZqAUCA",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "Glenn Gould",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Prelude No. 1 in C Major, BWV 846",
+          "full_singer": "Glenn Gould, Johann Sebastian Bach",
+          "album": "Piano Romance",
+          "duration": 144,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/002MFZtI1Q3yDS",
+          "youtube": "https://youtube.com/watch?v=1CVlBSgj0bk",
           "bilibili": ""
         }
       ]
@@ -5642,6 +5676,23 @@
       ]
     },
     {
+      "name": "Lamplighters点灯人",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Long Way Home",
+          "full_singer": "Lamplighters点灯人",
+          "album": "Lamplighters",
+          "duration": 220,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00214Jid0QoBUz",
+          "youtube": "https://youtube.com/watch?v=OzMXXlLz8HI",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Laurie Darmon",
       "song_count": 1,
       "youtube": 1,
@@ -6514,6 +6565,23 @@
           "duration": 245,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/002NT6Y52IjvTe",
           "youtube": "https://youtube.com/watch?v=-TKJVVeRD8Q",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "MINJI",
+      "song_count": 1,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "踊り子 (舞女)",
+          "full_singer": "MINJI",
+          "album": "",
+          "duration": 227,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Gfo3c3oVtX1",
+          "youtube": "",
           "bilibili": ""
         }
       ]
@@ -8306,6 +8374,23 @@
       ]
     },
     {
+      "name": "Running Blue",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Hold On",
+          "full_singer": "Running Blue",
+          "album": "Hold On",
+          "duration": 228,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003YOCyG19vRL8",
+          "youtube": "https://youtube.com/watch?v=J1RemPHcKiU",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Ryo Fukui",
       "song_count": 1,
       "youtube": 1,
@@ -10079,6 +10164,23 @@
       ]
     },
     {
+      "name": "YAØ",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "For No Reason",
+          "full_singer": "YAØ",
+          "album": "For No Reason",
+          "duration": 195,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003hpGdf3O4LVn",
+          "youtube": "https://youtube.com/watch?v=SB39pqaStUU",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "Ye (侃爷)",
       "song_count": 3,
       "youtube": 0,
@@ -10108,6 +10210,32 @@
           "album": "Late Registration (Explicit)",
           "duration": 305,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/003OINAS0HgM7w",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "YirumaVEVO",
+      "song_count": 2,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "Yiruma - Blind Film (Audio)",
+          "full_singer": "YirumaVEVO",
+          "album": "钢琴曲 | 轻松音律 舒缓压力",
+          "duration": 240,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/001wJNLh1kxRNx",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "Yiruma - Forest Fantasy (Audio)",
+          "full_singer": "YirumaVEVO",
+          "album": "钢琴曲 | 轻松音律 舒缓压力",
+          "duration": 216,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000pf3I33nxCiE",
           "youtube": "",
           "bilibili": ""
         }
@@ -10604,6 +10732,23 @@
           "album": "LSC",
           "duration": 416,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/00121f760v5gN3",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "万炯鸣(Ch1rpy)",
+      "song_count": 1,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "此曲献给理想主义者",
+          "full_singer": "万炯鸣(Ch1rpy)",
+          "album": "\"梵离纱写给伊利斯的信\"",
+          "duration": 349,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/004JsIAS3H53X2",
           "youtube": "",
           "bilibili": ""
         }
@@ -11922,6 +12067,23 @@
       ]
     },
     {
+      "name": "林子良",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "天马行空",
+          "full_singer": "林子良",
+          "album": "FREE STYLE R&B全创作1号",
+          "duration": 258,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Ax95I1jFHa8",
+          "youtube": "https://youtube.com/watch?v=AUVGCjXxCIc",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "柏大輔",
       "song_count": 1,
       "youtube": 0,
@@ -11991,6 +12153,23 @@
       ]
     },
     {
+      "name": "段兴华",
+      "song_count": 1,
+      "youtube": 1,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "尕连手",
+          "full_singer": "段兴华",
+          "album": "尕连手（雷鬼版）",
+          "duration": 232,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000hHhHq29dCNY",
+          "youtube": "https://youtube.com/watch?v=VZZcnKOTL64",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "水中スピカ",
       "song_count": 1,
       "youtube": 0,
@@ -12002,6 +12181,23 @@
           "album": "MIYAKO",
           "duration": 331,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/004LMRgO42vmG7",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "污甩乐队 Dirt Left",
+      "song_count": 1,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "旗帜",
+          "full_singer": "污甩乐队 Dirt Left",
+          "album": "我试图寻找他存在的证据",
+          "duration": 234,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xlaqb1BNDgt",
           "youtube": "",
           "bilibili": ""
         }
@@ -12236,6 +12432,23 @@
           "duration": 295,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/001By7Vt3CGYpK",
           "youtube": "https://youtube.com/watch?v=ASjN0QtBUz8",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
+      "name": "聲無哀樂",
+      "song_count": 1,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "去时风",
+          "full_singer": "聲無哀樂",
+          "album": "聲有·水無貳",
+          "duration": 388,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000tNtIl1W1GRS",
+          "youtube": "",
           "bilibili": ""
         }
       ]
@@ -12807,8 +13020,25 @@
       ]
     },
     {
+      "name": "马飞",
+      "song_count": 1,
+      "youtube": 0,
+      "bilibili": 0,
+      "songs": [
+        {
+          "title": "种树",
+          "full_singer": "马飞",
+          "album": "摩登天空7",
+          "duration": 215,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/00117npI1bVJgw",
+          "youtube": "",
+          "bilibili": ""
+        }
+      ]
+    },
+    {
       "name": "鲸鱼马戏团",
-      "song_count": 3,
+      "song_count": 4,
       "youtube": 0,
       "bilibili": 0,
       "songs": [
@@ -12836,6 +13066,15 @@
           "album": "鲸鱼马戏团VOL.1",
           "duration": 249,
           "qq_music": "https://y.qq.com/n/ryqq/songDetail/0003AT4M14g9re",
+          "youtube": "",
+          "bilibili": ""
+        },
+        {
+          "title": "雨中庭院",
+          "full_singer": "鲸鱼马戏团",
+          "album": "鲸鱼马戏团 Vol.2 Whisper",
+          "duration": 390,
+          "qq_music": "https://y.qq.com/n/ryqq/songDetail/000nrWLM4C4Egb",
           "youtube": "",
           "bilibili": ""
         }

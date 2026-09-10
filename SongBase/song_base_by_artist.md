@@ -1,6 +1,6 @@
 # QQ 音乐曲库（按歌手索引）
-> 436 位艺人 · 1072 首歌曲 · 2026-08-28
-> YouTube: 746 | Bilibili: 0
+> 420 位艺人 · 1054 首歌曲 · 2026-09-09
+> YouTube: 738 | Bilibili: 0
 
 ## 16层乐队 (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -498,11 +498,6 @@
 | 1 | From The Window Of My Room | About Everything And More | 6:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002z9rv20tgIR1) | [▶️](https://youtube.com/watch?v=eBG2JjW1hyM) |
 | 2 | Let Us Live | About Everything And More | 7:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/0032f3f143nQ0F) | - |
 
-## Dorian Marko (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Cornfield Chase | Cornfield Chase | 2:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/002PcnLc3mhGto) | [▶️](https://youtube.com/watch?v=lkDXg_JNgC0) |
-
 ## Dr. Dre (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -712,11 +707,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Affirmation | Breezin' (Expanded) | 6:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/000tcIIw4H4p2g) | [▶️](https://youtube.com/watch?v=LzlyBZqAUCA) |
-
-## Glenn Gould (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Prelude No. 1 in C Major, BWV 846 | Piano Romance | 2:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/002MFZtI1Q3yDS) | [▶️](https://youtube.com/watch?v=1CVlBSgj0bk) |
 
 ## GoGo Penguin (12首 · YT:11)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1186,11 +1176,6 @@
 |---|------|------|------|--------|---------|
 | 1 | Ozan Koukle | Afro Funk Explosion | 3:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/001tmZUy4NjNdE) | [▶️](https://youtube.com/watch?v=PCO7k_Ox9o0) |
 
-## Lamplighters点灯人 (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Long Way Home | Lamplighters | 3:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/00214Jid0QoBUz) | [▶️](https://youtube.com/watch?v=OzMXXlLz8HI) |
-
 ## Laurie Darmon (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1387,11 +1372,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Rewrite | us | 4:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/002NT6Y52IjvTe) | [▶️](https://youtube.com/watch?v=-TKJVVeRD8Q) |
-
-## MINJI (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 踊り子 (舞女) |  | 3:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Gfo3c3oVtX1) | - |
 
 ## Minoru Muraoka (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1743,11 +1723,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Casey Jones (with Dan Kelly of Fortunate Youth) | Grateful Dub: a Reggae-infused tribute to the Grateful Dead (Deluxe) | 4:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/0021aHvS043tc3) | [▶️](https://youtube.com/watch?v=EUhplPYokLc) |
-
-## Running Blue (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Hold On | Hold On | 3:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/003YOCyG19vRL8) | [▶️](https://youtube.com/watch?v=J1RemPHcKiU) |
 
 ## Ryo Fukui (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2198,23 +2173,12 @@
 |---|------|------|------|--------|---------|
 | 1 | Morning Sunrise | Morning Matters (Explicit) | 5:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/000md38x29CEas) | [▶️](https://youtube.com/watch?v=ylHBdhYm-ZE) |
 
-## YAØ (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | For No Reason | For No Reason | 3:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/003hpGdf3O4LVn) | [▶️](https://youtube.com/watch?v=SB39pqaStUU) |
-
 ## Ye (侃爷) (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Ghost Town | ye | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MPW5o3vrlG6) | - |
 | 2 | Gone | Late Registration | 5:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jU74h1iNPXR) | - |
 | 3 | Hey Mama | Late Registration (Explicit) | 5:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/003OINAS0HgM7w) | - |
-
-## YirumaVEVO (2首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Yiruma - Blind Film (Audio) | 钢琴曲 | 轻松音律 舒缓压力 | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/001wJNLh1kxRNx) | - |
-| 2 | Yiruma - Forest Fantasy (Audio) | 钢琴曲 | 轻松音律 舒缓压力 | 3:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/000pf3I33nxCiE) | - |
 
 ## YĪN YĪN (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2323,11 +2287,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | わたしのうた | LSC | 6:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/00121f760v5gN3) | - |
-
-## 万炯鸣(Ch1rpy) (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 此曲献给理想主义者 | "梵离纱写给伊利斯的信" | 5:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/004JsIAS3H53X2) | - |
 
 ## 上原ひろみ (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2565,11 +2524,6 @@
 |---|------|------|------|--------|---------|
 | 1 | Flow feat. Sunset Rollercoaster 落日飞车 | Flow | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/003KDs6p0Mctpz) | - |
 
-## 林子良 (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 天马行空 | FREE STYLE R&B全创作1号 | 4:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Ax95I1jFHa8) | [▶️](https://youtube.com/watch?v=AUVGCjXxCIc) |
-
 ## 柏大輔 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -2587,25 +2541,10 @@
 | 2 | 丸ノ内サディスティック | 三文ゴシップ | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003tLzbv0wmm8o) | [▶️](https://youtube.com/watch?v=4tlUwgtgdZA) |
 | 3 | 眩暈 | ここでキスして。 | 4:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/000B56f902p5Vj) | [▶️](https://youtube.com/watch?v=SyXV6VsrxWM) |
 
-## 段兴华 (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 尕连手 | 尕连手（雷鬼版） | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/000hHhHq29dCNY) | [▶️](https://youtube.com/watch?v=VZZcnKOTL64) |
-
 ## 水中スピカ (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | MIYAKO | MIYAKO | 5:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004LMRgO42vmG7) | - |
-
-## 污甩乐队 Dirt Left (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 旗帜 | 我试图寻找他存在的证据 | 3:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/003xlaqb1BNDgt) | - |
-
-## 沉默演讲 (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 这璀璨又迷人的星空却让人看不透，就像是Ta | 不稳定的规律/有序混沌 | 6:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/003asT742x1gzz) | - |
 
 ## 沼泽乐队 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2663,11 +2602,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Don't Look Back In Anger | LIVE IN LIVING '09 | 4:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/001By7Vt3CGYpK) | [▶️](https://youtube.com/watch?v=ASjN0QtBUz8) |
-
-## 聲無哀樂 (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 去时风 | 聲有·水無貳 | 6:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/000tNtIl1W1GRS) | - |
 
 ## 花伦 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2727,16 +2661,6 @@
 | 1 | M1 | Blackeclipse墨蚀 | 6:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/004NconT3N8EKD) | - |
 | 2 | 六七八 | 5689 | 5:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ITtQI3t33ah) | - |
 | 3 | 我 | 有限无限 | 6:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/0039Wfzs02rtu6) | [▶️](https://youtube.com/watch?v=kDIOG7_r_xI) |
-
-## 邓乐怡 (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Wave | Wave | 3:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/000RgG4o3qFexO) | [▶️](https://youtube.com/watch?v=R0-GDohFxZQ) |
-
-## 邓永鹏 (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 空城的雾 | 不歌唱 | 4:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/0009gkgB2FfU4l) | - |
 
 ## 郎朗 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2801,18 +2725,12 @@
 | 19 | 神様のたくらみ | マホロボシヤ | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/003UXQSv0OiIBc) | - |
 | 20 | 鬼ヶ島 | マホロボシヤ | 2:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/001cbdt22DUrUu) | - |
 
-## 马飞 (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 种树 | 摩登天空7 | 3:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/00117npI1bVJgw) | - |
-
-## 鲸鱼马戏团 (4首)
+## 鲸鱼马戏团 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 最初的爱情 (The Love Story) | 鲸鱼马戏团VOL.7 索拉里斯Solareti——时间与永恒 About Time And Eternity | 3:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/000F8aV32nHJxf) | - |
 | 2 | 有时候 | 鲸鱼马戏团VOL.1 | 3:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/001He8N20yipDD) | - |
 | 3 | 落雨 | 鲸鱼马戏团VOL.1 | 4:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/0003AT4M14g9re) | - |
-| 4 | 雨中庭院 | 鲸鱼马戏团 Vol.2 Whisper | 6:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/000nrWLM4C4Egb) | - |
 
 ## 鹤The Crane (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
