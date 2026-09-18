@@ -220,7 +220,7 @@ python3 SongBase/sync_missing_audio.py --limit 5
 - 排除 Live、Cover、Remix 等版本；
 - 把结果写回 JSON 并重建 Markdown。
 
-区别是它操作旧数据 `qqmusic_playlists.json`，而 `manage_albums.py` 操作当前主数据 `song_base_by_artist.json`。它已经移入 archive，不再是当前主线的一部分。旧的 6 个 QQ 歌单数据暂留原位，供历史报告追溯。
+区别是它操作旧数据 `qqmusic_playlists.json`，而 `manage_albums.py` 操作当前主数据 `song_base_by_artist.json`。它已经移入 archive，不再是当前主线的一部分。7 个 QQ 歌单数据暂留原位，供来源与历史报告追溯；其中“早上嗨着听”于 2026-09-15 补录。
 
 ### `archive/legacy-monitors/` 与 `manage_albums.py monitor`
 

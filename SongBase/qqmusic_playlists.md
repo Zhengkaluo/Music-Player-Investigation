@@ -1,10 +1,12 @@
 # QQ 音乐歌单整理（含官方录音链接）
 
-> 导出时间: 2026-07-27
+> 原始导出时间: 2026-07-27
 
-> 共 6 份歌单，673 首歌曲
+> “早上嗨着听”补录时间: 2026-09-15
 
-> YouTube 匹配: 458 | Bilibili 匹配: 0
+> 共 7 份歌单，794 首歌曲
+
+> YouTube 匹配: 460 | Bilibili 匹配: 0
 
 ---
 
@@ -740,3 +742,134 @@
 | 80 | Blu | 坂本龙一 | Year Book 2005-2014 | [🔗](https://y.qq.com/n/ryqq/songDetail/004c6TLA1EUrG6) | 暂未找到 | 暂未找到 |
 | 81 | Underwood | Ludovico Einaudi | In A Time Lapse | [🔗](https://y.qq.com/n/ryqq/songDetail/000rTqiI3xKa8N) | [▶️](https://youtube.com/watch?v=VS2Hv2a-WMU) | 暂未找到 |
 | 82 | 85mm | Ludovico Einaudi | Sounds of Calm | [🔗](https://y.qq.com/n/ryqq/songDetail/003RxRsH4Zmgfz) | [▶️](https://youtube.com/watch?v=_94Tegz87EQ) | 暂未找到 |
+
+## 7. 早上嗨着听
+
+- **创建者**: Serious Z
+- **歌曲数**: 121
+- **歌单链接**: https://y.qq.com/n/ryqq/playlist/8985702901
+- **短链接**: https://c6.y.qq.com/base/fcgi-bin/u?__=QPJMUBCDHFnS
+
+| # | 歌曲名 | 歌手 | 专辑 | QQ音乐 | YouTube | Bilibili |
+|---|--------|------|------|--------|---------|----------|
+| 1 | Adam and Nathan Totally Kick A** | El Ten Eleven | These Promises Are Being Videotaped | [🔗](https://y.qq.com/n/ryqq/songDetail/001DCMxF0MfHVO) | 暂未找到 | 暂未找到 |
+| 2 | Dorothy | Polo & Pan | Caravelle (Deluxe) | [🔗](https://y.qq.com/n/ryqq/songDetail/000kG02G0sNHnQ) | 暂未找到 | 暂未找到 |
+| 3 | Majestic Dance | Return To Forever | Romantic Warrior | [🔗](https://y.qq.com/n/ryqq/songDetail/000ivuft39MWgp) | 暂未找到 | 暂未找到 |
+| 4 | Go | The Chemical Brothers | Born In the Echoes (Deluxe Edition) | [🔗](https://y.qq.com/n/ryqq/songDetail/0022Av8e2uGiix) | 暂未找到 | 暂未找到 |
+| 5 | 8films | 宇宙コンビニ | 染まる音を確認したら | [🔗](https://y.qq.com/n/ryqq/songDetail/0037tbI82CO0jZ) | 暂未找到 | 暂未找到 |
+| 6 | 予感 | GEZAN | I KNOW HOW NOW | [🔗](https://y.qq.com/n/ryqq/songDetail/001Z3IH00yodJr) | 暂未找到 | 暂未找到 |
+| 7 | BEST DAY EVER (feat. 青葉市子) | GEZAN, 青葉市子 | I KNOW HOW NOW | [🔗](https://y.qq.com/n/ryqq/songDetail/001hZ8VQ45amtR) | 暂未找到 | 暂未找到 |
+| 8 | Masollan | Balmorhea | Stranger | [🔗](https://y.qq.com/n/ryqq/songDetail/002rH1mb3CdKee) | [▶️](https://youtube.com/watch?v=Er1K8BFPldA) | 暂未找到 |
+| 9 | The Best Day | Atmosphere, Slug, Ant | To All My Friends, Blood Makes The Blade Holy: The Atmosphere EP's | [🔗](https://y.qq.com/n/ryqq/songDetail/0004FivA2wlPut) | 暂未找到 | 暂未找到 |
+| 10 | III. Allegro spiritoso | 蔡珂宜, Singapore Symphony Orchestra, Mario Venzago | Butterfly Lovers Concerto & Paganini | [🔗](https://y.qq.com/n/ryqq/songDetail/0020q49p1ns0OE) | 暂未找到 | 暂未找到 |
+| 11 | のびしろ - From THE FIRST TAKE | Creepy Nuts | アンサンブル・プレイ (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/001t8grO20xiPh) | 暂未找到 | 暂未找到 |
+| 12 | ミレニアム | ラブリーサマーちゃん | THE THIRD SUMMER OF LOVE | [🔗](https://y.qq.com/n/ryqq/songDetail/002zEThM3ikRUF) | 暂未找到 | 暂未找到 |
+| 13 | ゴーゴースチーム | betcover!! | 勇気 | [🔗](https://y.qq.com/n/ryqq/songDetail/0029h2C534qCJT) | 暂未找到 | 暂未找到 |
+| 14 | ON | 发光曲线 | 迷航 | [🔗](https://y.qq.com/n/ryqq/songDetail/000zOh2y0t2Qb8) | 暂未找到 | 暂未找到 |
+| 15 | What If You Can't Talk (ft.张守望) | Shanghai Qiutian, 张守望 | 家：革命 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Wo2hS1oAy5Q) | 暂未找到 | 暂未找到 |
+| 16 | Cocos en la Playa | Natalia Lafourcade | Cancionera | [🔗](https://y.qq.com/n/ryqq/songDetail/003fz3ht2B9d0Z) | 暂未找到 | 暂未找到 |
+| 17 | テレプシコラー | 3nd | we dance × avec toi | [🔗](https://y.qq.com/n/ryqq/songDetail/001H7qJN1i51W6) | 暂未找到 | 暂未找到 |
+| 18 | また明日 | OGRE YOU A**HOLE | confidential | [🔗](https://y.qq.com/n/ryqq/songDetail/003YUqEW4Bplru) | 暂未找到 | 暂未找到 |
+| 19 | Rolling Clouds | Slowly Rolling Camera, Dave Stapleton, Deri Roberts, Eliot Bennett | Slowly Rolling Camera | [🔗](https://y.qq.com/n/ryqq/songDetail/003dHtzV0qMa13) | 暂未找到 | 暂未找到 |
+| 20 | Corazon | Robby Hunter Band | Corazon | [🔗](https://y.qq.com/n/ryqq/songDetail/000EwRNs42sDVh) | 暂未找到 | 暂未找到 |
+| 21 | アーケード | カネコアヤノ | 祝祭 | [🔗](https://y.qq.com/n/ryqq/songDetail/001HTukR0iU6Ks) | 暂未找到 | 暂未找到 |
+| 22 | Don't Need You | Genesis Owusu, Mick Jenkins, Andrew Klippel, David Haddad, Kirin J Callinan, Julian Sudek, Michael DiFrancesco, Jayson Jenkins | Don't Need You (Remix) [Explicit] | [🔗](https://y.qq.com/n/ryqq/songDetail/000Hyfmi0JE1Y8) | 暂未找到 | 暂未找到 |
+| 23 | eeeee | sucola | roomoon | [🔗](https://y.qq.com/n/ryqq/songDetail/001LoLu12MFfhW) | 暂未找到 | 暂未找到 |
+| 24 | grandfather | Jizue | marten | [🔗](https://y.qq.com/n/ryqq/songDetail/002yIzyd18Y8Nr) | 暂未找到 | 暂未找到 |
+| 25 | silent roar | 东京酒吐座 | japan shoegazer as only one | [🔗](https://y.qq.com/n/ryqq/songDetail/004WQerW0cH7Em) | 暂未找到 | 暂未找到 |
+| 26 | Vocoder | Floating Points | Vocoder | [🔗](https://y.qq.com/n/ryqq/songDetail/002U5kxR2JbFsj) | 暂未找到 | 暂未找到 |
+| 27 | a slice of peach | 牛尾憲輔 | Dan Da Dan (Original Series Soundtrack) | [🔗](https://y.qq.com/n/ryqq/songDetail/003JrvIu3v8psF) | 暂未找到 | 暂未找到 |
+| 28 | König oder Feigling - Ed’s Theme | Blumio, GRP | Street Fighter 6 Original Soundtrack [Year 1] | [🔗](https://y.qq.com/n/ryqq/songDetail/003ENAdr0nUkZ9) | 暂未找到 | 暂未找到 |
+| 29 | Lark | BLU-SWING | BLU-SWING 10th ANNIVERSARY BEST | [🔗](https://y.qq.com/n/ryqq/songDetail/001u472F1GC22r) | 暂未找到 | 暂未找到 |
+| 30 | 罠 featuring SOIL&"PIMP"SESSIONS | ぼくのりりっくのぼうよみ, SOIL&"P**P"SESSIONS | 罠 featuring SOIL&"PIMP"SESSIONS | [🔗](https://y.qq.com/n/ryqq/songDetail/0018P1Jh2iyPgW) | 暂未找到 | 暂未找到 |
+| 31 | Lotus | Little Simz, Michael Kiwanuka, Yussef Dayes | Lotus (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/0032Ne8D14ZfYO) | 暂未找到 | 暂未找到 |
+| 32 | Spike Island | Pulp | Spike Island | [🔗](https://y.qq.com/n/ryqq/songDetail/000ysM3f1hyUNn) | 暂未找到 | 暂未找到 |
+| 33 | 年轻无极限 | 孙燕姿 | 未完成 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Pbu1f0J7h6S) | 暂未找到 | 暂未找到 |
+| 34 | Bam Bam | Sister Nancy | One Two | [🔗](https://y.qq.com/n/ryqq/songDetail/0000tt6w4032wa) | 暂未找到 | 暂未找到 |
+| 35 | Space Cowboy | Jamiroquai | Emergecy On Planet Earth/Return Of The Space Cowboy | [🔗](https://y.qq.com/n/ryqq/songDetail/002OTrxV1e65m3) | 暂未找到 | 暂未找到 |
+| 36 | Luv (Sic) , Pt. 2 | OMA, Shing02, SPIN MASTER A-1, Uyama Hiroto | Luv (Sic) Hexalogy [OMA and Shing02 Live at Liquidroom] | [🔗](https://y.qq.com/n/ryqq/songDetail/001yU9Ii2MUWof) | 暂未找到 | 暂未找到 |
+| 37 | 狂言「九十九星降」 | 凋叶棕 | 伝 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jSZ4v1SVuwj) | 暂未找到 | 暂未找到 |
+| 38 | Tall Ground | Deluxe | The Groove Sessions, Vol. 3 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Pl67C2CpvLa) | 暂未找到 | 暂未找到 |
+| 39 | Frisco Blues | Lewis OfMan | Frisco Blues | [🔗](https://y.qq.com/n/ryqq/songDetail/002jwFDy2XXABF) | 暂未找到 | 暂未找到 |
+| 40 | New Noise | I Am Waiting for You Last Summer | Mirrors | [🔗](https://y.qq.com/n/ryqq/songDetail/002n53j63QnJv9) | 暂未找到 | 暂未找到 |
+| 41 | Samurai metropolis | T-SQUARE | BLUE IN RED | [🔗](https://y.qq.com/n/ryqq/songDetail/001q7WVy00oNtn) | 暂未找到 | 暂未找到 |
+| 42 | La routa Di Un Luna Park | Lalinea, Sémø, Silke | La routa Di Un Luna Park (Will You Dance with Me Remake Version) | [🔗](https://y.qq.com/n/ryqq/songDetail/001yDfsR28fPFJ) | 暂未找到 | 暂未找到 |
+| 43 | RIO FUNK | Lee Ritenour | LEE RITENOUR | [🔗](https://y.qq.com/n/ryqq/songDetail/001ZE3Ja29nTRu) | 暂未找到 | 暂未找到 |
+| 44 | 許婚っきゅん | ano | 許婚っきゅん | [🔗](https://y.qq.com/n/ryqq/songDetail/003F1DtT0DU41P) | 暂未找到 | 暂未找到 |
+| 45 | Do the Hippogriff | Patrick Doyle, Jarvis Cocker, Jonny Greenwood, Steve Mackey | Harry Potter And The Goblet Of Fire (Original Motion Picture Soundtrack) | [🔗](https://y.qq.com/n/ryqq/songDetail/003syTGk33IVye) | 暂未找到 | 暂未找到 |
+| 46 | Come On, Pt.3 | Stevie Ray Vaughan | Soul To Soul | [🔗](https://y.qq.com/n/ryqq/songDetail/003jiyQt155zHR) | 暂未找到 | 暂未找到 |
+| 47 | Where Do We Go! | Ayumu Imazu | Where Do We Go! | [🔗](https://y.qq.com/n/ryqq/songDetail/003U1FIZ3EA8LV) | 暂未找到 | 暂未找到 |
+| 48 | I Ain't No Joke | Eric B., Rakim | Paid In Full (Deluxe Edition) | [🔗](https://y.qq.com/n/ryqq/songDetail/004YT0ut4e2kMS) | 暂未找到 | 暂未找到 |
+| 49 | そのいのち | 中村佳穂 | AINOU | [🔗](https://y.qq.com/n/ryqq/songDetail/0034yS3x0effNA) | 暂未找到 | 暂未找到 |
+| 50 | Cantaloop [Flip Fantasia] | US3, Rahsaan, Gerard Presencer | The Best of Blue Note | [🔗](https://y.qq.com/n/ryqq/songDetail/0049QRwv3k6Py7) | 暂未找到 | 暂未找到 |
+| 51 | Impeach the President | The Honey Drippers | Impeach the President | [🔗](https://y.qq.com/n/ryqq/songDetail/003T1cyp2Lnbbr) | 暂未找到 | 暂未找到 |
+| 52 | Overcompensate | twenty one pilots | Clancy | [🔗](https://y.qq.com/n/ryqq/songDetail/001x1DVg0vtreA) | 暂未找到 | 暂未找到 |
+| 53 | 安土桃山 | 小林香織 | スピリット | [🔗](https://y.qq.com/n/ryqq/songDetail/000ICxRm1e9QdA) | 暂未找到 | 暂未找到 |
+| 54 | parallel | how to count one to ten | Blue Building Blocks | [🔗](https://y.qq.com/n/ryqq/songDetail/00256HCz3C4GA4) | 暂未找到 | 暂未找到 |
+| 55 | Open World | toconoma | Open World | [🔗](https://y.qq.com/n/ryqq/songDetail/003TwR2S1Mr4dC) | 暂未找到 | 暂未找到 |
+| 56 | 鎌倉STYLE | ぼっちぼろまる | 鎌倉STYLE | [🔗](https://y.qq.com/n/ryqq/songDetail/001TAL6s22uV92) | 暂未找到 | 暂未找到 |
+| 57 | Energy | 小林香織 | Fine | [🔗](https://y.qq.com/n/ryqq/songDetail/004cRkHl48nUQu) | 暂未找到 | 暂未找到 |
+| 58 | These Dreams are Killing Me | Louis Cole, Metropole Orkest, Jules Buckley | These Dreams are Killing Me (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/0046fjLR0gOvh9) | 暂未找到 | 暂未找到 |
+| 59 | In The Mood | THEY., JEREMY BIDDLE | In The Mood (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/004MduO90on8Y8) | 暂未找到 | 暂未找到 |
+| 60 | Bedroom Eyes (feat. Studio Killers) | The Knocks, Studio Killers | Bedroom Eyes (feat. Studio Killers) | [🔗](https://y.qq.com/n/ryqq/songDetail/002omZIj0pqAhU) | 暂未找到 | 暂未找到 |
+| 61 | lemonade | Chilli Beans. | d a n c i n g a l o n e | [🔗](https://y.qq.com/n/ryqq/songDetail/004UKG2j4PBePU) | 暂未找到 | 暂未找到 |
+| 62 | PHONICS (feat. WESTSIDE BOOGIE) | Asha Imuno, Tempest, WESTSIDE BOOGIE | PHONICS (feat. WESTSIDE BOOGIE) [Explicit] | [🔗](https://y.qq.com/n/ryqq/songDetail/002yjlyG1pbADK) | 暂未找到 | 暂未找到 |
+| 63 | Made my day | 唾奇, Sweet William | Jasmine (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/00172DC822gIId) | 暂未找到 | 暂未找到 |
+| 64 | Nobody | OneRepublic | Nobody (from Kaiju No. 8) | [🔗](https://y.qq.com/n/ryqq/songDetail/003oCnFZ1lnGzL) | 暂未找到 | 暂未找到 |
+| 65 | Book | Chon | Grow | [🔗](https://y.qq.com/n/ryqq/songDetail/000HV69V2OKcLG) | [▶️](https://youtube.com/watch?v=cOKmF7c95YI) | 暂未找到 |
+| 66 | Sam Rudich | Snowing | F**k Your Emotional Bullshit | [🔗](https://y.qq.com/n/ryqq/songDetail/00039I7i3IN90v) | 暂未找到 | 暂未找到 |
+| 67 | Prisoner | M.I.L.K., Benny Sings | Prisoner (feat. Benny Sings) | [🔗](https://y.qq.com/n/ryqq/songDetail/004W1uSI0FiTaG) | 暂未找到 | 暂未找到 |
+| 68 | Star | Jain | Souldier (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/000MlQLI0qEndu) | 暂未找到 | 暂未找到 |
+| 69 | The World Is Listening | Akua Naru | The Journey Aflame | [🔗](https://y.qq.com/n/ryqq/songDetail/002oykNu3iq2MX) | 暂未找到 | 暂未找到 |
+| 70 | Back With Another One feat Nieve,Tunji & Noah King | Acro Jazz Laboratories, Nieve, Tunji, Noah King | acro jazz one | [🔗](https://y.qq.com/n/ryqq/songDetail/002yjHti2Y4GbZ) | 暂未找到 | 暂未找到 |
+| 71 | One's 4 Da Money | Shyheim | Shyheim A.K.A. The Rugged Child (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/002RGvU00z3Ru4) | 暂未找到 | 暂未找到 |
+| 72 | Early Dayz Amazement / ShinSight Trio | Fat Jon | Bathroom #01 | [🔗](https://y.qq.com/n/ryqq/songDetail/003EuLiN3EaXJx) | 暂未找到 | 暂未找到 |
+| 73 | 人生游乐场 | Chinese Football | Win&Lose | [🔗](https://y.qq.com/n/ryqq/songDetail/003i9IMd3G5uRp) | 暂未找到 | 暂未找到 |
+| 74 | 常熱 | Vaundy | replica | [🔗](https://y.qq.com/n/ryqq/songDetail/002QAigR2LzEFn) | 暂未找到 | 暂未找到 |
+| 75 | 莫欺少年穷 | 九连真人 | 莫欺少年穷 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ff9iU2WFJQf) | 暂未找到 | 暂未找到 |
+| 76 | 三下五除二 | 鬼否 | 通用计算 | [🔗](https://y.qq.com/n/ryqq/songDetail/003WOB3O0YqxSG) | 暂未找到 | 暂未找到 |
+| 77 | Feel Good Inc. | Gorillaz | Demon Days | [🔗](https://y.qq.com/n/ryqq/songDetail/001JDIEy3Vv9QU) | 暂未找到 | 暂未找到 |
+| 78 | We Got the Power (feat. Jehnny Beth) | Gorillaz, Jehnny Beth | We Got the Power (feat. Jehnny Beth) | [🔗](https://y.qq.com/n/ryqq/songDetail/001iKFaN1wmqXl) | 暂未找到 | 暂未找到 |
+| 79 | Lights Please | J. Cole | Cole World: The Sideline Story | [🔗](https://y.qq.com/n/ryqq/songDetail/0031jJvv3i66IO) | 暂未找到 | 暂未找到 |
+| 80 | Our Song | 西原健一郎, Substantial | Elastic Afterwords | [🔗](https://y.qq.com/n/ryqq/songDetail/004aN4rz49Hxgz) | 暂未找到 | 暂未找到 |
+| 81 | The Life I Live | Pete Rock | Center of Attention | [🔗](https://y.qq.com/n/ryqq/songDetail/003nN0gV3Z1q6W) | 暂未找到 | 暂未找到 |
+| 82 | Step Up | Pete Rock | Center of Attention | [🔗](https://y.qq.com/n/ryqq/songDetail/000JrdU14Y1Lbb) | 暂未找到 | 暂未找到 |
+| 83 | Would That I | Hozier | Wasteland, Baby! (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/001kz4h52xJzGe) | 暂未找到 | 暂未找到 |
+| 84 | its alright :) | Kevin Walkman | its alright :) (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/004IIo8z34DTXf) | 暂未找到 | 暂未找到 |
+| 85 | Tied Up! | Genesis Owusu | STRUGGLER (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/003bj3ah2Q5McF) | 暂未找到 | 暂未找到 |
+| 86 | Dilemma | Green Day | Saviors (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/004bZPVY3rG1fC) | 暂未找到 | 暂未找到 |
+| 87 | One Eyed Bastard | Green Day | Saviors (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/0008lKqV1wxI29) | 暂未找到 | 暂未找到 |
+| 88 | Champion | Ye (侃爷) | Graduation (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/004HkKpj0sineU) | 暂未找到 | 暂未找到 |
+| 89 | NEW BOY | 朴树 | 我去2000年 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ic6jw1iwaBn) | 暂未找到 | 暂未找到 |
+| 90 | 送你匕首 | 蛙池 | 蛙池 2020-2021 | [🔗](https://y.qq.com/n/ryqq/songDetail/001OQBm730Pck8) | 暂未找到 | 暂未找到 |
+| 91 | I Wanna Be Your Lover | Prince | Prince (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/000pEXFd3Bmq1o) | 暂未找到 | 暂未找到 |
+| 92 | boy | The Killers | boy | [🔗](https://y.qq.com/n/ryqq/songDetail/002PZiHJ0kGRBJ) | 暂未找到 | 暂未找到 |
+| 93 | Road Trip | Toothpick, Dawin | Road Trip (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/000HBs5L4ewRWO) | 暂未找到 | 暂未找到 |
+| 94 | Min Flag | MINSTA, J-Mo, Am | Min Flag | [🔗](https://y.qq.com/n/ryqq/songDetail/0040uvS01ZVFsO) | 暂未找到 | 暂未找到 |
+| 95 | Home | Vince Staples | Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture) | [🔗](https://y.qq.com/n/ryqq/songDetail/004Qi5vH0Wh7Eu) | 暂未找到 | 暂未找到 |
+| 96 | No Drama | Bankrol Hayden | No Drama | [🔗](https://y.qq.com/n/ryqq/songDetail/002BaMAP2L4c1j) | 暂未找到 | 暂未找到 |
+| 97 | 假日指南 | JahLove乐队 | 雷鬼的世界没有悲伤的表情 | [🔗](https://y.qq.com/n/ryqq/songDetail/002OIAi33bgYjX) | 暂未找到 | 暂未找到 |
+| 98 | Dontmakemefallinlove | Cuco | Chiquito | [🔗](https://y.qq.com/n/ryqq/songDetail/0047hJIe1VcLLI) | 暂未找到 | 暂未找到 |
+| 99 | Still Broke | Samm Henshaw, Keyon Harrold, Joshua Grant | Untidy Soul | [🔗](https://y.qq.com/n/ryqq/songDetail/001SZaut1BYJNi) | 暂未找到 | 暂未找到 |
+| 100 | 焦点 / Highlight | 路壹Lu1, Cee, 蛋堡 | 午夜列车上的告别 | [🔗](https://y.qq.com/n/ryqq/songDetail/001HTyCF3ZTpHs) | 暂未找到 | 暂未找到 |
+| 101 | See Me Now | Ye (侃爷), Beyoncé, Charlie Wilson, Big Sean | My Beautiful Dark Twisted Fantasy (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/0004FrqT0P03HY) | 暂未找到 | 暂未找到 |
+| 102 | July | LJones | Soul Below | [🔗](https://y.qq.com/n/ryqq/songDetail/0021yyBl3YHc13) | 暂未找到 | 暂未找到 |
+| 103 | #1 | Imagine Dragons | Mercury - Act 1 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ug9cK2cOjqZ) | 暂未找到 | 暂未找到 |
+| 104 | SEVENTH HEAVEN | milet | visions (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/003eUGY64JZILi) | 暂未找到 | 暂未找到 |
+| 105 | Money Trees | Kendrick Lamar, Jay Rock | good kid, m.A.A.d city (Deluxe) | [🔗](https://y.qq.com/n/ryqq/songDetail/000GwIJV1XOR8m) | 暂未找到 | 暂未找到 |
+| 106 | I'll Be Missing You (feat. Faith Evans & 112) | Diddy, 112, Faith Evans | No Way Out (2014 Remaster) | [🔗](https://y.qq.com/n/ryqq/songDetail/001owWwY4QSrD3) | 暂未找到 | 暂未找到 |
+| 107 | 社会MTFK | ITSOGOO | IT'S ALL GOOD | [🔗](https://y.qq.com/n/ryqq/songDetail/0002F7dJ2wmR0X) | 暂未找到 | 暂未找到 |
+| 108 | Marlie's Song (feat. Jared Evan) | Hoodie Allen, Jared Evan | All About It EP (Explicit) | [🔗](https://y.qq.com/n/ryqq/songDetail/000BvWag0zd5HI) | 暂未找到 | 暂未找到 |
+| 109 | 5×10 | 嵐 | 5×10 All the BEST! 1999-2009 | [🔗](https://y.qq.com/n/ryqq/songDetail/001pn5pl0ocFRu) | 暂未找到 | 暂未找到 |
+| 110 | Don't Break My Heart | 窦唯 | 希望之光精选辑 | [🔗](https://y.qq.com/n/ryqq/songDetail/0047vbLK0VJXsg) | 暂未找到 | 暂未找到 |
+| 111 | It Was A Good Day | Ice Cube | The Predator | [🔗](https://y.qq.com/n/ryqq/songDetail/001ERq4j3YlZEY) | 暂未找到 | 暂未找到 |
+| 112 | cream soda | SUPERCAR | スリーアウトチェンジ | [🔗](https://y.qq.com/n/ryqq/songDetail/004NOaGg2w9Ybc) | 暂未找到 | 暂未找到 |
+| 113 | 公路 | 纵贯线 | 北上列车 | [🔗](https://y.qq.com/n/ryqq/songDetail/003crifO3O5IxC) | 暂未找到 | 暂未找到 |
+| 114 | 4:55 | CREAM | Sounds Good | [🔗](https://y.qq.com/n/ryqq/songDetail/001ukyy43ymAgB) | 暂未找到 | 暂未找到 |
+| 115 | Go Higher | HYBS | Go Higher | [🔗](https://y.qq.com/n/ryqq/songDetail/003ymFHT3sKEoR) | 暂未找到 | 暂未找到 |
+| 116 | line | chilldspot | around dusk | [🔗](https://y.qq.com/n/ryqq/songDetail/002NYb4M3mW9QD) | 暂未找到 | 暂未找到 |
+| 117 | A-O-K | Tai Verdes, 24kGoldn | A-O-K (with 24kGoldn) [Explicit] | [🔗](https://y.qq.com/n/ryqq/songDetail/000LjXtF05Y0LZ) | 暂未找到 | 暂未找到 |
+| 118 | Disco(Bad dance doesn't matter) | chelmico | Disco (Bad Dance Doesn't Matter) | [🔗](https://y.qq.com/n/ryqq/songDetail/003ZDBMZ2faI6W) | 暂未找到 | 暂未找到 |
+| 119 | Feel So Right | Isyana Sarasvati, Afgan, Rendy Pandugo | AIR | [🔗](https://y.qq.com/n/ryqq/songDetail/003Ft6Kl1oRQU3) | 暂未找到 | 暂未找到 |
+| 120 | 0℃の日曜 | STUTS, SIKK-O, 铃木真海子 | ALLSEASON EP. | [🔗](https://y.qq.com/n/ryqq/songDetail/000xesJ6409CZE) | 暂未找到 | 暂未找到 |
+| 121 | Snow(Hey Oh) | Red Hot Chili Peppers | Stadium Arcadium | [🔗](https://y.qq.com/n/ryqq/songDetail/001f9F2g3hNMvm) | 暂未找到 | 暂未找到 |
