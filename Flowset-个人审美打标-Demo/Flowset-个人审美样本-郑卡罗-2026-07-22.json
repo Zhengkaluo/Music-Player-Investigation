@@ -642,10 +642,10 @@
           "dimensionId": "dimension-mrnmv3aw-rxr7k",
           "dimension": "摇摆速率",
           "optionIds": [
-            "option-mrnmxcnn-5aaot"
+            "option-mrnmxcnn-64mj5"
           ],
           "labels": [
-            "3"
+            "2"
           ]
         },
         {
@@ -766,20 +766,20 @@
           "dimensionId": "dimension-mrnmv2el-bcz56",
           "dimension": "噪音程度",
           "optionIds": [
-            "option-mrnmx6nb-xhmoc"
+            "option-mrnmx6nb-gpkmg"
           ],
           "labels": [
-            "4"
+            "3"
           ]
         },
         {
           "dimensionId": "dimension-mrnmv3aw-rxr7k",
           "dimension": "摇摆速率",
           "optionIds": [
-            "option-mrnmxcnn-5aaot"
+            "option-mrnmxcnn-64mj5"
           ],
           "labels": [
-            "3"
+            "2"
           ]
         },
         {

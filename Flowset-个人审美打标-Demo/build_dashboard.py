@@ -11,8 +11,10 @@ BATCHES = [
     {"key":"0716","label":"第一波 · 07-16","file":"Flowset-个人审美样本-郑卡罗-2026-07-16.json"},
     {"key":"0722","label":"第二波 · 07-22","file":"Flowset-个人审美样本-郑卡罗-2026-07-22.json"},
     {"key":"0728","label":"第三波 · 07-28","file":"Flowset-个人审美样本-郑卡罗-2026-07-28.json"},
+    {"key":"0925","label":"第四波 · 09-25","file":"Flowset-个人审美样本-郑卡罗-2026-09-25.json"},
+    {"key":"0926","label":"第五波 · 09-26","file":"Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json"},
 ]
-WAVE_DIRS = ["音乐第一波测试","音乐第二波测试","音乐第三波测试"]
+WAVE_DIRS = ["音乐第一波测试","音乐第二波测试","音乐第三波测试","音乐第四波测试","音乐第五波测试"]
 
 # ---- 建立 mp3 文件名 -> 相对路径 映射 ----
 def norm(s): return unicodedata.normalize('NFC', s).strip().lower()
@@ -60,7 +62,7 @@ for lab, tot, miss in coverage:
     print(f"  {lab}: {tot} 首，缺音频 {miss} 首")
 
 APP = {"datasets": datasets,
-       "combinedLabel": "合并全部 · 91 首"}
+       "combinedLabel": f"合并全部 · {sum(len(d['tracks']) for d in datasets)} 首"}
 data_js = json.dumps(APP, ensure_ascii=False).replace("</", "<\\/")
 
 # ---- 预计算摘要：保持报告在本地打开时不依赖额外脚本执行 ----
@@ -211,6 +213,8 @@ HTML = r"""<!DOCTYPE html>
   .b-0716{background:#eef2f8;color:#5b8def}
   .b-0722{background:#e6f7f1;color:#0f9d76}
   .b-0728{background:#fdf2e9;color:#d68910}
+  .b-0925{background:#f2ecff;color:#7856c8}
+  .b-0926{background:#fff0f5;color:#b42363}
   .tablewrap{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:10px}
   .sortable{cursor:pointer;user-select:none;transition:background .12s}
   .sortable:hover{background:#f0f6ff}
@@ -265,7 +269,7 @@ HTML = r"""<!DOCTYPE html>
   <div class="kpis" id="kpis"></div>
 
   <section>
-    <h2><span class="dot"></span>三波对比总览</h2>
+    <h2><span class="dot"></span>五波对比总览</h2>
     <p class="desc">所有波次按相同口径并列。时段为“该波次中命中该时段的曲目占比”，不把多选次数当作独立曲目数。</p>
     <div class="tablewrap"><table class="compare-table" id="waveCompare">__WAVE_COMPARE__</table></div>
   </section>
@@ -397,7 +401,7 @@ function chartTimeslot(tracks){
   $('#timeslot-note').textContent=`平均每首命中 ${ (Object.values(counts).reduce((a,b)=>a+b,0)/Math.max(tracks.length,1)).toFixed(2) } 个时段；多选曲目会同时计入各时段覆盖率。`;
 }
 
-/* 暂由页面底部的静态摘要承载三波比较和行动清单，避免影响核心可视化初始化。
+/* 暂由页面底部的静态摘要承载跨波比较和行动清单，避免影响核心可视化初始化。
 function mean(vals){return vals.length?vals.reduce((a,b)=>a+b,0)/vals.length:null;}
 function getNumByDim(t,dimId){const s=t.sel.find(x=>x.dimensionId===dimId);return s?+s.labels[0]:null;}
 function waveStats(ds){
@@ -573,8 +577,8 @@ function renderTable(tracks){
     const tsTags=ts.map(x=>`<span class="tag" style="background:${TS_COLORS[x]}22;color:${TS_COLORS[x]}">${x}</span>`).join('');
     const confDots=[1,2,3,4,5].map(k=>`<span class="${conf&&k<=conf?'conf':'conf'}"><span class="${conf&&k<=conf?'':'off'}">●</span></span>`).join('');
     const playable=!!t.audio;
-    const bkey=t._batch==='0716'?'b-0716':(t._batch==='0722'?'b-0722':(t._batch==='0728'?'b-0728':''));
-    const btxt=t._batch==='0716'?'第一波':(t._batch==='0722'?'第二波':(t._batch==='0728'?'第三波':''));
+    const batchMeta={0716:['b-0716','第一波'],0722:['b-0722','第二波'],0728:['b-0728','第三波'],0925:['b-0925','第四波'],0926:['b-0926','第五波']}[t._batch]||['',''];
+    const [bkey,btxt]=batchMeta;
     const noteAttr=t.note?` data-note="${t.note.replace(/"/g,'&quot;')}"`:'';
     html+=`<tr id="row-${oi}"${noteAttr}>`+
       `<td><button class="play-btn" data-idx="${oi}" ${playable?'':'disabled title="无音频资源"'}>${playable?'▶':'🔇'}</button></td>`+

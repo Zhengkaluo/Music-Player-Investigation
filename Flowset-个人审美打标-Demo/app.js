@@ -2,14 +2,40 @@
   "use strict";
 
   const AUDIO_EXTENSIONS = new Set(["mp3", "m4a", "wav", "flac", "ogg", "oga", "aac", "aif", "aiff"]);
-  const STORAGE_KEY = "flowset-annotation-draft-v1";
+  const PAGE_PARAMS = new URLSearchParams(window.location.search);
+  const BATCH_ID = document.body.dataset.batchId || PAGE_PARAMS.get("batch") || "default";
+  const DEFAULT_DATASET_NAME = document.body.dataset.datasetName || PAGE_PARAMS.get("dataset") || "Flowset 个人审美样本";
+  const STORAGE_KEY = BATCH_ID === "default" ? "flowset-annotation-draft-v1" : `flowset-annotation-draft-v1::${BATCH_ID}`;
   const SCHEMA_VERSION = "flowset.annotations/v1";
 
   const initialDimensions = [
-    { id: "time-scene", name: "适合的时段", mode: "single", options: makeOptions(["清晨", "白天", "黄昏", "深夜", "不确定"]) },
+    {
+      id: "time-scene", name: "适合的时段", mode: "multiple", options: [
+        { id: "option-mrnmytrk-y6ij6", label: "8-11" },
+        { id: "option-mrnmytrk-zc362", label: "11-14" },
+        { id: "option-mrnmytrk-f0hlx", label: "14-17" },
+        { id: "option-mrnmytrk-54l50", label: "17-20" },
+      ],
+    },
     { id: "energy-state", name: "能量状态", mode: "single", options: makeOptions(["平静", "渐进", "有冲劲", "爆发", "不确定"]) },
-    { id: "emotion", name: "情绪感受", mode: "multiple", options: makeOptions(["温暖", "明亮", "忧郁", "梦幻", "紧张", "释放", "不确定"]) },
-    { id: "texture", name: "声音质感", mode: "multiple", options: makeOptions(["通透", "柔软", "粗粝", "厚重", "空间感", "不确定"]) },
+    {
+      id: "dimension-mrnmv2el-bcz56", name: "噪音程度", mode: "single", options: [
+        ["option-mrnmx6nb-hceo5", "1"], ["option-mrnmx6nb-me16i", "2"], ["option-mrnmx6nb-gpkmg", "3"], ["option-mrnmx6nb-xhmoc", "4"], ["option-mrnmx6nb-nrjzr", "5"],
+        ["option-mrnmx6nb-3f5jk", "6"], ["option-mrnmx6nb-koip6", "7"], ["option-mrnmx6nb-qqwvw", "8"], ["option-mrnmx6nb-ot0xk", "9"], ["option-mrnmx6nb-khx5g", "10"],
+      ].map(([id, label]) => ({ id, label })),
+    },
+    {
+      id: "dimension-mrnmv3aw-rxr7k", name: "摇摆速率", mode: "single", options: [
+        ["option-mrnmxcnn-ykgfn", "1"], ["option-mrnmxcnn-64mj5", "2"], ["option-mrnmxcnn-5aaot", "3"], ["option-mrnmxcnn-iuu46", "4"], ["option-mrnmxcnn-msz0f", "5"],
+        ["option-mrnmxcnn-vrulw", "6"], ["option-mrnmxcnn-05i18", "7"], ["option-mrnmxcnn-lrmxo", "8"], ["option-mrnmxcnn-kdr2b", "9"], ["option-mrnmxcnn-r7ede", "10"],
+      ].map(([id, label]) => ({ id, label })),
+    },
+    {
+      id: "dimension-mrnmv3ns-cb63i", name: "负担程度", mode: "single", options: [
+        ["option-mrnmxdlm-cae37", "1"], ["option-mrnmxdlm-gmiqn", "2"], ["option-mrnmxdlm-d0znk", "3"], ["option-mrnmxdlm-8vv1r", "4"], ["option-mrnmxdlm-qypsz", "5"],
+        ["option-mrnmxdlm-g3mmn", "6"], ["option-mrnmxdlm-hz4jz", "7"], ["option-mrnmxdlm-32e5u", "8"], ["option-mrnmxdlm-2b61y", "9"], ["option-mrnmxdlm-emkzp", "10"],
+      ].map(([id, label]) => ({ id, label })),
+    },
   ];
 
   const state = {
@@ -45,6 +71,7 @@
     toast: byId("toast"),
   };
 
+  elements.datasetInput.value = DEFAULT_DATASET_NAME;
   restoreDraft();
   bindEvents();
   renderDimensionEditor();
@@ -59,7 +86,7 @@
   function fileKey(file) { return `${file.name}::${file.size}::${file.lastModified || 0}`; }
   function importedTrackKey(track) { return `${track.file?.name || ""}::${track.file?.size || 0}`; }
   function selectedCount(annotation) { return Object.values(annotation?.selections || {}).reduce((sum, values) => sum + values.length, 0); }
-  function isComplete(annotation) { return selectedCount(annotation) > 0; }
+  function isComplete(annotation) { return state.dimensions.every((dimension) => (annotation?.selections?.[dimension.id] || []).length > 0); }
   function fileExtension(name) { return name.includes(".") ? name.split(".").pop().toLowerCase() : ""; }
   function audioFiles(files) { return [...files].filter((file) => file.type.startsWith("audio/") || AUDIO_EXTENSIONS.has(fileExtension(file.name))); }
   function formatBytes(bytes) { if (!bytes) return "0 B"; const units = ["B", "KB", "MB", "GB"]; const index = Math.min(Math.floor(Math.log(bytes) / Math.log(1024)), units.length - 1); return `${(bytes / 1024 ** index).toFixed(index ? 1 : 0)} ${units[index]}`; }
@@ -287,7 +314,7 @@
   function updateProgress() {
     const complete = state.files.filter((entry) => isComplete(annotationFor(entry.key))).length;
     const total = state.files.length;
-    elements.progressLabel.textContent = `${complete} / ${total} 首已标注`;
+    elements.progressLabel.textContent = `${complete} / ${total} 首已完整标注`;
     elements.progressFill.style.width = `${total ? (complete / total) * 100 : 0}%`;
     elements.exportButton.disabled = total === 0;
   }
@@ -325,7 +352,7 @@
       state.importedTracks = draft.annotationsByFile || [];
       setTimeout(() => {
         elements.annotatorInput.value = draft.annotator || "";
-        elements.datasetInput.value = draft.dataset || "Flowset 个人审美样本";
+        elements.datasetInput.value = draft.dataset || DEFAULT_DATASET_NAME;
       }, 0);
     } catch { localStorage.removeItem(STORAGE_KEY); }
   }
@@ -337,7 +364,7 @@
     state.importedTracks = [];
     state.dimensions = clone(initialDimensions);
     elements.annotatorInput.value = "";
-    elements.datasetInput.value = "Flowset 个人审美样本";
+    elements.datasetInput.value = DEFAULT_DATASET_NAME;
     renderDimensionEditor();
     renderTracks();
     updateProgress();
@@ -350,7 +377,7 @@
       app: { name: "Flowset 个人审美打标", version: "0.1.0" },
       exportedAt: new Date().toISOString(),
       annotator: { id: elements.annotatorInput.value.trim() || "anonymous" },
-      dataset: { name: elements.datasetInput.value.trim() || "Flowset 个人审美样本", trackCount: state.files.length },
+      dataset: { name: elements.datasetInput.value.trim() || DEFAULT_DATASET_NAME, trackCount: state.files.length },
       dimensions: clone(state.dimensions),
       tracks: state.files.map((entry, index) => {
         const annotation = annotationFor(entry.key);
@@ -406,7 +433,7 @@
         },
       }));
       elements.annotatorInput.value = payload.annotator?.id === "anonymous" ? "" : payload.annotator?.id || "";
-      elements.datasetInput.value = payload.dataset?.name || "Flowset 个人审美样本";
+      elements.datasetInput.value = payload.dataset?.name || DEFAULT_DATASET_NAME;
       applyImportedAnnotations();
       renderDimensionEditor();
       renderTracks();

@@ -1,0 +1,6992 @@
+{
+  "schemaVersion": "flowset.annotations/v1",
+  "app": {
+    "name": "Flowset 个人审美打标",
+    "version": "0.1.0"
+  },
+  "exportedAt": "2026-09-25T02:56:45.478Z",
+  "annotator": {
+    "id": "郑卡罗"
+  },
+  "dataset": {
+    "name": "Flowset 个人审美样本",
+    "trackCount": 100
+  },
+  "dimensions": [
+    {
+      "id": "time-scene",
+      "name": "适合的时段",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "option-mrnmytrk-y6ij6",
+          "label": "8-11"
+        },
+        {
+          "id": "option-mrnmytrk-zc362",
+          "label": "11-14"
+        },
+        {
+          "id": "option-mrnmytrk-f0hlx",
+          "label": "14-17"
+        },
+        {
+          "id": "option-mrnmytrk-54l50",
+          "label": "17-20"
+        }
+      ]
+    },
+    {
+      "id": "energy-state",
+      "name": "能量状态",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-1-平静",
+          "label": "平静"
+        },
+        {
+          "id": "option-2-渐进",
+          "label": "渐进"
+        },
+        {
+          "id": "option-3-有冲劲",
+          "label": "有冲劲"
+        },
+        {
+          "id": "option-4-爆发",
+          "label": "爆发"
+        },
+        {
+          "id": "option-5-不确定",
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv2el-bcz56",
+      "name": "噪音程度",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmx6nb-hceo5",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmx6nb-me16i",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmx6nb-gpkmg",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmx6nb-xhmoc",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmx6nb-nrjzr",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmx6nb-3f5jk",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmx6nb-koip6",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmx6nb-qqwvw",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmx6nb-ot0xk",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmx6nb-khx5g",
+          "label": "10"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv3aw-rxr7k",
+      "name": "摇摆速率",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmxcnn-ykgfn",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmxcnn-64mj5",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmxcnn-5aaot",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmxcnn-iuu46",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmxcnn-msz0f",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmxcnn-vrulw",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmxcnn-05i18",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmxcnn-lrmxo",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmxcnn-kdr2b",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmxcnn-r7ede",
+          "label": "10"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv3ns-cb63i",
+      "name": "负担程度",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmxdlm-cae37",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmxdlm-gmiqn",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmxdlm-d0znk",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmxdlm-8vv1r",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmxdlm-qypsz",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmxdlm-g3mmn",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmxdlm-hz4jz",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmxdlm-32e5u",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmxdlm-2b61y",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmxdlm-emkzp",
+          "label": "10"
+        }
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "order": 1,
+      "file": {
+        "name": "彼方 - 中村遥.mp3",
+        "relativePath": "音乐第四波测试/彼方 - 中村遥.mp3",
+        "size": 3937580,
+        "lastModified": 1790245010093,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 2,
+      "file": {
+        "name": "布と皮膚 - カネコアヤノ.mp3",
+        "relativePath": "音乐第四波测试/布と皮膚 - カネコアヤノ.mp3",
+        "size": 7115798,
+        "lastModified": 1790245009974,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 3,
+      "file": {
+        "name": "大事 - 陈文非.mp3",
+        "relativePath": "音乐第四波测试/大事 - 陈文非.mp3",
+        "size": 7693676,
+        "lastModified": 1790245010052,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 4,
+      "file": {
+        "name": "落雨 - 鲸鱼马戏团.mp3",
+        "relativePath": "音乐第四波测试/落雨 - 鲸鱼马戏团.mp3",
+        "size": 9999716,
+        "lastModified": 1790245010267,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "14-17",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 5,
+      "file": {
+        "name": "热气球 - 岛屿心情.mp3",
+        "relativePath": "音乐第四波测试/热气球 - 岛屿心情.mp3",
+        "size": 12202604,
+        "lastModified": 1790245009788,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 6,
+      "file": {
+        "name": "沙发上的白日梦 - SoulFa 灵魂沙发.mp3",
+        "relativePath": "音乐第四波测试/沙发上的白日梦 - SoulFa 灵魂沙发.mp3",
+        "size": 10439085,
+        "lastModified": 1790245010328,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 7,
+      "file": {
+        "name": "神游夜话 - 文雀.mp3",
+        "relativePath": "音乐第四波测试/神游夜话 - 文雀.mp3",
+        "size": 9025964,
+        "lastModified": 1790245010647,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 8,
+      "file": {
+        "name": "世界の秘密 - Vaundy.mp3",
+        "relativePath": "音乐第四波测试/世界の秘密 - Vaundy.mp3",
+        "size": 5617196,
+        "lastModified": 1790245010375,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "14-17",
+            "17-20",
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 9,
+      "file": {
+        "name": "送你匕首 - 蛙池.mp3",
+        "relativePath": "音乐第四波测试/送你匕首 - 蛙池.mp3",
+        "size": 9822084,
+        "lastModified": 1790245010036,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "负担程度不好把握",
+      "completed": true
+    },
+    {
+      "order": 10,
+      "file": {
+        "name": "夕阳消失之前 - Cicada.mp3",
+        "relativePath": "音乐第四波测试/夕阳消失之前 - Cicada.mp3",
+        "size": 8397888,
+        "lastModified": 1790245010138,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 11,
+      "file": {
+        "name": "星 - Shii.mp3",
+        "relativePath": "音乐第四波测试/星 - Shii.mp3",
+        "size": 12241965,
+        "lastModified": 1790245009922,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 12,
+      "file": {
+        "name": "嘘は罪 - 北村英治.mp3",
+        "relativePath": "音乐第四波测试/嘘は罪 - 北村英治.mp3",
+        "size": 6982051,
+        "lastModified": 1790245009887,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 13,
+      "file": {
+        "name": "友人A - Creepy Nuts.mp3",
+        "relativePath": "音乐第四波测试/友人A - Creepy Nuts.mp3",
+        "size": 7333484,
+        "lastModified": 1790245010391,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 14,
+      "file": {
+        "name": "晕船的太空人 - 昆虫白.mp3",
+        "relativePath": "音乐第四波测试/晕船的太空人 - 昆虫白.mp3",
+        "size": 14991194,
+        "lastModified": 1790245010669,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "同样负担程度不好把握",
+      "completed": true
+    },
+    {
+      "order": 15,
+      "file": {
+        "name": "在这里请你随意 - 苏运莹.mp3",
+        "relativePath": "音乐第四波测试/在这里请你随意 - 苏运莹.mp3",
+        "size": 8134125,
+        "lastModified": 1790245010117,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 16,
+      "file": {
+        "name": "脏短袖 - THE BOOTLEGS 靴腿乐队.mp3",
+        "relativePath": "音乐第四波测试/脏短袖 - THE BOOTLEGS 靴腿乐队.mp3",
+        "size": 8948549,
+        "lastModified": 1790245010128,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 17,
+      "file": {
+        "name": "A Day in Never - Hania Rani.mp3",
+        "relativePath": "音乐第四波测试/A Day in Never - Hania Rani.mp3",
+        "size": 6385004,
+        "lastModified": 1790245010593,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 18,
+      "file": {
+        "name": "a slice of peach - 牛尾憲輔.mp3",
+        "relativePath": "音乐第四波测试/a slice of peach - 牛尾憲輔.mp3",
+        "size": 4276844,
+        "lastModified": 1790245010187,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "14-17",
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 19,
+      "file": {
+        "name": "A Thread in the Dark - Mammal Hands.mp3",
+        "relativePath": "音乐第四波测试/A Thread in the Dark - Mammal Hands.mp3",
+        "size": 7777196,
+        "lastModified": 1790245010021,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 20,
+      "file": {
+        "name": "Acceptance Speech - 8Track - Walker Hayes.mp3",
+        "relativePath": "音乐第四波测试/Acceptance Speech - 8Track - Walker Hayes.mp3",
+        "size": 3222764,
+        "lastModified": 1790245010681,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "14-17",
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 21,
+      "file": {
+        "name": "Adam and Nathan Totally Kick A__ - El Ten Eleven.mp3",
+        "relativePath": "音乐第四波测试/Adam and Nathan Totally Kick A__ - El Ten Eleven.mp3",
+        "size": 10702932,
+        "lastModified": 1790245010550,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 22,
+      "file": {
+        "name": "All - Flica.mp3",
+        "relativePath": "音乐第四波测试/All - Flica.mp3",
+        "size": 5079212,
+        "lastModified": 1790245010237,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 23,
+      "file": {
+        "name": "Aqualand - Polo & Pan.mp3",
+        "relativePath": "音乐第四波测试/Aqualand - Polo & Pan.mp3",
+        "size": 6187436,
+        "lastModified": 1790245010535,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "负担程度不好把握",
+      "completed": true
+    },
+    {
+      "order": 24,
+      "file": {
+        "name": "Borderlines - Vraell.mp3",
+        "relativePath": "音乐第四波测试/Borderlines - Vraell.mp3",
+        "size": 6173612,
+        "lastModified": 1790245010432,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 25,
+      "file": {
+        "name": "But - Chon.mp3",
+        "relativePath": "音乐第四波测试/But - Chon.mp3",
+        "size": 5593004,
+        "lastModified": 1790245009856,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "14-17",
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 26,
+      "file": {
+        "name": "Cocos en la Playa - Natalia Lafourcade.mp3",
+        "relativePath": "音乐第四波测试/Cocos en la Playa - Natalia Lafourcade.mp3",
+        "size": 10663226,
+        "lastModified": 1790245009950,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 27,
+      "file": {
+        "name": "Cœur croisé - Polo & Pan.mp3",
+        "relativePath": "音乐第四波测试/Cœur croisé - Polo & Pan.mp3",
+        "size": 8161004,
+        "lastModified": 1790245010354,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 28,
+      "file": {
+        "name": "Continuum 1 - Nala Sinephro.mp3",
+        "relativePath": "音乐第四波测试/Continuum 1 - Nala Sinephro.mp3",
+        "size": 10411244,
+        "lastModified": 1790245010782,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 29,
+      "file": {
+        "name": "Dearest Alfred - Khruangbin.mp3",
+        "relativePath": "音乐第四波测试/Dearest Alfred - Khruangbin.mp3",
+        "size": 6045164,
+        "lastModified": 1790245009960,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 30,
+      "file": {
+        "name": "Deep Breath - Paniyolo.mp3",
+        "relativePath": "音乐第四波测试/Deep Breath - Paniyolo.mp3",
+        "size": 981548,
+        "lastModified": 1790245010096,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 5,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 31,
+      "file": {
+        "name": "Discovery the New World - fox capture plan.mp3",
+        "relativePath": "音乐第四波测试/Discovery the New World - fox capture plan.mp3",
+        "size": 6111980,
+        "lastModified": 1790245010770,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "14-17",
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 32,
+      "file": {
+        "name": "Emancipation - Helios.mp3",
+        "relativePath": "音乐第四波测试/Emancipation - Helios.mp3",
+        "size": 3715244,
+        "lastModified": 1790245010193,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 5,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 33,
+      "file": {
+        "name": "Energy - 小林香織.mp3",
+        "relativePath": "音乐第四波测试/Energy - 小林香織.mp3",
+        "size": 13100973,
+        "lastModified": 1790245010153,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 34,
+      "file": {
+        "name": "First Dream Called Ocean - Helios.mp3",
+        "relativePath": "音乐第四波测试/First Dream Called Ocean - Helios.mp3",
+        "size": 5550380,
+        "lastModified": 1790245010367,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 35,
+      "file": {
+        "name": "fragrance like home - 中村遥.mp3",
+        "relativePath": "音乐第四波测试/fragrance like home - 中村遥.mp3",
+        "size": 7513964,
+        "lastModified": 1790245010636,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 36,
+      "file": {
+        "name": "From The Window Of My Room - Dorena.mp3",
+        "relativePath": "音乐第四波测试/From The Window Of My Room - Dorena.mp3",
+        "size": 10010924,
+        "lastModified": 1790245010306,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 37,
+      "file": {
+        "name": "Gabriel's Oboe from The Mission - Ennio Morricone, 马友友, Roma Sinfonietta.mp3",
+        "relativePath": "音乐第四波测试/Gabriel's Oboe from The Mission - Ennio Morricone, 马友友, Roma Sinfonietta.mp3",
+        "size": 5824304,
+        "lastModified": 1790245010688,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 38,
+      "file": {
+        "name": "Gardenia - iwamizu.mp3",
+        "relativePath": "音乐第四波测试/Gardenia - iwamizu.mp3",
+        "size": 3995756,
+        "lastModified": 1790245010003,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 39,
+      "file": {
+        "name": "HAPPY COOKING - 北村英治.mp3",
+        "relativePath": "音乐第四波测试/HAPPY COOKING - 北村英治.mp3",
+        "size": 10865325,
+        "lastModified": 1790245010318,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 40,
+      "file": {
+        "name": "Hello goodbye - toconoma.mp3",
+        "relativePath": "音乐第四波测试/Hello goodbye - toconoma.mp3",
+        "size": 6106796,
+        "lastModified": 1790245009847,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 41,
+      "file": {
+        "name": "Hicari - 小濑村晶.mp3",
+        "relativePath": "音乐第四波测试/Hicari - 小濑村晶.mp3",
+        "size": 2977388,
+        "lastModified": 1790245009965,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "负担程度不好把握",
+      "completed": true
+    },
+    {
+      "order": 42,
+      "file": {
+        "name": "Horizon - Nujabes.mp3",
+        "relativePath": "音乐第四波测试/Horizon - Nujabes.mp3",
+        "size": 10562732,
+        "lastModified": 1790245010502,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 43,
+      "file": {
+        "name": "I Feel for You - Prince.mp3",
+        "relativePath": "音乐第四波测试/I Feel for You - Prince.mp3",
+        "size": 4925996,
+        "lastModified": 1790245010740,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 44,
+      "file": {
+        "name": "In The Mood - THEY., JEREMY BIDDLE.mp3",
+        "relativePath": "音乐第四波测试/In The Mood - THEY., JEREMY BIDDLE.mp3",
+        "size": 9746924,
+        "lastModified": 1790245009989,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 45,
+      "file": {
+        "name": "It Runs Through Me (feat. De La Soul) - Tom Misch.mp3",
+        "relativePath": "音乐第四波测试/It Runs Through Me (feat. De La Soul) - Tom Misch.mp3",
+        "size": 7167788,
+        "lastModified": 1790245010345,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 46,
+      "file": {
+        "name": "John Harrington - Goldmund.mp3",
+        "relativePath": "音乐第四波测试/John Harrington - Goldmund.mp3",
+        "size": 8757548,
+        "lastModified": 1790245010699,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 1,
+      "note": "这首曲子有点抽象，没什么声音，负担程度反而可能会比较高",
+      "completed": true
+    },
+    {
+      "order": 47,
+      "file": {
+        "name": "Juniper - Slowly Rolling Camera.mp3",
+        "relativePath": "音乐第四波测试/Juniper - Slowly Rolling Camera.mp3",
+        "size": 11183660,
+        "lastModified": 1790245010230,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "稍微先锋一点的类型，可能会比较有负担程度",
+      "completed": true
+    },
+    {
+      "order": 48,
+      "file": {
+        "name": "Juno - Choker.mp3",
+        "relativePath": "音乐第四波测试/Juno - Choker.mp3",
+        "size": 5561900,
+        "lastModified": 1790245010462,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 49,
+      "file": {
+        "name": "Just Alright - 东京酒吐座.mp3",
+        "relativePath": "音乐第四波测试/Just Alright - 东京酒吐座.mp3",
+        "size": 9092745,
+        "lastModified": 1790245010079,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 50,
+      "file": {
+        "name": "Keep On - Alfa Mist.mp3",
+        "relativePath": "音乐第四波测试/Keep On - Alfa Mist.mp3",
+        "size": 15529580,
+        "lastModified": 1790245010526,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-hz4jz"
+          ],
+          "labels": [
+            "7"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 51,
+      "file": {
+        "name": "L'exil - Laurie Darmon.mp3",
+        "relativePath": "音乐第四波测试/L'exil - Laurie Darmon.mp3",
+        "size": 5830892,
+        "lastModified": 1790245010284,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 52,
+      "file": {
+        "name": "Let Us Live - Dorena.mp3",
+        "relativePath": "音乐第四波测试/Let Us Live - Dorena.mp3",
+        "size": 17962605,
+        "lastModified": 1790245010180,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 53,
+      "file": {
+        "name": "lift somebody up - Kiefer feat. Josh Johnson.mp3",
+        "relativePath": "音乐第四波测试/lift somebody up - Kiefer feat. Josh Johnson.mp3",
+        "size": 11333805,
+        "lastModified": 1790245010445,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-hz4jz"
+          ],
+          "labels": [
+            "7"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 54,
+      "file": {
+        "name": "Lights Please - J. Cole.mp3",
+        "relativePath": "音乐第四波测试/Lights Please - J. Cole.mp3",
+        "size": 8342445,
+        "lastModified": 1790245009771,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 55,
+      "file": {
+        "name": "Looped - Kiasmos.mp3",
+        "relativePath": "音乐第四波测试/Looped - Kiasmos.mp3",
+        "size": 15131564,
+        "lastModified": 1790245010477,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 56,
+      "file": {
+        "name": "Luv Sic, Pt. 3 - Funky DL.mp3",
+        "relativePath": "音乐第四波测试/Luv Sic, Pt. 3 - Funky DL.mp3",
+        "size": 6349292,
+        "lastModified": 1790245010219,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 57,
+      "file": {
+        "name": "Luv(sic)pt2 - Acoustica - - 中村遥.mp3",
+        "relativePath": "音乐第四波测试/Luv(sic)pt2 - Acoustica - - 中村遥.mp3",
+        "size": 15773822,
+        "lastModified": 1790245010571,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 58,
+      "file": {
+        "name": "meet me in brooklyn - Yaya Bey.mp3",
+        "relativePath": "音乐第四波测试/meet me in brooklyn - Yaya Bey.mp3",
+        "size": 2185964,
+        "lastModified": 1790245010008,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 59,
+      "file": {
+        "name": "Messy - Lola Young.mp3",
+        "relativePath": "音乐第四波测试/Messy - Lola Young.mp3",
+        "size": 6821612,
+        "lastModified": 1790245010414,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 60,
+      "file": {
+        "name": "Morning Horizon - Nitsua.mp3",
+        "relativePath": "音乐第四波测试/Morning Horizon - Nitsua.mp3",
+        "size": 5919596,
+        "lastModified": 1790245010724,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 61,
+      "file": {
+        "name": "MotherLake - JABBERLOOP.mp3",
+        "relativePath": "音乐第四波测试/MotherLake - JABBERLOOP.mp3",
+        "size": 7201772,
+        "lastModified": 1790245009815,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 62,
+      "file": {
+        "name": "New Noise - I Am Waiting for You Last Summer.mp3",
+        "relativePath": "音乐第四波测试/New Noise - I Am Waiting for You Last Summer.mp3",
+        "size": 6706198,
+        "lastModified": 1790245009877,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": "电子后摇，不好说",
+      "completed": true
+    },
+    {
+      "order": 63,
+      "file": {
+        "name": "Nucleus - Alfa Mist.mp3",
+        "relativePath": "音乐第四波测试/Nucleus - Alfa Mist.mp3",
+        "size": 9649196,
+        "lastModified": 1790245010717,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 64,
+      "file": {
+        "name": "One's 4 Da Money - Shyheim.mp3",
+        "relativePath": "音乐第四波测试/One's 4 Da Money - Shyheim.mp3",
+        "size": 8570296,
+        "lastModified": 1790245010794,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "这首说唱还挺不容易听的，负担程度可能比较高",
+      "completed": true
+    },
+    {
+      "order": 65,
+      "file": {
+        "name": "Ouendake - Goldmund.mp3",
+        "relativePath": "音乐第四波测试/Ouendake - Goldmund.mp3",
+        "size": 5099372,
+        "lastModified": 1790245010406,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 66,
+      "file": {
+        "name": "PHONICS (feat. WESTSIDE BOOGIE) - Asha Imuno, Tempest, WESTSIDE BOOGIE.mp3",
+        "relativePath": "音乐第四波测试/PHONICS (feat. WESTSIDE BOOGIE) - Asha Imuno, Tempest, WESTSIDE BOOGIE.mp3",
+        "size": 8603732,
+        "lastModified": 1790245010401,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 67,
+      "file": {
+        "name": "PRDR - fox capture plan.mp3",
+        "relativePath": "音乐第四波测试/PRDR - fox capture plan.mp3",
+        "size": 8807085,
+        "lastModified": 1790245010108,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 68,
+      "file": {
+        "name": "Pulse - RePlus.mp3",
+        "relativePath": "音乐第四波测试/Pulse - RePlus.mp3",
+        "size": 4771628,
+        "lastModified": 1790245009996,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 69,
+      "file": {
+        "name": "Rain In The Ashtray - Mooncake.mp3",
+        "relativePath": "音乐第四波测试/Rain In The Ashtray - Mooncake.mp3",
+        "size": 14302606,
+        "lastModified": 1790245010764,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 70,
+      "file": {
+        "name": "Rewind - Cleo Sol.mp3",
+        "relativePath": "音乐第四波测试/Rewind - Cleo Sol.mp3",
+        "size": 3440492,
+        "lastModified": 1790245010042,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 71,
+      "file": {
+        "name": "Rewrite - milet.mp3",
+        "relativePath": "音乐第四波测试/Rewrite - milet.mp3",
+        "size": 5904044,
+        "lastModified": 1790245010246,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 72,
+      "file": {
+        "name": "Rose Bay - Ludovico Einaudi.mp3",
+        "relativePath": "音乐第四波测试/Rose Bay - Ludovico Einaudi.mp3",
+        "size": 6235820,
+        "lastModified": 1790245009840,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 5,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 73,
+      "file": {
+        "name": "she doesnt know me - halberd.mp3",
+        "relativePath": "音乐第四波测试/she doesnt know me - halberd.mp3",
+        "size": 5350965,
+        "lastModified": 1790245010654,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 74,
+      "file": {
+        "name": "sign - 中村遥.mp3",
+        "relativePath": "音乐第四波测试/sign - 中村遥.mp3",
+        "size": 10281839,
+        "lastModified": 1790245010583,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 75,
+      "file": {
+        "name": "SLEEP - Hiroshi Yoshimura.mp3",
+        "relativePath": "音乐第四波测试/SLEEP - Hiroshi Yoshimura.mp3",
+        "size": 9257516,
+        "lastModified": 1790245010734,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 76,
+      "file": {
+        "name": "Spartacus Love Theme - SOIL&_P__P_SESSIONS.mp3",
+        "relativePath": "音乐第四波测试/Spartacus Love Theme - SOIL&_P__P_SESSIONS.mp3",
+        "size": 16946198,
+        "lastModified": 1790245009831,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 77,
+      "file": {
+        "name": "Spun - Kiasmos.mp3",
+        "relativePath": "音乐第四波测试/Spun - Kiasmos.mp3",
+        "size": 10014764,
+        "lastModified": 1790245010424,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 78,
+      "file": {
+        "name": "Starcourt - Kyle Dixon & Michael Stein.mp3",
+        "relativePath": "音乐第四波测试/Starcourt - Kyle Dixon & Michael Stein.mp3",
+        "size": 4440428,
+        "lastModified": 1790245010293,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 79,
+      "file": {
+        "name": "Step Up - Pete Rock.mp3",
+        "relativePath": "音乐第四波测试/Step Up - Pete Rock.mp3",
+        "size": 11440365,
+        "lastModified": 1790245010489,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 80,
+      "file": {
+        "name": "Summer Night - RIOPY.mp3",
+        "relativePath": "音乐第四波测试/Summer Night - RIOPY.mp3",
+        "size": 7451180,
+        "lastModified": 1790245010276,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 81,
+      "file": {
+        "name": "Summer Nights - Lil' Rob.mp3",
+        "relativePath": "音乐第四波测试/Summer Nights - Lil' Rob.mp3",
+        "size": 6142508,
+        "lastModified": 1790245010162,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "14-17",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 82,
+      "file": {
+        "name": "Sweet Child O' Mine - 孙燕姿.mp3",
+        "relativePath": "音乐第四波测试/Sweet Child O' Mine - 孙燕姿.mp3",
+        "size": 11618925,
+        "lastModified": 1790245010606,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 83,
+      "file": {
+        "name": "Take 1 - Guantanamo Bay Surf Club.mp3",
+        "relativePath": "音乐第四波测试/Take 1 - Guantanamo Bay Surf Club.mp3",
+        "size": 7035308,
+        "lastModified": 1790245010616,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 84,
+      "file": {
+        "name": "Teki - Alfa Mist.mp3",
+        "relativePath": "音乐第四波测试/Teki - Alfa Mist.mp3",
+        "size": 8727020,
+        "lastModified": 1790245010749,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "14-17",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 85,
+      "file": {
+        "name": "The 400 Blues 唐詩四百首 - Pu Poo Platter.mp3",
+        "relativePath": "音乐第四波测试/The 400 Blues 唐詩四百首 - Pu Poo Platter.mp3",
+        "size": 5886764,
+        "lastModified": 1790245010676,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 86,
+      "file": {
+        "name": "the begining of the myth ep.II - fox capture plan.mp3",
+        "relativePath": "音乐第四波测试/the begining of the myth ep.II - fox capture plan.mp3",
+        "size": 6634604,
+        "lastModified": 1790245009867,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 87,
+      "file": {
+        "name": "The Road - As The Stars Fall.mp3",
+        "relativePath": "音乐第四波测试/The Road - As The Stars Fall.mp3",
+        "size": 6778988,
+        "lastModified": 1790245010255,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 88,
+      "file": {
+        "name": "The Toy Garden - Helios.mp3",
+        "relativePath": "音乐第四波测试/The Toy Garden - Helios.mp3",
+        "size": 6793388,
+        "lastModified": 1790245010627,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 89,
+      "file": {
+        "name": "Under A Lone Ash - Bibio.mp3",
+        "relativePath": "音乐第四波测试/Under A Lone Ash - Bibio.mp3",
+        "size": 4201388,
+        "lastModified": 1790245010706,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 90,
+      "file": {
+        "name": "Utopia (feat. Marti Fischer) - Cory Wong.mp3",
+        "relativePath": "音乐第四波测试/Utopia (feat. Marti Fischer) - Cory Wong.mp3",
+        "size": 5359724,
+        "lastModified": 1790245010088,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 91,
+      "file": {
+        "name": "Venice - 小濑村晶.mp3",
+        "relativePath": "音乐第四波测试/Venice - 小濑村晶.mp3",
+        "size": 6241580,
+        "lastModified": 1790245010509,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 92,
+      "file": {
+        "name": "Voyage - Ryo Fukui.mp3",
+        "relativePath": "音乐第四波测试/Voyage - Ryo Fukui.mp3",
+        "size": 5087276,
+        "lastModified": 1790245010210,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 93,
+      "file": {
+        "name": "Water Copy - Hiroshi Yoshimura.mp3",
+        "relativePath": "音乐第四波测试/Water Copy - Hiroshi Yoshimura.mp3",
+        "size": 8926316,
+        "lastModified": 1790245009807,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 94,
+      "file": {
+        "name": "What's New - Ax and the Hatchetmen.mp3",
+        "relativePath": "音乐第四波测试/What's New - Ax and the Hatchetmen.mp3",
+        "size": 4973804,
+        "lastModified": 1790245010336,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 95,
+      "file": {
+        "name": "Where Do We Go! - Ayumu Imazu.mp3",
+        "relativePath": "音乐第四波测试/Where Do We Go! - Ayumu Imazu.mp3",
+        "size": 7383292,
+        "lastModified": 1790245010064,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 96,
+      "file": {
+        "name": "Wish You Were Dead - Lola Young.mp3",
+        "relativePath": "音乐第四波测试/Wish You Were Dead - Lola Young.mp3",
+        "size": 4688684,
+        "lastModified": 1790245010361,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 97,
+      "file": {
+        "name": "Xtralovable - Prince.mp3",
+        "relativePath": "音乐第四波测试/Xtralovable - Prince.mp3",
+        "size": 7217324,
+        "lastModified": 1790245010383,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 98,
+      "file": {
+        "name": "バンブーチェアー - GONTITI.mp3",
+        "relativePath": "音乐第四波测试/バンブーチェアー - GONTITI.mp3",
+        "size": 6117164,
+        "lastModified": 1790245009795,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 99,
+      "file": {
+        "name": "ゆめしぐれ - 青葉市子.mp3",
+        "relativePath": "音乐第四波测试/ゆめしぐれ - 青葉市子.mp3",
+        "size": 8179244,
+        "lastModified": 1790245009934,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 100,
+      "file": {
+        "name": "レイテストナンバー - Toe.mp3",
+        "relativePath": "音乐第四波测试/レイテストナンバー - Toe.mp3",
+        "size": 7970732,
+        "lastModified": 1790245010454,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    }
+  ],
+  "summary": {
+    "completedTracks": 100,
+    "incompleteTracks": 0
+  }
+}
