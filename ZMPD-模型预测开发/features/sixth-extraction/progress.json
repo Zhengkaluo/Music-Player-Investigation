@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "flowset.musicbase-extraction-progress/v1",
+  "startedAt": "2026-10-03T11:28:38.508733+00:00",
+  "completedAt": "2026-10-03T11:28:39.675359+00:00",
+  "inputDirectory": "音乐第六波测试",
+  "summary": {
+    "requested": 100,
+    "completed": 1,
+    "failedAttempts": 0,
+    "processedThisRun": 1,
+    "remaining": 99,
+    "safety": {
+      "mode": "serial-single-track",
+      "reserveDiskBytes": 21474836480,
+      "minimumMemoryFreePercent": 10.0,
+      "trackTimeoutSeconds": 900
+    }
+  }
+}

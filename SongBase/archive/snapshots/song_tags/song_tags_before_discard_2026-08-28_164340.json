@@ -1,0 +1,5566 @@
+{
+  "schema_version": "songbase.tags/v1",
+  "taxonomy_version": "2026-08-07",
+  "updated_at": "2026-08-28",
+  "taxonomy": {
+    "genres": [
+      "Ambient / Neo-Classical",
+      "Post-Rock / Cinematic",
+      "Electronic",
+      "Jazz / Soul",
+      "Folk / Singer-Songwriter",
+      "Rock / Alternative",
+      "Hip-Hop / R&B"
+    ],
+    "languages": [
+      "Minnan",
+      "Japanese",
+      "Other Languages"
+    ],
+    "forms": [
+      "Instrumental"
+    ]
+  },
+  "tracks": {
+    "qq:0001C1ak3MEsHF": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002Txf5321fUMD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002dwgyu0wuBeT": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:0023U8im0EI3sM": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000d7WsX2z1GHQ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003qevSP2CWg9n": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003m8N1q42ILKQ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:001QvIEL0TEj7b": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003Yc57U1jTeAJ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:0003zOuw2Wo0TM": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000gbYfk0lP79F": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:001is8cP0RSIl8": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000dwrR00jfF35": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:0040YFWl3Qsvlf": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002r615e1WCmYQ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:0013vhTg42so6j": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:001U8XC30DrZXa": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003yLEVt2iMu3g": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:001kqduD3jf6C0": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000bdu314WVu3m": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000v9QqY2s2bHc": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002NE3aq0cwveO": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000jpMIN1t4CPY": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003mcZOw3T3say": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003JjrOo4LbBmx": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002atDGx0OnJ0m": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:0027dSv325MfDZ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002fUqdL0kh2GV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:000Ksjvc0DebJI": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002eUSDL2ytPqV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:003V6m7u4eEihH": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:00308O0k0f6qNj": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:0039X9fb3v53ho": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:0010vInP2YWtgV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:003Tg9nI0F9a19": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:0012XJ5X3P0Zft": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:002smmhd0vwmso": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:000jkjPC3WtgEa": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:0025G8dU3Kzapi": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:004NCC9Q1SOacX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:001eH1XX47e8LW": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:003ZhGYP2XBpwS": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:002e7ir11f1VHo": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:0042Q9Y131Uj0w": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:001Tv8T80mmUC3": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+    },
+    "qq:001f14BU1FFKRH": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:001szxa14bRair": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:004OpdZp248Bd5": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:002FErJd18H9xJ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:004LB0iY191uXY": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:002kvoC20rw3o4": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:002ApQ3l4AVjgw": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Folk / Singer-Songwriter；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:001LE6ik28dTWo": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:000SfpPp1elfp6": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:003DurQU321VDo": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:0041kPwe0ou521": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:001dSmcj112SZa": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:003xf9O01xLZPD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:0001jtij4JXGMK": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:003b8kYE1ikWQg": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:001EV2nt13Dwij": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:001g30Qn0eqmUp": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:003WtNS01hE28v": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:002WPQKv0DK82h": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:0009v77J2FUFvx": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；原候选置信度 65%。"
+    },
+    "qq:001jzOWo2xqSAK": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+    },
+    "qq:000vGyDL2h5IVl": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul、Ambient / Neo-Classical；原候选置信度 65%。"
+    },
+    "qq:000ekTEC3YDp0W": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:002RkuGH2nvjO6": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:0008kPbR2YXHNQ": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:003M7uSc3TF42m": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:002eHWc10R58Uk": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:000P2tPD0ObxXU": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:001oWQwh3Sb3D6": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:001LG9Rp49bSYo": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:004OgceD3KMocG": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:00160FFv4UXF5O": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:001DB1dG0NfAJt": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:0047h8462rfTcs": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:002G8D5G355TwB": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:00331Tlh36QIx0": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul、Ambient / Neo-Classical；原候选置信度 65%。"
+    },
+    "qq:004FkTyJ1lZhQC": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:002QpI7A0OXSCC": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:0005oFZU0pSPg2": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:001dplQ93FFqOl": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:001U7Le219WOd0": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:002qRalE18HT75": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul、Ambient / Neo-Classical；原候选置信度 65%。"
+    },
+    "qq:004OH9h94AMhQL": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:004Zbq7q1hz4PQ": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:004T6Rrj1z8iaA": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Jazz / Soul；原候选置信度 80%。"
+    },
+    "qq:001ShxbZ14nHcT": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:002JEjeh04Fp2X": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:001IGq5N2C0QMk": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:003x1pIq0Ly6KD": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:000d8UNw0DnhHk": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:000Wq1kx1cT0yD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:003WGsQx2wsVmC": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:004P7xQc4edF1F": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:003gyppy37XCdT": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:000F1T8U4D9yme": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003aTunO0Gw3ZD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001AscM34FraSP": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0037ONQc01qrqA": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003AGu980N7rcV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:000k0wjJ18IyA5": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001c5fLw2IeIHC": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002KkZUc09vxV7": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001sG52G1ozPxX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:001V3dnU3lAf6a": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:001FFskn42EHxR": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:0037sDr60vT6P8": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:004aaCOg244X4X": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:000fh8cc1aKwmJ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:000gwXTH24nTk5": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:004UhAuY4PTdFV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:0021CCQt09zdDq": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:002JTDdZ0nLKAD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:001kJG2P0CCOay": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:001EQen03Sva8i": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 75%。"
+    },
+    "qq:003IiDsd32QrAY": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:003xFjAa34zgpU": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:000hIrIO1UfDfc": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。 Electronic 副风格已按人工判断移除。"
+    },
+    "qq:001Yccb32sPw6J": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:0040lw8g3YZ893": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:000JmsYC41Mtvs": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:003Gjy9L1ZiwKe": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:003nrM7x1bxBZn": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:000SVSO43iO5Sf": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。"
+    },
+    "qq:003ombTo4MpKHW": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:002iWRZH0KN8UX": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:0017UTRB1zQzCH": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:0004Eoz70v4Adj": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:001y4w0t38xHV3": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。"
+    },
+    "qq:003yjKyC05pg1E": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:001cv4bX0er62l": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:003XcBjS3o4Yjy": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:001JX2Tc1QyY58": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。"
+    },
+    "qq:003KtyjJ30QOn9": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 80%。"
+    },
+    "qq:000fuly500wpec": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:002YBSh0009O45": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:001XSACi3Zaa02": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:0000odUo1XRvuf": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:000UbOVS329BZB": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:001gD48L3PdBye": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:000g5EqJ0nmN5J": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:000142u33uTDue": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001498sn27C7Bb": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:000MZ9zh3zXBml": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:002wBCNE2rZf4z": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:004SRkDC4Va4dq": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0013Tpya1kyB3f": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001bF15n3b6UMH": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:002UWalw2fvhiF": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 70%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:004JjpK93DmFzd": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 70%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:004I91xK2yMUhA": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:002M0wlM41YCdP": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002LRscm3oLs9g": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001weqfk0vvZW5": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:003T7TG53RHaUI": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。"
+    },
+    "qq:000nSQtR2nhdfa": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001Ym2mk0sbiwn": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 70%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:003MaOc10uc8Ja": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 70%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:002ghKZQ3MCWu0": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。"
+    },
+    "qq:00379HQN0zynlr": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003OQ4PA2wuDuy": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 70%。 Post-Rock / Cinematic 副风格已按人工判断补充。"
+    },
+    "qq:002VfHxa1tciDS": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-20",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001nzNs10VvmEX": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 75%。"
+    },
+    "qq:0045JW534Q29tL": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。 副风格已按人工判断修正。"
+    },
+    "qq:003fkTmy2Ldi5y": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 75%。 副风格已按人工判断修正。"
+    },
+    "qq:0023qt6K3Qetjo": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。 副风格已按人工判断修正。"
+    },
+    "qq:00150q3U1m0SVs": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。 副风格已按人工判断修正。"
+    },
+    "qq:0019QRWW3M2ARU": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002rq8XV1p8K3R": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 85%。 副风格已按人工判断修正。"
+    },
+    "qq:000HaICk25YWHO": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 75%。 副风格已按人工判断修正。"
+    },
+    "qq:0003bhiI36bD4h": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 75%。"
+    },
+    "qq:002AKMaL3RJz3j": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 75%。 副风格已按人工判断修正。"
+    },
+    "qq:000HGhHB1oFoLu": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 75%。 副风格已按人工判断修正。"
+    },
+    "qq:0037DYAg2RdKG7": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 75%。"
+    },
+    "qq:004B5rnm1lsP7A": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 75%。"
+    },
+    "qq:003MHJDG0Ndp9B": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 75%。 副风格已按人工判断修正。"
+    },
+    "qq:000K72Bh3DYh4W": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 75%。"
+    },
+    "qq:004G8E3U1NiBPH": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。 副风格已按人工判断修正。"
+    },
+    "qq:004HtsOP2yp7xT": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。 副风格已按人工判断修正。"
+    },
+    "qq:000157T10Kf96g": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 70%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003PnofJ14fu7V": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:00031tuO4KfzbD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0012wlLx0wReNM": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:002CCxh22un7aE": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:000vZ5D71hNm8f": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:000d0aAF3fboxy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:000Baz273t5aAE": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:0021rwix3EUAeR": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003UeK6r1VTLEg": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:004H9sqd1TKynR": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:0010snVx1DMyku": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002tMT3G3Q7MsS": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001FYtvc4F7QXE": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003dksxP3tO0iX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:0024ZNSr3YU6OP": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 70%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002Q1n2g3XQaBS": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 70%。 主／副风格已按人工判断修正。"
+    },
+    "qq:000xsyAg32NiSk": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:001mOKAP3mtdZW": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003lEgBs3VZWWD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 70%。"
+    },
+    "qq:0049u22W3RH5uq": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001Ev8hg2TD4EF": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 无；原候选置信度 85%。"
+    },
+    "qq:004F9h4J1NjHD9": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:000jpsVp0nqcSw": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003oIEvw3dcIKc": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003wyPWg2vNdDH": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002pGrfv2C5coX": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:001tZ9sr11IkDI": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:001sEBpU4eSUwP": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 70%。"
+    },
+    "qq:0043RnKN2juH1Y": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:000Zejvx4D6slx": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:0015SwUd2uOwmJ": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 70%。"
+    },
+    "qq:0026SJ2s4d0IAA": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Folk / Singer-Songwriter；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002ySl5c0f7jQb": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:002xp3LG3Usagf": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002MZneN2iHRQ5": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:004Pcjby33OM6q": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001LgoxA1tVBuX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Folk / Singer-Songwriter；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003UXQSv0OiIBc": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:001cbdt22DUrUu": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:000k14Hg23gMTJ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:000Din7j32GT2W": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002YoArc28MSGv": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:004OAlMp0D65NA": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003BqwPq1xAEoC": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003Uil5o4QR5Bg": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:001Zjzok3Pa3nl": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003t03791sFq4k": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 85%。 主／副风格已按人工判断修正。"
+    },
+    "qq:001F06id4BjbVK": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:000WKy8A2xm6h7": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:001Itbg62svmkp": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:000UwUpi3ndx75": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:002On4ok12vsCz": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:003xuISP2Js28q": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:000MbXwN10jhlK": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:001D46eN4MbWR1": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:001U6SJ94Utc87": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:0043Jesn1uayV6": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:004QUJic2NsHKk": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:004CSmOC3eunxe": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:003aviOJ0Egu0J": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002HgeXB47z6Hb": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:000PTZlp1ZFpnl": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:000FSX9W12g5gR": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:002sc9Cb4cfuFl": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003lFx2S2sBDcA": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:0011Vc1V2X5MD8": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:003MdJ092jX5Ce": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:000twYg03IQgf5": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:003EUURg3WbJlq": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002w4Hxz3KpQ3C": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003SBBB81AZ6Cn": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:002dCXvW0xsAkH": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:002ZRUn93X6hde": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:000vWxRM3wbNwm": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:000b5w1649YZam": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 65%。"
+    },
+    "qq:004WXemk1jJ3OX": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。"
+    },
+    "qq:0037LBhA4SfrM6": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。"
+    },
+    "qq:002z9rv20tgIR1": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。"
+    },
+    "qq:0032f3f143nQ0F": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。"
+    },
+    "qq:001DCMxF0MfHVO": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:000wNu711DRWvD": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:0045eDgY0ZvWpa": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 85%。"
+    },
+    "qq:004dbQn52BUo4C": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:001qSshu1LsRBS": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:001Vl2ZA1gtbVc": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:000IL6Bg15zAq1": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:002qPi590D694I": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 85%。"
+    },
+    "qq:004STzKW3c183N": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 85%。"
+    },
+    "qq:002N2qDN3FdKfY": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:003zUuoF0NDRsm": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 75%。"
+    },
+    "qq:004e0mqB1HOzFV": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0038TeYv49H4Dd": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative、Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:000eNIUG49IH5U": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative、Ambient / Neo-Classical；原候选置信度 73%。"
+    },
+    "qq:001dRv8u3ZsI4Q": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative、Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:003b2vXd0Np5h1": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative、Ambient / Neo-Classical；原候选置信度 73%。"
+    },
+    "qq:0007CBem4C5bBU": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002XScDN31yXcm": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:004RlFCf21hXWK": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative、Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:0006aQVw4RReA0": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002r67X52ZtoO5": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative、Ambient / Neo-Classical；原候选置信度 85%。"
+    },
+    "qq:002Vup6o0UxIf1": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002HOIZ30zzpQx": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。"
+    },
+    "qq:002lcuyX4NpbDv": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。"
+    },
+    "qq:0010n11X1LhT3c": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical、Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:000NyxKm0ygx4E": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical、Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:001rUTb41aYbkb": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Rock / Alternative；副风格 Electronic；原候选置信度 80%。 主／副风格已按人工判断修正。"
+    },
+    "qq:0029Udju4JjDu5": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。 主／副风格已按人工判断修正。"
+    },
+    "qq:000EMd9c1tmotU": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 80%。"
+    },
+    "qq:002Vic272Op5iU": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Electronic；原候选置信度 80%。 主／副风格已按人工判断修正。"
+    },
+    "qq:003Iat1t4aoTdW": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：平台无可用候选；参照同艺人已确认方向，主风格 Post-Rock / Cinematic，副风格无。"
+    },
+    "qq:002ThPp80OctaY": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。"
+    },
+    "qq:001edrrD1WZDDl": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 80%。"
+    },
+    "qq:001W3PzG2zIMBk": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:002HkoOT1quSzf": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:002dKeV033UOvU": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:0029bARE21ML6j": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:0004sVx62fZsQj": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:000J69O20cYHDb": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:000xc7qx0ZuJQP": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:000U3p5432jPnC": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。"
+    },
+    "qq:0048E3sy3D8Svy": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-21",
+      "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。"
+    },
+    "qq:0045gjRg3Mxwit": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:001mFQ2V2rKzQ9": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:0025m6Oq20gi6p": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:003u7pXn2K7Ky0": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:002KMFzx43pq2Z": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:003YxbtJ33sSAJ": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:003C33fZ3vTKck": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:0015zyJ50EiBIp": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:00029pT90Kr3rw": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:001t6oZ31JP5da": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:000IELhd1ehNCg": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:003HZxAm3EpYNh": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:001gVyz02QB7dW": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:0025ct5e0oT59i": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:0040UKrx0tcUCR": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%%。 副风格已按人工判断补充。"
+    },
+    "qq:000Hs9sX1Cu0LB": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+    },
+    "qq:003AzUdz1QSY7a": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic。已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:001LTc2W46nOpa": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic。已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:003dIBUs2CA00m": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；原候选置信度 85%。 副风格已按人工判断补充。"
+    },
+    "qq:000QQaTJ1vQy0g": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Electronic、Ambient / Neo-Classical；原候选置信度 85%。 副风格已按人工判断补充。"
+    },
+    "qq:004Wvz723OsKcX": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 74%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:000YmZ4X3cIaIQ": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:003v6wLn07xLfm": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 74%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:001d8oLf3o4uPR": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:003MHl2d1rGIKT": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:002KBOo92wfyZo": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:002phNmy3uHuUY": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 74%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:004Rwyen1wQ0vi": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 85%。 已按人工判断移除 Hip-Hop / R&B 副风格。"
+    },
+    "qq:004Ary8j1DXl68": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003C2dYj2Jv7KE": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001GltvP3VyNv0": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:000mu3254DVuzk": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0025L1kw4cJAFl": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001Dmb1d1hpNH4": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002hQKfz3CWvP8": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0045rgSi36tNTs": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002k1aaf1RoipX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003WZxOr0nISl8": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+    },
+    "qq:000dpx1K39ZkOj": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。"
+    },
+    "qq:002fTWca0uywtP": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 84%。"
+    },
+    "qq:001dEPl41oHWH7": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。"
+    },
+    "qq:004UN0Gp4HFHDH": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。"
+    },
+    "qq:0049PojS4Yt1ll": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。"
+    },
+    "qq:003UCgNC1uTuU1": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 无；原候选置信度 85%。"
+    },
+    "qq:001XBqqc1V1Wv0": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:000I9Lmb2o3XdF": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:003yBcuM2XBdKy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:00396pOu0pu3yl": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:001rATD736J55B": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:002cBVub1Kncz5": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:004DFpGq4YrgDA": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:0007Wkb12sLyuc": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:003GodMr2VU5HH": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:0003vhfz0DPvnM": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:00366WEu0Wb0GU": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:001NJKKs3c4Zj3": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:004dtJeX1ziiFd": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Folk / Singer-Songwriter，并仅为 Aina 保留 Electronic。"
+    },
+    "qq:003xJXgZ33pSu3": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。"
+    },
+    "qq:004c6TLA1EUrG6": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。"
+    },
+    "qq:004YACfE2EVgvF": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。"
+    },
+    "qq:002jaefh3NZVjb": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:002ekbvh3djoCb": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:002c62Rp3lsn9P": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:000oUb0o3CEo1B": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:0034uviW1j1TyW": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:004WaNQe1SWcZ8": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:002kUgQ21HBnKX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:0021TyNp4QsM9i": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:003n9kj63R1CsX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:001oE1nl3v7cJv": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:001S7hHz2aaHLo": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:003rYwGY4fuCCq": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:0025YYJ00pmdxO": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+    },
+    "qq:003Zzj2P3RLToh": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:000Ns51C1BsBPb": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 70%。 已按人工判断补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:003A7wgv3CShSY": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:001hV6EB2N40sV": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 70%。 已按人工判断补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:000y5eux2Eh95k": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 70%。 已按人工判断补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:000fIw570xGAcx": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:003tPCAM2LAeE3": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Ambient / Neo-Classical；原候选置信度 70%。 已按人工判断补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:002nfKLv28evOK": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:003XfAN33n2GQj": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:0030Zl744Bwckx": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Ambient / Neo-Classical、Hip-Hop / R&B；原候选置信度 70%。 已按人工判断补充 Ambient / Neo-Classical 与 Hip-Hop / R&B 副风格。"
+    },
+    "qq:004HcOEj4bHXbc": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:002fxf3t2ALtcN": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:0027zyxJ0ePes3": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-24",
+      "note": "艺人完整复核：主风格 Electronic；副风格 无；原候选置信度 70%。"
+    },
+    "qq:000YI2j62oBArL": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:0000AfxH4IPzsZ": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Rock / Alternative、Electronic；原候选置信度 65%。 已按人工判断补充 Electronic 副风格。"
+    },
+    "qq:002mhMhW3CI4X4": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Rock / Alternative、Electronic；原候选置信度 65%。 已按人工判断补充 Electronic 副风格。"
+    },
+    "qq:000AexBa3aUqOw": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Rock / Alternative、Electronic；原候选置信度 65%。 已按人工判断补充 Electronic 副风格。"
+    },
+    "qq:001QedOf2fLgUt": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Rock / Alternative、Electronic；原候选置信度 65%。 已按人工判断补充 Electronic 副风格。"
+    },
+    "qq:000xu9YP0QyWcn": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；原候选置信度 65%。"
+    },
+    "qq:002zuwNj3JoRQk": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 77%。原主风格已是 Hip-Hop / R&B，保留原有副风格。"
+    },
+    "qq:001Q426c2itsTh": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 70%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:001Sa7Wl3t2e3v": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul、Folk / Singer-Songwriter；原候选置信度 70%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:002Li4nO2z4nAd": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 70%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:000MPVvQ324zoj": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 88%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:004CnL5z3D2ZBp": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 88%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:003UFL0P2pVUuH": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 70%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:003IagG73PYHJh": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 85%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:002ux3x00v2Qxd": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 70%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:0021PJbZ1wilnK": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；原候选置信度 70%。已将原主风格 Jazz / Soul 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:002m3aXU1K7P4x": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Jazz / Soul；原候选置信度 80%。已将原主风格 Folk / Singer-Songwriter 移至副风格，并保留其余有效副风格。"
+    },
+    "qq:001kDHTp1XwKpK": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 75%。已按人工判断调整主副风格。"
+    },
+    "qq:000iVbhz1wBNpC": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 75%。已按人工判断调整主副风格。"
+    },
+    "qq:003Vop5Z2Vz497": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:004CQckK0FNJ8M": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:001BkTD63Ydwc9": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:004col4V0Addn1": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 75%。已按人工判断调整主副风格。"
+    },
+    "qq:003uNcgM19QImw": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:004ZpSBX017qTA": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 75%。已按人工判断调整主副风格。"
+    },
+    "qq:000fT9N931nfbb": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:003n2OkW0FRgrp": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 75%。已按人工判断调整主副风格。"
+    },
+    "qq:0049LNIq2DJdpD": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 75%。已按人工判断调整主副风格。"
+    },
+    "qq:000WLCgm0Wniyb": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:003AqVU62zShz3": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:002qqgUR3KTkNg": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:002qS7Oi2434r4": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:001nquQQ0q36G8": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:0027g2v83QgKwh": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:000Xh9jY20cbjT": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:000BHf0V2uZ4Nq": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:004XqfYg1mNSla": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Electronic；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:003Fa7PN2AQ380": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Ambient / Neo-Classical；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:002DPA0s4OIVdg": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:00212cbR3c3EL0": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Rock / Alternative；原候选置信度 70%。已按人工判断调整主副风格。"
+    },
+    "qq:001Yr0lf42iGF6": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:001jwFna4TZsu8": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Ambient / Neo-Classical；原候选置信度 80%。已按人工判断补充并保留有效副风格。"
+    },
+    "qq:001vTstF0ysG5Y": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Ambient / Neo-Classical；原候选置信度 65%。已按人工判断补充并保留有效副风格。"
+    },
+    "qq:000jYQMs0HPaDE": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic、Electronic；原候选置信度 80%。已按人工判断补充并保留有效副风格。"
+    },
+    "qq:001N143y1mw01Q": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 80%。已按人工判断补充并保留有效副风格。"
+    },
+    "qq:003T8T2I16XDBU": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Post-Rock / Cinematic；原候选置信度 65%。已按人工判断补充并保留有效副风格。"
+    },
+    "qq:001r0we12IjRXg": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Ambient / Neo-Classical；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:0019JgoE1ogyxP": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Folk / Singer-Songwriter；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:002ukzuo0u5PpB": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Folk / Singer-Songwriter；原候选置信度 85%。已按人工判断调整主副风格。"
+    },
+    "qq:000HV69V2OKcLG": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:0034WjC0255vSL": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:003mSMTO49SmOq": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:002cafK8375Okl": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:003gCbmt4TcRrj": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul、Rock / Alternative；原候选置信度 70%。人工确认现有标签无误。"
+    },
+    "qq:001G59RM2oGyEJ": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:0015LB9F4ePo5B": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul、Electronic；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:000ItfhK2FSDIj": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+    },
+    "qq:002nspul0afXe2": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:003xz29R1B1rjl": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:001sDz5R2EzU2G": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002DboOi3iXY5q": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:0044cRki0b5Q0t": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:003uuMpS44dBY5": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:003r5Caf1vs1YK": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:0014x9eb3CGvH0": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:003OjVhu40pVPd": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:001zpdur2eiy7l": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Hip-Hop / R&B；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002xHhan2swqcQ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic、Hip-Hop / R&B；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:001rm65114DkQX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:004Z85uF116bOm": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Hip-Hop / R&B；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:002a4oDB4DdzBL": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:002OHwJy0LqkiC": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:002HMDQJ4dTZss": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic、Hip-Hop / R&B；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:001ASRjB0qBaX0": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:00181SoX0DnUMy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:001ryrRg3yQxem": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:001W9IQe4B7eJu": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 80%。已按人工判断确认或调整副风格。"
+    },
+    "qq:001ecHJ5329vt6": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:001XOOxM1gYUqp": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:001F8bj23GYo4t": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:0017zjEc1DvndB": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:000RWoin1VaFrM": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:0034e8Sz4PVFXc": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:000g1HD9056Ida": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:000IqKfB0gIoVy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:0015742S01JKRy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:002ISJaE2PGmsH": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 85%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:003rqPD04BV0pS": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:001vOhuJ0mTa1Z": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:001lhAQI4f6cNP": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Jazz / Soul；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:002VuT6s3MSogf": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Electronic；副风格 Jazz / Soul；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:000R0yic222KLv": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:001mCEAv3k7vA3": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 无；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:002nGlyO0vspPv": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Electronic、Ambient / Neo-Classical；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:0032qs3a4aQN4O": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-27",
+      "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 70%。已按人工判断确认或调整主副风格。"
+    },
+    "qq:003rTJEr1ArWak": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002Oz4fZ0MldPB": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:001qgTVB2zglwh": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:000PyUza330crf": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002NPVpD3AufWG": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:003Bozy20khHjx": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:000jKMsb1nOF33": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002cPyat0Pu8vT": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:001wBr0t2SIS66": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:000FSYyo1eypBE": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:003jKCjo2yncJO": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 0%。已将有效原主风格移至副风格。"
+    },
+    "qq:0039mubA1iUzPV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:001PGEvm1TvdxK": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:002jiMlG1CknRJ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:000dcJ851xJc9s": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:002U9Zu54GThK5": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:0004KMEg2cI98N": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:003qlp5n3EoKlZ": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:0000L5mT0zgAEy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:0049unWD4IqAdC": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；原候选置信度 65%。已将有效原主风格移至副风格。"
+    },
+    "qq:001uMt9V15NBBa": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:002XMYU020TiOO": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:0002W4XM3jqEeg": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:001Gt0FA4Qee19": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:002pb1i81puzIH": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:002T5BMO4Nykll": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:0048oazT3R5Wqi": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:001HtKbT1DM1jU": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+    },
+    "qq:000fOF2L4DQBCn": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:002NTeVk2qPYXS": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:002saJtZ3wiD5A": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 80%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:004eH7Lq4QsEN4": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:002RmLCj3YocBw": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Electronic；原候选置信度 65%。保留原有 Electronic 副风格。"
+    },
+    "qq:002qDEvN1h3Rdi": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:002RGulM17IOSF": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:000U7YQH3N6K4D": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:002xV9Fi2BDhIi": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人完整复核：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断移除 Electronic，并补充 Ambient / Neo-Classical 副风格。"
+    },
+    "qq:001neLbY2J9GCJ": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:00400umx31UH5p": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 65%。已按人工判断调整主副风格。"
+    },
+    "qq:004gdY3S3vzhdj": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:003NDIcA0XN7hw": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:002sN3tZ0bn0xk": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 Electronic、Ambient / Neo-Classical；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:003cjHhP4f5UoH": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 Electronic、Ambient / Neo-Classical；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:0049Ll8Q2kXd5w": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 Electronic、Ambient / Neo-Classical；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:002OP9r71u0qbq": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:004dSD1a3aiGA7": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:001NX5Us0nXRwp": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:002I7U190kWP0W": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。已按人工判断调整主副风格。"
+    },
+    "qq:004fGoVl3u0eL0": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。已按人工判断调整主副风格。"
+    },
+    "qq:002Vc37R1GSgcl": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。已按人工判断调整主副风格。"
+    },
+    "qq:001I2LuN0X9HCE": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002aDDHQ1QwW6G": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:002rCRhp1lzt8z": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+    },
+    "qq:000gnR5f0L9CqV": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:001PQRBd0hMLtT": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:003IBe5N0Kt1pY": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；原候选置信度 65%。已按人工判断调整主副风格。"
+    },
+    "qq:000U0Flb4GMFHe": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断调整主副风格。"
+    },
+    "qq:003FqTgo25TB9X": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+    },
+    "qq:003LDRsX47cggs": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_artist_batch_review",
+      "updated_at": "2026-08-28",
+      "note": "艺人 / 曲目复核：主风格 Rock / Alternative；副风格 Post-Rock / Cinematic；原候选置信度 65%。已按人工判断调整主副风格。"
+    }
+  }
+}
