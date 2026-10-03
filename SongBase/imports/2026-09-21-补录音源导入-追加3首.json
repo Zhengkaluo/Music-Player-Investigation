@@ -1,0 +1,74 @@
+{
+  "schema_version": "songbase.supplemental-audio-import/v1",
+  "batch_name": "2026-09-21-补录音源导入-追加3首",
+  "created_at": "2026-09-21T18:22:23+08:00",
+  "source_directories": [
+    "imports/2026-09-21-补录来源/另一台 补录",
+    "imports/2026-09-21-补录来源/郑灏澜 MacBook 补录"
+  ],
+  "target_directory": "SongResources",
+  "identity_rule": "normalized title plus full_singer; no title-only matches",
+  "summary": {
+    "source_identity_matches": 386,
+    "source_targets_already_present": 383,
+    "imported_or_verified": 3,
+    "copied": 3,
+    "already_present_verified": 0,
+    "excluded_archived": 2
+  },
+  "imported": [
+    {
+      "track_id": "qq:004EoRME3iYKXo",
+      "title": "As It Was",
+      "artist": "Vancouver Sleep Clinic, Pop Goes Ambient, Amelia Magdalena",
+      "group_artist": "Vancouver Sleep Clinic",
+      "album": "As It Was",
+      "source_relative_path": "imports/2026-09-21-补录来源/郑灏澜 MacBook 补录/As It Was - Vancouver Sleep Clinic, Pop Goes Ambient, Amelia Magdalena.mp3",
+      "destination_relative_path": "SongResources/As It Was - Vancouver Sleep Clinic, Pop Goes Ambient, Amelia Magdalena.mp3",
+      "size_bytes": 7626284,
+      "sha256": "dbeccb564316b8c6ccc016ee9003bdb43ede1389c22d70253aaef2e0be19c54b",
+      "action": "copied"
+    },
+    {
+      "track_id": "qq:004StP7u0GX8V2",
+      "title": "Cœur croisé",
+      "artist": "Polo & Pan",
+      "group_artist": "Polo & Pan",
+      "album": "Caravelle (Deluxe)",
+      "source_relative_path": "imports/2026-09-21-补录来源/郑灏澜 MacBook 补录/Cœur croisé - Polo & Pan.mp3",
+      "destination_relative_path": "SongResources/Cœur croisé - Polo & Pan.mp3",
+      "size_bytes": 8161004,
+      "sha256": "852d241135a64b70f14d99896aef0b1409d6da3a060df6afeab6c65242639156",
+      "action": "copied"
+    },
+    {
+      "track_id": "qq:001WqQpv4Y2F4Q",
+      "title": "友人A",
+      "artist": "Creepy Nuts",
+      "group_artist": "Creepy Nuts",
+      "album": "アンサンブル・プレイ (Explicit)",
+      "source_relative_path": "imports/2026-09-21-补录来源/郑灏澜 MacBook 补录/友人A - Creepy Nuts.mp3",
+      "destination_relative_path": "SongResources/友人A - Creepy Nuts.mp3",
+      "size_bytes": 7333484,
+      "sha256": "bc64562a00bf308d9f0fedc754bdd24834b10e4906c7dcca903a55526f0902b7",
+      "action": "copied"
+    }
+  ],
+  "excluded_archived": [
+    {
+      "track_id": "qq:0025oZ351kzLu2",
+      "title": "如果我失去了青春",
+      "artist": "沼泽乐队",
+      "source_relative_path": "imports/2026-09-21-补录来源/另一台 补录/如果我失去了青春 - 沼泽乐队.mp3",
+      "sha256": "e53fe13ef23eb819fff0f4a6890de8caabc8a65e7e91beba07d3ce29bba3a105"
+    },
+    {
+      "track_id": "qq:003oVhrZ3d2FFj",
+      "title": "Candy Kisses",
+      "artist": "Cagnet",
+      "source_relative_path": "imports/2026-09-21-补录来源/郑灏澜 MacBook 补录/Candy Kisses - Cagnet.mp3",
+      "sha256": "5ad539289dced2f1a24f42eb2d081466ac6ca81aef96a161836c1e58696ef0f6"
+    }
+  ],
+  "updated_at": "2026-09-21T18:26:20+08:00"
+}
