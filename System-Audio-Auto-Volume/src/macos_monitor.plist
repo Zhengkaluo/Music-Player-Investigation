@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>local.system-audio-auto-volume.monitor</string>
+<key>CFBundleName</key><string>System Audio Auto Volume Monitor</string>
+<key>CFBundleExecutable</key><string>SystemAudioMonitor</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>NSAudioCaptureUsageDescription</key><string>只读监测本机正在播放的系统音频响度，不使用麦克风，也不保存录音。</string>
+</dict></plist>

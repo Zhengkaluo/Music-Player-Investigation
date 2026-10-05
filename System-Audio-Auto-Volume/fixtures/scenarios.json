@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "system-audio.simulation-scenarios/v1",
+  "scenarios": [
+    {"id": "normal", "label": "目标范围", "durationSeconds": 16, "shortTermLufs": -19.0, "momentaryLufs": -18.4, "rmsDbfs": -22.0, "peakDbfs": -7.0, "isSilent": false},
+    {"id": "loud", "label": "持续偏响", "durationSeconds": 14, "shortTermLufs": -12.5, "momentaryLufs": -11.8, "rmsDbfs": -15.0, "peakDbfs": -2.5, "isSilent": false},
+    {"id": "quiet", "label": "持续偏轻", "durationSeconds": 14, "shortTermLufs": -27.0, "momentaryLufs": -26.2, "rmsDbfs": -31.0, "peakDbfs": -15.0, "isSilent": false},
+    {"id": "peak", "label": "短峰值", "durationSeconds": 2, "shortTermLufs": -18.0, "momentaryLufs": -10.0, "rmsDbfs": -21.0, "peakDbfs": -0.8, "isSilent": false},
+    {"id": "fade", "label": "渐弱", "durationSeconds": 10, "shortTermLufs": -31.0, "momentaryLufs": -36.0, "rmsDbfs": -44.0, "peakDbfs": -22.0, "isSilent": false},
+    {"id": "silence", "label": "静音/暂停", "durationSeconds": 8, "shortTermLufs": null, "momentaryLufs": null, "rmsDbfs": -90.0, "peakDbfs": null, "isSilent": true}
+  ]
+}

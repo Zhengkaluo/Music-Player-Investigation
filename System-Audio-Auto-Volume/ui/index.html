@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>System Audio Auto Volume</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: light-dark(#eef0f2, #111315);
+      --window: light-dark(#f8f8f7, #1a1c1e);
+      --panel: light-dark(#ffffff, #222528);
+      --panel-2: light-dark(#f1f2f1, #2a2d30);
+      --text: light-dark(#181a1c, #f2f3f4);
+      --muted: light-dark(#676d72, #aeb4b9);
+      --border: light-dark(#d9dcde, #393d41);
+      --accent: light-dark(#2458d3, #7da2ff);
+      --accent-soft: light-dark(#e7edff, #26365c);
+      --warn: light-dark(#a64e14, #f0a56e);
+      --good: light-dark(#17704b, #5fd0a0);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg); color: var(--text);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 18px; background: var(--bg); }
+    button, input, select { font: inherit; }
+    button, select, input[type="number"] {
+      border: 1px solid var(--border); border-radius: 9px;
+      background: var(--panel-2); color: var(--text); padding: 8px 10px;
+    }
+    button { cursor: pointer; }
+    button:hover { border-color: var(--accent); }
+    button.primary { background: var(--accent); color: light-dark(#fff, #101216); border-color: transparent; }
+    .window { max-width: 1160px; margin: 0 auto; background: var(--window); border: 1px solid var(--border); border-radius: 18px; overflow: hidden; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 15px 20px; border-bottom: 1px solid var(--border); }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .mark { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 10px; background: var(--accent); color: light-dark(#fff, #101216); font-weight: 600; }
+    .title, h2 { font-weight: 600; }
+    .sub, .label, .note { color: var(--muted); }
+    .sub { font-size: 12px; margin-top: 3px; }
+    .header-actions { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .badge { display: inline-flex; align-items: center; gap: 7px; padding: 7px 10px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-size: 13px; }
+    .badge::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+    main { padding: 18px; }
+    .notice { padding: 10px 12px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-size: 13px; margin-bottom: 12px; }
+    .error { display: none; padding: 10px 12px; margin-bottom: 12px; border-radius: 10px; background: light-dark(#fff0e7, #43271b); color: var(--warn); font-size: 13px; }
+    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
+    .metric { padding: 16px; }
+    .label { font-size: 12px; }
+    .value { margin-top: 8px; font-size: 28px; font-weight: 600; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+    .value small { font-size: 13px; font-weight: 400; color: var(--muted); letter-spacing: 0; }
+    .meta { margin-top: 8px; color: var(--muted); font-size: 12px; min-height: 16px; }
+    .negative { color: var(--warn); }
+    .layout { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(300px, .85fr); gap: 12px; margin-top: 12px; }
+    .chart-panel, .settings { padding: 16px; }
+    .panel-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+    h2 { font-size: 15px; margin: 0; }
+    canvas { width: 100%; height: 280px; display: block; margin-top: 12px; }
+    .chart-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 8px; }
+    .scenario-buttons { display: flex; gap: 7px; flex-wrap: wrap; }
+    .scenario-buttons[hidden], button[hidden] { display: none; }
+    .settings-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 12px; margin-top: 14px; }
+    .field { min-width: 0; }
+    .field.full { grid-column: 1 / -1; }
+    .field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 5px; }
+    .field input, .field select { width: 100%; }
+    .field-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
+    .settings-actions { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 14px; }
+    .events { margin-top: 12px; overflow: hidden; }
+    .events h2 { padding: 14px 16px 8px; }
+    .event-list { list-style: none; padding: 0 16px 12px; margin: 0; }
+    .event-list li { display: grid; grid-template-columns: 78px 110px 1fr; gap: 10px; padding: 8px 0; border-top: 1px solid var(--border); font-size: 12px; }
+    .event-list time, .event-kind { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .empty { color: var(--muted); padding: 8px 0; }
+    @media (max-width: 820px) {
+      body { padding: 8px; }
+      header { align-items: flex-start; flex-direction: column; }
+      .metrics, .layout { grid-template-columns: 1fr; }
+      .chart-foot { align-items: flex-start; flex-direction: column; }
+    }
+    @media (max-width: 480px) {
+      .settings-grid { grid-template-columns: 1fr; }
+      .field.full { grid-column: auto; }
+      .event-list li { grid-template-columns: 70px 1fr; }
+      .event-list li span:last-child { grid-column: 1 / -1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="window">
+    <header>
+      <div class="brand">
+        <div class="mark" aria-hidden="true">A</div>
+        <div><div class="title">System Audio Auto Volume</div><div class="sub" id="device">正在连接本机服务…</div></div>
+      </div>
+      <div class="header-actions"><span class="badge" id="state">连接中</span><select id="mode" aria-label="控制模式"><option value="monitor">只监控</option><option value="shadow">影子决策</option><option value="lower-only">模拟只压低</option><option value="automatic">模拟完整自动</option></select></div>
+    </header>
+    <main>
+      <div class="notice" id="notice">M0–M2 模拟模式：当前数据与系统音量均为模拟值，不会读取或修改电脑真实音量。</div>
+      <div class="error" id="error" role="alert"></div>
+      <section class="metrics" aria-label="当前监控值">
+        <article class="card metric"><div class="label" id="loudness-label">模拟 Short-term loudness</div><div class="value" id="loudness">— <small id="loudness-unit">LUFS</small></div><div class="meta" id="levels">等待监测数据</div></article>
+        <article class="card metric"><div class="label" id="volume-label">当前模拟系统音量</div><div class="value" id="volume">—<small>%</small></div><div class="meta" id="baseline">用户基准 —</div></article>
+        <article class="card metric"><div class="label">自动修正</div><div class="value negative" id="correction">— <small>个百分点</small></div><div class="meta" id="reason">等待控制器</div></article>
+      </section>
+
+      <div class="layout">
+        <section class="card chart-panel" aria-labelledby="history-title">
+          <div class="panel-head"><div><h2 id="history-title">最近 60 秒</h2><div class="sub" id="chart-subtitle">模拟响度、目标区间和系统音量</div></div><div class="sub" id="scenario">—</div></div>
+          <canvas id="chart" role="img" aria-label="最近六十秒模拟响度与系统音量趋势"></canvas>
+          <div class="chart-foot"><div class="note" id="target-note">目标区间 —</div><div class="scenario-buttons" id="simulation-controls" aria-label="模拟场景"><button data-scenario="normal">目标范围</button><button data-scenario="loud">持续偏响</button><button data-scenario="quiet">持续偏轻</button><button data-scenario="peak">短峰值</button><button data-scenario="fade">渐弱</button><button data-scenario="silence">静音</button></div></div>
+        </section>
+
+        <section class="card settings" aria-labelledby="settings-title">
+          <div class="panel-head"><div><h2 id="settings-title">控制设置</h2><div class="sub" id="settings-subtitle">服务端会重新校验所有输入</div></div></div>
+          <form id="settings-form">
+            <div class="settings-grid">
+              <div class="field"><label for="trigger">触发响度 LUFS</label><input id="trigger" type="number" min="-70" max="0" step="0.5" required></div>
+              <div class="field"><label for="silence">静音门 dBFS</label><input id="silence" type="number" min="-100" max="-20" step="1" required></div>
+              <div class="field full"><label>目标响度区间 LUFS</label><div class="field-pair"><input id="target-low" aria-label="目标响度下沿" type="number" min="-70" max="0" step="0.5" required><input id="target-high" aria-label="目标响度上沿" type="number" min="-70" max="0" step="0.5" required></div></div>
+              <div class="field full"><label>系统音量范围 %</label><div class="field-pair"><input id="volume-min" aria-label="最低系统音量" type="number" min="0" max="100" step="1" required><input id="volume-max" aria-label="最高系统音量" type="number" min="0" max="100" step="1" required></div></div>
+              <div class="field"><label for="lower-step">每次压低 %</label><input id="lower-step" type="number" min="0.1" max="20" step="0.5" required></div>
+              <div class="field"><label for="lower-wait">偏响持续秒数</label><input id="lower-wait" type="number" min="0.25" max="60" step="0.25" required></div>
+              <div class="field"><label for="recovery-step">每次恢复 %</label><input id="recovery-step" type="number" min="0.1" max="10" step="0.5" required></div>
+              <div class="field"><label for="recovery-wait">偏轻持续秒数</label><input id="recovery-wait" type="number" min="1" max="300" step="1" required></div>
+              <div class="field full"><label for="override">手动调节后让路秒数</label><input id="override" type="number" min="0" max="600" step="1" required></div>
+            </div>
+            <div class="settings-actions"><button type="button" id="switch-device">模拟切换设备</button><button class="primary" type="submit">保存设置</button></div>
+          </form>
+        </section>
+      </div>
+
+      <section class="card events" aria-labelledby="events-title"><h2 id="events-title">最近控制事件</h2><ul class="event-list" id="events"><li class="empty">尚无动作</li></ul></section>
+    </main>
+  </div>
+
+  <script>
+    const $ = id => document.getElementById(id);
+    let settingsLoaded = false;
+    let rows = [];
+    let simulated = true;
+
+    async function api(path, options) {
+      const response = await fetch(path, options);
+      const value = await response.json();
+      if (!response.ok) throw new Error(value.error || `请求失败：${response.status}`);
+      return value;
+    }
+    function number(value, digits = 1) { return value == null ? '—' : Number(value).toFixed(digits).replace('-', '−'); }
+    function stateLabel(value) {
+      return ({MONITORING:'只监控', SHADOW:'影子决策', OBSERVING_HIGH:'确认偏响', OBSERVING_LOW:'确认偏轻', AUTO_HOLDING:'目标范围内', LOWERING:'正在压低', RECOVERING:'缓慢恢复', USER_OVERRIDE:'用户接管', RECALIBRATING:'重新校准', UNSUPPORTED:'设备不可控', SUSPENDED:'监测暂停'})[value] || value;
+    }
+    function showError(error) { $('error').textContent = error.message || String(error); $('error').style.display = 'block'; }
+    function clearError() { $('error').style.display = 'none'; }
+
+    function populateSettings(settings) {
+      $('mode').value = settings.mode;
+      $('trigger').value = settings.triggerLufs;
+      $('target-low').value = settings.targetLufs.low;
+      $('target-high').value = settings.targetLufs.high;
+      $('volume-min').value = settings.minSystemVolume;
+      $('volume-max').value = settings.maxSystemVolume;
+      $('lower-step').value = settings.lowerStepPercent;
+      $('recovery-step').value = settings.recoveryStepPercent;
+      $('lower-wait').value = settings.lowerSustainSeconds;
+      $('recovery-wait').value = settings.recoverySustainSeconds;
+      $('override').value = settings.manualOverrideSeconds;
+      $('silence').value = settings.silenceGateDbfs;
+      settingsLoaded = true;
+    }
+    function renderStatus(status) {
+      simulated = status.simulated;
+      const measurement = status.measurement;
+      const volume = status.volume;
+      const action = status.controller.lastAction;
+      $('device').textContent = `${status.device.name} · ${status.device.captureAvailable ? measurement.scenarioLabel : '等待音频权限或数据'}`;
+      $('state').textContent = stateLabel(status.controller.state);
+      $('scenario').textContent = simulated ? `场景：${measurement.scenarioLabel}`
+        : status.platform === 'windows' ? 'WASAPI · 只读' : 'Core Audio · 只读';
+      $('loudness-label').textContent = simulated ? '模拟 Short-term loudness' : '实时 RMS';
+      $('loudness-unit').textContent = simulated ? 'LUFS' : 'dBFS';
+      $('loudness').firstChild.textContent = `${number(simulated ? measurement.shortTermLufs : measurement.rmsDbfs)} `;
+      $('levels').textContent = simulated
+        ? `Momentary ${number(measurement.momentaryLufs)} LUFS · RMS ${number(measurement.rmsDbfs)} dBFS · Peak ${number(measurement.peakDbfs)} dBFS`
+        : `Peak ${number(measurement.peakDbfs)} dBFS · ${measurement.sampleRate ? `${number(measurement.sampleRate, 0)} Hz` : '采样率 —'} · 丢帧 ${measurement.droppedFrames ?? '—'}`;
+      $('volume-label').textContent = simulated ? '当前模拟系统音量' : '当前系统音量（只读）';
+      $('volume').firstChild.textContent = `${number(volume.system, 0)}`;
+      $('baseline').textContent = simulated
+        ? `用户基准 ${number(volume.baseline, 0)}% · 模拟系统读数`
+        : `${status.device.volumeReadable ? `${status.platform === 'windows' ? 'EndpointVolume' : 'Core Audio'} 实际读数` : '设备未提供主音量读数'} · 可写能力 ${status.device.volumeWritableCapability ? '有' : '无/未知'}`;
+      const correction = volume.correctionPercentPoints;
+      $('correction').firstChild.textContent = correction == null ? '— ' : `${correction > 0 ? '+' : ''}${number(correction, 0)} `;
+      $('reason').textContent = status.device.error || action.reason || '当前无需调整';
+      $('target-note').textContent = simulated
+        ? `目标 ${status.settings.targetLufs.low} 至 ${status.settings.targetLufs.high} LUFS · 触发 ${status.settings.triggerLufs} LUFS`
+        : '真实只读阶段只显示 RMS / Peak；LUFS 校准在 M5 完成';
+      $('notice').textContent = simulated
+        ? 'M0–M2 模拟模式：当前数据与系统音量均为模拟值，不会读取或修改电脑真实音量。'
+        : status.platform === 'windows'
+          ? 'M4 Windows 真实只读监控：读取 WASAPI loopback、设备和 EndpointVolume；不录音、不保存 PCM、绝不写入系统音量。'
+          : 'M3 macOS 真实只读监控：读取系统输出、设备和主音量；不录音、不保存 PCM、绝不写入系统音量。';
+      $('chart-subtitle').textContent = simulated ? '模拟响度、目标区间和系统音量' : '真实 RMS、Peak 与只读系统音量';
+      $('settings-subtitle').textContent = simulated ? '服务端会重新校验所有输入' : '真实只读阶段仅保存参数；控制模式固定为只监控';
+      $('mode').disabled = !simulated;
+      $('simulation-controls').hidden = !simulated;
+      $('switch-device').hidden = !simulated;
+      $('chart').setAttribute('aria-label', simulated ? '最近六十秒模拟响度与系统音量趋势' : '最近六十秒真实 RMS 与系统音量趋势');
+      if (!settingsLoaded) populateSettings(status.settings);
+    }
+
+    function renderEvents(actions) {
+      const list = $('events');
+      list.replaceChildren();
+      if (!actions.length) {
+        const item = document.createElement('li'); item.className = 'empty'; item.textContent = '尚无动作'; list.append(item); return;
+      }
+      actions.slice(0, 8).forEach(action => {
+        const item = document.createElement('li');
+        const time = document.createElement('time'); time.textContent = new Date(action.timestampMs).toLocaleTimeString();
+        const kind = document.createElement('span'); kind.className = 'event-kind'; kind.textContent = action.kind;
+        const reason = document.createElement('span');
+        const change = action.recommendedVolume == null ? '' : `（${number(action.beforeVolume, 0)}% → ${number(action.recommendedVolume, 0)}%）`;
+        reason.textContent = `${action.reason}${change}`;
+        item.append(time, kind, reason); list.append(item);
+      });
+    }
+
+    function drawChart() {
+      const canvas = $('chart');
+      const ratio = window.devicePixelRatio || 1;
+      const width = Math.max(320, canvas.clientWidth), height = Math.max(220, canvas.clientHeight);
+      canvas.width = width * ratio; canvas.height = height * ratio;
+      const context = canvas.getContext('2d'); context.scale(ratio, ratio);
+      const colors = getComputedStyle(document.documentElement);
+      const border = colors.getPropertyValue('--border').trim(), accent = colors.getPropertyValue('--accent').trim();
+      const soft = colors.getPropertyValue('--accent-soft').trim(), warn = colors.getPropertyValue('--warn').trim(), muted = colors.getPropertyValue('--muted').trim();
+      const left = 46, right = width - 12, top = 12, bottom = height - 28;
+      const y = value => top + (-8 - value) / 32 * (bottom - top);
+      context.clearRect(0, 0, width, height);
+      const low = Number($('target-low').value || -21), high = Number($('target-high').value || -17);
+      if (simulated) { context.fillStyle = soft; context.fillRect(left, y(high), right - left, y(low) - y(high)); }
+      context.strokeStyle = border; context.fillStyle = muted; context.lineWidth = 1; context.font = '11px system-ui';
+      [-10, -20, -30, -40].forEach(value => { context.beginPath(); context.moveTo(left, y(value)); context.lineTo(right, y(value)); context.stroke(); context.fillText(`${value}`, 8, y(value) + 4); });
+      if (rows.length > 1) {
+        const x = index => left + index / Math.max(1, rows.length - 1) * (right - left);
+        context.strokeStyle = accent; context.lineWidth = 2.5; context.beginPath();
+        let started = false;
+        rows.forEach((row, index) => { const level = simulated ? row.shortTermLufs : row.rmsDbfs; if (level == null) { started = false; return; } const px = x(index), py = y(level); if (!started) { context.moveTo(px, py); started = true; } else context.lineTo(px, py); }); context.stroke();
+        context.strokeStyle = warn; context.lineWidth = 1.5; context.beginPath();
+        started = false;
+        rows.forEach((row, index) => { if (row.systemVolume == null) { started = false; return; } const px = x(index), py = bottom - row.systemVolume / 100 * 48; if (!started) { context.moveTo(px, py); started = true; } else context.lineTo(px, py); }); context.stroke();
+      }
+      context.fillStyle = muted; context.fillText('60 秒前', left, height - 7); context.fillText('现在', right - 22, height - 7);
+    }
+
+    async function refreshStatus() {
+      try { renderStatus(await api('/api/status')); clearError(); } catch (error) { showError(error); }
+    }
+    async function refreshHistory() {
+      try { const value = await api('/api/history'); rows = value.rows; renderEvents(value.actions); drawChart(); } catch (error) { showError(error); }
+    }
+    $('settings-form').addEventListener('submit', async event => {
+      event.preventDefault();
+      try {
+        const result = await api('/api/settings', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({
+          mode: $('mode').value,
+          triggerLufs: Number($('trigger').value),
+          targetLufs: {low:Number($('target-low').value), high:Number($('target-high').value)},
+          minSystemVolume: Number($('volume-min').value), maxSystemVolume: Number($('volume-max').value),
+          lowerStepPercent: Number($('lower-step').value), recoveryStepPercent: Number($('recovery-step').value),
+          lowerSustainSeconds: Number($('lower-wait').value), recoverySustainSeconds: Number($('recovery-wait').value),
+          manualOverrideSeconds: Number($('override').value), silenceGateDbfs: Number($('silence').value)
+        })});
+        populateSettings(result); clearError(); await refreshStatus();
+      } catch (error) { showError(error); }
+    });
+    $('mode').addEventListener('change', async () => {
+      try { await api('/api/mode', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({mode:$('mode').value})}); clearError(); } catch (error) { showError(error); }
+    });
+    document.querySelectorAll('[data-scenario]').forEach(button => button.addEventListener('click', async () => {
+      try { await api('/api/simulate', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action:'scenario', id:button.dataset.scenario, seconds:12})}); clearError(); await refreshStatus(); } catch (error) { showError(error); }
+    }));
+    $('switch-device').addEventListener('click', async () => {
+      try { await api('/api/simulate', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action:'switch-device'})}); clearError(); await refreshStatus(); } catch (error) { showError(error); }
+    });
+    window.addEventListener('resize', drawChart);
+    Promise.all([refreshStatus(), refreshHistory()]);
+    setInterval(refreshStatus, 250);
+    setInterval(refreshHistory, 1000);
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "system-audio.contracts/v1",
+  "title": "System Audio Auto Volume contracts",
+  "oneOf": [
+    {"$ref": "#/$defs/settings"},
+    {"$ref": "#/$defs/state"},
+    {"$ref": "#/$defs/action"}
+  ],
+  "$defs": {
+    "nullableLevel": {"type": ["number", "null"], "minimum": -120, "maximum": 20},
+    "settings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "mode", "triggerLufs", "targetLufs", "minSystemVolume", "maxSystemVolume", "lowerStepPercent", "recoveryStepPercent", "lowerSustainSeconds", "recoverySustainSeconds", "manualOverrideSeconds", "silenceGateDbfs", "updatedAt"],
+      "properties": {
+        "schemaVersion": {"const": "system-audio.settings/v1"},
+        "mode": {"enum": ["monitor", "shadow", "lower-only", "automatic"]},
+        "triggerLufs": {"type": "number", "minimum": -70, "maximum": 0},
+        "targetLufs": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["low", "high"],
+          "properties": {"low": {"type": "number"}, "high": {"type": "number"}}
+        },
+        "minSystemVolume": {"type": "number", "minimum": 0, "maximum": 100},
+        "maxSystemVolume": {"type": "number", "minimum": 0, "maximum": 100},
+        "lowerStepPercent": {"type": "number", "exclusiveMinimum": 0, "maximum": 20},
+        "recoveryStepPercent": {"type": "number", "exclusiveMinimum": 0, "maximum": 10},
+        "lowerSustainSeconds": {"type": "number", "minimum": 0.25, "maximum": 60},
+        "recoverySustainSeconds": {"type": "number", "minimum": 1, "maximum": 300},
+        "manualOverrideSeconds": {"type": "number", "minimum": 0, "maximum": 600},
+        "silenceGateDbfs": {"type": "number", "minimum": -100, "maximum": -20},
+        "updatedAt": {"type": "string", "minLength": 1}
+      }
+    },
+    "state": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["schemaVersion", "timestampMs", "platform", "simulated", "device", "measurement", "volume", "controller", "settings"],
+      "properties": {
+        "schemaVersion": {"const": "system-audio.state/v1"},
+        "timestampMs": {"type": "number", "minimum": 0},
+        "platform": {"type": "string"},
+        "simulated": {"type": "boolean"},
+        "device": {"type": "object"},
+        "measurement": {"type": "object"},
+        "volume": {"type": "object"},
+        "controller": {"type": "object"},
+        "settings": {"$ref": "#/$defs/settings"}
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "timestampMs", "state", "kind", "reason", "evidence", "beforeVolume", "recommendedVolume", "appliedVolume", "execute", "mode", "controllerVersion", "settingsUpdatedAt"],
+      "properties": {
+        "schemaVersion": {"const": "system-audio.action/v1"},
+        "timestampMs": {"type": "number", "minimum": 0},
+        "state": {"type": "string"},
+        "kind": {"type": "string"},
+        "reason": {"type": "string"},
+        "evidence": {"type": "object"},
+        "beforeVolume": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "recommendedVolume": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "appliedVolume": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "execute": {"type": "boolean"},
+        "mode": {"enum": ["monitor", "shadow", "lower-only", "automatic"]},
+        "controllerVersion": {"type": "string"},
+        "settingsUpdatedAt": {"type": "string"}
+      }
+    }
+  }
+}
