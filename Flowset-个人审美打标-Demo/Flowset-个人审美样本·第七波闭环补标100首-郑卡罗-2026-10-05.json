@@ -1,0 +1,6884 @@
+{
+  "schemaVersion": "flowset.annotations/v1",
+  "app": {
+    "name": "Flowset 个人审美打标",
+    "version": "0.1.0"
+  },
+  "exportedAt": "2026-10-05T09:57:05.698Z",
+  "annotator": {
+    "id": "郑卡罗"
+  },
+  "dataset": {
+    "name": "Flowset 个人审美样本·第七波闭环补标100首",
+    "trackCount": 100
+  },
+  "dimensions": [
+    {
+      "id": "time-scene",
+      "name": "适合的时段",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "option-mrnmytrk-y6ij6",
+          "label": "8-11"
+        },
+        {
+          "id": "option-mrnmytrk-zc362",
+          "label": "11-14"
+        },
+        {
+          "id": "option-mrnmytrk-f0hlx",
+          "label": "14-17"
+        },
+        {
+          "id": "option-mrnmytrk-54l50",
+          "label": "17-20"
+        }
+      ]
+    },
+    {
+      "id": "energy-state",
+      "name": "能量状态",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-1-平静",
+          "label": "平静"
+        },
+        {
+          "id": "option-2-渐进",
+          "label": "渐进"
+        },
+        {
+          "id": "option-3-有冲劲",
+          "label": "有冲劲"
+        },
+        {
+          "id": "option-4-爆发",
+          "label": "爆发"
+        },
+        {
+          "id": "option-5-不确定",
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv2el-bcz56",
+      "name": "噪音程度",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmx6nb-hceo5",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmx6nb-me16i",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmx6nb-gpkmg",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmx6nb-xhmoc",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmx6nb-nrjzr",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmx6nb-3f5jk",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmx6nb-koip6",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmx6nb-qqwvw",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmx6nb-ot0xk",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmx6nb-khx5g",
+          "label": "10"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv3aw-rxr7k",
+      "name": "摇摆速率",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmxcnn-ykgfn",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmxcnn-64mj5",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmxcnn-5aaot",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmxcnn-iuu46",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmxcnn-msz0f",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmxcnn-vrulw",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmxcnn-05i18",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmxcnn-lrmxo",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmxcnn-kdr2b",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmxcnn-r7ede",
+          "label": "10"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv3ns-cb63i",
+      "name": "负担程度",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmxdlm-cae37",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmxdlm-gmiqn",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmxdlm-d0znk",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmxdlm-8vv1r",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmxdlm-qypsz",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmxdlm-g3mmn",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmxdlm-hz4jz",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmxdlm-32e5u",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmxdlm-2b61y",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmxdlm-emkzp",
+          "label": "10"
+        }
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "order": 1,
+      "file": {
+        "name": "4 Her - iwamizu.mp3",
+        "relativePath": "音乐第七波测试/4 Her - iwamizu.mp3",
+        "size": 3961196,
+        "lastModified": 1785199737288,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 2,
+      "file": {
+        "name": "半空日落色 - Uhsgnǒd.mp3",
+        "relativePath": "音乐第七波测试/半空日落色 - Uhsgnǒd.mp3",
+        "size": 6341228,
+        "lastModified": 1785200272169,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 3,
+      "file": {
+        "name": "电动少女 - Chinese Football.mp3",
+        "relativePath": "音乐第七波测试/电动少女 - Chinese Football.mp3",
+        "size": 12451244,
+        "lastModified": 1789977001650,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 4,
+      "file": {
+        "name": "季风 (Monsoon) - Fayzz.mp3",
+        "relativePath": "音乐第七波测试/季风 (Monsoon) - Fayzz.mp3",
+        "size": 6709292,
+        "lastModified": 1785143641854,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 5,
+      "file": {
+        "name": "金色 - 羊文学.mp3",
+        "relativePath": "音乐第七波测试/金色 - 羊文学.mp3",
+        "size": 11243564,
+        "lastModified": 1789977011973,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 6,
+      "file": {
+        "name": "惊蛰 - 天声乐队.mp3",
+        "relativePath": "音乐第七波测试/惊蛰 - 天声乐队.mp3",
+        "size": 7676972,
+        "lastModified": 1785157083608,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 7,
+      "file": {
+        "name": "明天你依旧在我身旁 - 声音玩具.mp3",
+        "relativePath": "音乐第七波测试/明天你依旧在我身旁 - 声音玩具.mp3",
+        "size": 11764844,
+        "lastModified": 1789977030048,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 8,
+      "file": {
+        "name": "男の子女の子 - Les 5-4-3-2-1.mp3",
+        "relativePath": "音乐第七波测试/男の子女の子 - Les 5-4-3-2-1.mp3",
+        "size": 5412716,
+        "lastModified": 1785149822833,
+        "type": "audio/mpeg"
+      },
+      "selections": [],
+      "confidence": null,
+      "note": null,
+      "completed": false
+    },
+    {
+      "order": 9,
+      "file": {
+        "name": "人间风景 - Fayzz.mp3",
+        "relativePath": "音乐第七波测试/人间风景 - Fayzz.mp3",
+        "size": 16505251,
+        "lastModified": 1791128108465,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "11-14",
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 10,
+      "file": {
+        "name": "仁恕 - iwamizu.mp3",
+        "relativePath": "音乐第七波测试/仁恕 - iwamizu.mp3",
+        "size": 4723820,
+        "lastModified": 1785199589372,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 11,
+      "file": {
+        "name": "神様のたくらみ - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/神様のたくらみ - 青葉市子.mp3",
+        "size": 8260844,
+        "lastModified": 1789977044562,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 12,
+      "file": {
+        "name": "双位循环 - She Never Sings Our Songs.mp3",
+        "relativePath": "音乐第七波测试/双位循环 - She Never Sings Our Songs.mp3",
+        "size": 9099116,
+        "lastModified": 1785157597037,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": "四分钟前后比较有噪音",
+      "completed": true
+    },
+    {
+      "order": 13,
+      "file": {
+        "name": "住在十六层的少年 - 16层乐队.mp3",
+        "relativePath": "音乐第七波测试/住在十六层的少年 - 16层乐队.mp3",
+        "size": 11813804,
+        "lastModified": 1785144177813,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": "6:15前后爆发比较有噪音，摇摆也更快",
+      "completed": true
+    },
+    {
+      "order": 14,
+      "file": {
+        "name": "A Calf Born In Winter - Khruangbin.mp3",
+        "relativePath": "音乐第七波测试/A Calf Born In Winter - Khruangbin.mp3",
+        "size": 8374125,
+        "lastModified": 1789976589142,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 15,
+      "file": {
+        "name": "a,s,a - fox capture plan.mp3",
+        "relativePath": "音乐第七波测试/a,s,a - fox capture plan.mp3",
+        "size": 7026092,
+        "lastModified": 1785287595178,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 16,
+      "file": {
+        "name": "Always - Daniel Caesar.mp3",
+        "relativePath": "音乐第七波测试/Always - Daniel Caesar.mp3",
+        "size": 5409260,
+        "lastModified": 1785293877478,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "8-11",
+            "11-14",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 17,
+      "file": {
+        "name": "anemo - euphoria.mp3",
+        "relativePath": "音乐第七波测试/anemo - euphoria.mp3",
+        "size": 7693100,
+        "lastModified": 1785197128385,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 18,
+      "file": {
+        "name": "Apalachee - Goldmund.mp3",
+        "relativePath": "音乐第七波测试/Apalachee - Goldmund.mp3",
+        "size": 7163756,
+        "lastModified": 1785419802389,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 19,
+      "file": {
+        "name": "April - 小濑村晶.mp3",
+        "relativePath": "音乐第七波测试/April - 小濑村晶.mp3",
+        "size": 4657580,
+        "lastModified": 1785446235730,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 20,
+      "file": {
+        "name": "Attune - Alfa Mist.mp3",
+        "relativePath": "音乐第七波测试/Attune - Alfa Mist.mp3",
+        "size": 10176812,
+        "lastModified": 1785292176801,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": "比较高级的爵士",
+      "completed": true
+    },
+    {
+      "order": 21,
+      "file": {
+        "name": "BABY BLUE - Fishmans.mp3",
+        "relativePath": "音乐第七波测试/BABY BLUE - Fishmans.mp3",
+        "size": 8864108,
+        "lastModified": 1785164855388,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 22,
+      "file": {
+        "name": "Baby Boy - Choker.mp3",
+        "relativePath": "音乐第七波测试/Baby Boy - Choker.mp3",
+        "size": 4098860,
+        "lastModified": 1785292650525,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 23,
+      "file": {
+        "name": "Baghon Main - AROOJ AFTAB.mp3",
+        "relativePath": "音乐第七波测试/Baghon Main - AROOJ AFTAB.mp3",
+        "size": 9703916,
+        "lastModified": 1785293696809,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 24,
+      "file": {
+        "name": "Beauté - Jordan Critz.mp3",
+        "relativePath": "音乐第七波测试/Beauté - Jordan Critz.mp3",
+        "size": 4008428,
+        "lastModified": 1785198027252,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 25,
+      "file": {
+        "name": "Before Dawn - Men I Trust.mp3",
+        "relativePath": "音乐第七波测试/Before Dawn - Men I Trust.mp3",
+        "size": 5120684,
+        "lastModified": 1785293047438,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 26,
+      "file": {
+        "name": "Between The Trees - 小濑村晶.mp3",
+        "relativePath": "音乐第七波测试/Between The Trees - 小濑村晶.mp3",
+        "size": 5017580,
+        "lastModified": 1785456538266,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 27,
+      "file": {
+        "name": "Black Hole Era - Men I Trust.mp3",
+        "relativePath": "音乐第七波测试/Black Hole Era - Men I Trust.mp3",
+        "size": 3958316,
+        "lastModified": 1785293070381,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 28,
+      "file": {
+        "name": "Book - Chon.mp3",
+        "relativePath": "音乐第七波测试/Book - Chon.mp3",
+        "size": 3900140,
+        "lastModified": 1785293248615,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 29,
+      "file": {
+        "name": "Borderlines - Vraell.mp3",
+        "relativePath": "音乐第七波测试/Borderlines - Vraell.mp3",
+        "size": 6173612,
+        "lastModified": 1790245010432,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 30,
+      "file": {
+        "name": "Brian - Alfa Mist.mp3",
+        "relativePath": "音乐第七波测试/Brian - Alfa Mist.mp3",
+        "size": 3718124,
+        "lastModified": 1785292189641,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 31,
+      "file": {
+        "name": "Burst - Kiasmos.mp3",
+        "relativePath": "音乐第七波测试/Burst - Kiasmos.mp3",
+        "size": 6516332,
+        "lastModified": 1785293790663,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": null,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 32,
+      "file": {
+        "name": "Butterfly - Cleo Sol.mp3",
+        "relativePath": "音乐第七波测试/Butterfly - Cleo Sol.mp3",
+        "size": 5282540,
+        "lastModified": 1785292761046,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 33,
+      "file": {
+        "name": "Clementine - Sarah Jaffe.mp3",
+        "relativePath": "音乐第七波测试/Clementine - Sarah Jaffe.mp3",
+        "size": 6936236,
+        "lastModified": 1785150430990,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 34,
+      "file": {
+        "name": "Costa da Caparica - RIOPY.mp3",
+        "relativePath": "音乐第七波测试/Costa da Caparica - RIOPY.mp3",
+        "size": 5430572,
+        "lastModified": 1785198564039,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 35,
+      "file": {
+        "name": "CREEK - Hiroshi Yoshimura.mp3",
+        "relativePath": "音乐第七波测试/CREEK - Hiroshi Yoshimura.mp3",
+        "size": 7038188,
+        "lastModified": 1785420289114,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 36,
+      "file": {
+        "name": "crybaby - Kiefer.mp3",
+        "relativePath": "音乐第七波测试/crybaby - Kiefer.mp3",
+        "size": 6878636,
+        "lastModified": 1785294033662,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 37,
+      "file": {
+        "name": "Days of Daze - tfvsjs.mp3",
+        "relativePath": "音乐第七波测试/Days of Daze - tfvsjs.mp3",
+        "size": 6836588,
+        "lastModified": 1785150496547,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 38,
+      "file": {
+        "name": "Detective Lungmen - 塞壬唱片-MSR, 顾忠山, Damien Banzigou.mp3",
+        "relativePath": "音乐第七波测试/Detective Lungmen - 塞壬唱片-MSR, 顾忠山, Damien Banzigou.mp3",
+        "size": 3934124,
+        "lastModified": 1784707186363,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 39,
+      "file": {
+        "name": "Diamond Cut - 文雀.mp3",
+        "relativePath": "音乐第七波测试/Diamond Cut - 文雀.mp3",
+        "size": 7137836,
+        "lastModified": 1785150635016,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 40,
+      "file": {
+        "name": "Ditto - DooPiano.mp3",
+        "relativePath": "音乐第七波测试/Ditto - DooPiano.mp3",
+        "size": 5076908,
+        "lastModified": 1785198872399,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 41,
+      "file": {
+        "name": "Diya Hai - AROOJ AFTAB.mp3",
+        "relativePath": "音乐第七波测试/Diya Hai - AROOJ AFTAB.mp3",
+        "size": 7138988,
+        "lastModified": 1785293712163,
+        "type": "audio/mpeg"
+      },
+      "selections": [],
+      "confidence": null,
+      "note": null,
+      "completed": false
+    },
+    {
+      "order": 42,
+      "file": {
+        "name": "El Transcurrir De Las Horas - Bosques De Mi Mente.mp3",
+        "relativePath": "音乐第七波测试/El Transcurrir De Las Horas - Bosques De Mi Mente.mp3",
+        "size": 4645484,
+        "lastModified": 1785197555603,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 43,
+      "file": {
+        "name": "Explore the World - I Spell it Nature.mp3",
+        "relativePath": "音乐第七波测试/Explore the World - I Spell it Nature.mp3",
+        "size": 8873900,
+        "lastModified": 1785158734365,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "2:40 后面爆发，比较有噪音",
+      "completed": true
+    },
+    {
+      "order": 44,
+      "file": {
+        "name": "FEEL - Hiroshi Yoshimura.mp3",
+        "relativePath": "音乐第七波测试/FEEL - Hiroshi Yoshimura.mp3",
+        "size": 6431084,
+        "lastModified": 1785419951325,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 45,
+      "file": {
+        "name": "Free Shoes - Busty and the Bass.mp3",
+        "relativePath": "音乐第七波测试/Free Shoes - Busty and the Bass.mp3",
+        "size": 6133868,
+        "lastModified": 1785150551887,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 46,
+      "file": {
+        "name": "Girls from Nyc - Harrison Hudson.mp3",
+        "relativePath": "音乐第七波测试/Girls from Nyc - Harrison Hudson.mp3",
+        "size": 3068972,
+        "lastModified": 1785166358096,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 47,
+      "file": {
+        "name": "Hawaii Oslo - Hania Rani.mp3",
+        "relativePath": "音乐第七波测试/Hawaii Oslo - Hania Rani.mp3",
+        "size": 6139052,
+        "lastModified": 1785199708708,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 48,
+      "file": {
+        "name": "Hell N Back - Bakar.mp3",
+        "relativePath": "音乐第七波测试/Hell N Back - Bakar.mp3",
+        "size": 5100524,
+        "lastModified": 1785161980676,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 49,
+      "file": {
+        "name": "Her Light - Cleo Sol.mp3",
+        "relativePath": "音乐第七波测试/Her Light - Cleo Sol.mp3",
+        "size": 5871788,
+        "lastModified": 1785292772434,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 50,
+      "file": {
+        "name": "I Giorni - Ludovico Einaudi.mp3",
+        "relativePath": "音乐第七波测试/I Giorni - Ludovico Einaudi.mp3",
+        "size": 8622764,
+        "lastModified": 1785197927197,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 51,
+      "file": {
+        "name": "In My Feelings - Brasstracks.mp3",
+        "relativePath": "音乐第七波测试/In My Feelings - Brasstracks.mp3",
+        "size": 4781420,
+        "lastModified": 1785159274905,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 52,
+      "file": {
+        "name": "Inayaat - AROOJ AFTAB.mp3",
+        "relativePath": "音乐第七波测试/Inayaat - AROOJ AFTAB.mp3",
+        "size": 11215340,
+        "lastModified": 1785293724118,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 53,
+      "file": {
+        "name": "Kaleidoscope - fox capture plan.mp3",
+        "relativePath": "音乐第七波测试/Kaleidoscope - fox capture plan.mp3",
+        "size": 6575660,
+        "lastModified": 1785143658352,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 54,
+      "file": {
+        "name": "Leave My Home - FKJ.mp3",
+        "relativePath": "音乐第七波测试/Leave My Home - FKJ.mp3",
+        "size": 5325164,
+        "lastModified": 1785162422274,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 55,
+      "file": {
+        "name": "Love Of The Loveless - Eels.mp3",
+        "relativePath": "音乐第七波测试/Love Of The Loveless - Eels.mp3",
+        "size": 5083820,
+        "lastModified": 1785149762543,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 56,
+      "file": {
+        "name": "Mars 2027 - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/Mars 2027 - 青葉市子.mp3",
+        "size": 19501485,
+        "lastModified": 1789976695265,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 57,
+      "file": {
+        "name": "Masollan - Balmorhea.mp3",
+        "relativePath": "音乐第七波测试/Masollan - Balmorhea.mp3",
+        "size": 7524332,
+        "lastModified": 1785150598214,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 58,
+      "file": {
+        "name": "Meet Me Halfway - Black Eyed Peas.mp3",
+        "relativePath": "音乐第七波测试/Meet Me Halfway - Black Eyed Peas.mp3",
+        "size": 6945452,
+        "lastModified": 1785159678812,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 59,
+      "file": {
+        "name": "Moksha - Choker.mp3",
+        "relativePath": "音乐第七波测试/Moksha - Choker.mp3",
+        "size": 5032556,
+        "lastModified": 1785166713461,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 60,
+      "file": {
+        "name": "Murmuration - GoGo Penguin.mp3",
+        "relativePath": "音乐第七波测试/Murmuration - GoGo Penguin.mp3",
+        "size": 6067628,
+        "lastModified": 1785141828904,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "3:30比较有噪音",
+      "completed": true
+    },
+    {
+      "order": 61,
+      "file": {
+        "name": "New Day - Devon Rea.mp3",
+        "relativePath": "音乐第七波测试/New Day - Devon Rea.mp3",
+        "size": 3067244,
+        "lastModified": 1785144153168,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 62,
+      "file": {
+        "name": "on the pisces moon - Yaya Bey.mp3",
+        "relativePath": "音乐第七波测试/on the pisces moon - Yaya Bey.mp3",
+        "size": 4033196,
+        "lastModified": 1785144953667,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 63,
+      "file": {
+        "name": "Passacaglia (fugler med ord i nebbet) - Spurv.mp3",
+        "relativePath": "音乐第七波测试/Passacaglia (fugler med ord i nebbet) - Spurv.mp3",
+        "size": 20482028,
+        "lastModified": 1785151363079,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-5-不确定"
+          ],
+          "labels": [
+            "不确定"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": "因为这首曲子太长了反而不好判断",
+      "completed": true
+    },
+    {
+      "order": 64,
+      "file": {
+        "name": "Plug In Baby - fox capture plan.mp3",
+        "relativePath": "音乐第七波测试/Plug In Baby - fox capture plan.mp3",
+        "size": 6633836,
+        "lastModified": 1785156771953,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 65,
+      "file": {
+        "name": "Quarters - Bibio.mp3",
+        "relativePath": "音乐第七波测试/Quarters - Bibio.mp3",
+        "size": 4822892,
+        "lastModified": 1785292588919,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 66,
+      "file": {
+        "name": "Reflektor - Arcade Fire.mp3",
+        "relativePath": "音乐第七波测试/Reflektor - Arcade Fire.mp3",
+        "size": 11086892,
+        "lastModified": 1785164885184,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 67,
+      "file": {
+        "name": "Remarkable Diving Feat - Sea Power.mp3",
+        "relativePath": "音乐第七波测试/Remarkable Diving Feat - Sea Power.mp3",
+        "size": 6198956,
+        "lastModified": 1785159425559,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 68,
+      "file": {
+        "name": "Rollerball - Mogwai.mp3",
+        "relativePath": "音乐第七波测试/Rollerball - Mogwai.mp3",
+        "size": 5466860,
+        "lastModified": 1785142277716,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 69,
+      "file": {
+        "name": "Sagu Palm's Song - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/Sagu Palm's Song - 青葉市子.mp3",
+        "size": 5690348,
+        "lastModified": 1784213718603,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "11-14",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 70,
+      "file": {
+        "name": "Sailed - Kiasmos.mp3",
+        "relativePath": "音乐第七波测试/Sailed - Kiasmos.mp3",
+        "size": 6198956,
+        "lastModified": 1785293841053,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 71,
+      "file": {
+        "name": "Sakura - RIOPY.mp3",
+        "relativePath": "音乐第七波测试/Sakura - RIOPY.mp3",
+        "size": 5449580,
+        "lastModified": 1785198308390,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 72,
+      "file": {
+        "name": "Say U Won't - Brasstracks.mp3",
+        "relativePath": "音乐第七波测试/Say U Won't - Brasstracks.mp3",
+        "size": 4564268,
+        "lastModified": 1785161898065,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 73,
+      "file": {
+        "name": "Secret Pint - Mogwai.mp3",
+        "relativePath": "音乐第七波测试/Secret Pint - Mogwai.mp3",
+        "size": 5219756,
+        "lastModified": 1785142445236,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 74,
+      "file": {
+        "name": "showers with sunny intervals - how to count one to ten.mp3",
+        "relativePath": "音乐第七波测试/showers with sunny intervals - how to count one to ten.mp3",
+        "size": 7681580,
+        "lastModified": 1785144117569,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 75,
+      "file": {
+        "name": "Spartacus Love Theme - RePlus.mp3",
+        "relativePath": "音乐第七波测试/Spartacus Love Theme - RePlus.mp3",
+        "size": 6387308,
+        "lastModified": 1785142617582,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 76,
+      "file": {
+        "name": "Summer Suite - Jordan Critz.mp3",
+        "relativePath": "音乐第七波测试/Summer Suite - Jordan Critz.mp3",
+        "size": 4729004,
+        "lastModified": 1785197384744,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 77,
+      "file": {
+        "name": "Sworn - Kiasmos.mp3",
+        "relativePath": "音乐第七波测试/Sworn - Kiasmos.mp3",
+        "size": 10196204,
+        "lastModified": 1789976950839,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 78,
+      "file": {
+        "name": "The edge of everything - Sleepmakeswaves.mp3",
+        "relativePath": "音乐第七波测试/The edge of everything - Sleepmakeswaves.mp3",
+        "size": 15175916,
+        "lastModified": 1785150291021,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": "时长太长导致不好判断",
+      "completed": true
+    },
+    {
+      "order": 79,
+      "file": {
+        "name": "The Idiot - Seth Staton Watkins.mp3",
+        "relativePath": "音乐第七波测试/The Idiot - Seth Staton Watkins.mp3",
+        "size": 3609260,
+        "lastModified": 1785150031836,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 80,
+      "file": {
+        "name": "Things Change - Busty and the Bass.mp3",
+        "relativePath": "音乐第七波测试/Things Change - Busty and the Bass.mp3",
+        "size": 6632108,
+        "lastModified": 1785143198429,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 81,
+      "file": {
+        "name": "Track in Time - Dennis Kuo.mp3",
+        "relativePath": "音乐第七波测试/Track in Time - Dennis Kuo.mp3",
+        "size": 7655084,
+        "lastModified": 1785199815236,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-cae37"
+          ],
+          "labels": [
+            "1"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 82,
+      "file": {
+        "name": "Up Top - Busty and the Bass.mp3",
+        "relativePath": "音乐第七波测试/Up Top - Busty and the Bass.mp3",
+        "size": 6771500,
+        "lastModified": 1785150532719,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 83,
+      "file": {
+        "name": "Us - A COLORS SHOW - FKJ.mp3",
+        "relativePath": "音乐第七波测试/Us - A COLORS SHOW - FKJ.mp3",
+        "size": 5673644,
+        "lastModified": 1785196871134,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 84,
+      "file": {
+        "name": "Valley Wulf - Bibio.mp3",
+        "relativePath": "音乐第七波测试/Valley Wulf - Bibio.mp3",
+        "size": 4810220,
+        "lastModified": 1785292613853,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 85,
+      "file": {
+        "name": "We Had to End It - Cuco.mp3",
+        "relativePath": "音乐第七波测试/We Had to End It - Cuco.mp3",
+        "size": 8394668,
+        "lastModified": 1785150114330,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 86,
+      "file": {
+        "name": "When You Were Mine - Prince.mp3",
+        "relativePath": "音乐第七波测试/When You Were Mine - Prince.mp3",
+        "size": 5414444,
+        "lastModified": 1785164327152,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "17-20",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 87,
+      "file": {
+        "name": "Yellow Surf - toconoma.mp3",
+        "relativePath": "音乐第七波测试/Yellow Surf - toconoma.mp3",
+        "size": 8957996,
+        "lastModified": 1785164930435,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 88,
+      "file": {
+        "name": "Yes! I Am a Long Way from Home - Mogwai.mp3",
+        "relativePath": "音乐第七波测试/Yes! I Am a Long Way from Home - Mogwai.mp3",
+        "size": 8573228,
+        "lastModified": 1785143277001,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "11-14",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 89,
+      "file": {
+        "name": "あの街に風吹けば - 羊文学.mp3",
+        "relativePath": "音乐第七波测试/あの街に風吹けば - 羊文学.mp3",
+        "size": 7890284,
+        "lastModified": 1789976776142,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 90,
+      "file": {
+        "name": "あの日のままのぼくら - 雨宮天, 高橋李依, 茅野愛衣.mp3",
+        "relativePath": "音乐第七波测试/あの日のままのぼくら - 雨宮天, 高橋李依, 茅野愛衣.mp3",
+        "size": 7681964,
+        "lastModified": 1789976778054,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": "二次元歌曲不好说",
+      "completed": true
+    },
+    {
+      "order": 91,
+      "file": {
+        "name": "アンディーヴと眠って - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/アンディーヴと眠って - 青葉市子.mp3",
+        "size": 12869804,
+        "lastModified": 1789976827795,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 92,
+      "file": {
+        "name": "いりぐちでぐち - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/いりぐちでぐち - 青葉市子.mp3",
+        "size": 28615724,
+        "lastModified": 1789976791797,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 93,
+      "file": {
+        "name": "うたのけはい - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/うたのけはい - 青葉市子.mp3",
+        "size": 5111685,
+        "lastModified": 1789976598172,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "11-14",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 94,
+      "file": {
+        "name": "オトノケ - Otonoke - Creepy Nuts.mp3",
+        "relativePath": "音乐第七波测试/オトノケ - Otonoke - Creepy Nuts.mp3",
+        "size": 4698476,
+        "lastModified": 1785144231822,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-vrulw"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 95,
+      "file": {
+        "name": "おめでとうの唄 - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/おめでとうの唄 - 青葉市子.mp3",
+        "size": 3817964,
+        "lastModified": 1789976788920,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 96,
+      "file": {
+        "name": "さよならペンギン - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/さよならペンギン - 青葉市子.mp3",
+        "size": 4460204,
+        "lastModified": 1789976791818,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 97,
+      "file": {
+        "name": "フェンスのある家 - OGRE YOU A**HOLE.mp3",
+        "relativePath": "音乐第七波测试/フェンスのある家 - OGRE YOU A**HOLE.mp3",
+        "size": 16493804,
+        "lastModified": 1789976817295,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 98,
+      "file": {
+        "name": "マホロボシヤ - 青葉市子.mp3",
+        "relativePath": "音乐第七波测试/マホロボシヤ - 青葉市子.mp3",
+        "size": 13816364,
+        "lastModified": 1789976820059,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-hceo5"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-ykgfn"
+          ],
+          "labels": [
+            "1"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 2,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 99,
+      "file": {
+        "name": "ライフワーク - OGRE YOU A**HOLE.mp3",
+        "relativePath": "音乐第七波测试/ライフワーク - OGRE YOU A**HOLE.mp3",
+        "size": 7249004,
+        "lastModified": 1784213721148,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 100,
+      "file": {
+        "name": "ロープ - OGRE YOU A**HOLE.mp3",
+        "relativePath": "音乐第七波测试/ロープ - OGRE YOU A**HOLE.mp3",
+        "size": 15870764,
+        "lastModified": 1789976851155,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50",
+            "option-mrnmytrk-y6ij6"
+          ],
+          "labels": [
+            "17-20",
+            "8-11"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    }
+  ],
+  "summary": {
+    "completedTracks": 98,
+    "incompleteTracks": 2
+  }
+}

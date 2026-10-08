@@ -24,10 +24,13 @@ MATCHED_CSV = DEMO / "flowset_tag_matched.csv"
 AUDIT_CSV = DEMO / "flowset_tag_match_audit.csv"
 
 WAVES = [
-    ("0716", "第一波 · 07-16", "2026-07-16"),
-    ("0722", "第二波 · 07-22", "2026-07-22"),
-    ("0728", "第三波 · 07-28", "2026-07-28"),
-    ("0925", "第四波 · 09-25", "2026-09-25"),
+    ("0716", "第一波 · 07-16", "2026-07-16", "Flowset-个人审美样本-郑卡罗-2026-07-16.json"),
+    ("0722", "第二波 · 07-22", "2026-07-22", "Flowset-个人审美样本-郑卡罗-2026-07-22.json"),
+    ("0728", "第三波 · 07-28", "2026-07-28", "Flowset-个人审美样本-郑卡罗-2026-07-28.json"),
+    ("0925", "第四波 · 09-25", "2026-09-25", "Flowset-个人审美样本-郑卡罗-2026-09-25.json"),
+    ("0926", "第五波 · 09-26", "2026-09-26", "Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json"),
+    ("1003", "第六波 · 10-03", "2026-10-03", "Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json"),
+    ("1005", "第七波 · 10-05", "2026-10-05", "Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05.json"),
 ]
 
 GENRES = [
@@ -309,9 +312,11 @@ def build_song_index() -> tuple[dict[str, set[str]], dict[str, dict]]:
 
 def read_flowset() -> list[dict]:
     observations: list[dict] = []
-    for wave_order, (wave_key, wave_label, date) in enumerate(WAVES, start=1):
-        payload = load_json(DEMO / f"Flowset-个人审美样本-郑卡罗-{date}.json")
+    for wave_order, (wave_key, wave_label, date, filename) in enumerate(WAVES, start=1):
+        payload = load_json(DEMO / filename)
         for track in payload["tracks"]:
+            if not track.get("completed"):
+                continue
             selections = {item["dimension"]: item["labels"] for item in track["selections"]}
             observations.append(
                 {
@@ -742,8 +747,8 @@ def build_report() -> None:
     observations = read_flowset()
     matched_observations, audit = match_data(observations)
     primary = dedupe_latest(matched_observations)
-    wave4 = dedupe_latest([row for row in matched_observations if row["wave_key"] == "0925"])
-    pre4 = dedupe_latest([row for row in matched_observations if row["wave_key"] != "0925"])
+    early = dedupe_latest([row for row in matched_observations if row["wave_order"] <= 3])
+    recent = dedupe_latest([row for row in matched_observations if row["wave_order"] >= 4])
     flow_unique = dedupe_flow_latest(observations)
     write_csvs(primary, audit)
 
@@ -767,7 +772,7 @@ def build_report() -> None:
         for genre in GENRES
     ]
     coverage_by_wave = []
-    for wave_key, wave_label, _ in WAVES:
+    for wave_key, wave_label, _, _ in WAVES:
         wave_rows = [row for row in audit if row["wave"] == wave_label]
         wave_counts = Counter(row["status"] for row in wave_rows)
         coverage_by_wave.append(
@@ -781,7 +786,7 @@ def build_report() -> None:
             }
         )
     report = {
-        "generated": "2026-09-25",
+        "generated": WAVES[-1][2],
         "coverage": {
             "flow_observations": len(observations),
             "flow_unique_filenames": len({row["match_key"] for row in observations}),
@@ -789,8 +794,8 @@ def build_report() -> None:
             "songbase_matched_observations": len(observations) - audit_counts.get("not_matched_to_songbase", 0),
             "songbase_matched_unique": len(songbase_unique_ids),
             "matched_unique": len(primary),
-            "wave4_matched": len(wave4),
-            "pre4_matched": len(pre4),
+            "early_matched": len(early),
+            "recent_matched": len(recent),
             "formal_observation_rate": round(len(matched_observations) / len(observations), 4),
             "formal_unique_rate": round(len(primary) / len(flow_unique), 4),
             "audit": dict(audit_counts),
@@ -800,8 +805,8 @@ def build_report() -> None:
         },
         "scopes": {
             "all": summarize_scope(primary),
-            "pre4": summarize_scope(pre4),
-            "wave4": summarize_scope(wave4),
+            "early": summarize_scope(early),
+            "recent": summarize_scope(recent),
         },
         "flowset": flowset_only_summary(flow_unique),
         "predictability": cross_validated_predictability(primary),
@@ -810,7 +815,7 @@ def build_report() -> None:
         "outliers": most_unusual_tracks(primary),
         "sampling_plan": sampling_plan,
         "unmatched": [row for row in audit if row["status"] != "formal_tag"],
-        "scope_rows": {"all": primary, "pre4": pre4, "wave4": wave4},
+        "scope_rows": {"all": primary, "early": early, "recent": recent},
     }
 
     profiles = report["scopes"]["all"]["profiles"]
@@ -836,7 +841,7 @@ def build_report() -> None:
     OUT.write_text(page, encoding="utf-8")
     print(f"written: {OUT} ({OUT.stat().st_size} bytes)")
     print(f"matched observations: {len(matched_observations)}/{len(observations)}")
-    print(f"primary unique tracks: {len(primary)}; fourth-wave matched: {len(wave4)}")
+    print(f"primary unique tracks: {len(primary)}; early/recent matched: {len(early)}/{len(recent)}")
     print(f"csv: {MATCHED_CSV.name}, audit: {AUDIT_CSV.name}")
 
 
@@ -854,35 +859,35 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <header class="top"><div><h1>Flowset × SongTag 联合分析</h1><p>个人听感维度与正式人工音乐标签的关系 · 去重主分析 · 离线报告</p></div><div class="scope" id="scope"><button class="active" data-scope="all">主分析</button><button data-scope="pre4">前三波</button><button data-scope="wave4">第四波</button></div></header>
+  <header class="top"><div><h1>Flowset × SongTag 联合分析</h1><p>个人听感维度与正式人工音乐标签的关系 · 去重主分析 · 离线报告</p></div><div class="scope" id="scope"><button class="active" data-scope="all">主分析</button><button data-scope="early">前三波</button><button data-scope="recent">后三波</button></div></header>
   <div class="notice">本报告描述“你如何感知不同类型音乐”，并不直接等同于喜欢／不喜欢。关联不代表因果；样本少于 10 首的风格仅作探索性观察。</div>
-  <div class="notice" style="border-color:#cdd8ff;background:#f6f8ff;color:#40507f">顶部范围切换会更新主风格样本构成、数值、能量、时段、Instrumental 和曲目明细。总体结论、186 首全量相关、预测、重测、异常与补样模块固定使用各自标明的口径。</div>
+  <div class="notice" style="border-color:#cdd8ff;background:#f6f8ff;color:#40507f">顶部范围切换会更新主风格样本构成、数值、能量、时段、Instrumental 和曲目明细。总体结论、全量相关、预测、重测、异常与补样模块固定使用各自标明的口径。</div>
   <div class="kpis" id="kpis"></div>
-  <p class="desc" style="margin:0 0 8px;color:var(--sub);font-size:12px">总体主结论（固定使用 131 首主分析样本）</p><div class="findings">__STATIC_SUMMARY__</div>
+  <p class="desc" style="margin:0 0 8px;color:var(--sub);font-size:12px">总体主结论（固定使用去重主分析样本）</p><div class="findings">__STATIC_SUMMARY__</div>
 
-  <section><h2>决策摘要：Tag 可以做什么</h2><p class="desc">把结果转成选曲与打标决策，而不只是看相关系数。</p><div class="tablewrap"><table><thead><tr><th>级别</th><th>可用于</th><th>不应用于</th><th>当前证据</th></tr></thead><tbody><tr><td><span class="signal stable">可粗筛</span></td><td class="left">用主风格预判大致刺激度，尤其 Ambient / Post-Rock 两端</td><td class="left">直接代填 1–10 分</td><td>数值维度 ε² = .34–.41</td></tr><tr><td><span class="signal hint">仅作先验</span></td><td class="left">能量、11–14、17–20 的选曲提示</td><td class="left">认为同风格内听感相同</td><td>能量 V 约 .28，时段受第四波放大</td></tr><tr><td><span class="signal none">必须保留 Flowset</span></td><td class="left">个人负担、8–11、14–17、风格内异常曲目</td><td class="left">用 Tag 直接替代个人判断</td><td>时段交叉验证接近无增益</td></tr></tbody></table></div></section>
+  <section><h2>决策摘要：Tag 可以做什么</h2><p class="desc">把结果转成选曲与打标决策，而不只是看相关系数。</p><div class="tablewrap"><table><thead><tr><th>级别</th><th>可用于</th><th>不应用于</th><th>当前证据</th></tr></thead><tbody><tr><td><span class="signal stable">可粗筛</span></td><td class="left">用主风格预判大致刺激度，尤其 Ambient / Post-Rock 两端</td><td class="left">直接代填 1–10 分</td><td>见下方最新置换检验</td></tr><tr><td><span class="signal hint">仅作先验</span></td><td class="left">能量与时段的选曲提示</td><td class="left">认为同风格内听感相同</td><td>见分批稳健性表</td></tr><tr><td><span class="signal none">必须保留 Flowset</span></td><td class="left">个人负担、时段与风格内异常曲目</td><td class="left">用 Tag 直接替代个人判断</td><td>交叉验证结果单独展示</td></tr></tbody></table></div></section>
 
   <section><h2>1. 数据覆盖与分析边界</h2><p class="desc">正式主分析只使用 SongBase 中已人工确认的 Tag。重复歌曲采用最新一次 Flowset 标注，重复记录单独用于稳定性检查。</p><div class="grid3"><div class="chart"><h3>观察记录匹配</h3><div id="observationCoverageChart"></div></div><div class="chart"><h3>唯一曲目匹配</h3><div id="uniqueCoverageChart"></div></div><div class="chart"><h3>正式标签样本构成</h3><div id="genreCountChart"></div><div class="chart-note">Electronic 仅 5 首，标为探索性样本；n&lt;10 不生成强结论。</div></div></div><h3 style="font-size:13px;margin:18px 0 8px">按波次的匹配审计</h3><div id="waveCoverage" class="tablewrap"></div></section>
 
-  <section><h2>2. 风格与三个主观数值维度</h2><p class="desc">箱体表示 Q1–Q3，粗线是中位数，细线是范围，圆点是均值。1–10 为序数量表，推断采用秩检验与置换检验。</p><div class="grid3"><div class="chart"><h3>噪音程度</h3><div id="noiseChart"></div></div><div class="chart"><h3>摇摆速率</h3><div id="swingChart"></div></div><div class="chart"><h3>负担程度</h3><div id="burdenChart"></div></div></div><div id="numericEffects" class="tablewrap" style="margin-top:15px"></div><h3 style="font-size:13px;margin:18px 0 8px">波次稳健性</h3><div id="robustnessTable" class="tablewrap"></div><div class="chart-note">前三波 n=52，第四波 n=83；4 首跨波重复曲会同时出现在两个稳健性范围中，但主分析仅保留它们的最新标注。第四波主要放大已有数值方向，没有将 Ambient / Post-Rock 的主方向反转；时段关联则明显更受第四波驱动。</div></section>
+  <section><h2>2. 风格与三个主观数值维度</h2><p class="desc">箱体表示 Q1–Q3，粗线是中位数，细线是范围，圆点是均值。1–10 为序数量表，推断采用秩检验与置换检验。</p><div class="grid3"><div class="chart"><h3>噪音程度</h3><div id="noiseChart"></div></div><div class="chart"><h3>摇摆速率</h3><div id="swingChart"></div></div><div class="chart"><h3>负担程度</h3><div id="burdenChart"></div></div></div><div id="numericEffects" class="tablewrap" style="margin-top:15px"></div><h3 style="font-size:13px;margin:18px 0 8px">波次稳健性</h3><div id="robustnessTable" class="tablewrap"></div><div class="chart-note">前三波与后三波分开显示；跨波重复曲会同时出现在两个稳健性范围中，但主分析仅保留最新标注。</div></section>
 
   <section><h2>3. 风格与能量状态</h2><p class="desc">每条横条为该风格内部的能量构成。Cramér’s V 衡量类别关联强度。</p><div id="energyChart"></div><div class="legend"><span><i class="sw" style="background:#4f91d9"></i>平静</span><span><i class="sw" style="background:#2eae86"></i>渐进</span><span><i class="sw" style="background:#e69a36"></i>有冲劲</span><span><i class="sw" style="background:#d94f63"></i>爆发</span><span><i class="sw" style="background:#8c96a3"></i>不确定</span></div><div id="energyEffect" class="chart-note"></div></section>
 
   <section><h2>4. 风格与适合时段</h2><p class="desc">单曲可命中多个时段；格内显示该风格中命中对应时段的比例。</p><div id="timeHeatmap"></div><div id="timeEffects" class="tablewrap" style="margin-top:15px"></div></section>
 
-  <section><h2>5. 副风格的探索性增量关系</h2><p class="desc">固定使用 131 首主分析样本。副风格可多选，表中是“命中该副风格 vs 未命中”的 one-vs-rest 比较；仅展示 n≥10，不与主风格效应直接相加。</p><div id="secondaryTable" class="tablewrap"></div></section>
+  <section><h2>5. 副风格的探索性增量关系</h2><p class="desc">固定使用去重主分析样本。副风格可多选，表中是“命中该副风格 vs 未命中”的 one-vs-rest 比较；仅展示 n≥10，不与主风格效应直接相加。</p><div id="secondaryTable" class="tablewrap"></div></section>
 
-  <section><h2>6. 维度互相关与纯音乐效应</h2><p class="desc">相关矩阵固定使用全部 186 首唯一 Flowset 曲目，避免 Tag 缺失造成偏差；纯音乐比较会随顶部范围切换，仅使用 instrumental 明确为 true / false 的曲目。</p><div class="grid2"><div class="chart"><h3>三个数值维度的 Spearman 相关</h3><div id="corrChart"></div></div><div class="chart"><h3>纯音乐 vs 非纯音乐</h3><div id="instrumentalChart"></div></div></div></section>
+  <section><h2>6. 维度互相关与纯音乐效应</h2><p class="desc">相关矩阵固定使用全部唯一 Flowset 曲目，避免 Tag 缺失造成偏差；纯音乐比较会随顶部范围切换，仅使用 instrumental 明确为 true / false 的曲目。</p><div class="grid2"><div class="chart"><h3>三个数值维度的 Spearman 相关</h3><div id="corrChart"></div></div><div class="chart"><h3>纯音乐 vs 非纯音乐</h3><div id="instrumentalChart"></div></div></div></section>
 
-  <section><h2>7. 主风格能预测多少 Flowset？</h2><p class="desc">固定使用 131 首主分析样本的探索性留一估计：每次隐藏一首，只用余下曲目的主风格均值预测，与无 Tag 全局均值基线比较。未按艺人分组，也未把波次直接纳入预测模型，因此改善幅度应视为上限线索。</p><div id="predictionChart"></div></section>
+  <section><h2>7. 主风格能预测多少 Flowset？</h2><p class="desc">固定使用去重主分析样本的探索性留一估计：每次隐藏一首，只用余下曲目的主风格均值预测，与无 Tag 全局均值基线比较。未按艺人分组，也未把波次直接纳入预测模型，因此改善幅度应视为上限线索。</p><div id="predictionChart"></div></section>
 
-  <section><h2>8. 重复标注稳定性</h2><p class="desc">固定使用全部 191 次标注识别跨波重复。同一首歌跨波重复出现，是检查个人标注一致性的自然测试；样本只有 5 首，仅用于质检。</p><div id="repeatTable" class="tablewrap"></div></section>
+  <section><h2>8. 重复标注稳定性</h2><p class="desc">固定使用全部七批标注识别跨波重复。同一首歌跨波重复出现，是检查个人标注一致性的自然测试；重复样本少，仅用于质检。</p><div id="repeatTable" class="tablewrap"></div></section>
 
-  <section><h2>9. 曲目明细与风格内异常</h2><p class="desc">下方曲目明细会随顶部范围切换；异常榜固定使用 131 首主分析样本。异常是指在同一主风格中，三个数值维度偏离该风格中位数较大的曲目。</p><h3 style="font-size:13px;margin:0 0 8px">偏离最大的 12 首</h3><div id="outlierTable" class="tablewrap" style="margin-bottom:16px"></div><input id="search" type="search" placeholder="搜索当前范围的曲名、艺人或风格" style="width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 11px;margin-bottom:10px"><div id="detailTable" class="tablewrap"></div></section>
+  <section><h2>9. 曲目明细与风格内异常</h2><p class="desc">下方曲目明细会随顶部范围切换；异常榜固定使用去重主分析样本。异常是指在同一主风格中，三个数值维度偏离该风格中位数较大的曲目。</p><h3 style="font-size:13px;margin:0 0 8px">偏离最大的 12 首</h3><div id="outlierTable" class="tablewrap" style="margin-bottom:16px"></div><input id="search" type="search" placeholder="搜索当前范围的曲名、艺人或风格" style="width:100%;border:1px solid var(--line);border-radius:9px;padding:9px 11px;margin-bottom:10px"><div id="detailTable" class="tablewrap"></div></section>
 
-  <section><h2>10. 下一波补样优先级</h2><p class="desc">固定基于 131 首主分析样本。若要把主风格组间比较做得更稳，先把不足 20 首的类别补起来；下表仅是数据设计建议，不会自动改曲库。</p><div id="samplingTable" class="tablewrap"></div></section>
+  <section><h2>10. 下一波补样优先级</h2><p class="desc">固定基于去重主分析样本。若要把主风格组间比较做得更稳，先把不足 20 首的类别补起来；下表仅是数据设计建议，不会自动改曲库。</p><div id="samplingTable" class="tablewrap"></div></section>
 
-  <section><h2>11. 方法、风险与待补数据</h2><div class="method"><details open><summary>当前最可靠的使用方式</summary><p>将结果用于建立“风格先验”：Tag 可以帮助粗筛，但负担、适合时段等个人化维度应保留 Flowset 标注。主结果使用 131 首唯一曲目；前三波 52 首与第四波 83 首分开显示，两者含 4 首跨波重复曲。</p></details><details><summary>统计口径</summary><p>风格与 1–10 维度使用 Kruskal–Wallis H、ε² 效应量和 3,000 次置换检验；类别关系使用偏差校正 Cramér’s V；同时在波次内打乱做控制波次的稳健性检查。同一家族的检验用 Benjamini–Hochberg 校正。</p></details><details><summary>副风格与其他 Tag</summary><p>81/131 首主样本有副风格，因此本版已加入 n≥10 的 one-vs-rest 探索分析。Instrumental 保留 true / false / null 三态；语言的显式非默认标签仅 11 首，暂不做语言效应推断。</p></details><details><summary>匹配与音频身份风险</summary><p>主分析仅接受“规范化曲名 + 艺人唯一命中”，不使用只看曲名的模糊匹配。3 首明确别名可作人工 override，但本保守版未纳入。第一波 Cœur croisé 与第二波 fu uh 存在历史音频身份风险，本报告不将文件名等同于已确认音频身份。</p></details><details><summary>仍需补齐的数据</summary><p>24 次 Flowset 记录可匹配到 SongBase 但尚无正式 Tag；32 次无法可靠匹配到当前 SongBase。完整清单见同目录的 flowset_tag_match_audit.csv。</p></details></div></section>
+  <section><h2>11. 方法、风险与待补数据</h2><div class="method"><details open><summary>当前最可靠的使用方式</summary><p>将结果用于建立“风格先验”：Tag 可以帮助粗筛，但负担、适合时段等个人化维度应保留 Flowset 标注。主结果使用去重后的唯一曲目；前三波与后三波分开显示。</p></details><details><summary>统计口径</summary><p>风格与 1–10 维度使用 Kruskal–Wallis H、ε² 效应量和 3,000 次置换检验；类别关系使用偏差校正 Cramér’s V；同时在波次内打乱做控制波次的稳健性检查。同一家族的检验用 Benjamini–Hochberg 校正。</p></details><details><summary>副风格与其他 Tag</summary><p>本版已加入 n≥10 的副风格 one-vs-rest 探索分析。Instrumental 保留 true / false / null 三态；语言样本较少时不做强效应推断。</p></details><details><summary>匹配与音频身份风险</summary><p>主分析仅接受“规范化曲名 + 艺人唯一命中”，不使用只看曲名的模糊匹配。第一波 Cœur croisé 与第二波 fu uh 存在历史音频身份风险，本报告不将文件名等同于已确认音频身份。</p></details><details><summary>仍需补齐的数据</summary><p>当前未匹配或尚无正式 Tag 的完整清单见同目录的 flowset_tag_match_audit.csv。</p></details></div></section>
   <div class="footer">数据来源：Flowset 四波个人标注 + SongBase 正式人工 Tag · 报告生成于 2026-09-25</div>
 </div>
 <div class="tooltip" id="tip"></div>
@@ -901,11 +906,11 @@ function pText(p){return p<.001?'p < 0.001':`p = ${p.toFixed(3)}`}
 function qText(q){return q<.001?'q < 0.001':`q = ${q.toFixed(3)}`}
 function effectWord(v){return v<.06?'弱':v<.14?'中等':'较强'}
 function signal(q){return q<.05?'<span class="signal stable">检测到关联</span>':q<.10?'<span class="signal hint">提示</span>':'<span class="signal none">证据不足</span>'}
-function renderKpis(){const s=scope(),c=REPORT.coverage,names={all:'去重主分析',pre4:'前三波样本',wave4:'第四波样本'};$('#kpis').innerHTML=[['Flowset 标注',c.flow_observations,`${c.flow_unique_filenames} 首唯一曲目`],['正式 Tag 主样本',c.matched_unique,`${Math.round(c.formal_unique_rate*100)}% 唯一曲覆盖`],[names[scopeKey],s.n,'首曲目'],['风格种类',s.profiles.length,'个主标签']].map(x=>`<div class="kpi"><b>${x[1]}</b><span>${x[0]} · ${x[2]}</span></div>`).join('')}
+function renderKpis(){const s=scope(),c=REPORT.coverage,names={all:'去重主分析',early:'前三波样本',recent:'后三波样本'};$('#kpis').innerHTML=[['Flowset 标注',c.flow_observations,`${c.flow_unique_filenames} 首唯一曲目`],['正式 Tag 主样本',c.matched_unique,`${Math.round(c.formal_unique_rate*100)}% 唯一曲覆盖`],[names[scopeKey],s.n,'首曲目'],['风格种类',s.profiles.length,'个主标签']].map(x=>`<div class="kpi"><b>${x[1]}</b><span>${x[0]} · ${x[2]}</span></div>`).join('')}
 function svgBarChart(items,opt={}){const W=560,row=31,left=190,right=48,H=items.length*row+22,max=opt.max||Math.max(...items.map(x=>x.value),1),avg=opt.avg;let svg=`<svg viewBox="0 0 ${W} ${H}" aria-label="${esc(opt.label||'bar chart')}">`;if(avg!=null){const ax=left+(W-left-right)*avg/max;svg+=`<line x1="${ax}" x2="${ax}" y1="2" y2="${H-18}" stroke="#c34f62" stroke-dasharray="4 3"/>`}items.forEach((x,i)=>{const y=i*row+6,w=(W-left-right)*x.value/max;svg+=`<text x="${left-8}" y="${y+13}" text-anchor="end" font-size="11" fill="#46515e">${esc(x.label)}</text><rect x="${left}" y="${y}" width="${Math.max(w,1)}" height="18" rx="4" fill="${x.color||COLORS[i%COLORS.length]}" opacity=".86"/><text x="${Math.min(left+w+6,W-28)}" y="${y+13}" font-size="11" fill="#202a35" font-weight="650">${opt.percent?(x.value*100).toFixed(0)+'%':x.value.toFixed(opt.decimals??1)}</text>`});return svg+'</svg>'}
 function renderCoverage(){const c=REPORT.coverage;$('#observationCoverageChart').innerHTML=svgBarChart([{label:'Flowset 观察',value:c.flow_observations},{label:'SongBase 可匹配',value:c.songbase_matched_observations},{label:'有正式 Tag',value:c.matched_observations}],{max:c.flow_observations,decimals:0});$('#uniqueCoverageChart').innerHTML=svgBarChart([{label:'Flowset 唯一曲',value:c.flow_unique_filenames},{label:'SongBase 可匹配',value:c.songbase_matched_unique},{label:'有正式 Tag',value:c.matched_unique}],{max:c.flow_unique_filenames,decimals:0});const s=scope();$('#genreCountChart').innerHTML=svgBarChart(s.profiles.map(p=>({label:p.label+(p.n<10?' · 探索性':''),value:p.n,color:GENRE_COLORS[p.genre]})),{decimals:0});$('#waveCoverage').innerHTML='<table><thead><tr><th>波次</th><th>总标注</th><th>正式 Tag</th><th>SongBase 无正式 Tag</th><th>未匹配</th></tr></thead><tbody>'+c.by_wave.map(x=>`<tr><td>${esc(x.wave)}</td><td>${x.total}</td><td>${x.formal}</td><td>${x.songbase_no_tag}</td><td>${x.unmatched}</td></tr>`).join('')+'</tbody></table>'}
 function svgBoxPlot(profiles,dim){const W=570,left=205,right=30,row=37,H=profiles.length*row+36,x=v=>left+(v-1)/9*(W-left-right);let svg=`<svg viewBox="0 0 ${W} ${H}" aria-label="${DIM_CN[dim]} 箱线图">`;[1,5,10].forEach(v=>svg+=`<text x="${x(v)}" y="${H-4}" text-anchor="middle" font-size="10" fill="#7a8591">${v}</text><line x1="${x(v)}" x2="${x(v)}" y1="2" y2="${H-20}" stroke="#edf0f4"/>`);profiles.forEach(p=>{const y=profiles.indexOf(p)*row+7,cy=y+11,color=GENRE_COLORS[p.genre];svg+=`<text x="${left-8}" y="${y+15}" text-anchor="end" font-size="10.5" fill="#46515e">${esc(p.label)} · n=${p.n}${p.n<10?'*':''}</text><line x1="${x(p[dim+'_min'])}" x2="${x(p[dim+'_max'])}" y1="${cy}" y2="${cy}" stroke="#8692a0"/><rect x="${x(p[dim+'_q1'])}" y="${y+2}" width="${Math.max(2,x(p[dim+'_q3'])-x(p[dim+'_q1']))}" height="18" rx="4" fill="${color}" opacity=".34"/><line x1="${x(p[dim+'_median'])}" x2="${x(p[dim+'_median'])}" y1="${y}" y2="${y+22}" stroke="${color}" stroke-width="3"/><circle cx="${x(p[dim])}" cy="${cy}" r="3" fill="${color}"/>`});return svg+'</svg>'}
-function renderNumeric(){const s=scope();['noise','swing','burden'].forEach(dim=>{$('#'+dim+'Chart').innerHTML=svgBoxPlot(s.profiles,dim)});$('#numericEffects').innerHTML='<table><thead><tr><th>维度</th><th>H</th><th>ε²</th><th>效应</th><th>FDR</th><th>波次内置换</th></tr></thead><tbody>'+['noise','swing','burden'].map(dim=>{const t=s.numeric_tests[dim];return `<tr><td>${DIM_CN[dim]}</td><td>${t.h.toFixed(2)}</td><td>${t.effect.toFixed(3)}</td><td>${effectWord(t.effect)}</td><td>${qText(t.q)}</td><td>${pText(t.p_wave)}</td></tr>`}).join('')+'</tbody></table>';const scopes=[['all','主分析'],['pre4','前三波'],['wave4','第四波']];$('#robustnessTable').innerHTML='<table><thead><tr><th>范围</th><th>n</th><th>噪音 ε²</th><th>摇摆 ε²</th><th>负担 ε²</th><th>能量 V</th></tr></thead><tbody>'+scopes.map(([k,label])=>{const x=REPORT.scopes[k];return `<tr><td>${label}</td><td>${x.n}</td><td>${x.numeric_tests.noise.effect.toFixed(3)}</td><td>${x.numeric_tests.swing.effect.toFixed(3)}</td><td>${x.numeric_tests.burden.effect.toFixed(3)}</td><td>${x.energy_test.effect.toFixed(3)}</td></tr>`}).join('')+'</tbody></table>'}
+function renderNumeric(){const s=scope();['noise','swing','burden'].forEach(dim=>{$('#'+dim+'Chart').innerHTML=svgBoxPlot(s.profiles,dim)});$('#numericEffects').innerHTML='<table><thead><tr><th>维度</th><th>H</th><th>ε²</th><th>效应</th><th>FDR</th><th>波次内置换</th></tr></thead><tbody>'+['noise','swing','burden'].map(dim=>{const t=s.numeric_tests[dim];return `<tr><td>${DIM_CN[dim]}</td><td>${t.h.toFixed(2)}</td><td>${t.effect.toFixed(3)}</td><td>${effectWord(t.effect)}</td><td>${qText(t.q)}</td><td>${pText(t.p_wave)}</td></tr>`}).join('')+'</tbody></table>';const scopes=[['all','主分析'],['early','前三波'],['recent','后三波']];$('#robustnessTable').innerHTML='<table><thead><tr><th>范围</th><th>n</th><th>噪音 ε²</th><th>摇摆 ε²</th><th>负担 ε²</th><th>能量 V</th></tr></thead><tbody>'+scopes.map(([k,label])=>{const x=REPORT.scopes[k];return `<tr><td>${label}</td><td>${x.n}</td><td>${x.numeric_tests.noise.effect.toFixed(3)}</td><td>${x.numeric_tests.swing.effect.toFixed(3)}</td><td>${x.numeric_tests.burden.effect.toFixed(3)}</td><td>${x.energy_test.effect.toFixed(3)}</td></tr>`}).join('')+'</tbody></table>'}
 function renderEnergy(){const s=scope(),W=900,left=205,right=45,row=34,H=s.profiles.length*row+28,totalW=W-left-right;let svg=`<svg viewBox="0 0 ${W} ${H}">`;s.profiles.forEach((p,i)=>{const y=i*row+6,total=Object.values(p.energy).reduce((a,b)=>a+b,0);svg+=`<text x="${left-9}" y="${y+15}" text-anchor="end" font-size="11">${esc(p.label)} · n=${p.n}</text>`;let x=left;Object.entries(p.energy).forEach(([e,n])=>{if(!n)return;const w=totalW*n/total;svg+=`<rect x="${x}" y="${y}" width="${w}" height="21" fill="${ENERGY_COLORS[e]}" data-tip="${esc(e)} ${n} 首（${Math.round(n/total*100)}%）"></rect>`;if(w>42)svg+=`<text x="${x+w/2}" y="${y+15}" text-anchor="middle" fill="#fff" font-size="10">${Math.round(n/total*100)}%</text>`;x+=w})});svg+='</svg>';$('#energyChart').innerHTML=svg;$('#energyChart').querySelectorAll('[data-tip]').forEach(el=>{el.addEventListener('mousemove',e=>showTip(el.dataset.tip,e));el.addEventListener('mouseleave',hideTip)});const t=s.energy_test;$('#energyEffect').innerHTML=`风格 × 能量：偏差校正 Cramér’s V = <b>${t.effect.toFixed(3)}</b>，${pText(t.p)}；波次内置换 ${pText(t.p_wave)}。`}
 function heatColor(v){const a=.10+.72*v;return `rgba(56,103,244,${a})`}
 function renderTimes(){const s=scope(),W=850,left=220,top=36,cw=145,ch=34,H=top+s.profiles.length*ch+12;let svg=`<svg viewBox="0 0 ${W} ${H}">`;['8-11','11-14','14-17','17-20'].forEach((slot,j)=>svg+=`<text x="${left+j*cw+cw/2}" y="22" text-anchor="middle" font-size="11" fill="#687483">${slot}</text>`);s.profiles.forEach((p,i)=>{svg+=`<text x="${left-8}" y="${top+i*ch+21}" text-anchor="end" font-size="11">${esc(p.label)} · n=${p.n}</text>`;['8-11','11-14','14-17','17-20'].forEach((slot,j)=>{const v=p.times[slot],x=left+j*cw,y=top+i*ch;svg+=`<rect x="${x+2}" y="${y+2}" width="${cw-4}" height="${ch-4}" rx="5" fill="${heatColor(v)}"/><text x="${x+cw/2}" y="${y+22}" text-anchor="middle" font-size="11" fill="${v>.55?'#fff':'#26313d'}" font-weight="650">${Math.round(v*100)}%</text>`})});$('#timeHeatmap').innerHTML=svg+'</svg>';$('#timeEffects').innerHTML='<table><thead><tr><th>时段</th><th>校正 V</th><th>FDR</th><th>结论级别</th><th>波次内置换</th></tr></thead><tbody>'+['8-11','11-14','14-17','17-20'].map(slot=>{const t=s.timeslot_tests[slot];return `<tr><td>${slot}</td><td>${t.effect.toFixed(3)}</td><td>${qText(t.q)}</td><td>${signal(t.q)}</td><td>${pText(t.p_wave)}</td></tr>`}).join('')+'</tbody></table>'}

@@ -3,7 +3,7 @@
 """Build the offline Tag/Flowset -> transition preference analysis report.
 
 The report deliberately excludes the fifth and eighth transition-review
-exports.  It uses the current formal SongBase tags, all five deduplicated
+exports.  It uses the current formal SongBase tags, all six deduplicated
 Flowset annotation waves, and questionSetId-verified question/review pairs.
 """
 
@@ -27,7 +27,6 @@ SONGBASE = REPO / "SongBase"
 TRANSITION_DIR = Path("/Users/kaluozheng/Desktop/SongBase 歌曲标签库/风格衔接测试")
 OUT_HTML = HERE / "flowset_transition_relationship_report.html"
 OUT_ROWS = HERE / "flowset_transition_analysis_rows.csv"
-OUT_PRIORITY = HERE / "flowset_transition_flowset_priority.csv"
 
 
 PAIRS = [
@@ -65,6 +64,8 @@ FLOWSET_WAVES = [
     ("2026-07-28", "音乐第三波测试", "Flowset-个人审美样本-郑卡罗-2026-07-28.json"),
     ("2026-09-25", "音乐第四波测试", "Flowset-个人审美样本-郑卡罗-2026-09-25.json"),
     ("2026-09-26", "音乐第五波测试", "Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json"),
+    ("2026-10-03", "音乐第六波测试", "Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json"),
+    ("2026-10-05", "音乐第七波测试", "Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05.json"),
 ]
 
 _HASH_CACHE = {}
@@ -238,6 +239,7 @@ def load_rows():
     pairing_audit = []
     track_meta = {}
     tag_drift = {}
+    missing_formal_tag_exclusions = []
 
     def resolve_flow(track_identifier, metadata):
         if track_identifier in flowset:
@@ -277,8 +279,15 @@ def load_rows():
             responses[qid] = response
             source = question["source"]
             source_id = track_id(source)
-            if source_id not in tags:
-                raise KeyError(f"No formal Tag for source {source_id}")
+            target_items = [track_payload(question[slot]) for slot in ("left", "right")]
+            missing_ids = [identity for identity in [source_id, *(track_id(item) for item in target_items)] if identity not in tags]
+            if missing_ids:
+                missing_formal_tag_exclusions.append({
+                    "question_id": qid,
+                    "track_ids": sorted(set(missing_ids)),
+                    "reason": "track-no-longer-has-current-formal-tag",
+                })
+                continue
             track_meta[source_id] = {
                 "title": source.get("title", source_id),
                 "artist": source.get("artist", ""),
@@ -294,8 +303,6 @@ def load_rows():
             for slot in ("left", "right"):
                 target = track_payload(question[slot])
                 target_id = track_id(target)
-                if target_id not in tags:
-                    raise KeyError(f"No formal Tag for target {target_id}")
                 track_meta[target_id] = {
                     "title": target.get("title", target_id),
                     "artist": target.get("artist", ""),
@@ -355,6 +362,7 @@ def load_rows():
         "flowset": flowset,
         "track_meta": track_meta,
         "pairing_audit": pairing_audit,
+        "missing_formal_tag_exclusions": missing_formal_tag_exclusions,
         "tag_drift": [
             {"track_id": key[0], "old": key[1], "current": key[2], **meta}
             for key, meta in sorted(tag_drift.items())
@@ -908,6 +916,7 @@ def build_analysis(data):
             "source_tracks": len({row["source_id"] for row in primary}),
             "target_tracks": len({row["target_id"] for row in primary}),
             "formal_tag_rows": sum(row["source_id"] in data["tags"] and row["target_id"] in data["tags"] for row in primary),
+            "missing_formal_tag_questions": len(data["missing_formal_tag_exclusions"]),
             "source_flow_rows": len(source_flow_rows),
             "target_flow_rows": len(target_flow_rows),
             "two_sided_flow_rows": two_sided["n"],
@@ -930,6 +939,7 @@ def build_analysis(data):
             {"label": "平局", "code": "tie", "n": question_preferences.get("tie", 0)},
         ],
         "pairing_audit": data["pairing_audit"],
+        "missing_formal_tag_exclusions": data["missing_formal_tag_exclusions"],
         "audio_exclusions": audio_exclusions,
         "tag_drift": data["tag_drift"],
         "family_stats": family_stats,
@@ -994,13 +1004,6 @@ def write_csvs(data, analysis):
             export["source_flow_available"] = bool(row["source_flow"])
             export["target_flow_available"] = bool(row["target_flow"])
             writer.writerow(export)
-    priority_fields = [
-        "track_id", "title", "artist", "source_appearances", "target_appearances", "total_appearances", "two_sided_gain", "priority_score"
-    ]
-    with OUT_PRIORITY.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=priority_fields)
-        writer.writeheader()
-        writer.writerows(analysis["flowset"]["priority"])
 
 
 HTML_TEMPLATE = r'''<!DOCTYPE html>
@@ -1019,7 +1022,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 <body>
 <div class="wrap">
   <header class="hero"><div><h1>Tag × Flowset × 风格衔接偏好</h1><p>从“哪种风格分高”转向“什么样的 A → B 更适合你”</p></div><div class="stamp" id="stamp"></div></header>
-  <div class="notice warn">风格衔接测试的第五、第八份 review 仍完全排除（与本次新增的 Flowset 第五波不是同一数据）；已知错音频题不进入主分析。本报告说明关联与预测增量，不把非随机测试数据解释为因果。</div>
+  <div class="notice warn">风格衔接测试的第五、第八份 review 仍完全排除（与 Flowset 标注波次不是同一数据）；已知错音频题不进入主分析。本报告说明关联与预测增量，不把非随机测试数据解释为因果。</div>
   <div class="kpis" id="kpis"></div>
   <div class="findings" id="findings"></div>
 
@@ -1029,7 +1032,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
   <section><h2>3. Tag 是否带来额外判断力</h2><p class="desc">用按前曲分组的 5 折交叉验证，确保同一前曲不同时出现在训练和验证中。基准只看 cost、risk、批次和位置；扩展模型再加入前后 Tag 及桥接关系。</p><div id="tagModel"></div><div class="grid2" style="margin-top:17px"><div><h3 class="subhead">声学基线与人的选择</h3><div id="acousticSummary"></div></div><div><h3 class="subhead">平均分高／低的风格方向</h3><div class="tabs" id="pairTabs"><button class="active" data-view="high">高分</button><button data-view="low">低分</button></div><div id="pairRank"></div></div></div></section>
 
-  <section><h2>4. Flowset：第五波补标后的衔接分析</h2><p class="desc">先分别观察前曲和后曲的听感属性，再在两端都有 Flowset 的候选上检验“听感变化量”是否带来额外预测信息。结论仍是关联，不解释为因果。</p><div class="grid2"><div><h3 class="subhead">前曲 Flowset 与后接评分</h3><div id="sourceFlow"></div></div><div><h3 class="subhead">后曲 Flowset 与前接评分</h3><div id="targetFlow"></div></div></div><hr style="border:0;border-top:1px solid var(--line);margin:19px 0"><div id="flowModels"></div><h3 class="subhead" style="margin-top:19px">两端均有 Flowset：有方向的听感变化</h3><div id="twoSidedFlow" class="tablewrap"></div><div id="twoSidedNote" class="footnote"></div></section>
+  <section><h2>4. Flowset：六波标注后的衔接分析</h2><p class="desc">先分别观察前曲和后曲的听感属性，再在两端都有 Flowset 的候选上检验“听感变化量”是否带来额外预测信息。结论仍是关联，不解释为因果。</p><div class="grid2"><div><h3 class="subhead">前曲 Flowset 与后接评分</h3><div id="sourceFlow"></div></div><div><h3 class="subhead">后曲 Flowset 与前接评分</h3><div id="targetFlow"></div></div></div><hr style="border:0;border-top:1px solid var(--line);margin:19px 0"><div id="flowModels"></div><h3 class="subhead" style="margin-top:19px">两端均有 Flowset：有方向的听感变化</h3><div id="twoSidedFlow" class="tablewrap"></div><div id="twoSidedNote" class="footnote"></div></section>
 
   <section><h2>5. 哪些歌曲在“承上”和“启下”上更稳</h2><p class="desc">歌曲层面使用向总体均值收缩的分数，并且只显示至少出现 4 次的曲目。这是定位歌单角色的描述性线索，不是歌曲的永久属性。</p><div class="tabs" id="songTabs"><button class="active" data-view="outgoing">作为前曲：启下</button><button data-view="incoming">作为后曲：承上</button></div><div class="profile-grid"><div><h3 class="subhead">较高</h3><div id="songHigh" class="tablewrap"></div></div><div><h3 class="subhead">较低</h3><div id="songLow" class="tablewrap"></div></div></div></section>
 
@@ -1039,7 +1042,7 @@ HTML_TEMPLATE = r'''<!DOCTYPE html>
 
   <section><h2>8. 数据审计</h2><p class="desc">主分析的每一条候选衔接都可以在这里回查。</p><div class="searchbar"><input id="auditSearch" type="search" placeholder="搜索题号、歌名或风格"><select id="auditBatch"><option value="">全部批次</option></select><span class="muted" id="auditCount"></span></div><div id="auditTable" class="tablewrap"></div><details style="margin-top:15px"><summary>题目文件与 review 配对</summary><div id="pairingTable" class="tablewrap" style="margin-top:10px"></div></details><details><summary>已排除的错音频题</summary><div id="audioExclusions" class="tablewrap" style="margin-top:10px"></div></details><details><summary>历史题目 Tag 与当前正式 Tag 的变化</summary><div id="tagDrift" class="tablewrap" style="margin-top:10px"></div></details></section>
 
-  <section><h2>9. 方法与解读边界</h2><div class="method"><details open><summary>分析单位</summary><p>主分析单位是有方向的候选衔接 A→B。同一题的左右候选共享同一前曲，因此不完全独立。模型交叉验证按歌曲分组，而不是随机拆行。</p></details><details><summary>模型口径</summary><p>1–5 分暂按近似等距数值用嵌套交叉验证的岭回归比较 MAE。这个模型用于比较新特征是否增加预测信息，不是把系数解释成因果效应。</p></details><details><summary>Flowset 局限</summary><p>第五波让两端均有 Flowset 的覆盖足以进入分组交叉验证，但样本来自定向补标、曲目会重复出现，也不是随机实验。因此变化量和模型增量可作为当前题库内的关联证据，不能直接外推为稳定因果规律；报告仍不填补、不用 Tag 推测个人 Flowset。</p></details><details><summary>样本外推</summary><p>这些题目是按风格覆盖、矩阵补全和校准目标有意选的，并非从全曲库随机抽样。结论首先有效于已测风格空间和你当时的主观判断。</p></details></div></section>
+  <section><h2>9. 方法与解读边界</h2><div class="method"><details open><summary>分析单位</summary><p>主分析单位是有方向的候选衔接 A→B。同一题的左右候选共享同一前曲，因此不完全独立。模型交叉验证按歌曲分组，而不是随机拆行。</p></details><details><summary>模型口径</summary><p>1–5 分暂按近似等距数值用嵌套交叉验证的岭回归比较 MAE。这个模型用于比较新特征是否增加预测信息，不是把系数解释成因果效应。</p></details><details><summary>Flowset 局限</summary><p>第五、第六波补标后，两端均有 Flowset 的覆盖足以进入分组交叉验证，但样本来自定向补标、曲目会重复出现，也不是随机实验。因此变化量和模型增量可作为当前题库内的关联证据，不能直接外推为稳定因果规律；报告仍不填补、不用 Tag 推测个人 Flowset。</p></details><details><summary>样本外推</summary><p>这些题目是按风格覆盖、矩阵补全和校准目标有意选的，并非从全曲库随机抽样。结论首先有效于已测风格空间和你当时的主观判断。</p></details></div></section>
   <div class="footer">完全离线报告 · 数据和脚本均已内嵌 · 不依赖外部 CDN 或本地 fetch</div>
 </div>
 <script>
@@ -1069,7 +1072,7 @@ function renderHeader(){
     <div class="finding"><span class="eyebrow">直接模式</span><h3>同主风格明显强于无 Tag 重叠</h3><p>同主风格均分 ${num(same.mean_rating)}、被选中 ${pct(same.win_score)}；无重叠为 ${num(none.mean_rating)} 和 ${pct(none.win_score)}。</p></div>
     <div class="finding"><span class="eyebrow">方向性线索</span><h3>${esc(asym.a)} ⇄ ${esc(asym.b)} 不对称</h3><p>A→B 均分 ${num(asym.ab_rating)} (n=${asym.ab_n})，B→A ${num(asym.ba_rating)} (n=${asym.ba_n})；样本小，需定向复验。</p></div>
     <div class="finding"><span class="eyebrow">声学边界</span><h3>低 cost／低 risk 不等于你会选</h3><p>非平局题中，更低 cost 只被选 ${pct(DATA.acoustic.lower_cost_chosen)}，更低 risk 只被选 ${pct(DATA.acoustic.lower_risk_chosen)}。</p></div>
-    <div class="finding primary"><span class="eyebrow">第五波增量</span><h3>覆盖够检验，预测增量暂未成立</h3><p>双端完整 ${m.two_sided_flow_rows_before_latest} → ${m.two_sided_flow_rows} 条（+${m.two_sided_flow_rows_latest_gain}）；MAE 增量：${flowText}。${flowConclusion}</p></div>`;
+    <div class="finding primary"><span class="eyebrow">第六波增量</span><h3>覆盖够检验，预测增量暂未成立</h3><p>双端完整 ${m.two_sided_flow_rows_before_latest} → ${m.two_sided_flow_rows} 条（+${m.two_sided_flow_rows_latest_gain}）；MAE 增量：${flowText}。${flowConclusion}</p></div>`;
 }
 
 function renderCoverage(){
@@ -1164,7 +1167,6 @@ def build_report():
     print(json.dumps({
         "report": str(OUT_HTML),
         "rows_csv": str(OUT_ROWS),
-        "priority_csv": str(OUT_PRIORITY),
         "bytes": OUT_HTML.stat().st_size,
         "meta": analysis["meta"],
         "models": analysis["models"],

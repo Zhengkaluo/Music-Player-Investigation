@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "zmpd.anchor-audit/v1",
+  "batchId": "wave7-gap-close-95-anchor-5",
+  "policy": {
+    "totalTracks": 100,
+    "newTracks": 95,
+    "blindAnchors": 5,
+    "newSelection": "all immediately-ready tracks with needs=ZMPD except two deferred same-artist low-evidence tracks",
+    "deferredTrackIds": [
+      "qq:000TwCQn1LrW4g",
+      "qq:0046lNIa2q0FRB"
+    ],
+    "anchorHandling": "preserve both old and new records; do not overwrite before drift analysis"
+  },
+  "anchors": [
+    {
+      "track_id": "qq:004F9h4J1NjHD9",
+      "filename": "Sagu Palm's Song - 青葉市子.mp3",
+      "title": "Sagu Palm's Song",
+      "artist": "青葉市子",
+      "genre": "Folk / Singer-Songwriter",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-07-16.json",
+      "source_annotation_id": "dda30142209106855e38",
+      "audio_sha256": "394b54df35c741866606f6e41fa12516c135d5866f1d565ec427b998c7788260",
+      "previous_confidence": 5,
+      "previous_selections": {
+        "适合的时段": [
+          "8-11",
+          "11-14",
+          "14-17"
+        ],
+        "能量状态": [
+          "平静"
+        ],
+        "噪音程度": [
+          "1"
+        ],
+        "摇摆速率": [
+          "2"
+        ],
+        "负担程度": [
+          "1"
+        ]
+      },
+      "order": 57
+    },
+    {
+      "track_id": "qq:000IEMhw2BYOh7",
+      "filename": "Detective Lungmen - 塞壬唱片-MSR, 顾忠山, Damien Banzigou.mp3",
+      "title": "Detective Lungmen",
+      "artist": "塞壬唱片-MSR, 顾忠山, Damien Banzigou",
+      "genre": "Post-Rock / Cinematic",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-07-22.json",
+      "source_annotation_id": "ac66b77f0a0389e7fa55",
+      "audio_sha256": "5acc2f8a569f4b0950da536436f57c47a3dc1827baf8f47942c41b0305ede77f",
+      "previous_confidence": 3,
+      "previous_selections": {
+        "适合的时段": [
+          "14-17"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "5"
+        ],
+        "摇摆速率": [
+          "5"
+        ],
+        "负担程度": [
+          "4"
+        ]
+      },
+      "order": 26
+    },
+    {
+      "track_id": "qq:004fGoVl3u0eL0",
+      "filename": "The edge of everything - Sleepmakeswaves.mp3",
+      "title": "The edge of everything",
+      "artist": "Sleepmakeswaves",
+      "genre": "Post-Rock / Cinematic",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-07-28.json",
+      "source_annotation_id": "4062aeefb94192d2088a",
+      "audio_sha256": "5aaf394db32cd3e2d58a32566e82863d046b7379f13ee0e8be092f9f6798eb94",
+      "previous_confidence": 3,
+      "previous_selections": {
+        "适合的时段": [
+          "17-20"
+        ],
+        "能量状态": [
+          "爆发"
+        ],
+        "噪音程度": [
+          "8"
+        ],
+        "摇摆速率": [
+          "5"
+        ],
+        "负担程度": [
+          "6"
+        ]
+      },
+      "order": 66
+    },
+    {
+      "track_id": "qq:001bp0Yk2yH056",
+      "filename": "Borderlines - Vraell.mp3",
+      "title": "Borderlines",
+      "artist": "Vraell",
+      "genre": "Folk / Singer-Songwriter",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+      "source_annotation_id": "5af4f6793ce6de715919",
+      "audio_sha256": "dc93777ad811c34be1ad83900464c406f085b46fbb9ee0db758440d4d8d6f510",
+      "previous_confidence": 3,
+      "previous_selections": {
+        "适合的时段": [
+          "11-14",
+          "14-17",
+          "8-11"
+        ],
+        "能量状态": [
+          "渐进"
+        ],
+        "噪音程度": [
+          "2"
+        ],
+        "摇摆速率": [
+          "3"
+        ],
+        "负担程度": [
+          "2"
+        ]
+      },
+      "order": 17
+    },
+    {
+      "track_id": "qq:000LbxEY3wyFZ8",
+      "filename": "ライフワーク - OGRE YOU A**HOLE.mp3",
+      "title": "ライフワーク",
+      "artist": "OGRE YOU A**HOLE",
+      "genre": "Rock / Alternative",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-07-16.json",
+      "source_annotation_id": "fa18d33efcaab3af00d2",
+      "audio_sha256": "2cc92e33de20b4a4e10c23970e14fe901f3438cca3e8849d368bb9b5c2aecc5d",
+      "previous_confidence": 4,
+      "previous_selections": {
+        "适合的时段": [
+          "14-17"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "8"
+        ],
+        "摇摆速率": [
+          "7"
+        ],
+        "负担程度": [
+          "2"
+        ]
+      },
+      "order": 87
+    }
+  ]
+}

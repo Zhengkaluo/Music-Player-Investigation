@@ -8,24 +8,28 @@ OUT = os.path.join(DEMO, "flowset_visualization.html")
 
 # 批次定义：label / 文件 / 波次文件夹(用于匹配音频)
 BATCHES = [
-    {"key":"0716","label":"第一波 · 07-16","file":"Flowset-个人审美样本-郑卡罗-2026-07-16.json"},
-    {"key":"0722","label":"第二波 · 07-22","file":"Flowset-个人审美样本-郑卡罗-2026-07-22.json"},
-    {"key":"0728","label":"第三波 · 07-28","file":"Flowset-个人审美样本-郑卡罗-2026-07-28.json"},
-    {"key":"0925","label":"第四波 · 09-25","file":"Flowset-个人审美样本-郑卡罗-2026-09-25.json"},
-    {"key":"0926","label":"第五波 · 09-26","file":"Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json"},
+    {"key":"0716","label":"第一波 · 07-16","folder":"音乐第一波测试","file":"Flowset-个人审美样本-郑卡罗-2026-07-16.json"},
+    {"key":"0722","label":"第二波 · 07-22","folder":"音乐第二波测试","file":"Flowset-个人审美样本-郑卡罗-2026-07-22.json"},
+    {"key":"0728","label":"第三波 · 07-28","folder":"音乐第三波测试","file":"Flowset-个人审美样本-郑卡罗-2026-07-28.json"},
+    {"key":"0925","label":"第四波 · 09-25","folder":"音乐第四波测试","file":"Flowset-个人审美样本-郑卡罗-2026-09-25.json"},
+    {"key":"0926","label":"第五波 · 09-26","folder":"音乐第五波测试","file":"Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json"},
+    {"key":"1003","label":"第六波 · 10-03","folder":"音乐第六波测试","file":"Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json"},
+    {"key":"1005","label":"第七波 · 10-05","folder":"音乐第七波测试","file":"Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05.json"},
 ]
-WAVE_DIRS = ["音乐第一波测试","音乐第二波测试","音乐第三波测试","音乐第四波测试","音乐第五波测试"]
 
-# ---- 建立 mp3 文件名 -> 相对路径 映射 ----
+# ---- 建立各批次 mp3 文件名 -> 相对路径 映射 ----
 def norm(s): return unicodedata.normalize('NFC', s).strip().lower()
-file_map = {}
-for d in WAVE_DIRS:
+file_maps = {}
+for b in BATCHES:
+    d = b["folder"]
     dp = os.path.join(DEMO, d)
+    file_maps[d] = {}
     if not os.path.isdir(dp): continue
     for p in glob.glob(os.path.join(dp, "**", "*.mp3"), recursive=True):
-        file_map[norm(os.path.basename(p))] = os.path.relpath(p, DEMO).replace(os.sep, "/")
+        file_maps[d][norm(os.path.basename(p))] = os.path.relpath(p, DEMO).replace(os.sep, "/")
 
-def find_audio(name):
+def find_audio(folder, name):
+    file_map = file_maps[folder]
     n = norm(name)
     if n in file_map: return file_map[n]
     n2 = n.replace(" ", "").replace("'", "")
@@ -42,7 +46,9 @@ for b in BATCHES:
     miss = 0
     tracks = []
     for t in d["tracks"]:
-        audio = find_audio(t["file"]["name"])
+        if not t.get("completed"):
+            continue
+        audio = find_audio(b["folder"], t["file"]["name"])
         if audio is None: miss += 1
         tracks.append({
             "order": t["order"],
@@ -215,6 +221,8 @@ HTML = r"""<!DOCTYPE html>
   .b-0728{background:#fdf2e9;color:#d68910}
   .b-0925{background:#f2ecff;color:#7856c8}
   .b-0926{background:#fff0f5;color:#b42363}
+  .b-1003{background:#e9f8f4;color:#14765b}
+  .b-1005{background:#fff4df;color:#9a5a0a}
   .tablewrap{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:10px}
   .sortable{cursor:pointer;user-select:none;transition:background .12s}
   .sortable:hover{background:#f0f6ff}
@@ -269,7 +277,7 @@ HTML = r"""<!DOCTYPE html>
   <div class="kpis" id="kpis"></div>
 
   <section>
-    <h2><span class="dot"></span>五波对比总览</h2>
+    <h2><span class="dot"></span>七波对比总览</h2>
     <p class="desc">所有波次按相同口径并列。时段为“该波次中命中该时段的曲目占比”，不把多选次数当作独立曲目数。</p>
     <div class="tablewrap"><table class="compare-table" id="waveCompare">__WAVE_COMPARE__</table></div>
   </section>
@@ -577,7 +585,7 @@ function renderTable(tracks){
     const tsTags=ts.map(x=>`<span class="tag" style="background:${TS_COLORS[x]}22;color:${TS_COLORS[x]}">${x}</span>`).join('');
     const confDots=[1,2,3,4,5].map(k=>`<span class="${conf&&k<=conf?'conf':'conf'}"><span class="${conf&&k<=conf?'':'off'}">●</span></span>`).join('');
     const playable=!!t.audio;
-    const batchMeta={0716:['b-0716','第一波'],0722:['b-0722','第二波'],0728:['b-0728','第三波'],0925:['b-0925','第四波'],0926:['b-0926','第五波']}[t._batch]||['',''];
+    const batchMeta={0716:['b-0716','第一波'],0722:['b-0722','第二波'],0728:['b-0728','第三波'],0925:['b-0925','第四波'],0926:['b-0926','第五波'],1003:['b-1003','第六波'],1005:['b-1005','第七波']}[t._batch]||['',''];
     const [bkey,btxt]=batchMeta;
     const noteAttr=t.note?` data-note="${t.note.replace(/"/g,'&quot;')}"`:'';
     html+=`<tr id="row-${oi}"${noteAttr}>`+

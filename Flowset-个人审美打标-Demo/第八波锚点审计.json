@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "zmpd.anchor-audit/v1",
+  "batchId": "wave8-balanced-96-anchor-4",
+  "policy": {
+    "totalTracks": 100,
+    "newTracks": 96,
+    "blindAnchors": 4,
+    "newSelection": "latest ready gap list; include both remaining ZMPD-only tracks, then prioritize current catalog and artist diversity within fixed genre quotas",
+    "genreQuotas": {
+      "Ambient / Neo-Classical": 14,
+      "Post-Rock / Cinematic": 14,
+      "Electronic": 12,
+      "Jazz / Soul": 14,
+      "Folk / Singer-Songwriter": 14,
+      "Rock / Alternative": 14,
+      "Hip-Hop / R&B": 14
+    },
+    "selectedByPriorGap": {
+      "Flow衔接 + ZMPD": 94,
+      "ZMPD": 2
+    },
+    "selectedCurrentCatalogTracks": 59,
+    "anchorHandling": "preserve old and new records; do not overwrite training truth before drift analysis"
+  },
+  "anchors": [
+    {
+      "track_id": "qq:002cBVub1Kncz5",
+      "filename": "Deep Breath - Paniyolo.mp3",
+      "title": "Deep Breath",
+      "artist": "Paniyolo",
+      "genre": "Ambient / Neo-Classical",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+      "source_annotation_id": "92d04e824cf99007a171",
+      "audio_sha256": "7a889c73408c85f28ff7a31e2d9126ef9e3e1876749a661adb6155a543eff6b6",
+      "previous_confidence": 5,
+      "previous_selections": {
+        "适合的时段": [
+          "8-11",
+          "11-14"
+        ],
+        "能量状态": [
+          "平静"
+        ],
+        "噪音程度": [
+          "1"
+        ],
+        "摇摆速率": [
+          "1"
+        ],
+        "负担程度": [
+          "1"
+        ]
+      },
+      "order": 25
+    },
+    {
+      "track_id": "qq:003Vop5Z2Vz497",
+      "filename": "Fort - GoGo Penguin.mp3",
+      "title": "Fort",
+      "artist": "GoGo Penguin",
+      "genre": "Jazz / Soul",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-07-22.json",
+      "source_annotation_id": "37d0fced91736cac2556",
+      "audio_sha256": "661109135c201034476fbc51b3bb05442f2ef1d9a3a879b87bfc45311aafc108",
+      "previous_confidence": 4,
+      "previous_selections": {
+        "适合的时段": [
+          "8-11",
+          "11-14",
+          "14-17",
+          "17-20"
+        ],
+        "能量状态": [
+          "平静"
+        ],
+        "噪音程度": [
+          "3"
+        ],
+        "摇摆速率": [
+          "4"
+        ],
+        "负担程度": [
+          "7"
+        ]
+      },
+      "order": 40
+    },
+    {
+      "track_id": "qq:001neLbY2J9GCJ",
+      "filename": "Distance - Fayzz.mp3",
+      "title": "Distance",
+      "artist": "Fayzz",
+      "genre": "Post-Rock / Cinematic",
+      "source_batch": "Flowset-个人审美样本-郑卡罗-2026-07-16.json",
+      "source_annotation_id": "c7eb2aea83d62834dd45",
+      "audio_sha256": "57c93dd74e043bebe30512d5ef4a65a6b004a6df5becde61e8936eb3abed452f",
+      "previous_confidence": 4,
+      "previous_selections": {
+        "适合的时段": [
+          "14-17",
+          "17-20"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "4"
+        ],
+        "摇摆速率": [
+          "6"
+        ],
+        "负担程度": [
+          "4"
+        ]
+      },
+      "order": 26
+    },
+    {
+      "track_id": "qq:001smf6l4Jw7Fx",
+      "filename": "蝉 - iimmune.mp3",
+      "title": "蝉",
+      "artist": "iimmune",
+      "genre": "Electronic",
+      "source_batch": "Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json",
+      "source_annotation_id": "7e7ee5a808df8cccdd43",
+      "audio_sha256": "6310eb26ab8ebdf6e2bc98221c57265ce9cb258bc02511bad798f8be1538ee47",
+      "previous_confidence": 4,
+      "previous_selections": {
+        "适合的时段": [
+          "8-11",
+          "11-14",
+          "14-17"
+        ],
+        "能量状态": [
+          "平静"
+        ],
+        "噪音程度": [
+          "2"
+        ],
+        "摇摆速率": [
+          "3"
+        ],
+        "负担程度": [
+          "4"
+        ]
+      },
+      "order": 100
+    }
+  ]
+}
