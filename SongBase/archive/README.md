@@ -51,8 +51,21 @@ python3 SongBase/manage_albums.py monitor
 - 当前实际音频目录是 `SongBase/SongResources/`；
 - 看门狗还通过绝对路径重新启动旧下载脚本。
 
-当前自动同步入口是 `SongBase/sync_missing_audio.py`；旧的
-`SongBase/batch_down_pending.py` 暂时保留用于固定清单批次。
+当前自动同步入口是 `SongBase/sync_missing_audio.py`。
+
+## `manual-pending-download/`
+
+这里保留旧的“生成固定清单 → 下载 → 单独监控”流程及其 264 条历史待下载清单和日志。
+它依赖过期的固定路径与 Node 版本，不作为当前入口运行；当前音源同步使用
+`SongBase/sync_missing_audio.py`。
+
+## `snapshots/`
+
+这里按主曲库、正式标签和候选标签保存归档操作前的 JSON 快照。它们用于回溯，当前脚本不会读取这些具体文件名。
+
+## `reports/`
+
+这里保存已被当前报告替代的历史统计快照。`song_tag_candidate_report_2026-08-21.md` 是候选队列归零前的完整首轮候选报告。
 
 ## 恢复原则
 

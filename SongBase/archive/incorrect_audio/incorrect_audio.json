@@ -1,0 +1,31 @@
+{
+  "schema_version": "songbase.incorrect-audio/v1",
+  "updated_at": "2026-09-21",
+  "policy": "歌曲保留在主曲库，但错误的本地音频移出 SongResources；浏览器应回退到外部播放链接。",
+  "tracks": {
+    "qq:001WqQpv4Y2F4Q": {
+      "artist": "Creepy Nuts",
+      "title": "友人A",
+      "archived_audio": "友人A - Creepy Nuts.mp3",
+      "reason": "人工复核：本地音源不对应当前曲目"
+    },
+    "qq:004StP7u0GX8V2": {
+      "artist": "Polo & Pan",
+      "title": "Cœur croisé",
+      "archived_audio": "Cœur croisé - Polo & Pan.mp3",
+      "reason": "人工复核：本地音源不准确"
+    },
+    "qq:004EoRME3iYKXo": {
+      "artist": "Vancouver Sleep Clinic",
+      "title": "As It Was",
+      "archived_audio": "As It Was - Vancouver Sleep Clinic.mp3",
+      "reason": "人工复核：本地音源不对应当前曲目"
+    },
+    "qq:000VtXQj0oR6WQ": {
+      "artist": "Chilli Beans.",
+      "title": "fu uh",
+      "archived_audio": "fu uh - Chilli Beans..mp3",
+      "reason": "人工复核：本地音源不对应当前曲目；歌曲保留并完成正式标签"
+    }
+  }
+}

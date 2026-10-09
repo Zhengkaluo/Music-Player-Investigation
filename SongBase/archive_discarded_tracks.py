@@ -179,12 +179,15 @@ def write_markdown(library: dict) -> None:
 
 
 def create_backups(timestamp: str) -> None:
-    for path, stem in (
-        (LIBRARY_PATH, "song_base"),
-        (TAGS_PATH, "song_tags"),
-        (CANDIDATES_PATH, "song_tag_candidates"),
+    snapshots_dir = BASE / "archive" / "snapshots"
+    for path, category, stem in (
+        (LIBRARY_PATH, "song_base", "song_base"),
+        (TAGS_PATH, "song_tags", "song_tags"),
+        (CANDIDATES_PATH, "song_tag_candidates", "song_tag_candidates"),
     ):
-        destination = BASE / "archive" / f"{stem}_before_discard_{timestamp}.json"
+        destination_dir = snapshots_dir / category
+        destination_dir.mkdir(parents=True, exist_ok=True)
+        destination = destination_dir / f"{stem}_before_discard_{timestamp}.json"
         shutil.copy2(path, destination)
 
 
