@@ -1,0 +1,54 @@
+{
+  "schema_version": "songbase.qq-recording-audio-import/v1",
+  "batch_name": "2026-10-08-剩余3首录制入档",
+  "created_at": "2026-10-08T15:42:18+08:00",
+  "recording_batch": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/郑灏澜 剩余5 2026-10-08",
+  "staging_directory": "imports/2026-10-08-剩余5首",
+  "target_directory": "SongResources",
+  "identity_rule": "QQ MID + SongBase 正式曲名与完整歌手；不使用仅曲名匹配",
+  "summary": {
+    "tracks": 3,
+    "automatic_accepted": 1,
+    "manual_approved_exceptions": 2,
+    "copied_to_song_resources": 3
+  },
+  "tracks": [
+    {
+      "track_id": "qq:003lEaw10zHyx5",
+      "title": "Big Pimpin'",
+      "artist": "Jay-Z",
+      "recording_status": "manual-approved-exception",
+      "automatic_failure": "Capture is clipped or too quiet",
+      "review_decision": "用户试听确认可用",
+      "source_relative_path": "imports/2026-10-08-剩余5首/Big Pimpin' - Jay-Z.mp3",
+      "destination_relative_path": "SongResources/Big Pimpin' - Jay-Z.mp3",
+      "size_bytes": 11399879,
+      "sha256": "6a0ea7406772fc69955612f743648da78b750b554ab2d28f358b8eaeaaf0cf69",
+      "action": "copied"
+    },
+    {
+      "track_id": "qq:000uKPA63X87lS",
+      "title": "Luv (Sic) , Pt. 4",
+      "artist": "OMA, Shing02, SPIN MASTER A-1, Uyama Hiroto",
+      "recording_status": "accepted",
+      "source_relative_path": "imports/2026-10-08-剩余5首/Luv (Sic) , Pt. 4 - OMA, Shing02, SPIN MASTER A-1, Uyama Hiroto.mp3",
+      "destination_relative_path": "SongResources/Luv (Sic) , Pt. 4 - OMA, Shing02, SPIN MASTER A-1, Uyama Hiroto.mp3",
+      "size_bytes": 16344337,
+      "sha256": "262c438ecdbc0c75f10ffbee95b104758ebac4db26a27e984080a4aaec2d5989",
+      "action": "copied"
+    },
+    {
+      "track_id": "qq:0033viuX0rxuw1",
+      "title": "点绛唇",
+      "artist": "拜金小姐",
+      "recording_status": "manual-approved-exception",
+      "automatic_failure": "Capture is clipped or too quiet",
+      "review_decision": "用户试听确认可用",
+      "source_relative_path": "imports/2026-10-08-剩余5首/点绛唇 - 拜金小姐.mp3",
+      "destination_relative_path": "SongResources/点绛唇 - 拜金小姐.mp3",
+      "size_bytes": 7556745,
+      "sha256": "ca9c84b2ed3e9d4e074057fff0632001bd77d27bf0b82fa176fd1194e06648b7",
+      "action": "copied"
+    }
+  ]
+}

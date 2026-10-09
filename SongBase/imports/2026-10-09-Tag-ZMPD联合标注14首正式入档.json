@@ -1,0 +1,415 @@
+{
+  "schema_version": "songbase.combined-annotation-import/v1",
+  "imported_at": "2026-10-09T04:43:57.092398+00:00",
+  "source_file": "/Users/kaluozheng/Downloads/song_combined_annotations_2026-10-09.json",
+  "source_sha256": "8311a39814341ba5ddab513d44dcc0468cc3884e269463f064ad8bede6252363",
+  "source_exported_at": "2026-10-09T03:30:25.729Z",
+  "tag_snapshot": "archive/snapshots/song_tags/song_tags_before_combined_import_2026-10-09_124357.json",
+  "zmpd_annotation": "Flowset-个人审美打标-Demo/Flowset-个人审美样本·Tag-ZMPD联合标注14首-郑卡罗-2026-10-09.json",
+  "summary": {
+    "formal_tags_added": 14,
+    "zmpd_annotations_added": 14
+  },
+  "tracks": [
+    {
+      "track_id": "qq:0048VoOX3bYSTw",
+      "title": "Nemure",
+      "artist": "3nd",
+      "audio_filename": "Nemure - 3nd.mp3",
+      "audio_size": 10485594,
+      "audio_sha256": "7575b0f20816c4ce450904616774790b8662af32b9261b413f1f75d519cafb7c",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "平静",
+          "noise": 2,
+          "swing": 2,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001FTzqH42zaB3",
+      "title": "对不起做梦大王",
+      "artist": "出海部",
+      "audio_filename": "对不起做梦大王 - 出海部.mp3",
+      "audio_size": 14173039,
+      "audio_sha256": "706a1becb56e3158289a5f1c7518312214280548df75857f17d14eba5179445d",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0024cFoZ3XRS2f",
+      "title": "5",
+      "artist": "惊奇海洋（Marvel ocean）",
+      "audio_filename": "5 - 惊奇海洋（Marvel ocean）.mp3",
+      "audio_size": 13788516,
+      "audio_sha256": "cc1298a9cf54e0e00dc6f56377e19b91d8ce3d4d6f7a6270c3704a49b38091d4",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 3,
+          "swing": 3,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002ELhCg26xEdo",
+      "title": "初 寒武",
+      "artist": "琥珀",
+      "audio_filename": "初 寒武 - 琥珀.mp3",
+      "audio_size": 22958541,
+      "audio_sha256": "86cd4a87bfd4b5a97e7ffc432311ebf0873ec6bf803631fbb604e3dcc054ca3d",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "17-20"
+          ],
+          "energy_state": "爆发",
+          "noise": 4,
+          "swing": 3,
+          "burden": 5
+        },
+        "confidence": 3,
+        "note": "八分钟以后相对来讲比较有噪音+有负担"
+      }
+    },
+    {
+      "track_id": "qq:000AfObd05CAd7",
+      "title": "重生总在夕阳时",
+      "artist": "荒山茉莉",
+      "audio_filename": "重生总在夕阳时 - 荒山茉莉.mp3",
+      "audio_size": 16515700,
+      "audio_sha256": "c27f2bcf40581d1d89fd81e869eaff6527ae8ad4505334cb82acd9831aa54f1e",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 4,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002eRgVQ4eLv54",
+      "title": "迂回的海",
+      "artist": "荒山茉莉",
+      "audio_filename": "迂回的海 - 荒山茉莉.mp3",
+      "audio_size": 16332843,
+      "audio_sha256": "9948c009bfb26e709e9c077d32b9d4fd0fa69d84bd0f2a0c59846919c5e8dd40",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 3,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0048Jn2W1VALEr",
+      "title": "漫漫",
+      "artist": "荒山茉莉",
+      "audio_filename": "漫漫 - 荒山茉莉.mp3",
+      "audio_size": 15145839,
+      "audio_sha256": "7c3f6f5f9154736bcfdd3670509bc666a7467b017cc6ed35fd96a049bf8e5c29",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "17-20"
+          ],
+          "energy_state": "爆发",
+          "noise": 4,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": "4分15前后开始有爆发"
+      }
+    },
+    {
+      "track_id": "qq:001gbXuW0syTgn",
+      "title": "水没之都",
+      "artist": "荒山茉莉",
+      "audio_filename": "水没之都 - 荒山茉莉.mp3",
+      "audio_size": 16892908,
+      "audio_sha256": "c60e2e4c2da987fbb7eb7c2209511c93aa1ea93afd70cd366c4d462d952b0ec1",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 3,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001FAcNJ2Qasvh",
+      "title": "拾荒者",
+      "artist": "超级市场",
+      "audio_filename": "拾荒者 - 超级市场.mp3",
+      "audio_size": 10142867,
+      "audio_sha256": "817dce161f6ff969f200b327a9f32530730ab9ca6bc37868e8c4fafa9f18e12c",
+      "tag": {
+        "genre": "Electronic",
+        "secondary_genres": [
+          "Post-Rock / Cinematic",
+          "Rock / Alternative"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 5,
+          "swing": 4,
+          "burden": 6
+        },
+        "confidence": 2,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0013cpd92A3j1k",
+      "title": "危险之旅 (A Dangerous Journey)",
+      "artist": "鲸鱼马戏团",
+      "audio_filename": "危险之旅 (A Dangerous Journey) - 鲸鱼马戏团.mp3",
+      "audio_size": 13583716,
+      "audio_sha256": "c68c7287d33a56c64f0d5ef55b64fef8ac02c946bf84c0f1fbd97ad84eb0943a",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 5
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002eMECw1CE5vn",
+      "title": "废墟",
+      "artist": "鲸鱼马戏团",
+      "audio_filename": "废墟 - 鲸鱼马戏团.mp3",
+      "audio_size": 14086312,
+      "audio_sha256": "82bae192d2f25e766c56f3f47dc34b6dad937a206f0d1f9d7a16bb1177c0b01a",
+      "tag": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Post-Rock / Cinematic"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001vA3Ul3j8pZ0",
+      "title": "艾维尼翁",
+      "artist": "鲸鱼马戏团",
+      "audio_filename": "艾维尼翁 - 鲸鱼马戏团.mp3",
+      "audio_size": 8584924,
+      "audio_sha256": "6a54d682fdd2a3865a0b446911b4e73fdccda5792641fa715ba12e37333abfdf",
+      "tag": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "平静",
+          "noise": 2,
+          "swing": 2,
+          "burden": 1
+        },
+        "confidence": 4,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:004BC0eL3jhZa8",
+      "title": "新世界进化论 (Neo-evolution)",
+      "artist": "鲸鱼马戏团",
+      "audio_filename": "新世界进化论 (Neo-evolution) - 鲸鱼马戏团.mp3",
+      "audio_size": 18225153,
+      "audio_sha256": "dfcb4718a50cf2e6e3a8bab8f826fdc5ce20bc40fc2aec0c439fc6d98ad0d477",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 4,
+          "swing": 3,
+          "burden": 6
+        },
+        "confidence": 2,
+        "note": "负担程度我不好把握"
+      }
+    },
+    {
+      "track_id": "qq:003ezzJd4MptHZ",
+      "title": "乌托邦？神经网络的世界 (A Utopia? The World Of Neural Networks)",
+      "artist": "鲸鱼马戏团",
+      "audio_filename": "乌托邦？神经网络的世界 (A Utopia The World Of Neural Networks) - 鲸鱼马戏团.mp3",
+      "audio_size": 15054932,
+      "audio_sha256": "dc8dcf0c0eae14d4912060d446a8be462f22b40ec09bc43ae65f173985eff7a8",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 5
+        },
+        "confidence": 3,
+        "note": "最后五分钟一段小爆发"
+      }
+    }
+  ]
+}

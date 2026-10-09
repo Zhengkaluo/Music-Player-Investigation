@@ -1,0 +1,940 @@
+{
+  "schema_version": "songbase.manual-tag-reviews/v1",
+  "exported_at": "2026-10-08",
+  "purpose": "Human-authored tags for SongBase tracks without a genre candidate. This file does not update song_tags.json by itself.",
+  "source": {
+    "browser": "song_manual_tagging.html",
+    "library_date": "2026-10-08",
+    "tags_updated_at": "2026-10-04",
+    "taxonomy_version": "2026-08-07"
+  },
+  "summary": {
+    "queue_total": 220,
+    "completed": 50,
+    "remaining": 170
+  },
+  "reviews": [
+    {
+      "track_id": "qq:002yjHti2Y4GbZ",
+      "song": {
+        "title": "Back With Another One feat Nieve,Tunji & Noah King",
+        "artist": "Acro Jazz Laboratories",
+        "album": "acro jazz one",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002yjHti2Y4GbZ"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001y27Va342IXs",
+      "song": {
+        "title": "No Fun",
+        "artist": "After Louise",
+        "album": "Nothing's Accidental",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001y27Va342IXs"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0004FivA2wlPut",
+      "song": {
+        "title": "The Best Day",
+        "artist": "Atmosphere",
+        "album": "To All My Friends, Blood Makes The Blade Holy: The Atmosphere EP's",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0004FivA2wlPut"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:004F52ih3w6pZN",
+      "song": {
+        "title": "Miss.mp3",
+        "artist": "BAANDIT!",
+        "album": "Miss.mp3",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/004F52ih3w6pZN"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Electronic"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002BaMAP2L4c1j",
+      "song": {
+        "title": "No Drama",
+        "artist": "Bankrol Hayden",
+        "album": "No Drama",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002BaMAP2L4c1j"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0047w50Z2xR9D2",
+      "song": {
+        "title": "告别",
+        "artist": "Carsick Cars",
+        "album": "告别",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0047w50Z2xR9D2"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003Yxqjy30eCQY",
+      "song": {
+        "title": "September",
+        "artist": "Chestnut Bakery",
+        "album": "Diaries",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Yxqjy30eCQY"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter",
+          "Post-Rock / Cinematic"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002zNIpE2OWF50",
+      "song": {
+        "title": "Drift",
+        "artist": "Choker",
+        "album": "Honeybloom (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002zNIpE2OWF50"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:004CKntE0jM43B",
+      "song": {
+        "title": "過ぎ去りし永遠の日々",
+        "artist": "Coba",
+        "album": "おしゃれカンケイ",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/004CKntE0jM43B"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0047hJIe1VcLLI",
+      "song": {
+        "title": "Dontmakemefallinlove",
+        "artist": "Cuco",
+        "album": "Chiquito",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0047hJIe1VcLLI"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002pI6rJ2yVLeg",
+      "song": {
+        "title": "Time Machine",
+        "artist": "Diamond Pistols",
+        "album": "Time Machine (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002pI6rJ2yVLeg"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000D0CB714neCt",
+      "song": {
+        "title": "Favorite Maze",
+        "artist": "Evenings",
+        "album": "Yore",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000D0CB714neCt"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Post-Rock / Cinematic",
+          "Electronic"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003xubth3E8N7D",
+      "song": {
+        "title": "Pure Shade",
+        "artist": "Ezra Collective",
+        "album": "We Out Here",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xubth3E8N7D"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003aIoZj4TSjPj",
+      "song": {
+        "title": "Reason in Disguise",
+        "artist": "Ezra Collective",
+        "album": "Reason in Disguise",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003aIoZj4TSjPj"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Jazz / Soul",
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003Tedn00IU7Hx",
+      "song": {
+        "title": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+        "artist": "Ezra Collective",
+        "album": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Tedn00IU7Hx"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [
+          "Rock / Alternative",
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0027MOU12Nk2F2",
+      "song": {
+        "title": "No One's Watching Me (feat. Olivia Dean)",
+        "artist": "Ezra Collective",
+        "album": "Dance, No One's Watching",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0027MOU12Nk2F2"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Jazz / Soul",
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0008lKqV1wxI29",
+      "song": {
+        "title": "One Eyed Bastard",
+        "artist": "Green Day",
+        "album": "Saviors (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0008lKqV1wxI29"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000bb6y31ke4DO",
+      "song": {
+        "title": "Zero Hour",
+        "artist": "Hania Rani",
+        "album": "Home",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000bb6y31ke4DO"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Post-Rock / Cinematic",
+          "Electronic"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002V6dd03LPjXl",
+      "song": {
+        "title": "Buka",
+        "artist": "Hania Rani",
+        "album": "Home",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002V6dd03LPjXl"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Electronic",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001kz4h52xJzGe",
+      "song": {
+        "title": "Would That I",
+        "artist": "Hozier",
+        "album": "Wasteland, Baby! (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001kz4h52xJzGe"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002ZONdS0IyrRX",
+      "song": {
+        "title": "月の光 Arranged by kazumasa hashimoto",
+        "artist": "Kazumasa Hashimoto",
+        "album": "Tokyo Sonata",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002ZONdS0IyrRX"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000GwIJV1XOR8m",
+      "song": {
+        "title": "Money Trees",
+        "artist": "Kendrick Lamar",
+        "album": "good kid, m.A.A.d city (Deluxe)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000GwIJV1XOR8m"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001EKBWO1dQXsf",
+      "song": {
+        "title": "Mr. Eclectic",
+        "artist": "Laufey",
+        "album": "A Matter of Time (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001EKBWO1dQXsf"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0032Ne8D14ZfYO",
+      "song": {
+        "title": "Lotus",
+        "artist": "Little Simz",
+        "album": "Lotus (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0032Ne8D14ZfYO"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0040uvS01ZVFsO",
+      "song": {
+        "title": "Min Flag",
+        "artist": "MINSTA",
+        "album": "Min Flag",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0040uvS01ZVFsO"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002TFicq4AGTtE",
+      "song": {
+        "title": "Go Out And Love Someone",
+        "artist": "Pogo",
+        "album": "Wonderpuff",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002TFicq4AGTtE"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Electronic",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000pEXFd3Bmq1o",
+      "song": {
+        "title": "I Wanna Be Your Lover",
+        "artist": "Prince",
+        "album": "Prince (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000pEXFd3Bmq1o"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [
+          "Rock / Alternative",
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001f9F2g3hNMvm",
+      "song": {
+        "title": "Snow(Hey Oh)",
+        "artist": "Red Hot Chili Peppers",
+        "album": "Stadium Arcadium",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001f9F2g3hNMvm"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003dHtzV0qMa13",
+      "song": {
+        "title": "Rolling Clouds",
+        "artist": "Slowly Rolling Camera",
+        "album": "Slowly Rolling Camera",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003dHtzV0qMa13"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0024W4RZ2nOlWV",
+      "song": {
+        "title": "Only Here and Nowhere Else",
+        "artist": "Snarky Puppy",
+        "album": "Somni",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0024W4RZ2nOlWV"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001cdbRN4DHkVY",
+      "song": {
+        "title": "Ready Wednesday",
+        "artist": "Snarky Puppy",
+        "album": "Tell Your Friends (Remixed & Remastered)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001cdbRN4DHkVY"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Electronic",
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0014DtAP21sJ4h",
+      "song": {
+        "title": "Oh Dear",
+        "artist": "Sophie Zelmani",
+        "album": "Sing And Dance",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0014DtAP21sJ4h"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002zReeT1yjdtm",
+      "song": {
+        "title": "Middle Of Things, Beautiful Wife",
+        "artist": "Stwo",
+        "album": "Middle Of Things, Beautiful Wife (Stwo Remix)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002zReeT1yjdtm"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000dU93h3T7HoN",
+      "song": {
+        "title": "からかひ",
+        "artist": "Sweet William",
+        "album": "からかひ",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000dU93h3T7HoN"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000ssbpB2B5GSN",
+      "song": {
+        "title": "Love Again",
+        "artist": "Ta-ku",
+        "album": "Love Again",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000ssbpB2B5GSN"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000LjXtF05Y0LZ",
+      "song": {
+        "title": "A-O-K",
+        "artist": "Tai Verdes",
+        "album": "A-O-K (with 24kGoldn) [Explicit]",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000LjXtF05Y0LZ"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000sGB2h2Pg607",
+      "song": {
+        "title": "Popstar",
+        "artist": "Tinashe",
+        "album": "Popstar (Explicit)",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000sGB2h2Pg607"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002JMbyD132PhI",
+      "song": {
+        "title": "What You Want",
+        "artist": "Vaudlow",
+        "album": "A Language Unspoken",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002JMbyD132PhI"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0035IJHB1DHfS2",
+      "song": {
+        "title": "Varnish Reflections",
+        "artist": "Warner Chappell Production Music",
+        "album": "The Cello's Maple Waves",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0035IJHB1DHfS2"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002zEThM3ikRUF",
+      "song": {
+        "title": "ミレニアム",
+        "artist": "ラブリーサマーちゃん",
+        "album": "THE THIRD SUMMER OF LOVE",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002zEThM3ikRUF"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001cpNSI1zyl0Q",
+      "song": {
+        "title": "さよならクレール",
+        "artist": "中村佳穂",
+        "album": "さよならクレール",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001cpNSI1zyl0Q"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Rock / Alternative",
+          "Electronic"
+        ],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003M9SnS2HTmjW",
+      "song": {
+        "title": "アイ・ウィッシュ・ユー・ラヴ",
+        "artist": "安佐里",
+        "album": "ムーン・ダンス",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003M9SnS2HTmjW"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter",
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001pn5pl0ocFRu",
+      "song": {
+        "title": "5×10",
+        "artist": "嵐",
+        "album": "5×10 All the BEST! 1999-2009",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001pn5pl0ocFRu"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:001xszNF0cvdvO",
+      "song": {
+        "title": "抿嘴谣",
+        "artist": "惘闻",
+        "album": "IV",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/001xszNF0cvdvO"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003g41Ez0WmJNh",
+      "song": {
+        "title": "绝え间なく",
+        "artist": "福原美穂",
+        "album": "未来-ミライ-/もしかして",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003g41Ez0WmJNh"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:003bMpC408RBLE",
+      "song": {
+        "title": "ブリーズ",
+        "artist": "稲垣次郎とソウル・メディア",
+        "album": "ファンキー・スタッフ",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/003bMpC408RBLE"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:0026KSWG4SDs5B",
+      "song": {
+        "title": "妳的烟熏到我没关系",
+        "artist": "绿橄榄",
+        "album": "2017.2 demo",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/0026KSWG4SDs5B"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000JsTfy2GCHon",
+      "song": {
+        "title": "悲しみのラッキースター",
+        "artist": "青葉市子",
+        "album": "ラヂヲ",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000JsTfy2GCHon"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Ambient / Neo-Classical",
+          "Jazz / Soul"
+        ],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:000QKVvB2EXuCx",
+      "song": {
+        "title": "Dawn in the Adan - roots ver.",
+        "artist": "青葉市子",
+        "album": "Windswept Adan roots",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/000QKVvB2EXuCx"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "note": ""
+    },
+    {
+      "track_id": "qq:002tulXL1GCjhC",
+      "song": {
+        "title": "绝招",
+        "artist": "顾忠山",
+        "album": "PROPER UP!正",
+        "qq_music": "https://y.qq.com/n/ryqq/songDetail/002tulXL1GCjhC"
+      },
+      "completed": true,
+      "resolved_tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [
+          "Rock / Alternative"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "note": ""
+    }
+  ]
+}

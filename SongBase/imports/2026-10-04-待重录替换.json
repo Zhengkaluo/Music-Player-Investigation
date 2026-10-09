@@ -1,0 +1,81 @@
+{
+  "schema_version": "songbase.rerecord-replacement/v1",
+  "created_at": "2026-10-04T15:35:08.568293+00:00",
+  "recording_batch": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/郑灏澜 待重录7 2026-10-04",
+  "staging_directory": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-04-待重录录制",
+  "backup_directory": "/Users/kaluozheng/Music-Player-Investigation/SongBase/archive/replaced_audio/2026-10-04-待重录7",
+  "review_decision": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/郑灏澜 待重录7 2026-10-04/dashboard-review-decisions.json",
+  "tracks": [
+    {
+      "id": "qq:00400umx31UH5p",
+      "title": "人间风景",
+      "artist": "Fayzz",
+      "source_relative_path": "imports/2026-10-04-待重录录制/人间风景 - Fayzz.mp3",
+      "target_relative_path": "SongResources/人间风景 - Fayzz.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/人间风景 - Fayzz.mp3",
+      "previous_sha256": "d6c2c9f1c2e42693073d1fee44c5f199375cc844974165b4de4d551a81532c23",
+      "new_sha256": "0cab90f981edbc8e9e8e0f818eb5e1c791f94a8e050e822a7e671ed0c2b1e67b"
+    },
+    {
+      "id": "qq:0037LBhA4SfrM6",
+      "title": "Utopia",
+      "artist": "Din of Celestial Birds",
+      "source_relative_path": "imports/2026-10-04-待重录录制/Utopia - Din of Celestial Birds.mp3",
+      "target_relative_path": "SongResources/Utopia - Din of Celestial Birds.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/Utopia - Din of Celestial Birds.mp3",
+      "previous_sha256": "46f2ad13e835d14d2ecb0c231e2ca48c86f94766ee4a5982e0d30aca6d070c0d",
+      "new_sha256": "4acaa1e98329eef2f4e605f62a0dfbcc4f0676d2d6d171bb560383667f8adf24"
+    },
+    {
+      "id": "qq:002ZCCko46Jq71",
+      "title": "Road movie",
+      "artist": "Organic Stereo",
+      "source_relative_path": "imports/2026-10-04-待重录录制/Road movie - Organic Stereo.mp3",
+      "target_relative_path": "SongResources/Road movie - Organic Stereo.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/Road movie - Organic Stereo.mp3",
+      "previous_sha256": "876efca0fbaf80454cb6e59418eebbdc0219ead191f5b8b59382dd6cafaeb519",
+      "new_sha256": "1e293c6c5b7c1419f25a5e7187bbdb5216e8b3194ed01190bd8260eaa358d52a"
+    },
+    {
+      "id": "qq:004TYaG82tCwF1",
+      "title": "The World",
+      "artist": "Benny Sings",
+      "source_relative_path": "imports/2026-10-04-待重录录制/The World - Benny Sings.mp3",
+      "target_relative_path": "SongResources/The World - Benny Sings.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/The World - Benny Sings.mp3",
+      "previous_sha256": "f172d865c6535581f4cc713695ae5caea8a85a31bc35ebafa1df44707e1b974b",
+      "new_sha256": "7eb9911aede368792f635635fa6433cea03268e3900eeaf38913d7c289939b71"
+    },
+    {
+      "id": "qq:000O5Ap414r9oE",
+      "title": "TOMATO",
+      "artist": "7co",
+      "source_relative_path": "imports/2026-10-04-待重录录制/TOMATO - 7co.mp3",
+      "target_relative_path": "SongResources/TOMATO - 7co.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/TOMATO - 7co.mp3",
+      "previous_sha256": "bcd93ae2d75b998c7c377a15429fc355d51ad750521e669549d06ccf01d167c3",
+      "new_sha256": "b708b15c16e3c49229c6089c2cd146276b686d56723fd0d03300ff0a1ffae832"
+    },
+    {
+      "id": "qq:002XuiEy20CQ5e",
+      "title": "Virile",
+      "artist": "The Blaze",
+      "source_relative_path": "imports/2026-10-04-待重录录制/Virile - The Blaze.mp3",
+      "target_relative_path": "SongResources/Virile - The Blaze.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/Virile - The Blaze.mp3",
+      "previous_sha256": "892ffb52d388c7ba9b681ce15f63aed4b9dd6eac96a964058a16f5be874a6fad",
+      "new_sha256": "60c625339db9926033d9bd294492901a5ebd94e070c39e914721231ff5c7fc46"
+    },
+    {
+      "id": "qq:000afH2Z0gIzbI",
+      "title": "Cold Cold Cold",
+      "artist": "Cage The Elephant",
+      "source_relative_path": "imports/2026-10-04-待重录录制/Cold Cold Cold - Cage The Elephant.mp3",
+      "target_relative_path": "SongResources/Cold Cold Cold - Cage The Elephant.mp3",
+      "backup_relative_path": "archive/replaced_audio/2026-10-04-待重录7/Cold Cold Cold - Cage The Elephant.mp3",
+      "previous_sha256": "18376e7375bf4ba959c96e1a084e602467faf045a478cae4a5d2265d7fa308f7",
+      "new_sha256": "c40099ecc3fbed1270a87a39ce6290afb8b53585e5a394b174dc91f74c4076de",
+      "trimmed_tail_seconds": 1
+    }
+  ]
+}

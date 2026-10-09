@@ -1,0 +1,1099 @@
+{
+  "schema_version": "songbase.tag-corrections/v1",
+  "exported_at": "2026-10-08",
+  "purpose": "Human-reviewed candidate tags formally imported into SongBase; includes the user follow-up corrections recorded on 2026-10-08.",
+  "source": {
+    "browser": "song_tags_browser.html",
+    "candidate_file": "song_tag_candidates.json",
+    "candidate_generated_at": "2026-08-21",
+    "mapping_version": "2026-08-11",
+    "taxonomy_version": "2026-08-07"
+  },
+  "summary": {
+    "candidate_total": 6,
+    "selected_for_export": 6,
+    "feedback_entries": 6,
+    "decisions": {
+      "pending": 0,
+      "confirm": 4,
+      "correct": 2,
+      "exclude": 0
+    }
+  },
+  "reviews": [
+    {
+      "track_id": "qq:000O5Ap414r9oE",
+      "song": {
+        "title": "TOMATO",
+        "artist": "7co",
+        "album": "TOMATO"
+      },
+      "candidate": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "confidence": 0.65,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "winner": {
+            "genre": "Hip-Hop / R&B",
+            "score": 2.1,
+            "sources": [
+              "lastfm_artist"
+            ],
+            "source_count": 1
+          },
+          "runner_up": null,
+          "all_target_scores": [
+            {
+              "genre": "Hip-Hop / R&B",
+              "score": 2.1
+            }
+          ],
+          "margin": 0.6774,
+          "components": {
+            "base": 0.36,
+            "source_diversity": 0.17,
+            "separation": 0.2845,
+            "uncapped_confidence": 0.8145
+          },
+          "source_cap": {
+            "value": 0.65,
+            "basis": "lastfm_artist",
+            "applied": true,
+            "base_value": 0.65
+          },
+          "artist_genre_calibrations": [],
+          "artist_calibration": null,
+          "secondary_candidates": [],
+          "final_confidence": 0.65,
+          "notes": [
+            "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+            "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+            "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+          ]
+        },
+        "instrumental": null,
+        "matched_tags": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "rnb",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "rnb-default",
+            "rule_score": 5,
+            "rule_status": "verified",
+            "count_bonus": 1,
+            "score": 2.1
+          }
+        ],
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "rnb",
+                "count": 100
+              },
+              {
+                "name": "japanese",
+                "count": 25
+              },
+              {
+                "name": "j-pop",
+                "count": 17
+              },
+              {
+                "name": "japan",
+                "count": 17
+              },
+              {
+                "name": "chill",
+                "count": 8
+              }
+            ]
+          }
+        ],
+        "errors": []
+      },
+      "review": {
+        "selected_for_export": true,
+        "decision": "confirm",
+        "resolved_tags": {
+          "genre": {
+            "value": "Hip-Hop / R&B",
+            "mode": "candidate"
+          },
+          "secondary_genres": [],
+          "language": {
+            "value": "Japanese",
+            "reviewed": true
+          },
+          "instrumental": {
+            "value": false,
+            "reviewed": true
+          }
+        },
+        "mapping_feedback": "unspecified",
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:004TYaG82tCwF1",
+      "song": {
+        "title": "The World",
+        "artist": "Benny Sings",
+        "album": "The World"
+      },
+      "candidate": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [],
+        "confidence": 0.65,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "winner": {
+            "genre": "Jazz / Soul",
+            "score": 6.88,
+            "sources": [
+              "lastfm_artist"
+            ],
+            "source_count": 1
+          },
+          "runner_up": null,
+          "all_target_scores": [
+            {
+              "genre": "Jazz / Soul",
+              "score": 6.88
+            }
+          ],
+          "margin": 0.8731,
+          "components": {
+            "base": 0.36,
+            "source_diversity": 0.17,
+            "separation": 0.3667,
+            "uncapped_confidence": 0.8967
+          },
+          "source_cap": {
+            "value": 0.65,
+            "basis": "lastfm_artist",
+            "applied": true,
+            "base_value": 0.65
+          },
+          "artist_genre_calibrations": [],
+          "artist_calibration": null,
+          "secondary_candidates": [],
+          "final_confidence": 0.65,
+          "notes": [
+            "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+            "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+            "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+          ]
+        },
+        "instrumental": null,
+        "matched_tags": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "jazz",
+            "genre": "Jazz / Soul",
+            "rule_id": "jazz-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 1,
+            "score": 2.45
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "soul",
+            "genre": "Jazz / Soul",
+            "rule_id": "soul-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.5,
+            "score": 2.27
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "nu jazz",
+            "genre": "Jazz / Soul",
+            "rule_id": "jazz-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.16,
+            "score": 2.16
+          }
+        ],
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "jazz",
+                "count": 100
+              },
+              {
+                "name": "pop",
+                "count": 88
+              },
+              {
+                "name": "soul",
+                "count": 50
+              },
+              {
+                "name": "dutch",
+                "count": 37
+              },
+              {
+                "name": "chillout",
+                "count": 17
+              },
+              {
+                "name": "nu jazz",
+                "count": 16
+              },
+              {
+                "name": "Blue-Eyed Soul",
+                "count": 3
+              },
+              {
+                "name": "indie pop",
+                "count": 1
+              },
+              {
+                "name": "future grooves",
+                "count": 1
+              },
+              {
+                "name": "nu-jazz",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "errors": []
+      },
+      "review": {
+        "selected_for_export": true,
+        "decision": "correct",
+        "resolved_tags": {
+          "genre": {
+            "value": "Hip-Hop / R&B",
+            "mode": "Hip-Hop / R&B"
+          },
+          "secondary_genres": [
+            "Folk / Singer-Songwriter",
+            "Jazz / Soul"
+          ],
+          "language": {
+            "value": null,
+            "reviewed": true
+          },
+          "instrumental": {
+            "value": false,
+            "reviewed": true
+          }
+        },
+        "mapping_feedback": "unspecified",
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003cyCJ13XrEOW",
+      "song": {
+        "title": "Peonies for Breakfast",
+        "artist": "LAUSSE THE CAT",
+        "album": "The Mocking Stars (Explicit)"
+      },
+      "candidate": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "confidence": 0.65,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "winner": {
+            "genre": "Hip-Hop / R&B",
+            "score": 6.39,
+            "sources": [
+              "lastfm_artist"
+            ],
+            "source_count": 1
+          },
+          "runner_up": {
+            "genre": "Jazz / Soul",
+            "score": 2.11
+          },
+          "all_target_scores": [
+            {
+              "genre": "Hip-Hop / R&B",
+              "score": 6.39
+            },
+            {
+              "genre": "Jazz / Soul",
+              "score": 2.11
+            },
+            {
+              "genre": "Electronic",
+              "score": 1.46
+            }
+          ],
+          "margin": 0.673,
+          "components": {
+            "base": 0.36,
+            "source_diversity": 0.17,
+            "separation": 0.2827,
+            "uncapped_confidence": 0.8127
+          },
+          "source_cap": {
+            "value": 0.65,
+            "basis": "lastfm_artist",
+            "applied": true,
+            "base_value": 0.65
+          },
+          "artist_genre_calibrations": [],
+          "artist_calibration": null,
+          "secondary_candidates": [],
+          "final_confidence": 0.65,
+          "notes": [
+            "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+            "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+            "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+          ]
+        },
+        "instrumental": null,
+        "matched_tags": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "Hip-Hop",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "hiphop-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.25,
+            "score": 2.19
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "rap",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "hiphop-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.01,
+            "score": 2.1
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "hip hop",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "hiphop-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.01,
+            "score": 2.1
+          }
+        ],
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "jazz rap",
+                "count": 100
+              },
+              {
+                "name": "Hip-Hop",
+                "count": 25
+              },
+              {
+                "name": "downtempo",
+                "count": 17
+              },
+              {
+                "name": "british",
+                "count": 17
+              },
+              {
+                "name": "lo-fi hip-hop",
+                "count": 8
+              },
+              {
+                "name": "UK hip-hop",
+                "count": 8
+              },
+              {
+                "name": "jazz",
+                "count": 2
+              },
+              {
+                "name": "cool jazz",
+                "count": 1
+              },
+              {
+                "name": "rap",
+                "count": 1
+              },
+              {
+                "name": "hip hop",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "errors": [
+          "lastfm_album: Album not found"
+        ]
+      },
+      "review": {
+        "selected_for_export": true,
+        "decision": "confirm",
+        "resolved_tags": {
+          "genre": {
+            "value": "Hip-Hop / R&B",
+            "mode": "candidate"
+          },
+          "secondary_genres": [],
+          "language": {
+            "value": null,
+            "reviewed": true
+          },
+          "instrumental": {
+            "value": false,
+            "reviewed": true
+          }
+        },
+        "mapping_feedback": "unspecified",
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0048HO5a3sPChR",
+      "song": {
+        "title": "Redstripe Rhapsody",
+        "artist": "LAUSSE THE CAT",
+        "album": "Redstripe Rhapsody"
+      },
+      "candidate": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "confidence": 0.65,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "winner": {
+            "genre": "Hip-Hop / R&B",
+            "score": 6.39,
+            "sources": [
+              "lastfm_artist"
+            ],
+            "source_count": 1
+          },
+          "runner_up": {
+            "genre": "Jazz / Soul",
+            "score": 2.11
+          },
+          "all_target_scores": [
+            {
+              "genre": "Hip-Hop / R&B",
+              "score": 6.39
+            },
+            {
+              "genre": "Jazz / Soul",
+              "score": 2.11
+            },
+            {
+              "genre": "Electronic",
+              "score": 1.46
+            }
+          ],
+          "margin": 0.673,
+          "components": {
+            "base": 0.36,
+            "source_diversity": 0.17,
+            "separation": 0.2827,
+            "uncapped_confidence": 0.8127
+          },
+          "source_cap": {
+            "value": 0.65,
+            "basis": "lastfm_artist",
+            "applied": true,
+            "base_value": 0.65
+          },
+          "artist_genre_calibrations": [],
+          "artist_calibration": null,
+          "secondary_candidates": [],
+          "final_confidence": 0.65,
+          "notes": [
+            "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+            "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+            "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+          ]
+        },
+        "instrumental": null,
+        "matched_tags": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "Hip-Hop",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "hiphop-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.25,
+            "score": 2.19
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "rap",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "hiphop-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.01,
+            "score": 2.1
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "hip hop",
+            "genre": "Hip-Hop / R&B",
+            "rule_id": "hiphop-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.01,
+            "score": 2.1
+          }
+        ],
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "jazz rap",
+                "count": 100
+              },
+              {
+                "name": "Hip-Hop",
+                "count": 25
+              },
+              {
+                "name": "downtempo",
+                "count": 17
+              },
+              {
+                "name": "british",
+                "count": 17
+              },
+              {
+                "name": "lo-fi hip-hop",
+                "count": 8
+              },
+              {
+                "name": "UK hip-hop",
+                "count": 8
+              },
+              {
+                "name": "jazz",
+                "count": 2
+              },
+              {
+                "name": "cool jazz",
+                "count": 1
+              },
+              {
+                "name": "rap",
+                "count": 1
+              },
+              {
+                "name": "hip hop",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "errors": []
+      },
+      "review": {
+        "selected_for_export": true,
+        "decision": "confirm",
+        "resolved_tags": {
+          "genre": {
+            "value": "Hip-Hop / R&B",
+            "mode": "candidate"
+          },
+          "secondary_genres": [],
+          "language": {
+            "value": null,
+            "reviewed": true
+          },
+          "instrumental": {
+            "value": false,
+            "reviewed": true
+          }
+        },
+        "mapping_feedback": "unspecified",
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002ZCCko46Jq71",
+      "song": {
+        "title": "Road movie",
+        "artist": "Organic Stereo",
+        "album": "Let Go"
+      },
+      "candidate": {
+        "genre": "Electronic",
+        "secondary_genres": [
+          {
+            "genre": "Folk / Singer-Songwriter",
+            "confidence": 0.65,
+            "score": 3.54,
+            "relative_score": 0.8051,
+            "matched_rule_ids": [
+              "folk-core",
+              "acoustic-with-folk"
+            ],
+            "matched_tags": [
+              {
+                "tag": "folk",
+                "source": "lastfm_artist",
+                "rule_id": "folk-core",
+                "score": 2.14
+              },
+              {
+                "tag": "acoustic + context",
+                "source": "mapping_combination",
+                "rule_id": "acoustic-with-folk",
+                "score": 1.4
+              }
+            ]
+          },
+          {
+            "genre": "Ambient / Neo-Classical",
+            "confidence": 0.65,
+            "score": 2.45,
+            "relative_score": 0.5569,
+            "matched_rule_ids": [
+              "ambient-core"
+            ],
+            "matched_tags": [
+              {
+                "tag": "ambient",
+                "source": "lastfm_artist",
+                "rule_id": "ambient-core",
+                "score": 2.45
+              }
+            ]
+          }
+        ],
+        "confidence": 0.65,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "winner": {
+            "genre": "Electronic",
+            "score": 4.4,
+            "sources": [
+              "lastfm_artist"
+            ],
+            "source_count": 1
+          },
+          "runner_up": {
+            "genre": "Folk / Singer-Songwriter",
+            "score": 3.54
+          },
+          "all_target_scores": [
+            {
+              "genre": "Electronic",
+              "score": 4.4
+            },
+            {
+              "genre": "Folk / Singer-Songwriter",
+              "score": 3.54
+            },
+            {
+              "genre": "Ambient / Neo-Classical",
+              "score": 2.45
+            },
+            {
+              "genre": "Post-Rock / Cinematic",
+              "score": 2.21
+            }
+          ],
+          "margin": 0.492,
+          "components": {
+            "base": 0.36,
+            "source_diversity": 0.17,
+            "separation": 0.2067,
+            "uncapped_confidence": 0.7367
+          },
+          "source_cap": {
+            "value": 0.65,
+            "basis": "lastfm_artist",
+            "applied": true,
+            "base_value": 0.65
+          },
+          "artist_genre_calibrations": [],
+          "artist_calibration": null,
+          "secondary_candidates": [
+            {
+              "genre": "Folk / Singer-Songwriter",
+              "confidence": 0.65,
+              "score": 3.54,
+              "relative_score": 0.8051,
+              "matched_rule_ids": [
+                "folk-core",
+                "acoustic-with-folk"
+              ],
+              "matched_tags": [
+                {
+                  "tag": "folk",
+                  "source": "lastfm_artist",
+                  "rule_id": "folk-core",
+                  "score": 2.14
+                },
+                {
+                  "tag": "acoustic + context",
+                  "source": "mapping_combination",
+                  "rule_id": "acoustic-with-folk",
+                  "score": 1.4
+                }
+              ]
+            },
+            {
+              "genre": "Ambient / Neo-Classical",
+              "confidence": 0.65,
+              "score": 2.45,
+              "relative_score": 0.5569,
+              "matched_rule_ids": [
+                "ambient-core"
+              ],
+              "matched_tags": [
+                {
+                  "tag": "ambient",
+                  "source": "lastfm_artist",
+                  "rule_id": "ambient-core",
+                  "score": 2.45
+                }
+              ]
+            }
+          ],
+          "final_confidence": 0.65,
+          "notes": [
+            "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+            "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+            "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+          ]
+        },
+        "instrumental": true,
+        "matched_tags": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "electronic",
+            "genre": "Electronic",
+            "rule_id": "electronic-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.54,
+            "score": 2.29
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "electronica",
+            "genre": "Electronic",
+            "rule_id": "electronic-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.03,
+            "score": 2.11
+          }
+        ],
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "ambient",
+                "count": 100
+              },
+              {
+                "name": "japanese",
+                "count": 82
+              },
+              {
+                "name": "electronic",
+                "count": 54
+              },
+              {
+                "name": "post-rock",
+                "count": 31
+              },
+              {
+                "name": "folk",
+                "count": 12
+              },
+              {
+                "name": "electronica",
+                "count": 3
+              },
+              {
+                "name": "acoustic",
+                "count": 3
+              },
+              {
+                "name": "instrumental",
+                "count": 1
+              },
+              {
+                "name": "Dreamy",
+                "count": 1
+              },
+              {
+                "name": "chillout",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "errors": []
+      },
+      "review": {
+        "selected_for_export": true,
+        "decision": "correct",
+        "resolved_tags": {
+          "genre": {
+            "value": "Post-Rock / Cinematic",
+            "mode": "Post-Rock / Cinematic"
+          },
+          "secondary_genres": [
+            "Ambient / Neo-Classical"
+          ],
+          "language": {
+            "value": null,
+            "reviewed": true
+          },
+          "instrumental": {
+            "value": true,
+            "reviewed": true
+          }
+        },
+        "mapping_feedback": "unspecified",
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002XuiEy20CQ5e",
+      "song": {
+        "title": "Virile",
+        "artist": "The Blaze",
+        "album": "Virile"
+      },
+      "candidate": {
+        "genre": "Electronic",
+        "secondary_genres": [],
+        "confidence": 0.65,
+        "confidence_details": {
+          "formula_version": "songbase.candidate-confidence/v4",
+          "input_sources": [
+            {
+              "source": "lastfm_artist",
+              "weight": 0.35
+            }
+          ],
+          "winner": {
+            "genre": "Electronic",
+            "score": 6.17,
+            "sources": [
+              "lastfm_artist"
+            ],
+            "source_count": 1
+          },
+          "runner_up": null,
+          "all_target_scores": [
+            {
+              "genre": "Electronic",
+              "score": 6.17
+            }
+          ],
+          "margin": 0.8606,
+          "components": {
+            "base": 0.36,
+            "source_diversity": 0.17,
+            "separation": 0.3615,
+            "uncapped_confidence": 0.8915
+          },
+          "source_cap": {
+            "value": 0.65,
+            "basis": "lastfm_artist",
+            "applied": true,
+            "base_value": 0.65
+          },
+          "artist_genre_calibrations": [],
+          "artist_calibration": null,
+          "secondary_candidates": [],
+          "final_confidence": 0.65,
+          "notes": [
+            "规则 status 会被记录，但当前公式不会因 verified 或 proposed 而改变分数。",
+            "Last.fm 标签热度仅作为 0–1 的小幅加分；主要权重来自来源层级与映射规则分数。",
+            "副风格最多两个，要求得分不少于 2.0、达到主风格得分的 45%，且不能只由艺人先验产生。"
+          ]
+        },
+        "instrumental": null,
+        "matched_tags": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "electronic",
+            "genre": "Electronic",
+            "rule_id": "electronic-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.6,
+            "score": 2.31
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "electronica",
+            "genre": "Electronic",
+            "rule_id": "electronic-core",
+            "rule_score": 6,
+            "rule_status": "verified",
+            "count_bonus": 0.04,
+            "score": 2.11
+          },
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "tag": "House",
+            "genre": "Electronic",
+            "rule_id": "electronic-variants",
+            "rule_score": 4,
+            "rule_status": "verified",
+            "count_bonus": 1,
+            "score": 1.75
+          }
+        ],
+        "evidence": [
+          {
+            "source": "lastfm_artist",
+            "source_weight": 0.35,
+            "raw_tags": [
+              {
+                "name": "House",
+                "count": 100
+              },
+              {
+                "name": "electronic",
+                "count": 60
+              },
+              {
+                "name": "deep house",
+                "count": 36
+              },
+              {
+                "name": "french",
+                "count": 21
+              },
+              {
+                "name": "electronica",
+                "count": 4
+              },
+              {
+                "name": "indietronica",
+                "count": 1
+              },
+              {
+                "name": "france",
+                "count": 1
+              },
+              {
+                "name": "Progressive House",
+                "count": 1
+              },
+              {
+                "name": "3",
+                "count": 1
+              },
+              {
+                "name": "minimal",
+                "count": 1
+              }
+            ]
+          }
+        ],
+        "errors": []
+      },
+      "review": {
+        "selected_for_export": true,
+        "decision": "confirm",
+        "resolved_tags": {
+          "genre": {
+            "value": "Electronic",
+            "mode": "candidate"
+          },
+          "secondary_genres": [
+            "Folk / Singer-Songwriter",
+            "Ambient / Neo-Classical"
+          ],
+          "language": {
+            "value": null,
+            "reviewed": true
+          },
+          "instrumental": {
+            "value": true,
+            "reviewed": true
+          }
+        },
+        "mapping_feedback": "unspecified",
+        "note": ""
+      }
+    }
+  ],
+  "applied_at": "2026-10-08T22:15:50+08:00",
+  "applied_followup": [
+    "Virile: add Ambient / Neo-Classical as a secondary genre",
+    "Redstripe Rhapsody: confirm non-instrumental",
+    "Road movie: confirm default language (stored as null)"
+  ]
+}

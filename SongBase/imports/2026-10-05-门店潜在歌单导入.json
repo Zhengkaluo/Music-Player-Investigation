@@ -1,0 +1,782 @@
+{
+  "schema_version": "songbase.qq-playlist-import/v1",
+  "created_at": "2026-10-05T22:59:25+08:00",
+  "source": {
+    "share_url": "https://c6.y.qq.com/base/fcgi-bin/u?__=Hgds6JzV9E3Y",
+    "playlist_name": "门店潜在歌单",
+    "playlist_id": "9757064148",
+    "playlist_url": "https://y.qq.com/n/ryqq/playlist/9757064148",
+    "reader": "Zhengkaluo‘s Skills/qq-music/scripts/qq_music.py playlist show"
+  },
+  "identity_rule": "QQ song_mid is authoritative; title plus full artist is checked for metadata agreement, never used as title-only fallback.",
+  "summary": {
+    "playlist_tracks": 39,
+    "imported": 35,
+    "already_present_verified": 4,
+    "discarded_excluded": 0,
+    "identity_collisions": 0,
+    "local_audio_added": 0,
+    "formal_tags_added": 0,
+    "candidate_tags_added": 0
+  },
+  "snapshot_before_import": "archive/snapshots/song_base/song_base_before_playlist_import_2026-10-05_225925.json",
+  "tracks": [
+    {
+      "position": 1,
+      "id": "qq:000sGB2h2Pg607",
+      "song_mid": "000sGB2h2Pg607",
+      "song_id": 728041165,
+      "song_type": 1,
+      "title": "Popstar",
+      "artists": [
+        "Tinashe"
+      ],
+      "full_singer": "Tinashe",
+      "group_artist": "Tinashe",
+      "album": "Popstar (Explicit)",
+      "album_mid": "004DoQfA0tmG6b",
+      "duration": 167,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000sGB2h2Pg607",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 2,
+      "id": "qq:003xubth3E8N7D",
+      "song_mid": "003xubth3E8N7D",
+      "song_id": 213039192,
+      "song_type": 1,
+      "title": "Pure Shade",
+      "artists": [
+        "Ezra Collective"
+      ],
+      "full_singer": "Ezra Collective",
+      "group_artist": "Ezra Collective",
+      "album": "We Out Here",
+      "album_mid": "003o2lLe2OiKtr",
+      "duration": 393,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xubth3E8N7D",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 3,
+      "id": "qq:003aIoZj4TSjPj",
+      "song_mid": "003aIoZj4TSjPj",
+      "song_id": 217570177,
+      "song_type": 1,
+      "title": "Reason in Disguise",
+      "artists": [
+        "Ezra Collective",
+        "Jorja Smith"
+      ],
+      "full_singer": "Ezra Collective, Jorja Smith",
+      "group_artist": "Ezra Collective",
+      "album": "Reason in Disguise",
+      "album_mid": "0027Z2Hd1gjJat",
+      "duration": 221,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003aIoZj4TSjPj",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 4,
+      "id": "qq:003Tedn00IU7Hx",
+      "song_mid": "003Tedn00IU7Hx",
+      "song_id": 495249763,
+      "song_type": 1,
+      "title": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+      "artists": [
+        "Ezra Collective",
+        "Yazmin Lacey"
+      ],
+      "full_singer": "Ezra Collective, Yazmin Lacey",
+      "group_artist": "Ezra Collective",
+      "album": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+      "album_mid": "0019w0fr4B3Kze",
+      "duration": 239,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Tedn00IU7Hx",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 5,
+      "id": "qq:0027MOU12Nk2F2",
+      "song_mid": "0027MOU12Nk2F2",
+      "song_id": 517788694,
+      "song_type": 1,
+      "title": "No One's Watching Me (feat. Olivia Dean)",
+      "artists": [
+        "Ezra Collective",
+        "Olivia Dean"
+      ],
+      "full_singer": "Ezra Collective, Olivia Dean",
+      "group_artist": "Ezra Collective",
+      "album": "Dance, No One's Watching",
+      "album_mid": "000gxQ0n3gGZsc",
+      "duration": 262,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0027MOU12Nk2F2",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 6,
+      "id": "qq:002pI6rJ2yVLeg",
+      "song_mid": "002pI6rJ2yVLeg",
+      "song_id": 283611822,
+      "song_type": 1,
+      "title": "Time Machine",
+      "artists": [
+        "Diamond Pistols",
+        "Rich Brian"
+      ],
+      "full_singer": "Diamond Pistols, Rich Brian",
+      "group_artist": "Diamond Pistols",
+      "album": "Time Machine (Explicit)",
+      "album_mid": "003M0fNW07uRot",
+      "duration": 183,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002pI6rJ2yVLeg",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 7,
+      "id": "qq:0024W4RZ2nOlWV",
+      "song_mid": "0024W4RZ2nOlWV",
+      "song_id": 595160803,
+      "song_type": 1,
+      "title": "Only Here and Nowhere Else",
+      "artists": [
+        "Snarky Puppy",
+        "Metropole Orkest",
+        "Jules Buckley"
+      ],
+      "full_singer": "Snarky Puppy, Metropole Orkest, Jules Buckley",
+      "group_artist": "Snarky Puppy",
+      "album": "Somni",
+      "album_mid": "000p1KlR47Rp5x",
+      "duration": 404,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0024W4RZ2nOlWV",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 8,
+      "id": "qq:002zNIpE2OWF50",
+      "song_mid": "002zNIpE2OWF50",
+      "song_id": 215546678,
+      "song_type": 1,
+      "title": "Drift",
+      "artists": [
+        "Choker"
+      ],
+      "full_singer": "Choker",
+      "group_artist": "Choker",
+      "album": "Honeybloom (Explicit)",
+      "album_mid": "004RnyhP08OyWB",
+      "duration": 215,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002zNIpE2OWF50",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 9,
+      "id": "qq:002Q1n2g3XQaBS",
+      "song_mid": "002Q1n2g3XQaBS",
+      "song_id": 262073707,
+      "song_type": 1,
+      "title": "Tennen",
+      "artists": [
+        "Hania Rani",
+        "Gijs van Klooster"
+      ],
+      "full_singer": "Hania Rani, Gijs van Klooster",
+      "group_artist": "Hania Rani",
+      "album": "Home",
+      "album_mid": "000Phqgc4S4NGn",
+      "duration": 365,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002Q1n2g3XQaBS",
+      "status": "already_present_verified",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 10,
+      "id": "qq:0024ZNSr3YU6OP",
+      "song_mid": "0024ZNSr3YU6OP",
+      "song_id": 262073693,
+      "song_type": 1,
+      "title": "Summer",
+      "artists": [
+        "Hania Rani"
+      ],
+      "full_singer": "Hania Rani",
+      "group_artist": "Hania Rani",
+      "album": "Home",
+      "album_mid": "000Phqgc4S4NGn",
+      "duration": 322,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0024ZNSr3YU6OP",
+      "status": "already_present_verified",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 11,
+      "id": "qq:000bb6y31ke4DO",
+      "song_mid": "000bb6y31ke4DO",
+      "song_id": 262073676,
+      "song_type": 1,
+      "title": "Zero Hour",
+      "artists": [
+        "Hania Rani"
+      ],
+      "full_singer": "Hania Rani",
+      "group_artist": "Hania Rani",
+      "album": "Home",
+      "album_mid": "000Phqgc4S4NGn",
+      "duration": 326,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000bb6y31ke4DO",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 12,
+      "id": "qq:002V6dd03LPjXl",
+      "song_mid": "002V6dd03LPjXl",
+      "song_id": 262073677,
+      "song_type": 1,
+      "title": "Buka",
+      "artists": [
+        "Hania Rani",
+        "Gijs van Klooster"
+      ],
+      "full_singer": "Hania Rani, Gijs van Klooster",
+      "group_artist": "Hania Rani",
+      "album": "Home",
+      "album_mid": "000Phqgc4S4NGn",
+      "duration": 302,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002V6dd03LPjXl",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 13,
+      "id": "qq:000D0CB714neCt",
+      "song_mid": "000D0CB714neCt",
+      "song_id": 217054066,
+      "song_type": 1,
+      "title": "Favorite Maze",
+      "artists": [
+        "Evenings"
+      ],
+      "full_singer": "Evenings",
+      "group_artist": "Evenings",
+      "album": "Yore",
+      "album_mid": "002S3rQA0BCAT1",
+      "duration": 172,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000D0CB714neCt",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 14,
+      "id": "qq:0026KSWG4SDs5B",
+      "song_mid": "0026KSWG4SDs5B",
+      "song_id": 246975926,
+      "song_type": 1,
+      "title": "妳的烟熏到我没关系",
+      "artists": [
+        "绿橄榄"
+      ],
+      "full_singer": "绿橄榄",
+      "group_artist": "绿橄榄",
+      "album": "2017.2 demo",
+      "album_mid": "002KwtF00gmwy2",
+      "duration": 376,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0026KSWG4SDs5B",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 15,
+      "id": "qq:0047w50Z2xR9D2",
+      "song_mid": "0047w50Z2xR9D2",
+      "song_id": 498389180,
+      "song_type": 1,
+      "title": "告别",
+      "artists": [
+        "Carsick Cars"
+      ],
+      "full_singer": "Carsick Cars",
+      "group_artist": "Carsick Cars",
+      "album": "告别",
+      "album_mid": "000GBcEi0c5XEv",
+      "duration": 288,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0047w50Z2xR9D2",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 16,
+      "id": "qq:002ZONdS0IyrRX",
+      "song_mid": "002ZONdS0IyrRX",
+      "song_id": 230637896,
+      "song_type": 1,
+      "title": "月の光 Arranged by kazumasa hashimoto",
+      "artists": [
+        "Kazumasa Hashimoto"
+      ],
+      "full_singer": "Kazumasa Hashimoto",
+      "group_artist": "Kazumasa Hashimoto",
+      "album": "Tokyo Sonata",
+      "album_mid": "004dR9aJ2PQT6z",
+      "duration": 377,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002ZONdS0IyrRX",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 17,
+      "id": "qq:002tulXL1GCjhC",
+      "song_mid": "002tulXL1GCjhC",
+      "song_id": 109107326,
+      "song_type": 1,
+      "title": "绝招",
+      "artists": [
+        "顾忠山"
+      ],
+      "full_singer": "顾忠山",
+      "group_artist": "顾忠山",
+      "album": "PROPER UP!正",
+      "album_mid": "000vDpCK3aPD18",
+      "duration": 461,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002tulXL1GCjhC",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 18,
+      "id": "qq:0014DtAP21sJ4h",
+      "song_mid": "0014DtAP21sJ4h",
+      "song_id": 495216,
+      "song_type": 1,
+      "title": "Oh Dear",
+      "artists": [
+        "Sophie Zelmani"
+      ],
+      "full_singer": "Sophie Zelmani",
+      "group_artist": "Sophie Zelmani",
+      "album": "Sing And Dance",
+      "album_mid": "0014fYuS0c26xs",
+      "duration": 429,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0014DtAP21sJ4h",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 19,
+      "id": "qq:001sEBpU4eSUwP",
+      "song_mid": "001sEBpU4eSUwP",
+      "song_id": 689062986,
+      "song_type": 1,
+      "title": "さよならペンギン",
+      "artists": [
+        "青葉市子"
+      ],
+      "full_singer": "青葉市子",
+      "group_artist": "青葉市子",
+      "album": "さよならペンギン",
+      "album_mid": "000VAm4c1iSggk",
+      "duration": 111,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001sEBpU4eSUwP",
+      "status": "already_present_verified",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 20,
+      "id": "qq:004CKntE0jM43B",
+      "song_mid": "004CKntE0jM43B",
+      "song_id": 585825,
+      "song_type": 1,
+      "title": "過ぎ去りし永遠の日々",
+      "artists": [
+        "Coba"
+      ],
+      "full_singer": "Coba",
+      "group_artist": "Coba",
+      "album": "おしゃれカンケイ",
+      "album_mid": "002kDYn13awxGh",
+      "duration": 218,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004CKntE0jM43B",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 21,
+      "id": "qq:001cdbRN4DHkVY",
+      "song_mid": "001cdbRN4DHkVY",
+      "song_id": 264066051,
+      "song_type": 1,
+      "title": "Ready Wednesday",
+      "artists": [
+        "Snarky Puppy",
+        "Bill Laurance"
+      ],
+      "full_singer": "Snarky Puppy, Bill Laurance",
+      "group_artist": "Snarky Puppy",
+      "album": "Tell Your Friends (Remixed & Remastered)",
+      "album_mid": "0006GxlK0SiJNe",
+      "duration": 545,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001cdbRN4DHkVY",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 22,
+      "id": "qq:001xszNF0cvdvO",
+      "song_mid": "001xszNF0cvdvO",
+      "song_id": 2820829,
+      "song_type": 1,
+      "title": "抿嘴谣",
+      "artists": [
+        "惘闻"
+      ],
+      "full_singer": "惘闻",
+      "group_artist": "惘闻",
+      "album": "IV",
+      "album_mid": "0030IrTs3lpDRV",
+      "duration": 459,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001xszNF0cvdvO",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 23,
+      "id": "qq:003Yxqjy30eCQY",
+      "song_mid": "003Yxqjy30eCQY",
+      "song_id": 105803546,
+      "song_type": 1,
+      "title": "September",
+      "artists": [
+        "Chestnut Bakery"
+      ],
+      "full_singer": "Chestnut Bakery",
+      "group_artist": "Chestnut Bakery",
+      "album": "Diaries",
+      "album_mid": "004AmTIx3kJTvd",
+      "duration": 320,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Yxqjy30eCQY",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 24,
+      "id": "qq:001y27Va342IXs",
+      "song_mid": "001y27Va342IXs",
+      "song_id": 673565998,
+      "song_type": 1,
+      "title": "No Fun",
+      "artists": [
+        "After Louise"
+      ],
+      "full_singer": "After Louise",
+      "group_artist": "After Louise",
+      "album": "Nothing's Accidental",
+      "album_mid": "000GAElt2EGeVb",
+      "duration": 175,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001y27Va342IXs",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 25,
+      "id": "qq:003bMpC408RBLE",
+      "song_mid": "003bMpC408RBLE",
+      "song_id": 289100359,
+      "song_type": 1,
+      "title": "ブリーズ",
+      "artists": [
+        "稲垣次郎とソウル・メディア"
+      ],
+      "full_singer": "稲垣次郎とソウル・メディア",
+      "group_artist": "稲垣次郎とソウル・メディア",
+      "album": "ファンキー・スタッフ",
+      "album_mid": "002DHNnU3etCIm",
+      "duration": 277,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003bMpC408RBLE",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 26,
+      "id": "qq:003g41Ez0WmJNh",
+      "song_mid": "003g41Ez0WmJNh",
+      "song_id": 686354,
+      "song_type": 1,
+      "title": "绝え间なく",
+      "artists": [
+        "福原美穂"
+      ],
+      "full_singer": "福原美穂",
+      "group_artist": "福原美穂",
+      "album": "未来-ミライ-/もしかして",
+      "album_mid": "002leU9z30aTtf",
+      "duration": 322,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003g41Ez0WmJNh",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 27,
+      "id": "qq:000ssbpB2B5GSN",
+      "song_mid": "000ssbpB2B5GSN",
+      "song_id": 104963337,
+      "song_type": 1,
+      "title": "Love Again",
+      "artists": [
+        "Ta-ku",
+        "JMSN",
+        "Sango"
+      ],
+      "full_singer": "Ta-ku, JMSN, Sango",
+      "group_artist": "Ta-ku",
+      "album": "Love Again",
+      "album_mid": "001XSVh13iiLE5",
+      "duration": 316,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000ssbpB2B5GSN",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 28,
+      "id": "qq:002zReeT1yjdtm",
+      "song_mid": "002zReeT1yjdtm",
+      "song_id": 102819085,
+      "song_type": 1,
+      "title": "Middle Of Things, Beautiful Wife",
+      "artists": [
+        "Stwo",
+        "Sango",
+        "SPZRKT"
+      ],
+      "full_singer": "Stwo, Sango, SPZRKT",
+      "group_artist": "Stwo",
+      "album": "Middle Of Things, Beautiful Wife (Stwo Remix)",
+      "album_mid": "000tGBIa3Uk0ZY",
+      "duration": 198,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002zReeT1yjdtm",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 29,
+      "id": "qq:002TFicq4AGTtE",
+      "song_mid": "002TFicq4AGTtE",
+      "song_id": 211015706,
+      "song_type": 1,
+      "title": "Go Out And Love Someone",
+      "artists": [
+        "Pogo"
+      ],
+      "full_singer": "Pogo",
+      "group_artist": "Pogo",
+      "album": "Wonderpuff",
+      "album_mid": "002qSRRh3f1Wj3",
+      "duration": 229,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002TFicq4AGTtE",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 30,
+      "id": "qq:001cpNSI1zyl0Q",
+      "song_mid": "001cpNSI1zyl0Q",
+      "song_id": 338702785,
+      "song_type": 1,
+      "title": "さよならクレール",
+      "artists": [
+        "中村佳穂"
+      ],
+      "full_singer": "中村佳穂",
+      "group_artist": "中村佳穂",
+      "album": "さよならクレール",
+      "album_mid": "004bJ91y3Oi6lK",
+      "duration": 228,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001cpNSI1zyl0Q",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 31,
+      "id": "qq:003M9SnS2HTmjW",
+      "song_mid": "003M9SnS2HTmjW",
+      "song_id": 200097403,
+      "song_type": 1,
+      "title": "アイ・ウィッシュ・ユー・ラヴ",
+      "artists": [
+        "安佐里"
+      ],
+      "full_singer": "安佐里",
+      "group_artist": "安佐里",
+      "album": "ムーン・ダンス",
+      "album_mid": "002UcITw2Ru3eS",
+      "duration": 258,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003M9SnS2HTmjW",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 32,
+      "id": "qq:0035IJHB1DHfS2",
+      "song_mid": "0035IJHB1DHfS2",
+      "song_id": 687133890,
+      "song_type": 1,
+      "title": "Varnish Reflections",
+      "artists": [
+        "Warner Chappell Production Music",
+        "Timothée Couteau"
+      ],
+      "full_singer": "Warner Chappell Production Music, Timothée Couteau",
+      "group_artist": "Warner Chappell Production Music",
+      "album": "The Cello's Maple Waves",
+      "album_mid": "001QZ0X84Y4wac",
+      "duration": 137,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0035IJHB1DHfS2",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 33,
+      "id": "qq:002JMbyD132PhI",
+      "song_mid": "002JMbyD132PhI",
+      "song_id": 452334043,
+      "song_type": 1,
+      "title": "What You Want",
+      "artists": [
+        "Vaudlow"
+      ],
+      "full_singer": "Vaudlow",
+      "group_artist": "Vaudlow",
+      "album": "A Language Unspoken",
+      "album_mid": "0017OSkG2BmB7Q",
+      "duration": 266,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002JMbyD132PhI",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 34,
+      "id": "qq:003wyPWg2vNdDH",
+      "song_mid": "003wyPWg2vNdDH",
+      "song_id": 248692612,
+      "song_type": 1,
+      "title": "うたのけはい",
+      "artists": [
+        "青葉市子"
+      ],
+      "full_singer": "青葉市子",
+      "group_artist": "青葉市子",
+      "album": "0",
+      "album_mid": "003spUIG3GD84I",
+      "duration": 127,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003wyPWg2vNdDH",
+      "status": "already_present_verified",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 35,
+      "id": "qq:000dU93h3T7HoN",
+      "song_mid": "000dU93h3T7HoN",
+      "song_id": 289861583,
+      "song_type": 1,
+      "title": "からかひ",
+      "artists": [
+        "Sweet William",
+        "青葉市子"
+      ],
+      "full_singer": "Sweet William, 青葉市子",
+      "group_artist": "Sweet William",
+      "album": "からかひ",
+      "album_mid": "001jdVl33QTWmh",
+      "duration": 242,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000dU93h3T7HoN",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 36,
+      "id": "qq:000JsTfy2GCHon",
+      "song_mid": "000JsTfy2GCHon",
+      "song_id": 5118150,
+      "song_type": 1,
+      "title": "悲しみのラッキースター",
+      "artists": [
+        "青葉市子",
+        "妖精たち"
+      ],
+      "full_singer": "青葉市子, 妖精たち",
+      "group_artist": "青葉市子",
+      "album": "ラヂヲ",
+      "album_mid": "002hjxb62qkqID",
+      "duration": 157,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000JsTfy2GCHon",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 37,
+      "id": "qq:001EKBWO1dQXsf",
+      "song_mid": "001EKBWO1dQXsf",
+      "song_id": 597729487,
+      "song_type": 1,
+      "title": "Mr. Eclectic",
+      "artists": [
+        "Laufey"
+      ],
+      "full_singer": "Laufey",
+      "group_artist": "Laufey",
+      "album": "A Matter of Time (Explicit)",
+      "album_mid": "003ZM8uY3QBX4E",
+      "duration": 155,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001EKBWO1dQXsf",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 38,
+      "id": "qq:000QKVvB2EXuCx",
+      "song_mid": "000QKVvB2EXuCx",
+      "song_id": 314357543,
+      "song_type": 1,
+      "title": "Dawn in the Adan - roots ver.",
+      "artists": [
+        "青葉市子"
+      ],
+      "full_singer": "青葉市子",
+      "group_artist": "青葉市子",
+      "album": "Windswept Adan roots",
+      "album_mid": "000VieLO1pOgmn",
+      "duration": 342,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000QKVvB2EXuCx",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    },
+    {
+      "position": 39,
+      "id": "qq:004F52ih3w6pZN",
+      "song_mid": "004F52ih3w6pZN",
+      "song_id": 490251704,
+      "song_type": 1,
+      "title": "Miss.mp3",
+      "artists": [
+        "BAANDIT!"
+      ],
+      "full_singer": "BAANDIT!",
+      "group_artist": "BAANDIT!",
+      "album": "Miss.mp3",
+      "album_mid": "003IPrnc1QsieK",
+      "duration": 166,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004F52ih3w6pZN",
+      "status": "imported",
+      "identity_collision_other_mids": []
+    }
+  ]
+}
