@@ -1,6 +1,6 @@
 {
   "schema_version": "songbase.title-context-semantic-reviews/v1",
-  "review_version": "2026-10-12.1",
+  "review_version": "2026-10-12.2",
   "author_type": "agent_title_only_review",
   "user_approval": "not_reviewed",
   "notes": [
@@ -18,9 +18,6 @@
     {"title":"Swimming in Purple Clouds","artist":"The Shanghai Restoration Project","tag":"weather.clouds","action":"ambiguous","reason":"紫云中游泳可能是超现实比喻，不能直接解释为当天云量。"},
     {"title":"東京晴れ舞台","artist":"sucola","tag":"weather.clear","action":"exclude","reason":"晴れ舞台 为盛大亮相／重要舞台的惯用表达，不是晴天。"},
     {"title":"Snow(Hey Oh)","artist":"Red Hot Chili Peppers","tag":"weather.snow","action":"ambiguous","reason":"标题 Snow 的字面线索成立，但具体含义未核实，尤其不能据此推断降雪主题、冬季或圣诞。"},
-    {"title":"Ice Copy","artist":"Hiroshi Yoshimura","tag":"weather.ice","action":"ambiguous","reason":"Ice Copy 具体含义不明，保留冰的候选意象，不推定天气。"},
-    {"title":"想像一块冰的迁徙","artist":"Cicada","tag":"weather.ice","action":"explicit","reason":"明确写到一块冰的物体意象，只记录冰，不推成冬季或低温天气。"},
-    {"title":"氷の鳥","artist":"青葉市子","tag":"weather.ice","action":"explicit","reason":"氷の鳥 为冰之鸟的标题意象，不自动绑定冬季。"},
     {"title":"Cold Cold Cold","artist":"Cage The Elephant","tag":"weather.temperature_cold","action":"ambiguous","reason":"冷的修饰对象缺失，可能是情绪、身体或天气。"},
     {"title":"Cold Meteor Showers","artist":"The Breathing Effect","tag":"weather.rain","action":"exclude","reason":"Meteor showers 是流星雨，不是气象降雨，不能因 Showers 自动匹配雨天。"},
     {"title":"Cold Meteor Showers","artist":"The Breathing Effect","tag":"weather.temperature_cold","action":"ambiguous","reason":"冷修饰流星雨意象，未明确当地气温。"},

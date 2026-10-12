@@ -1,8 +1,8 @@
 {
   "schema_version": "songbase.context-title-scan/v1",
-  "generated_at": "2026-10-12T17:29:29.063416+08:00",
-  "rule_version": "2026-10-12.1",
-  "semantic_review_version": "2026-10-12.1",
+  "generated_at": "2026-10-12T18:39:18.392138+08:00",
+  "rule_version": "2026-10-12.2",
+  "semantic_review_version": "2026-10-12.2",
   "scope": "full_library_song_titles_only",
   "approval_status": "all_candidates_pending_user_review",
   "source": {
@@ -12,6 +12,11 @@
   },
   "policy": {
     "approval": "candidates_only",
+    "excluded_tags": [
+      "weather.ice",
+      "weather.dew",
+      "holiday.graduation"
+    ],
     "auto_lock_allowed": false,
     "infer_lyrics_or_mood": false,
     "infer_season_from_month_or_weather": false,
@@ -25,16 +30,16 @@
     "input_rows": 1162,
     "unique_tracks_scanned": 1161,
     "duplicate_rows_collapsed": 1,
-    "tracks_with_candidates": 155,
-    "tracks_without_candidates": 1006,
-    "total_associations": 176,
+    "tracks_with_candidates": 151,
+    "tracks_without_candidates": 1010,
+    "total_associations": 171,
     "associations_by_judgment": {
-      "ambiguous": 41,
-      "explicit": 129,
+      "ambiguous": 40,
+      "explicit": 125,
       "indirect": 6
     },
-    "tracks_with_explicit_candidates": 110,
-    "tracks_only_indirect_or_ambiguous": 45,
+    "tracks_with_explicit_candidates": 107,
+    "tracks_only_indirect_or_ambiguous": 44,
     "excluded_associations": 20,
     "categories": {
       "season": {
@@ -44,13 +49,13 @@
       },
       "weather": {
         "label": "天气与体感",
-        "tracks": 46,
-        "associations": 49
+        "tracks": 42,
+        "associations": 45
       },
       "holiday": {
         "label": "节日与纪念情境",
-        "tracks": 3,
-        "associations": 3
+        "tracks": 2,
+        "associations": 2
       },
       "calendar": {
         "label": "月份与日期",
@@ -3515,36 +3520,7 @@
           "source_artist": "Cicada"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.ice",
-          "category": "weather",
-          "label": "冰意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "明确写到一块冰的物体意象，只记录冰，不推成冬季或低温天气。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "想像一块冰的迁徙",
-              "matched_text": "冰",
-              "span": [
-                4,
-                5
-              ],
-              "matched_alias": "冰",
-              "rule_id": "weather.ice"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -3554,7 +3530,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:002c62Rp3lsn9P": {
       "track_id": "qq:002c62Rp3lsn9P",
@@ -11014,36 +10990,7 @@
           "source_artist": "Hiroshi Yoshimura"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.ice",
-          "category": "weather",
-          "label": "冰意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "Ice Copy 具体含义不明，保留冰的候选意象，不推定天气。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Ice Copy",
-              "matched_text": "Ice",
-              "span": [
-                0,
-                3
-              ],
-              "matched_alias": "ice",
-              "rule_id": "weather.ice"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -11053,7 +11000,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000BvWag0zd5HI": {
       "track_id": "qq:000BvWag0zd5HI",
@@ -18582,35 +18529,7 @@
           "source_artist": "Murphy Radio"
         }
       ],
-      "associations": [
-        {
-          "tag": "holiday.graduation",
-          "category": "holiday",
-          "label": "毕业纪念（非固定节日）",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Graduation Song",
-              "matched_text": "Graduation",
-              "span": [
-                0,
-                10
-              ],
-              "matched_alias": "graduation",
-              "rule_id": "holiday.graduation"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -18620,7 +18539,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:004U5Nds1SvJpy": {
       "track_id": "qq:004U5Nds1SvJpy",
@@ -25921,33 +25840,6 @@
         }
       ],
       "associations": [
-        {
-          "tag": "weather.dew",
-          "category": "weather",
-          "label": "露水意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "露水不自动关联白露节气。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Morning Dew",
-              "matched_text": "Dew",
-              "span": [
-                8,
-                11
-              ],
-              "matched_alias": "dew",
-              "rule_id": "weather.dew"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        },
         {
           "tag": "time.morning",
           "category": "time_light",
@@ -35887,36 +35779,7 @@
           "source_artist": "青葉市子"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.ice",
-          "category": "weather",
-          "label": "冰意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "氷の鳥 为冰之鸟的标题意象，不自动绑定冬季。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "氷の鳥",
-              "matched_text": "氷",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "冰",
-              "rule_id": "weather.ice"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -35926,7 +35789,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003UXQSv0OiIBc": {
       "track_id": "qq:003UXQSv0OiIBc",

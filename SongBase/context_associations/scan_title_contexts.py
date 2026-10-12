@@ -210,6 +210,9 @@ def scan_title(title, artist, config, compiled, reviews):
                 raise ValueError("语义附加项证据不在原始标题：" + title)
             ev = {"type": "title", "source_title": title, "matched_text": raw, "span": [start, start + len(raw)], "rule_id": "agent_title_phrase_review"}
             found[addition["tag"]] = candidate(addition["tag"], addition["category"], addition["label"], addition["strength"], [ev], addition["note"])
+    excluded_tags = set(config.get("policy", {}).get("excluded_tags", []))
+    found = {tag: item for tag, item in found.items() if tag not in excluded_tags}
+    excluded = [item for item in excluded if item["tag"] not in excluded_tags]
     safeguards = [x["reason"] for x in reviews["title_safeguards"] if x["title"] == title and x["artist"] == artist]
     return list(found.values()), excluded, {"source_title": title, "search_title": text.strip(), "ignored_segments": ignored, "safeguards": safeguards}
 

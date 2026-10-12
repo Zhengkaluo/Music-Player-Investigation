@@ -99,6 +99,21 @@ class TitleContextTests(unittest.TestCase):
         self.assertNotIn("time.dawn", self.associations("Before Dawn", "Men I Trust"))
         self.assertIn("time.predawn", self.associations("Before Dawn", "Men I Trust"))
 
+    def test_removed_store_contexts(self):
+        blocked = {"weather.ice", "weather.dew", "holiday.graduation"}
+        self.assertEqual(set(self.config["policy"]["excluded_tags"]), blocked)
+        self.assertFalse(any(rule.get("tag", rule["id"]) in blocked for rule in self.config["rules"]))
+        for title in ["Ice Copy", "想像一块冰的迁徙", "氷の鳥", "Morning Dew", "Graduation Song", "冰", "露水", "毕业纪念"]:
+            self.assertTrue(blocked.isdisjoint(self.associations(title)), title)
+        self.assertIn("time.morning", self.associations("Morning Dew"))
+        self.assertIn("solar_term.bailu", self.associations("白露"))
+        added_rule = {"id": "weather.ice", "category": "weather", "label": "冰意象", "match_mode": "word", "aliases": ["ice"], "strength": "explicit"}
+        compiled = scan.compile_rules(dict(self.config, rules=self.config["rules"] + [added_rule]))
+        result, _, _ = scan.scan_title("Ice Copy", "fixture", self.config, compiled, self.reviews)
+        self.assertFalse(any(item["tag"] in blocked for item in result))
+        result = scan.build_scan(scan.SONGBASE / "song_base_by_artist.json", self.config, self.reviews)
+        self.assertTrue(all(item["tag"] not in blocked for track in result["tracks"].values() for item in track["associations"]))
+
     def test_whole_library_integrity(self):
         source = scan.SONGBASE / "song_base_by_artist.json"
         before = scan.digest(source)
