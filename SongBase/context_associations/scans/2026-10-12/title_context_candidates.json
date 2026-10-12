@@ -1,8 +1,8 @@
 {
   "schema_version": "songbase.context-title-scan/v1",
-  "generated_at": "2026-10-12T18:39:18.392138+08:00",
-  "rule_version": "2026-10-12.2",
-  "semantic_review_version": "2026-10-12.2",
+  "generated_at": "2026-10-12T18:49:57.973346+08:00",
+  "rule_version": "2026-10-12.3",
+  "semantic_review_version": "2026-10-12.3",
   "scope": "full_library_song_titles_only",
   "approval_status": "all_candidates_pending_user_review",
   "source": {
@@ -15,7 +15,18 @@
     "excluded_tags": [
       "weather.ice",
       "weather.dew",
-      "holiday.graduation"
+      "holiday.graduation",
+      "weather.clouds",
+      "weather.snow",
+      "weather.wind",
+      "time.night",
+      "light.sky",
+      "light.moon",
+      "time.predawn",
+      "time.dawn",
+      "time.clock_unspecified",
+      "light.aurora",
+      "light.generic"
     ],
     "auto_lock_allowed": false,
     "infer_lyrics_or_mood": false,
@@ -30,17 +41,17 @@
     "input_rows": 1162,
     "unique_tracks_scanned": 1161,
     "duplicate_rows_collapsed": 1,
-    "tracks_with_candidates": 151,
-    "tracks_without_candidates": 1010,
-    "total_associations": 171,
+    "tracks_with_candidates": 100,
+    "tracks_without_candidates": 1061,
+    "total_associations": 115,
     "associations_by_judgment": {
-      "ambiguous": 40,
-      "explicit": 125,
-      "indirect": 6
+      "ambiguous": 19,
+      "explicit": 91,
+      "indirect": 5
     },
-    "tracks_with_explicit_candidates": 107,
-    "tracks_only_indirect_or_ambiguous": 44,
-    "excluded_associations": 20,
+    "tracks_with_explicit_candidates": 78,
+    "tracks_only_indirect_or_ambiguous": 22,
+    "excluded_associations": 9,
     "categories": {
       "season": {
         "label": "四季",
@@ -49,8 +60,8 @@
       },
       "weather": {
         "label": "天气与体感",
-        "tracks": 42,
-        "associations": 45
+        "tracks": 22,
+        "associations": 25
       },
       "holiday": {
         "label": "节日与纪念情境",
@@ -69,8 +80,8 @@
       },
       "time_light": {
         "label": "时段与天光",
-        "tracks": 71,
-        "associations": 73
+        "tracks": 36,
+        "associations": 37
       }
     }
   },
@@ -697,35 +708,7 @@
           "source_artist": "Allenvave"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "夜班车",
-              "matched_text": "夜",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "夜",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -735,7 +718,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003F1DtT0DU41P": {
       "track_id": "qq:003F1DtT0DU41P",
@@ -1285,36 +1268,7 @@
           "source_artist": "Bahamas"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "Light 可为比喻，记录泛光候选，不绑定时段或晴天。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Lost In The Light",
-              "matched_text": "Light",
-              "span": [
-                12,
-                17
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -1324,7 +1278,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0020exsa1lzTSy": {
       "track_id": "qq:0020exsa1lzTSy",
@@ -1491,33 +1445,6 @@
               ],
               "matched_alias": "squall",
               "rule_id": "weather.storm"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        },
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Night Squall",
-              "matched_text": "Night",
-              "span": [
-                0,
-                5
-              ],
-              "matched_alias": "night",
-              "rule_id": "time.night"
             }
           ],
           "trigger_hint": {
@@ -3180,9 +3107,7 @@
           "source_title": "Windbreaker",
           "search_title": "windbreaker",
           "ignored_segments": [],
-          "safeguards": [
-            "Windbreaker 为防风衣，未明确天气主题；词表不采用子串 Wind。"
-          ]
+          "safeguards": []
         }
       ],
       "scan_status": "no_title_match"
@@ -3308,35 +3233,7 @@
           "source_artist": "Chon"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮不推成满月；Blue Moon／Red Moon 不自动绑定天文事件。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Moon",
-              "matched_text": "Moon",
-              "span": [
-                0,
-                4
-              ],
-              "matched_alias": "moon",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -3346,7 +3243,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003gCbmt4TcRrj": {
       "track_id": "qq:003gCbmt4TcRrj",
@@ -4022,37 +3919,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Her Light",
-              "matched_text": "Light",
-              "span": [
-                4,
-                9
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "Her Light 指人的光芒／比喻的可能性强，没有可匹配的具体天光。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Her Light",
@@ -4136,9 +4003,7 @@
           "source_title": "Rewind",
           "search_title": "rewind",
           "ignored_segments": [],
-          "safeguards": [
-            "Wind 只是 Rewind 的子串，不表示风。"
-          ]
+          "safeguards": []
         }
       ],
       "scan_status": "no_title_match"
@@ -4509,47 +4374,17 @@
           "source_artist": "CREAM"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.clock_unspecified",
-          "category": "time_light",
-          "label": "无 AM／PM 的钟点候选",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "数字可能是钟点、时长或编号，没有 AM／PM，不设置播放时段。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "4:55",
-              "matched_text": "4:55",
-              "span": [
-                0,
-                4
-              ],
-              "matched_alias": "4:55",
-              "rule_id": "parser.clock"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "4:55",
           "search_title": "4:55",
           "ignored_segments": [],
-          "safeguards": [
-            "无 AM／PM 及上下文，可为钟点、时长或编号，列为待核查，不定时段。"
-          ]
+          "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:004KMRH61Ljgwt": {
       "track_id": "qq:004KMRH61Ljgwt",
@@ -5988,36 +5823,7 @@
           "source_artist": "El Ten Eleven"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.wind",
-          "category": "weather",
-          "label": "风意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "完整短语也可能为地名，不能因 Breeze 就认定微风主题。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Point Breeze",
-              "matched_text": "Breeze",
-              "span": [
-                6,
-                12
-              ],
-              "matched_alias": "breeze",
-              "rule_id": "weather.wind"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -6027,7 +5833,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003zUuoF0NDRsm": {
       "track_id": "qq:003zUuoF0NDRsm",
@@ -6425,9 +6231,7 @@
           "source_title": "人间风景",
           "search_title": "人间风景",
           "ignored_segments": [],
-          "safeguards": [
-            "风景 为景色，不能拆出风作为天气。"
-          ]
+          "safeguards": []
         }
       ],
       "scan_status": "no_title_match"
@@ -6446,46 +6250,7 @@
           "source_artist": "Fayzz"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.wind",
-          "category": "weather",
-          "label": "风意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "季风 (Monsoon)",
-              "matched_text": "季风",
-              "span": [
-                0,
-                2
-              ],
-              "matched_alias": "季风",
-              "rule_id": "weather.wind"
-            },
-            {
-              "type": "title",
-              "source_title": "季风 (Monsoon)",
-              "matched_text": "Monsoon",
-              "span": [
-                4,
-                11
-              ],
-              "matched_alias": "monsoon",
-              "rule_id": "weather.wind"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -6495,7 +6260,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003NDIcA0XN7hw": {
       "track_id": "qq:003NDIcA0XN7hw",
@@ -6929,35 +6694,7 @@
           "source_artist": "Flica"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Light",
-              "matched_text": "Light",
-              "span": [
-                0,
-                5
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -6967,7 +6704,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:002OHwJy0LqkiC": {
       "track_id": "qq:002OHwJy0LqkiC",
@@ -7818,35 +7555,7 @@
           "source_artist": "fox capture plan"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "夜間航路",
-              "matched_text": "夜",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "夜",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -7856,7 +7565,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001gD48L3PdBye": {
       "track_id": "qq:001gD48L3PdBye",
@@ -7872,35 +7581,7 @@
           "source_artist": "fox capture plan"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "疾走する閃光",
-              "matched_text": "光",
-              "span": [
-                5,
-                6
-              ],
-              "matched_alias": "光",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -7910,7 +7591,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0022QVT24BuBNZ": {
       "track_id": "qq:0022QVT24BuBNZ",
@@ -9090,37 +8771,7 @@
           "agent_review": true
         }
       ],
-      "excluded_associations": [
-        {
-          "tag": "light.sky",
-          "category": "time_light",
-          "label": "天空意象（无天气判定）",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "天空不等同蓝天或阴晴。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Blue Sky",
-              "matched_text": "Sky",
-              "span": [
-                5,
-                8
-              ],
-              "matched_alias": "sky",
-              "rule_id": "light.sky"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "与同首晴空候选重复的泛天空标签省略，避免把同一词组重复计为独立理由。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Blue Sky",
@@ -9955,35 +9606,7 @@
           "source_artist": "Helios"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.sky",
-          "category": "time_light",
-          "label": "天空意象（无天气判定）",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "天空不等同蓝天或阴晴。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Dragonfly Across An Ancient Sky",
-              "matched_text": "Sky",
-              "span": [
-                28,
-                31
-              ],
-              "matched_alias": "sky",
-              "rule_id": "light.sky"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -9993,7 +9616,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001F8bj23GYo4t": {
       "track_id": "qq:001F8bj23GYo4t",
@@ -10140,37 +9763,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Sons Of Light And Darkness",
-              "matched_text": "Light",
-              "span": [
-                8,
-                13
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "光明与黑暗之子为抽象对照，没有具体自然天光或时段。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Sons Of Light And Darkness",
@@ -10221,36 +9814,7 @@
           "source_artist": "Helios"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.predawn",
-          "category": "time_light",
-          "label": "黎明之前",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "瑞典语狼之时有黎明前时刻等文化用法，标题语义待复核，不设置具体小时范围。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Vargtimme",
-              "matched_text": "Vargtimme",
-              "span": [
-                0,
-                9
-              ],
-              "matched_alias": "vargtimme",
-              "rule_id": "time.predawn"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -10260,7 +9824,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:002noXCB1eAXKw": {
       "track_id": "qq:002noXCB1eAXKw",
@@ -10724,35 +10288,7 @@
           "source_artist": "Hiroshi Yoshimura"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "云意象不自动等同阴天或降雨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Clouds",
-              "matched_text": "Clouds",
-              "span": [
-                0,
-                6
-              ],
-              "matched_alias": "clouds",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -10762,7 +10298,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001Itbg62svmkp": {
       "track_id": "qq:001Itbg62svmkp",
@@ -10856,35 +10392,7 @@
           "source_artist": "Hiroshi Yoshimura"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.snow",
-          "category": "weather",
-          "label": "雪意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Urban Snow",
-              "matched_text": "Snow",
-              "span": [
-                6,
-                10
-              ],
-              "matched_alias": "snow",
-              "rule_id": "weather.snow"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -10894,7 +10402,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000MbXwN10jhlK": {
       "track_id": "qq:000MbXwN10jhlK",
@@ -11424,36 +10932,7 @@
           "source_artist": "Howie Lee"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "拨云 也可为拨云见日的比喻，标题不足以绑定实际云量。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "拨云",
-              "matched_text": "云",
-              "span": [
-                1,
-                2
-              ],
-              "matched_alias": "云",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -11463,7 +10942,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001kz4h52xJzGe": {
       "track_id": "qq:001kz4h52xJzGe",
@@ -11721,62 +11200,7 @@
           "source_artist": "I Don't Like Mondays."
         }
       ],
-      "associations": [
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "MOON NIGHT",
-              "matched_text": "NIGHT",
-              "span": [
-                5,
-                10
-              ],
-              "matched_alias": "night",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        },
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮不推成满月；Blue Moon／Red Moon 不自动绑定天文事件。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "MOON NIGHT",
-              "matched_text": "MOON",
-              "span": [
-                0,
-                4
-              ],
-              "matched_alias": "moon",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -11786,7 +11210,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001BOd8C1F9Et5": {
       "track_id": "qq:001BOd8C1F9Et5",
@@ -12808,37 +12232,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Lights Please",
-              "matched_text": "Lights",
-              "span": [
-                0,
-                6
-              ],
-              "matched_alias": "lights",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "Lights Please 更像开灯请求，不提供自然天光时段。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Lights Please",
@@ -13543,36 +12937,7 @@
           "source_artist": "Josh Ritter"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "Lights 可能是灯光、自然光或比喻，未定具体时段。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Lights",
-              "matched_text": "Lights",
-              "span": [
-                0,
-                6
-              ],
-              "matched_alias": "lights",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -13582,7 +12947,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:004bgvIQ3a5Pzo": {
       "track_id": "qq:004bgvIQ3a5Pzo",
@@ -14270,47 +13635,17 @@
           "source_artist": "Khruangbin"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "云意象不自动等同阴天或降雨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Juegos y Nubes",
-              "matched_text": "Nubes",
-              "span": [
-                9,
-                14
-              ],
-              "matched_alias": "nubes",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Juegos y Nubes",
           "search_title": "juegos y nubes",
           "ignored_segments": [],
-          "safeguards": [
-            "Nubes 为西班牙语云，保留云意象，不推定天气。"
-          ]
+          "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0047h8462rfTcs": {
       "track_id": "qq:0047h8462rfTcs",
@@ -15484,37 +14819,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮不推成满月；Blue Moon／Red Moon 不自动绑定天文事件。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "La routa Di Un Luna Park",
-              "matched_text": "Luna",
-              "span": [
-                15,
-                19
-              ],
-              "matched_alias": "luna",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "Luna Park 是游乐园固定表达，不是月亮情境。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "La routa Di Un Luna Park",
@@ -15885,33 +15190,6 @@
             "enabled": false,
             "recurrence": "not_configured"
           }
-        },
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Summer Nights",
-              "matched_text": "Nights",
-              "span": [
-                7,
-                13
-              ],
-              "matched_alias": "nights",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
         }
       ],
       "excluded_associations": [],
@@ -16255,35 +15533,7 @@
           "source_artist": "Loscil"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.wind",
-          "category": "weather",
-          "label": "风意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "Chinook 可指暖风，也可指民族、鲑鱼等；标题不足以定类。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Chinook",
-              "matched_text": "Chinook",
-              "span": [
-                0,
-                7
-              ],
-              "matched_alias": "chinook",
-              "rule_id": "weather.chinook"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -16293,7 +15543,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001Vpshv2Yob9q": {
       "track_id": "qq:001Vpshv2Yob9q",
@@ -16465,47 +15715,17 @@
           "source_artist": "Ludovico Einaudi"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "云意象不自动等同阴天或降雨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Nuvole Bianche",
-              "matched_text": "Nuvole",
-              "span": [
-                0,
-                6
-              ],
-              "matched_alias": "nuvole",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Nuvole Bianche",
           "search_title": "nuvole bianche",
           "ignored_segments": [],
-          "safeguards": [
-            "Nuvole 为意大利语云，按完整词匹配，不推成雨天。"
-          ]
+          "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0010YYK03xexiC": {
       "track_id": "qq:0010YYK03xexiC",
@@ -17204,35 +16424,7 @@
           "source_artist": "Mammal Hands"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.snow",
-          "category": "weather",
-          "label": "雪意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Snow Bough",
-              "matched_text": "Snow",
-              "span": [
-                0,
-                4
-              ],
-              "matched_alias": "snow",
-              "rule_id": "weather.snow"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -17242,7 +16434,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:00379HQN0zynlr": {
       "track_id": "qq:00379HQN0zynlr",
@@ -17684,65 +16876,8 @@
           "source_artist": "Men I Trust"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.predawn",
-          "category": "time_light",
-          "label": "黎明之前",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Before Dawn",
-              "matched_text": "Before Dawn",
-              "span": [
-                0,
-                11
-              ],
-              "matched_alias": "before dawn",
-              "rule_id": "time.predawn"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
-      "excluded_associations": [
-        {
-          "tag": "time.dawn",
-          "category": "time_light",
-          "label": "黎明",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Before Dawn",
-              "matched_text": "Dawn",
-              "span": [
-                7,
-                11
-              ],
-              "matched_alias": "dawn",
-              "rule_id": "time.dawn"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "被更具体的时间短语替代，避免误解或重复标签。"
-        }
-      ],
+      "associations": [],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Before Dawn",
@@ -17751,7 +16886,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001eoI9Q1mm0Jv": {
       "track_id": "qq:001eoI9Q1mm0Jv",
@@ -18607,36 +17742,7 @@
           "source_artist": "Múm"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.snow",
-          "category": "weather",
-          "label": "雪意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "水下雪的组合可能是超现实意象，不直接绑定实际下雪天气。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Underwater Snow",
-              "matched_text": "Snow",
-              "span": [
-                11,
-                15
-              ],
-              "matched_alias": "snow",
-              "rule_id": "weather.snow"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -18646,7 +17752,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000mm88j1GnWlk": {
       "track_id": "qq:000mm88j1GnWlk",
@@ -19008,35 +18114,7 @@
           "source_artist": "Nujabes"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "云意象不自动等同阴天或降雨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "sea of cloud",
-              "matched_text": "cloud",
-              "span": [
-                7,
-                12
-              ],
-              "matched_alias": "cloud",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -19046,7 +18124,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003dIBUs2CA00m": {
       "track_id": "qq:003dIBUs2CA00m",
@@ -19062,36 +18140,7 @@
           "source_artist": "Nujabes"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "indirect",
-          "judgment_label": "间接线索",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "土地上的光具有自然天光线索，但没有具体早晨、日落或天气。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Light on the land",
-              "matched_text": "Light",
-              "span": [
-                0,
-                5
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -19101,7 +18150,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001dEPl41oHWH7": {
       "track_id": "qq:001dEPl41oHWH7",
@@ -19771,35 +18820,7 @@
           "source_artist": "Paniyolo"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Good Night",
-              "matched_text": "Night",
-              "span": [
-                5,
-                10
-              ],
-              "matched_alias": "night",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -19809,7 +18830,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:002cBVub1Kncz5": {
       "track_id": "qq:002cBVub1Kncz5",
@@ -21561,35 +20582,7 @@
           "source_artist": "Re:Plus"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮不推成满月；Blue Moon／Red Moon 不自动绑定天文事件。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Moonscape",
-              "matched_text": "Moonscape",
-              "span": [
-                0,
-                9
-              ],
-              "matched_alias": "moonscape",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -21599,7 +20592,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000HaICk25YWHO": {
       "track_id": "qq:000HaICk25YWHO",
@@ -21615,35 +20608,7 @@
           "source_artist": "Re:Plus"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Nighttime",
-              "matched_text": "Nighttime",
-              "span": [
-                0,
-                9
-              ],
-              "matched_alias": "nighttime",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -21653,7 +20618,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0003bhiI36bD4h": {
       "track_id": "qq:0003bhiI36bD4h",
@@ -21931,36 +20896,7 @@
           "source_artist": "Red Hot Chili Peppers"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.snow",
-          "category": "weather",
-          "label": "雪意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题 Snow 的字面线索成立，但具体含义未核实，尤其不能据此推断降雪主题、冬季或圣诞。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Snow(Hey Oh)",
-              "matched_text": "Snow",
-              "span": [
-                0,
-                4
-              ],
-              "matched_alias": "snow",
-              "rule_id": "weather.snow"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -21970,7 +20906,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003TdGHB3R3Pvl": {
       "track_id": "qq:003TdGHB3R3Pvl",
@@ -22168,36 +21104,7 @@
           "source_artist": "RIOPY"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮标题意象明确，但 Blue Moon 不绑定天文学蓝月或满月。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Blue Moon",
-              "matched_text": "Moon",
-              "span": [
-                5,
-                9
-              ],
-              "matched_alias": "moon",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -22207,7 +21114,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003m8N1q42ILKQ": {
       "track_id": "qq:003m8N1q42ILKQ",
@@ -22618,33 +21525,6 @@
             "enabled": false,
             "recurrence": "not_configured"
           }
-        },
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Summer Night",
-              "matched_text": "Night",
-              "span": [
-                7,
-                12
-              ],
-              "matched_alias": "night",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
         }
       ],
       "excluded_associations": [],
@@ -22805,37 +21685,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Tree of Light - A Call to Arms",
-              "matched_text": "Light",
-              "span": [
-                8,
-                13
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "光之树及行动号召不提供可绑定的自然天光情境。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "Tree of Light - A Call to Arms",
@@ -23709,37 +22559,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "To light and then return",
-              "matched_text": "light",
-              "span": [
-                3,
-                8
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "To light 中 Light 可能为动词点亮等，标题不足以定自然天光。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "To light and then return",
@@ -23764,36 +22584,7 @@
           "source_artist": "Slowly Rolling Camera"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "可能是灯光或比喻，保留泛光补查候选。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "A Thousand Lights",
-              "matched_text": "Lights",
-              "span": [
-                11,
-                17
-              ],
-              "matched_alias": "lights",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -23803,7 +22594,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000g0gAr2MUdAL": {
       "track_id": "qq:000g0gAr2MUdAL",
@@ -23871,35 +22662,7 @@
           "source_artist": "Slowly Rolling Camera"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "云意象不自动等同阴天或降雨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Rolling Clouds",
-              "matched_text": "Clouds",
-              "span": [
-                8,
-                14
-              ],
-              "matched_alias": "clouds",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -23909,7 +22672,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:00039I7i3IN90v": {
       "track_id": "qq:00039I7i3IN90v",
@@ -25598,36 +24361,7 @@
           "source_artist": "The Shanghai Restoration Project"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "紫云中游泳可能是超现实比喻，不能直接解释为当天云量。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Swimming in Purple Clouds",
-              "matched_text": "Clouds",
-              "span": [
-                19,
-                25
-              ],
-              "matched_alias": "clouds",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -25637,7 +24371,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:002BeZOd316Pe0": {
       "track_id": "qq:002BeZOd316Pe0",
@@ -26398,36 +25132,7 @@
           "source_artist": "Tom Misch"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮标题意象明确，不绑定月食、血月或满月。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Red Moon",
-              "matched_text": "Moon",
-              "span": [
-                4,
-                8
-              ],
-              "matched_alias": "moon",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -26437,7 +25142,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0021LXlM0ABeNP": {
       "track_id": "qq:0021LXlM0ABeNP",
@@ -26925,36 +25630,7 @@
           "source_artist": "Uyama Hiroto"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.wind",
-          "category": "weather",
-          "label": "风意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "风说话的复合词明确带风意象，不推出歌词、风速或季节。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Windspeaks",
-              "matched_text": "Windspeaks",
-              "span": [
-                0,
-                10
-              ],
-              "matched_alias": "windspeaks",
-              "rule_id": "weather.wind"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -26964,7 +25640,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001SNVce2VOGqP": {
       "track_id": "qq:001SNVce2VOGqP",
@@ -27401,47 +26077,7 @@
           "source_artist": "World's End Girlfriend"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "光与影意象明确，但未说明自然天光或时段。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "光を映す影",
-              "matched_text": "光を",
-              "span": [
-                0,
-                2
-              ],
-              "matched_alias": "光を",
-              "rule_id": "light.generic"
-            },
-            {
-              "type": "title",
-              "source_title": "光を映す影",
-              "matched_text": "光",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "光",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -27451,7 +26087,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0013zSOF2zSV7k": {
       "track_id": "qq:0013zSOF2zSV7k",
@@ -27519,36 +26155,7 @@
           "source_artist": "Yaya Bey"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "Pisces Moon 可能为占星表达，不用于自动匹配月相、生日或天文事件。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "on the pisces moon",
-              "matched_text": "moon",
-              "span": [
-                14,
-                18
-              ],
-              "matched_alias": "moon",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -27558,7 +26165,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000uIvKZ4e2WeA": {
       "track_id": "qq:000uIvKZ4e2WeA",
@@ -28388,36 +26995,7 @@
           "source_artist": "Yussef Kamaal"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "光的线／弦具有比喻可能，不推定日落或晴天。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Strings of Light",
-              "matched_text": "Light",
-              "span": [
-                11,
-                16
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -28427,7 +27005,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000FiJNX0DGE8O": {
       "track_id": "qq:000FiJNX0DGE8O",
@@ -28576,37 +27154,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "your light",
-              "matched_text": "light",
-              "span": [
-                5,
-                10
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "Your Light 可能指人的光芒，标题不足以匹配外部天光。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "your light",
@@ -29530,35 +28078,7 @@
           "source_artist": "中村遥"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "光",
-              "matched_text": "光",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "光",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -29568,7 +28088,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0010vInP2YWtgV": {
       "track_id": "qq:0010vInP2YWtgV",
@@ -29584,35 +28104,7 @@
           "source_artist": "中村遥"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "The Light",
-              "matched_text": "Light",
-              "span": [
-                4,
-                9
-              ],
-              "matched_alias": "light",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -29622,7 +28114,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003Tg9nI0F9a19": {
       "track_id": "qq:003Tg9nI0F9a19",
@@ -29725,9 +28217,7 @@
           "source_title": "音楽のある風景",
           "search_title": "音楽のある风景",
           "ignored_segments": [],
-          "safeguards": [
-            "風景 为景色，不代表风天气。"
-          ]
+          "safeguards": []
         }
       ],
       "scan_status": "no_title_match"
@@ -29773,37 +28263,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "光景",
-              "matched_text": "光",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "光",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "光景 是景象的完整词，不能拆出光字作为天光。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "光景",
@@ -30146,35 +28606,7 @@
           "source_artist": "中村遥"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Luz",
-              "matched_text": "Luz",
-              "span": [
-                0,
-                3
-              ],
-              "matched_alias": "luz",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -30184,7 +28616,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:002kvoC20rw3o4": {
       "track_id": "qq:002kvoC20rw3o4",
@@ -30304,35 +28736,7 @@
           "source_artist": "中村遥"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.sky",
-          "category": "time_light",
-          "label": "天空意象（无天气判定）",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "天空不等同蓝天或阴晴。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Cielo",
-              "matched_text": "Cielo",
-              "span": [
-                0,
-                5
-              ],
-              "matched_alias": "cielo",
-              "rule_id": "light.sky"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -30342,7 +28746,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0041kPwe0ou521": {
       "track_id": "qq:0041kPwe0ou521",
@@ -30620,36 +29024,7 @@
           "source_artist": "中村遥"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.aurora",
-          "category": "time_light",
-          "label": "极光／曙光候选",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "可指极光、曙光或名称，未核对作品背景，不自动绑定极光。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "AURORA",
-              "matched_text": "AURORA",
-              "span": [
-                0,
-                6
-              ],
-              "matched_alias": "aurora",
-              "rule_id": "light.aurora"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -30659,7 +29034,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001jzOWo2xqSAK": {
       "track_id": "qq:001jzOWo2xqSAK",
@@ -31041,35 +29416,7 @@
           "source_artist": "北村英治"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.moon",
-          "category": "time_light",
-          "label": "月亮意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "月亮不推成满月；Blue Moon／Red Moon 不自动绑定天文事件。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "HOW HIGH THE MOON",
-              "matched_text": "MOON",
-              "span": [
-                13,
-                17
-              ],
-              "matched_alias": "moon",
-              "rule_id": "light.moon"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -31079,7 +29426,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003HZxAm3EpYNh": {
       "track_id": "qq:003HZxAm3EpYNh",
@@ -31628,35 +29975,7 @@
           "source_artist": "天声乐队"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.snow",
-          "category": "weather",
-          "label": "雪意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "雪戏",
-              "matched_text": "雪",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "雪",
-              "rule_id": "weather.snow"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -31666,7 +29985,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001RvSi60a5xaa": {
       "track_id": "qq:001RvSi60a5xaa",
@@ -32258,36 +30577,7 @@
           "source_artist": "小濑村晶"
         }
       ],
-      "associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "可能为日语光的罗马字变体，但只凭标题不确认翻译。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Hicari",
-              "matched_text": "Hicari",
-              "span": [
-                0,
-                6
-              ],
-              "matched_alias": "hicari",
-              "rule_id": "light.hicari"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "agent_review": true
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -32297,7 +30587,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001sG52G1ozPxX": {
       "track_id": "qq:001sG52G1ozPxX",
@@ -32417,62 +30707,7 @@
           "source_artist": "小濑村晶"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.snow",
-          "category": "weather",
-          "label": "雪意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Snowy Sky",
-              "matched_text": "Snowy",
-              "span": [
-                0,
-                5
-              ],
-              "matched_alias": "snowy",
-              "rule_id": "weather.snow"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        },
-        {
-          "tag": "light.sky",
-          "category": "time_light",
-          "label": "天空意象（无天气判定）",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "天空不等同蓝天或阴晴。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Snowy Sky",
-              "matched_text": "Sky",
-              "span": [
-                6,
-                9
-              ],
-              "matched_alias": "sky",
-              "rule_id": "light.sky"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -32482,7 +30717,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:000fh8cc1aKwmJ": {
       "track_id": "qq:000fh8cc1aKwmJ",
@@ -32994,35 +31229,7 @@
           "source_artist": "押尾光太郎"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.wind",
-          "category": "weather",
-          "label": "风意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "風の詩",
-              "matched_text": "風の",
-              "span": [
-                0,
-                2
-              ],
-              "matched_alias": "風の",
-              "rule_id": "weather.wind"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -33032,7 +31239,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0033viuX0rxuw1": {
       "track_id": "qq:0033viuX0rxuw1",
@@ -33126,35 +31333,7 @@
           "source_artist": "文雀"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.night",
-          "category": "time_light",
-          "label": "夜晚",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "神游夜话",
-              "matched_text": "夜",
-              "span": [
-                2,
-                3
-              ],
-              "matched_alias": "夜",
-              "rule_id": "time.night"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -33164,7 +31343,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:0028oSch1E2ChN": {
       "track_id": "qq:0028oSch1E2ChN",
@@ -33233,37 +31412,7 @@
         }
       ],
       "associations": [],
-      "excluded_associations": [
-        {
-          "tag": "light.generic",
-          "category": "time_light",
-          "label": "泛光意象（无具体时段）",
-          "title_judgment": "ambiguous",
-          "judgment_label": "语义待确认",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "泛光或比喻，不推成阳光、晴天、早晨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "光合作用",
-              "matched_text": "光",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "光",
-              "rule_id": "light.generic"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          },
-          "exclusion_reason": "光合作用是生物过程，不是具体天光时段；自然主题可以后另建。",
-          "agent_review": true
-        }
-      ],
+      "excluded_associations": [],
       "title_audit": [
         {
           "source_title": "光合作用",
@@ -33982,35 +32131,7 @@
           "source_artist": "窦靖童"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.clouds",
-          "category": "weather",
-          "label": "云意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "云意象不自动等同阴天或降雨。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "云朵 (feat.九维)",
-              "matched_text": "云",
-              "span": [
-                0,
-                1
-              ],
-              "matched_alias": "云",
-              "rule_id": "weather.clouds"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -34020,7 +32141,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:003crifO3O5IxC": {
       "track_id": "qq:003crifO3O5IxC",
@@ -34088,46 +32209,7 @@
           "source_artist": "羊文学"
         }
       ],
-      "associations": [
-        {
-          "tag": "weather.wind",
-          "category": "weather",
-          "label": "风意象",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "あの街に風吹けば",
-              "matched_text": "風吹",
-              "span": [
-                4,
-                6
-              ],
-              "matched_alias": "风吹",
-              "rule_id": "weather.wind"
-            },
-            {
-              "type": "title",
-              "source_title": "あの街に風吹けば",
-              "matched_text": "風吹けば",
-              "span": [
-                4,
-                8
-              ],
-              "matched_alias": "風吹けば",
-              "rule_id": "weather.wind"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -34137,7 +32219,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:001tYInb2PUxT6": {
       "track_id": "qq:001tYInb2PUxT6",
@@ -34657,35 +32739,7 @@
           "source_artist": "许郁瑛"
         }
       ],
-      "associations": [
-        {
-          "tag": "time.dawn",
-          "category": "time_light",
-          "label": "黎明",
-          "title_judgment": "explicit",
-          "judgment_label": "明确标题关联",
-          "review_status": "pending",
-          "auto_lock_allowed": false,
-          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
-          "evidence": [
-            {
-              "type": "title",
-              "source_title": "Gnomes' Campfire Dance Ritual at Dawn",
-              "matched_text": "Dawn",
-              "span": [
-                33,
-                37
-              ],
-              "matched_alias": "dawn",
-              "rule_id": "time.dawn"
-            }
-          ],
-          "trigger_hint": {
-            "enabled": false,
-            "recurrence": "not_configured"
-          }
-        }
-      ],
+      "associations": [],
       "excluded_associations": [],
       "title_audit": [
         {
@@ -34695,7 +32749,7 @@
           "safeguards": []
         }
       ],
-      "scan_status": "has_title_candidates"
+      "scan_status": "no_title_match"
     },
     "qq:004NdfcT2OwLBY": {
       "track_id": "qq:004NdfcT2OwLBY",

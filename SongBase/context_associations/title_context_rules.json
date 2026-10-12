@@ -1,10 +1,10 @@
 {
   "schema_version": "songbase.title-context-rules/v1",
-  "rule_version": "2026-10-12.2",
+  "rule_version": "2026-10-12.3",
   "scope": "song_title_only",
   "policy": {
     "approval": "candidates_only",
-    "excluded_tags": ["weather.ice", "weather.dew", "holiday.graduation"],
+    "excluded_tags": ["weather.ice", "weather.dew", "holiday.graduation", "weather.clouds", "weather.snow", "weather.wind", "time.night", "light.sky", "light.moon", "time.predawn", "time.dawn", "time.clock_unspecified", "light.aurora", "light.generic"],
     "auto_lock_allowed": false,
     "infer_lyrics_or_mood": false,
     "infer_season_from_month_or_weather": false,
@@ -41,11 +41,7 @@
     {"id":"season.spring-blossom","tag":"season.spring","category":"season","label":"春季意象","match_mode":"mixed","aliases":["sakura","桜","樱花","櫻花","cherry blossom"],"strength":"indirect","note":"花的标题意象可作为春季补查线索，物候因地区而异，尚未认定季节主题。"},
     {"id":"season.summer-cicada","tag":"season.summer","category":"season","label":"夏季意象","match_mode":"exact","aliases":["蝉","蟬","cicada"],"strength":"indirect","note":"蝉可联想夏季，但不代表标题明确写夏季，须人工确认。"},
     {"id":"weather.rain","category":"weather","label":"雨意象","match_mode":"mixed","aliases":["下雨","雨天","雨中","雨后","雨夜","雨声","落雨","骤雨","雾雨","雨水","rain","rains","rainy","rainfall","raining","showers","雨の日","雨降り","時雨","しぐれ","pluie","lluvia","pioggia"],"strength":"explicit"},
-    {"id":"weather.snow","category":"weather","label":"雪意象","match_mode":"mixed","aliases":["雪","snow","snowy","snowfall","neige","nieve","schnee"],"strength":"explicit"},
-    {"id":"weather.clouds","category":"weather","label":"云意象","match_mode":"mixed","aliases":["云","雲","cloud","clouds","cloudy","nubes","nuvole","nuage","nuages"],"strength":"explicit","note":"云意象不自动等同阴天或降雨。"},
     {"id":"weather.fog","category":"weather","label":"雾意象","match_mode":"mixed","aliases":["雾","霧","fog","foggy","mist","misty","brume"],"strength":"explicit"},
-    {"id":"weather.wind","category":"weather","label":"风意象","match_mode":"mixed","aliases":["季风","风的","风中","风声","风之","风起","风吹","風吹けば","風の","wind","winds","breeze","breezes","monsoon","windspeaks","vent","vento","viento"],"strength":"explicit"},
-    {"id":"weather.chinook","tag":"weather.wind","category":"weather","label":"风意象","match_mode":"word","aliases":["chinook"],"strength":"ambiguous","note":"Chinook 可指暖风，也可指民族、鲑鱼等；标题不足以定类。"},
     {"id":"weather.storm","category":"weather","label":"风暴／骤风雨意象","match_mode":"mixed","aliases":["暴风雨","风暴","storm","storms","stormy","squall","tempest"],"strength":"explicit"},
     {"id":"weather.thunder","category":"weather","label":"雷电意象","match_mode":"mixed","aliases":["雷雨","雷声","闪电","thunder","thunderstorm","lightning"],"strength":"explicit"},
     {"id":"weather.frost","category":"weather","label":"霜意象","match_mode":"mixed","aliases":["霜","frost","frosty"],"strength":"explicit"},
@@ -115,8 +111,6 @@
     {"id":"solar_term.dongzhi","category":"solar_term","label":"冬至","match_mode":"mixed","aliases":["冬至","winter solstice"],"strength":"explicit"},
     {"id":"solar_term.xiaohan","category":"solar_term","label":"小寒节气候选","match_mode":"mixed","aliases":["小寒","minor cold"],"strength":"ambiguous"},
     {"id":"solar_term.dahan","category":"solar_term","label":"大寒节气候选","match_mode":"mixed","aliases":["大寒","major cold"],"strength":"ambiguous"},
-    {"id":"time.dawn","category":"time_light","label":"黎明","match_mode":"mixed","aliases":["黎明","破晓","拂晓","dawn","aube"],"strength":"explicit"},
-    {"id":"time.predawn","category":"time_light","label":"黎明之前","match_mode":"mixed","aliases":["before dawn","黎明前","夜明け前","vargtimme"],"strength":"explicit","suppresses":["time.dawn"]},
     {"id":"time.morning","category":"time_light","label":"早晨","match_mode":"mixed","aliases":["早晨","清晨","晨间","morning","matin"],"strength":"explicit"},
     {"id":"time.before_noon","category":"time_light","label":"午前／上午","match_mode":"mixed","aliases":["ante meridiem","午前"],"strength":"explicit"},
     {"id":"time.after_noon","category":"time_light","label":"午后至晚间（PM）","match_mode":"mixed","aliases":["post meridiem","pm"],"strength":"explicit"},
@@ -124,7 +118,6 @@
     {"id":"time.afternoon","category":"time_light","label":"下午","match_mode":"mixed","aliases":["下午","午后","afternoon","siesta"],"strength":"explicit"},
     {"id":"time.evening","category":"time_light","label":"傍晚","match_mode":"mixed","aliases":["傍晚","夕べ","evening","soir","夕凪"],"strength":"explicit"},
     {"id":"time.dusk","category":"time_light","label":"黄昏／暮色","match_mode":"mixed","aliases":["黄昏","暮色","twilight","dusk","crepuscule","crépuscule"],"strength":"explicit"},
-    {"id":"time.night","category":"time_light","label":"夜晚","match_mode":"mixed","aliases":["夜","night","nights","nighttime","nocturnal","nuit","noite","notte"],"strength":"explicit"},
     {"id":"time.midnight","category":"time_light","label":"午夜","match_mode":"mixed","aliases":["午夜","midnight","minuit"],"strength":"explicit"},
     {"id":"time.breakfast","tag":"time.morning","category":"time_light","label":"早晨","match_mode":"mixed","aliases":["早餐","breakfast"],"strength":"indirect","note":"早餐是常见早晨活动，但不是明确播放时刻。"},
     {"id":"light.sunrise","category":"time_light","label":"日出","match_mode":"mixed","aliases":["日出","日の出","sunrise","sun rise"],"strength":"explicit"},
@@ -132,12 +125,7 @@
     {"id":"light.sun","category":"time_light","label":"太阳意象","match_mode":"mixed","aliases":["太阳","太陽","sun","soleil","sol"],"strength":"explicit","note":"太阳意象不自动代表晴天或日落。"},
     {"id":"light.sunburst","tag":"light.sun","category":"time_light","label":"太阳意象","match_mode":"word","aliases":["sunburst","helios"],"strength":"ambiguous","note":"Sunburst 及太阳神名称具有其他用法，待复核。"},
     {"id":"light.sunlight","category":"time_light","label":"阳光意象","match_mode":"mixed","aliases":["阳光","sunshine","sunlight","sunlit"],"strength":"explicit","note":"阳光标题不自动判断当天无雨。"},
-    {"id":"light.moon","category":"time_light","label":"月亮意象","match_mode":"mixed","aliases":["月亮","moon","moonscape","lune","luna"],"strength":"explicit","note":"月亮不推成满月；Blue Moon／Red Moon 不自动绑定天文事件。"},
     {"id":"light.moonlight","category":"time_light","label":"月光意象","match_mode":"mixed","aliases":["月光","moonlight","clair de lune"],"strength":"explicit"},
-    {"id":"light.generic","category":"time_light","label":"泛光意象（无具体时段）","match_mode":"mixed","aliases":["light","lights","luz","光を","光"],"strength":"ambiguous","note":"泛光或比喻，不推成阳光、晴天、早晨。"},
-    {"id":"light.hicari","tag":"light.generic","category":"time_light","label":"泛光意象（无具体时段）","match_mode":"exact","aliases":["hicari"],"strength":"ambiguous","note":"疑似日语 Hikari 的罗马字变体，未用创作背景验证。"},
-    {"id":"light.sky","category":"time_light","label":"天空意象（无天气判定）","match_mode":"mixed","aliases":["sky","cielo"],"strength":"explicit","note":"天空不等同蓝天或阴晴。"},
-    {"id":"light.golden_hour","category":"time_light","label":"黄金时刻候选","match_mode":"word","aliases":["golden hour"],"strength":"ambiguous","note":"可能是摄影天光，也可能是比喻；不能只凭标题定日落。"},
-    {"id":"light.aurora","category":"time_light","label":"极光／曙光候选","match_mode":"word","aliases":["aurora"],"strength":"ambiguous","note":"Aurora 可为极光、曙光或名字，不自动匹配极光天气。"}
+    {"id":"light.golden_hour","category":"time_light","label":"黄金时刻候选","match_mode":"word","aliases":["golden hour"],"strength":"ambiguous","note":"可能是摄影天光，也可能是比喻；不能只凭标题定日落。"}
   ]
 }

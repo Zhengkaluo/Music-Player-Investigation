@@ -2,9 +2,15 @@
 """Regression checks for the title-only, review-only context scan."""
 import json
 import unittest
-from pathlib import Path
 
 import scan_title_contexts as scan
+
+STORE_EXCLUDED_TAGS = {
+    "weather.ice", "weather.dew", "holiday.graduation",
+    "weather.clouds", "weather.snow", "weather.wind", "time.night",
+    "light.sky", "light.moon", "time.predawn", "time.dawn",
+    "time.clock_unspecified", "light.aurora", "light.generic",
+}
 
 
 class TitleContextTests(unittest.TestCase):
@@ -36,8 +42,8 @@ class TitleContextTests(unittest.TestCase):
         self.assertFalse(self.associations("Flow feat. Sunset Rollercoaster 落日飞车", "杨乃文, 落日飛車"))
         self.assertFalse(self.associations("Song (feat. April Rain)"))
         self.assertFalse(self.associations("Song [Live at Night]"))
-        self.assertIn("weather.wind", self.associations("季风 (Monsoon)", "Fayzz"))
-        self.assertIn("weather.snow", self.associations("Snow(Hey Oh)", "Red Hot Chili Peppers"))
+        self.assertIn("season.summer", self.associations("Song (Summer)"))
+        self.assertIn("light.sunset", self.associations("Song (Sunset)"))
 
     def test_artist_never_used_for_matching(self):
         self.assertFalse(self.associations("Soulmate", "April Rain"))
@@ -73,7 +79,10 @@ class TitleContextTests(unittest.TestCase):
         self.assertIn("time.afternoon", tags)
         tags = self.associations("Summer Nights", "Lil' Rob")
         self.assertIn("season.summer", tags)
-        self.assertIn("time.night", tags)
+        self.assertNotIn("time.night", tags)
+        tags = self.associations("穿过雾雨森林", "Cicada")
+        self.assertIn("weather.rain", tags)
+        self.assertIn("weather.fog", tags)
 
     def test_no_cascading_inference(self):
         self.assertNotIn("season.autumn", self.associations("September"))
@@ -93,23 +102,35 @@ class TitleContextTests(unittest.TestCase):
     def test_clocks_and_units(self):
         for title, tag in [("2AM in New York", "time.clock.02:00"), ("5Am Waltz", "time.clock.05:00"), ("pm7:42", "time.clock.19:42")]:
             self.assertIn(tag, self.associations(title))
-        self.assertEqual(self.associations("4:55")["time.clock_unspecified"]["title_judgment"], "ambiguous")
+        self.assertNotIn("time.clock_unspecified", self.associations("4:55"))
         self.assertIn("weather.temperature_cold", self.associations("0℃の日曜", "STUTS, SIKK-O, 铃木真海子"))
         self.assertNotIn("weather.temperature_cold", self.associations("10℃の日曜"))
-        self.assertNotIn("time.dawn", self.associations("Before Dawn", "Men I Trust"))
-        self.assertIn("time.predawn", self.associations("Before Dawn", "Men I Trust"))
+        self.assertFalse(self.associations("Before Dawn", "Men I Trust"))
+        self.assertIn("light.sunrise", self.associations("Morning Sunrise", "Yazmin Lacey"))
+        self.assertIn("time.morning", self.associations("Morning Sunrise", "Yazmin Lacey"))
 
     def test_removed_store_contexts(self):
-        blocked = {"weather.ice", "weather.dew", "holiday.graduation"}
+        blocked = STORE_EXCLUDED_TAGS
         self.assertEqual(set(self.config["policy"]["excluded_tags"]), blocked)
         self.assertFalse(any(rule.get("tag", rule["id"]) in blocked for rule in self.config["rules"]))
-        for title in ["Ice Copy", "想像一块冰的迁徙", "氷の鳥", "Morning Dew", "Graduation Song", "冰", "露水", "毕业纪念"]:
+        self.assertFalse(any(review["tag"] in blocked for review in self.reviews["reviews"]))
+        fixtures = ["Ice Copy", "想像一块冰的迁徙", "氷の鳥", "Morning Dew", "Graduation Song", "冰", "露水", "毕业纪念", "Clouds", "Urban Snow", "季风 (Monsoon)", "Chinook", "Windspeaks", "Nighttime", "夜班车", "Cielo", "Moon", "Before Dawn", "Vargtimme", "黎明", "4:55", "AURORA", "Light", "Hicari"]
+        for title in fixtures:
             self.assertTrue(blocked.isdisjoint(self.associations(title)), title)
         self.assertIn("time.morning", self.associations("Morning Dew"))
         self.assertIn("solar_term.bailu", self.associations("白露"))
-        added_rule = {"id": "weather.ice", "category": "weather", "label": "冰意象", "match_mode": "word", "aliases": ["ice"], "strength": "explicit"}
+        self.assertIn("solar_term.xiaoxue", self.associations("小雪"))
+        self.assertIn("weather.clear", self.associations("Blue Sky", "GYVUS"))
+        self.assertIn("weather.storm", self.associations("Night Squall", "Balmorhea"))
+        self.assertIn("light.moonlight", self.associations("Moonlight Becomes You", "北村英治"))
+        self.assertIn("light.sunset", self.associations("夕阳消失之前", "Cicada"))
+        self.assertIn("weather.wind_lull", self.associations("夕凪", "羊文学"))
+        added_rule = {"id": "weather.wind", "category": "weather", "label": "风意象", "match_mode": "word", "aliases": ["winds"], "strength": "explicit"}
         compiled = scan.compile_rules(dict(self.config, rules=self.config["rules"] + [added_rule]))
-        result, _, _ = scan.scan_title("Ice Copy", "fixture", self.config, compiled, self.reviews)
+        result, _, _ = scan.scan_title("Summer Winds", "fixture", self.config, compiled, self.reviews)
+        self.assertFalse(any(item["tag"] in blocked for item in result))
+        added_reviews = {"reviews": [{"title": "Summer Winds", "artist": "fixture", "tag": "season.summer", "action": "explicit", "reason": "测试语义附加项收口。", "add": [{"tag": "weather.wind", "category": "weather", "label": "风意象", "matched_text": "Winds", "strength": "explicit", "note": "测试已排除项。"}]}], "title_safeguards": []}
+        result, _, _ = scan.scan_title("Summer Winds", "fixture", self.config, self.compiled, added_reviews)
         self.assertFalse(any(item["tag"] in blocked for item in result))
         result = scan.build_scan(scan.SONGBASE / "song_base_by_artist.json", self.config, self.reviews)
         self.assertTrue(all(item["tag"] not in blocked for track in result["tracks"].values() for item in track["associations"]))
