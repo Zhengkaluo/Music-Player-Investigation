@@ -130,7 +130,7 @@ class WindowsMonitor:
     def _monitor_default_device(self):
         api, comtypes, audio_utilities, volume_callback_base, device_callback_base = (
             self.dependency_loader())
-        comtypes.CoInitialize()
+        comtypes.CoInitializeEx(comtypes.COINIT_MULTITHREADED)
         audio = enumerator = endpoint = stream = None
         volume_callback = device_callback = None
         meter = PCMWindow()
