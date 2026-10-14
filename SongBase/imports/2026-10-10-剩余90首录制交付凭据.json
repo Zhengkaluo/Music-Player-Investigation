@@ -1,0 +1,3665 @@
+{
+  "schemaVersion": "flowset.qq-recording-delivery/v1",
+  "expected": 90,
+  "accepted": 89,
+  "manualApprovedExceptions": 1,
+  "readyForImport": 90,
+  "tracks": [
+    {
+      "id": "001jXpn72EvZtq",
+      "title": "Another Shore",
+      "artist": "吴卓玲",
+      "duration": 464,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001jXpn72EvZtq",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 20495360,
+      "durationSeconds": 464.7474,
+      "peakDbFS": -0.48,
+      "rmsDbFS": -12,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 461.972
+        },
+        {
+          "event": "end",
+          "seconds": 464.747
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.307381,
+        "durationSeconds": 464.745556,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T15:52:51.266592+00:00",
+      "files": [
+        {
+          "path": "Another Shore - 吴卓玲.mp3",
+          "sha256": "5cd421b9c9df29200e04feb44faf7ca57126d2c6a76a0cf1d4a2e4ffae43b829"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Another Shore - 吴卓玲.mp3",
+        "filename": "Another Shore - 吴卓玲.mp3"
+      }
+    },
+    {
+      "id": "00057UGO34f6bd",
+      "title": "Mariana",
+      "artist": "Childs",
+      "duration": 335,
+      "url": "https://y.qq.com/n/ryqq/songDetail/00057UGO34f6bd",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14826496,
+      "durationSeconds": 336.2017,
+      "peakDbFS": -0.99,
+      "rmsDbFS": -13.95,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 333.124
+        },
+        {
+          "event": "end",
+          "seconds": 336.202
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.983609,
+        "durationSeconds": 336.196984,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T15:58:37.899519+00:00",
+      "files": [
+        {
+          "path": "Mariana - Childs.mp3",
+          "sha256": "c9e67c62d24aca762eb6e50010efb9e86b4d78af294cda67d40033f7679eb8e4"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Mariana - Childs.mp3",
+        "filename": "Mariana - Childs.mp3"
+      }
+    },
+    {
+      "id": "002sMfzj1pCcIM",
+      "title": "散去的时候",
+      "artist": "deca joins",
+      "duration": 265,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002sMfzj1pCcIM",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11734016,
+      "durationSeconds": 266.0775,
+      "peakDbFS": -1.64,
+      "rmsDbFS": -15.6,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.583219,
+        "durationSeconds": 266.058209,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:03:12.546013+00:00",
+      "files": [
+        {
+          "path": "散去的时候 - deca joins.mp3",
+          "sha256": "2fe4757d7c50fa8c4307dcc20775e29fee6349fbeb1723b3be2a6297933b9c36"
+        }
+      ],
+      "filenameMapping": {
+        "label": "散去的时候 - deca joins.mp3",
+        "filename": "散去的时候 - deca joins.mp3"
+      }
+    },
+    {
+      "id": "001Dqwem0PD8nd",
+      "title": "贼",
+      "artist": "郑宜农",
+      "duration": 260,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Dqwem0PD8nd",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11501568,
+      "durationSeconds": 260.8065,
+      "peakDbFS": -5.11,
+      "rmsDbFS": -24.19,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -6.100502,
+        "durationSeconds": 260.781474,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:07:42.039398+00:00",
+      "files": [
+        {
+          "path": "贼 - 郑宜农.mp3",
+          "sha256": "24a1bcd00461a0effc04104d3f44055d0747a4286ed2773803a91dd0b9f12d52"
+        }
+      ],
+      "filenameMapping": {
+        "label": "贼 - 郑宜农.mp3",
+        "filename": "贼 - 郑宜农.mp3"
+      }
+    },
+    {
+      "id": "0046itwD3abzOM",
+      "title": "秘密爱人 - Steal love",
+      "artist": "短跑小说",
+      "duration": 318,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0046itwD3abzOM",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14047232,
+      "durationSeconds": 318.5313,
+      "peakDbFS": -0.84,
+      "rmsDbFS": -14.48,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.839052,
+        "durationSeconds": 318.512086,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:13:10.268020+00:00",
+      "files": [
+        {
+          "path": "秘密爱人 - Steal love - 短跑小说.mp3",
+          "sha256": "5aeeae68e941ebbbf6906a6fefae49b6e431209b3e67da281472b678e4dc98b5"
+        }
+      ],
+      "filenameMapping": {
+        "label": "秘密爱人 - Steal love - 短跑小说.mp3",
+        "filename": "秘密爱人 - Steal love - 短跑小说.mp3"
+      }
+    },
+    {
+      "id": "0047QXrZ1gjjot",
+      "title": "越过海岸山脉 (Over Coastal Range)",
+      "artist": "Cicada",
+      "duration": 332,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0047QXrZ1gjjot",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14689792,
+      "durationSeconds": 333.1019,
+      "peakDbFS": -0.84,
+      "rmsDbFS": -14.55,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 328.527
+        },
+        {
+          "event": "end",
+          "seconds": 333.102
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.762293,
+        "durationSeconds": 333.088413,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:18:53.223295+00:00",
+      "files": [
+        {
+          "path": "越过海岸山脉 (Over Coastal Range) - Cicada.mp3",
+          "sha256": "1e4f0336b4cd374e675bb64efb33d7ba1ceedb94316474298e19be9e93f29ac3"
+        }
+      ],
+      "filenameMapping": {
+        "label": "越过海岸山脉 (Over Coastal Range) - Cicada.mp3",
+        "filename": "越过海岸山脉 (Over Coastal Range) - Cicada.mp3"
+      }
+    },
+    {
+      "id": "002CZyfr1u39Qu",
+      "title": "White Light",
+      "artist": "AMnesiac安尼西亚",
+      "duration": 580,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002CZyfr1u39Qu",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 25613824,
+      "durationSeconds": 580.8123,
+      "peakDbFS": -0.9,
+      "rmsDbFS": -16.6,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 576.622
+        },
+        {
+          "event": "end",
+          "seconds": 580.812
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.92493,
+        "durationSeconds": 580.807596,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:28:49.045447+00:00",
+      "files": [
+        {
+          "path": "White Light - AMnesiac安尼西亚.mp3",
+          "sha256": "322a7f383631764e94b675f97261762c1a18eaa7d9f790df68d5b4bc2fe807e8"
+        }
+      ],
+      "filenameMapping": {
+        "label": "White Light - AMnesiac安尼西亚.mp3",
+        "filename": "White Light - AMnesiac安尼西亚.mp3"
+      }
+    },
+    {
+      "id": "003eslBe24CuOd",
+      "title": "Rugla",
+      "artist": "Amiina",
+      "duration": 240,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003eslBe24CuOd",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10622976,
+      "durationSeconds": 240.8838,
+      "peakDbFS": -0.99,
+      "rmsDbFS": -16.07,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.965863,
+        "durationSeconds": 240.876168,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:32:58.221223+00:00",
+      "files": [
+        {
+          "path": "Rugla - Amiina.mp3",
+          "sha256": "fad25222117fe44a0ba895d22fbf9f9c88b68b7505bebcd4bcf5b3ea76874dbf"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Rugla - Amiina.mp3",
+        "filename": "Rugla - Amiina.mp3"
+      }
+    },
+    {
+      "id": "002XZTwP0jAOSM",
+      "title": "Song for Zula",
+      "artist": "Phosphorescent",
+      "duration": 369,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002XZTwP0jAOSM",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 16325120,
+      "durationSeconds": 370.1841,
+      "peakDbFS": -0.96,
+      "rmsDbFS": -13.01,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 367.49
+        },
+        {
+          "event": "end",
+          "seconds": 370.184
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.933221,
+        "durationSeconds": 370.18229,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:39:19.363750+00:00",
+      "files": [
+        {
+          "path": "Song for Zula - Phosphorescent.mp3",
+          "sha256": "3f2961b53c8f5d44f5969e316913563bd88c80f43babda25ce7eea68fd448f7b"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Song for Zula - Phosphorescent.mp3",
+        "filename": "Song for Zula - Phosphorescent.mp3"
+      }
+    },
+    {
+      "id": "001Mdwp74V34Lm",
+      "title": "Medisina",
+      "artist": "zild",
+      "duration": 312,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Mdwp74V34Lm",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13795840,
+      "durationSeconds": 312.8308,
+      "peakDbFS": -0.78,
+      "rmsDbFS": -12.29,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.637014,
+        "durationSeconds": 312.817392,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:44:41.873787+00:00",
+      "files": [
+        {
+          "path": "Medisina - zild.mp3",
+          "sha256": "0f8770d3a6f57b84fd5050853234709b43791e11f6a2c710edb690b560576396"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Medisina - zild.mp3",
+        "filename": "Medisina - zild.mp3"
+      }
+    },
+    {
+      "id": "004dMkXO44a4lP",
+      "title": "Tone Twilight Zone",
+      "artist": "CORNELIUS",
+      "duration": 237,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004dMkXO44a4lP",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10515456,
+      "durationSeconds": 238.4457,
+      "peakDbFS": -0.96,
+      "rmsDbFS": -16.2,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 234.172
+        },
+        {
+          "event": "end",
+          "seconds": 238.446
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.966683,
+        "durationSeconds": 238.420658,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:48:48.400152+00:00",
+      "files": [
+        {
+          "path": "Tone Twilight Zone - CORNELIUS.mp3",
+          "sha256": "f133f7550f9592533e24a46205d1abbc2c76a53a31560d74f6f3189a659dbbbd"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Tone Twilight Zone - CORNELIUS.mp3",
+        "filename": "Tone Twilight Zone - CORNELIUS.mp3"
+      }
+    },
+    {
+      "id": "000CNsZ20gAfcx",
+      "title": "满世 完结篇",
+      "artist": "景德镇文艺复兴",
+      "duration": 330,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000CNsZ20gAfcx",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14604800,
+      "durationSeconds": 331.1746,
+      "peakDbFS": -0.93,
+      "rmsDbFS": -14,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 0
+        },
+        {
+          "event": "end",
+          "seconds": 3.30621
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.871681,
+        "durationSeconds": 331.155351,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:54:29.662961+00:00",
+      "files": [
+        {
+          "path": "满世 完结篇 - 景德镇文艺复兴.mp3",
+          "sha256": "a7196fc83580f6e4a0c7b486c0e37ee3d7c290244ea070ed24f0e4a1d88887f7"
+        }
+      ],
+      "filenameMapping": {
+        "label": "满世 完结篇 - 景德镇文艺复兴.mp3",
+        "filename": "满世 完结篇 - 景德镇文艺复兴.mp3"
+      }
+    },
+    {
+      "id": "002aUyYw0ZCFlp",
+      "title": "snowscape",
+      "artist": "Re:Plus",
+      "duration": 219,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002aUyYw0ZCFlp",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 9718272,
+      "durationSeconds": 220.369,
+      "peakDbFS": -1.51,
+      "rmsDbFS": -14.75,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.50425,
+        "durationSeconds": 220.343923,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T16:58:17.578272+00:00",
+      "files": [
+        {
+          "path": "snowscape - Re_Plus.mp3",
+          "sha256": "b3f2ef7d8b1c9c3456d684b80c5c2fca29a5ebd14882e071ea39c059a0f45b96"
+        }
+      ],
+      "filenameMapping": {
+        "label": "snowscape - Re:Plus.mp3",
+        "filename": "snowscape - Re_Plus.mp3"
+      }
+    },
+    {
+      "id": "0041Ll4K3yOLk1",
+      "title": "Where Do We Go?",
+      "artist": "ODIE",
+      "duration": 175,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0041Ll4K3yOLk1",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 7744000,
+      "durationSeconds": 175.6009,
+      "peakDbFS": -0.93,
+      "rmsDbFS": -13.18,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.807174,
+        "durationSeconds": 175.596168,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:25.231328+00:00",
+      "files": [
+        {
+          "path": "Where Do We Go_ - ODIE.mp3",
+          "sha256": "d77ce7fb73eedd7c7dd8098141cd1261e8bbb6019a118adbf820e82eedf76b3a"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Where Do We Go? - ODIE.mp3",
+        "filename": "Where Do We Go_ - ODIE.mp3"
+      }
+    },
+    {
+      "id": "002V2peX1YZpo8",
+      "title": "BIRDS OF A FEATHER",
+      "artist": "Billie Eilish",
+      "duration": 210,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002V2peX1YZpo8",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 9293312,
+      "durationSeconds": 210.7327,
+      "peakDbFS": -0.84,
+      "rmsDbFS": -11.27,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.816376,
+        "durationSeconds": 210.730862,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T17:04:57.760233+00:00",
+      "files": [
+        {
+          "path": "BIRDS OF A FEATHER - Billie Eilish.mp3",
+          "sha256": "14545846b5044c1e4410c65616f2ad91aaab52ed2c575edc93c36e1b4b3e1a94"
+        }
+      ],
+      "filenameMapping": {
+        "label": "BIRDS OF A FEATHER - Billie Eilish.mp3",
+        "filename": "BIRDS OF A FEATHER - Billie Eilish.mp3"
+      }
+    },
+    {
+      "id": "001etTqc0layUE",
+      "title": "CHIHIRO",
+      "artist": "Billie Eilish",
+      "duration": 303,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001etTqc0layUE",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13406720,
+      "durationSeconds": 304.0073,
+      "peakDbFS": -0.91,
+      "rmsDbFS": -10.86,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 300.851
+        },
+        {
+          "event": "end",
+          "seconds": 304.007
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.874505,
+        "durationSeconds": 303.988005,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T17:10:11.043388+00:00",
+      "files": [
+        {
+          "path": "CHIHIRO - Billie Eilish.mp3",
+          "sha256": "d03295f528c803faee65859f86438284e1348c892f343af2687e0ebaccc860d9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "CHIHIRO - Billie Eilish.mp3",
+        "filename": "CHIHIRO - Billie Eilish.mp3"
+      }
+    },
+    {
+      "id": "000djRVP3ZrJFD",
+      "title": "Codex",
+      "artist": "Radiohead",
+      "duration": 287,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000djRVP3ZrJFD",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 12673024,
+      "durationSeconds": 287.3702,
+      "peakDbFS": -1.83,
+      "rmsDbFS": -16.47,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.827099,
+        "durationSeconds": 287.348005,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T17:15:07.646069+00:00",
+      "files": [
+        {
+          "path": "Codex - Radiohead.mp3",
+          "sha256": "69a877a7fbe1dd566cc31496bc96c60abe07902b3f8ade113adf089252162b93"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Codex - Radiohead.mp3",
+        "filename": "Codex - Radiohead.mp3"
+      }
+    },
+    {
+      "id": "002ZeT5c4A69EW",
+      "title": "バックビートにのっかって (跟上基调)",
+      "artist": "Fishmans",
+      "duration": 507,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ZeT5c4A69EW",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 22394368,
+      "durationSeconds": 507.8088,
+      "peakDbFS": -1.02,
+      "rmsDbFS": -12.39,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.0135,
+        "durationSeconds": 507.795351,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T17:23:49.004688+00:00",
+      "files": [
+        {
+          "path": "バックビートにのっかって (跟上基调) - Fishmans.mp3",
+          "sha256": "500149e7439f72b727ad8a255669c0713a05c43af10b495a80941857f149b9c7"
+        }
+      ],
+      "filenameMapping": {
+        "label": "バックビートにのっかって (跟上基调) - Fishmans.mp3",
+        "filename": "バックビートにのっかって (跟上基调) - Fishmans.mp3"
+      }
+    },
+    {
+      "id": "000IufJK1gHklw",
+      "title": "Green Grass of Tunnel",
+      "artist": "Múm",
+      "duration": 291,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000IufJK1gHklw",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 12872704,
+      "durationSeconds": 291.898,
+      "peakDbFS": -0.69,
+      "rmsDbFS": -14.97,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.615826,
+        "durationSeconds": 291.893311,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:27.286342+00:00",
+      "files": [
+        {
+          "path": "Green Grass of Tunnel - Múm.mp3",
+          "sha256": "89879aa747f458a7d02d2f9cbb0f8768ea771fc4388fcd163ad8a303c8182497"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Green Grass of Tunnel - Múm.mp3",
+        "filename": "Green Grass of Tunnel - Múm.mp3"
+      }
+    },
+    {
+      "id": "000usshm3WwLLs",
+      "title": "缓慢味",
+      "artist": "囍浪",
+      "duration": 294,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000usshm3WwLLs",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13003264,
+      "durationSeconds": 294.8586,
+      "peakDbFS": -0.83,
+      "rmsDbFS": -13.37,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.745853,
+        "durationSeconds": 294.845147,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T17:33:51.801749+00:00",
+      "files": [
+        {
+          "path": "缓慢味 - 囍浪.mp3",
+          "sha256": "70b66da0b53c0118fe7e9b4aca67bf512ab025196142763d1fc3c1053d9086d1"
+        }
+      ],
+      "filenameMapping": {
+        "label": "缓慢味 - 囍浪.mp3",
+        "filename": "缓慢味 - 囍浪.mp3"
+      }
+    },
+    {
+      "id": "001U5wNn266GDq",
+      "title": "时过境迁feat.罗小黑",
+      "artist": "野岸刊, 罗小黑",
+      "duration": 513,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001U5wNn266GDq",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 22661632,
+      "durationSeconds": 513.8692,
+      "peakDbFS": -0.84,
+      "rmsDbFS": -13.67,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.799774,
+        "durationSeconds": 513.85576,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T17:42:40.237868+00:00",
+      "files": [
+        {
+          "path": "时过境迁feat.罗小黑 - 野岸刊, 罗小黑.mp3",
+          "sha256": "5f603df61e8f832dfaf46d1ea6bec97a98afb7bfef52ae5d73b9a19e016cf0a5"
+        }
+      ],
+      "filenameMapping": {
+        "label": "时过境迁feat.罗小黑 - 野岸刊, 罗小黑.mp3",
+        "filename": "时过境迁feat.罗小黑 - 野岸刊, 罗小黑.mp3"
+      }
+    },
+    {
+      "id": "003AJPVU2EgJy4",
+      "title": "Bowsprit",
+      "artist": "Balmorhea",
+      "duration": 317,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003AJPVU2EgJy4",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14025216,
+      "durationSeconds": 318.0321,
+      "peakDbFS": -0.05,
+      "rmsDbFS": -16.77,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 304.762
+        },
+        {
+          "event": "end",
+          "seconds": 317.595
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.033734,
+        "durationSeconds": 318.01576,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:29.507854+00:00",
+      "files": [
+        {
+          "path": "Bowsprit - Balmorhea.mp3",
+          "sha256": "a0f388e9c17bfc88f4a165c656b74a2e20d1c362acf5b2b18cd8135072b2af53"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Bowsprit - Balmorhea.mp3",
+        "filename": "Bowsprit - Balmorhea.mp3"
+      }
+    },
+    {
+      "id": "001n2W7R2EK9FB",
+      "title": "White Ferrari",
+      "artist": "Frank Ocean",
+      "duration": 248,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001n2W7R2EK9FB",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10961340,
+      "durationSeconds": 248.5565,
+      "peakDbFS": -1.15,
+      "rmsDbFS": -19.56,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.163413,
+        "durationSeconds": 248.556168,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:31.300010+00:00",
+      "files": [
+        {
+          "path": "White Ferrari - Frank Ocean.mp3",
+          "sha256": "d02be351bb935c52eb1a668e294dc495da9ecb154a22655aca226b9554d1b9ee"
+        }
+      ],
+      "filenameMapping": {
+        "label": "White Ferrari - Frank Ocean.mp3",
+        "filename": "White Ferrari - Frank Ocean.mp3"
+      }
+    },
+    {
+      "id": "004czUII1kqlDj",
+      "title": "The Terminal",
+      "artist": "AMnesiac安尼西亚",
+      "duration": 447,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004czUII1kqlDj",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 19750912,
+      "durationSeconds": 447.8665,
+      "peakDbFS": -0.92,
+      "rmsDbFS": -15.87,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 445.379
+        },
+        {
+          "event": "end",
+          "seconds": 447.866
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.862627,
+        "durationSeconds": 447.844331,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:00:02.115089+00:00",
+      "files": [
+        {
+          "path": "The Terminal - AMnesiac安尼西亚.mp3",
+          "sha256": "7c6128f43ca86b1b246403af7610cfe75c090f4c81b585aba1e771de94064a5f"
+        }
+      ],
+      "filenameMapping": {
+        "label": "The Terminal - AMnesiac安尼西亚.mp3",
+        "filename": "The Terminal - AMnesiac安尼西亚.mp3"
+      }
+    },
+    {
+      "id": "002nG6hp3wbhFD",
+      "title": "Nice to Meet You",
+      "artist": "AMnesiac安尼西亚",
+      "duration": 257,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002nG6hp3wbhFD",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11381248,
+      "durationSeconds": 258.0782,
+      "peakDbFS": -1,
+      "rmsDbFS": -15.94,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.010041,
+        "durationSeconds": 258.064739,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:04:28.495436+00:00",
+      "files": [
+        {
+          "path": "Nice to Meet You - AMnesiac安尼西亚.mp3",
+          "sha256": "908dad1bc706058842aadbdc2c7bd8aeeed3bfab8d5ab1fca8a74cdd8e37aecd"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Nice to Meet You - AMnesiac安尼西亚.mp3",
+        "filename": "Nice to Meet You - AMnesiac安尼西亚.mp3"
+      }
+    },
+    {
+      "id": "001LpERl2mFd7F",
+      "title": "Let Down",
+      "artist": "Radiohead",
+      "duration": 299,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001LpERl2mFd7F",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13226496,
+      "durationSeconds": 299.9205,
+      "peakDbFS": -0.91,
+      "rmsDbFS": -14.61,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.848451,
+        "durationSeconds": 299.912902,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:09:37.626360+00:00",
+      "files": [
+        {
+          "path": "Let Down - Radiohead.mp3",
+          "sha256": "8a1d057307647f151a46c0d53bc4db377e70274b6b20518fdda869151f73058c"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Let Down - Radiohead.mp3",
+        "filename": "Let Down - Radiohead.mp3"
+      }
+    },
+    {
+      "id": "0004YywQ1WLVLa",
+      "title": "Evening glow",
+      "artist": "Re:Plus, 島裕介",
+      "duration": 286,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0004YywQ1WLVLa",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 12667904,
+      "durationSeconds": 287.2541,
+      "peakDbFS": -0.92,
+      "rmsDbFS": -11.51,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.898604,
+        "durationSeconds": 287.243515,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:14:33.964015+00:00",
+      "files": [
+        {
+          "path": "Evening glow - Re_Plus, 島裕介.mp3",
+          "sha256": "0ee9fdb920328e50a6a9f4188d5f685605548dc56dbd42bba77f8ebbe4f6f6e9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Evening glow - Re:Plus, 島裕介.mp3",
+        "filename": "Evening glow - Re_Plus, 島裕介.mp3"
+      }
+    },
+    {
+      "id": "0004rSqn1xwy70",
+      "title": "60km/h",
+      "artist": "晨曦光廊",
+      "duration": 463,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0004rSqn1xwy70",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 20459520,
+      "durationSeconds": 463.9347,
+      "peakDbFS": -0.81,
+      "rmsDbFS": -16,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 461.152
+        },
+        {
+          "event": "end",
+          "seconds": 463.935
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.708089,
+        "durationSeconds": 463.909637,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:22:30.301634+00:00",
+      "files": [
+        {
+          "path": "60km_h - 晨曦光廊.mp3",
+          "sha256": "c3e5535bfb820290ac9c834f3929c27adde5a7c3ebc2a9ef04299c0edbd95ba0"
+        }
+      ],
+      "filenameMapping": {
+        "label": "60km/h - 晨曦光廊.mp3",
+        "filename": "60km_h - 晨曦光廊.mp3"
+      }
+    },
+    {
+      "id": "0028POzV0tg0HW",
+      "title": "宇宙尽头的餐馆",
+      "artist": "Uhsgnǒd",
+      "duration": 322,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0028POzV0tg0HW",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14219776,
+      "durationSeconds": 322.4439,
+      "peakDbFS": -0.3,
+      "rmsDbFS": -12.18,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.220435,
+        "durationSeconds": 322.430454,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:28:02.616603+00:00",
+      "files": [
+        {
+          "path": "宇宙尽头的餐馆 - Uhsgnǒd.mp3",
+          "sha256": "e250199ad9f0a3f888ce65166302b30bc6c56e89c1a9165e1195b39e0026d991"
+        }
+      ],
+      "filenameMapping": {
+        "label": "宇宙尽头的餐馆 - Uhsgnǒd.mp3",
+        "filename": "宇宙尽头的餐馆 - Uhsgnǒd.mp3"
+      }
+    },
+    {
+      "id": "003YDLNN4EIffX",
+      "title": "Lonely God",
+      "artist": "惘闻",
+      "duration": 570,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003YDLNN4EIffX",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 25165824,
+      "durationSeconds": 570.6536,
+      "peakDbFS": -0.84,
+      "rmsDbFS": -15.6,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 564.708
+        },
+        {
+          "event": "end",
+          "seconds": 570.127
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.582142,
+        "durationSeconds": 570.645964,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:37:48.806448+00:00",
+      "files": [
+        {
+          "path": "Lonely God - 惘闻.mp3",
+          "sha256": "c1eb6265a5773b27f8c2d3ccc9cf983e9eb1d4d6f6cdbbd29028f316b811824d"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Lonely God - 惘闻.mp3",
+        "filename": "Lonely God - 惘闻.mp3"
+      }
+    },
+    {
+      "id": "003BhLbV0gunrC",
+      "title": "筛子浪 Seaman's Diary",
+      "artist": "许钧",
+      "duration": 320,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003BhLbV0gunrC",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14134272,
+      "durationSeconds": 320.505,
+      "peakDbFS": -0.55,
+      "rmsDbFS": -12.57,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.433695,
+        "durationSeconds": 320.497392,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:43:19.099682+00:00",
+      "files": [
+        {
+          "path": "筛子浪 Seaman's Diary - 许钧.mp3",
+          "sha256": "37abd8a53b065ef53fc665318f8c7f1b16b5be151a1718e499b588574f2443d0"
+        }
+      ],
+      "filenameMapping": {
+        "label": "筛子浪 Seaman's Diary - 许钧.mp3",
+        "filename": "筛子浪 Seaman's Diary - 许钧.mp3"
+      }
+    },
+    {
+      "id": "00322yQS1Ggksr",
+      "title": "Boredom (Explicit)",
+      "artist": "Tyler, The Creator, Rex Orange County, Anna Of The North",
+      "duration": 320,
+      "url": "https://y.qq.com/n/ryqq/songDetail/00322yQS1Ggksr",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14179328,
+      "durationSeconds": 321.5267,
+      "peakDbFS": -0.68,
+      "rmsDbFS": -12.75,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.624921,
+        "durationSeconds": 321.516168,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:48:50.367404+00:00",
+      "files": [
+        {
+          "path": "Boredom (Explicit) - Tyler, The Creator, Rex Orange County, Anna Of The North.mp3",
+          "sha256": "de8bc54e0db5915031b77301d9daccbe5225d195dd06a3aeb60c6c7c3ace1dae"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Boredom (Explicit) - Tyler, The Creator, Rex Orange County, Anna Of The North.mp3",
+        "filename": "Boredom (Explicit) - Tyler, The Creator, Rex Orange County, Anna Of The North.mp3"
+      }
+    },
+    {
+      "id": "001FigFM2goAOg",
+      "title": "kimochi",
+      "artist": "铃木真海子",
+      "duration": 256,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001FigFM2goAOg",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11315200,
+      "durationSeconds": 256.5805,
+      "peakDbFS": -1.9,
+      "rmsDbFS": -17.19,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.893248,
+        "durationSeconds": 256.57576,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:53:15.635841+00:00",
+      "files": [
+        {
+          "path": "kimochi - 铃木真海子.mp3",
+          "sha256": "d7955f1f9250b898783989fea6332e062652630f5470be168f23748ee9b386f8"
+        }
+      ],
+      "filenameMapping": {
+        "label": "kimochi - 铃木真海子.mp3",
+        "filename": "kimochi - 铃木真海子.mp3"
+      }
+    },
+    {
+      "id": "002ep8yZ1z4efX",
+      "title": "Surfing Rock",
+      "artist": "肖骏",
+      "duration": 221,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ep8yZ1z4efX",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 9805312,
+      "durationSeconds": 222.3427,
+      "peakDbFS": -0.63,
+      "rmsDbFS": -11.49,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 219.18
+        },
+        {
+          "event": "end",
+          "seconds": 222.343
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.631129,
+        "durationSeconds": 222.329229,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T18:57:06.092830+00:00",
+      "files": [
+        {
+          "path": "Surfing Rock - 肖骏.mp3",
+          "sha256": "affee8c91bda65db97e889fdd6ea5f2e708246c489710ea259bab38e2b45fd72"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Surfing Rock - 肖骏.mp3",
+        "filename": "Surfing Rock - 肖骏.mp3"
+      }
+    },
+    {
+      "id": "004PwtHF4ZbDRp",
+      "title": "100 Roses",
+      "artist": "FKJ",
+      "duration": 248,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004PwtHF4ZbDRp",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10985472,
+      "durationSeconds": 249.1037,
+      "peakDbFS": -0.64,
+      "rmsDbFS": -14.87,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.63855,
+        "durationSeconds": 249.078617,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:01:23.820771+00:00",
+      "files": [
+        {
+          "path": "100 Roses - FKJ.mp3",
+          "sha256": "cefc00588998fde2845336d98a8dac61671d4423de829414e12340f5baba5b6c"
+        }
+      ],
+      "filenameMapping": {
+        "label": "100 Roses - FKJ.mp3",
+        "filename": "100 Roses - FKJ.mp3"
+      }
+    },
+    {
+      "id": "002XPNWh2J05to",
+      "title": "ナイトクルージング (夜间巡航)",
+      "artist": "Fishmans",
+      "duration": 361,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002XPNWh2J05to",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 15973888,
+      "durationSeconds": 362.2197,
+      "peakDbFS": -0.98,
+      "rmsDbFS": -15.35,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.934574,
+        "durationSeconds": 362.214943,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:07:37.080199+00:00",
+      "files": [
+        {
+          "path": "ナイトクルージング (夜间巡航) - Fishmans.mp3",
+          "sha256": "b64c0d400a94a94dbcd59b045e7d98489f71c4ccdd6a841cd5e82fe6b30a3e8b"
+        }
+      ],
+      "filenameMapping": {
+        "label": "ナイトクルージング (夜间巡航) - Fishmans.mp3",
+        "filename": "ナイトクルージング (夜间巡航) - Fishmans.mp3"
+      }
+    },
+    {
+      "id": "003H2wp53LOyj8",
+      "title": "Rosemary",
+      "artist": "痛仰乐队",
+      "duration": 421,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003H2wp53LOyj8",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 18601472,
+      "durationSeconds": 421.8021,
+      "peakDbFS": -0.9,
+      "rmsDbFS": -15.12,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 419.542
+        },
+        {
+          "event": "end",
+          "seconds": 421.802
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.736332,
+        "durationSeconds": 421.800249,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:14:50.696553+00:00",
+      "files": [
+        {
+          "path": "Rosemary - 痛仰乐队.mp3",
+          "sha256": "cf28a10df52007fd7028bae212198a04fad6e57d6d388b409104936f6f671b74"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Rosemary - 痛仰乐队.mp3",
+        "filename": "Rosemary - 痛仰乐队.mp3"
+      }
+    },
+    {
+      "id": "003dNf1M2Boo0K",
+      "title": "Don't Mind Me feat. Crispy脆乐团",
+      "artist": "杨乃文, Crispy脆乐团",
+      "duration": 185,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003dNf1M2Boo0K",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8226304,
+      "durationSeconds": 186.5375,
+      "peakDbFS": -0.55,
+      "rmsDbFS": -9.44,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.473044,
+        "durationSeconds": 186.515351,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:18:04.468134+00:00",
+      "files": [
+        {
+          "path": "Don't Mind Me feat. Crispy脆乐团 - 杨乃文, Crispy脆乐团.mp3",
+          "sha256": "4acb27c33c696f207550c2593010da3bfcf32c1894405c9d91d23ef778ba0228"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Don't Mind Me feat. Crispy脆乐团 - 杨乃文, Crispy脆乐团.mp3",
+        "filename": "Don't Mind Me feat. Crispy脆乐团 - 杨乃文, Crispy脆乐团.mp3"
+      }
+    },
+    {
+      "id": "000fbEhM2vgdOE",
+      "title": "恐怖的房子",
+      "artist": "超级市场",
+      "duration": 446,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000fbEhM2vgdOE",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 19731968,
+      "durationSeconds": 447.4369,
+      "peakDbFS": -0.92,
+      "rmsDbFS": -14.69,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 445.034
+        },
+        {
+          "event": "end",
+          "seconds": 447.437
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.893023,
+        "durationSeconds": 447.426372,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:25:43.886996+00:00",
+      "files": [
+        {
+          "path": "恐怖的房子 - 超级市场.mp3",
+          "sha256": "f4f4d18d1fac28aeeba8b7c1c423132d419d81f6d0ffddf3f2ce994c6cd9c93f"
+        }
+      ],
+      "filenameMapping": {
+        "label": "恐怖的房子 - 超级市场.mp3",
+        "filename": "恐怖的房子 - 超级市场.mp3"
+      }
+    },
+    {
+      "id": "001WleLS0wyqmb",
+      "title": "永恒的奥古斯都 (Semper Augustus)",
+      "artist": "Fayzz",
+      "duration": 301,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001WleLS0wyqmb",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13336576,
+      "durationSeconds": 302.4167,
+      "peakDbFS": -0.13,
+      "rmsDbFS": -11.21,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 300.347
+        },
+        {
+          "event": "end",
+          "seconds": 302.417
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.149321,
+        "durationSeconds": 302.394535,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:30:55.713835+00:00",
+      "files": [
+        {
+          "path": "永恒的奥古斯都 (Semper Augustus) - Fayzz.mp3",
+          "sha256": "91aa2a1d9722228d5cb14db7f70baefacadfb9b5407e71101f06f5c6d2d43f0a"
+        }
+      ],
+      "filenameMapping": {
+        "label": "永恒的奥古斯都 (Semper Augustus) - Fayzz.mp3",
+        "filename": "永恒的奥古斯都 (Semper Augustus) - Fayzz.mp3"
+      }
+    },
+    {
+      "id": "004ZJkPD4dUxIS",
+      "title": "Finger (Audiotree Live Version)",
+      "artist": "大象体操",
+      "duration": 296,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004ZJkPD4dUxIS",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13090304,
+      "durationSeconds": 296.8323,
+      "peakDbFS": -0.98,
+      "rmsDbFS": -14.56,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.950505,
+        "durationSeconds": 296.830454,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:36:01.773174+00:00",
+      "files": [
+        {
+          "path": "Finger (Audiotree Live Version) - 大象体操.mp3",
+          "sha256": "b1ef8bcff04166ca64bb1d17231e77c6707fe8ad62d62a1c55a7d503a352f7f1"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Finger (Audiotree Live Version) - 大象体操.mp3",
+        "filename": "Finger (Audiotree Live Version) - 大象体操.mp3"
+      }
+    },
+    {
+      "id": "000X16Yk2BC53v",
+      "title": "穿过冰面",
+      "artist": "花伦",
+      "duration": 343,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000X16Yk2BC53v",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 15155200,
+      "durationSeconds": 343.6553,
+      "peakDbFS": -1.97,
+      "rmsDbFS": -17.98,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 340.239
+        },
+        {
+          "event": "end",
+          "seconds": 343.655
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -2.971305,
+        "durationSeconds": 343.641882,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:41:56.013596+00:00",
+      "files": [
+        {
+          "path": "穿过冰面 - 花伦.mp3",
+          "sha256": "b7543409c08034d8b8a0098c1bb0be70527efbd2de0406bf1695b60e529320be"
+        }
+      ],
+      "filenameMapping": {
+        "label": "穿过冰面 - 花伦.mp3",
+        "filename": "穿过冰面 - 花伦.mp3"
+      }
+    },
+    {
+      "id": "004dyusG23Cznh",
+      "title": "心中潮汐",
+      "artist": "琥珀乐队",
+      "duration": 428,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004dyusG23Cznh",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 18933760,
+      "durationSeconds": 429.337,
+      "peakDbFS": -1.71,
+      "rmsDbFS": -19.77,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 0
+        },
+        {
+          "event": "end",
+          "seconds": 3.85971
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -2.709121,
+        "durationSeconds": 429.323515,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:49:16.968448+00:00",
+      "files": [
+        {
+          "path": "心中潮汐 - 琥珀乐队.mp3",
+          "sha256": "158f5b613569bf5eea4a001195166d00917d8a62cee25b9d920a79c9690c102a"
+        }
+      ],
+      "filenameMapping": {
+        "label": "心中潮汐 - 琥珀乐队.mp3",
+        "filename": "心中潮汐 - 琥珀乐队.mp3"
+      }
+    },
+    {
+      "id": "002ctGMN0hsNmb",
+      "title": "安全降落",
+      "artist": "表情银行",
+      "duration": 307,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ctGMN0hsNmb",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13555200,
+      "durationSeconds": 307.3741,
+      "peakDbFS": -0.93,
+      "rmsDbFS": -13.2,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.753447,
+        "durationSeconds": 307.3578,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:54:33.951418+00:00",
+      "files": [
+        {
+          "path": "安全降落 - 表情银行.mp3",
+          "sha256": "30f5a42003e41485696457e351e99594c65ca0a97985ce6ad687d2f706c57d02"
+        }
+      ],
+      "filenameMapping": {
+        "label": "安全降落 - 表情银行.mp3",
+        "filename": "安全降落 - 表情银行.mp3"
+      }
+    },
+    {
+      "id": "000BzIpH1FTNrZ",
+      "title": "小男孩",
+      "artist": "表情银行",
+      "duration": 256,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000BzIpH1FTNrZ",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11336704,
+      "durationSeconds": 257.0681,
+      "peakDbFS": -0.54,
+      "rmsDbFS": -13.52,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.583881,
+        "durationSeconds": 257.045964,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T19:58:59.652218+00:00",
+      "files": [
+        {
+          "path": "小男孩 - 表情银行.mp3",
+          "sha256": "49849211cff274a222163290784782f7c464ce14ae58cf8b3ba13ff740a647ae"
+        }
+      ],
+      "filenameMapping": {
+        "label": "小男孩 - 表情银行.mp3",
+        "filename": "小男孩 - 表情银行.mp3"
+      }
+    },
+    {
+      "id": "0018SFFk2R8tgv",
+      "title": "Felix",
+      "artist": "表情银行",
+      "duration": 336,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0018SFFk2R8tgv",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14846464,
+      "durationSeconds": 336.6545,
+      "peakDbFS": -1.11,
+      "rmsDbFS": -13.08,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.07438,
+        "durationSeconds": 336.641066,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:04:46.601850+00:00",
+      "files": [
+        {
+          "path": "Felix - 表情银行.mp3",
+          "sha256": "5f1ad13dda29d4abb2c4b9ecd153d70ff298cc4e32bef65498423c9ac0ebda3c"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Felix - 表情银行.mp3",
+        "filename": "Felix - 表情银行.mp3"
+      }
+    },
+    {
+      "id": "0044FgvG1zPAma",
+      "title": "苍蝇为什么要搓手",
+      "artist": "表情银行",
+      "duration": 276,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0044FgvG1zPAma",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 12224512,
+      "durationSeconds": 277.1998,
+      "peakDbFS": -1.55,
+      "rmsDbFS": -12.62,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.529413,
+        "durationSeconds": 277.186372,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:09:33.398744+00:00",
+      "files": [
+        {
+          "path": "苍蝇为什么要搓手 - 表情银行.mp3",
+          "sha256": "6fdb8ca26fb2e1f54f6d2380244f362b093247918f5b6239fd4506cbe832b278"
+        }
+      ],
+      "filenameMapping": {
+        "label": "苍蝇为什么要搓手 - 表情银行.mp3",
+        "filename": "苍蝇为什么要搓手 - 表情银行.mp3"
+      }
+    },
+    {
+      "id": "004Hp3h12kfMvU",
+      "title": "一个人的快乐",
+      "artist": "文雀",
+      "duration": 309,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004Hp3h12kfMvU",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13689344,
+      "durationSeconds": 310.416,
+      "peakDbFS": -0.86,
+      "rmsDbFS": -14.22,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 304.39
+        },
+        {
+          "event": "end",
+          "seconds": 310.416
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.731117,
+        "durationSeconds": 310.414127,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:14:53.445747+00:00",
+      "files": [
+        {
+          "path": "一个人的快乐 - 文雀.mp3",
+          "sha256": "158b1f6fa0e527806564007327ecdea5967db77c0313723a9feabbcc299c47f9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "一个人的快乐 - 文雀.mp3",
+        "filename": "一个人的快乐 - 文雀.mp3"
+      }
+    },
+    {
+      "id": "002RG06N0T9zK8",
+      "title": "羽毛 (feat. 坏特 ?te) (Feather)",
+      "artist": "大象体操, 壞特？te",
+      "duration": 231,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002RG06N0T9zK8",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10229248,
+      "durationSeconds": 231.9557,
+      "peakDbFS": -0.63,
+      "rmsDbFS": -12.91,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.555047,
+        "durationSeconds": 231.94229,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:18:53.900316+00:00",
+      "files": [
+        {
+          "path": "羽毛 (feat. 坏特 _te) (Feather) - 大象体操, 壞特？te.mp3",
+          "sha256": "358fda257c1a33eb394ed4fc90d6183352d485d565e651fd8a266147bc4d7800"
+        }
+      ],
+      "filenameMapping": {
+        "label": "羽毛 (feat. 坏特 ?te) (Feather) - 大象体操, 壞特？te.mp3",
+        "filename": "羽毛 (feat. 坏特 _te) (Feather) - 大象体操, 壞特？te.mp3"
+      }
+    },
+    {
+      "id": "0027zDei3XGzHO",
+      "title": "地球上最后一个EMO男孩",
+      "artist": "Chinese Football",
+      "duration": 347,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0027zDei3XGzHO",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 15353856,
+      "durationSeconds": 348.16,
+      "peakDbFS": -0.84,
+      "rmsDbFS": -10.95,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.575814,
+        "durationSeconds": 348.134943,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:24:52.093177+00:00",
+      "files": [
+        {
+          "path": "地球上最后一个EMO男孩 - Chinese Football.mp3",
+          "sha256": "c1e303d4eac88d1d39eb8de29c018afef31d3a3ee7628404328f32a65e986ddd"
+        }
+      ],
+      "filenameMapping": {
+        "label": "地球上最后一个EMO男孩 - Chinese Football.mp3",
+        "filename": "地球上最后一个EMO男孩 - Chinese Football.mp3"
+      }
+    },
+    {
+      "id": "004BdL7I39jc0f",
+      "title": "Die For You",
+      "artist": "The Weeknd",
+      "duration": 259,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004BdL7I39jc0f",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "manual-approved-exception",
+      "automaticFailure": "Capture is clipped or too quiet",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11401148,
+      "durationSeconds": 258.5294,
+      "peakDbFS": 0,
+      "rmsDbFS": -10.75,
+      "clippedSamples": 4,
+      "silent": false,
+      "mp3": {
+        "peakDbFS": -0.885982,
+        "durationSeconds": 258.508821,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 1,
+      "humanReview": {
+        "decision": "approved-with-tail-trim",
+        "authorizedAt": "2026-10-10",
+        "reviewSource": "dashboard-review-decisions.json",
+        "exceptionSource": "manual-delivery-exceptions.json"
+      },
+      "files": [
+        {
+          "path": "Die For You - The Weeknd.mp3",
+          "sha256": "2ab3036f0d775bea7f281e448150ffd31a1b5bb8f3b4c08b4751601b70ea2b34"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Die For You - The Weeknd.mp3",
+        "filename": "Die For You - The Weeknd.mp3"
+      }
+    },
+    {
+      "id": "00073hOK283QII",
+      "title": "If I Say I Love You",
+      "artist": "恐龙的皮 The Dinosaur's Skin, Summer Salt",
+      "duration": 230,
+      "url": "https://y.qq.com/n/ryqq/songDetail/00073hOK283QII",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10202624,
+      "durationSeconds": 231.352,
+      "peakDbFS": -0.64,
+      "rmsDbFS": -11.94,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 228.42
+        },
+        {
+          "event": "end",
+          "seconds": 231.352
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.43402,
+        "durationSeconds": 231.341474,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:33:57.801153+00:00",
+      "files": [
+        {
+          "path": "If I Say I Love You - 恐龙的皮 The Dinosaur's Skin, Summer Salt.mp3",
+          "sha256": "4f0ee6675ade9cb99a5d374e4f1cd090312ca4035b602f4c75428232ad04b590"
+        }
+      ],
+      "filenameMapping": {
+        "label": "If I Say I Love You - 恐龙的皮 The Dinosaur's Skin, Summer Salt.mp3",
+        "filename": "If I Say I Love You - 恐龙的皮 The Dinosaur's Skin, Summer Salt.mp3"
+      }
+    },
+    {
+      "id": "003bJwBg1Vk3fw",
+      "title": "守门员",
+      "artist": "Chinese Football",
+      "duration": 251,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003bJwBg1Vk3fw",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 11137024,
+      "durationSeconds": 252.5402,
+      "peakDbFS": -0.65,
+      "rmsDbFS": -10.33,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.622037,
+        "durationSeconds": 252.52678,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:38:18.457077+00:00",
+      "files": [
+        {
+          "path": "守门员 - Chinese Football.mp3",
+          "sha256": "983c642fcd03bd8a270fbacff0a0a364bb44538209aafb7bceae87f026974d39"
+        }
+      ],
+      "filenameMapping": {
+        "label": "守门员 - Chinese Football.mp3",
+        "filename": "守门员 - Chinese Football.mp3"
+      }
+    },
+    {
+      "id": "001kuDLZ350njw",
+      "title": "&burn",
+      "artist": "Billie Eilish, Vince Staples",
+      "duration": 179,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001kuDLZ350njw",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 7871420,
+      "durationSeconds": 178.4902,
+      "peakDbFS": -0.09,
+      "rmsDbFS": -9.1,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -0.936407,
+        "durationSeconds": 178.469637,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:32.601543+00:00",
+      "files": [
+        {
+          "path": "&burn - Billie Eilish, Vince Staples.mp3",
+          "sha256": "d6911c397c0409296e0473e7b50f8a3b4844475260525685a4d53fa2723c3da1"
+        }
+      ],
+      "filenameMapping": {
+        "label": "&burn - Billie Eilish, Vince Staples.mp3",
+        "filename": "&burn - Billie Eilish, Vince Staples.mp3"
+      }
+    },
+    {
+      "id": "002jPi7U1o6SGv",
+      "title": "Charcoal Baby (Explicit)",
+      "artist": "Blood Orange",
+      "duration": 242,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002jPi7U1o6SGv",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10716672,
+      "durationSeconds": 243.0084,
+      "peakDbFS": -0.69,
+      "rmsDbFS": -14.26,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.603677,
+        "durationSeconds": 242.992086,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:45:35.217684+00:00",
+      "files": [
+        {
+          "path": "Charcoal Baby (Explicit) - Blood Orange.mp3",
+          "sha256": "eee336274a8cc93c21cb6f97a3112a4dbb2436a6ea53bed77c53b726e2cf44e8"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Charcoal Baby (Explicit) - Blood Orange.mp3",
+        "filename": "Charcoal Baby (Explicit) - Blood Orange.mp3"
+      }
+    },
+    {
+      "id": "0008E2he3dUseC",
+      "title": "如梦重叠",
+      "artist": "沉默橙",
+      "duration": 187,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0008E2he3dUseC",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8274432,
+      "durationSeconds": 187.6288,
+      "peakDbFS": -0.9,
+      "rmsDbFS": -13.47,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.659759,
+        "durationSeconds": 187.612494,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:48:50.484674+00:00",
+      "files": [
+        {
+          "path": "如梦重叠 - 沉默橙.mp3",
+          "sha256": "6e8be862f1fe10d20c84f4a988e6a877fb05a0b9fc0f724ba8af2cde5f76c9a9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "如梦重叠 - 沉默橙.mp3",
+        "filename": "如梦重叠 - 沉默橙.mp3"
+      }
+    },
+    {
+      "id": "0014AXGx1Sp8aH",
+      "title": "more than words",
+      "artist": "羊文学",
+      "duration": 289,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0014AXGx1Sp8aH",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 12804608,
+      "durationSeconds": 290.3539,
+      "peakDbFS": -0.36,
+      "rmsDbFS": -9.12,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 286.32
+        },
+        {
+          "event": "end",
+          "seconds": 290.354
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.296853,
+        "durationSeconds": 290.352086,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:53:49.742685+00:00",
+      "files": [
+        {
+          "path": "more than words - 羊文学.mp3",
+          "sha256": "a75fed2cb9c38a9fc3a8f188ffe548ad477b40787c42dd3883a89589cf341672"
+        }
+      ],
+      "filenameMapping": {
+        "label": "more than words - 羊文学.mp3",
+        "filename": "more than words - 羊文学.mp3"
+      }
+    },
+    {
+      "id": "003ycsrS2zwXzF",
+      "title": "Dual Harmonics",
+      "artist": "Toe",
+      "duration": 193,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003ycsrS2zwXzF",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8538624,
+      "durationSeconds": 193.6196,
+      "peakDbFS": -1.21,
+      "rmsDbFS": -15.13,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.141224,
+        "durationSeconds": 193.594535,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T20:57:10.788957+00:00",
+      "files": [
+        {
+          "path": "Dual Harmonics - Toe.mp3",
+          "sha256": "b8eb26d10e8ca6ac9b6d47d404f5960d6824cecf8498990a65917b62dace1993"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Dual Harmonics - Toe.mp3",
+        "filename": "Dual Harmonics - Toe.mp3"
+      }
+    },
+    {
+      "id": "003M1hf42mU5hq",
+      "title": "谅解备忘录 (The Memo)",
+      "artist": "叶喜儿",
+      "duration": 192,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003M1hf42mU5hq",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8520192,
+      "durationSeconds": 193.2016,
+      "peakDbFS": -0.64,
+      "rmsDbFS": -12.31,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.583916,
+        "durationSeconds": 193.176576,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:00:32.614296+00:00",
+      "files": [
+        {
+          "path": "谅解备忘录 (The Memo) - 叶喜儿.mp3",
+          "sha256": "e244a720a2cc687da072818c2e0a942b14281f0dea319fb0ef35f103f0e4750e"
+        }
+      ],
+      "filenameMapping": {
+        "label": "谅解备忘录 (The Memo) - 叶喜儿.mp3",
+        "filename": "谅解备忘录 (The Memo) - 叶喜儿.mp3"
+      }
+    },
+    {
+      "id": "0046RnQs2tSuVb",
+      "title": "出现又离开 (Live)",
+      "artist": "梁博",
+      "duration": 432,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0046RnQs2tSuVb",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 19109888,
+      "durationSeconds": 433.3308,
+      "peakDbFS": -0.67,
+      "rmsDbFS": -15.91,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.577062,
+        "durationSeconds": 433.320249,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:07:58.434162+00:00",
+      "files": [
+        {
+          "path": "出现又离开 (Live) - 梁博.mp3",
+          "sha256": "6a9c00aada443543caa7b1abcd464b2c9b42ee7e817533e82aa750e1f817f1e4"
+        }
+      ],
+      "filenameMapping": {
+        "label": "出现又离开 (Live) - 梁博.mp3",
+        "filename": "出现又离开 (Live) - 梁博.mp3"
+      }
+    },
+    {
+      "id": "000zj5ZP3SgtgB",
+      "title": "黑夜中 (Live)",
+      "artist": "梁博",
+      "duration": 524,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000zj5ZP3SgtgB",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 23154688,
+      "durationSeconds": 525.0496,
+      "peakDbFS": -0.32,
+      "rmsDbFS": -13.03,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.207801,
+        "durationSeconds": 525.036168,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:16:56.840075+00:00",
+      "files": [
+        {
+          "path": "黑夜中 (Live) - 梁博.mp3",
+          "sha256": "2ed847cdbfa1e5003424ab9f94e8774b7deda0cf6cb9aad88c0d1df08082bc75"
+        }
+      ],
+      "filenameMapping": {
+        "label": "黑夜中 (Live) - 梁博.mp3",
+        "filename": "黑夜中 (Live) - 梁博.mp3"
+      }
+    },
+    {
+      "id": "002ycnTM3fZpJ6",
+      "title": "Tokyo feat.iri",
+      "artist": "RADWIMPS, iri",
+      "duration": 202,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ycnTM3fZpJ6",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8962560,
+      "durationSeconds": 203.2327,
+      "peakDbFS": -0.29,
+      "rmsDbFS": -11.66,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.237672,
+        "durationSeconds": 203.207596,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:20:27.362119+00:00",
+      "files": [
+        {
+          "path": "Tokyo feat.iri - RADWIMPS, iri.mp3",
+          "sha256": "e12421b9060bf5ebfbfcf3f5839b8300d705005a726d98836fbb103cdba26606"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Tokyo feat.iri - RADWIMPS, iri.mp3",
+        "filename": "Tokyo feat.iri - RADWIMPS, iri.mp3"
+      }
+    },
+    {
+      "id": "001uOGeQ2rZTPy",
+      "title": "太阳睡着了 (Demo)",
+      "artist": "曾柯淳",
+      "duration": 120,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001uOGeQ2rZTPy",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 5343744,
+      "durationSeconds": 121.1733,
+      "peakDbFS": -0.83,
+      "rmsDbFS": -17.31,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.846672,
+        "durationSeconds": 121.156984,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:22:33.949016+00:00",
+      "files": [
+        {
+          "path": "太阳睡着了 (Demo) - 曾柯淳.mp3",
+          "sha256": "ef1c050ebe3c1f6e4ce090ed0b975089f48cb5284f12eae55957b104ccc05803"
+        }
+      ],
+      "filenameMapping": {
+        "label": "太阳睡着了 (Demo) - 曾柯淳.mp3",
+        "filename": "太阳睡着了 (Demo) - 曾柯淳.mp3"
+      }
+    },
+    {
+      "id": "003U4RLy1lRrzq",
+      "title": "枕头下的宇宙",
+      "artist": "曾柯淳",
+      "duration": 179,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003U4RLy1lRrzq",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 7963648,
+      "durationSeconds": 180.5816,
+      "peakDbFS": -0.29,
+      "rmsDbFS": -11.08,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -0.913267,
+        "durationSeconds": 180.559433,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:25:41.153003+00:00",
+      "files": [
+        {
+          "path": "枕头下的宇宙 - 曾柯淳.mp3",
+          "sha256": "226ff280fb57ca5bab7a66a3d180c360040d12fd6fa7ae9efa3c4bd721d61806"
+        }
+      ],
+      "filenameMapping": {
+        "label": "枕头下的宇宙 - 曾柯淳.mp3",
+        "filename": "枕头下的宇宙 - 曾柯淳.mp3"
+      }
+    },
+    {
+      "id": "004RnRy44FJO96",
+      "title": "一只死在春天的猫",
+      "artist": "曾柯淳",
+      "duration": 174,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004RnRy44FJO96",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 7739904,
+      "durationSeconds": 175.508,
+      "peakDbFS": -0.89,
+      "rmsDbFS": -12.5,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.727827,
+        "durationSeconds": 175.491678,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:28:43.801485+00:00",
+      "files": [
+        {
+          "path": "一只死在春天的猫 - 曾柯淳.mp3",
+          "sha256": "c8aa6044d6e2cc188ee6c82c13426c500745f051c335c12cd55e6c64b06ac6cb"
+        }
+      ],
+      "filenameMapping": {
+        "label": "一只死在春天的猫 - 曾柯淳.mp3",
+        "filename": "一只死在春天的猫 - 曾柯淳.mp3"
+      }
+    },
+    {
+      "id": "002duDwG2PwubO",
+      "title": "Millions of Years Apart (feat. MANDARK)",
+      "artist": "恐龙的皮 The Dinosaur's Skin, Mandark",
+      "duration": 216,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002duDwG2PwubO",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 9585152,
+      "durationSeconds": 217.3504,
+      "peakDbFS": -0.8,
+      "rmsDbFS": -12.33,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.573319,
+        "durationSeconds": 217.339841,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:32:28.849577+00:00",
+      "files": [
+        {
+          "path": "Millions of Years Apart (feat. MANDARK) - 恐龙的皮 The Dinosaur's Skin, Mandark.mp3",
+          "sha256": "27eb283bc6fc0f247a0fca808181bbdcce7041bd0640d25c7ee4c7a3e55eaef0"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Millions of Years Apart (feat. MANDARK) - 恐龙的皮 The Dinosaur's Skin, Mandark.mp3",
+        "filename": "Millions of Years Apart (feat. MANDARK) - 恐龙的皮 The Dinosaur's Skin, Mandark.mp3"
+      }
+    },
+    {
+      "id": "0031mOVe3NEc5g",
+      "title": "宿醉之星",
+      "artist": "琥珀乐队",
+      "duration": 462,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0031mOVe3NEc5g",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 20398592,
+      "durationSeconds": 462.5531,
+      "peakDbFS": -1.1,
+      "rmsDbFS": -15.96,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -2.097274,
+        "durationSeconds": 462.55127,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:40:23.593978+00:00",
+      "files": [
+        {
+          "path": "宿醉之星 - 琥珀乐队.mp3",
+          "sha256": "8ebef5493c2b5fdab89e10836636c643ab81e07af45e879317c5df34606f01b9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "宿醉之星 - 琥珀乐队.mp3",
+        "filename": "宿醉之星 - 琥珀乐队.mp3"
+      }
+    },
+    {
+      "id": "000gcXSG440j5O",
+      "title": "Here B4",
+      "artist": "JNR Williams",
+      "duration": 233,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000gcXSG440j5O",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10340352,
+      "durationSeconds": 234.4751,
+      "peakDbFS": -0.62,
+      "rmsDbFS": -13.3,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.599504,
+        "durationSeconds": 234.450045,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:44:26.243386+00:00",
+      "files": [
+        {
+          "path": "Here B4 - JNR Williams.mp3",
+          "sha256": "6f18909c4acfc1d364cc9fedd2b6e8f381dd999b0f31b7ac9ca96ef0bf6ffa54"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Here B4 - JNR Williams.mp3",
+        "filename": "Here B4 - JNR Williams.mp3"
+      }
+    },
+    {
+      "id": "003G0sVN0lWqid",
+      "title": "重来",
+      "artist": "逃跑计划",
+      "duration": 311,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003G0sVN0lWqid",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13778944,
+      "durationSeconds": 312.4477,
+      "peakDbFS": -0.86,
+      "rmsDbFS": -14.66,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.835805,
+        "durationSeconds": 312.425556,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:49:48.487370+00:00",
+      "files": [
+        {
+          "path": "重来 - 逃跑计划.mp3",
+          "sha256": "6d7498a106577415ddeb12330ec60c287ed3c383c1e1b24af99d483632801dc9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "重来 - 逃跑计划.mp3",
+        "filename": "重来 - 逃跑计划.mp3"
+      }
+    },
+    {
+      "id": "000AvO4C4BeGbA",
+      "title": "The Fear In My Heart",
+      "artist": "朴树",
+      "duration": 395,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000AvO4C4BeGbA",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 17444864,
+      "durationSeconds": 395.5751,
+      "peakDbFS": -0.77,
+      "rmsDbFS": -12.5,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 392.992
+        },
+        {
+          "event": "end",
+          "seconds": 395.575
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.525272,
+        "durationSeconds": 395.573311,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T21:56:35.442895+00:00",
+      "files": [
+        {
+          "path": "The Fear In My Heart - 朴树.mp3",
+          "sha256": "1e906d8849078ff5ab47a9dc06698356a8c7c6845a8c3058d50e21f71200d4c9"
+        }
+      ],
+      "filenameMapping": {
+        "label": "The Fear In My Heart - 朴树.mp3",
+        "filename": "The Fear In My Heart - 朴树.mp3"
+      }
+    },
+    {
+      "id": "002jvC8X3kfeiQ",
+      "title": "Tip Toe",
+      "artist": "HYBS",
+      "duration": 224,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002jvC8X3kfeiQ",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 9941504,
+      "durationSeconds": 225.4309,
+      "peakDbFS": -0.71,
+      "rmsDbFS": -12.18,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.684871,
+        "durationSeconds": 225.411678,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:34.212809+00:00",
+      "files": [
+        {
+          "path": "Tip Toe - HYBS.mp3",
+          "sha256": "44236dfb80dac7495c2e07addb6ac27aac06968e411195c11c3d316fa7d679b7"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Tip Toe - HYBS.mp3",
+        "filename": "Tip Toe - HYBS.mp3"
+      }
+    },
+    {
+      "id": "001gRM2c0hz8OW",
+      "title": "Space Cadet Cat (Explicit)",
+      "artist": "LAUSSE THE CAT",
+      "duration": 353,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001gRM2c0hz8OW",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 15623680,
+      "durationSeconds": 354.2785,
+      "peakDbFS": -0.91,
+      "rmsDbFS": -14.11,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.778976,
+        "durationSeconds": 354.273719,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:06:31.810229+00:00",
+      "files": [
+        {
+          "path": "Space Cadet Cat (Explicit) - LAUSSE THE CAT.mp3",
+          "sha256": "3afe3ee5deeb37220bd43b918d1e3ab1fb73b5b2a23041b4fb0c974d965c8e24"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Space Cadet Cat (Explicit) - LAUSSE THE CAT.mp3",
+        "filename": "Space Cadet Cat (Explicit) - LAUSSE THE CAT.mp3"
+      }
+    },
+    {
+      "id": "000MMEN82xrgsy",
+      "title": "Lotus Blossom (Explicit)",
+      "artist": "LAUSSE THE CAT",
+      "duration": 476,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000MMEN82xrgsy",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 21063168,
+      "durationSeconds": 477.6229,
+      "peakDbFS": -0.57,
+      "rmsDbFS": -12.73,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 474.16
+        },
+        {
+          "event": "end",
+          "seconds": 476.934
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.55828,
+        "durationSeconds": 477.5978,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:37.613949+00:00",
+      "files": [
+        {
+          "path": "Lotus Blossom (Explicit) - LAUSSE THE CAT.mp3",
+          "sha256": "729eaf11fdb139b83afbfbf98e0c4417ea5ecd28256fc6c2bd1b8b0a9b20892f"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Lotus Blossom (Explicit) - LAUSSE THE CAT.mp3",
+        "filename": "Lotus Blossom (Explicit) - LAUSSE THE CAT.mp3"
+      }
+    },
+    {
+      "id": "003Liu9M42thZp",
+      "title": "Coolverine",
+      "artist": "Mogwai",
+      "duration": 376,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003Liu9M42thZp",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 16645632,
+      "durationSeconds": 377.452,
+      "peakDbFS": -0.87,
+      "rmsDbFS": -12.55,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 374.524
+        },
+        {
+          "event": "end",
+          "seconds": 377.452
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.918408,
+        "durationSeconds": 377.444331,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:21:07.762670+00:00",
+      "files": [
+        {
+          "path": "Coolverine - Mogwai.mp3",
+          "sha256": "2d3fb4f17dc96242dc5ac818d29fb45ab330b1cfde2e1c46c6241857d733d471"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Coolverine - Mogwai.mp3",
+        "filename": "Coolverine - Mogwai.mp3"
+      }
+    },
+    {
+      "id": "000xzJik2MtZnD",
+      "title": "Purify",
+      "artist": "Vaudlow",
+      "duration": 302,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000xzJik2MtZnD",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13379584,
+      "durationSeconds": 303.3919,
+      "peakDbFS": -0.62,
+      "rmsDbFS": -11.74,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.479471,
+        "durationSeconds": 303.387188,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:26:20.679894+00:00",
+      "files": [
+        {
+          "path": "Purify - Vaudlow.mp3",
+          "sha256": "3c55a0e1d7caaffb061f5f5475decf944cdb7ee19851b1594d1056d0cb48188f"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Purify - Vaudlow.mp3",
+        "filename": "Purify - Vaudlow.mp3"
+      }
+    },
+    {
+      "id": "004Fjyum29yGCx",
+      "title": "Pathos",
+      "artist": "Ludovico Einaudi",
+      "duration": 426,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004Fjyum29yGCx",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 18838528,
+      "durationSeconds": 427.1775,
+      "peakDbFS": -0.97,
+      "rmsDbFS": -19.96,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 424.182
+        },
+        {
+          "event": "end",
+          "seconds": 427.178
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.959968,
+        "durationSeconds": 427.155351,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:33:39.911214+00:00",
+      "files": [
+        {
+          "path": "Pathos - Ludovico Einaudi.mp3",
+          "sha256": "ae64b9581361606af8ba08a811d5d1c6cb64a44fa64b12b55d41434d7a11908f"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Pathos - Ludovico Einaudi.mp3",
+        "filename": "Pathos - Ludovico Einaudi.mp3"
+      }
+    },
+    {
+      "id": "001NoV0A0SHEIT",
+      "title": "Avril 14th",
+      "artist": "Aphex Twin",
+      "duration": 125,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001NoV0A0SHEIT",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 5564928,
+      "durationSeconds": 126.1888,
+      "peakDbFS": -3.57,
+      "rmsDbFS": -24.84,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 116.219
+        },
+        {
+          "event": "end",
+          "seconds": 126.189
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -4.567034,
+        "durationSeconds": 126.172494,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:35:52.019100+00:00",
+      "files": [
+        {
+          "path": "Avril 14th - Aphex Twin.mp3",
+          "sha256": "f6c2f9382cae23e32e199cc4b1a7b657561d7ac02bec52e0d19ffb49d9d02ddc"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Avril 14th - Aphex Twin.mp3",
+        "filename": "Avril 14th - Aphex Twin.mp3"
+      }
+    },
+    {
+      "id": "001ZRThK2lr9WK",
+      "title": "Mooncake",
+      "artist": "Mooncake",
+      "duration": 202,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001ZRThK2lr9WK",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8956928,
+      "durationSeconds": 203.1049,
+      "peakDbFS": -0.9,
+      "rmsDbFS": -13.95,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 198.724
+        },
+        {
+          "event": "end",
+          "seconds": 203.105
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.885063,
+        "durationSeconds": 203.103107,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:39:22.548623+00:00",
+      "files": [
+        {
+          "path": "Mooncake - Mooncake.mp3",
+          "sha256": "369f3d460a47fb79a1298ff2a0cca1140bf7b105528fbf52f02ff083103f048f"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Mooncake - Mooncake.mp3",
+        "filename": "Mooncake - Mooncake.mp3"
+      }
+    },
+    {
+      "id": "002u8F5r324zQn",
+      "title": "Special N",
+      "artist": "Mogwai",
+      "duration": 229,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002u8F5r324zQn",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 10134016,
+      "durationSeconds": 229.7963,
+      "peakDbFS": -0.92,
+      "rmsDbFS": -14.78,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 225.66
+        },
+        {
+          "event": "end",
+          "seconds": 229.796
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.86633,
+        "durationSeconds": 229.774127,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:43:20.575956+00:00",
+      "files": [
+        {
+          "path": "Special N - Mogwai.mp3",
+          "sha256": "40b5c2e87ea4932423d8d7b86ac2d27cd88ba8169288c512733aff34895e61af"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Special N - Mogwai.mp3",
+        "filename": "Special N - Mogwai.mp3"
+      }
+    },
+    {
+      "id": "004PSGRQ0ngypI",
+      "title": "4seasons",
+      "artist": "sow",
+      "duration": 343,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004PSGRQ0ngypI",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 15176192,
+      "durationSeconds": 344.1313,
+      "peakDbFS": -0.41,
+      "rmsDbFS": -10.81,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.492758,
+        "durationSeconds": 344.112086,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:49:15.494627+00:00",
+      "files": [
+        {
+          "path": "4seasons - sow.mp3",
+          "sha256": "a4d7bda59984f73781d27e75eee462499394f64493d0ef44826ebe0955b34c4b"
+        }
+      ],
+      "filenameMapping": {
+        "label": "4seasons - sow.mp3",
+        "filename": "4seasons - sow.mp3"
+      }
+    },
+    {
+      "id": "004K8SLj0OPp0H",
+      "title": "city (城市)",
+      "artist": "sow",
+      "duration": 185,
+      "url": "https://y.qq.com/n/ryqq/songDetail/004K8SLj0OPp0H",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 8205824,
+      "durationSeconds": 186.0731,
+      "peakDbFS": -0.51,
+      "rmsDbFS": -10.19,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.492182,
+        "durationSeconds": 186.07127,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:52:28.941734+00:00",
+      "files": [
+        {
+          "path": "city (城市) - sow.mp3",
+          "sha256": "2becc75ce60c52287c8b31cffea163f321bd89e65fcbb145a0c34c6582ae701b"
+        }
+      ],
+      "filenameMapping": {
+        "label": "city (城市) - sow.mp3",
+        "filename": "city (城市) - sow.mp3"
+      }
+    },
+    {
+      "id": "003MduOW3ZUmwz",
+      "title": "汐",
+      "artist": "Uhsgnǒd",
+      "duration": 308,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003MduOW3ZUmwz",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13622784,
+      "durationSeconds": 308.9067,
+      "peakDbFS": -0.81,
+      "rmsDbFS": -11.34,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 305.935
+        },
+        {
+          "event": "end",
+          "seconds": 308.907
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.487545,
+        "durationSeconds": 308.899025,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T22:57:47.148941+00:00",
+      "files": [
+        {
+          "path": "汐 - Uhsgnǒd.mp3",
+          "sha256": "07add15db66b617d10d31a74b0fda9af8c6f1ca9b407b7b223664de9fa221a98"
+        }
+      ],
+      "filenameMapping": {
+        "label": "汐 - Uhsgnǒd.mp3",
+        "filename": "汐 - Uhsgnǒd.mp3"
+      }
+    },
+    {
+      "id": "0018ozy63buj8I",
+      "title": "If I Get High",
+      "artist": "Nothing But Thieves",
+      "duration": 206,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0018ozy63buj8I",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 9138688,
+      "durationSeconds": 207.2265,
+      "peakDbFS": -2.04,
+      "rmsDbFS": -14.92,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -3.02853,
+        "durationSeconds": 207.204331,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T23:01:21.597548+00:00",
+      "files": [
+        {
+          "path": "If I Get High - Nothing But Thieves.mp3",
+          "sha256": "6470282934e860c9ee266a26214f0b56fd76a3e1a3156686d261faae2cb110ec"
+        }
+      ],
+      "filenameMapping": {
+        "label": "If I Get High - Nothing But Thieves.mp3",
+        "filename": "If I Get High - Nothing But Thieves.mp3"
+      }
+    },
+    {
+      "id": "000KBDHP0FX7ei",
+      "title": "Bakara",
+      "artist": "Polo & Pan",
+      "duration": 421,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000KBDHP0FX7ei",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 18624000,
+      "durationSeconds": 422.3129,
+      "peakDbFS": -0.7,
+      "rmsDbFS": -12.99,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 419.816
+        },
+        {
+          "event": "end",
+          "seconds": 422.313
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.672519,
+        "durationSeconds": 422.296576,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T23:08:35.508923+00:00",
+      "files": [
+        {
+          "path": "Bakara - Polo & Pan.mp3",
+          "sha256": "3dfe890b809b3057ba702326e260f8b0aa33491002688209e993622a47383baa"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Bakara - Polo & Pan.mp3",
+        "filename": "Bakara - Polo & Pan.mp3"
+      }
+    },
+    {
+      "id": "001dp1aM2aWpGm",
+      "title": "Luminous Giants",
+      "artist": "GoGo Penguin, Rakhi Singh, Manchester Collective",
+      "duration": 308,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001dp1aM2aWpGm",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 13626880,
+      "durationSeconds": 308.9995,
+      "peakDbFS": -0.89,
+      "rmsDbFS": -14.04,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.901857,
+        "durationSeconds": 308.977392,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T23:13:53.969332+00:00",
+      "files": [
+        {
+          "path": "Luminous Giants - GoGo Penguin, Rakhi Singh, Manchester Collective.mp3",
+          "sha256": "7eaa83b6574a7123164ef8fad995f6236aaa9a0666f81f48a399c7afac145f82"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Luminous Giants - GoGo Penguin, Rakhi Singh, Manchester Collective.mp3",
+        "filename": "Luminous Giants - GoGo Penguin, Rakhi Singh, Manchester Collective.mp3"
+      }
+    },
+    {
+      "id": "000rLUzd0pv3dl",
+      "title": "Voices",
+      "artist": "Immanu El, Claes Strängberg, David Lillberg",
+      "duration": 393,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000rLUzd0pv3dl",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 17401856,
+      "durationSeconds": 394.5999,
+      "peakDbFS": -0.89,
+      "rmsDbFS": -14.67,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 391.917
+        },
+        {
+          "event": "end",
+          "seconds": 394.384
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.858861,
+        "durationSeconds": 394.580658,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:40.375104+00:00",
+      "files": [
+        {
+          "path": "Voices - Immanu El, Claes Strängberg, David Lillberg.mp3",
+          "sha256": "a1cd889392644456c67a33d0d94bf8dd114e0c3e4673b9acdb797f0442bbe48e"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Voices - Immanu El, Claes Strängberg, David Lillberg.mp3",
+        "filename": "Voices - Immanu El, Claes Strängberg, David Lillberg.mp3"
+      }
+    },
+    {
+      "id": "001BY0bS0zoQGV",
+      "title": "Modalina Wears Blue",
+      "artist": "Goodbye, Kings",
+      "duration": 416,
+      "url": "https://y.qq.com/n/ryqq/songDetail/001BY0bS0zoQGV",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 18398208,
+      "durationSeconds": 417.1929,
+      "peakDbFS": -0.81,
+      "rmsDbFS": -14.72,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.79027,
+        "durationSeconds": 417.176576,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T23:27:46.462173+00:00",
+      "files": [
+        {
+          "path": "Modalina Wears Blue - Goodbye, Kings.mp3",
+          "sha256": "a7e98a7915a304d58348244b56f77f66967a0a4cc0ff79ab3e5e10e993b0e5bd"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Modalina Wears Blue - Goodbye, Kings.mp3",
+        "filename": "Modalina Wears Blue - Goodbye, Kings.mp3"
+      }
+    },
+    {
+      "id": "003oC7ZI2dLXub",
+      "title": "Is",
+      "artist": "hubris.",
+      "duration": 329,
+      "url": "https://y.qq.com/n/ryqq/songDetail/003oC7ZI2dLXub",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 14535168,
+      "durationSeconds": 329.5956,
+      "peakDbFS": -0.76,
+      "rmsDbFS": -14.45,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [],
+      "mp3": {
+        "peakDbFS": -1.728339,
+        "durationSeconds": 329.588005,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-10T01:17:42.749916+00:00",
+      "files": [
+        {
+          "path": "Is - hubris.mp3",
+          "sha256": "905c2fae2de25e2406cd8911706ec934f9a88b27403bd6e0001f24256a147b90"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Is - hubris..mp3",
+        "filename": "Is - hubris.mp3"
+      }
+    },
+    {
+      "id": "0021VK6I2P9wuK",
+      "title": "Mark’s Theme",
+      "artist": "Black Country, New Road",
+      "duration": 167,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0021VK6I2P9wuK",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 7386624,
+      "durationSeconds": 167.4971,
+      "peakDbFS": -0.99,
+      "rmsDbFS": -18.61,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 161.439
+        },
+        {
+          "event": "end",
+          "seconds": 167.497
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.984941,
+        "durationSeconds": 167.472086,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T23:36:18.214088+00:00",
+      "files": [
+        {
+          "path": "Mark’s Theme - Black Country, New Road.mp3",
+          "sha256": "b6ae02333fa84be694e6f691be3e471699e80033bcdc0ac99bc42e22363fdad2"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Mark’s Theme - Black Country, New Road.mp3",
+        "filename": "Mark’s Theme - Black Country, New Road.mp3"
+      }
+    },
+    {
+      "id": "0000h7en0ypOJq",
+      "title": "Snow Globes",
+      "artist": "Black Country, New Road",
+      "duration": 553,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0000h7en0ypOJq",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "accepted",
+      "sampleRate": 44100,
+      "channels": 2,
+      "sampleWidthBits": 16,
+      "frames": 24413696,
+      "durationSeconds": 553.5985,
+      "peakDbFS": -0.69,
+      "rmsDbFS": -16.65,
+      "clippedSamples": 0,
+      "silent": false,
+      "silenceEvents": [
+        {
+          "event": "start",
+          "seconds": 548.787
+        },
+        {
+          "event": "end",
+          "seconds": 553.599
+        }
+      ],
+      "mp3": {
+        "peakDbFS": -1.623208,
+        "durationSeconds": 553.588005,
+        "decodePassed": true
+      },
+      "revalidatedAt": "2026-10-09T23:45:46.622279+00:00",
+      "files": [
+        {
+          "path": "Snow Globes - Black Country, New Road.mp3",
+          "sha256": "e4cbcb67206022e7fdc30626a52003d6b9ae66fbeffecc684c10872d09af5d6b"
+        }
+      ],
+      "filenameMapping": {
+        "label": "Snow Globes - Black Country, New Road.mp3",
+        "filename": "Snow Globes - Black Country, New Road.mp3"
+      }
+    }
+  ],
+  "deliveryMode": "flat-mp3",
+  "destination": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-09-剩余91首录制",
+  "unavailable": 1,
+  "parentReceipt": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/剩余91首-2026-10-09/delivery-flat-mp3.json",
+  "parentReceiptSha256": "2a7ed6483ad175f639514c4cacfd2bfcd22b4df59161366fa91352f262b7ea2f",
+  "excludedUnavailable": [
+    {
+      "id": "002OSPum4c1ZsU",
+      "title": "寒心寺",
+      "artist": "文雀",
+      "duration": 374,
+      "url": "https://y.qq.com/n/ryqq/songDetail/002OSPum4c1ZsU",
+      "genre": "Unclassified",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "status": "unavailable",
+      "reason": "用户于2026-10-10确认 QQ 音乐已下架，不进入录制队列。",
+      "confirmedAt": "2026-10-10",
+      "confirmationSource": "user",
+      "automaticFailure": "Timed out waiting for player state"
+    }
+  ],
+  "importAuthorization": "用户于2026-10-10明确要求将其余曲目录入本地曲库，并更新相关JSON、Markdown和HTML。"
+}

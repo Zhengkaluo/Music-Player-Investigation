@@ -1,0 +1,2801 @@
+{
+  "schema_version": "songbase.playlist-track-import/v1",
+  "date": "2026-10-12",
+  "source_playlists": [
+    {
+      "name": "咖啡厅",
+      "id": 7069546960,
+      "url": "https://y.qq.com/n/ryqq/playlist/7069546960",
+      "snapshot_date": "2026-10-12"
+    },
+    {
+      "name": "可以放",
+      "id": 8633469411,
+      "url": "https://y.qq.com/n/ryqq/playlist/8633469411",
+      "snapshot_date": "2026-10-12"
+    }
+  ],
+  "scope": "Only 116 recorded and reviewed tracks from B01/B02; two unavailable MIDs excluded; B03-B08 untouched",
+  "summary": {
+    "requested_first_two_batches": 118,
+    "metadata_added": 116,
+    "audio_imported": 116,
+    "excluded_unavailable": 2,
+    "remaining_candidate_tracks": 350,
+    "formal_tags_added": 0,
+    "zmpd_annotations_added": 0
+  },
+  "audio_manifest": "imports/2026-10-12-歌单补充116首正式入档.json",
+  "snapshot_directory": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前",
+  "tracks": [
+    {
+      "track_id": "qq:000SOyer1d47h2",
+      "title": "幸存者",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "幸存者",
+      "duration_seconds": 232,
+      "song_id": 544788356,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000SOyer1d47h2",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/幸存者 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:004LDQ9a1E9IxH",
+      "title": "Sparklers In The Rain",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "The Great Escape Of Our Time",
+      "duration_seconds": 244,
+      "song_id": 444424961,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004LDQ9a1E9IxH",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Sparklers In The Rain - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:0013rOTn0MlLu2",
+      "title": "日常的镜头",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "LOVELY SUNDAY",
+      "duration_seconds": 252,
+      "song_id": 214224648,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0013rOTn0MlLu2",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/日常的镜头 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:000Ruzp13WbdUP",
+      "title": "树屋",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Real Love Is...",
+      "duration_seconds": 213,
+      "song_id": 280139054,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Ruzp13WbdUP",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/树屋 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:003HbULt3PNvyI",
+      "title": "Maybe Maybe",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Maybe Maybe",
+      "duration_seconds": 212,
+      "song_id": 255290523,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003HbULt3PNvyI",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Maybe Maybe - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:00274d6N1yo41u",
+      "title": "Dreaming With You",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Lemonade",
+      "duration_seconds": 230,
+      "song_id": 234856965,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00274d6N1yo41u",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Dreaming With You - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:000MPjlp063Dgw",
+      "title": "Archie's Funeral",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Archie's Funeral",
+      "duration_seconds": 174,
+      "song_id": 308128503,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000MPjlp063Dgw",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Archie's Funeral - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:003DOYuB12AScg",
+      "title": "进入下一层新的梦之前",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Shangri-La Is Calling",
+      "duration_seconds": 165,
+      "song_id": 361591226,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003DOYuB12AScg",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/进入下一层新的梦之前 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:001q9bHH3J1zFh",
+      "title": "The Great Escape Of Our Time",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "The Great Escape Of Our Time",
+      "duration_seconds": 192,
+      "song_id": 444424938,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001q9bHH3J1zFh",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/The Great Escape Of Our Time - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:0042tAkF1k2Nji",
+      "title": "风景",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Cheers!Land",
+      "duration_seconds": 370,
+      "song_id": 105776742,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0042tAkF1k2Nji",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/风景 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:000yINPY10BFeP",
+      "title": "给 来自月球的L",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Real Love Is...",
+      "duration_seconds": 180,
+      "song_id": 280139062,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000yINPY10BFeP",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/给 来自月球的L - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:00368Hs82kwOia",
+      "title": "夏日最美的三十张拍立得相片",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "夏日最美的三十张拍立得相片",
+      "duration_seconds": 200,
+      "song_id": 274861401,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00368Hs82kwOia",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/夏日最美的三十张拍立得相片 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:000VjWHG34Xsuk",
+      "title": "岛",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Cheers!Land",
+      "duration_seconds": 276,
+      "song_id": 105776737,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000VjWHG34Xsuk",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/岛 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:004IIRyP25kG3F",
+      "title": "城市潜水",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "城市潜水",
+      "duration_seconds": 211,
+      "song_id": 237875583,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004IIRyP25kG3F",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/城市潜水 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:002ahqWI3x0nD2",
+      "title": "后山舞曲",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Cheers!Land",
+      "duration_seconds": 201,
+      "song_id": 105776741,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002ahqWI3x0nD2",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/后山舞曲 - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:000p2ckA3glPhP",
+      "title": "Paradise... How Far?",
+      "full_singer": "椅子乐团 The Chairs",
+      "group_artist": "椅子乐团 The Chairs",
+      "artists": [
+        "椅子乐团 The Chairs"
+      ],
+      "album": "Paradise... How Far?",
+      "duration_seconds": 267,
+      "song_id": 264893333,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000p2ckA3glPhP",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Paradise... How Far_ - 椅子乐团 The Chairs.mp3"
+    },
+    {
+      "track_id": "qq:0021DfBb0ork24",
+      "title": "浪费一整天",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "地球漫步",
+      "duration_seconds": 223,
+      "song_id": 1930072,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0021DfBb0ork24",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/浪费一整天 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:002QcK7H0PM1jb",
+      "title": "两人舞",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "右脑",
+      "duration_seconds": 245,
+      "song_id": 204281494,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002QcK7H0PM1jb",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/两人舞 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:0035yqBp1lhVtZ",
+      "title": "不简单",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "不简单",
+      "duration_seconds": 211,
+      "song_id": 105915271,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0035yqBp1lhVtZ",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/不简单 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:001daVHr4QPiwA",
+      "title": "无所事事",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "理想状态",
+      "duration_seconds": 301,
+      "song_id": 346059412,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001daVHr4QPiwA",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/无所事事 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:004CLghd1I9uBK",
+      "title": "心向夏天",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "右脑",
+      "duration_seconds": 198,
+      "song_id": 204281490,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004CLghd1I9uBK",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/心向夏天 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:000oW60e4OTCxd",
+      "title": "蓝色的你",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "蓝色的你",
+      "duration_seconds": 240,
+      "song_id": 332436157,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000oW60e4OTCxd",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/蓝色的你 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:0049zSIN15vTkZ",
+      "title": "一万小时",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "一万小时",
+      "duration_seconds": 301,
+      "song_id": 102632646,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0049zSIN15vTkZ",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/一万小时 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:000ICYHO2drsye",
+      "title": "两人雨天",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "一万小时",
+      "duration_seconds": 286,
+      "song_id": 102632652,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000ICYHO2drsye",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/两人雨天 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:0029THp44clzl7",
+      "title": "好野",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "理想状态",
+      "duration_seconds": 252,
+      "song_id": 346059409,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0029THp44clzl7",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/好野 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:003zbe2g2eKveF",
+      "title": "那你呢",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "一万小时",
+      "duration_seconds": 262,
+      "song_id": 102632645,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003zbe2g2eKveF",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/那你呢 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:0030BbO44SNf65",
+      "title": "理想状态",
+      "full_singer": "宇宙人",
+      "group_artist": "宇宙人",
+      "artists": [
+        "宇宙人"
+      ],
+      "album": "理想状态",
+      "duration_seconds": 237,
+      "song_id": 346059406,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0030BbO44SNf65",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/理想状态 - 宇宙人.mp3"
+    },
+    {
+      "track_id": "qq:003vCynU2L2zmL",
+      "title": "牛",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "SoulFa",
+      "duration_seconds": 273,
+      "song_id": 245656522,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003vCynU2L2zmL",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/牛 - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:001tV5DQ15mp15",
+      "title": "留一盏灯给漫漫长夜",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "Slumber Days",
+      "duration_seconds": 221,
+      "song_id": 263458852,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001tV5DQ15mp15",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/留一盏灯给漫漫长夜 - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:004DMfBH1JY7Md",
+      "title": "R.U.M.O.R.S",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "SoulFa",
+      "duration_seconds": 271,
+      "song_id": 245656515,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004DMfBH1JY7Md",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/R.U.M.O.R.S - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:00125UMq2lLe90",
+      "title": "44 Seconds Road Movie",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "44 Seconds Road Movie",
+      "duration_seconds": 284,
+      "song_id": 222543493,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00125UMq2lLe90",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/44 Seconds Road Movie - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:003TJ9Mq0PD1gL",
+      "title": "Nobody Else",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "Slumber Days",
+      "duration_seconds": 292,
+      "song_id": 298595717,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003TJ9Mq0PD1gL",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Nobody Else - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:003FNIks1GOWAJ",
+      "title": "Survivor",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "SoulFa",
+      "duration_seconds": 232,
+      "song_id": 245656524,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003FNIks1GOWAJ",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Survivor - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:0012pVwA2RyBzy",
+      "title": "Hear Hear",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "Hear Hear",
+      "duration_seconds": 287,
+      "song_id": 236183135,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0012pVwA2RyBzy",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Hear Hear - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:001gzJrR48V2ib",
+      "title": "I wonder",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "SoulFa",
+      "duration_seconds": 206,
+      "song_id": 245656525,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001gzJrR48V2ib",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/I wonder - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:003GcP261K5Z1l",
+      "title": "Rose and i.",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "Rose and i.",
+      "duration_seconds": 300,
+      "song_id": 232033225,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003GcP261K5Z1l",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Rose and i. - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:00166OaY3yHBOe",
+      "title": "80°F",
+      "full_singer": "SoulFa 灵魂沙发",
+      "group_artist": "SoulFa 灵魂沙发",
+      "artists": [
+        "SoulFa 灵魂沙发"
+      ],
+      "album": "SoulFa",
+      "duration_seconds": 222,
+      "song_id": 245656518,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00166OaY3yHBOe",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/80°F - SoulFa 灵魂沙发.mp3"
+    },
+    {
+      "track_id": "qq:003EKTkP016WaS",
+      "title": "梦游",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "逆光",
+      "duration_seconds": 188,
+      "song_id": 5211336,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003EKTkP016WaS",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/梦游 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:004aWZbE0cNWqG",
+      "title": "Honey Honey",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "完美的一天",
+      "duration_seconds": 263,
+      "song_id": 97257,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004aWZbE0cNWqG",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Honey Honey - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:001SfavE35orJR",
+      "title": "180度",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "是时候",
+      "duration_seconds": 303,
+      "song_id": 101787306,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001SfavE35orJR",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/180度 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:000BO3xy4fd8BJ",
+      "title": "我怀念的",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "逆光",
+      "duration_seconds": 289,
+      "song_id": 5211338,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000BO3xy4fd8BJ",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/我怀念的 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:004Tzowd3jxc4U",
+      "title": "银泰",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "克卜勒",
+      "duration_seconds": 263,
+      "song_id": 5206513,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Tzowd3jxc4U",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/银泰 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:000zD4ew1qBo82",
+      "title": "我要的幸福",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "我要的幸福",
+      "duration_seconds": 215,
+      "song_id": 5643,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000zD4ew1qBo82",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/我要的幸福 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:001xJbdb2MBaaz",
+      "title": "遇见",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "The Moment",
+      "duration_seconds": 210,
+      "song_id": 8145,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001xJbdb2MBaaz",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/遇见 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:001gXbnt1lETLJ",
+      "title": "不同",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "Leave",
+      "duration_seconds": 220,
+      "song_id": 491758,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001gXbnt1lETLJ",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/不同 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:001I4Ttn3qLWu5",
+      "title": "一样的夏天",
+      "full_singer": "孙燕姿",
+      "group_artist": "孙燕姿",
+      "artists": [
+        "孙燕姿"
+      ],
+      "album": "Leave",
+      "duration_seconds": 238,
+      "song_id": 491756,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001I4Ttn3qLWu5",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/一样的夏天 - 孙燕姿.mp3"
+    },
+    {
+      "track_id": "qq:002Ng8JT0L6aJc",
+      "title": "Hallway Weather",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "Hallway Weather",
+      "duration_seconds": 233,
+      "song_id": 288770266,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002Ng8JT0L6aJc",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Hallway Weather - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:000c4u9c4e1WO9",
+      "title": "Pandemonium",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "MOONCHILD",
+      "duration_seconds": 227,
+      "song_id": 277034501,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000c4u9c4e1WO9",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Pandemonium - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:002RPCBe11RNHK",
+      "title": "Selene",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "Selene",
+      "duration_seconds": 197,
+      "song_id": 269570759,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002RPCBe11RNHK",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Selene - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:000581G81LMFXd",
+      "title": "Vintage",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "Vintage",
+      "duration_seconds": 177,
+      "song_id": 213833094,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000581G81LMFXd",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Vintage - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:000G0dbq0S67cW",
+      "title": "lowkey",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "lowkey (Explicit)",
+      "duration_seconds": 171,
+      "song_id": 244983800,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000G0dbq0S67cW",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/lowkey - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:002FwBwW1lUnrn",
+      "title": "Say My Name",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "Zephyr",
+      "duration_seconds": 192,
+      "song_id": 213981551,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002FwBwW1lUnrn",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Say My Name - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:001PNz9v29I8xi",
+      "title": "Chilly",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "Chilly",
+      "duration_seconds": 230,
+      "song_id": 212625367,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001PNz9v29I8xi",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Chilly - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:003qtjfJ3xJNmA",
+      "title": "Indigo",
+      "full_singer": "88rising, NIKI",
+      "group_artist": "88rising",
+      "artists": [
+        "88rising",
+        "NIKI"
+      ],
+      "album": "Indigo",
+      "duration_seconds": 173,
+      "song_id": 244986810,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003qtjfJ3xJNmA",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Indigo - 88rising, NIKI.mp3"
+    },
+    {
+      "track_id": "qq:002KRMWe0mpMcT",
+      "title": "I Like U",
+      "full_singer": "NIKI",
+      "group_artist": "NIKI",
+      "artists": [
+        "NIKI"
+      ],
+      "album": "I Like U (Clean)",
+      "duration_seconds": 267,
+      "song_id": 204455464,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002KRMWe0mpMcT",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/I Like U - NIKI.mp3"
+    },
+    {
+      "track_id": "qq:0004a6rq4VU3Xv",
+      "title": "Cloud",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Cloud",
+      "duration_seconds": 232,
+      "song_id": 253749444,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0004a6rq4VU3Xv",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Cloud - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:0032RDKI2X8nxy",
+      "title": "Sorbet",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Sorbet",
+      "duration_seconds": 196,
+      "song_id": 232379777,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0032RDKI2X8nxy",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Sorbet - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:001xKYZX4LW97l",
+      "title": "Puzzle",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Puzzle",
+      "duration_seconds": 178,
+      "song_id": 313277991,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001xKYZX4LW97l",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Puzzle - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:003I9a5K1Q2OdF",
+      "title": "Nescience",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Nescience",
+      "duration_seconds": 238,
+      "song_id": 270961154,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003I9a5K1Q2OdF",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Nescience - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:001f6GI10FGsrg",
+      "title": "Sway",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Sway",
+      "duration_seconds": 201,
+      "song_id": 242896227,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001f6GI10FGsrg",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Sway - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:000QmVRr2zBnsa",
+      "title": "Crazy Driving",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Crazy Driving",
+      "duration_seconds": 206,
+      "song_id": 321433750,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000QmVRr2zBnsa",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Crazy Driving - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:001Pr9eO05rxMy",
+      "title": "Maybe I",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "Maybe I",
+      "duration_seconds": 195,
+      "song_id": 275541699,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Pr9eO05rxMy",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Maybe I - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:001bKbqc2owNiG",
+      "title": "5AM",
+      "full_singer": "Galdive",
+      "group_artist": "Galdive",
+      "artists": [
+        "Galdive"
+      ],
+      "album": "5AM",
+      "duration_seconds": 204,
+      "song_id": 269835652,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001bKbqc2owNiG",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/5AM - Galdive.mp3"
+    },
+    {
+      "track_id": "qq:002nS2jx3ZcSDi",
+      "title": "Come With Me",
+      "full_singer": "Surfaces, salem ilese",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces",
+        "salem ilese"
+      ],
+      "album": "Pacifico",
+      "duration_seconds": 209,
+      "song_id": 315482246,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002nS2jx3ZcSDi",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Come With Me - Surfaces, salem ilese.mp3"
+    },
+    {
+      "track_id": "qq:000TKHIW3g3AIj",
+      "title": "Sunny Side Up",
+      "full_singer": "Surfaces",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces"
+      ],
+      "album": "Horizons",
+      "duration_seconds": 171,
+      "song_id": 254939809,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000TKHIW3g3AIj",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Sunny Side Up - Surfaces.mp3"
+    },
+    {
+      "track_id": "qq:002AZNj61WylXA",
+      "title": "So Far Away",
+      "full_singer": "Surfaces",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces"
+      ],
+      "album": "So Far Away",
+      "duration_seconds": 207,
+      "song_id": 313010564,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002AZNj61WylXA",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/So Far Away - Surfaces.mp3"
+    },
+    {
+      "track_id": "qq:000D6RQ10aqz1s",
+      "title": "C'est La Vie",
+      "full_singer": "Surfaces, Thomas Rhett",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces",
+        "Thomas Rhett"
+      ],
+      "album": "C'est La Vie",
+      "duration_seconds": 175,
+      "song_id": 323611438,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000D6RQ10aqz1s",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/C'est La Vie - Surfaces, Thomas Rhett.mp3"
+    },
+    {
+      "track_id": "qq:0024rjOp3DOK6z",
+      "title": "All Around",
+      "full_singer": "Surfaces",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces"
+      ],
+      "album": "Horizons",
+      "duration_seconds": 204,
+      "song_id": 254939799,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0024rjOp3DOK6z",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/All Around - Surfaces.mp3"
+    },
+    {
+      "track_id": "qq:0036ksEw4He4p8",
+      "title": "Good Day",
+      "full_singer": "Surfaces",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces"
+      ],
+      "album": "Good Day",
+      "duration_seconds": 181,
+      "song_id": 240028634,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0036ksEw4He4p8",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Good Day - Surfaces.mp3"
+    },
+    {
+      "track_id": "qq:001BWQ7r4Kxi83",
+      "title": "With You",
+      "full_singer": "Surfaces",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces"
+      ],
+      "album": "Pacifico",
+      "duration_seconds": 200,
+      "song_id": 315482249,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001BWQ7r4Kxi83",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/With You - Surfaces.mp3"
+    },
+    {
+      "track_id": "qq:002Y5RPi3QxmZC",
+      "title": "Lazy",
+      "full_singer": "Surfaces",
+      "group_artist": "Surfaces",
+      "artists": [
+        "Surfaces"
+      ],
+      "album": "Lazy",
+      "duration_seconds": 181,
+      "song_id": 251256833,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002Y5RPi3QxmZC",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Lazy - Surfaces.mp3"
+    },
+    {
+      "track_id": "qq:001FcU6Y272VGE",
+      "title": "蝼蚁",
+      "full_singer": "岛屿心情",
+      "group_artist": "岛屿心情",
+      "artists": [
+        "岛屿心情"
+      ],
+      "album": "?1",
+      "duration_seconds": 308,
+      "song_id": 278233499,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001FcU6Y272VGE",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/蝼蚁 - 岛屿心情.mp3"
+    },
+    {
+      "track_id": "qq:001bbfcT2Z9l3k",
+      "title": "没有颜色的答案",
+      "full_singer": "岛屿心情",
+      "group_artist": "岛屿心情",
+      "artists": [
+        "岛屿心情"
+      ],
+      "album": "小龙人",
+      "duration_seconds": 354,
+      "song_id": 406058851,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001bbfcT2Z9l3k",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/没有颜色的答案 - 岛屿心情.mp3"
+    },
+    {
+      "track_id": "qq:002YyRM40cZ51T",
+      "title": "影子",
+      "full_singer": "岛屿心情",
+      "group_artist": "岛屿心情",
+      "artists": [
+        "岛屿心情"
+      ],
+      "album": "?1",
+      "duration_seconds": 281,
+      "song_id": 250345385,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002YyRM40cZ51T",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/影子 - 岛屿心情.mp3"
+    },
+    {
+      "track_id": "qq:002bpw1K4dux8J",
+      "title": "阿呆",
+      "full_singer": "岛屿心情",
+      "group_artist": "岛屿心情",
+      "artists": [
+        "岛屿心情"
+      ],
+      "album": "？2",
+      "duration_seconds": 278,
+      "song_id": 318291014,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002bpw1K4dux8J",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/阿呆 - 岛屿心情.mp3"
+    },
+    {
+      "track_id": "qq:004LrVlR197AFB",
+      "title": "玩具",
+      "full_singer": "岛屿心情",
+      "group_artist": "岛屿心情",
+      "artists": [
+        "岛屿心情"
+      ],
+      "album": "纷纭",
+      "duration_seconds": 297,
+      "song_id": 103174609,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004LrVlR197AFB",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/玩具 - 岛屿心情.mp3"
+    },
+    {
+      "track_id": "qq:000Wj9cd24piV4",
+      "title": "Blue.2",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "トンネルを抜けたら",
+      "duration_seconds": 344,
+      "song_id": 204355671,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Wj9cd24piV4",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Blue.2 - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:001KuATU2C1SLW",
+      "title": "hopi",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "our hope",
+      "duration_seconds": 270,
+      "song_id": 350814089,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001KuATU2C1SLW",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/hopi - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:002sHYGx2Ba6Bc",
+      "title": "光るとき",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "光るとき",
+      "duration_seconds": 351,
+      "song_id": 337260621,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002sHYGx2Ba6Bc",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/光るとき - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:000WIHk34f2cxD",
+      "title": "優しさについて",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "きらめき",
+      "duration_seconds": 252,
+      "song_id": 234250122,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000WIHk34f2cxD",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/優しさについて - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:001kSOtF0aLqPA",
+      "title": "Burning",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "Burning",
+      "duration_seconds": 231,
+      "song_id": 496913030,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001kSOtF0aLqPA",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Burning - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:002WLW5x2kIPDG",
+      "title": "OOPARTS",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "OOPARTS",
+      "duration_seconds": 306,
+      "song_id": 347684283,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002WLW5x2kIPDG",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/OOPARTS - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:003Y3fCY4EquXQ",
+      "title": "GO!!!",
+      "full_singer": "羊文学",
+      "group_artist": "羊文学",
+      "artists": [
+        "羊文学"
+      ],
+      "album": "GO!!!",
+      "duration_seconds": 204,
+      "song_id": 447356131,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Y3fCY4EquXQ",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/GO!!! - 羊文学.mp3"
+    },
+    {
+      "track_id": "qq:001vGwSc3T8QQ6",
+      "title": "Falling for U",
+      "full_singer": "Peachy!, mxmtoon",
+      "group_artist": "Peachy!",
+      "artists": [
+        "Peachy!",
+        "mxmtoon"
+      ],
+      "album": "Falling for U",
+      "duration_seconds": 124,
+      "song_id": 275331037,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001vGwSc3T8QQ6",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Falling for U - Peachy!, mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:000QBao14F1Bhi",
+      "title": "cliché",
+      "full_singer": "mxmtoon",
+      "group_artist": "mxmtoon",
+      "artists": [
+        "mxmtoon"
+      ],
+      "album": "cliché",
+      "duration_seconds": 184,
+      "song_id": 214869613,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000QBao14F1Bhi",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/cliché - mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:002lmIK828Wk7R",
+      "title": "creep",
+      "full_singer": "mxmtoon",
+      "group_artist": "mxmtoon",
+      "artists": [
+        "mxmtoon"
+      ],
+      "album": "creep",
+      "duration_seconds": 210,
+      "song_id": 300870415,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002lmIK828Wk7R",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/creep - mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:000MByuH0SyXGN",
+      "title": "Prairies",
+      "full_singer": "BoyWithUke, mxmtoon",
+      "group_artist": "BoyWithUke",
+      "artists": [
+        "BoyWithUke",
+        "mxmtoon"
+      ],
+      "album": "Serotonin Dreams (Explicit)",
+      "duration_seconds": 191,
+      "song_id": 354669613,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000MByuH0SyXGN",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Prairies - BoyWithUke, mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:000PxqFJ2RkFJX",
+      "title": "walk but in a garden",
+      "full_singer": "LLusion, mxmtoon",
+      "group_artist": "LLusion",
+      "artists": [
+        "LLusion",
+        "mxmtoon"
+      ],
+      "album": "walk but in a garden",
+      "duration_seconds": 112,
+      "song_id": 269117590,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000PxqFJ2RkFJX",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/walk but in a garden - LLusion, mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:0009GXpY466P3P",
+      "title": "temporary nothing",
+      "full_singer": "mxmtoon",
+      "group_artist": "mxmtoon",
+      "artists": [
+        "mxmtoon"
+      ],
+      "album": "temporary nothing",
+      "duration_seconds": 187,
+      "song_id": 214869687,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0009GXpY466P3P",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/temporary nothing - mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:000Eg1y10icqLK",
+      "title": "i feel like chet",
+      "full_singer": "mxmtoon",
+      "group_artist": "mxmtoon",
+      "artists": [
+        "mxmtoon"
+      ],
+      "album": "plum blossom",
+      "duration_seconds": 183,
+      "song_id": 237852814,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Eg1y10icqLK",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/i feel like chet - mxmtoon.mp3"
+    },
+    {
+      "track_id": "qq:002nDLoh3vhtOH",
+      "title": "I'll Take Care of You",
+      "full_singer": "Tyler, The Creator",
+      "group_artist": "Tyler, The Creator",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "album": "DON'T TAP THE GLASS (Explicit)",
+      "duration_seconds": 200,
+      "song_id": 591042159,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002nDLoh3vhtOH",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/I'll Take Care of You - Tyler, The Creator.mp3"
+    },
+    {
+      "track_id": "qq:0010pxck2ZeZcM",
+      "title": "Fucking Young / Perfect",
+      "full_singer": "Tyler, The Creator, Charlie Wilson, Toro Y Moi, Kali Uchis",
+      "group_artist": "Tyler, The Creator",
+      "artists": [
+        "Tyler, The Creator",
+        "Charlie Wilson",
+        "Toro Y Moi",
+        "Kali Uchis"
+      ],
+      "album": "Cherry Bomb",
+      "duration_seconds": 401,
+      "song_id": 102680652,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0010pxck2ZeZcM",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Fucking Young _ Perfect - Tyler, The Creator, Charlie Wilson, Toro Y Moi, Kali Uchis.mp3"
+    },
+    {
+      "track_id": "qq:001JPVNS42ud4y",
+      "title": "Lights On",
+      "full_singer": "Tyler, The Creator, Ryan Beatty, Santigold",
+      "group_artist": "Tyler, The Creator",
+      "artists": [
+        "Tyler, The Creator",
+        "Ryan Beatty",
+        "Santigold"
+      ],
+      "album": "Music Inspired by Illumination & Dr. Seuss' The Grinch",
+      "duration_seconds": 149,
+      "song_id": 220419260,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001JPVNS42ud4y",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Lights On - Tyler, The Creator, Ryan Beatty, Santigold.mp3"
+    },
+    {
+      "track_id": "qq:002OX0SW2YWARF",
+      "title": "EARFQUAKE",
+      "full_singer": "Tyler, The Creator",
+      "group_artist": "Tyler, The Creator",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "album": "IGOR (Explicit)",
+      "duration_seconds": 190,
+      "song_id": 232352344,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002OX0SW2YWARF",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/EARFQUAKE - Tyler, The Creator.mp3"
+    },
+    {
+      "track_id": "qq:0013Lh5q41GAat",
+      "title": "BEST INTEREST",
+      "full_singer": "Tyler, The Creator",
+      "group_artist": "Tyler, The Creator",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "album": "BEST INTEREST (Explicit)",
+      "duration_seconds": 127,
+      "song_id": 252209766,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0013Lh5q41GAat",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/BEST INTEREST - Tyler, The Creator.mp3"
+    },
+    {
+      "track_id": "qq:003uWLt22gqO9y",
+      "title": "ARE WE STILL FRIENDS?",
+      "full_singer": "Tyler, The Creator",
+      "group_artist": "Tyler, The Creator",
+      "artists": [
+        "Tyler, The Creator"
+      ],
+      "album": "IGOR (Explicit)",
+      "duration_seconds": 265,
+      "song_id": 232352343,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003uWLt22gqO9y",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/ARE WE STILL FRIENDS_ - Tyler, The Creator.mp3"
+    },
+    {
+      "track_id": "qq:003nkcQh1dJkHN",
+      "title": "Biking",
+      "full_singer": "Frank Ocean, JAŸ-Z, Tyler, The Creator",
+      "group_artist": "Frank Ocean",
+      "artists": [
+        "Frank Ocean",
+        "JAŸ-Z",
+        "Tyler, The Creator"
+      ],
+      "album": "Biking",
+      "duration_seconds": 277,
+      "song_id": 201686348,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003nkcQh1dJkHN",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/Biking - Frank Ocean, JAŸ-Z, Tyler, The Creator.mp3"
+    },
+    {
+      "track_id": "qq:0022eXLX02qLMS",
+      "title": "ineedyou.",
+      "full_singer": "vietra",
+      "group_artist": "vietra",
+      "artists": [
+        "vietra"
+      ],
+      "album": "ineedyou.",
+      "duration_seconds": 124,
+      "song_id": 212606341,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0022eXLX02qLMS",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/ineedyou. - vietra.mp3"
+    },
+    {
+      "track_id": "qq:002QEfLC1rOo2t",
+      "title": "fly",
+      "full_singer": "vietra",
+      "group_artist": "vietra",
+      "artists": [
+        "vietra"
+      ],
+      "album": "fly",
+      "duration_seconds": 97,
+      "song_id": 232057270,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002QEfLC1rOo2t",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        },
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/fly - vietra.mp3"
+    },
+    {
+      "track_id": "qq:001Yrjyo1ICqXr",
+      "title": "imsoalone",
+      "full_singer": "vietra",
+      "group_artist": "vietra",
+      "artists": [
+        "vietra"
+      ],
+      "album": "imsoalone",
+      "duration_seconds": 131,
+      "song_id": 303066192,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Yrjyo1ICqXr",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/imsoalone - vietra.mp3"
+    },
+    {
+      "track_id": "qq:0008HDkv3ETuzO",
+      "title": "home",
+      "full_singer": "Mr.Hong, vietra, Dvdkm",
+      "group_artist": "Mr.Hong",
+      "artists": [
+        "Mr.Hong",
+        "vietra",
+        "Dvdkm"
+      ],
+      "album": "Home",
+      "duration_seconds": 230,
+      "song_id": 213865194,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0008HDkv3ETuzO",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/home - Mr.Hong, vietra, Dvdkm.mp3"
+    },
+    {
+      "track_id": "qq:0005JIy72oTlhs",
+      "title": "foryou",
+      "full_singer": "vietra",
+      "group_artist": "vietra",
+      "artists": [
+        "vietra"
+      ],
+      "album": "foryou",
+      "duration_seconds": 126,
+      "song_id": 228384976,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0005JIy72oTlhs",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/foryou - vietra.mp3"
+    },
+    {
+      "track_id": "qq:003fWl0o4enoKk",
+      "title": "in love",
+      "full_singer": "vietra",
+      "group_artist": "vietra",
+      "artists": [
+        "vietra"
+      ],
+      "album": "in love",
+      "duration_seconds": 78,
+      "song_id": 217390449,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003fWl0o4enoKk",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/in love - vietra.mp3"
+    },
+    {
+      "track_id": "qq:000LoSd13j6j01",
+      "title": "tired",
+      "full_singer": "vietra",
+      "group_artist": "vietra",
+      "artists": [
+        "vietra"
+      ],
+      "album": "tired",
+      "duration_seconds": 84,
+      "song_id": 240358857,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000LoSd13j6j01",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/tired - vietra.mp3"
+    },
+    {
+      "track_id": "qq:000J3Wc20ssHpI",
+      "title": "破吉他",
+      "full_singer": "张震岳",
+      "group_artist": "张震岳",
+      "artists": [
+        "张震岳"
+      ],
+      "album": "我是海雅谷慕",
+      "duration_seconds": 234,
+      "song_id": 4826812,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000J3Wc20ssHpI",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/破吉他 - 张震岳.mp3"
+    },
+    {
+      "track_id": "qq:0026nUBU1pOAF2",
+      "title": "我会想念你",
+      "full_singer": "张震岳",
+      "group_artist": "张震岳",
+      "artists": [
+        "张震岳"
+      ],
+      "album": "阿岳正传",
+      "duration_seconds": 314,
+      "song_id": 4830244,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0026nUBU1pOAF2",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/我会想念你 - 张震岳.mp3"
+    },
+    {
+      "track_id": "qq:000VPWYA0RaRqq",
+      "title": "小宇",
+      "full_singer": "张震岳",
+      "group_artist": "张震岳",
+      "artists": [
+        "张震岳"
+      ],
+      "album": "OK",
+      "duration_seconds": 227,
+      "song_id": 399639,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000VPWYA0RaRqq",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/小宇 - 张震岳.mp3"
+    },
+    {
+      "track_id": "qq:003dKmfv0gJ2h2",
+      "title": "思念是一种病",
+      "full_singer": "张震岳, MC HotDog 热狗",
+      "group_artist": "张震岳",
+      "artists": [
+        "张震岳",
+        "MC HotDog 热狗"
+      ],
+      "album": "中国新说唱2019 第10期",
+      "duration_seconds": 264,
+      "song_id": 236225299,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003dKmfv0gJ2h2",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/思念是一种病 - 张震岳, MC HotDog 热狗.mp3"
+    },
+    {
+      "track_id": "qq:003ilXfl3EWxcV",
+      "title": "思念是一种病",
+      "full_singer": "张震岳, 蔡健雅",
+      "group_artist": "张震岳",
+      "artists": [
+        "张震岳",
+        "蔡健雅"
+      ],
+      "album": "OK",
+      "duration_seconds": 255,
+      "song_id": 103697658,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003ilXfl3EWxcV",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/思念是一种病 - 张震岳, 蔡健雅.mp3"
+    },
+    {
+      "track_id": "qq:001FIxjV4ANdZB",
+      "title": "没人爱俱乐部",
+      "full_singer": "张震岳",
+      "group_artist": "张震岳",
+      "artists": [
+        "张震岳"
+      ],
+      "album": "我想要的感觉",
+      "duration_seconds": 171,
+      "song_id": 4934611,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001FIxjV4ANdZB",
+      "source_playlists": [
+        {
+          "name": "可以放",
+          "id": 8633469411,
+          "url": "https://y.qq.com/n/ryqq/playlist/8633469411"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/没人爱俱乐部 - 张震岳.mp3"
+    },
+    {
+      "track_id": "qq:002mpF6I3zDNyp",
+      "title": "金黄色的",
+      "full_singer": "郑宜农",
+      "group_artist": "郑宜农",
+      "artists": [
+        "郑宜农"
+      ],
+      "album": "金黄色的",
+      "duration_seconds": 285,
+      "song_id": 403548605,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002mpF6I3zDNyp",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/金黄色的 - 郑宜农.mp3"
+    },
+    {
+      "track_id": "qq:000Uh9kP1DHzAc",
+      "title": "太阳",
+      "full_singer": "郑宜农",
+      "group_artist": "郑宜农",
+      "artists": [
+        "郑宜农"
+      ],
+      "album": "海王星",
+      "duration_seconds": 193,
+      "song_id": 872323,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Uh9kP1DHzAc",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/太阳 - 郑宜农.mp3"
+    },
+    {
+      "track_id": "qq:003XDtQV2qHvpM",
+      "title": "做风台",
+      "full_singer": "郑宜农",
+      "group_artist": "郑宜农",
+      "artists": [
+        "郑宜农"
+      ],
+      "album": "水逆",
+      "duration_seconds": 203,
+      "song_id": 342622973,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003XDtQV2qHvpM",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/做风台 - 郑宜农.mp3"
+    },
+    {
+      "track_id": "qq:001BlQQO1s2ZPU",
+      "title": "人如何学会语言",
+      "full_singer": "郑宜农, 何俊苇 Chunho",
+      "group_artist": "郑宜农",
+      "artists": [
+        "郑宜农",
+        "何俊苇 Chunho"
+      ],
+      "album": "水逆",
+      "duration_seconds": 306,
+      "song_id": 342622965,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001BlQQO1s2ZPU",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/人如何学会语言 - 郑宜农, 何俊苇 Chunho.mp3"
+    },
+    {
+      "track_id": "qq:002tC9D64WkbX6",
+      "title": "深深地",
+      "full_singer": "郑宜农",
+      "group_artist": "郑宜农",
+      "artists": [
+        "郑宜农"
+      ],
+      "album": "给天王星 (Explicit)",
+      "duration_seconds": 263,
+      "song_id": 292783793,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002tC9D64WkbX6",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/深深地 - 郑宜农.mp3"
+    },
+    {
+      "track_id": "qq:003TawFd2DTXPS",
+      "title": "最好的距离",
+      "full_singer": "郑宜农, deca joins",
+      "group_artist": "郑宜农",
+      "artists": [
+        "郑宜农",
+        "deca joins"
+      ],
+      "album": "水逆",
+      "duration_seconds": 246,
+      "song_id": 342622970,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003TawFd2DTXPS",
+      "source_playlists": [
+        {
+          "name": "咖啡厅",
+          "id": 7069546960,
+          "url": "https://y.qq.com/n/ryqq/playlist/7069546960"
+        }
+      ],
+      "action": "added",
+      "destination_relative_path": "SongResources/最好的距离 - 郑宜农, deca joins.mp3"
+    }
+  ],
+  "excluded_unavailable": [
+    {
+      "batch_id": "B02",
+      "sequence_in_batch": 19,
+      "song_mid": "0011BLZM0ZTHx3",
+      "title": "8+8=8",
+      "artist": "岛屿心情",
+      "original_review_artist_credit": "岛屿心情",
+      "album": "Island Mood",
+      "duration_seconds": 337,
+      "song_id": 221283329,
+      "song_type": 1,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0011BLZM0ZTHx3",
+      "source_playlists": [
+        "可以放"
+      ],
+      "selected_artists": [
+        "岛屿心情"
+      ],
+      "note": "—"
+    },
+    {
+      "batch_id": "B02",
+      "sequence_in_batch": 21,
+      "song_mid": "000n0SUH3RFLVo",
+      "title": "When Everything End",
+      "artist": "岛屿心情",
+      "original_review_artist_credit": "岛屿心情",
+      "album": "Island Mood",
+      "duration_seconds": 280,
+      "song_id": 221283336,
+      "song_type": 1,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000n0SUH3RFLVo",
+      "source_playlists": [
+        "可以放"
+      ],
+      "selected_artists": [
+        "岛屿心情"
+      ],
+      "note": "—"
+    }
+  ]
+}

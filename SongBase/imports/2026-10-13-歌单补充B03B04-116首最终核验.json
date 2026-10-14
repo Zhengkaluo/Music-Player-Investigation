@@ -1,0 +1,79 @@
+{
+  "schema_version": "songbase.recording-import-final-audit/v1",
+  "date": "2026-10-13",
+  "verified_at": "2026-10-13",
+  "imported": 116,
+  "automatic": 107,
+  "manual_exceptions": 9,
+  "trimmed": 6,
+  "library": 1553,
+  "playable": 1550,
+  "artist_groups": 551,
+  "audio_files": 1574,
+  "formal_tags": 1215,
+  "untagged": 338,
+  "combined_queue": 1122,
+  "old_data_and_audio_preserved": true,
+  "http_range_verified": true,
+  "pages": [
+    {
+      "page": "song_base_browser.html",
+      "http_status": 200,
+      "javascript_syntax": "passed",
+      "embedded_data": "verified"
+    },
+    {
+      "page": "song_tags_browser.html",
+      "http_status": 200,
+      "javascript_syntax": "passed",
+      "embedded_data": "verified"
+    },
+    {
+      "page": "song_manual_tagging.html",
+      "http_status": 200,
+      "javascript_syntax": "passed",
+      "embedded_data": "verified"
+    },
+    {
+      "page": "song_combined_annotation.html",
+      "http_status": 200,
+      "javascript_syntax": "passed",
+      "embedded_data": "verified"
+    }
+  ],
+  "source_stage_library_hashes": "116 passed",
+  "new_audio_range_requests": {
+    "checked_tracks": 116,
+    "requests": 232,
+    "status": 206
+  },
+  "original_audition_hashes": "22 passed",
+  "exact_one_second_trims": "6 passed; 44100 frames removed and PCM prefix unchanged",
+  "original_library_entries_preserved": true,
+  "protected_tag_zmpd_catalog_files": "unchanged",
+  "original_audio_files_preserved": true,
+  "version_replacement": {
+    "original_mid": "004a1aRp0WI3rt",
+    "original_album": "Bossa No Sé (Explicit)",
+    "status": "unavailable",
+    "actual_mid": "000VIQsR1lXb5A",
+    "actual_album": "Para Mi (Explicit)",
+    "authorization": "改录 Para Mi 专辑版（推荐）"
+  },
+  "rejected_echo_batch_excluded": true,
+  "source_playlists": 10,
+  "source_memberships": 2695,
+  "source_playlist_json_preserved": true,
+  "json_markdown_consistency": "passed",
+  "candidate_progress": {
+    "pool": 468,
+    "imported": 232,
+    "unavailable_not_imported": 2,
+    "remaining_not_recorded": 234
+  },
+  "remaining_main_library_recordable": 0,
+  "remaining_main_library_awaiting_import": 0,
+  "snapshot_directory": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前",
+  "validation_command": "python3 SongBase/imports/verify_B03B04_20261013.py http://127.0.0.1:8770",
+  "regression_test": "python3 -m unittest discover -s SongBase -p test_recording_provenance.py"
+}

@@ -1,0 +1,1253 @@
+{
+  "schema_version": "songbase.recovery/v1",
+  "source_tree": "1bd730dc7d00aad977e080d8c69271b6519363cb",
+  "restored_at": "2026-10-13T22:58:17.984164+08:00",
+  "backup_directory": "/Users/kaluozheng/Music-Player-Investigation/SongBase/archive/snapshots/recovery/20261013-225816-before-restore",
+  "audio_files_modified": 0,
+  "library_tracks": 1553,
+  "formal_tags": 1215,
+  "restored_files": [
+    {
+      "path": "Flow衔接与ZMPD补标缺口清单.csv",
+      "git_blob": "97c5460ff209a2be9675d50a2a33b0d87664d02b",
+      "before_sha256": null,
+      "after_sha256": "b28692e6fa0f226254c1d4591e309a64be9915c28528e46f99a49a1a6b575810"
+    },
+    {
+      "path": "Flow衔接与ZMPD补标缺口清单.md",
+      "git_blob": "da19fa900eab92acd0707a9a410c15a092f12818",
+      "before_sha256": null,
+      "after_sha256": "127e2be972fcffa23926d69655d1d8788ec6f540c3365a67787b8ccf1f3e3558"
+    },
+    {
+      "path": "INDEX.md",
+      "git_blob": "ed3110aadbd3e03d0ca18033a4ca0cc6591ff380",
+      "before_sha256": null,
+      "after_sha256": "31e4ded8fadc3af2422b874a019a748bee411a9df3a5664ca77b01af071d7e76"
+    },
+    {
+      "path": "README.md",
+      "git_blob": "940ae88449f64ea8632c7d1ff14d1c574b4acbe4",
+      "before_sha256": "3fa1e279acfd0943d85ab1dc9d4e8189a88e96717fdc594a96b404ab6634c071",
+      "after_sha256": "1e6cdf31e0f1fb08de50406f3da7e8730181fcd3d8b5fcfd1af730248a5ad4f1"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/Flow衔接与ZMPD补标缺口清单.csv",
+      "git_blob": "c72af22e21bed04924259806bc9211234b457417",
+      "before_sha256": null,
+      "after_sha256": "42dc8fde6369764a706794cb8b79ccc4e4930a2623d9107d6339ec53f3bc30b3"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/Flow衔接与ZMPD补标缺口清单.md",
+      "git_blob": "021e8306c5b82b27e85badff08c70181d25c32c5",
+      "before_sha256": null,
+      "after_sha256": "ced71eee597b452c0862976f13fe5db79da4edb84e05f663f4f4bf002c16681c"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/INDEX.md",
+      "git_blob": "8a4e497b43857ee172859907d13565a617bb33a0",
+      "before_sha256": null,
+      "after_sha256": "2d5957b58a50004bff7478e29829923bb55b6181725ef474f382bdbc08c26f0d"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/README.md",
+      "git_blob": "b53bd45df32de53eb9c3f21248bec37733749869",
+      "before_sha256": null,
+      "after_sha256": "2cc54cdfc8dfa91a0b3a83f7074539265ae417d3814b0530e0a3f92bb1e898a5"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/protected-hashes.json",
+      "git_blob": "9162806f40b4bc46cb5df3e2919636e2325faff9",
+      "before_sha256": null,
+      "after_sha256": "d90d30c10ad0ce076a4d7bdad2f6328cdedfccb14aeafdbc6fb983d8bd480c0d"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/qqmusic_playlists.json",
+      "git_blob": "f184eadc3e0cb5b7903b8c206d66e2f984596950",
+      "before_sha256": null,
+      "after_sha256": "e436ec9933d2712c2d7f8ddaa3b92293c8a89b657b853d5d1658aa43aa3209a4"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/qqmusic_playlists.md",
+      "git_blob": "e011d5076775f481dfcf9f88eb6a47e37d0d9c28",
+      "before_sha256": null,
+      "after_sha256": "8ba65f06df0700e0e73dd320c1b61d22f4bc88bbc27638b8ab95f2b1fe8304ae"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/song_base_browser.html",
+      "git_blob": "36c5966d4ca6f0fd49936308749ce16f7c5aaae2",
+      "before_sha256": null,
+      "after_sha256": "6fc05bc52dabea0f533692428b04506db7438be1461fc5df5a02354e81ed83ff"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/song_base_by_artist.json",
+      "git_blob": "4508e898ef56bd4cd44be0e33bc6991e9470a967",
+      "before_sha256": null,
+      "after_sha256": "2240444336c5b625826269027e50b858d4565e0a39dea120686e1956465d1ca6"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/song_base_by_artist.md",
+      "git_blob": "1fa229ab07443117ae61eaf0a65b833efc1b5134",
+      "before_sha256": null,
+      "after_sha256": "3fc0af5de91c1f3948399cb28f9331a70c70e470a3903a6de362363c08e56657"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/song_combined_annotation.html",
+      "git_blob": "491cf3531b45d730355483381735d2cede802a3b",
+      "before_sha256": null,
+      "after_sha256": "f6758ee02127b94bd12e763df8f7f03078a6128b25360338fc4f57a75296de72"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/song_manual_tagging.html",
+      "git_blob": "88baf01af472b1e091d07559e0f6d21042f554a2",
+      "before_sha256": null,
+      "after_sha256": "9a79a796150f613d1392df7f55c931c5ecfe443cc9b51d49006323f900864fab"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/song_tags_browser.html",
+      "git_blob": "5bd4bf574d962b1838894c2691a519d128ac13e7",
+      "before_sha256": null,
+      "after_sha256": "6cd3d8f488cae97be4c1f411fa0314b1fb9b1dbcdf25114632a039a91d7f5bfc"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/待录制清单.json",
+      "git_blob": "b5ac278275a8aa1f0d5f4855084c3ba7e7793370",
+      "before_sha256": null,
+      "after_sha256": "865f08591a2075402baa311cff73ed193b74f0ee43c5b4684cb1b9a4d40f9f47"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/待录制清单.md",
+      "git_blob": "0f3d9b105a35864a8a071f5a774888bd99301d9a",
+      "before_sha256": null,
+      "after_sha256": "f0910bc1da7e4c807817d57d3d6add174bf00690d41228aeb977cf0b8564cd29"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前/曲库风格与语种报告.md",
+      "git_blob": "9cf5ac38ff5c763bc87333f5505f40ae80edfabb",
+      "before_sha256": null,
+      "after_sha256": "1a088a606afd71be23f48ca9990431b411fe826369509b311778e66230d44672"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/Flow衔接与ZMPD补标缺口清单.md",
+      "git_blob": "6ee16f21d18ce576c6bfe29c87a132e1dcad5222",
+      "before_sha256": null,
+      "after_sha256": "9016bdc0ba8b5d0c39efeaf527132734ee1789d5e92fd767557af92e6e2fd252"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/INDEX.md",
+      "git_blob": "33adef4fb44d9925b90f57c0815841319c4afe13",
+      "before_sha256": null,
+      "after_sha256": "60e08f0308db8690517d7a15bf338a8c0a6c5b75abb7969e9ad8e1e5ae7b465b"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/README.md",
+      "git_blob": "8b933a0bcf502b9476d9acba6e59ae44d024bced",
+      "before_sha256": null,
+      "after_sha256": "ae9a2d59101a838ce0e768d63d84ee31b046ad514233313d27d9c4559012f015"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/SongTagInstruction.md",
+      "git_blob": "5184625a8911674e4b1e718c144f54564080ed2d",
+      "before_sha256": null,
+      "after_sha256": "616bcf07231e884d50c31cc56899a3d10a4f51ca0a6d6ac2127fdbfeeb6fa483"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/audio_download_monitor.html",
+      "git_blob": "749c19695f38e4de1421d5deee15e071bcefd071",
+      "before_sha256": null,
+      "after_sha256": "562d7ef4dc173bd68f651d223f657e7aa06e33a7166020f6ebdd9909caa130ba"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/nanze版本-歌曲特征.json",
+      "git_blob": "0e51428617217c5911f490d05ea3184bc0e15e76",
+      "before_sha256": null,
+      "after_sha256": "3a8f19c73248066831de6979794b3999bdf813aa9240a56f05eeb7a75cf00157"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/new_albums_config.json",
+      "git_blob": "fab5a4d37d776179c4809566cbb7f8f9b69d7f5c",
+      "before_sha256": null,
+      "after_sha256": "e237323dd270f606584b3244db2b01a6a7d1639dc02cc6cf594b700e0b5afa44"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/original-audio-hashes.json",
+      "git_blob": "b933dc95facc8ab0b5d1bb5df0289a00dd174ff7",
+      "before_sha256": null,
+      "after_sha256": "f09c4de4277c788ab9259834d13aa83dc33a889668e0322c758846aff8a57ab4"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/protected-hashes.json",
+      "git_blob": "bd998e98a1dcc1b2f5220d0b3c8ddecec223cd5a",
+      "before_sha256": null,
+      "after_sha256": "69f3895f989e1ebac45ad23b5849ca5530b7eda2bae91fe66440c615e90cfb4f"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/qqmusic_playlists.json",
+      "git_blob": "87d6e96a7f39cf795d925defda0977ca81e9a00a",
+      "before_sha256": null,
+      "after_sha256": "887c5321bb4815169e4cc97678eb59d884753c51c075a05d66153cdd023146e7"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/qqmusic_playlists.md",
+      "git_blob": "d67fd320a7b6db61ab74b3306def8a9b5065638d",
+      "before_sha256": null,
+      "after_sha256": "6869cf5dfa4cafe397a93cbbf12779e26af23eb9eb6b8cdcb281aa7d31ff9f1b"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/recording-review/dashboard-review-decisions.json",
+      "git_blob": "38a364b03afd98a973e391f3f3a929e49e753d26",
+      "before_sha256": null,
+      "after_sha256": "fe6a61e3ef27e8958dc73408d6aa6fc50fedbf9dc536700d39c1b52b3349b8d9"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/recording-review/manual-delivery-exceptions.json",
+      "git_blob": "a366bbd4976e0e32617ed0e3ad489168d41a2545",
+      "before_sha256": null,
+      "after_sha256": "14acbf2867a0b4c827f79b99f30816c86f5ad90c02df8b681929e92332142ccd"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/recording-review/试听清单.json",
+      "git_blob": "5ede8e4ac6264d35266c370005deece8a9449d74",
+      "before_sha256": null,
+      "after_sha256": "cbda44fba3f4d3122d27149a8634d4460bdcfaff829f2e96390ee893258147f6"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/reviews/468首候选曲目录制与入库进度-2026-10-12.json",
+      "git_blob": "569a4ec14b8966195c35e8c1bd847a46869a915a",
+      "before_sha256": null,
+      "after_sha256": "e769e68f7d87086ce0d20847a1ce195959fddff248cf3c55dd7e3ee30a79e7eb"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/reviews/468首候选曲目录制计划-2026-10-11.json",
+      "git_blob": "de3bc748ff1eb295b917bdaeb1bead0d5d602441",
+      "before_sha256": null,
+      "after_sha256": "5f8dd297dabfac8c7f40e732540a389b9541dce215b2eb8b2c30cb7c77fc4f9b"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_base_browser.html",
+      "git_blob": "222ad4a64df767d02b4d81de2e2dd20d71d92ad2",
+      "before_sha256": null,
+      "after_sha256": "ce82fe2e1b1674d8c55a8fe6a9519ef327e9dde7a9ef1917aea8f29f08f97c16"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_base_by_artist.json",
+      "git_blob": "751feb9bef87f97533254402539f933033ddb398",
+      "before_sha256": null,
+      "after_sha256": "84a6e2066049edd64780a51215ec722fd8e6eec6f478fc991d1a1169ed80b031"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_base_by_artist.md",
+      "git_blob": "6625102d7d14ec22b7b2ee83145cdfea008eed7a",
+      "before_sha256": null,
+      "after_sha256": "6882a6d3550bc8e2ff98238817ed662c53d18a09dc042534ff8dc41b4fea6c7f"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_combined_annotation.html",
+      "git_blob": "1786a4e827a33f4058fb28d565133993f93259d5",
+      "before_sha256": null,
+      "after_sha256": "4f5c98145d5915e9461072069a43180bbac727c71dd47298e865c74f4134e65a"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_identity_aliases.json",
+      "git_blob": "21b3fc9cfe597829d20a4a445c0916e72afaa09a",
+      "before_sha256": null,
+      "after_sha256": "fc2f616927ced1fde7038e60672471a00bf0558dbe97bae526caff0803f2dd7c"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_manual_tagging.html",
+      "git_blob": "29542206b257ee6266b358c9fdef1c8de80c38e6",
+      "before_sha256": null,
+      "after_sha256": "23615c7f1df9bba098d6e554feec2e6c4403ea404468df715e407bae7dd33086"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_tag_candidate_report.md",
+      "git_blob": "7046afe8bfd378a6552466731bfda367e7d64b65",
+      "before_sha256": null,
+      "after_sha256": "0b17ca16b5da4c7e2382fba6cfa46e14948d108e33405df8acb5a4b3d7ab0984"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_tag_candidates.json",
+      "git_blob": "2018715e98abca1c3969de62a83e3a05ccba8681",
+      "before_sha256": null,
+      "after_sha256": "6c0624eff0b11c63f1dcbad4f789ba60a1c9f4a7b23c3ab570ee7183aba985bb"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_tag_mapping.json",
+      "git_blob": "dbde3cdaacbbce0ecdd68b5e35e21a2ce7b5b0b8",
+      "before_sha256": null,
+      "after_sha256": "5bc6e96191348aff87ed096666e61290f350dcbf9b944e418cf065858ac7dcf5"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_tag_mapping_editor.html",
+      "git_blob": "8862a3661fee501c7bb6db5f3f180cc0c1d0f692",
+      "before_sha256": null,
+      "after_sha256": "39caccf2653d87eb23a2dc6eaf8c1cac24b079483519daf064c5297c439406d4"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_tags.json",
+      "git_blob": "374d2d3158e91751dbfd40077c1025b5000be40c",
+      "before_sha256": null,
+      "after_sha256": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/song_tags_browser.html",
+      "git_blob": "95ee7c73da5904962bf0d031427cdae3f4bed720",
+      "before_sha256": null,
+      "after_sha256": "accc7100b00c872dcb60e50d74659604f9aa12ea73469d364f790c01a1997203"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/待录制清单.json",
+      "git_blob": "3902b18b89cf4460e33f4e41d82f0b4f800b2bbe",
+      "before_sha256": null,
+      "after_sha256": "91a0837e8563504aed9a2c378e05e6b04f3e4f4e870b947a98ed3dfd7d0b7ba7"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/待录制清单.md",
+      "git_blob": "c62d0f8f6bfaa4404cad734f6fe08134f0440934",
+      "before_sha256": null,
+      "after_sha256": "7161d7628bc082a3dbd7625f795e9c79ff833bc85407ed0efcc5efa9a3e06d92"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/待舍弃归档清单.json",
+      "git_blob": "27369a9a581be1df658d5b21618377d6ff2afe9e",
+      "before_sha256": null,
+      "after_sha256": "372810ec306f42be2eb010fb75418578f80a926db357bd5016182086f3bd43a5"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/待重录清单.json",
+      "git_blob": "a54fb28cdc1b56a01981f5fab0740ab34c599228",
+      "before_sha256": null,
+      "after_sha256": "a7350c8f40a91a13fc58df12004d143bbc28ed34f7c73a6e38d6f92aa23ef1ca"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/曲库风格与语种报告.md",
+      "git_blob": "c7aa0065c33992c7d8829c553efc71235631f661",
+      "before_sha256": null,
+      "after_sha256": "e7fda188a39736f0f2ea9a6d1449a89f440444896b1d8bc325c058201cbdbcad"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/歌曲特征.json",
+      "git_blob": "c4c14e71ccac5cbfe4c997df22bc48b6a90e7568",
+      "before_sha256": null,
+      "after_sha256": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/歌曲特征库-1204首升级说明.md",
+      "git_blob": "c7600937461099ba6ec7f42ef1ecc6afe2f8b54c",
+      "before_sha256": null,
+      "after_sha256": "7a74ce228cccdec884058f187a640cdb925e0abaf85678de23e8fa6b10d79917"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/第七批ZMPD合并审计.json",
+      "git_blob": "401d58f890cb0092023f741a010a715e25559565",
+      "before_sha256": null,
+      "after_sha256": "553bc951ca7dbefedbac3c46bb4b7b19058d42a335addc64d66fd05b641c7b87"
+    },
+    {
+      "path": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前/第六批ZMPD合并审计.json",
+      "git_blob": "a79acef15fefba9c3892ef8cbb59fd91b3f67f0a",
+      "before_sha256": null,
+      "after_sha256": "6a744d7f6dd24c1eef310e9e2971980cff97a1331ac02602b470579e49090333"
+    },
+    {
+      "path": "archive/snapshots/song_tags/song_tags_before_combined_import_2026-10-10_185228.json",
+      "git_blob": "01ab4619790b2c854c12f8cfe41981bd526717f5",
+      "before_sha256": null,
+      "after_sha256": "07f6c3f1fc3caf4a06df3e2d57a9ea66a3eca1353ac305dafee772565240e716"
+    },
+    {
+      "path": "build_annotation_gap_report.py",
+      "git_blob": "a19e9e6e351a129cb991c69d803e5c5194b6b9a7",
+      "before_sha256": null,
+      "after_sha256": "ba0751bcb2d9fb58c59a1b5bab7c6ef303e78cd8b64abb69f47df334c09a2357"
+    },
+    {
+      "path": "build_combined_annotation_browser.py",
+      "git_blob": "f4aaeed2ddfb07fc7847c17ed41ca6ad1b850bb5",
+      "before_sha256": null,
+      "after_sha256": "97422de8767b263ea27437c5ecb583683a4eca32f357a23063f52c5c58795710"
+    },
+    {
+      "path": "build_manual_tagging_browser.py",
+      "git_blob": "61245d0bf5863f9602b5c73cb35a3e34b451f87e",
+      "before_sha256": "db932baafffba561d6b7769058f947ff9f19d306f10cc3273ac178588e695815",
+      "after_sha256": "2743ea697225f8c3ad835e316060b9ed7df8dc38b1d2b7c63cec0bcc7dd786e9"
+    },
+    {
+      "path": "build_song_tags_browser.py",
+      "git_blob": "f85039260189af4545516687802a53584eba7000",
+      "before_sha256": "2dcbb17703d3f084db5e830676073c93484559312e155fb1fbe6389b71bfc2e1",
+      "after_sha256": "b985bd55858e96c32101960bf38860c0f7bae988497213f07d35b9857be4a748"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/browser-smoke-audit.json",
+      "git_blob": "d7498f8b053e5f0b006cef7e0e94b4e88536ad7e",
+      "before_sha256": null,
+      "after_sha256": "fb9fb647433665c752cc35c2d151f1a748a2064e161690c876058dbf765a3cdb"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/browser-smoke-feedback.json",
+      "git_blob": "4020554d03e44e52d40b87eea15c3b057a1c6e84",
+      "before_sha256": null,
+      "after_sha256": "46b0941f7f7438c496048c77b1ef3970312bb2060a6bea79208446050e50516a"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/browser-smoke-playlist.json",
+      "git_blob": "7773dbaa3809fcb625dc0fac4e6a7b58a49f3e81",
+      "before_sha256": null,
+      "after_sha256": "d97427f0b2914e56a08bf9cd64853017c4912299dbd3ddf544d0c045e1e300b7"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/extraction-summary.json",
+      "git_blob": "45152b7a71e14d31dd65d3d78e23cdce6cfc530a",
+      "before_sha256": null,
+      "after_sha256": "112427b9f66904fbe4728571e0e48f520733dd87934098aeb88700da1139ca21"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/extraction/compact-v3-analysis.json",
+      "git_blob": "890dce030e9c65f95d967281a76bf4eaf6e0d89f",
+      "before_sha256": null,
+      "after_sha256": "02529fd346339fec59fd591e67e99e634ffd53c8759a4e7be981d2535a54aad5"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/extraction/personal-features-v2.json",
+      "git_blob": "75f9fe85b151026ea00c5ce4d80960af3b1dcf0c",
+      "before_sha256": null,
+      "after_sha256": "ed6f37a356a4a5bd65b77a70d9d0fff71ca72946001375fcdcb8be231095723f"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/extraction/progress.json",
+      "git_blob": "5b4594c004e13860b8c952dfe0e35e0cc204d3bc",
+      "before_sha256": null,
+      "after_sha256": "fb5a652e3cde10493cd071b5ec2a3f65b974f84289d6194265eb6643dd0425e9"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/input-manifest.json",
+      "git_blob": "d7d0df6d856097d5ecc966989e29fb532ea776b3",
+      "before_sha256": null,
+      "after_sha256": "5b6419f5dc02dd3a4c8a134695a5d786bb193888ebfb321e6866ccb460d78154"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/selected-predictions.json",
+      "git_blob": "7d405fd526fb05e0ffe3c85dc4525b53431cf1c7",
+      "before_sha256": null,
+      "after_sha256": "37c0b535efce68e72d017647ad0a9062ffe291c0ad9d1a456c118238aea9be07"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/Flow衔接与ZMPD补标缺口清单.csv",
+      "git_blob": "43dc0a3647316a5487fb84d1371f0389d3c21540",
+      "before_sha256": null,
+      "after_sha256": "52e1ddb9037683b2607f0ca8432e3ea270ff34e5e5f46b38394c04e992e288c4"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本-郑卡罗-2026-07-16.json",
+      "git_blob": "1e94f7d4a655ccf653733805b98411a2fe732bba",
+      "before_sha256": null,
+      "after_sha256": "d1fff4b3d23ed9e8091c1eb5923f41ce8f6058095b781d88b32782453ca81e05"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本-郑卡罗-2026-07-22.json",
+      "git_blob": "86b23cf2ef1a83e3d5f977da801eccffc50876d1",
+      "before_sha256": null,
+      "after_sha256": "f7588a91f42e7c76752efa03c8785677ea259298e18be87c87eef262c78a108c"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本-郑卡罗-2026-07-28.json",
+      "git_blob": "6c61a0716f51dfe891db443202b963828feb2580",
+      "before_sha256": null,
+      "after_sha256": "b711e290f3113106a8a131dd334ca19d9a4a8b59ee72e99fcfba8502b84fcc9b"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+      "git_blob": "70b763ba2b223b70aae33414d7b441ba88951de4",
+      "before_sha256": null,
+      "after_sha256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本·Tag-ZMPD联合标注14首-郑卡罗-2026-10-09.json",
+      "git_blob": "b1206f745dc0d850740478468d2e412163f1adad",
+      "before_sha256": null,
+      "after_sha256": "d3cbee7f54d93adb0e175d8bae9b3c81ddccdd6f347dc443755e50b56a942a82"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本·Tag-ZMPD联合标注50首-郑卡罗-2026-10-10.json",
+      "git_blob": "bd7ccf10a984e07a0240e380e74e9a03879232e0",
+      "before_sha256": null,
+      "after_sha256": "393877b7d163a4c7f08440fcb1655e25fa42cb960741b20491d39a904413e88a"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05.json",
+      "git_blob": "df4e3299f0026fac1233b81f7d1cf208954ca4f4",
+      "before_sha256": null,
+      "after_sha256": "bd335250e15be4ec66f9edc9e94fd67f4882a6ce7781672c7ebdb3636ef979e6"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26.json",
+      "git_blob": "901eb1fe8b471277b8921ef0970dae9b5a89ee9a",
+      "before_sha256": null,
+      "after_sha256": "55f916f37ee254bfc6887deae9746b33f0cd0377c6466f54cdaf026d179cef37"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/annotations/Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json",
+      "git_blob": "6f820f067b7f8e3dd2918b022468c2ea38a3a149",
+      "before_sha256": null,
+      "after_sha256": "98ec3e1e9fa2ebaa492f06fb961a2d332ed4f208c4898ce6663764c7f0413440"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/flowset_transition_analysis_rows.csv",
+      "git_blob": "91afbd290824cfaac809b95edac0d805ed6ef4bd",
+      "before_sha256": null,
+      "after_sha256": "c4022fe58f494c5caa90e4c8c8335316fc3d7403c08b159130a975b38536e2b1"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/song_base_by_artist.json",
+      "git_blob": "4508e898ef56bd4cd44be0e33bc6991e9470a967",
+      "before_sha256": null,
+      "after_sha256": "2240444336c5b625826269027e50b858d4565e0a39dea120686e1956465d1ca6"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/song_identity_aliases.json",
+      "git_blob": "21b3fc9cfe597829d20a4a445c0916e72afaa09a",
+      "before_sha256": null,
+      "after_sha256": "fc2f616927ced1fde7038e60672471a00bf0558dbe97bae526caff0803f2dd7c"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/song_tags.json",
+      "git_blob": "374d2d3158e91751dbfd40077c1025b5000be40c",
+      "before_sha256": null,
+      "after_sha256": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/sources/training-manifest.json",
+      "git_blob": "58f967e6e010b648ce75e1f9804de411b4420267",
+      "before_sha256": null,
+      "after_sha256": "aaf87b3ffc5b2c2d45ca7ae40bf92fe0be1781e5a150ba04e162edb7fc5a6dc4"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/style-preference-profile.json",
+      "git_blob": "720f75d678acefaf53ab2ff9fede8dd19a38b08e",
+      "before_sha256": null,
+      "after_sha256": "44523b933fb8cdd11b9ec133af6259dec379a23c0301d15d600f790cb418c35c"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本-郑卡罗-2026-07-16/personal-features-v2.json",
+      "git_blob": "ad70c6c0f90a6c9d14c341f5e7d52717408a85cf",
+      "before_sha256": null,
+      "after_sha256": "6e7eb178874f45edd3f250eb89fe79ac5bfa21376cedb02c301130d6386d4b50"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本-郑卡罗-2026-07-22/personal-features-v2.json",
+      "git_blob": "78f80d158fb64dc72f17bd6f9d560e1f5fb7021f",
+      "before_sha256": null,
+      "after_sha256": "322f2aa9d646d7f461ca6f09e9dc23628cdd0fa262ab0cc3eb8c9208d7e63ae4"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本-郑卡罗-2026-07-28/personal-features-v2.json",
+      "git_blob": "48342a5eec00790e1552475f4e8992b403e5f737",
+      "before_sha256": null,
+      "after_sha256": "9f22f26fcb8052a67138a73fdf18fbebc74819dbc23494c7811b8082c70a6e21"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本-郑卡罗-2026-09-25/personal-features-v2.json",
+      "git_blob": "d1bfef6e32af32a610fcfacd6e6df88056f0de23",
+      "before_sha256": null,
+      "after_sha256": "3507564be8ca732d36023f907262ed0dca72dbfcb31122cd669dd0ccce22fc03"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本·Tag-ZMPD联合标注14首-郑卡罗-2026-10-09/personal-features-v2.json",
+      "git_blob": "c792633f0620a5ff36b15f7a62b81e9ee03371fd",
+      "before_sha256": null,
+      "after_sha256": "69696598f6c7b121954c09743513e695f286aa56c858337668bcb4b79df45a0b"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本·Tag-ZMPD联合标注50首-郑卡罗-2026-10-10/personal-features-v2.json",
+      "git_blob": "534978acb9265458f58ef68c93c3e32e860374bd",
+      "before_sha256": null,
+      "after_sha256": "658d19b1eaaddffd103b6b055b11f81a90256f1177abc20fc4baa7e747e64242"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05/personal-features-v2.json",
+      "git_blob": "83ed9437c4f7b5d2fcb7b0d471b00e567fa3b184",
+      "before_sha256": null,
+      "after_sha256": "96534dedadd28fd5789b5f1f4f58d0383248b876ce4d3c5af3ed621882e96654"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26/personal-features-v2.json",
+      "git_blob": "d53e649a4c650fea2d812058ab9fab122a08411f",
+      "before_sha256": null,
+      "after_sha256": "84beb603240c50376e6754b66cb271dabf7916e86bfa0867ce30cee959cf054f"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/batches/Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03/personal-features-v2.json",
+      "git_blob": "8e2ab418987e402d1ef3afa9bdc60d2627f040aa",
+      "before_sha256": null,
+      "after_sha256": "2df4803a7125ac641ac5962cdcbbe361a5d6aa3e60ac9032d4ec433f089f0275"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/cross-batch-evaluation.json",
+      "git_blob": "3791ab8dcaa0fb802bbc7d15132a8c1d39171caf",
+      "before_sha256": null,
+      "after_sha256": "5f7ab4fba39f30a7a0f8f5f994241bfffa28f283d8a95627b9d3f570800217e8"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/manifest.json",
+      "git_blob": "846beed5098496e1783908c5ee9a4bbfa93ef46b",
+      "before_sha256": null,
+      "after_sha256": "e49a21422795750aafc9babe3cd4715139df8e8b67707789c2cbb6c490fee91d"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/model-package.json",
+      "git_blob": "1f65f37e5e514305fb9be5983a6de0f053c440a8",
+      "before_sha256": null,
+      "after_sha256": "1c8ef6c2a02d930a097658934c06f8e27eb81f91ef742702fe82d1445a69e18f"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/personal-features-v2.json",
+      "git_blob": "eed3a9d70ad857fff977b27711441b0a40b9d977",
+      "before_sha256": null,
+      "after_sha256": "f93f9575837a1547e7079358db43ec7ad0da5ae296ac5eecb1a902eb5b77a200"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/training/summary.json",
+      "git_blob": "81170f50cc2cf6c814e5b26a227aa0011fe76d43",
+      "before_sha256": null,
+      "after_sha256": "6621c905527eb24946a1d9b68274b7993ef7cbcf0f4c3b9269672826972d9c82"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/upgrade-audit.json",
+      "git_blob": "7a869bdecda472d601e38dd08957ab52cac318d9",
+      "before_sha256": null,
+      "after_sha256": "ca2bdef2f9b4049d9861cd22aadbde239eb1d99867e60a9fec1db3c24fa8787d"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-0/extraction/compact-v3-analysis.json",
+      "git_blob": "6ffb8034b6f01d0b4c5156e44e2e46fb575c402d",
+      "before_sha256": null,
+      "after_sha256": "bf7b83f385fee3df76cbe5895658a6b6a4eeb68092e686907604d2c4d4c15038"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-0/extraction/personal-features-v2.json",
+      "git_blob": "7166b21cd278b0526f3963c967d4c7e5e2d3217c",
+      "before_sha256": null,
+      "after_sha256": "aa383edd9cf716101623240412379743efde405c33be92d265be55a1768bb46a"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-0/extraction/progress.json",
+      "git_blob": "5f7b45966f2997ef973d88b85a4e071585566e3a",
+      "before_sha256": null,
+      "after_sha256": "9657fb4844c62be43e2a1a12a47c9a8d0c6ba4f6114360f564b11aa6a87b75af"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-1/extraction/compact-v3-analysis.json",
+      "git_blob": "d3abc3816bf93c9256531627747cef95403e6c71",
+      "before_sha256": null,
+      "after_sha256": "84936bd68d90b35554a8cc6accd47b4bf968388bc5b32b15d5ef2afe1fc575b1"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-1/extraction/personal-features-v2.json",
+      "git_blob": "d3692133765ce2a83e9cd052b7df43e418996252",
+      "before_sha256": null,
+      "after_sha256": "3258d74a79937b092758400647f0fd8aba7c9a45409abbe7a81583294145c222"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-1/extraction/progress.json",
+      "git_blob": "e715066a4941dd0b2502728493a844e160a25fdc",
+      "before_sha256": null,
+      "after_sha256": "5dc014e0da5068bda9d9117e7bb4a51940b84c5e78074e0f6289633a0cb9bc20"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-2/extraction/compact-v3-analysis.json",
+      "git_blob": "5870bc2e2048915cfcd6601f8ed57c667b7abf1a",
+      "before_sha256": null,
+      "after_sha256": "f1ff5a58ab16e64dc228aaa2eae4e38536fad84aff78fd3e3dcffa71754336a7"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-2/extraction/personal-features-v2.json",
+      "git_blob": "e795dc192260e3a75e4a56e51e436ca1ee17e83f",
+      "before_sha256": null,
+      "after_sha256": "2e629a2c4badfde4d68debcbafee05aa80696ffb8199e597e9d1231fc772d511"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/worker-2/extraction/progress.json",
+      "git_blob": "c5643d472dc9162b11f09b8cdb2767f773f0923a",
+      "before_sha256": null,
+      "after_sha256": "e77dd27021d0745613bb9849eed5d06eb4367fa86bcd7bf7b2b85978fd14c578"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/歌曲特征-1204首-待验证.json",
+      "git_blob": "c4c14e71ccac5cbfe4c997df22bc48b6a90e7568",
+      "before_sha256": null,
+      "after_sha256": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea"
+    },
+    {
+      "path": "catalog-upgrade-2026-10-11/歌曲特征-480首-升级前.json",
+      "git_blob": "c34eb9f46a0176f2e0c218e99201f331b31661b5",
+      "before_sha256": null,
+      "after_sha256": "c840983b58d070f4c720eb5fa63fc973df1307674c59a688a3bbb92962917e90"
+    },
+    {
+      "path": "import_combined_annotations.py",
+      "git_blob": "18426a2bcd9820236db3ba0bf4ad5a77817eca18",
+      "before_sha256": null,
+      "after_sha256": "381d8ea947806a0428a057bc2a233b1ef5450e0ebad44e287ab3260c7d4c8279"
+    },
+    {
+      "path": "import_recording_delivery.py",
+      "git_blob": "24094924e95b2e94ab29d31a7b3ba8e07dff2f5f",
+      "before_sha256": null,
+      "after_sha256": "6026d289c5bbef3b19cf97ef33984657528d3adfec6ba0f25d26001a64fd4dbf"
+    },
+    {
+      "path": "import_supplemental_audio.py",
+      "git_blob": "7633e9be507daa572bffe047dbcf5636a4982c1f",
+      "before_sha256": null,
+      "after_sha256": "1a0c37bf430e52607a4a6a24c98d8adbb062add7d3bed64560193ff3ac8043f8"
+    },
+    {
+      "path": "imports/2026-10-10-Tag-ZMPD联合标注50首正式入档.json",
+      "git_blob": "e29e9a119962adf04607024f2ce70f2397d6d972",
+      "before_sha256": null,
+      "after_sha256": "e92b5b3f30a639a0102a70c33e6e4540f79ecbb5a24198cdadd0c00f607928a9"
+    },
+    {
+      "path": "imports/2026-10-10-剩余90首录制交付凭据.json",
+      "git_blob": "54ece8e2d6621763b0bd6d136e5e77fd971d2f67",
+      "before_sha256": null,
+      "after_sha256": "53d793d59bf915004b1d388e008cf64c1aa08cea0b68c11d028e43ca577154f9"
+    },
+    {
+      "path": "imports/2026-10-10-剩余90首录制正式入档.json",
+      "git_blob": "5fd00943a73905c4c30dfb54499a4d7ea9f65dcc",
+      "before_sha256": null,
+      "after_sha256": "f7c8f34f881c6904271d02ea6d178f65b9cbde450a9f4a93702633f833bdf819"
+    },
+    {
+      "path": "imports/2026-10-10-剩余90首录制正式入档.md",
+      "git_blob": "82afe29a2e85f185c75f0f4ebf6abc7b5d29630f",
+      "before_sha256": null,
+      "after_sha256": "ff866e6a242c50a6e874a9a3d08e73fe89a9f50da823086eb98f4e7e77e56bae"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首交付凭据.json",
+      "git_blob": "4b3843512bdc0da2ca4d98447993a05f85d1b0d3",
+      "before_sha256": null,
+      "after_sha256": "a1b215848c8c44206f194cc8721c6f1c567aeb7999217bf6359b09f56260821a"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首元数据导入.json",
+      "git_blob": "a1a7f12fbab320084c8cc2fa2d6c765faa808c5a",
+      "before_sha256": null,
+      "after_sha256": "e6de09a9c88310c05da7e883ffbcfe463502b214cf7f6241ec42463d7eca13df"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首元数据导入.md",
+      "git_blob": "3e1fa1713b43f0897d19fed7fd7cbf555a5c79a0",
+      "before_sha256": null,
+      "after_sha256": "756e0fab31f588be3886b106b0ad6deed42a99ca6c8f44ea10211ca796e5f2a0"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首入库准备.json",
+      "git_blob": "7f0200890049854d37002dd7674d010ac2c44a18",
+      "before_sha256": null,
+      "after_sha256": "5efa116ed1048c6682dcb121159d58bf3819e31baf5f43a18324e654419d9c54"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首最终核验.json",
+      "git_blob": "7aa848ca9797d6c77d02b28fbe467147771cbbf2",
+      "before_sha256": null,
+      "after_sha256": "aeead59ba1eb9f7f2631d2454afa7c37e3c66bf826373253e917b1f841da50a8"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首正式入档.json",
+      "git_blob": "e99d4a0fc31bb220cfd5f26080293ed0dc841085",
+      "before_sha256": null,
+      "after_sha256": "298abc0793a9d4f7dc908b20ff43f1ca10091eaf28eff746330268ba5f599883"
+    },
+    {
+      "path": "imports/2026-10-12-歌单补充116首正式入档.md",
+      "git_blob": "2c75ebae02556010ce0acbcd09f504d2d62a2dc5",
+      "before_sha256": null,
+      "after_sha256": "e0bf81d01804761fcb8e0247c49bf9c5cb51725c4c7b21debdfd3c36f3048a65"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首交付凭据.json",
+      "git_blob": "0b002c9a70d26cc52dc9c011eda8c5cde5fdd249",
+      "before_sha256": null,
+      "after_sha256": "fdd42d94a015c99ab55afa487991d3229c26e381b191c53d950a7815bf3743e3"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首人工复核.json",
+      "git_blob": "c7c41a2616829c94344a5dc9a6494627f93f4a88",
+      "before_sha256": null,
+      "after_sha256": "d712b260ce6dd99ce39107ff8e2c8f2920022372ab12af0fb6b8ab85340d437e"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首元数据导入.json",
+      "git_blob": "a3fff5e42e855e1fa1f8aaf545fe2bdd439fe029",
+      "before_sha256": null,
+      "after_sha256": "89eb1df2b7246d949557bc85d5ba5dd5ca9b058523615bac3daf4104b91c3aba"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首元数据导入.md",
+      "git_blob": "c8c993a5019ff6f7ae604cfc13094b29d4c2f19a",
+      "before_sha256": null,
+      "after_sha256": "cd6d09d216f9b2361b8270abab276f26eacdb1c8b2a5984e67ea64f21e0a750f"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首入库准备.json",
+      "git_blob": "740608221474f5ba518ddef305654a287fe4b9c6",
+      "before_sha256": null,
+      "after_sha256": "e58834597f9a33b501931f7d08d1babab09c48ee29ea4ba41f3450f1b3375ea5"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首最终核验.json",
+      "git_blob": "7b0b3233da4ed28dfaa47b5581a100f9731770d5",
+      "before_sha256": null,
+      "after_sha256": "a2923843f71d266e9ec38907d0a752db54b5258ccdc7d1b36c55f6444c3a2b9e"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首正式入档.json",
+      "git_blob": "5da9d8afa943d644b3c9e3f6d165f578183c72e3",
+      "before_sha256": null,
+      "after_sha256": "0942583b9e16a24746c1ff4f32644a6b2e99d4fac459e6fdce931e8c784565fc"
+    },
+    {
+      "path": "imports/2026-10-13-歌单补充B03B04-116首正式入档.md",
+      "git_blob": "3aa6d197699bb05c1aead43e9324ecd805a3c584",
+      "before_sha256": null,
+      "after_sha256": "8c7431980556da53ab2aa5248c9153dea3ff3f8abe575820801c8bf7d64a6004"
+    },
+    {
+      "path": "imports/import_B03B04_20261013.py",
+      "git_blob": "695110f1f89428c6d0e890db775b25673e9200b9",
+      "before_sha256": null,
+      "after_sha256": "dbe0d72f0a0036a1154e558e3b203923532dfee636fc0072c6e24165baa4c2a6"
+    },
+    {
+      "path": "imports/verify_116_import.py",
+      "git_blob": "56f71cd117c2ccaccafd558d651dfc879231c441",
+      "before_sha256": null,
+      "after_sha256": "638b0113545b6e88a95c90fc8895101d306516ae562d43e18b3006bc7957bb2c"
+    },
+    {
+      "path": "imports/verify_B03B04_20261013.py",
+      "git_blob": "6e23c9b194f426fac82bab795f216c11aab40409",
+      "before_sha256": null,
+      "after_sha256": "e447c0c66f9310e8efc99d2b8da9464e2631fc383b0cc831e932cdbaf08f7bef"
+    },
+    {
+      "path": "manage_albums.py",
+      "git_blob": "af5271ba2e83105ca10788c43b7e39d6d412a120",
+      "before_sha256": "d8b59d54dd1acd0f3f535f8490c8c45c6f91b7e13bbd4c9a29f09044bd3f44f7",
+      "after_sha256": "9d76259d649796afb39221b0a32ef156fa259a53597636cd95d52c65109a6df6"
+    },
+    {
+      "path": "merge_seventh_batch_catalog.py",
+      "git_blob": "dc7214d7e5afbbdc794b6f34f0cce607b67eee22",
+      "before_sha256": null,
+      "after_sha256": "7ed0f80c2e32cac9f6d1f9237b227766c6ad291ce28aeba725a61ffd04de4fee"
+    },
+    {
+      "path": "merge_sixth_batch_catalog.py",
+      "git_blob": "548cadaf79b6443b268ac52e77aceb29c6c48164",
+      "before_sha256": null,
+      "after_sha256": "59ef5ec9bad25385ea7cfc8a8207a8e8c2a2b6e4db6c38681825a4b6334cae0f"
+    },
+    {
+      "path": "nanze版本-歌曲特征.json",
+      "git_blob": "0e51428617217c5911f490d05ea3184bc0e15e76",
+      "before_sha256": null,
+      "after_sha256": "3a8f19c73248066831de6979794b3999bdf813aa9240a56f05eeb7a75cf00157"
+    },
+    {
+      "path": "qqmusic_playlists.json",
+      "git_blob": "87d6e96a7f39cf795d925defda0977ca81e9a00a",
+      "before_sha256": "f3430c14317a8a2e8f95407e0e69445b84c3e184da33e6433d9065388629c26f",
+      "after_sha256": "887c5321bb4815169e4cc97678eb59d884753c51c075a05d66153cdd023146e7"
+    },
+    {
+      "path": "qqmusic_playlists.md",
+      "git_blob": "69884877c6f32491c6f04eddf7c62b31fe65479e",
+      "before_sha256": "3f2625c759f8f468eefdc1b6a230741a9baa09b7b0397074ce5fc4ee1c5cf387",
+      "after_sha256": "078354a1ad22b8ab8dafb485898b96883299c70ac49268211f61a2167ec70b75"
+    },
+    {
+      "path": "reviews/468首候选曲目录制与入库进度-2026-10-12.json",
+      "git_blob": "bd8f124ad46c13be36654e296060735d5f46e3e4",
+      "before_sha256": null,
+      "after_sha256": "c30efc54a8c35d80fbee0208eccfaa075a63985f7deff2d0ea263f23740a8ea7"
+    },
+    {
+      "path": "reviews/468首候选曲目录制与入库进度-2026-10-12.md",
+      "git_blob": "1dbcb8b32028e14b5107435e2d13a741157b393a",
+      "before_sha256": null,
+      "after_sha256": "29da2f8b6441141d7f29c31d3c7fcda2cdae6961d51df4a9e428f81fbe169e60"
+    },
+    {
+      "path": "reviews/468首候选曲目录制计划-2026-10-11.json",
+      "git_blob": "98c7f69cd37d3023f283b247318695d94f275800",
+      "before_sha256": null,
+      "after_sha256": "95f5acb178b19a74406d9112337510f4a46de9af744bb2a61efe2dc2f6db77a5"
+    },
+    {
+      "path": "reviews/468首候选曲目录制计划-2026-10-11.md",
+      "git_blob": "befe72d5bca0bf71c372b9d278cf2954e28182ce",
+      "before_sha256": null,
+      "after_sha256": "cd0edeca3aac300b29dee3ed6c8ad39dc8a24b037f3a995c3bdb70f6d431fb3e"
+    },
+    {
+      "path": "reviews/两份QQ歌单-咖啡厅艺人及20位例外-2026-10-10.json",
+      "git_blob": "53e487e91c3168a39d27174e7c5b944fc59e5209",
+      "before_sha256": null,
+      "after_sha256": "cd3b22760c041a85e2f1f3d6104d7a67e746a9fa531be0a7da394e3c90252874"
+    },
+    {
+      "path": "reviews/两份QQ歌单-咖啡厅艺人及20位例外-2026-10-10.md",
+      "git_blob": "7a1267536b0c20ed425b5ae736e7c2782c6c55cb",
+      "before_sha256": null,
+      "after_sha256": "077412c1a47b89175064660913d4783415475460528e728c78c691a7046b5e7b"
+    },
+    {
+      "path": "reviews/两份QQ歌单-至少3首艺人与曲目-2026-10-09.md",
+      "git_blob": "3f7a6e9e1cc877f1c8f04cbf40ec155f9c7fd1c8",
+      "before_sha256": null,
+      "after_sha256": "a7027aee693b49b9e389e9ee75a4c325831e2a1a2e1e86bf0445f7df0052b8df"
+    },
+    {
+      "path": "reviews/试听-13首-2026-10-12/README.md",
+      "git_blob": "556ac410f0b81d863e03dade9bc6473275ecbc38",
+      "before_sha256": null,
+      "after_sha256": "853d1f5b7b108000f9b88bc06f594be3105121eb23c026fea85c205414663748"
+    },
+    {
+      "path": "reviews/试听-13首-2026-10-12/verify_audition.py",
+      "git_blob": "36257bb2241745c440620cd6032c86b8cc6433a8",
+      "before_sha256": null,
+      "after_sha256": "fa616fe30eee2375ebbed8d607e6a6b4bdb852c367738ec989c4c7e5f8fb2cb5"
+    },
+    {
+      "path": "reviews/试听-13首-2026-10-12/人工试听决定-2026-10-12.json",
+      "git_blob": "82f9bf6b6f45c5c24375ec400909787811af87ff",
+      "before_sha256": null,
+      "after_sha256": "52ea83603bf59260d3dfb32a00d22bbd95be226b041817fadf948c735bfd8f9e"
+    },
+    {
+      "path": "reviews/试听-13首-2026-10-12/试听-13首.html",
+      "git_blob": "44be40a9c9030f37cf2e0d3e56afb54c19952486",
+      "before_sha256": null,
+      "after_sha256": "826fc8af44c43a7a4bcb526fa468a47a47143ddbcfbe940858e570afb6655ad3"
+    },
+    {
+      "path": "reviews/试听-13首-2026-10-12/试听清单.json",
+      "git_blob": "2ec80092f87711a4f9c11027d63267e208c22277",
+      "before_sha256": null,
+      "after_sha256": "04b24c5e41cb20b3fe2409cd14435972220b0d58db1a60109734db20cca3f083"
+    },
+    {
+      "path": "reviews/试听-22首-2026-10-13/README.md",
+      "git_blob": "d3c3c13a2d3a85f8133b2024c8d34df6c0e9601c",
+      "before_sha256": null,
+      "after_sha256": "0c5888cb8a7198dc6bc0f30d13137a2eab58c6bbe1a1becb06bb73470a792db6"
+    },
+    {
+      "path": "reviews/试听-22首-2026-10-13/verify_audition.py",
+      "git_blob": "83209534ed621030edf468027b5860a08b7e1dc0",
+      "before_sha256": null,
+      "after_sha256": "0b1144a86e105e4479a9f1d59a57e052eaafe75ef0bffe62d2cf511c869a49fa"
+    },
+    {
+      "path": "reviews/试听-22首-2026-10-13/人工试听决定-2026-10-13.json",
+      "git_blob": "005ed5c87d10200f927031dcf9abd8fd5e22833f",
+      "before_sha256": null,
+      "after_sha256": "bf47b7bac3e56b7d3bd0494fd6d06639a0597a64baa3910c23ede18972933e02"
+    },
+    {
+      "path": "reviews/试听-22首-2026-10-13/试听-22首.html",
+      "git_blob": "4787ad6cf4b6cb41a66bafc2d8343edda92b9eec",
+      "before_sha256": null,
+      "after_sha256": "e074eee1b37cf11ea57e7376a225e0c7a282299c9537f2a6dfe618b5a2b2f764"
+    },
+    {
+      "path": "reviews/试听-22首-2026-10-13/试听清单.json",
+      "git_blob": "c038fb927f6a06da6eeb6e3439626ece21865f12",
+      "before_sha256": null,
+      "after_sha256": "b6c34285c1291f6644f2d7a98db5cc5f927831179725ba40f18d4fe90640870f"
+    },
+    {
+      "path": "runtime/history/2026-07/_audio_download_status.json",
+      "git_blob": "4d5729f17fb123a7daad7663452476b2d7e4babd",
+      "before_sha256": null,
+      "after_sha256": "00a5980f866ebf27ee76e08454c8f5ecc9cf24a751931453bffd9a07725854a6"
+    },
+    {
+      "path": "runtime/history/2026-07/_search_progress.json",
+      "git_blob": "bd738b2f7f1a0a7d175d78064f23da65eb1a183c",
+      "before_sha256": null,
+      "after_sha256": "22763dc1093e5d1dcd7e7f7bb6b58d1847c7df8abb2e2eb466770bdef259efb3"
+    },
+    {
+      "path": "runtime/history/2026-10-10-90首入库前待录制清单.json",
+      "git_blob": "07fc6d4130e75539bdd29743e51465e689a2b636",
+      "before_sha256": null,
+      "after_sha256": "72df11e49894d7fef502dde11b8e61c77549cb685ca9742afe182501c98cf601"
+    },
+    {
+      "path": "serve_songbase.py",
+      "git_blob": "649069d30bd50ce69ec988e8f0e7764ac6dd9271",
+      "before_sha256": null,
+      "after_sha256": "c26965e31d972cf937efe94398b9db501e668edaf478db4e430777b380e40a66"
+    },
+    {
+      "path": "song_base_browser.html",
+      "git_blob": "5ad87d07c05803c4066267c5ad31b4c0bcbe40c3",
+      "before_sha256": "6d5916a87bfbc4fec6720addb9dfff49e1bcfb84605f67efac1f62ce433e4c13",
+      "after_sha256": "c7a35cc648a772e058b62452558139c5337af425a00091dec1ebc6b257e4d198"
+    },
+    {
+      "path": "song_base_by_artist.json",
+      "git_blob": "21aff441d8e3237dfcc83a09958a1a6a4909b8ed",
+      "before_sha256": "6e8fc96767eaeb498fa054f299c08faef06fc4b987bd13b8a3d9f932771ccb2a",
+      "after_sha256": "351fe9a977a1b2a2b2b48f9221850c3fbd566d34ba1bcc5fd0f2b1989401e836"
+    },
+    {
+      "path": "song_base_by_artist.md",
+      "git_blob": "8d3017811fac8f657218ab2d9c8afa6edeecab20",
+      "before_sha256": "4100ee8f5d46792e7996d9359ed581c1a09cf50561f264c224f3ad6e9916f31d",
+      "after_sha256": "f80c4b350e9fb334bde83f5de6ad09005690030d2b2c641185679b7ff03680bb"
+    },
+    {
+      "path": "song_combined_annotation.html",
+      "git_blob": "8fc53a6ad694fa0de3d2c83090ab755fe674ce00",
+      "before_sha256": null,
+      "after_sha256": "17b64288b1acedd853c1b3f12a74b8c21f8fd3d7068d7c74129434aa6d5f69aa"
+    },
+    {
+      "path": "song_identity_aliases.json",
+      "git_blob": "21b3fc9cfe597829d20a4a445c0916e72afaa09a",
+      "before_sha256": null,
+      "after_sha256": "fc2f616927ced1fde7038e60672471a00bf0558dbe97bae526caff0803f2dd7c"
+    },
+    {
+      "path": "song_manual_tagging.html",
+      "git_blob": "4da0c97fdce69a1511b65c3ede44b1ddaba200c2",
+      "before_sha256": "a9ccb87285fb8596bc5e4badbc18f5ee5094676dbeb471e352bf028b77d0939e",
+      "after_sha256": "623d24bb47ccf1f61745e09f3893d37a2817c17bf0b047ccfaa95220387c8645"
+    },
+    {
+      "path": "song_tag_candidate_report.md",
+      "git_blob": "928a0b7580be398f534f12c71726c78ed7cbb5ce",
+      "before_sha256": "662fd799ef4faa811e2087cbeffc6055ca0989e2d997df7ea15765bd3f581adf",
+      "after_sha256": "751c3f75bf480db84191521a1444a5ac19b132d7a642eb4a1f9d4ca67ef86631"
+    },
+    {
+      "path": "song_tag_candidates.json",
+      "git_blob": "2018715e98abca1c3969de62a83e3a05ccba8681",
+      "before_sha256": "d1627f60db3cefe02f186ad68ebff52245f1f4ca92df07c33977b315ef0c057c",
+      "after_sha256": "6c0624eff0b11c63f1dcbad4f789ba60a1c9f4a7b23c3ab570ee7183aba985bb"
+    },
+    {
+      "path": "song_tags.json",
+      "git_blob": "374d2d3158e91751dbfd40077c1025b5000be40c",
+      "before_sha256": "4af673bf57ae2b7d30b5f85ebd1a236f3b26e9f3b46dfab1363c490bea2d5dd1",
+      "after_sha256": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8"
+    },
+    {
+      "path": "song_tags_browser.html",
+      "git_blob": "f8076d1c55897ee710d3272ccf77e91cc0fe1749",
+      "before_sha256": "6d97756983da9b7004907b331e9d8108418066390a4f78e1fd603f652f653d88",
+      "after_sha256": "730adba783a8497f7672987765b40bef5f7f05b0b9ec1f49a7f4fffdfffa7e21"
+    },
+    {
+      "path": "test_build_song_tags_browser.py",
+      "git_blob": "f51aff441819eeee5f9865835418ddd5ac52ee9b",
+      "before_sha256": null,
+      "after_sha256": "d6fddc3dd7d6935f175d9ca4b807fa0f19d7128fc53aa9c16bbe268c9c5f0331"
+    },
+    {
+      "path": "test_catalog_1204_browser.cjs",
+      "git_blob": "ace54b6b8241cad87caf4b356daf6af5cb1eb694",
+      "before_sha256": null,
+      "after_sha256": "5a6f4824f3a509db6feaafa0d48b857d5173cefbe739dda33ebea8fabc986603"
+    },
+    {
+      "path": "test_catalog_identity.py",
+      "git_blob": "100c3b2ed43273e7daee51e51841a2efc3ab7eea",
+      "before_sha256": null,
+      "after_sha256": "5ce26bba1afde3a6094ef955952b1fb87725a002743d108b9f53ee16bc1d56e5"
+    },
+    {
+      "path": "test_recording_provenance.py",
+      "git_blob": "79c6aaf6c178145144dcc0fcd8a3fc80735f3f24",
+      "before_sha256": null,
+      "after_sha256": "53bb5dec418edf9a8f28e7d8ecd77c69ce71d94642a859ff435fd7c16f89e63e"
+    },
+    {
+      "path": "update_report_snapshots.py",
+      "git_blob": "87bb192f5218b42e273e47b4aaccc69d377e33a4",
+      "before_sha256": null,
+      "after_sha256": "8eaa2c4d153d56ab99c9fb9dd044a79c5e67c66bf8c01c3ae6e6b0d91b051ff7"
+    },
+    {
+      "path": "upgrade_catalog_1204.py",
+      "git_blob": "808d14862ba82146a9feff08d8837d940474dc44",
+      "before_sha256": null,
+      "after_sha256": "000fd24c5e5a81fe9713058c0747a69041778ca2465efe4fdbf018c979f37175"
+    },
+    {
+      "path": "待录制清单.json",
+      "git_blob": "d96af0588733bc903f43210c57a4d9b1a1ff6533",
+      "before_sha256": null,
+      "after_sha256": "70428752163859860bc6592e325a433f2fd3d4a7b6bc86bced1fa63be1376a55"
+    },
+    {
+      "path": "待录制清单.md",
+      "git_blob": "8d1cdcda7d1c5046f9538cbbfabd75b00dd2a3e7",
+      "before_sha256": null,
+      "after_sha256": "e7666255c7041921e74ced6ff45b46f391a224e801aa70a3aa2a3f28ac1be87d"
+    },
+    {
+      "path": "待舍弃归档清单.json",
+      "git_blob": "27369a9a581be1df658d5b21618377d6ff2afe9e",
+      "before_sha256": null,
+      "after_sha256": "372810ec306f42be2eb010fb75418578f80a926db357bd5016182086f3bd43a5"
+    },
+    {
+      "path": "待重录清单.json",
+      "git_blob": "a54fb28cdc1b56a01981f5fab0740ab34c599228",
+      "before_sha256": null,
+      "after_sha256": "a7350c8f40a91a13fc58df12004d143bbc28ed34f7c73a6e38d6f92aa23ef1ca"
+    },
+    {
+      "path": "曲库风格与语种报告.md",
+      "git_blob": "807c88060d8f4a0280514c6564239cd1d46a218d",
+      "before_sha256": "ab8390fe60daaf1be62bbdf0fd890e9f9b8753cfcdc44d98a0a33c23b1986c05",
+      "after_sha256": "d91ba0cc926f1c4d688e852430b673dee35a2629df4e4735f0b5ae6937e46563"
+    },
+    {
+      "path": "歌曲特征.json",
+      "git_blob": "c4c14e71ccac5cbfe4c997df22bc48b6a90e7568",
+      "before_sha256": null,
+      "after_sha256": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea"
+    },
+    {
+      "path": "歌曲特征库-1204首升级说明.md",
+      "git_blob": "c7600937461099ba6ec7f42ef1ecc6afe2f8b54c",
+      "before_sha256": null,
+      "after_sha256": "7a74ce228cccdec884058f187a640cdb925e0abaf85678de23e8fa6b10d79917"
+    },
+    {
+      "path": "第七批ZMPD合并审计.json",
+      "git_blob": "401d58f890cb0092023f741a010a715e25559565",
+      "before_sha256": null,
+      "after_sha256": "553bc951ca7dbefedbac3c46bb4b7b19058d42a335addc64d66fd05b641c7b87"
+    },
+    {
+      "path": "第六批ZMPD合并审计.json",
+      "git_blob": "a79acef15fefba9c3892ef8cbb59fd91b3f67f0a",
+      "before_sha256": null,
+      "after_sha256": "6a744d7f6dd24c1eef310e9e2971980cff97a1331ac02602b470579e49090333"
+    }
+  ],
+  "related_data_restored": [
+    {
+      "path": "ZMPD-模型预测开发/manifests/training-manifest.json",
+      "git_blob": "58f967e6e010b648ce75e1f9804de411b4420267",
+      "before_sha256": null,
+      "after_sha256": "aaf87b3ffc5b2c2d45ca7ae40bf92fe0be1781e5a150ba04e162edb7fc5a6dc4"
+    },
+    {
+      "path": "Flowset-个人审美打标-Demo/Flowset-个人审美样本·Tag-ZMPD联合标注14首-郑卡罗-2026-10-09.json",
+      "git_blob": "b1206f745dc0d850740478468d2e412163f1adad",
+      "before_sha256": null,
+      "after_sha256": "d3cbee7f54d93adb0e175d8bae9b3c81ddccdd6f347dc443755e50b56a942a82"
+    },
+    {
+      "path": "Flowset-个人审美打标-Demo/Flowset-个人审美样本·Tag-ZMPD联合标注50首-郑卡罗-2026-10-10.json",
+      "git_blob": "bd7ccf10a984e07a0240e380e74e9a03879232e0",
+      "before_sha256": null,
+      "after_sha256": "393877b7d163a4c7f08440fcb1655e25fa42cb960741b20491d39a904413e88a"
+    },
+    {
+      "path": "Flowset-个人审美打标-Demo/flowset_transition_analysis_rows.csv",
+      "git_blob": "91afbd290824cfaac809b95edac0d805ed6ef4bd",
+      "before_sha256": "03ba5d3c00a0e02677694e03569721441134f57e2b7bfb98abae331787e9707c",
+      "after_sha256": "c4022fe58f494c5caa90e4c8c8335316fc3d7403c08b159130a975b38536e2b1"
+    }
+  ],
+  "desktop_mirror_updated": [
+    {
+      "path": "数据/song_base_by_artist.json",
+      "sha256": "351fe9a977a1b2a2b2b48f9221850c3fbd566d34ba1bcc5fd0f2b1989401e836"
+    },
+    {
+      "path": "数据/song_tags.json",
+      "sha256": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8"
+    },
+    {
+      "path": "数据/song_tag_candidates.json",
+      "sha256": "6c0624eff0b11c63f1dcbad4f789ba60a1c9f4a7b23c3ab570ee7183aba985bb"
+    },
+    {
+      "path": "报告/song_base_by_artist.md",
+      "sha256": "f80c4b350e9fb334bde83f5de6ad09005690030d2b2c641185679b7ff03680bb"
+    },
+    {
+      "path": "报告/song_tag_candidate_report.md",
+      "sha256": "751c3f75bf480db84191521a1444a5ac19b132d7a642eb4a1f9d4ca67ef86631"
+    },
+    {
+      "path": "报告/曲库风格与语种报告.md",
+      "sha256": "d91ba0cc926f1c4d688e852430b673dee35a2629df4e4735f0b5ae6937e46563"
+    },
+    {
+      "path": "工具/song_base_browser.html",
+      "sha256": "c7a35cc648a772e058b62452558139c5337af425a00091dec1ebc6b257e4d198"
+    },
+    {
+      "path": "工具/song_tags_browser.html",
+      "sha256": "730adba783a8497f7672987765b40bef5f7f05b0b9ec1f49a7f4fffdfffa7e21"
+    },
+    {
+      "path": "工具/song_manual_tagging.html",
+      "sha256": "623d24bb47ccf1f61745e09f3893d37a2817c17bf0b047ccfaa95220387c8645"
+    },
+    {
+      "path": "工具/song_combined_annotation.html",
+      "sha256": "17b64288b1acedd853c1b3f12a74b8c21f8fd3d7068d7c74129434aa6d5f69aa"
+    }
+  ],
+  "verification": {
+    "json_files_parsed": 273,
+    "library": 1553,
+    "formal_tags": 1215,
+    "untagged": 338,
+    "playable": 1550,
+    "new_import_hashes_verified": 232,
+    "matched_human_zmpd": 435,
+    "remaining_candidates_not_recorded": 234,
+    "pages": {
+      "song_tags_browser.html": {
+        "tracks": 1553,
+        "javascript_syntax": "passed",
+        "data": "passed"
+      },
+      "song_base_browser.html": {
+        "tracks": 1553,
+        "javascript_syntax": "passed",
+        "data": "passed"
+      },
+      "song_manual_tagging.html": {
+        "tracks": 338,
+        "javascript_syntax": "passed",
+        "data": "passed"
+      },
+      "song_combined_annotation.html": {
+        "tracks": 1122,
+        "javascript_syntax": "passed",
+        "data": "passed"
+      }
+    },
+    "desktop_mirror": "passed",
+    "audio_files_modified": 0
+  }
+}

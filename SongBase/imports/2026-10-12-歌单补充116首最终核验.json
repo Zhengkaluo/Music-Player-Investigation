@@ -1,0 +1,54 @@
+{
+  "schema_version": "songbase.recording-import-final-audit/v1",
+  "date": "2026-10-12",
+  "pages": [
+    {
+      "page": "song_base_browser.html",
+      "http_status": 200,
+      "javascript_syntax": "passed"
+    },
+    {
+      "page": "song_tags_browser.html",
+      "http_status": 200,
+      "javascript_syntax": "passed"
+    },
+    {
+      "page": "song_manual_tagging.html",
+      "http_status": 200,
+      "javascript_syntax": "passed"
+    },
+    {
+      "page": "song_combined_annotation.html",
+      "http_status": 200,
+      "javascript_syntax": "passed"
+    }
+  ],
+  "old_playlist_snapshots_preserved": true,
+  "source_playlists": 10,
+  "source_memberships": 2695,
+  "imported": 116,
+  "remaining_not_recorded": 350,
+  "unavailable_candidates": 2,
+  "json_markdown_consistency": "passed",
+  "main_library_tracks": 1437,
+  "main_artist_groups": 535,
+  "local_playable_tracks": 1434,
+  "nonempty_audio_files": 1458,
+  "automatic_accepted": 113,
+  "manual_approved_exceptions": 3,
+  "tail_trimmed": 4,
+  "source_stage_library_hashes": "116 passed",
+  "new_audio_range_requests": {
+    "checked": 116,
+    "status": 206
+  },
+  "original_13_audition_preservation": "passed",
+  "original_library_entries_preserved": true,
+  "protected_tag_zmpd_catalog_files": "unchanged",
+  "formal_tags": 1215,
+  "untagged_without_candidates": 222,
+  "remaining_main_library_recordable": 0,
+  "remaining_main_library_awaiting_import": 0,
+  "snapshot_directory": "archive/snapshots/playlist-expansion/2026-10-12-116首入库前",
+  "validation_command": "python3 SongBase/imports/verify_116_import.py http://127.0.0.1:8770"
+}

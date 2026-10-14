@@ -1,0 +1,3383 @@
+{
+  "schemaVersion": "flowset.qq-recording-delivery/v1",
+  "expected": 116,
+  "accepted": 113,
+  "manualApprovedExceptions": 3,
+  "deliveryMode": "flat-mp3",
+  "destination": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-12-歌单补充116首验收音源",
+  "created_at": "2026-10-12",
+  "sourceBatch": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11",
+  "reviewSource": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/dashboard-review-decisions.json",
+  "tracks": [
+    {
+      "id": "000SOyer1d47h2",
+      "title": "幸存者",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 232,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000SOyer1d47h2",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "幸存者 - 椅子乐团 The Chairs.mp3",
+          "sha256": "6585ebb574eaea9aed5da3b3b7949b6bed655c0c907d2a115df917ae6c941a98"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/幸存者 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "6585ebb574eaea9aed5da3b3b7949b6bed655c0c907d2a115df917ae6c941a98",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000SOyer1d47h2 幸存者_20261011-234616-832820.wav",
+      "sourceWavSha256": "454aa697552a0f8f7c3b399f07f675bfd3474e0ed6f4f389ca06f2c53d5950f5",
+      "mp3": {
+        "peakDbFS": -1.927573,
+        "durationSeconds": 233.405147,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004LDQ9a1E9IxH",
+      "title": "Sparklers In The Rain",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 244,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004LDQ9a1E9IxH",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Sparklers In The Rain - 椅子乐团 The Chairs.mp3",
+          "sha256": "09627f5b6b3344caf26e82af67590b8d11e39962fcf0c3582e97a908e8fd7e8b"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Sparklers In The Rain - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "09627f5b6b3344caf26e82af67590b8d11e39962fcf0c3582e97a908e8fd7e8b",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004LDQ9a1E9IxH Sparklers In The Rain_20261011-235018-828611.wav",
+      "sourceWavSha256": "fc21948048bbce848810041c5b78ef432cb07aa2459055f877c116bf92affbbc",
+      "mp3": {
+        "peakDbFS": -1.753445,
+        "durationSeconds": 245.134127,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0013rOTn0MlLu2",
+      "title": "日常的镜头",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 252,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0013rOTn0MlLu2",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "日常的镜头 - 椅子乐团 The Chairs.mp3",
+          "sha256": "e91378c8140299875fd6591c88d67d0b3be1437214d5012735a144e63bc4b445"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/日常的镜头 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "e91378c8140299875fd6591c88d67d0b3be1437214d5012735a144e63bc4b445",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0013rOTn0MlLu2 日常的镜头_20261011-235432-870091.wav",
+      "sourceWavSha256": "b7bb4775f8d784f65ca2d6dbf82e5606de13cc2e392533e742bfa814a5465c98",
+      "mp3": {
+        "peakDbFS": -1.882083,
+        "durationSeconds": 252.500658,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000Ruzp13WbdUP",
+      "title": "树屋",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 213,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000Ruzp13WbdUP",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "树屋 - 椅子乐团 The Chairs.mp3",
+          "sha256": "e451fb82715ff74a3765fb1368edeccc015b5c8ac37fbc2955406b4dda3b498f"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/树屋 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "e451fb82715ff74a3765fb1368edeccc015b5c8ac37fbc2955406b4dda3b498f",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000Ruzp13WbdUP 树屋_20261011-235853-810644.wav",
+      "sourceWavSha256": "d3ac29211429a4bf2357c30cda58f8d2d62be30f9478d9df777a5c9cb752ed66",
+      "mp3": {
+        "peakDbFS": -1.841856,
+        "durationSeconds": 213.813311,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003HbULt3PNvyI",
+      "title": "Maybe Maybe",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 212,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003HbULt3PNvyI",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Maybe Maybe - 椅子乐团 The Chairs.mp3",
+          "sha256": "9bfb60faa657ec9ad172e842ec3c6afcea04e970b0af3e7db5615d21bdca15a3"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Maybe Maybe - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "9bfb60faa657ec9ad172e842ec3c6afcea04e970b0af3e7db5615d21bdca15a3",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003HbULt3PNvyI Maybe Maybe_20261012-000235-230593.wav",
+      "sourceWavSha256": "a49d393ce09bdc7a2f5c891ec6f39af81a0512e4f835a0539a997c5faa82d627",
+      "mp3": {
+        "peakDbFS": -1.923774,
+        "durationSeconds": 212.768413,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "00274d6N1yo41u",
+      "title": "Dreaming With You",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 230,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/00274d6N1yo41u",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Dreaming With You - 椅子乐团 The Chairs.mp3",
+          "sha256": "158d7f1e6761a95c99434fdd2609e06f510461849e0887404c09ad90688f5fab"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Dreaming With You - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "158d7f1e6761a95c99434fdd2609e06f510461849e0887404c09ad90688f5fab",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/00274d6N1yo41u Dreaming With You_20261012-000616-383854.wav",
+      "sourceWavSha256": "5937c429781411e634b00d91d967d3bce3d4404fa160bda7266288921a2f764e",
+      "mp3": {
+        "peakDbFS": -2.816711,
+        "durationSeconds": 230.897392,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000MPjlp063Dgw",
+      "title": "Archie's Funeral",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 174,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000MPjlp063Dgw",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Archie's Funeral - 椅子乐团 The Chairs.mp3",
+          "sha256": "5899f23d2d1d59223fe4285f33f8674bf09d6c85965d79f12ea580d5c776fafe"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Archie's Funeral - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "5899f23d2d1d59223fe4285f33f8674bf09d6c85965d79f12ea580d5c776fafe",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000MPjlp063Dgw Archie's Funeral_20261012-001014-976403.wav",
+      "sourceWavSha256": "3188ae25c6722f336cd81ed9172873a7c5f07d0175ef46ba4fb883797bed6296",
+      "mp3": {
+        "peakDbFS": -2.66709,
+        "durationSeconds": 175.413311,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003DOYuB12AScg",
+      "title": "进入下一层新的梦之前",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 165,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003DOYuB12AScg",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "进入下一层新的梦之前 - 椅子乐团 The Chairs.mp3",
+          "sha256": "2ec4764ca89fa2121a14c5d2c01bef5133b8c20bbdf55b858e5affade96064f4"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/进入下一层新的梦之前 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "2ec4764ca89fa2121a14c5d2c01bef5133b8c20bbdf55b858e5affade96064f4",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003DOYuB12AScg 进入下一层新的梦之前_20261012-001317-142528.wav",
+      "sourceWavSha256": "cbf22899dcc4fd050571fa068b4d27648f9029683f1606f7c4c62671c77eb439",
+      "mp3": {
+        "peakDbFS": -2.148973,
+        "durationSeconds": 165.956984,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001q9bHH3J1zFh",
+      "title": "The Great Escape Of Our Time",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 192,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001q9bHH3J1zFh",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "The Great Escape Of Our Time - 椅子乐团 The Chairs.mp3",
+          "sha256": "c4e9c4f6b0b4082717ee64891f7189171f029651ad95d55cfb20810196968bf9"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/The Great Escape Of Our Time - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "c4e9c4f6b0b4082717ee64891f7189171f029651ad95d55cfb20810196968bf9",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001q9bHH3J1zFh The Great Escape Of Our Time_20261012-001610-451251.wav",
+      "sourceWavSha256": "1c0624174979563aa00412e73c4bdd497f3a53d67d0e406cb929bf4b36a4c26a",
+      "mp3": {
+        "peakDbFS": -1.489504,
+        "durationSeconds": 193.176576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0042tAkF1k2Nji",
+      "title": "风景",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 370,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0042tAkF1k2Nji",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "风景 - 椅子乐团 The Chairs.mp3",
+          "sha256": "5972e219d778c5a9dabf10ea0d6c1dde1f5b626d8bf056cd61701b54ddbde05a"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/风景 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "5972e219d778c5a9dabf10ea0d6c1dde1f5b626d8bf056cd61701b54ddbde05a",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0042tAkF1k2Nji 风景_20261012-001930-890831.wav",
+      "sourceWavSha256": "29d0522e6f2a9ab271dbd33913c7ba3ab856176b1b626c555299d44de66b6e71",
+      "mp3": {
+        "peakDbFS": -1.419139,
+        "durationSeconds": 370.704739,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000yINPY10BFeP",
+      "title": "给 来自月球的L",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 180,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000yINPY10BFeP",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "给 来自月球的L - 椅子乐团 The Chairs.mp3",
+          "sha256": "d45071f23249fbc50e724a4757a71e3190b1108c1ed021c05ad72061b9f7c1b6"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/给 来自月球的L - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "d45071f23249fbc50e724a4757a71e3190b1108c1ed021c05ad72061b9f7c1b6",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000yINPY10BFeP 给 来自月球的L_20261012-002552-283705.wav",
+      "sourceWavSha256": "d9c57a79e99422708cd0d0e8dff3b49c754f629fa4b1a20e3374877617955d1c",
+      "mp3": {
+        "peakDbFS": -2.615135,
+        "durationSeconds": 181.05576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "00368Hs82kwOia",
+      "title": "夏日最美的三十张拍立得相片",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 200,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/00368Hs82kwOia",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "夏日最美的三十张拍立得相片 - 椅子乐团 The Chairs.mp3",
+          "sha256": "224348ce9b26ba963af8d9d28eea04c4dd9e9a321d66e4315f9e428c35fa453b"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/夏日最美的三十张拍立得相片 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "224348ce9b26ba963af8d9d28eea04c4dd9e9a321d66e4315f9e428c35fa453b",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/00368Hs82kwOia 夏日最美的三十张拍立得相片_20261012-002901-161274.wav",
+      "sourceWavSha256": "e26d76de80c370f6021953bd423c56fc570b8fa3372409622d5ae34b96565493",
+      "mp3": {
+        "peakDbFS": -2.387001,
+        "durationSeconds": 200.699841,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000VjWHG34Xsuk",
+      "title": "岛",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 276,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000VjWHG34Xsuk",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "岛 - 椅子乐团 The Chairs.mp3",
+          "sha256": "70a31bd2565bcd825747305e13b56722d74727eca44afbc5994891c09c3a870c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/岛 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "70a31bd2565bcd825747305e13b56722d74727eca44afbc5994891c09c3a870c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000VjWHG34Xsuk 岛_20261012-003229-333420.wav",
+      "sourceWavSha256": "f67ba36d77209f3f93cff3316cf5a83458cfa20c296f76c04faececcc3ed8fa9",
+      "mp3": {
+        "peakDbFS": -1.952661,
+        "durationSeconds": 277.290862,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004IIRyP25kG3F",
+      "title": "城市潜水",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 211,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004IIRyP25kG3F",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "城市潜水 - 椅子乐团 The Chairs.mp3",
+          "sha256": "eed26270d6e3f4974957cd5549b29dcc2346b6fc7991d38c1fec7d5d4bb793ff"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/城市潜水 - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "eed26270d6e3f4974957cd5549b29dcc2346b6fc7991d38c1fec7d5d4bb793ff",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004IIRyP25kG3F 城市潜水_20261012-003715-640414.wav",
+      "sourceWavSha256": "8146d7f9bb54127af1eb9b85893e2c98e15065cf77a3b5056541878bbf579245",
+      "mp3": {
+        "peakDbFS": -1.791212,
+        "durationSeconds": 211.77576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002ahqWI3x0nD2",
+      "title": "后山舞曲",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 201,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002ahqWI3x0nD2",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "后山舞曲 - 椅子乐团 The Chairs.mp3",
+          "sha256": "8aaaf5ac79b933c172c093f60b03ac8dff68e5e1dc1b5a3ed3b18f8912d843f8"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/002ahqWI3x0nD2-trimmed-tail-1s.mp3",
+      "sourceMp3Sha256": "8aaaf5ac79b933c172c093f60b03ac8dff68e5e1dc1b5a3ed3b18f8912d843f8",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/002ahqWI3x0nD2-trimmed-tail-1s.wav",
+      "sourceWavSha256": "f9fe8ca353534695b5d1f0da8d43a763b8c8df0b507b03fdd277f7d1cf5261d4",
+      "mp3": {
+        "peakDbFS": -1.548906,
+        "durationSeconds": 201.143923,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 1,
+      "userReviewed": true
+    },
+    {
+      "id": "000p2ckA3glPhP",
+      "title": "Paradise... How Far?",
+      "artist": "椅子乐团 The Chairs",
+      "duration": 267,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000p2ckA3glPhP",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Paradise... How Far_ - 椅子乐团 The Chairs.mp3",
+          "sha256": "298a0b2208782126aed504e7254f1caccba227807d835cc4f6b0b5d532c814f7"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Paradise... How Far_ - 椅子乐团 The Chairs.mp3",
+      "sourceMp3Sha256": "298a0b2208782126aed504e7254f1caccba227807d835cc4f6b0b5d532c814f7",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000p2ckA3glPhP Paradise... How Far__20261012-004423-059841.wav",
+      "sourceWavSha256": "9bebbc64e8116760335a2391c2c5682e1651d2e7b26cbea8a79057d602db59dd",
+      "mp3": {
+        "peakDbFS": -1.854602,
+        "durationSeconds": 268.148005,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0021DfBb0ork24",
+      "title": "浪费一整天",
+      "artist": "宇宙人",
+      "duration": 223,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0021DfBb0ork24",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "浪费一整天 - 宇宙人.mp3",
+          "sha256": "f8f31d7b31694727e0c04dc23f39b6d1a819201f91e4d679d9fd5c7fca81ce5e"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/浪费一整天 - 宇宙人.mp3",
+      "sourceMp3Sha256": "f8f31d7b31694727e0c04dc23f39b6d1a819201f91e4d679d9fd5c7fca81ce5e",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0021DfBb0ork24 浪费一整天_20261012-004900-286799.wav",
+      "sourceWavSha256": "2fc19c91ddab6e88709dcd25040fa0a64aafb5cf33585c56eca10f8ba61c9b56",
+      "mp3": {
+        "peakDbFS": -2.270613,
+        "durationSeconds": 223.870454,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002QcK7H0PM1jb",
+      "title": "两人舞",
+      "artist": "宇宙人",
+      "duration": 245,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002QcK7H0PM1jb",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "两人舞 - 宇宙人.mp3",
+          "sha256": "08e07dd2ff7ce60a701faad70f2b02378f02cd12281bd7c6295208ecedb372ba"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002QcK7H0PM1jb 两人舞_20261012-005251-994798.mp3",
+      "sourceMp3Sha256": "08e07dd2ff7ce60a701faad70f2b02378f02cd12281bd7c6295208ecedb372ba",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002QcK7H0PM1jb 两人舞_20261012-005251-994798.wav",
+      "sourceWavSha256": "704269c6f29c2902f31485d6e4930e0b77c07279956821b728f3f19a212811f5",
+      "mp3": {
+        "peakDbFS": -1.877005,
+        "durationSeconds": 246.518617,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "0035yqBp1lhVtZ",
+      "title": "不简单",
+      "artist": "宇宙人",
+      "duration": 211,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0035yqBp1lhVtZ",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "不简单 - 宇宙人.mp3",
+          "sha256": "17f1f4199ffc8ffcda9912ad93a941bab5acac5d11f3b49fe5889492a0d39b76"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/不简单 - 宇宙人.mp3",
+      "sourceMp3Sha256": "17f1f4199ffc8ffcda9912ad93a941bab5acac5d11f3b49fe5889492a0d39b76",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0035yqBp1lhVtZ 不简单_20261012-005705-386298.wav",
+      "sourceWavSha256": "90f8460aec7ff3b1f097a1134f457d0d8937fc305a3a34432ad41dbbcb9ee9fc",
+      "mp3": {
+        "peakDbFS": -2.393225,
+        "durationSeconds": 212.245964,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001daVHr4QPiwA",
+      "title": "无所事事",
+      "artist": "宇宙人",
+      "duration": 301,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001daVHr4QPiwA",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "无所事事 - 宇宙人.mp3",
+          "sha256": "1196fd66e7132d403b44d6d1459ac64af588e4f4bbc86658a0a378b93dfef74c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/无所事事 - 宇宙人.mp3",
+      "sourceMp3Sha256": "1196fd66e7132d403b44d6d1459ac64af588e4f4bbc86658a0a378b93dfef74c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001daVHr4QPiwA 无所事事_20261012-010045-381547.wav",
+      "sourceWavSha256": "3e78baaf732bb8ef447b8c5ad6c25696de8feadf993bd8090eb9464567ed2201",
+      "mp3": {
+        "peakDbFS": -2.467773,
+        "durationSeconds": 301.845964,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004CLghd1I9uBK",
+      "title": "心向夏天",
+      "artist": "宇宙人",
+      "duration": 198,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004CLghd1I9uBK",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "心向夏天 - 宇宙人.mp3",
+          "sha256": "95573691b542e70e968426998749c8aa82fd0f80eaa3a8a2a7bcc648471e400d"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/心向夏天 - 宇宙人.mp3",
+      "sourceMp3Sha256": "95573691b542e70e968426998749c8aa82fd0f80eaa3a8a2a7bcc648471e400d",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004CLghd1I9uBK 心向夏天_20261012-010556-469749.wav",
+      "sourceWavSha256": "f371221d227eba9ec7241593c6e02a8728c040d43a15f5b88e6b723b48392afc",
+      "mp3": {
+        "peakDbFS": -1.674403,
+        "durationSeconds": 198.610045,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000oW60e4OTCxd",
+      "title": "蓝色的你",
+      "artist": "宇宙人",
+      "duration": 240,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000oW60e4OTCxd",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "蓝色的你 - 宇宙人.mp3",
+          "sha256": "eafd98f7153bace5c61ad9a919c27056082b5def0c5de57f20bb7f01f4312fcb"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/蓝色的你 - 宇宙人.mp3",
+      "sourceMp3Sha256": "eafd98f7153bace5c61ad9a919c27056082b5def0c5de57f20bb7f01f4312fcb",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000oW60e4OTCxd 蓝色的你_20261012-010922-176216.wav",
+      "sourceWavSha256": "e84c5afc6135e06f86080b9a429ccd11b3f7a2903005783b855c19475e8de107",
+      "mp3": {
+        "peakDbFS": -1.329139,
+        "durationSeconds": 240.876168,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0049zSIN15vTkZ",
+      "title": "一万小时",
+      "artist": "宇宙人",
+      "duration": 301,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0049zSIN15vTkZ",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "一万小时 - 宇宙人.mp3",
+          "sha256": "074735f21766d1a53fff504780450da07e2d12c1deb1b19e49f983f514407f48"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/一万小时 - 宇宙人.mp3",
+      "sourceMp3Sha256": "074735f21766d1a53fff504780450da07e2d12c1deb1b19e49f983f514407f48",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0049zSIN15vTkZ 一万小时_20261012-011331-437195.wav",
+      "sourceWavSha256": "2345720ed196d397673513c908fce198457f85df1e2fa3f125ea8a3d443e4000",
+      "mp3": {
+        "peakDbFS": -1.643827,
+        "durationSeconds": 301.924331,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000ICYHO2drsye",
+      "title": "两人雨天",
+      "artist": "宇宙人",
+      "duration": 286,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000ICYHO2drsye",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "两人雨天 - 宇宙人.mp3",
+          "sha256": "1be4bad5cc07c2c4985ea7666fb3d065f508b989b44236731cb11be781571f58"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/两人雨天 - 宇宙人.mp3",
+      "sourceMp3Sha256": "1be4bad5cc07c2c4985ea7666fb3d065f508b989b44236731cb11be781571f58",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000ICYHO2drsye 两人雨天_20261012-011842-795886.wav",
+      "sourceWavSha256": "60e935bc6bd8f7d1c3efac3f11b4b14590704ea0b95689628e93c02b00005216",
+      "mp3": {
+        "peakDbFS": -2.371353,
+        "durationSeconds": 286.773311,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0029THp44clzl7",
+      "title": "好野",
+      "artist": "宇宙人",
+      "duration": 252,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0029THp44clzl7",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "好野 - 宇宙人.mp3",
+          "sha256": "9e9015ddbc6cd84e76fd094efae22210dca711165ebc92bf309c618298f3c7ff"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/好野 - 宇宙人.mp3",
+      "sourceMp3Sha256": "9e9015ddbc6cd84e76fd094efae22210dca711165ebc92bf309c618298f3c7ff",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0029THp44clzl7 好野_20261012-012338-729744.wav",
+      "sourceWavSha256": "c3e562528417806be1aea896c4a8fdaa4d939cc4a0c436d796cfe58bed49bef5",
+      "mp3": {
+        "peakDbFS": -1.811707,
+        "durationSeconds": 252.996984,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003zbe2g2eKveF",
+      "title": "那你呢",
+      "artist": "宇宙人",
+      "duration": 262,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003zbe2g2eKveF",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "那你呢 - 宇宙人.mp3",
+          "sha256": "698f6dbe7cc708ad0f46c6571c9540d0e20e72b0a7435b3e8f6843edd8097b7b"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/那你呢 - 宇宙人.mp3",
+      "sourceMp3Sha256": "698f6dbe7cc708ad0f46c6571c9540d0e20e72b0a7435b3e8f6843edd8097b7b",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003zbe2g2eKveF 那你呢_20261012-012800-246002.wav",
+      "sourceWavSha256": "3d6d5212bd5c464f8c1d46df1699971101bda712c8568acc558fca6a959198bd",
+      "mp3": {
+        "peakDbFS": -1.799413,
+        "durationSeconds": 263.080249,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0030BbO44SNf65",
+      "title": "理想状态",
+      "artist": "宇宙人",
+      "duration": 237,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0030BbO44SNf65",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "理想状态 - 宇宙人.mp3",
+          "sha256": "1916b9e010df441897cd225e69158fbd1ad15a6c18f6c5d3a8cd0b0cc81159a7"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/理想状态 - 宇宙人.mp3",
+      "sourceMp3Sha256": "1916b9e010df441897cd225e69158fbd1ad15a6c18f6c5d3a8cd0b0cc81159a7",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0030BbO44SNf65 理想状态_20261012-013232-394411.wav",
+      "sourceWavSha256": "b26602c675abd484faf3e474346019fd8f0e3ba8b7ed38e33851d16ee2c86c86",
+      "mp3": {
+        "peakDbFS": -2.155073,
+        "durationSeconds": 237.872086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003vCynU2L2zmL",
+      "title": "牛",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 273,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003vCynU2L2zmL",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "牛 - SoulFa 灵魂沙发.mp3",
+          "sha256": "b59175996535d9fcfe5ed4f1627cd2175e25488e0a233e46ad7fe92b7a89b103"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/牛 - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "b59175996535d9fcfe5ed4f1627cd2175e25488e0a233e46ad7fe92b7a89b103",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003vCynU2L2zmL 牛_20261012-013638-156776.wav",
+      "sourceWavSha256": "51418352230359cc8096677dc0c4147e17428701cfdcc063ea919f51f13e055e",
+      "mp3": {
+        "peakDbFS": -1.672598,
+        "durationSeconds": 274.156168,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001tV5DQ15mp15",
+      "title": "留一盏灯给漫漫长夜",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 221,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001tV5DQ15mp15",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "留一盏灯给漫漫长夜 - SoulFa 灵魂沙发.mp3",
+          "sha256": "fc65d15fe6b718406d4b85ae8da2e70cf5f3a59cf8a08e8e885a4b735705f167"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/留一盏灯给漫漫长夜 - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "fc65d15fe6b718406d4b85ae8da2e70cf5f3a59cf8a08e8e885a4b735705f167",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001tV5DQ15mp15 留一盏灯给漫漫长夜_20261012-014121-484028.wav",
+      "sourceWavSha256": "af039bce6b8a645e42212f2eb85bbc4946399ed55adbd8bd3e3ec0fb205a6d01",
+      "mp3": {
+        "peakDbFS": -1.612365,
+        "durationSeconds": 221.80678,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004DMfBH1JY7Md",
+      "title": "R.U.M.O.R.S",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 271,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004DMfBH1JY7Md",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "R.U.M.O.R.S - SoulFa 灵魂沙发.mp3",
+          "sha256": "66f3c3a6d8d01016b5dcad1dfd2764c7e8e2c7c9e7afddd5794ccc8154ec1746"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/R.U.M.O.R.S - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "66f3c3a6d8d01016b5dcad1dfd2764c7e8e2c7c9e7afddd5794ccc8154ec1746",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004DMfBH1JY7Md R.U.M.O.R.S_20261012-014510-869908.wav",
+      "sourceWavSha256": "d4a9138f5a8e42b8c2e3bebea9fb2d17a1eba8b8370d6db2bd536aecf33c3bff",
+      "mp3": {
+        "peakDbFS": -1.088683,
+        "durationSeconds": 272.144739,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "00125UMq2lLe90",
+      "title": "44 Seconds Road Movie",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 284,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/00125UMq2lLe90",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "44 Seconds Road Movie - SoulFa 灵魂沙发.mp3",
+          "sha256": "ecc6cd85d40dbe44c1567e9fdf3d9ff146f4b05e9552e339eecdf6fc4d5a0c2b"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/44 Seconds Road Movie - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "ecc6cd85d40dbe44c1567e9fdf3d9ff146f4b05e9552e339eecdf6fc4d5a0c2b",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/00125UMq2lLe90 44 Seconds Road Movie_20261012-014951-463735.wav",
+      "sourceWavSha256": "6ad71a25bcd6f2c4e3f575ce39535ef91c779b3b47d5aceb995576849265fc0d",
+      "mp3": {
+        "peakDbFS": -1.195936,
+        "durationSeconds": 285.232086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003TJ9Mq0PD1gL",
+      "title": "Nobody Else",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 292,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003TJ9Mq0PD1gL",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Nobody Else - SoulFa 灵魂沙发.mp3",
+          "sha256": "eb4943ee6f2fa7b08d834149457dd6b690654febf916057b3e919735b383eb5f"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Nobody Else - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "eb4943ee6f2fa7b08d834149457dd6b690654febf916057b3e919735b383eb5f",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003TJ9Mq0PD1gL Nobody Else_20261012-015445-858451.wav",
+      "sourceWavSha256": "2984a3f8aa3c44b4c2ee60d028b86da7b07310c6b77faeaa49b53fa9fc399675",
+      "mp3": {
+        "peakDbFS": -1.775757,
+        "durationSeconds": 292.729229,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003FNIks1GOWAJ",
+      "title": "Survivor",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 232,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003FNIks1GOWAJ",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Survivor - SoulFa 灵魂沙发.mp3",
+          "sha256": "e15881037b3d2017b8cb5c4c423fc44fe01ea6384551684b135e13a77c2571f2"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Survivor - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "e15881037b3d2017b8cb5c4c423fc44fe01ea6384551684b135e13a77c2571f2",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003FNIks1GOWAJ Survivor_20261012-015947-796731.wav",
+      "sourceWavSha256": "58739bc0bf9cdd7f1b4e41a84a73b7ad88c01abf495b3263e3a86dc6fba101b4",
+      "mp3": {
+        "peakDbFS": -1.269201,
+        "durationSeconds": 232.908821,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0012pVwA2RyBzy",
+      "title": "Hear Hear",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 287,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0012pVwA2RyBzy",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Hear Hear - SoulFa 灵魂沙发.mp3",
+          "sha256": "66b32e8e22a6d5df1e1a6bfd7146f60d0d8291908325c1b874ea9e2631cc9866"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Hear Hear - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "66b32e8e22a6d5df1e1a6bfd7146f60d0d8291908325c1b874ea9e2631cc9866",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0012pVwA2RyBzy Hear Hear_20261012-020348-804255.wav",
+      "sourceWavSha256": "c7c02726c6fdd81b8c695b032e4277eee6db2ef4282494f29d03ee1c3865aeec",
+      "mp3": {
+        "peakDbFS": -1.448666,
+        "durationSeconds": 287.713719,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001gzJrR48V2ib",
+      "title": "I wonder",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 206,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001gzJrR48V2ib",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "I wonder - SoulFa 灵魂沙发.mp3",
+          "sha256": "322e887d513c2fc2b710083b8d82ebb6b0b9d5daaaf23efc90ffb8ae10ce13c5"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/I wonder - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "322e887d513c2fc2b710083b8d82ebb6b0b9d5daaaf23efc90ffb8ae10ce13c5",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001gzJrR48V2ib I wonder_20261012-020845-802166.wav",
+      "sourceWavSha256": "148bf00a3c9879a04701bbe6f439fb7263217c789320bb877abf209a5dd197f4",
+      "mp3": {
+        "peakDbFS": -1.346559,
+        "durationSeconds": 207.152086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003GcP261K5Z1l",
+      "title": "Rose and i.",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 300,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003GcP261K5Z1l",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Rose and i. - SoulFa 灵魂沙发.mp3",
+          "sha256": "b1b9b2d2ed4f89bd615945417c45a352c32154cdee5530834e57a0ff05e8ac70"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Rose and i. - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "b1b9b2d2ed4f89bd615945417c45a352c32154cdee5530834e57a0ff05e8ac70",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003GcP261K5Z1l Rose and i_20261012-021220-779760.wav",
+      "sourceWavSha256": "b88241bc3764cabef10112f062f9ed0529fa9900c606b8e4b9fb2a5af4129c9c",
+      "mp3": {
+        "peakDbFS": -1.768254,
+        "durationSeconds": 300.330862,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "00166OaY3yHBOe",
+      "title": "80°F",
+      "artist": "SoulFa 灵魂沙发",
+      "duration": 222,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/00166OaY3yHBOe",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "80°F - SoulFa 灵魂沙发.mp3",
+          "sha256": "4ff0fd4bd750ca66b95e06f67b13914c956a0d83fdb5c8ead3df644d579b144e"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/80°F - SoulFa 灵魂沙发.mp3",
+      "sourceMp3Sha256": "4ff0fd4bd750ca66b95e06f67b13914c956a0d83fdb5c8ead3df644d579b144e",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/00166OaY3yHBOe 80°F_20261012-021730-510002.wav",
+      "sourceWavSha256": "d28bad6e6ac6ad0ac56f279ac69313d595374befae962e17f5eb0c399eb4b019",
+      "mp3": {
+        "peakDbFS": -0.868482,
+        "durationSeconds": 222.8778,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003EKTkP016WaS",
+      "title": "梦游",
+      "artist": "孙燕姿",
+      "duration": 188,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003EKTkP016WaS",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "梦游 - 孙燕姿.mp3",
+          "sha256": "ef0c31348483b987d7eca677de96e54af354aadb3d3ec2bb15b95e7014addcb9"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/梦游 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "ef0c31348483b987d7eca677de96e54af354aadb3d3ec2bb15b95e7014addcb9",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003EKTkP016WaS 梦游_20261012-022121-172907.wav",
+      "sourceWavSha256": "f16f62e6176507ebf5deba9566ea6c057a43ba311177ed324e023152c12c1bc9",
+      "mp3": {
+        "peakDbFS": -1.769134,
+        "durationSeconds": 189.023107,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004aWZbE0cNWqG",
+      "title": "Honey Honey",
+      "artist": "孙燕姿",
+      "duration": 263,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004aWZbE0cNWqG",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Honey Honey - 孙燕姿.mp3",
+          "sha256": "c561d087af0cf1d7d346c7fb94df580346e5ab1fe895c02b518709ef38f535ec"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Honey Honey - 孙燕姿.mp3",
+      "sourceMp3Sha256": "c561d087af0cf1d7d346c7fb94df580346e5ab1fe895c02b518709ef38f535ec",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004aWZbE0cNWqG Honey Honey_20261012-022437-479246.wav",
+      "sourceWavSha256": "9375dc5bae053d4587e2e19939bd81daf28a9928ea61e9ace0a9c6095e2a25de",
+      "mp3": {
+        "peakDbFS": -1.537577,
+        "durationSeconds": 264.543107,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001SfavE35orJR",
+      "title": "180度",
+      "artist": "孙燕姿",
+      "duration": 303,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001SfavE35orJR",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "180度 - 孙燕姿.mp3",
+          "sha256": "0bd0a36e3750472c3d1c473ac8774cf48e641b37f6af27752cb33b5c0079363d"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/180度 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "0bd0a36e3750472c3d1c473ac8774cf48e641b37f6af27752cb33b5c0079363d",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001SfavE35orJR 180度_20261012-022910-333648.wav",
+      "sourceWavSha256": "f4c1c6ad07ae7f5ad638ac811b002efb6fa1b2f59894824ca3bdd50dd0040ff5",
+      "mp3": {
+        "peakDbFS": -1.580775,
+        "durationSeconds": 304.432086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000BO3xy4fd8BJ",
+      "title": "我怀念的",
+      "artist": "孙燕姿",
+      "duration": 289,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000BO3xy4fd8BJ",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "我怀念的 - 孙燕姿.mp3",
+          "sha256": "be57fe48c150d5d1ced8001f511419d601a14a5aac57f8825acda0c6634a50cd"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/我怀念的 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "be57fe48c150d5d1ced8001f511419d601a14a5aac57f8825acda0c6634a50cd",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000BO3xy4fd8BJ 我怀念的_20261012-023424-315404.wav",
+      "sourceWavSha256": "873527d7f5983f1428dca9212895a6f325e719cd6c4dcffe16142cce1507db23",
+      "mp3": {
+        "peakDbFS": -1.259153,
+        "durationSeconds": 289.829637,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004Tzowd3jxc4U",
+      "title": "银泰",
+      "artist": "孙燕姿",
+      "duration": 263,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004Tzowd3jxc4U",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "银泰 - 孙燕姿.mp3",
+          "sha256": "f2720e432a4c8145305f9aee8b86248b817007c4305824717db68a4d1d9832f8"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/银泰 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "f2720e432a4c8145305f9aee8b86248b817007c4305824717db68a4d1d9832f8",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004Tzowd3jxc4U 银泰_20261012-023923-136595.wav",
+      "sourceWavSha256": "9942a3f621196ecdaaeec5907e0d4c6d5c7b6bdbe3a731c8c856d7181d891c51",
+      "mp3": {
+        "peakDbFS": -1.313692,
+        "durationSeconds": 263.550454,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000zD4ew1qBo82",
+      "title": "我要的幸福",
+      "artist": "孙燕姿",
+      "duration": 215,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000zD4ew1qBo82",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "我要的幸福 - 孙燕姿.mp3",
+          "sha256": "0b125219b537e706e8532a5ad47e2a1d2e0ed4894ac3e7fa2aafc9271051dba2"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/我要的幸福 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "0b125219b537e706e8532a5ad47e2a1d2e0ed4894ac3e7fa2aafc9271051dba2",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000zD4ew1qBo82 我要的幸福_20261012-024355-216713.wav",
+      "sourceWavSha256": "6b6e136f6033b607d4b819041b9135f237b0f6b4846d0156c2784411088de43c",
+      "mp3": {
+        "peakDbFS": -1.528862,
+        "durationSeconds": 215.850862,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001xJbdb2MBaaz",
+      "title": "遇见",
+      "artist": "孙燕姿",
+      "duration": 210,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001xJbdb2MBaaz",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "遇见 - 孙燕姿.mp3",
+          "sha256": "ea0e0e9e6939991150f9377037f1f2746ef5517efe262fb1bd551a34254061c3"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/遇见 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "ea0e0e9e6939991150f9377037f1f2746ef5517efe262fb1bd551a34254061c3",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001xJbdb2MBaaz 遇见_20261012-024738-986436.wav",
+      "sourceWavSha256": "19316058b76e3acc140d3a10ba287f83b5cbee926ffec43598f545c2d174e4a6",
+      "mp3": {
+        "peakDbFS": -1.41701,
+        "durationSeconds": 211.253311,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001gXbnt1lETLJ",
+      "title": "不同",
+      "artist": "孙燕姿",
+      "duration": 220,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001gXbnt1lETLJ",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "不同 - 孙燕姿.mp3",
+          "sha256": "6dffc07833f4918d0bdb0c534b4d8317179914179e9c1437c517a9c693957ce0"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/不同 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "6dffc07833f4918d0bdb0c534b4d8317179914179e9c1437c517a9c693957ce0",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001gXbnt1lETLJ 不同_20261012-025117-777452.wav",
+      "sourceWavSha256": "fac0d7aabb6e75fe3e8a3358f8bf71f91c2aa79e9a7e839a051dfc5123ff0224",
+      "mp3": {
+        "peakDbFS": -2.496525,
+        "durationSeconds": 220.840249,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001I4Ttn3qLWu5",
+      "title": "一样的夏天",
+      "artist": "孙燕姿",
+      "duration": 238,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001I4Ttn3qLWu5",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "一样的夏天 - 孙燕姿.mp3",
+          "sha256": "2eaa5b18acbb6681aed9cebd23e9efa219eef7be82c82d180afd15eac2171fa8"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/一样的夏天 - 孙燕姿.mp3",
+      "sourceMp3Sha256": "2eaa5b18acbb6681aed9cebd23e9efa219eef7be82c82d180afd15eac2171fa8",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001I4Ttn3qLWu5 一样的夏天_20261012-025506-323536.wav",
+      "sourceWavSha256": "38d0b0e62fb2f82f868d01f3c84fc1295c5098bea03db7798f593ba37044ede6",
+      "mp3": {
+        "peakDbFS": -3.177293,
+        "durationSeconds": 238.916984,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002Ng8JT0L6aJc",
+      "title": "Hallway Weather",
+      "artist": "NIKI",
+      "duration": 233,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002Ng8JT0L6aJc",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Hallway Weather - NIKI.mp3",
+          "sha256": "521a568824b46d986085d57f96da431af130e9dbdcd0e35e6d4c69020d08cdca"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Hallway Weather - NIKI.mp3",
+      "sourceMp3Sha256": "521a568824b46d986085d57f96da431af130e9dbdcd0e35e6d4c69020d08cdca",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002Ng8JT0L6aJc Hallway Weather_20261012-025912-989314.wav",
+      "sourceWavSha256": "be87fd7575bcd2e50dd3f1d30b3b53be0c45b9556a1d07e3888c0287d67a55e7",
+      "mp3": {
+        "peakDbFS": -1.899046,
+        "durationSeconds": 234.423923,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000c4u9c4e1WO9",
+      "title": "Pandemonium",
+      "artist": "NIKI",
+      "duration": 227,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000c4u9c4e1WO9",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Pandemonium - NIKI.mp3",
+          "sha256": "ff0093a376d5584de6872da28397dab9ac4572555b96fbd3176b123ad3559ea7"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/000c4u9c4e1WO9-trimmed-tail-1s.mp3",
+      "sourceMp3Sha256": "ff0093a376d5584de6872da28397dab9ac4572555b96fbd3176b123ad3559ea7",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/000c4u9c4e1WO9-trimmed-tail-1s.wav",
+      "sourceWavSha256": "0c97753fc590c39f4446fcd8aa0ba99d66eaa8637c321e45c250a54c1761b6d7",
+      "mp3": {
+        "peakDbFS": -1.863858,
+        "durationSeconds": 226.352086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 1,
+      "userReviewed": true
+    },
+    {
+      "id": "002RPCBe11RNHK",
+      "title": "Selene",
+      "artist": "NIKI",
+      "duration": 197,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002RPCBe11RNHK",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Selene - NIKI.mp3",
+          "sha256": "9b4cb5bf1c58337ae1e9a03eedfe6702e20cc10d1da79736cba9be8848604bf1"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Selene - NIKI.mp3",
+      "sourceMp3Sha256": "9b4cb5bf1c58337ae1e9a03eedfe6702e20cc10d1da79736cba9be8848604bf1",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002RPCBe11RNHK Selene_20261012-030709-093884.wav",
+      "sourceWavSha256": "5a5a0e5a1f6bf978f7855a5147e5d989b50ff49ff478ea445be638639855c837",
+      "mp3": {
+        "peakDbFS": -1.541717,
+        "durationSeconds": 198.087596,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000581G81LMFXd",
+      "title": "Vintage",
+      "artist": "NIKI",
+      "duration": 177,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000581G81LMFXd",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Vintage - NIKI.mp3",
+          "sha256": "97f596445de9f758c156e9978a3c8be61731ed62c7830f708e6642b8abf0de73"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Vintage - NIKI.mp3",
+      "sourceMp3Sha256": "97f596445de9f758c156e9978a3c8be61731ed62c7830f708e6642b8abf0de73",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000581G81LMFXd Vintage_20261012-031034-395048.wav",
+      "sourceWavSha256": "d94addd6da9cfcf797c443e8241859921d7ebbc865497215caece35383637ec5",
+      "mp3": {
+        "peakDbFS": -1.135158,
+        "durationSeconds": 178.025556,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000G0dbq0S67cW",
+      "title": "lowkey",
+      "artist": "NIKI",
+      "duration": 171,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000G0dbq0S67cW",
+      "status": "manual-approved-exception",
+      "automaticRecordingStatus": "failed",
+      "files": [
+        {
+          "path": "lowkey - NIKI.mp3",
+          "sha256": "f44152275b6859cc78f69db7a62987e505c4ac3b66b19c134e4f2ccd19a4463c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/manual-export/000G0dbq0S67cW.mp3",
+      "sourceMp3Sha256": "f44152275b6859cc78f69db7a62987e505c4ac3b66b19c134e4f2ccd19a4463c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000G0dbq0S67cW lowkey_20261012-101133-010342.wav",
+      "sourceWavSha256": "5c9a672912ec3355c16ef5745a193e06a2e2f981b47876b626cd9ff78137c555",
+      "mp3": {
+        "peakDbFS": -0.981771,
+        "durationSeconds": 171.703923,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true,
+      "automaticFailure": "Capture is clipped or too quiet",
+      "manualExceptionSource": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/manual-delivery-exceptions.json"
+    },
+    {
+      "id": "002FwBwW1lUnrn",
+      "title": "Say My Name",
+      "artist": "NIKI",
+      "duration": 192,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002FwBwW1lUnrn",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Say My Name - NIKI.mp3",
+          "sha256": "a0ba8502d6c3e94266ca68bc5c7756bc6b60b06587e11d998ca77f69d4f912d2"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Say My Name - NIKI.mp3",
+      "sourceMp3Sha256": "a0ba8502d6c3e94266ca68bc5c7756bc6b60b06587e11d998ca77f69d4f912d2",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002FwBwW1lUnrn Say My Name_20261012-031635-759607.wav",
+      "sourceWavSha256": "0e8bb8dfb48b83eab4bd992c4e323c9291f1c863c5733c67520eebdfbf58614d",
+      "mp3": {
+        "peakDbFS": -1.372344,
+        "durationSeconds": 193.072086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001PNz9v29I8xi",
+      "title": "Chilly",
+      "artist": "NIKI",
+      "duration": 230,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001PNz9v29I8xi",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Chilly - NIKI.mp3",
+          "sha256": "bdce1516f1c9238a680385bf51d0762af8ed47292d794c39b69315e5359fb927"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001PNz9v29I8xi Chilly_20261012-031955-907612.mp3",
+      "sourceMp3Sha256": "bdce1516f1c9238a680385bf51d0762af8ed47292d794c39b69315e5359fb927",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001PNz9v29I8xi Chilly_20261012-031955-907612.wav",
+      "sourceWavSha256": "19b0f79c681c151bfa760d117ced7417fd7666b6a12f0fe3bc207cdd62ce3040",
+      "mp3": {
+        "peakDbFS": -2.260541,
+        "durationSeconds": 230.374943,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "003qtjfJ3xJNmA",
+      "title": "Indigo",
+      "artist": "88rising, NIKI",
+      "duration": 173,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003qtjfJ3xJNmA",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Indigo - 88rising, NIKI.mp3",
+          "sha256": "19c41464b8188211c5304eccefe96c09a4d0db33f99564357ac86bc2898aa16d"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Indigo - 88rising, NIKI.mp3",
+      "sourceMp3Sha256": "19c41464b8188211c5304eccefe96c09a4d0db33f99564357ac86bc2898aa16d",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003qtjfJ3xJNmA Indigo_20261012-083700-457458.wav",
+      "sourceWavSha256": "8c8c96b9769cadfff0c8fecd46532ee041206f42cc5123473954f68018c60edb",
+      "mp3": {
+        "peakDbFS": -1.219349,
+        "durationSeconds": 173.741474,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002KRMWe0mpMcT",
+      "title": "I Like U",
+      "artist": "NIKI",
+      "duration": 267,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002KRMWe0mpMcT",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "I Like U - NIKI.mp3",
+          "sha256": "8566611c3d47eecc1bf2db5b068e4116e3cdb526a8bc15c745175a3b7c792afe"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/I Like U - NIKI.mp3",
+      "sourceMp3Sha256": "8566611c3d47eecc1bf2db5b068e4116e3cdb526a8bc15c745175a3b7c792afe",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002KRMWe0mpMcT I Like U_20261012-032651-088144.wav",
+      "sourceWavSha256": "512b906aff83d15067d9f2ddee9aa1569381c52a8d15286cdc0ec4fd4f54770b",
+      "mp3": {
+        "peakDbFS": -0.800073,
+        "durationSeconds": 268.618209,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0004a6rq4VU3Xv",
+      "title": "Cloud",
+      "artist": "Galdive",
+      "duration": 232,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0004a6rq4VU3Xv",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Cloud - Galdive.mp3",
+          "sha256": "dadc312074240379f7f8f78a96b3ab3ad957ca7dc2789e888a078216d1659f54"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0004a6rq4VU3Xv Cloud_20261012-033128-126841.mp3",
+      "sourceMp3Sha256": "dadc312074240379f7f8f78a96b3ab3ad957ca7dc2789e888a078216d1659f54",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0004a6rq4VU3Xv Cloud_20261012-033128-126841.wav",
+      "sourceWavSha256": "9a5418507dc319452d2e1cc2ef6e9917b5d619c9529057e3ea8cdca0e7e1a38f",
+      "mp3": {
+        "peakDbFS": -1.342018,
+        "durationSeconds": 232.386372,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "0032RDKI2X8nxy",
+      "title": "Sorbet",
+      "artist": "Galdive",
+      "duration": 196,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0032RDKI2X8nxy",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Sorbet - Galdive.mp3",
+          "sha256": "95c4cfb729d0275f82aa73ceaba85340f6a76f7525ee1f9f487255fc34724a10"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Sorbet - Galdive.mp3",
+      "sourceMp3Sha256": "95c4cfb729d0275f82aa73ceaba85340f6a76f7525ee1f9f487255fc34724a10",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0032RDKI2X8nxy Sorbet_20261012-033526-873556.wav",
+      "sourceWavSha256": "2d2f0977fbab310b0618089486d24d8afdfddf7330209dc7cddefbe2dfba45a6",
+      "mp3": {
+        "peakDbFS": -1.555174,
+        "durationSeconds": 197.643515,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001xKYZX4LW97l",
+      "title": "Puzzle",
+      "artist": "Galdive",
+      "duration": 178,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001xKYZX4LW97l",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Puzzle - Galdive.mp3",
+          "sha256": "7ecebe6659502826a55da46ce5a351c9c95c2b0fc769bc3e2ae46bf81d9d3984"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Puzzle - Galdive.mp3",
+      "sourceMp3Sha256": "7ecebe6659502826a55da46ce5a351c9c95c2b0fc769bc3e2ae46bf81d9d3984",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001xKYZX4LW97l Puzzle_20261012-084001-038568.wav",
+      "sourceWavSha256": "519b884602272f8162b61f383858c1459e3d377e86e8def87de06fa2edc3e74c",
+      "mp3": {
+        "peakDbFS": -0.699891,
+        "durationSeconds": 179.383923,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003I9a5K1Q2OdF",
+      "title": "Nescience",
+      "artist": "Galdive",
+      "duration": 238,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003I9a5K1Q2OdF",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Nescience - Galdive.mp3",
+          "sha256": "fb5d865282132be12b079f0c9032d4e9a909aac1947e2b1ef2317e944d9574b1"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Nescience - Galdive.mp3",
+      "sourceMp3Sha256": "fb5d865282132be12b079f0c9032d4e9a909aac1947e2b1ef2317e944d9574b1",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003I9a5K1Q2OdF Nescience_20261012-034154-642573.wav",
+      "sourceWavSha256": "bda36c798aaae88d6d48fb7dbdfd22b1e7f056a4e73d6025bcb0efe1346fc895",
+      "mp3": {
+        "peakDbFS": -0.972935,
+        "durationSeconds": 239.491678,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001f6GI10FGsrg",
+      "title": "Sway",
+      "artist": "Galdive",
+      "duration": 201,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001f6GI10FGsrg",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Sway - Galdive.mp3",
+          "sha256": "8fa2372d07111e6b1505073f7e6f5e5437f07c663c647fc6e06a4441a0b9395a"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Sway - Galdive.mp3",
+      "sourceMp3Sha256": "8fa2372d07111e6b1505073f7e6f5e5437f07c663c647fc6e06a4441a0b9395a",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001f6GI10FGsrg Sway_20261012-034602-244833.wav",
+      "sourceWavSha256": "c2a0ec12928c6705d182fa626ea6d06fbf6b54cb99493d7cb31a483c981461a7",
+      "mp3": {
+        "peakDbFS": -0.717431,
+        "durationSeconds": 202.136576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000QmVRr2zBnsa",
+      "title": "Crazy Driving",
+      "artist": "Galdive",
+      "duration": 206,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000QmVRr2zBnsa",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Crazy Driving - Galdive.mp3",
+          "sha256": "be9acb22c0b3954cf8ae59371c2e8be6ed0467b738fd0a3cb5e9c9795f540b9a"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Crazy Driving - Galdive.mp3",
+      "sourceMp3Sha256": "be9acb22c0b3954cf8ae59371c2e8be6ed0467b738fd0a3cb5e9c9795f540b9a",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000QmVRr2zBnsa Crazy Driving_20261012-034931-750934.wav",
+      "sourceWavSha256": "06b28a2093ba79e450da150698761a72b6cd506ead7796b1525a2771fc1c7459",
+      "mp3": {
+        "peakDbFS": -0.962202,
+        "durationSeconds": 207.256576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001Pr9eO05rxMy",
+      "title": "Maybe I",
+      "artist": "Galdive",
+      "duration": 195,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Pr9eO05rxMy",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Maybe I - Galdive.mp3",
+          "sha256": "6f85c2dc4d459c2099b58092b96f0d4205279c0d43af7d2d4ea2d1b755b84ed4"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Maybe I - Galdive.mp3",
+      "sourceMp3Sha256": "6f85c2dc4d459c2099b58092b96f0d4205279c0d43af7d2d4ea2d1b755b84ed4",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001Pr9eO05rxMy Maybe I_20261012-035306-829148.wav",
+      "sourceWavSha256": "a5f62e013c72217cec4e077a375147f4845b5563400f0f1be843440aa184255e",
+      "mp3": {
+        "peakDbFS": -0.96385,
+        "durationSeconds": 195.605964,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001bKbqc2owNiG",
+      "title": "5AM",
+      "artist": "Galdive",
+      "duration": 204,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001bKbqc2owNiG",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "5AM - Galdive.mp3",
+          "sha256": "e0a630e369f507d66d14e75ed7a0827b79212edf16cb916e782906ceba713618"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001bKbqc2owNiG 5AM_20261012-084307-327799.mp3",
+      "sourceMp3Sha256": "e0a630e369f507d66d14e75ed7a0827b79212edf16cb916e782906ceba713618",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001bKbqc2owNiG 5AM_20261012-084307-327799.wav",
+      "sourceWavSha256": "b49db742d63f8d1ff68a88bc1b4386cacb39fe928be910a2fc1d1e6324f441ee",
+      "mp3": {
+        "peakDbFS": -1.003619,
+        "durationSeconds": 204.383107,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "002nS2jx3ZcSDi",
+      "title": "Come With Me",
+      "artist": "Surfaces, salem ilese",
+      "duration": 209,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002nS2jx3ZcSDi",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Come With Me - Surfaces, salem ilese.mp3",
+          "sha256": "3930907ed4ffee36d10f704c891340287f0c97f88d37f29f67d3434e8975dcee"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Come With Me - Surfaces, salem ilese.mp3",
+      "sourceMp3Sha256": "3930907ed4ffee36d10f704c891340287f0c97f88d37f29f67d3434e8975dcee",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002nS2jx3ZcSDi Come With Me_20261012-101509-124135.wav",
+      "sourceWavSha256": "eff284fef42d0f1881511efac12d5849349ad1ddfde27f35abb5171d87a87b63",
+      "mp3": {
+        "peakDbFS": -1.272101,
+        "durationSeconds": 210.156168,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000TKHIW3g3AIj",
+      "title": "Sunny Side Up",
+      "artist": "Surfaces",
+      "duration": 171,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000TKHIW3g3AIj",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Sunny Side Up - Surfaces.mp3",
+          "sha256": "d5f444887d0f797aa723f5ebbb628cf88888a719393dcec47bd1e63e0e26d045"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Sunny Side Up - Surfaces.mp3",
+      "sourceMp3Sha256": "d5f444887d0f797aa723f5ebbb628cf88888a719393dcec47bd1e63e0e26d045",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000TKHIW3g3AIj Sunny Side Up_20261012-085012-435698.wav",
+      "sourceWavSha256": "fa59d6e542150d6ae431054e1ff0900886363aa8d47c2d0e1181e992872f2f1b",
+      "mp3": {
+        "peakDbFS": -0.722076,
+        "durationSeconds": 171.6778,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002AZNj61WylXA",
+      "title": "So Far Away",
+      "artist": "Surfaces",
+      "duration": 207,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002AZNj61WylXA",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "So Far Away - Surfaces.mp3",
+          "sha256": "b607da7bca93d2a5a8cff45a9a1dbbb8386a0d851f65075007e10c64130c4df2"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/So Far Away - Surfaces.mp3",
+      "sourceMp3Sha256": "b607da7bca93d2a5a8cff45a9a1dbbb8386a0d851f65075007e10c64130c4df2",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002AZNj61WylXA So Far Away_20261012-085311-147482.wav",
+      "sourceWavSha256": "c88326e029db38e9055316c7455e7d37311d3ca192effcbf454336dd2ce5931a",
+      "mp3": {
+        "peakDbFS": -1.255625,
+        "durationSeconds": 207.93576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000D6RQ10aqz1s",
+      "title": "C'est La Vie",
+      "artist": "Surfaces, Thomas Rhett",
+      "duration": 175,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000D6RQ10aqz1s",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "C'est La Vie - Surfaces, Thomas Rhett.mp3",
+          "sha256": "a50bd448217d61bddf7afcbfde8624be49bfaa775254f5e1c9d0aacc68210043"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/C'est La Vie - Surfaces, Thomas Rhett.mp3",
+      "sourceMp3Sha256": "a50bd448217d61bddf7afcbfde8624be49bfaa775254f5e1c9d0aacc68210043",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000D6RQ10aqz1s C'est La Vie_20261012-085646-630414.wav",
+      "sourceWavSha256": "3c1366c621b8bdafc9f4d5fa3a6bcd178537218b4bcccc455910745396eac019",
+      "mp3": {
+        "peakDbFS": -1.570515,
+        "durationSeconds": 175.805147,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0024rjOp3DOK6z",
+      "title": "All Around",
+      "artist": "Surfaces",
+      "duration": 204,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0024rjOp3DOK6z",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "All Around - Surfaces.mp3",
+          "sha256": "eb6302c1f76ba62626c9185d73650525619c70976ee4e874dcd53ebb75c1e281"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/0024rjOp3DOK6z-trimmed-tail-1s.mp3",
+      "sourceMp3Sha256": "eb6302c1f76ba62626c9185d73650525619c70976ee4e874dcd53ebb75c1e281",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/0024rjOp3DOK6z-trimmed-tail-1s.wav",
+      "sourceWavSha256": "356219e1a2028808fbadf0d5a2d212918f1c65b38dc7dd93c486613c91dff93a",
+      "mp3": {
+        "peakDbFS": -1.389939,
+        "durationSeconds": 203.965147,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 1,
+      "userReviewed": true
+    },
+    {
+      "id": "0036ksEw4He4p8",
+      "title": "Good Day",
+      "artist": "Surfaces",
+      "duration": 181,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0036ksEw4He4p8",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Good Day - Surfaces.mp3",
+          "sha256": "70090f17c7152ad150123e2a82484d6062af94f27cec43ef42842d91d8e5983c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Good Day - Surfaces.mp3",
+      "sourceMp3Sha256": "70090f17c7152ad150123e2a82484d6062af94f27cec43ef42842d91d8e5983c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0036ksEw4He4p8 Good Day_20261012-090318-724932.wav",
+      "sourceWavSha256": "578c1542810ce2341a2f7a7306bd68a1b02e85b3381b244e3fa926b5c20ed575",
+      "mp3": {
+        "peakDbFS": -2.656467,
+        "durationSeconds": 181.473719,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001BWQ7r4Kxi83",
+      "title": "With You",
+      "artist": "Surfaces",
+      "duration": 200,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001BWQ7r4Kxi83",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "With You - Surfaces.mp3",
+          "sha256": "4983706f00e82a0bd6792877ff439f51a7dfe9d1e9c1c6fff1b8904cd8ec0880"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/With You - Surfaces.mp3",
+      "sourceMp3Sha256": "4983706f00e82a0bd6792877ff439f51a7dfe9d1e9c1c6fff1b8904cd8ec0880",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001BWQ7r4Kxi83 With You_20261012-090627-152112.wav",
+      "sourceWavSha256": "9ebec95c9c7905736752688959732189781889f4c370ef29af0ee9121f8510a2",
+      "mp3": {
+        "peakDbFS": -1.194149,
+        "durationSeconds": 200.412494,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002Y5RPi3QxmZC",
+      "title": "Lazy",
+      "artist": "Surfaces",
+      "duration": 181,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002Y5RPi3QxmZC",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Lazy - Surfaces.mp3",
+          "sha256": "af002278e67ba4ea2c213c35752c21c15a6f1d1d370836c3f0c6aac2fdad8668"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Lazy - Surfaces.mp3",
+      "sourceMp3Sha256": "af002278e67ba4ea2c213c35752c21c15a6f1d1d370836c3f0c6aac2fdad8668",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002Y5RPi3QxmZC Lazy_20261012-090956-162811.wav",
+      "sourceWavSha256": "ccc1269bf81b84cbf2c20c2ba16cde8cdc3f86252bfcda89950f55e6dc046ccf",
+      "mp3": {
+        "peakDbFS": -1.541561,
+        "durationSeconds": 182.048413,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001FcU6Y272VGE",
+      "title": "蝼蚁",
+      "artist": "岛屿心情",
+      "duration": 308,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001FcU6Y272VGE",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "蝼蚁 - 岛屿心情.mp3",
+          "sha256": "1e5a217c523d59a00639d28defb5dfc4e46f34373c0cab4d259feafbabaaca29"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001FcU6Y272VGE 蝼蚁_20261012-091305-212129.mp3",
+      "sourceMp3Sha256": "1e5a217c523d59a00639d28defb5dfc4e46f34373c0cab4d259feafbabaaca29",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001FcU6Y272VGE 蝼蚁_20261012-091305-212129.wav",
+      "sourceWavSha256": "e2bf680ac1a150ddd8d2cc67ca9e594c548b66ef3e16dc84033552d1402e8410",
+      "mp3": {
+        "peakDbFS": -1.933258,
+        "durationSeconds": 308.872902,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "001bbfcT2Z9l3k",
+      "title": "没有颜色的答案",
+      "artist": "岛屿心情",
+      "duration": 354,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001bbfcT2Z9l3k",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "没有颜色的答案 - 岛屿心情.mp3",
+          "sha256": "1fcef0aa1c812722a251c023265c20f7372c215c04ffc020e4f98defa5e0bfd7"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/没有颜色的答案 - 岛屿心情.mp3",
+      "sourceMp3Sha256": "1fcef0aa1c812722a251c023265c20f7372c215c04ffc020e4f98defa5e0bfd7",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001bbfcT2Z9l3k 没有颜色的答案_20261012-091821-374356.wav",
+      "sourceWavSha256": "c7b3d978c4c43733dbd0613ceb40a71afac67ce74efd07012a48ce03109f9d11",
+      "mp3": {
+        "peakDbFS": -1.510734,
+        "durationSeconds": 355.214127,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002YyRM40cZ51T",
+      "title": "影子",
+      "artist": "岛屿心情",
+      "duration": 281,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002YyRM40cZ51T",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "影子 - 岛屿心情.mp3",
+          "sha256": "4fe387857e805121e4b9ffa5fd26d3a465e13cbba6c8ea4266d0d2e2979e57c5"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/影子 - 岛屿心情.mp3",
+      "sourceMp3Sha256": "4fe387857e805121e4b9ffa5fd26d3a465e13cbba6c8ea4266d0d2e2979e57c5",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002YyRM40cZ51T 影子_20261012-092508-902381.wav",
+      "sourceWavSha256": "c48abf49a59ead8be0ce501045648d118a3011a3dbd03ef2411802d4e299c093",
+      "mp3": {
+        "peakDbFS": -1.808859,
+        "durationSeconds": 282.228005,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002bpw1K4dux8J",
+      "title": "阿呆",
+      "artist": "岛屿心情",
+      "duration": 278,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002bpw1K4dux8J",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "阿呆 - 岛屿心情.mp3",
+          "sha256": "02cb6804f00ef0b08743d3c626242596c266388d820af1d9b265240bc4c43f1e"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/阿呆 - 岛屿心情.mp3",
+      "sourceMp3Sha256": "02cb6804f00ef0b08743d3c626242596c266388d820af1d9b265240bc4c43f1e",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002bpw1K4dux8J 阿呆_20261012-102342-023356.wav",
+      "sourceWavSha256": "6091c397a15004d70091c43bab9d2bf7bd972c14b23ed718ed0307033d1e6976",
+      "mp3": {
+        "peakDbFS": -1.122335,
+        "durationSeconds": 278.832086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "004LrVlR197AFB",
+      "title": "玩具",
+      "artist": "岛屿心情",
+      "duration": 297,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/004LrVlR197AFB",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "玩具 - 岛屿心情.mp3",
+          "sha256": "0eba1dc4bf6c5857f37661e8e32858a3bbdfac5ce050c77a8c5b336f342ad5e8"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/玩具 - 岛屿心情.mp3",
+      "sourceMp3Sha256": "0eba1dc4bf6c5857f37661e8e32858a3bbdfac5ce050c77a8c5b336f342ad5e8",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/004LrVlR197AFB 玩具_20261012-102829-599213.wav",
+      "sourceWavSha256": "ba0cf6f3fa2f355983dbc38dbb96c59e5fe0b1683b64240ef3bcd030362a5d40",
+      "mp3": {
+        "peakDbFS": -4.036101,
+        "durationSeconds": 297.770862,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000Wj9cd24piV4",
+      "title": "Blue.2",
+      "artist": "羊文学",
+      "duration": 344,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000Wj9cd24piV4",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Blue.2 - 羊文学.mp3",
+          "sha256": "63f0010eadb1eadc74f393036873f7eabb600fbae0cce22f0a5a761d85cb83c4"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Blue.2 - 羊文学.mp3",
+      "sourceMp3Sha256": "63f0010eadb1eadc74f393036873f7eabb600fbae0cce22f0a5a761d85cb83c4",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000Wj9cd24piV4 Blue.2_20261012-103336-952514.wav",
+      "sourceWavSha256": "58c0e8212fdee704ed585b9f142cbb2ce1879cefb1f3f0636c6dfc8ce013d0fc",
+      "mp3": {
+        "peakDbFS": -1.740952,
+        "durationSeconds": 344.660658,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001KuATU2C1SLW",
+      "title": "hopi",
+      "artist": "羊文学",
+      "duration": 270,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001KuATU2C1SLW",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "hopi - 羊文学.mp3",
+          "sha256": "13b7f5b8b84af2104bf64027239d86b453912dc279532e54342504dced58d977"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/hopi - 羊文学.mp3",
+      "sourceMp3Sha256": "13b7f5b8b84af2104bf64027239d86b453912dc279532e54342504dced58d977",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001KuATU2C1SLW hopi_20261012-103932-291828.wav",
+      "sourceWavSha256": "7ad2c1f1a122c79e35d35913fd9049131fe9be08f15631277007ba3a48e0b632",
+      "mp3": {
+        "peakDbFS": -1.734111,
+        "durationSeconds": 270.65576,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002sHYGx2Ba6Bc",
+      "title": "光るとき",
+      "artist": "羊文学",
+      "duration": 351,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002sHYGx2Ba6Bc",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "光るとき - 羊文学.mp3",
+          "sha256": "7e46fd54fd560ed3ad60d012f561d18e31826a0d7cdc261217d9ebc78bca61ba"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/光るとき - 羊文学.mp3",
+      "sourceMp3Sha256": "7e46fd54fd560ed3ad60d012f561d18e31826a0d7cdc261217d9ebc78bca61ba",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002sHYGx2Ba6Bc 光るとき_20261012-104411-419094.wav",
+      "sourceWavSha256": "f7e510549bfa154f07d9ebca754f3751329c693ea13b23725c964201f67794ab",
+      "mp3": {
+        "peakDbFS": -1.748655,
+        "durationSeconds": 352.210045,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000WIHk34f2cxD",
+      "title": "優しさについて",
+      "artist": "羊文学",
+      "duration": 252,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000WIHk34f2cxD",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "優しさについて - 羊文学.mp3",
+          "sha256": "5f0c09a1e9355e41f51283ebc3e7c6f049bbbbcb243fa65a0d55d5248e2af3dd"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/優しさについて - 羊文学.mp3",
+      "sourceMp3Sha256": "5f0c09a1e9355e41f51283ebc3e7c6f049bbbbcb243fa65a0d55d5248e2af3dd",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000WIHk34f2cxD 優しさについて_20261012-105014-001303.wav",
+      "sourceWavSha256": "ef09800a8bb1212c5a00aa61ee7ebf515bc01aadc922a71acc59495369af1f19",
+      "mp3": {
+        "peakDbFS": -2.354731,
+        "durationSeconds": 253.545556,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001kSOtF0aLqPA",
+      "title": "Burning",
+      "artist": "羊文学",
+      "duration": 231,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001kSOtF0aLqPA",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Burning - 羊文学.mp3",
+          "sha256": "0ed9cc0e05aa39759f22759ae3d07bc1f0933a7cafa662bb8a223ec0048ec64c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Burning - 羊文学.mp3",
+      "sourceMp3Sha256": "0ed9cc0e05aa39759f22759ae3d07bc1f0933a7cafa662bb8a223ec0048ec64c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001kSOtF0aLqPA Burning_20261012-105435-770794.wav",
+      "sourceWavSha256": "8c77ef4e44e3348cd370feff3449ff39fd0db9594707f5d5a7147533fe7530ea",
+      "mp3": {
+        "peakDbFS": -1.391307,
+        "durationSeconds": 231.550454,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002WLW5x2kIPDG",
+      "title": "OOPARTS",
+      "artist": "羊文学",
+      "duration": 306,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002WLW5x2kIPDG",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "OOPARTS - 羊文学.mp3",
+          "sha256": "6a8367542bf9fe3370f2d551d36241b03baf8c8722b39532dfc04f3072a41eb2"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/OOPARTS - 羊文学.mp3",
+      "sourceMp3Sha256": "6a8367542bf9fe3370f2d551d36241b03baf8c8722b39532dfc04f3072a41eb2",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002WLW5x2kIPDG OOPARTS_20261012-105835-827857.wav",
+      "sourceWavSha256": "1b008dff94b98bd215f131c3bbc25ab1b825ee0310027a16b8229ec440c193d6",
+      "mp3": {
+        "peakDbFS": -1.571773,
+        "durationSeconds": 307.46229,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003Y3fCY4EquXQ",
+      "title": "GO!!!",
+      "artist": "羊文学",
+      "duration": 204,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003Y3fCY4EquXQ",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "GO!!! - 羊文学.mp3",
+          "sha256": "31d036e984469e691aae6c72a5032213e3a19d2b8db293feb0bc4df543f06c49"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/GO!!! - 羊文学.mp3",
+      "sourceMp3Sha256": "31d036e984469e691aae6c72a5032213e3a19d2b8db293feb0bc4df543f06c49",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003Y3fCY4EquXQ GO!!!_20261012-110352-776020.wav",
+      "sourceWavSha256": "7e85403792b2459377803baa1cf5a1767286788b3402673ed16d5b32e8111d9c",
+      "mp3": {
+        "peakDbFS": -1.696063,
+        "durationSeconds": 204.748821,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001vGwSc3T8QQ6",
+      "title": "Falling for U",
+      "artist": "Peachy!, mxmtoon",
+      "duration": 124,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001vGwSc3T8QQ6",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Falling for U - Peachy!, mxmtoon.mp3",
+          "sha256": "5704134b0e4b29b2c3bf926b93607934461591fe4c5620a9991629cd5e250510"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Falling for U - Peachy!, mxmtoon.mp3",
+      "sourceMp3Sha256": "5704134b0e4b29b2c3bf926b93607934461591fe4c5620a9991629cd5e250510",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001vGwSc3T8QQ6 Falling for U_20261012-110724-780311.wav",
+      "sourceWavSha256": "fdfdcb3800e504c04510776f52da6da0b6cf3f2f27d45030b05b6fe87bb966df",
+      "mp3": {
+        "peakDbFS": -2.630191,
+        "durationSeconds": 124.683515,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000QBao14F1Bhi",
+      "title": "cliché",
+      "artist": "mxmtoon",
+      "duration": 184,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000QBao14F1Bhi",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "cliché - mxmtoon.mp3",
+          "sha256": "c3bd5d76431f81f917aa1d3e32ab804a1ad9a4d9099a7aacfc585fd731c18eb3"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000QBao14F1Bhi cliché_20261012-110935-070922.mp3",
+      "sourceMp3Sha256": "c3bd5d76431f81f917aa1d3e32ab804a1ad9a4d9099a7aacfc585fd731c18eb3",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000QBao14F1Bhi cliché_20261012-110935-070922.wav",
+      "sourceWavSha256": "14893a39c77fb0ca80b8180d92caf119c1e891254364a476128df057f87846b8",
+      "mp3": {
+        "peakDbFS": -1.995898,
+        "durationSeconds": 185.078617,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "002lmIK828Wk7R",
+      "title": "creep",
+      "artist": "mxmtoon",
+      "duration": 210,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002lmIK828Wk7R",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "creep - mxmtoon.mp3",
+          "sha256": "fd15b346a1d2d23a19f295f19742a6d479bd9ffcf711e60c1c6bbc03732b6e8d"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/creep - mxmtoon.mp3",
+      "sourceMp3Sha256": "fd15b346a1d2d23a19f295f19742a6d479bd9ffcf711e60c1c6bbc03732b6e8d",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002lmIK828Wk7R creep_20261012-111245-794588.wav",
+      "sourceWavSha256": "142be4cd899c55432607ca3ffc0d9d4bb15f4b798f024d8300b149f487a00ffb",
+      "mp3": {
+        "peakDbFS": -1.569856,
+        "durationSeconds": 211.227188,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000MByuH0SyXGN",
+      "title": "Prairies",
+      "artist": "BoyWithUke, mxmtoon",
+      "duration": 191,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000MByuH0SyXGN",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Prairies - BoyWithUke, mxmtoon.mp3",
+          "sha256": "a675b6f6e95ff79f6398d2ee4b7081a22f144005dfbc46395ab109e8300ccdf2"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Prairies - BoyWithUke, mxmtoon.mp3",
+      "sourceMp3Sha256": "a675b6f6e95ff79f6398d2ee4b7081a22f144005dfbc46395ab109e8300ccdf2",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000MByuH0SyXGN Prairies_20261012-111624-316057.wav",
+      "sourceWavSha256": "02a993f7ab14366be0a75353ea45e22bc7eab8eba70f6720f64e7f709cbf33a2",
+      "mp3": {
+        "peakDbFS": -1.385124,
+        "durationSeconds": 192.601882,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000PxqFJ2RkFJX",
+      "title": "walk but in a garden",
+      "artist": "LLusion, mxmtoon",
+      "duration": 112,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000PxqFJ2RkFJX",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "walk but in a garden - LLusion, mxmtoon.mp3",
+          "sha256": "a2f6b95eff3d73dd13406e47273c67623ecf9cb6b910214320808081d2a72ec8"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/walk but in a garden - LLusion, mxmtoon.mp3",
+      "sourceMp3Sha256": "a2f6b95eff3d73dd13406e47273c67623ecf9cb6b910214320808081d2a72ec8",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000PxqFJ2RkFJX walk but in a garden_20261012-111944-100303.wav",
+      "sourceWavSha256": "9e1e1e51738eb2623bdde8461017a321fd0bfa113d3c06b5b92f57f862dd22b1",
+      "mp3": {
+        "peakDbFS": -1.533462,
+        "durationSeconds": 113.032902,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0009GXpY466P3P",
+      "title": "temporary nothing",
+      "artist": "mxmtoon",
+      "duration": 187,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0009GXpY466P3P",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "temporary nothing - mxmtoon.mp3",
+          "sha256": "2c38f30954dff0a5a27f89c2f0e8c8daf7d6ae150b3cae419d3b5f446f8452b3"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0009GXpY466P3P temporary nothing_20261012-112142-725465.mp3",
+      "sourceMp3Sha256": "2c38f30954dff0a5a27f89c2f0e8c8daf7d6ae150b3cae419d3b5f446f8452b3",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0009GXpY466P3P temporary nothing_20261012-112142-725465.wav",
+      "sourceWavSha256": "ce5f0c927a7c7c1a25f831a06063dd20230273558da3e0f093229c2bbd8e3f1b",
+      "mp3": {
+        "peakDbFS": -3.011186,
+        "durationSeconds": 187.534127,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true
+    },
+    {
+      "id": "000Eg1y10icqLK",
+      "title": "i feel like chet",
+      "artist": "mxmtoon",
+      "duration": 183,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000Eg1y10icqLK",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "i feel like chet - mxmtoon.mp3",
+          "sha256": "495e12f9fe544516b80f0594b0337dbd94c4b4c87c115758ad13f2c1a0dabc81"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/i feel like chet - mxmtoon.mp3",
+      "sourceMp3Sha256": "495e12f9fe544516b80f0594b0337dbd94c4b4c87c115758ad13f2c1a0dabc81",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000Eg1y10icqLK i feel like chet_20261012-112456-188720.wav",
+      "sourceWavSha256": "d6296d885fef35c9719faa74c445d05aa2e68fdbb726bac36f6afc58bd6221d2",
+      "mp3": {
+        "peakDbFS": -4.078509,
+        "durationSeconds": 184.033719,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002nDLoh3vhtOH",
+      "title": "I'll Take Care of You",
+      "artist": "Tyler, The Creator",
+      "duration": 200,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002nDLoh3vhtOH",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "I'll Take Care of You - Tyler, The Creator.mp3",
+          "sha256": "70e12ae0f62ee4304f1d1cf4bc479f905363f7bc50dabdc13e70b08cd88ea9aa"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/I'll Take Care of You - Tyler, The Creator.mp3",
+      "sourceMp3Sha256": "70e12ae0f62ee4304f1d1cf4bc479f905363f7bc50dabdc13e70b08cd88ea9aa",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002nDLoh3vhtOH I'll Take Care of You_20261012-112807-002721.wav",
+      "sourceWavSha256": "fe2b20781d7f24715764be558f0bbf32cdea6ae639e44ef1938163920773ad7f",
+      "mp3": {
+        "peakDbFS": -1.332912,
+        "durationSeconds": 201.588005,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0010pxck2ZeZcM",
+      "title": "Fucking Young / Perfect",
+      "artist": "Tyler, The Creator, Charlie Wilson, Toro Y Moi, Kali Uchis",
+      "duration": 401,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0010pxck2ZeZcM",
+      "status": "manual-approved-exception",
+      "automaticRecordingStatus": "failed",
+      "files": [
+        {
+          "path": "Fucking Young _ Perfect - Tyler, The Creator, Charlie Wilson, Toro Y Moi, Kali Uchis.mp3",
+          "sha256": "d0d7ae4f3e1a646aca442727910f5166390dfd6fc413ef7b0e3414e7c7b42779"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/manual-export/0010pxck2ZeZcM.mp3",
+      "sourceMp3Sha256": "d0d7ae4f3e1a646aca442727910f5166390dfd6fc413ef7b0e3414e7c7b42779",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/0010pxck2ZeZcM-trimmed-tail-1s.wav",
+      "sourceWavSha256": "7365fe2d184fe2193f49b67095acb6a0d874cbd4551ebae7f5b93c54e54c406c",
+      "mp3": {
+        "peakDbFS": -0.956001,
+        "durationSeconds": 401.11127,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 1,
+      "userReviewed": true,
+      "automaticFailure": "Capture is clipped or too quiet",
+      "manualExceptionSource": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/manual-delivery-exceptions.json"
+    },
+    {
+      "id": "001JPVNS42ud4y",
+      "title": "Lights On",
+      "artist": "Tyler, The Creator, Ryan Beatty, Santigold",
+      "duration": 149,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001JPVNS42ud4y",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Lights On - Tyler, The Creator, Ryan Beatty, Santigold.mp3",
+          "sha256": "41cee1c2eb58a7344a226bcc26a1f88d1610048852755c75717dd04c517c0a79"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Lights On - Tyler, The Creator, Ryan Beatty, Santigold.mp3",
+      "sourceMp3Sha256": "41cee1c2eb58a7344a226bcc26a1f88d1610048852755c75717dd04c517c0a79",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001JPVNS42ud4y Lights On_20261012-113824-501644.wav",
+      "sourceWavSha256": "fca9962db69bedd3cbc79bfd0ea45e3ed7634aa22fdff61411abbb23c0bfdeb3",
+      "mp3": {
+        "peakDbFS": -2.147468,
+        "durationSeconds": 149.813311,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002OX0SW2YWARF",
+      "title": "EARFQUAKE",
+      "artist": "Tyler, The Creator",
+      "duration": 190,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002OX0SW2YWARF",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "EARFQUAKE - Tyler, The Creator.mp3",
+          "sha256": "2735c412cd5faab5a9e252c5edd16a5be20f4273606407ef99b7bed0464458f5"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/EARFQUAKE - Tyler, The Creator.mp3",
+      "sourceMp3Sha256": "2735c412cd5faab5a9e252c5edd16a5be20f4273606407ef99b7bed0464458f5",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002OX0SW2YWARF EARFQUAKE_20261012-114100-920445.wav",
+      "sourceWavSha256": "ef07574a730d87c71be51015ee956c02d5f5aa5431cf8f4bacd0f8c8f31f4746",
+      "mp3": {
+        "peakDbFS": -1.527686,
+        "durationSeconds": 190.590454,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0013Lh5q41GAat",
+      "title": "BEST INTEREST",
+      "artist": "Tyler, The Creator",
+      "duration": 127,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0013Lh5q41GAat",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "BEST INTEREST - Tyler, The Creator.mp3",
+          "sha256": "9e717aeba1e38c15cca6c2026354de98ad949934277e45c5f94674b7adf979ff"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/BEST INTEREST - Tyler, The Creator.mp3",
+      "sourceMp3Sha256": "9e717aeba1e38c15cca6c2026354de98ad949934277e45c5f94674b7adf979ff",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0013Lh5q41GAat BEST INTEREST_20261012-114418-362561.wav",
+      "sourceWavSha256": "3b72be4082ad777d4072b20b8a83b15ff3018fa8cdcc3bee8968be8a21593654",
+      "mp3": {
+        "peakDbFS": -1.200849,
+        "durationSeconds": 128.706372,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003uWLt22gqO9y",
+      "title": "ARE WE STILL FRIENDS?",
+      "artist": "Tyler, The Creator",
+      "duration": 265,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003uWLt22gqO9y",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "ARE WE STILL FRIENDS_ - Tyler, The Creator.mp3",
+          "sha256": "b64bcc52ec425aa30ecca402f63108f3bf66268c59d5fafa7eb32636d4f02733"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/ARE WE STILL FRIENDS_ - Tyler, The Creator.mp3",
+      "sourceMp3Sha256": "b64bcc52ec425aa30ecca402f63108f3bf66268c59d5fafa7eb32636d4f02733",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003uWLt22gqO9y ARE WE STILL FRIENDS__20261012-114633-032411.wav",
+      "sourceWavSha256": "021816b02da36fbb3b50e72ab893567fb0944952fcdc434562ba0b456fb2b6d2",
+      "mp3": {
+        "peakDbFS": -1.548098,
+        "durationSeconds": 266.162698,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003nkcQh1dJkHN",
+      "title": "Biking",
+      "artist": "Frank Ocean, JAŸ-Z, Tyler, The Creator",
+      "duration": 277,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003nkcQh1dJkHN",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "Biking - Frank Ocean, JAŸ-Z, Tyler, The Creator.mp3",
+          "sha256": "ec0ebbf3efaf08f542ba29ddc38beb5c81ac1e5e1555589a704ea3c4311f59be"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/Biking - Frank Ocean, JAŸ-Z, Tyler, The Creator.mp3",
+      "sourceMp3Sha256": "ec0ebbf3efaf08f542ba29ddc38beb5c81ac1e5e1555589a704ea3c4311f59be",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003nkcQh1dJkHN Biking_20261012-115108-045310.wav",
+      "sourceWavSha256": "a4d36316aa1c3040a6a23f199b71eda549505a0a4932adf8c8266977fd06f9df",
+      "mp3": {
+        "peakDbFS": -1.66994,
+        "durationSeconds": 278.152902,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0022eXLX02qLMS",
+      "title": "ineedyou.",
+      "artist": "vietra",
+      "duration": 124,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0022eXLX02qLMS",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "ineedyou. - vietra.mp3",
+          "sha256": "4c875c20348bbde2a49a2a75e8ff3f4b4e31f7b0df736b177aa01ad11d3ac032"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/ineedyou. - vietra.mp3",
+      "sourceMp3Sha256": "4c875c20348bbde2a49a2a75e8ff3f4b4e31f7b0df736b177aa01ad11d3ac032",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0022eXLX02qLMS ineedyou_20261012-115555-027954.wav",
+      "sourceWavSha256": "0b78314b2c1e54a394445a1ed7bcfa4efa558529eb63c026319c0080918b223e",
+      "mp3": {
+        "peakDbFS": -3.846657,
+        "durationSeconds": 125.153719,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002QEfLC1rOo2t",
+      "title": "fly",
+      "artist": "vietra",
+      "duration": 97,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002QEfLC1rOo2t",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "fly - vietra.mp3",
+          "sha256": "d2303f7736b7bfebc4b513bb7b5f60992fe53ce6e38892c94af98b5f0903bad1"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/fly - vietra.mp3",
+      "sourceMp3Sha256": "d2303f7736b7bfebc4b513bb7b5f60992fe53ce6e38892c94af98b5f0903bad1",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002QEfLC1rOo2t fly_20261012-115806-084057.wav",
+      "sourceWavSha256": "3008e81cf0367266896bf194db0f0f9fc2ad5fced01260f1b95306003e5e0be0",
+      "mp3": {
+        "peakDbFS": -2.70019,
+        "durationSeconds": 97.881882,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001Yrjyo1ICqXr",
+      "title": "imsoalone",
+      "artist": "vietra",
+      "duration": 131,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001Yrjyo1ICqXr",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "imsoalone - vietra.mp3",
+          "sha256": "2c4ae527e20898ede1aa1af6523bd7dcfeef8894568aff5790070a3390fae41e"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/imsoalone - vietra.mp3",
+      "sourceMp3Sha256": "2c4ae527e20898ede1aa1af6523bd7dcfeef8894568aff5790070a3390fae41e",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001Yrjyo1ICqXr imsoalone_20261012-115949-619850.wav",
+      "sourceWavSha256": "611e17e802b86b937f2012f05068e6fa5403e4020a7799cb43256dda0d2323a9",
+      "mp3": {
+        "peakDbFS": -4.199817,
+        "durationSeconds": 132.154535,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0008HDkv3ETuzO",
+      "title": "home",
+      "artist": "Mr.Hong, vietra, Dvdkm",
+      "duration": 230,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0008HDkv3ETuzO",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "home - Mr.Hong, vietra, Dvdkm.mp3",
+          "sha256": "2b307e7926e496988cb3f7957939586b9b7073feb66ce137ea78b949f9baba07"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/home - Mr.Hong, vietra, Dvdkm.mp3",
+      "sourceMp3Sha256": "2b307e7926e496988cb3f7957939586b9b7073feb66ce137ea78b949f9baba07",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0008HDkv3ETuzO home_20261012-120207-823632.wav",
+      "sourceWavSha256": "34d0ca7743d5554cf58f82f309cc66808473d1a8aa34e88679f89c8128d4f440",
+      "mp3": {
+        "peakDbFS": -1.7702,
+        "durationSeconds": 231.367596,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0005JIy72oTlhs",
+      "title": "foryou",
+      "artist": "vietra",
+      "duration": 126,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0005JIy72oTlhs",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "foryou - vietra.mp3",
+          "sha256": "cd9c105f866bfebe4ef9a48fa8bd225e598e8f67753a2aceb08204e794151a29"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/foryou - vietra.mp3",
+      "sourceMp3Sha256": "cd9c105f866bfebe4ef9a48fa8bd225e598e8f67753a2aceb08204e794151a29",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0005JIy72oTlhs foryou_20261012-120606-973487.wav",
+      "sourceWavSha256": "934f88f83ea965d156f41cc32b0d6bd26e331ba0d8861da3f3733814e6694872",
+      "mp3": {
+        "peakDbFS": -4.336422,
+        "durationSeconds": 126.694943,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003fWl0o4enoKk",
+      "title": "in love",
+      "artist": "vietra",
+      "duration": 78,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003fWl0o4enoKk",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "in love - vietra.mp3",
+          "sha256": "7372c4ddf464bf66af0a21bdd191f0afa27798b1341c1b045d29fcf0e6ad9d8f"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/in love - vietra.mp3",
+      "sourceMp3Sha256": "7372c4ddf464bf66af0a21bdd191f0afa27798b1341c1b045d29fcf0e6ad9d8f",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003fWl0o4enoKk in love_20261012-120819-586184.wav",
+      "sourceWavSha256": "e26d4cc6f9ce69fbb8c6ea95a0014c2b0788cc673ff64d79e737713d421bccfd",
+      "mp3": {
+        "peakDbFS": -3.721192,
+        "durationSeconds": 79.308821,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000LoSd13j6j01",
+      "title": "tired",
+      "artist": "vietra",
+      "duration": 84,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000LoSd13j6j01",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "tired - vietra.mp3",
+          "sha256": "77e74237d27da2547a011a505898221853b27c4d6b4397a814a4f3885503ffea"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/tired - vietra.mp3",
+      "sourceMp3Sha256": "77e74237d27da2547a011a505898221853b27c4d6b4397a814a4f3885503ffea",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000LoSd13j6j01 tired_20261012-120943-607526.wav",
+      "sourceWavSha256": "32ee813a16fc29e0e54a1c6cd381e9cdd6a1d73dd770327a195035107fbe4b5d",
+      "mp3": {
+        "peakDbFS": -4.060839,
+        "durationSeconds": 84.272086,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000J3Wc20ssHpI",
+      "title": "破吉他",
+      "artist": "张震岳",
+      "duration": 234,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000J3Wc20ssHpI",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "破吉他 - 张震岳.mp3",
+          "sha256": "14fdba2f5313718204502d6012acba663d8e83b9b7419b9d7b87fd383142ed61"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/破吉他 - 张震岳.mp3",
+      "sourceMp3Sha256": "14fdba2f5313718204502d6012acba663d8e83b9b7419b9d7b87fd383142ed61",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000J3Wc20ssHpI 破吉他_20261012-121112-983950.wav",
+      "sourceWavSha256": "8519ddd6cb1bf06d0ee7709919164ad7ad90bcbdcdecb35a1cfbd60f713b39e9",
+      "mp3": {
+        "peakDbFS": -1.665191,
+        "durationSeconds": 234.841882,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "0026nUBU1pOAF2",
+      "title": "我会想念你",
+      "artist": "张震岳",
+      "duration": 314,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/0026nUBU1pOAF2",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "我会想念你 - 张震岳.mp3",
+          "sha256": "18ce7e0169b06d5a3e56792c3c399f61e77c661c508705610945183b37c25166"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/我会想念你 - 张震岳.mp3",
+      "sourceMp3Sha256": "18ce7e0169b06d5a3e56792c3c399f61e77c661c508705610945183b37c25166",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/0026nUBU1pOAF2 我会想念你_20261012-121515-618815.wav",
+      "sourceWavSha256": "c3419365f7833e0f1ee5eb62fbc32f755b94a81d415afc002a961d71a43555af",
+      "mp3": {
+        "peakDbFS": -1.136031,
+        "durationSeconds": 314.959433,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000VPWYA0RaRqq",
+      "title": "小宇",
+      "artist": "张震岳",
+      "duration": 227,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000VPWYA0RaRqq",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "小宇 - 张震岳.mp3",
+          "sha256": "ea9c722540291ba22ecef365b058c5dc24548a4e0265782363132c55ec71d2b6"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/小宇 - 张震岳.mp3",
+      "sourceMp3Sha256": "ea9c722540291ba22ecef365b058c5dc24548a4e0265782363132c55ec71d2b6",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000VPWYA0RaRqq 小宇_20261012-122040-093029.wav",
+      "sourceWavSha256": "57e6d6092f30096f442254158a3fc1ba2559eca4e7257599d69edfd84d19179e",
+      "mp3": {
+        "peakDbFS": -1.497328,
+        "durationSeconds": 227.893311,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003dKmfv0gJ2h2",
+      "title": "思念是一种病",
+      "artist": "张震岳, MC HotDog 热狗",
+      "duration": 264,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003dKmfv0gJ2h2",
+      "status": "manual-approved-exception",
+      "automaticRecordingStatus": "failed",
+      "files": [
+        {
+          "path": "思念是一种病 - 张震岳, MC HotDog 热狗.mp3",
+          "sha256": "a4eca9ebf992e3ca537145c42d04c5c5b853781d207a65b68254c92c27cd6baa"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/reviewed/2026-10-12/manual-export/003dKmfv0gJ2h2.mp3",
+      "sourceMp3Sha256": "a4eca9ebf992e3ca537145c42d04c5c5b853781d207a65b68254c92c27cd6baa",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003dKmfv0gJ2h2 思念是一种病_20261012-122436-169908.wav",
+      "sourceWavSha256": "61d310d8ee5633dd7be4f7d839ca2a9d30fdef9e673ee344ffde763085a0e72e",
+      "mp3": {
+        "peakDbFS": -0.654653,
+        "durationSeconds": 265.143923,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": true,
+      "automaticFailure": "Capture is clipped or too quiet",
+      "manualExceptionSource": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/manual-delivery-exceptions.json"
+    },
+    {
+      "id": "003ilXfl3EWxcV",
+      "title": "思念是一种病",
+      "artist": "张震岳, 蔡健雅",
+      "duration": 255,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003ilXfl3EWxcV",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "思念是一种病 - 张震岳, 蔡健雅.mp3",
+          "sha256": "69f9854472b1b5e7e5f4a5d06b3fb9180acb9544c0e3929ef9527b060921d462"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/思念是一种病 - 张震岳, 蔡健雅.mp3",
+      "sourceMp3Sha256": "69f9854472b1b5e7e5f4a5d06b3fb9180acb9544c0e3929ef9527b060921d462",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003ilXfl3EWxcV 思念是一种病_20261012-122906-547022.wav",
+      "sourceWavSha256": "44a8b101cfb60d0113023b76ca987ea95a861c7051d3ebcd2a0399f51d48006c",
+      "mp3": {
+        "peakDbFS": -1.329921,
+        "durationSeconds": 256.105556,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001FIxjV4ANdZB",
+      "title": "没人爱俱乐部",
+      "artist": "张震岳",
+      "duration": 171,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001FIxjV4ANdZB",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "没人爱俱乐部 - 张震岳.mp3",
+          "sha256": "e8c27b3087328280ed4549a1c11a8790f49596291e139f300b0d6d922b95482c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/没人爱俱乐部 - 张震岳.mp3",
+      "sourceMp3Sha256": "e8c27b3087328280ed4549a1c11a8790f49596291e139f300b0d6d922b95482c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001FIxjV4ANdZB 没人爱俱乐部_20261012-123331-067549.wav",
+      "sourceWavSha256": "c551ca7c414277bb108ba72754fbab14be335b8577b6e6979c3691998abe02e3",
+      "mp3": {
+        "peakDbFS": -1.471794,
+        "durationSeconds": 172.461474,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002mpF6I3zDNyp",
+      "title": "金黄色的",
+      "artist": "郑宜农",
+      "duration": 285,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002mpF6I3zDNyp",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "金黄色的 - 郑宜农.mp3",
+          "sha256": "c324bcd7befa341c661b1a17bce94eaf1f2c6184694d8d932f459ce236e5257f"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/金黄色的 - 郑宜农.mp3",
+      "sourceMp3Sha256": "c324bcd7befa341c661b1a17bce94eaf1f2c6184694d8d932f459ce236e5257f",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002mpF6I3zDNyp 金黄色的_20261012-123630-052744.wav",
+      "sourceWavSha256": "10702f6cf1ae9b756078d56fce29a879d388887926917270b67ef58987185c9e",
+      "mp3": {
+        "peakDbFS": -1.546698,
+        "durationSeconds": 286.224739,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "000Uh9kP1DHzAc",
+      "title": "太阳",
+      "artist": "郑宜农",
+      "duration": 193,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/000Uh9kP1DHzAc",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "太阳 - 郑宜农.mp3",
+          "sha256": "2ee35b7264b4a7673d4a2e4a15fd01a2c47b98b3f5aba954f58bf6ed80554df9"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/太阳 - 郑宜农.mp3",
+      "sourceMp3Sha256": "2ee35b7264b4a7673d4a2e4a15fd01a2c47b98b3f5aba954f58bf6ed80554df9",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/000Uh9kP1DHzAc 太阳_20261012-124125-010099.wav",
+      "sourceWavSha256": "93dd683ae036a36d28081678dbf38e1d02bf0171de598796e713d142495550f6",
+      "mp3": {
+        "peakDbFS": -2.843391,
+        "durationSeconds": 194.064739,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003XDtQV2qHvpM",
+      "title": "做风台",
+      "artist": "郑宜农",
+      "duration": 203,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003XDtQV2qHvpM",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "做风台 - 郑宜农.mp3",
+          "sha256": "b9eea4d45e9d9e51d20918c63f7b70e166ab922c9e6b959f85b0091d6886bf7c"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/做风台 - 郑宜农.mp3",
+      "sourceMp3Sha256": "b9eea4d45e9d9e51d20918c63f7b70e166ab922c9e6b959f85b0091d6886bf7c",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003XDtQV2qHvpM 做风台_20261012-124446-143115.wav",
+      "sourceWavSha256": "9e48e419d25885792e047e0227ec69c764c4a5a77b05d4dedbcb338187612ee6",
+      "mp3": {
+        "peakDbFS": -1.909901,
+        "durationSeconds": 203.730045,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "001BlQQO1s2ZPU",
+      "title": "人如何学会语言",
+      "artist": "郑宜农, 何俊苇 Chunho",
+      "duration": 306,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/001BlQQO1s2ZPU",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "人如何学会语言 - 郑宜农, 何俊苇 Chunho.mp3",
+          "sha256": "e1f444ec1877db77ae516f4c15dbcc6a6b6ab8d8fd598827d443f2fddc587d77"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/人如何学会语言 - 郑宜农, 何俊苇 Chunho.mp3",
+      "sourceMp3Sha256": "e1f444ec1877db77ae516f4c15dbcc6a6b6ab8d8fd598827d443f2fddc587d77",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/001BlQQO1s2ZPU 人如何学会语言_20261012-124817-398596.wav",
+      "sourceWavSha256": "d97eac8d629c64d29b8eea1efbcd70bcb861e3bb6760230e352f7744518f0b19",
+      "mp3": {
+        "peakDbFS": -1.545077,
+        "durationSeconds": 306.913719,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "002tC9D64WkbX6",
+      "title": "深深地",
+      "artist": "郑宜农",
+      "duration": 263,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/002tC9D64WkbX6",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "深深地 - 郑宜农.mp3",
+          "sha256": "ec5b4cb4db759b4cbfee9b04eb4becd69714d0c0f996f76bb6843b20202b5c65"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/深深地 - 郑宜农.mp3",
+      "sourceMp3Sha256": "ec5b4cb4db759b4cbfee9b04eb4becd69714d0c0f996f76bb6843b20202b5c65",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/002tC9D64WkbX6 深深地_20261012-125333-863245.wav",
+      "sourceWavSha256": "c538ede7f017e8f65b4a6dbfdaa4bbfac6f01beed764aad6895d2604f005a360",
+      "mp3": {
+        "peakDbFS": -2.56013,
+        "durationSeconds": 264.125147,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    },
+    {
+      "id": "003TawFd2DTXPS",
+      "title": "最好的距离",
+      "artist": "郑宜农, deca joins",
+      "duration": 246,
+      "genre": "未正式打标",
+      "formalLabel": false,
+      "secondaryGenres": [],
+      "url": "https://y.qq.com/n/ryqq/songDetail/003TawFd2DTXPS",
+      "status": "accepted",
+      "automaticRecordingStatus": "accepted",
+      "files": [
+        {
+          "path": "最好的距离 - 郑宜农, deca joins.mp3",
+          "sha256": "aaa515d6d19825c895097f0614718b0ba6025680ada63f445ccb9c4ee6e68cd4"
+        }
+      ],
+      "sourceMp3": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-11-歌单补充B01B02-118首录制/最好的距离 - 郑宜农, deca joins.mp3",
+      "sourceMp3Sha256": "aaa515d6d19825c895097f0614718b0ba6025680ada63f445ccb9c4ee6e68cd4",
+      "sourceWav": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11/raw/003TawFd2DTXPS 最好的距离_20261012-125806-652231.wav",
+      "sourceWavSha256": "dd48bd6d1ebd33604a27a1d6304882c6b675f4f2b351d944c665d4b0d9b1335a",
+      "mp3": {
+        "peakDbFS": -1.503582,
+        "durationSeconds": 246.988821,
+        "decodePassed": true
+      },
+      "trimmedTailSeconds": 0,
+      "userReviewed": false
+    }
+  ]
+}

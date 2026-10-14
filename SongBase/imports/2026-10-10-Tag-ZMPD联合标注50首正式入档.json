@@ -1,0 +1,1504 @@
+{
+  "schema_version": "songbase.combined-annotation-import/v1",
+  "imported_at": "2026-10-10T10:52:28.689212+00:00",
+  "source_file": "/Users/kaluozheng/Downloads/song_combined_annotations_2026-10-10.json",
+  "source_sha256": "9377682da4d12ff4b8a7623e541c53c1dc06806389a2e92ca9c2a0ad0fee8800",
+  "source_exported_at": "2026-10-10T10:45:53.175Z",
+  "tag_snapshot": "archive/snapshots/song_tags/song_tags_before_combined_import_2026-10-10_185228.json",
+  "zmpd_annotation": "Flowset-个人审美打标-Demo/Flowset-个人审美样本·Tag-ZMPD联合标注50首-郑卡罗-2026-10-10.json",
+  "summary": {
+    "formal_tags_added": 50,
+    "zmpd_annotations_added": 50
+  },
+  "tracks": [
+    {
+      "track_id": "qq:001sYeaM3Te8Ve",
+      "title": "拥抱 (2013新录制作品)",
+      "artist": "五月天",
+      "audio_filename": "拥抱 (2013新录制作品) - 五月天.mp3",
+      "audio_size": 11536761,
+      "audio_sha256": "3779827d3f718f0897ad939c289cca095dbabeb74811fd461f8d3af86b9298fa",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001jXpn72EvZtq",
+      "title": "Another Shore",
+      "artist": "吴卓玲",
+      "audio_filename": "Another Shore - 吴卓玲.mp3",
+      "audio_size": 18592957,
+      "audio_sha256": "5cd421b9c9df29200e04feb44faf7ca57126d2c6a76a0cf1d4a2e4ffae43b829",
+      "tag": {
+        "genre": "Electronic",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000usshm3WwLLs",
+      "title": "缓慢味",
+      "artist": "囍浪",
+      "audio_filename": "缓慢味 - 囍浪.mp3",
+      "audio_size": 11796941,
+      "audio_sha256": "70b66da0b53c0118fe7e9b4aca67bf512ab025196142763d1fc3c1053d9086d1",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ],
+          "energy_state": "平静",
+          "noise": 3,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:004ZJkPD4dUxIS",
+      "title": "Finger (Audiotree Live Version)",
+      "artist": "大象体操",
+      "audio_filename": "Finger (Audiotree Live Version) - 大象体操.mp3",
+      "audio_size": 11876353,
+      "audio_sha256": "b1ef8bcff04166ca64bb1d17231e77c6707fe8ad62d62a1c55a7d503a352f7f1",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 5,
+          "swing": 5,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002RG06N0T9zK8",
+      "title": "羽毛 (feat. 坏特 ?te) (Feather)",
+      "artist": "大象体操",
+      "audio_filename": "羽毛 (feat. 坏特 te) (Feather) - 大象体操.mp3",
+      "audio_size": 9280826,
+      "audio_sha256": "358fda257c1a33eb394ed4fc90d6183352d485d565e651fd8a266147bc4d7800",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Rock / Alternative"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17"
+          ],
+          "energy_state": "渐进",
+          "noise": 5,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000l58Wh1cinVC",
+      "title": "It’s time for you",
+      "artist": "巧克力工厂",
+      "audio_filename": "It’s time for you - 巧克力工厂.mp3",
+      "audio_size": 13768663,
+      "audio_sha256": "9b22d422b72d037174d8903c9f3e05c3ffe4bcf7a9462bd31877a5f99858ea1b",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:00073hOK283QII",
+      "title": "If I Say I Love You",
+      "artist": "恐龙的皮 The Dinosaur's Skin",
+      "audio_filename": "If I Say I Love You - 恐龙的皮 The Dinosaur's Skin.mp3",
+      "audio_size": 9256794,
+      "audio_sha256": "4f0ee6675ade9cb99a5d374e4f1cd090312ca4035b602f4c75428232ad04b590",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002duDwG2PwubO",
+      "title": "Millions of Years Apart (feat. MANDARK)",
+      "artist": "恐龙的皮 The Dinosaur's Skin",
+      "audio_filename": "Millions of Years Apart (feat. MANDARK) - 恐龙的皮 The Dinosaur's Skin.mp3",
+      "audio_size": 8696728,
+      "audio_sha256": "27eb283bc6fc0f247a0fca808181bbdcce7041bd0640d25c7ee4c7a3e55eaef0",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Ambient / Neo-Classical",
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001fSEVh3xrTJP",
+      "title": "污水塘 Polluted Pond (Live)",
+      "artist": "惘闻",
+      "audio_filename": "污水塘 Polluted Pond (Live) - 惘闻.mp3",
+      "audio_size": 15101953,
+      "audio_sha256": "0b1690fb2116493fa78e414094a981c7e6aae397944b386f026d70de687227d3",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0001lCI72yXQ4F",
+      "title": "Welcome to Utopia",
+      "artist": "惘闻",
+      "audio_filename": "Welcome to Utopia - 惘闻.mp3",
+      "audio_size": 22722394,
+      "audio_sha256": "b988700ffb9d18a87c2f46b415f25c81226f7674e2cb88312f24fb28b0430a36",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0008P9ux0TC3ho",
+      "title": "Rain Watcher",
+      "artist": "惘闻",
+      "audio_filename": "Rain Watcher - 惘闻.mp3",
+      "audio_size": 13553414,
+      "audio_sha256": "31058c4aa6ecf1436b51f6eec41eb3dddb1686cdff829a41dcecc6218d9f1bd2",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "17-20"
+          ],
+          "energy_state": "爆发",
+          "noise": 5,
+          "swing": 3,
+          "burden": 5
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003YDLNN4EIffX",
+      "title": "Lonely God",
+      "artist": "惘闻",
+      "audio_filename": "Lonely God - 惘闻.mp3",
+      "audio_size": 22828973,
+      "audio_sha256": "c1eb6265a5773b27f8c2d3ccc9cf983e9eb1d4d6f6cdbbd29028f316b811824d",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 4,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003a8oi60gTRb9",
+      "title": "Double",
+      "artist": "文雀",
+      "audio_filename": "Double - 文雀.mp3",
+      "audio_size": 10772941,
+      "audio_sha256": "4e66a0bb3472c9655342948293da61660fac133fdcbf464926b73db76d4e6a71",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001W1XJR49YEON",
+      "title": "浮生若梦",
+      "artist": "文雀",
+      "audio_filename": "浮生若梦 - 文雀.mp3",
+      "audio_size": 18719390,
+      "audio_sha256": "77be481560dca6828efa0c2a72782898daeb956121a7be783da76da74d157249",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 5,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:004Hp3h12kfMvU",
+      "title": "一个人的快乐",
+      "artist": "文雀",
+      "audio_filename": "一个人的快乐 - 文雀.mp3",
+      "audio_size": 12419700,
+      "audio_sha256": "158b1f6fa0e527806564007327ecdea5967db77c0313723a9feabbcc299c47f9",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0004rSqn1xwy70",
+      "title": "60km/h",
+      "artist": "晨曦光廊",
+      "audio_filename": "60kmh - 晨曦光廊.mp3",
+      "audio_size": 18559520,
+      "audio_sha256": "c3e5535bfb820290ac9c834f3929c27adde5a7c3ebc2a9ef04299c0edbd95ba0",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000CNsZ20gAfcx",
+      "title": "满世 完结篇",
+      "artist": "景德镇文艺复兴",
+      "audio_filename": "满世 完结篇 - 景德镇文艺复兴.mp3",
+      "audio_size": 13249349,
+      "audio_sha256": "a7196fc83580f6e4a0c7b486c0e37ee3d7c290244ea070ed24f0e4a1d88887f7",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "11-14",
+            "14-17"
+          ],
+          "energy_state": "平静",
+          "noise": 3,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001uOGeQ2rZTPy",
+      "title": "太阳睡着了 (Demo)",
+      "artist": "曾柯淳",
+      "audio_filename": "太阳睡着了 (Demo) - 曾柯淳.mp3",
+      "audio_size": 4849414,
+      "audio_sha256": "ef1c050ebe3c1f6e4ce090ed0b975089f48cb5284f12eae55957b104ccc05803",
+      "tag": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "平静",
+          "noise": 2,
+          "swing": 3,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003U4RLy1lRrzq",
+      "title": "枕头下的宇宙",
+      "artist": "曾柯淳",
+      "audio_filename": "枕头下的宇宙 - 曾柯淳.mp3",
+      "audio_size": 7225512,
+      "audio_sha256": "226ff280fb57ca5bab7a66a3d180c360040d12fd6fa7ae9efa3c4bd721d61806",
+      "tag": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Ambient / Neo-Classical",
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:004RnRy44FJO96",
+      "title": "一只死在春天的猫",
+      "artist": "曾柯淳",
+      "audio_filename": "一只死在春天的猫 - 曾柯淳.mp3",
+      "audio_size": 7022802,
+      "audio_sha256": "c8aa6044d6e2cc188ee6c82c13426c500745f051c335c12cd55e6c64b06ac6cb",
+      "tag": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000AvO4C4BeGbA",
+      "title": "The Fear In My Heart",
+      "artist": "朴树",
+      "audio_filename": "The Fear In My Heart - 朴树.mp3",
+      "audio_size": 15826067,
+      "audio_sha256": "1e906d8849078ff5ab47a9dc06698356a8c7c6845a8c3058d50e21f71200d4c9",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003dNf1M2Boo0K",
+      "title": "Don't Mind Me feat. Crispy脆乐团",
+      "artist": "杨乃文",
+      "audio_filename": "Don't Mind Me feat. Crispy脆乐团 - 杨乃文.mp3",
+      "audio_size": 7463749,
+      "audio_sha256": "4acb27c33c696f207550c2593010da3bfcf32c1894405c9d91d23ef778ba0228",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 4,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003YjTL42AQzNo",
+      "title": "大好きな人生",
+      "artist": "林忆莲",
+      "audio_filename": "大好きな人生 - 林忆莲.mp3",
+      "audio_size": 13692386,
+      "audio_sha256": "4fd7f4005e66ed1f4fc51dd8c952e318bd62b84ac1279c96c60b8fc1596a1f99",
+      "tag": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Hip-Hop / R&B"
+        ],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0046RnQs2tSuVb",
+      "title": "出现又离开 (Live)",
+      "artist": "梁博",
+      "audio_filename": "出现又离开 (Live) - 梁博.mp3",
+      "audio_size": 17335945,
+      "audio_sha256": "6a9c00aada443543caa7b1abcd464b2c9b42ee7e817533e82aa750e1f817f1e4",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 4,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000zj5ZP3SgtgB",
+      "title": "黑夜中 (Live)",
+      "artist": "梁博",
+      "audio_filename": "黑夜中 (Live) - 梁博.mp3",
+      "audio_size": 21004581,
+      "audio_sha256": "2ed847cdbfa1e5003424ab9f94e8774b7deda0cf6cb9aad88c0d1df08082bc75",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 5,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0008E2he3dUseC",
+      "title": "如梦重叠",
+      "artist": "沉默橙",
+      "audio_filename": "如梦重叠 - 沉默橙.mp3",
+      "audio_size": 7507635,
+      "audio_sha256": "6e8be862f1fe10d20c84f4a988e6a877fb05a0b9fc0f724ba8af2cde5f76c9a9",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003gaenC4WfeMN",
+      "title": "Storytelling",
+      "artist": "湯川潮音",
+      "audio_filename": "Storytelling - 湯川潮音.mp3",
+      "audio_size": 14398737,
+      "audio_sha256": "8c213b2cbe200adeb6580263d538cc3fe19f29604fb27927d70b883f59269e77",
+      "tag": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Post-Rock / Cinematic"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002ofB9D3ZLdlB",
+      "title": "云男",
+      "artist": "现象师",
+      "audio_filename": "云男 - 现象师.mp3",
+      "audio_size": 17155177,
+      "audio_sha256": "4d514ff934489c3d04ac0f3ef92f785ac11557acb13fb01bafd753f27cd6a698",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "爆发",
+          "noise": 5,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0031mOVe3NEc5g",
+      "title": "宿醉之星",
+      "artist": "琥珀乐队",
+      "audio_filename": "宿醉之星 - 琥珀乐队.mp3",
+      "audio_size": 18505186,
+      "audio_sha256": "8ebef5493c2b5fdab89e10836636c643ab81e07af45e879317c5df34606f01b9",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0037uaNi3f448N",
+      "title": "站在太阳上 (Feet on the Sun)",
+      "artist": "甜梅号",
+      "audio_filename": "站在太阳上 (Feet on the Sun) - 甜梅号.mp3",
+      "audio_size": 18988973,
+      "audio_sha256": "192f6da3436d00176416b276b12066f13c42ea17f34cc9223c2f6e818a7c3a37",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:004cHAAD2sv59s",
+      "title": "金玉良田 (Farms we used to cherish)",
+      "artist": "甜梅号",
+      "audio_filename": "金玉良田 (Farms we used to cherish) - 甜梅号.mp3",
+      "audio_size": 29509006,
+      "audio_sha256": "0f7401e19e19f64ce17c766d3d7db3094bce2fd1362a977cf5bbff71610c9b6c",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 5,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000R53G94DatTG",
+      "title": "月娘总是照着我们 (Luna keeps an eye on every soul)",
+      "artist": "甜梅号",
+      "audio_filename": "月娘总是照着我们 (Luna keeps an eye on every soul) - 甜梅号.mp3",
+      "audio_size": 30140124,
+      "audio_sha256": "52f3b2176420a8f454cb57a2a575a4f29519807fd9561c0bf9b63266df9a00d4",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003DIjfz3r8ejJ",
+      "title": "一个人的永远 (Inst.)",
+      "artist": "甜梅号",
+      "audio_filename": "一个人的永远 (Inst.) - 甜梅号.mp3",
+      "audio_size": 13646410,
+      "audio_sha256": "1200fa46bd8989b8ed4d46b58d4eeaa38c667b2cec1283a2b61e575970bdf36b",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 6,
+          "swing": 3,
+          "burden": 5
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0028w8qh33PEbF",
+      "title": "南方蝶道 (Southern Butterfly Path)",
+      "artist": "甜梅号",
+      "audio_filename": "南方蝶道 (Southern Butterfly Path) - 甜梅号.mp3",
+      "audio_size": 23493528,
+      "audio_sha256": "37ee1fe70c9f85a822fdbb469e55a93bf41dd46a9b8d1d5970229ba45ec1423d",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "爆发",
+          "noise": 6,
+          "swing": 4,
+          "burden": 5
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003H2wp53LOyj8",
+      "title": "Rosemary",
+      "artist": "痛仰乐队",
+      "audio_filename": "Rosemary - 痛仰乐队.mp3",
+      "audio_size": 16875145,
+      "audio_sha256": "cf28a10df52007fd7028bae212198a04fad6e57d6d388b409104936f6f671b74",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Electronic"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "平静",
+          "noise": 2,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0046itwD3abzOM",
+      "title": "秘密爱人 - Steal love",
+      "artist": "短跑小说",
+      "audio_filename": "秘密爱人 - Steal love - 短跑小说.mp3",
+      "audio_size": 12743618,
+      "audio_sha256": "5aeeae68e941ebbbf6906a6fefae49b6e431209b3e67da281472b678e4dc98b5",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Jazz / Soul",
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 4,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000Causn0xHMoT",
+      "title": "我独自过冬",
+      "artist": "碎叠",
+      "audio_filename": "我独自过冬 - 碎叠.mp3",
+      "audio_size": 12120859,
+      "audio_sha256": "32f0c1ccac9c443eab8522f9eb0e7ac459c957d1d081442e2a6316bdd979a8dc",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17"
+          ],
+          "energy_state": "渐进",
+          "noise": 5,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001Ieejp1qL4s2",
+      "title": "秋天降落",
+      "artist": "碎叠",
+      "audio_filename": "秋天降落 - 碎叠.mp3",
+      "audio_size": 15662018,
+      "audio_sha256": "73d0ac7c865c6f52e739613018919161dd5c5ed65e04177b9eaf5296b3e3df07",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 5,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0014AXGx1Sp8aH",
+      "title": "more than words",
+      "artist": "羊文学",
+      "audio_filename": "more than words - 羊文学.mp3",
+      "audio_size": 11617218,
+      "audio_sha256": "a75fed2cb9c38a9fc3a8f188ffe548ad477b40787c42dd3883a89589cf341672",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 4,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002ep8yZ1z4efX",
+      "title": "Surfing Rock",
+      "artist": "肖骏",
+      "audio_filename": "Surfing Rock - 肖骏.mp3",
+      "audio_size": 8896304,
+      "audio_sha256": "affee8c91bda65db97e889fdd6ea5f2e708246c489710ea259bab38e2b45fd72",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 5,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000X16Yk2BC53v",
+      "title": "穿过冰面",
+      "artist": "花伦",
+      "audio_filename": "穿过冰面 - 花伦.mp3",
+      "audio_size": 13748810,
+      "audio_sha256": "b7543409c08034d8b8a0098c1bb0be70527efbd2de0406bf1695b60e529320be",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Electronic",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "11-14"
+          ],
+          "energy_state": "平静",
+          "noise": 2,
+          "swing": 2,
+          "burden": 6
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:002ctGMN0hsNmb",
+      "title": "安全降落",
+      "artist": "表情银行",
+      "audio_filename": "安全降落 - 表情银行.mp3",
+      "audio_size": 12297447,
+      "audio_sha256": "30f5a42003e41485696457e351e99594c65ca0a97985ce6ad687d2f706c57d02",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000BzIpH1FTNrZ",
+      "title": "小男孩",
+      "artist": "表情银行",
+      "audio_filename": "小男孩 - 表情银行.mp3",
+      "audio_size": 10284973,
+      "audio_sha256": "49849211cff274a222163290784782f7c464ce14ae58cf8b3ba13ff740a647ae",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0018SFFk2R8tgv",
+      "title": "Felix",
+      "artist": "表情银行",
+      "audio_filename": "Felix - 表情银行.mp3",
+      "audio_size": 13468777,
+      "audio_sha256": "5f1ad13dda29d4abb2c4b9ecd153d70ff298cc4e32bef65498423c9ac0ebda3c",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "11-14",
+            "14-17"
+          ],
+          "energy_state": "平静",
+          "noise": 3,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:0044FgvG1zPAma",
+      "title": "苍蝇为什么要搓手",
+      "artist": "表情银行",
+      "audio_filename": "苍蝇为什么要搓手 - 表情银行.mp3",
+      "audio_size": 11090590,
+      "audio_sha256": "6fdb8ca26fb2e1f54f6d2380244f362b093247918f5b6239fd4506cbe832b278",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Electronic",
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 3,
+          "swing": 3,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003BhLbV0gunrC",
+      "title": "筛子浪 Seaman's Diary",
+      "artist": "许钧",
+      "audio_filename": "筛子浪 Seaman's Diary - 许钧.mp3",
+      "audio_size": 12823030,
+      "audio_sha256": "37abd8a53b065ef53fc665318f8c7f1b16b5be151a1718e499b588574f2443d0",
+      "tag": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "平静",
+          "noise": 3,
+          "swing": 3,
+          "burden": 2
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:000fbEhM2vgdOE",
+      "title": "恐怖的房子",
+      "artist": "超级市场",
+      "audio_filename": "恐怖的房子 - 超级市场.mp3",
+      "audio_size": 17900190,
+      "audio_sha256": "f4f4d18d1fac28aeeba8b7c1c423132d419d81f6d0ffddf3f2ce994c6cd9c93f",
+      "tag": {
+        "genre": "Electronic",
+        "secondary_genres": [
+          "Post-Rock / Cinematic",
+          "Rock / Alternative"
+        ],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 3,
+          "swing": 4,
+          "burden": 4
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:003G0sVN0lWqid",
+      "title": "重来",
+      "artist": "逃跑计划",
+      "audio_filename": "重来 - 逃跑计划.mp3",
+      "audio_size": 12500157,
+      "audio_sha256": "6d7498a106577415ddeb12330ec60c287ed3c383c1e1b24af99d483632801dc9",
+      "tag": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "有冲劲",
+          "noise": 4,
+          "swing": 3,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001U5wNn266GDq",
+      "title": "时过境迁feat.罗小黑",
+      "artist": "野岸刊",
+      "audio_filename": "时过境迁feat.罗小黑 - 野岸刊.mp3",
+      "audio_size": 20557365,
+      "audio_sha256": "5f603df61e8f832dfaf46d1ea6bec97a98afb7bfef52ae5d73b9a19e016cf0a5",
+      "tag": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "11-14",
+            "14-17",
+            "17-20"
+          ],
+          "energy_state": "渐进",
+          "noise": 4,
+          "swing": 4,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    },
+    {
+      "track_id": "qq:001FigFM2goAOg",
+      "title": "kimochi",
+      "artist": "铃木真海子",
+      "audio_filename": "kimochi - 铃木真海子.mp3",
+      "audio_size": 10266165,
+      "audio_sha256": "d7955f1f9250b898783989fea6332e062652630f5470be168f23748ee9b386f8",
+      "tag": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": "Japanese",
+        "instrumental": false
+      },
+      "zmpd": {
+        "selections": {
+          "time_scene": [
+            "8-11",
+            "11-14"
+          ],
+          "energy_state": "平静",
+          "noise": 2,
+          "swing": 2,
+          "burden": 3
+        },
+        "confidence": 3,
+        "note": ""
+      }
+    }
+  ]
+}

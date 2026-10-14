@@ -1,0 +1,153 @@
+{
+  "schema_version": "songbase.related-stash-recovery/v1",
+  "restored_at": "2026-10-13T23:52:20.566303+08:00",
+  "stash": "ba181963fb15bbec2af68d9667f6739a7cd89c43",
+  "flowset_files": 4,
+  "zmpd_files": 22,
+  "backup_directory": "/Users/kaluozheng/Music-Player-Investigation/SongBase/archive/snapshots/recovery/20261013-235220-before-Flowset-ZMPD-restore",
+  "files": [
+    {
+      "path": "Flowset-个人审美打标-Demo/build_transition_relationship_report.py",
+      "before_sha256": "5f89840b58784e25083886c3ecd339d1146db0abfbd1f5aef69f8b6432314695",
+      "stash_sha256": "49b77d047cc37a20c5a91e9916e1801685098cbd35b762318e865c3f8a089848"
+    },
+    {
+      "path": "Flowset-个人审美打标-Demo/flowset_transition_relationship_report.html",
+      "before_sha256": "a668627a1cea2a6628b973b22fdb5b841f7b91cc26dd463c3b8faea7b49c0448",
+      "stash_sha256": "4f3f5482e0df22e014648f7d93f799e51ec90ff332a98f14e58fecabd0593471"
+    },
+    {
+      "path": "Flowset-个人审美打标-Demo/transition_report_build_2026-10-09.json",
+      "before_sha256": null,
+      "stash_sha256": "6485d12df8fe0cab03935536964fba3897e7f2f096582e18602e216cb6a8f4ed"
+    },
+    {
+      "path": "Flowset-个人审美打标-Demo/用户风格衔接偏好报告_2026-10-09.md",
+      "before_sha256": null,
+      "stash_sha256": "6bb646937667c2e1afe0d181fc53cd0061e2354abbad222ec18d94de33fe59d5"
+    },
+    {
+      "path": "ZMPD-模型预测开发/build_training_manifest.py",
+      "before_sha256": null,
+      "stash_sha256": "ec0a67b850776dce257d118dbd504c41b6f845ebb9ed251bb7a0b334bdeee5fe"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/seventh-extraction/compact-v3-analysis.json",
+      "before_sha256": null,
+      "stash_sha256": "e07d6fb35100e2d4163e1ae4f321931993c5f37b12e1fbc9949bcd146c8209fd"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/seventh-extraction/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "3ccf4a2c669fc7146eb099efc0eca69c4c3d81e4b74245f21dc793a211f6b5df"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/seventh-extraction/progress.json",
+      "before_sha256": null,
+      "stash_sha256": "e2790661f5de25407bf0fcb8a9d3d5268dedb94aa08ef3224f1fc9c3e436fbe7"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/seventh-extraction/track-checkpoints.ndjson",
+      "before_sha256": null,
+      "stash_sha256": "87821b331c81ba4f99d4243afb23004eb31c4a04a78bf116261cf0d61b694424"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/sixth-extraction/compact-v3-analysis.json",
+      "before_sha256": "dd409fb60abc574e61e02a48a08362581bf767a5dcae89789f6daa6953232ca0",
+      "stash_sha256": "2e723d8cc9dd3e37c67d3017321fe07694118bc157a3cd2102a4ad750ac4bfec"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/sixth-extraction/personal-features-v2.json",
+      "before_sha256": "ca233517bce3f2189f8e083c5651daf1f93a822856a68c1f5332d297a26eea69",
+      "stash_sha256": "31cd7271a7076e6f72b7b7e9247293d0c773d097a57962821302e6655c18a9a9"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/sixth-extraction/progress.json",
+      "before_sha256": "40ffaee55430b1d46cc7420249183f97e6124eb8660b82b84a194a1da2bcddb4",
+      "stash_sha256": "d6ea8a4ab249a7ea13afe961e2980a625286d522df51d54d3c2db7ee27192253"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/sixth-extraction/track-checkpoints.ndjson",
+      "before_sha256": "12707744aeae2ea2d3f0c3040ee8d49f7a98b00b941376e7dfa4648963426ab4",
+      "stash_sha256": "ae9365c6d78b06f5aecc58ac51f10f50e1a37199a94c393613a6b04d866f0e85"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/source/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "5de8f183b0a88af43bb1a3645c2164a36e606fa6ab95f2a7f32f55764e8a4d65"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本-郑卡罗-2026-07-16/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "37b05eb1715d0868f49ed00576fd738548b2957ddf9385e636e89d1f7983117b"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本-郑卡罗-2026-07-22/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "c8a6d62091f69fefe08487e480e17deab16eb48b2c5bddbaf55d57e6ab2f5efc"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本-郑卡罗-2026-07-28/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "4785702129b666bbe21a804e95d90604cecf9ba781c338150c0ed1b5bb7ded26"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本-郑卡罗-2026-09-25/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "575e991badd6d3893cad5ac5b71a3cdd4fee0584da9a3cbc65b1517a8da1e2ae"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "485eb286386a581c56412a4e2021393a8444a32d2b36fcf1934013f1d96c0811"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本·第五波高价值补标-anonymous-2026-09-26/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "cb5f73455b6285dc8bed1573be124335c789d22dda767186b320ecfa7abf7acd"
+    },
+    {
+      "path": "ZMPD-模型预测开发/features/training/Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03/personal-features-v2.json",
+      "before_sha256": null,
+      "stash_sha256": "790eb203dc54ace79f9c523e3be95199cb9823e61750b00bec094a79f1647429"
+    },
+    {
+      "path": "ZMPD-模型预测开发/reports/cross-batch-evaluation.html",
+      "before_sha256": null,
+      "stash_sha256": "5b91748dca4fcde683cac9bf1e1370ffb48ff0b9549c74da4c8030db6754cbd2"
+    },
+    {
+      "path": "ZMPD-模型预测开发/reports/cross-batch-evaluation.json",
+      "before_sha256": null,
+      "stash_sha256": "762904cf430a9e310bf1b53ba8318d77ae3aa6e19f4599ede0c4c7bc04a4f701"
+    },
+    {
+      "path": "ZMPD-模型预测开发/reports/cross-batch-evaluation.md",
+      "before_sha256": null,
+      "stash_sha256": "17685bfd243e902d248de5102228300c4fdc1bd07510887482db1d1b37ffdf56"
+    },
+    {
+      "path": "ZMPD-模型预测开发/run_cross_batch_evaluation.py",
+      "before_sha256": null,
+      "stash_sha256": "e838e751b386ce533cdacbe2aeeb175e1a9232e6ad3d327b507f6de39ae1915d"
+    },
+    {
+      "path": "ZMPD-模型预测开发/模型训练与预测需求表.md",
+      "before_sha256": null,
+      "stash_sha256": "1eaf478017580fb94cde68b3432680708d9dbecba0877bbafcdeb7f54086d2f9"
+    }
+  ],
+  "protected_files": {
+    ".gitignore": "9c4d31784715c07d5b5e29fce79b224765239954087bfe6ecf95e77ae303f79a",
+    "SongBase/song_base_by_artist.json": "351fe9a977a1b2a2b2b48f9221850c3fbd566d34ba1bcc5fd0f2b1989401e836",
+    "SongBase/song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+    "SongBase/song_tags_browser.html": "730adba783a8497f7672987765b40bef5f7f05b0b9ec1f49a7f4fffdfffa7e21",
+    "SongBase/song_manual_tagging.html": "623d24bb47ccf1f61745e09f3893d37a2817c17bf0b047ccfaa95220387c8645",
+    "SongBase/song_combined_annotation.html": "17b64288b1acedd853c1b3f12a74b8c21f8fd3d7068d7c74129434aa6d5f69aa",
+    "ZMPD-模型预测开发/manifests/training-manifest.json": "aaf87b3ffc5b2c2d45ca7ae40bf92fe0be1781e5a150ba04e162edb7fc5a6dc4"
+  },
+  "stash_preserved": true,
+  "audio_files_modified": 0,
+  "model_training_executed": false,
+  "local_service_started": false
+}

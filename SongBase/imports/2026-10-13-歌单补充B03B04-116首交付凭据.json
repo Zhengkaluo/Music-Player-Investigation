@@ -1,0 +1,3861 @@
+{
+  "schemaVersion": "flowset.qq-recording-delivery/v1",
+  "deliveryMode": "flat-mp3",
+  "destination": "/Users/kaluozheng/Music-Player-Investigation/SongBase/imports/2026-10-13-歌单补充B03B04-116首验收音源",
+  "expected": 116,
+  "accepted": 107,
+  "manualApprovedExceptions": 9,
+  "tracks": [
+    {
+      "id": "003exDD32B4XP5",
+      "title": "Charlie Brown",
+      "artist": "Coldplay",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Charlie Brown - Coldplay.mp3",
+          "sha256": "0c182b04069df6605efe14823304d161326d890d309f97e3ef5ce7b3c2e43036"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12599808,
+        "durationSeconds": 285.7099,
+        "peakDbFS": -0.37,
+        "rmsDbFS": -12.88,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.364758,
+          "durationSeconds": 285.70229,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003exDD32B4XP5",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003exDD32B4XP5 Charlie Brown_20261012-231414-149504.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003exDD32B4XP5.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000opCQL1V4Zoq",
+      "title": "Paradise",
+      "artist": "Coldplay",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Paradise - Coldplay.mp3",
+          "sha256": "2dda3c901b6da7f1c6f4b48b2910573cfcfbdf6620ce18ddbc99aa79076969c9"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12269500,
+        "durationSeconds": 278.22,
+        "peakDbFS": -0.27,
+        "rmsDbFS": -13.06,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.063069,
+          "durationSeconds": 278.205147,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000opCQL1V4Zoq",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/000opCQL1V4Zoq-trimmed-tail-1s.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000opCQL1V4Zoq.json",
+      "trimmedTailSeconds": 1,
+      "version_replacement": null
+    },
+    {
+      "id": "000F4vDF2XmPzF",
+      "title": "Every Teardrop Is a Waterfall",
+      "artist": "Coldplay",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Every Teardrop Is a Waterfall - Coldplay.mp3",
+          "sha256": "de6c8f2e4c62208e08bb0c16e93fdfe4f286b6b8871a9e1d840e90b430ae20ab"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10724864,
+        "durationSeconds": 243.1942,
+        "peakDbFS": -0.4,
+        "rmsDbFS": -12.9,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.197995,
+          "durationSeconds": 243.174943,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000F4vDF2XmPzF",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000F4vDF2XmPzF Every Teardrop Is a Waterfall_20261012-232356-128575.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000F4vDF2XmPzF.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001ASmYb0j8Pg9",
+      "title": "WE PRAY",
+      "artist": "Coldplay, Little Simz, Burna Boy, Elyanna, TINI",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "WE PRAY - Coldplay, Little Simz, Burna Boy, Elyanna, TINI.mp3",
+          "sha256": "6ebbdf4809c40944916417b6f6c3cdaf61169f64ba120dbff5b71be10bae62c3"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10324992,
+        "durationSeconds": 234.1268,
+        "peakDbFS": -0.4,
+        "rmsDbFS": -11.09,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.350059,
+          "durationSeconds": 234.110454,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001ASmYb0j8Pg9",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001ASmYb0j8Pg9 WE PRAY_20261012-232807-410817.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001ASmYb0j8Pg9.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001jIR8P0lZfw6",
+      "title": "Cry Cry Cry",
+      "artist": "Coldplay",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Cry Cry Cry - Coldplay.mp3",
+          "sha256": "86ae7943264ed266c553daa85bb8df8fa9731e765f5eae1fbf3186b29d1aeccf"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7355324,
+        "durationSeconds": 166.7874,
+        "peakDbFS": -0.73,
+        "rmsDbFS": -11.49,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.7123,
+          "durationSeconds": 166.76678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001jIR8P0lZfw6",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/001jIR8P0lZfw6-trimmed-tail-1s.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001jIR8P0lZfw6.json",
+      "trimmedTailSeconds": 1,
+      "version_replacement": null
+    },
+    {
+      "id": "001jpgj03QN8Kh",
+      "title": "Everything's Not Lost",
+      "artist": "Coldplay",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "Everything's Not Lost - Coldplay.mp3",
+          "sha256": "c8140cb2408ac3602210a45d34104cea26b7957321eb99282a277a401c574927"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 19273728,
+        "durationSeconds": 437.046,
+        "peakDbFS": -0.0,
+        "rmsDbFS": -14.26,
+        "clippedSamples": 1,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.86552,
+          "durationSeconds": 437.029637,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001jpgj03QN8Kh",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/001jpgj03QN8Kh.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/001jpgj03QN8Kh-0d480b54-1001-4cc5-b3c8-3ede74c64dd3.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004O1atc1yDZOZ",
+      "title": "Life Moves On",
+      "artist": "FINNEAS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Life Moves On - FINNEAS.mp3",
+          "sha256": "969190924acdf772b4e415a20198342614fbcf7780cfc36c8e5a039f664aeb5b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11116032,
+        "durationSeconds": 252.0642,
+        "peakDbFS": -0.88,
+        "rmsDbFS": -13.79,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.829078,
+          "durationSeconds": 252.056576,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004O1atc1yDZOZ",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004O1atc1yDZOZ Life Moves On_20261012-234226-314281.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004O1atc1yDZOZ.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003EJnRP4QnTfl",
+      "title": "For Cryin' Out Loud!",
+      "artist": "FINNEAS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "For Cryin' Out Loud! - FINNEAS.mp3",
+          "sha256": "c5f32d9876f07708abc7992875aa42bfa18fb62dc00c88861b1e59e3c56117bd"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9604608,
+        "durationSeconds": 217.7916,
+        "peakDbFS": -0.72,
+        "rmsDbFS": -12.18,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.571485,
+          "durationSeconds": 217.783923,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003EJnRP4QnTfl",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003EJnRP4QnTfl For Cryin' Out Loud!_20261012-234646-919447.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003EJnRP4QnTfl.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004a8vE53RJ5vO",
+      "title": "Medieval",
+      "artist": "FINNEAS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Medieval - FINNEAS.mp3",
+          "sha256": "93bae3743a592a1c2176f730a20737ebd0a1ec30c77d4b36940ec832385a8bd8"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7605760,
+        "durationSeconds": 172.4662,
+        "peakDbFS": -0.51,
+        "rmsDbFS": -10.86,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.53852,
+          "durationSeconds": 172.461474,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004a8vE53RJ5vO",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004a8vE53RJ5vO Medieval_20261012-235032-500522.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004a8vE53RJ5vO.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002hL2XJ2yGpak",
+      "title": "The Kids Are All Dying",
+      "artist": "FINNEAS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "The Kids Are All Dying - FINNEAS.mp3",
+          "sha256": "28e97c65190156e0762508013cac5d2b9ae441eae9c94e99c053df18ca6ca148"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7409152,
+        "durationSeconds": 168.008,
+        "peakDbFS": -0.63,
+        "rmsDbFS": -12.13,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.577594,
+          "durationSeconds": 167.994535,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002hL2XJ2yGpak",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002hL2XJ2yGpak The Kids Are All Dying_20261012-235332-011435.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002hL2XJ2yGpak.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000l3Ux21CN8av",
+      "title": "Let's Fall in Love for the Night",
+      "artist": "FINNEAS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Let's Fall in Love for the Night - FINNEAS.mp3",
+          "sha256": "22a53ef875329012072f4e2e9a7655cdf4f2d154e477c5ce212f60af0e8f5b2b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8429056,
+        "durationSeconds": 191.1351,
+        "peakDbFS": -0.77,
+        "rmsDbFS": -13.67,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.632805,
+          "durationSeconds": 191.112902,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000l3Ux21CN8av",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000l3Ux21CN8av Let's Fall in Love for the Night_20261012-235627-492423.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000l3Ux21CN8av.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002x9hnT1XUxEY",
+      "title": "I Don't Miss You at All",
+      "artist": "FINNEAS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "I Don't Miss You at All - FINNEAS.mp3",
+          "sha256": "7b8abf9e79b6c4e3af33952ed5385a7556e717613dd8a169a03734dd3deb5266"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 5716480,
+        "durationSeconds": 129.6254,
+        "peakDbFS": -0.93,
+        "rmsDbFS": -12.98,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.790203,
+          "durationSeconds": 129.620658,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002x9hnT1XUxEY",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002x9hnT1XUxEY I Don't Miss You at All_20261012-235945-943996.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002x9hnT1XUxEY.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0024UbZ30SyWt7",
+      "title": "Baby It's Cold Outside",
+      "artist": "Mac Miller, Ariana Grande",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Baby It's Cold Outside - Mac Miller, Ariana Grande.mp3",
+          "sha256": "bdd7cb1a18836fd43607592c2e1b7efe9747a09749a3754dfa7468ef84fedda0"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9180672,
+        "durationSeconds": 208.1785,
+        "peakDbFS": -2.43,
+        "rmsDbFS": -15.47,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -3.425984,
+          "durationSeconds": 208.170862,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0024UbZ30SyWt7",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0024UbZ30SyWt7 Baby It's Cold Outside_20261013-000200-553962.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0024UbZ30SyWt7.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000UjogV0Bpltc",
+      "title": "Woods",
+      "artist": "Mac Miller",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Woods - Mac Miller.mp3",
+          "sha256": "5fe52dca0842629189cc02d34c1202c4771fe739a2f871e3ca19cd49cc98779f"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12645888,
+        "durationSeconds": 286.7548,
+        "peakDbFS": -0.73,
+        "rmsDbFS": -13.04,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.702593,
+          "durationSeconds": 286.747188,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000UjogV0Bpltc",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000UjogV0Bpltc Woods_20261013-000536-332563.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000UjogV0Bpltc.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003XpTPV1HVZ71",
+      "title": "Circles",
+      "artist": "Mac Miller",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Circles - Mac Miller.mp3",
+          "sha256": "258d36182c931baf277ebff86123850ed184caa72c1424ba22d5653920a788df"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7540736,
+        "durationSeconds": 170.9917,
+        "peakDbFS": -1.0,
+        "rmsDbFS": -14.19,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.996051,
+          "durationSeconds": 170.972494,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003XpTPV1HVZ71",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003XpTPV1HVZ71 Circles_20261013-001032-405434.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003XpTPV1HVZ71.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "00313TiP3NS2pq",
+      "title": "Good News",
+      "artist": "Mac Miller",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Good News - Mac Miller.mp3",
+          "sha256": "e0b2fb72260237e547998518fd1a7fadc54f6ac716cf2fce7af86e8fc954c421"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 15110656,
+        "durationSeconds": 342.6453,
+        "peakDbFS": -0.95,
+        "rmsDbFS": -10.89,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.939106,
+          "durationSeconds": 342.623107,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "00313TiP3NS2pq",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/00313TiP3NS2pq Good News_20261013-001330-346861.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/00313TiP3NS2pq.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0014Stqd160SXY",
+      "title": "ROS",
+      "artist": "Mac Miller",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "ROS - Mac Miller.mp3",
+          "sha256": "49306090ba78504def3beee48357f7e21026836a4430828d0e0fdbebad3de6f9"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 15158272,
+        "durationSeconds": 343.725,
+        "peakDbFS": -0.44,
+        "rmsDbFS": -13.36,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.249782,
+          "durationSeconds": 343.720249,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0014Stqd160SXY",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0014Stqd160SXY ROS_20261013-001923-738122.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0014Stqd160SXY.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004V4DWL3x50zs",
+      "title": "Hand Me Downs",
+      "artist": "Mac Miller",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Hand Me Downs - Mac Miller.mp3",
+          "sha256": "13c67ee56c319ca448628c4b14ca985ce64ae0930ffceddf9b3ce22859a89fdd"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 13180416,
+        "durationSeconds": 298.8756,
+        "peakDbFS": -0.84,
+        "rmsDbFS": -11.88,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.83058,
+          "durationSeconds": 298.868005,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004V4DWL3x50zs",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004V4DWL3x50zs Hand Me Downs_20261013-002517-800956.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004V4DWL3x50zs.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003xgGtD2ya9cF",
+      "title": "bliss",
+      "artist": "milet",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "bliss - milet.mp3",
+          "sha256": "2745491099ce7bc93acbbc88400e158895606d79fd77f9418fa670919f516033"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 4094976,
+        "durationSeconds": 92.8566,
+        "peakDbFS": -11.16,
+        "rmsDbFS": -26.8,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -12.123207,
+          "durationSeconds": 92.840249,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003xgGtD2ya9cF",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003xgGtD2ya9cF bliss_20261013-003025-630552.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003xgGtD2ya9cF.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002PQwAQ0OlanK",
+      "title": "inside you",
+      "artist": "milet",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "inside you - milet.mp3",
+          "sha256": "479485e9ea334676e74d0e89f095c816491063d71bcafe33229f10eb6ebe684b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9782784,
+        "durationSeconds": 221.8318,
+        "peakDbFS": -0.05,
+        "rmsDbFS": -11.5,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.008204,
+          "durationSeconds": 221.80678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002PQwAQ0OlanK",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002PQwAQ0OlanK inside you_20261013-003204-209015.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002PQwAQ0OlanK.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001s7DY03qREDH",
+      "title": "jam",
+      "artist": "milet, iri",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "jam - milet, iri.mp3",
+          "sha256": "7802ae792787fc95018fe0c7a3c9956d7068121cc2f5606c58cea984a4cced7d"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9070592,
+        "durationSeconds": 205.6824,
+        "peakDbFS": 0.0,
+        "rmsDbFS": -11.48,
+        "clippedSamples": 2,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.00244,
+          "durationSeconds": 205.663107,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001s7DY03qREDH",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/001s7DY03qREDH.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/001s7DY03qREDH-66bf27a4-a914-4c90-abd3-6936b12e5ba0.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002jeqPM1W3pFm",
+      "title": "Walkin' In My Lane",
+      "artist": "milet",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Walkin' In My Lane - milet.mp3",
+          "sha256": "58fa2e9802257cceda0f50ddeb5adf8ea5733c8a1d07e4219362aa0f6ea08759"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10604032,
+        "durationSeconds": 240.4542,
+        "peakDbFS": -0.39,
+        "rmsDbFS": -9.31,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.182245,
+          "durationSeconds": 240.432086,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002jeqPM1W3pFm",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002jeqPM1W3pFm Walkin' In My Lane_20261013-003924-417112.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002jeqPM1W3pFm.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000rIL8M0OBbUD",
+      "title": "Anytime Anywhere",
+      "artist": "milet",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "Anytime Anywhere - milet.mp3",
+          "sha256": "944cd259e58f6523fe5012a852bb3155643a8ce3130da17270cc8353b20efa93"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10204672,
+        "durationSeconds": 231.3985,
+        "peakDbFS": -0.0,
+        "rmsDbFS": -11.82,
+        "clippedSamples": 1,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.001829,
+          "durationSeconds": 231.393719,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000rIL8M0OBbUD",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/000rIL8M0OBbUD.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/000rIL8M0OBbUD-885c50bc-2f97-4f3f-93fe-62753789c6a1.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003lWHKJ2x2WqU",
+      "title": "One Reason",
+      "artist": "milet",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "One Reason - milet.mp3",
+          "sha256": "49d420dcac098f0cb2bbbc48991c0c438d08db215b64937efadac5169d37dd40"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11183616,
+        "durationSeconds": 253.5967,
+        "peakDbFS": 0.0,
+        "rmsDbFS": -11.36,
+        "clippedSamples": 5,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.904732,
+          "durationSeconds": 253.571678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003lWHKJ2x2WqU",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/003lWHKJ2x2WqU.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/003lWHKJ2x2WqU-07a6591c-5174-45ff-aded-65ae35b6df7a.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0012Nh6N230sq1",
+      "title": "Ontario",
+      "artist": "Novo Amor, Lowswimmer",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Ontario - Novo Amor, Lowswimmer.mp3",
+          "sha256": "4221b2960f8da38cf71c8d6f10a07584552ad186ef98727aec816dc010d6a1b3"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8537088,
+        "durationSeconds": 193.5848,
+        "peakDbFS": -1.54,
+        "rmsDbFS": -17.52,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.543833,
+          "durationSeconds": 193.568413,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0012Nh6N230sq1",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0012Nh6N230sq1 Ontario_20261013-005148-656527.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0012Nh6N230sq1.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002H0YMo0pTVdY",
+      "title": "Euphor",
+      "artist": "Novo Amor, Lowswimmer",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Euphor - Novo Amor, Lowswimmer.mp3",
+          "sha256": "eec0a89b6c8943e23b4e545afbdb4dfee7d38a070bad2662f72ee7fc1dbf52a8"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10752512,
+        "durationSeconds": 243.8211,
+        "peakDbFS": -0.96,
+        "rmsDbFS": -15.53,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.850979,
+          "durationSeconds": 243.801882,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002H0YMo0pTVdY",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002H0YMo0pTVdY Euphor_20261013-005509-678308.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002H0YMo0pTVdY.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004F6UH44asCey",
+      "title": "Terraform",
+      "artist": "Novo Amor, Ed Tullett",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Terraform - Novo Amor, Ed Tullett.mp3",
+          "sha256": "98537c05d7c802e83fddd638de78980d33542bfabbed60aafc5d9662a2a9eb82"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11135488,
+        "durationSeconds": 252.5054,
+        "peakDbFS": -1.23,
+        "rmsDbFS": -15.61,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.225901,
+          "durationSeconds": 252.500658,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004F6UH44asCey",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004F6UH44asCey Terraform_20261013-005921-582205.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004F6UH44asCey.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003Xj1mz235nvk",
+      "title": "Can't Be By Myself",
+      "artist": "Lowswimmer, Squirrel Flower, Novo Amor",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Can't Be By Myself - Lowswimmer, Squirrel Flower, Novo Amor.mp3",
+          "sha256": "376059b250357ddf664d4294256bf9c923b7474121a36f9f5da5199232e9e692"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7758336,
+        "durationSeconds": 175.926,
+        "peakDbFS": -0.97,
+        "rmsDbFS": -13.08,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.901835,
+          "durationSeconds": 175.909637,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003Xj1mz235nvk",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003Xj1mz235nvk Can't Be By Myself_20261013-010342-515660.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003Xj1mz235nvk.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001m5X8d0dYc8y",
+      "title": "Sleepless",
+      "artist": "Novo Amor",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Sleepless - Novo Amor.mp3",
+          "sha256": "d586f6af2189213b4251f1e97a98b609692c8c5c225f0aa2f6170acde8789d3a"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8979456,
+        "durationSeconds": 203.6158,
+        "peakDbFS": -0.9,
+        "rmsDbFS": -12.79,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.886803,
+          "durationSeconds": 203.599433,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001m5X8d0dYc8y",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001m5X8d0dYc8y Sleepless_20261013-010645-540347.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001m5X8d0dYc8y.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000lW4sR0nwszy",
+      "title": "Weather",
+      "artist": "Novo Amor",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Weather - Novo Amor.mp3",
+          "sha256": "b4660bdfcc9d71415a2a33f7e31498862f5122f5d408b65ceadf0f349bef632d"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10246656,
+        "durationSeconds": 232.3505,
+        "peakDbFS": -0.85,
+        "rmsDbFS": -15.67,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.785174,
+          "durationSeconds": 232.334127,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000lW4sR0nwszy",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000lW4sR0nwszy Weather_20261013-011017-489683.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000lW4sR0nwszy.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000icdEM1jz3ey",
+      "title": "猫じゃらし",
+      "artist": "RADWIMPS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "猫じゃらし - RADWIMPS.mp3",
+          "sha256": "cc22c8d49e128e40ee620c186fcda2074d2c4e5128b7b13bf7f55a5559c57391"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11825152,
+        "durationSeconds": 268.144,
+        "peakDbFS": -0.89,
+        "rmsDbFS": -13.73,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.87693,
+          "durationSeconds": 268.121882,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000icdEM1jz3ey",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000icdEM1jz3ey 猫じゃらし_20261013-011417-852256.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000icdEM1jz3ey.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0014TcJX0M2nNU",
+      "title": "週刊少年ジャンプ",
+      "artist": "RADWIMPS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "週刊少年ジャンプ - RADWIMPS.mp3",
+          "sha256": "c93a33aefb07ed67c5d96d0799f38b5bc07955647009b73d08a772f093a6e2e4"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 15552000,
+        "durationSeconds": 352.6531,
+        "peakDbFS": -0.74,
+        "rmsDbFS": -16.48,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.711063,
+          "durationSeconds": 352.628005,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0014TcJX0M2nNU",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0014TcJX0M2nNU 週刊少年ジャンプ_20261013-011855-428040.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0014TcJX0M2nNU.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002qerLO2l6w7n",
+      "title": "正解",
+      "artist": "RADWIMPS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "正解 - RADWIMPS.mp3",
+          "sha256": "1081733c47caf90f2f9fd1e2a7705424d8ade328fda34ea2b46d93cc7d3b219b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 15798784,
+        "durationSeconds": 358.2491,
+        "peakDbFS": -0.66,
+        "rmsDbFS": -14.42,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.633579,
+          "durationSeconds": 358.244331,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002qerLO2l6w7n",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002qerLO2l6w7n 正解_20261013-012500-221913.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002qerLO2l6w7n.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002ERJ8K3jICFN",
+      "title": "me me she",
+      "artist": "RADWIMPS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "me me she - RADWIMPS.mp3",
+          "sha256": "df320b95fc755bee0f42c9fb07aeb4faa7067a0f60affcd1ae49f08bafef9180"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12401596,
+        "durationSeconds": 281.2153,
+        "peakDbFS": -0.57,
+        "rmsDbFS": -10.04,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.418326,
+          "durationSeconds": 281.209229,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002ERJ8K3jICFN",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/002ERJ8K3jICFN-trimmed-tail-1s.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002ERJ8K3jICFN.json",
+      "trimmedTailSeconds": 1,
+      "version_replacement": null
+    },
+    {
+      "id": "00374oyC1cx962",
+      "title": "そっけない",
+      "artist": "RADWIMPS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "そっけない - RADWIMPS.mp3",
+          "sha256": "c568c46cc68f911dd8f20f85cb74daa336bcbd8a31435dffe4bdc8149292d6db"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 17334272,
+        "durationSeconds": 393.0674,
+        "peakDbFS": -0.59,
+        "rmsDbFS": -14.32,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.529249,
+          "durationSeconds": 393.065556,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "00374oyC1cx962",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/00374oyC1cx962 そっけない_20261013-013559-679124.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/00374oyC1cx962.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000UKYHt184Acs",
+      "title": "いいんですか?",
+      "artist": "RADWIMPS",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "いいんですか_ - RADWIMPS.mp3",
+          "sha256": "1edc40d2a3553bc976580e26abbcb98c5e1a268e44284b8c81072f5d9e453180"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10957312,
+        "durationSeconds": 248.4651,
+        "peakDbFS": -0.34,
+        "rmsDbFS": -11.09,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.232408,
+          "durationSeconds": 248.451678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000UKYHt184Acs",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000UKYHt184Acs いいんですか__20261013-014244-058150.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000UKYHt184Acs.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003cN4kC3hK8QC",
+      "title": "可一可再",
+      "artist": "陈奕迅, eason and the duo band",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "可一可再 - 陈奕迅, eason and the duo band.mp3",
+          "sha256": "7cdeb9d47f1958bf9f25a8f77b50b9daef751ba98f272fc268f374debfe62048"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12713472,
+        "durationSeconds": 288.2873,
+        "peakDbFS": -0.63,
+        "rmsDbFS": -12.25,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.563159,
+          "durationSeconds": 288.26229,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003cN4kC3hK8QC",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003cN4kC3hK8QC 可一可再_20261013-014700-684925.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003cN4kC3hK8QC.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003trXaC48bskK",
+      "title": "疯狂的朋友",
+      "artist": "陈奕迅, eason and the duo band",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "疯狂的朋友 - 陈奕迅, eason and the duo band.mp3",
+          "sha256": "bfcaf70f982619564696b1e3b7572e133e8eb71cbe64f1597a5d63ba84d6d324"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10403772,
+        "durationSeconds": 235.9132,
+        "peakDbFS": -0.53,
+        "rmsDbFS": -12.11,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.561832,
+          "durationSeconds": 235.912902,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003trXaC48bskK",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/003trXaC48bskK-trimmed-tail-1s.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003trXaC48bskK.json",
+      "trimmedTailSeconds": 1,
+      "version_replacement": null
+    },
+    {
+      "id": "000jDQWP4JiB3y",
+      "title": "娱乐天空",
+      "artist": "陈奕迅",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "娱乐天空 - 陈奕迅.mp3",
+          "sha256": "95690acd74889fd3cb8e7d16ac18de63fb65ea84449c6e439ccb78fa5a5ef529"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 16065536,
+        "durationSeconds": 364.2979,
+        "peakDbFS": -0.91,
+        "rmsDbFS": -15.94,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.896942,
+          "durationSeconds": 364.278617,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000jDQWP4JiB3y",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000jDQWP4JiB3y 娱乐天空_20261013-015601-366337.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000jDQWP4JiB3y.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "00230iSl1e4dVG",
+      "title": "积木",
+      "artist": "陈奕迅",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "积木 - 陈奕迅.mp3",
+          "sha256": "b525ef9f0d10d65da18eb08ad63df64f70d5941f85d5ccc74928a1a1e825be2e"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11379200,
+        "durationSeconds": 258.0317,
+        "peakDbFS": 0.0,
+        "rmsDbFS": -11.58,
+        "clippedSamples": 28,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.736179,
+          "durationSeconds": 258.012494,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "00230iSl1e4dVG",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/00230iSl1e4dVG.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/00230iSl1e4dVG-17f64ffc-32da-4991-a775-11211ea8135a.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000bsqVZ2rdpuk",
+      "title": "吟游诗人",
+      "artist": "陈奕迅",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "吟游诗人 - 陈奕迅.mp3",
+          "sha256": "a5b68969444dd10548fb019cd5d35dc195b41b07fbf78c68879cc41ceae7385d"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12669440,
+        "durationSeconds": 287.2889,
+        "peakDbFS": -0.42,
+        "rmsDbFS": -13.62,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.384791,
+          "durationSeconds": 287.269637,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000bsqVZ2rdpuk",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000bsqVZ2rdpuk 吟游诗人_20261013-020640-229911.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000bsqVZ2rdpuk.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000LMNG21Zhnru",
+      "title": "Lily feat. Rachel",
+      "artist": "铃木真海子",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Lily feat. Rachel - 铃木真海子.mp3",
+          "sha256": "eb1807825bd8202c8aa8de1203c9370a972ebd3e0c5af322963db26eaa2753a9"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 6537216,
+        "durationSeconds": 148.2362,
+        "peakDbFS": -0.77,
+        "rmsDbFS": -11.45,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.654757,
+          "durationSeconds": 148.219841,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000LMNG21Zhnru",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000LMNG21Zhnru Lily feat. Rachel_20261013-021136-835701.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000LMNG21Zhnru.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0013b8pW1azVXM",
+      "title": "TIME IS OVER",
+      "artist": "TOSHIKI HAYASHI (%C), BASI, 铃木真海子",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "TIME IS OVER - TOSHIKI HAYASHI (%C), BASI, 铃木真海子.mp3",
+          "sha256": "b78e997c4149578f222e38fe5462b41d34388e21ec59df344084cdf058e279ba"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11825152,
+        "durationSeconds": 268.144,
+        "peakDbFS": -0.0,
+        "rmsDbFS": -11.17,
+        "clippedSamples": 1,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.599263,
+          "durationSeconds": 268.121882,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0013b8pW1azVXM",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/0013b8pW1azVXM.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/0013b8pW1azVXM-b84dfa87-cc83-468c-a71e-f587756cbc79.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002B8b1G0ZWbjQ",
+      "title": "tokyo (feat. suzuki mamiko, Skaai)",
+      "artist": "yonawo, Skaai, 铃木真海子",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "tokyo (feat. suzuki mamiko, Skaai) - yonawo, Skaai, 铃木真海子.mp3",
+          "sha256": "ccaccbf44e3e188ff21bf2121a6328c78a6855476d579d57b42f31d54f5ea54e"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 13404160,
+        "durationSeconds": 303.9492,
+        "peakDbFS": -0.76,
+        "rmsDbFS": -13.67,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.748498,
+          "durationSeconds": 303.93576,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002B8b1G0ZWbjQ",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002B8b1G0ZWbjQ tokyo (feat. suzuki mamiko, Skaai)_20261013-021844-705896.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002B8b1G0ZWbjQ.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003zDUIn0e5cNT",
+      "title": "じゃむ(feat. iri)",
+      "artist": "铃木真海子, iri",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "じゃむ(feat. iri) - 铃木真海子, iri.mp3",
+          "sha256": "8476e5f634abe0e407fd3d5c727386419205385d48c24dfabe098fa4a6c24ada"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12777916,
+        "durationSeconds": 289.7487,
+        "peakDbFS": -1.06,
+        "rmsDbFS": -16.41,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.044289,
+          "durationSeconds": 289.725147,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003zDUIn0e5cNT",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/003zDUIn0e5cNT-trimmed-tail-1s.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003zDUIn0e5cNT.json",
+      "trimmedTailSeconds": 1,
+      "version_replacement": null
+    },
+    {
+      "id": "0019bDbh1WcWs5",
+      "title": "Contact (Toshiki Hayashi (%C) Remix)",
+      "artist": "铃木真海子",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Contact (Toshiki Hayashi (%C) Remix) - 铃木真海子.mp3",
+          "sha256": "df27dcff2b1de9394ce594fd4c43d217365824060bc3d473abfe8a8b2721723b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7693824,
+        "durationSeconds": 174.4631,
+        "peakDbFS": -0.86,
+        "rmsDbFS": -14.03,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.771099,
+          "durationSeconds": 174.44678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0019bDbh1WcWs5",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0019bDbh1WcWs5 Contact (Toshiki Hayashi (%C) Remix)_20261013-022856-317266.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0019bDbh1WcWs5.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0008vHqS43vS08",
+      "title": "月光",
+      "artist": "浅堤, Samjoo",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "月光 - 浅堤, Samjoo.mp3",
+          "sha256": "ef3ba8e9f81b3e471a8a1375bfa3557bc1a97fa7196b1869db25d67f6eede39e"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8203264,
+        "durationSeconds": 186.0151,
+        "peakDbFS": -1.57,
+        "rmsDbFS": -16.69,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.55632,
+          "durationSeconds": 185.992902,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0008vHqS43vS08",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0008vHqS43vS08 月光_20261013-023157-492687.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0008vHqS43vS08.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0031PPPX2OTino",
+      "title": "我变了",
+      "artist": "浅堤",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "我变了 - 浅堤.mp3",
+          "sha256": "ec7cad1a5a223d29e579a8093fde0b9f5efd1f8009a1f54e45e2a34999b37fa0"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 6472192,
+        "durationSeconds": 146.7617,
+        "peakDbFS": -0.66,
+        "rmsDbFS": -10.53,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.699038,
+          "durationSeconds": 146.756984,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0031PPPX2OTino",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0031PPPX2OTino 我变了_20261013-023510-933884.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0031PPPX2OTino.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0037W3UE3f9w3y",
+      "title": "好不容易",
+      "artist": "浅堤",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "好不容易 - 浅堤.mp3",
+          "sha256": "74bee00846dfe516efbec26dba2667a21a3c3f266783a047b006a05bb7ca2162"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10669568,
+        "durationSeconds": 241.9403,
+        "peakDbFS": -0.58,
+        "rmsDbFS": -12.57,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.592233,
+          "durationSeconds": 241.921066,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0037W3UE3f9w3y",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0037W3UE3f9w3y 好不容易_20261013-023742-778205.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0037W3UE3f9w3y.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003YQybB2dZ4Mz",
+      "title": "恒春花絮",
+      "artist": "浅堤",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "恒春花絮 - 浅堤.mp3",
+          "sha256": "aa8343d78d6c5b52f9f9171faf554e59a6288dbc5f67fdaad6171d31f602facf"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9426944,
+        "durationSeconds": 213.7629,
+        "peakDbFS": -0.69,
+        "rmsDbFS": -11.15,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.642667,
+          "durationSeconds": 213.761066,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003YQybB2dZ4Mz",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003YQybB2dZ4Mz 恒春花絮_20261013-024153-264025.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003YQybB2dZ4Mz.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000c6CTs30ecVY",
+      "title": "礼物",
+      "artist": "浅堤, HUSH",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "礼物 - 浅堤, HUSH.mp3",
+          "sha256": "9a875f7367aa1241d1406995463ec42f789279e794d729fdb195a13054fc1fd3"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 13667328,
+        "durationSeconds": 309.9167,
+        "peakDbFS": -0.68,
+        "rmsDbFS": -13.03,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.61052,
+          "durationSeconds": 309.891678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000c6CTs30ecVY",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000c6CTs30ecVY 礼物_20261013-024535-056326.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000c6CTs30ecVY.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004IYjrI1S3U8r",
+      "title": "ガーデン",
+      "artist": "藤井风",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "ガーデン - 藤井风.mp3",
+          "sha256": "69001e726575946454fcd3abee5ac6892be49f417a30ca9cdba136b249cbd65c"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10139648,
+        "durationSeconds": 229.924,
+        "peakDbFS": -0.85,
+        "rmsDbFS": -12.12,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.644643,
+          "durationSeconds": 229.904739,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004IYjrI1S3U8r",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004IYjrI1S3U8r ガーデン_20261013-025054-287967.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004IYjrI1S3U8r.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004PNj7W3P4nX3",
+      "title": "Close to you",
+      "artist": "藤井风",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Close to you - 藤井风.mp3",
+          "sha256": "e8a6872309cbdbe01cb9d4c9c1f384b38996695ecaea65673aabdfb81e046963"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9650176,
+        "durationSeconds": 218.8249,
+        "peakDbFS": -1.3,
+        "rmsDbFS": -17.11,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.300481,
+          "durationSeconds": 218.802698,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004PNj7W3P4nX3",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004PNj7W3P4nX3 Close to you_20261013-025452-453316.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004PNj7W3P4nX3.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002mdBXj3BYeJz",
+      "title": "花",
+      "artist": "藤井风",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "花 - 藤井风.mp3",
+          "sha256": "05084de9bb3c13998bef080643ab19df32815831a9d04f33339656c7a59318c6"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10916864,
+        "durationSeconds": 247.5479,
+        "peakDbFS": -0.76,
+        "rmsDbFS": -11.45,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.648729,
+          "durationSeconds": 247.537392,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002mdBXj3BYeJz",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002mdBXj3BYeJz 花_20261013-025839-212601.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002mdBXj3BYeJz.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0049JqVu3Fvmpj",
+      "title": "Sunny",
+      "artist": "藤井风",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Sunny - 藤井风.mp3",
+          "sha256": "f70d70daf49e3ce9100226814dda6ce7649153afbc0de62851b2ce05b9bd67f7"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8358912,
+        "durationSeconds": 189.5445,
+        "peakDbFS": -0.86,
+        "rmsDbFS": -14.92,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.851481,
+          "durationSeconds": 189.519433,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0049JqVu3Fvmpj",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0049JqVu3Fvmpj Sunny_20261013-030254-844772.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0049JqVu3Fvmpj.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002JSp8536Ra4c",
+      "title": "Just the Two of Us",
+      "artist": "藤井风",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Just the Two of Us - 藤井风.mp3",
+          "sha256": "da5ffa916177060da1797d72bc62847536d31705e615d63e1410b7522214d26b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9537024,
+        "durationSeconds": 216.259,
+        "peakDbFS": -0.98,
+        "rmsDbFS": -14.82,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.995439,
+          "durationSeconds": 216.242698,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002JSp8536Ra4c",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002JSp8536Ra4c Just the Two of Us_20261013-030611-716123.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002JSp8536Ra4c.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0014diHF1G0DBX",
+      "title": "问题",
+      "artist": "许钧",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "问题 - 许钧.mp3",
+          "sha256": "353635edab185ad76dfcd1108ababfe91971fc9ea6ed09bb97370063560609a0"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 14574080,
+        "durationSeconds": 330.478,
+        "peakDbFS": -0.49,
+        "rmsDbFS": -13.07,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.477564,
+          "durationSeconds": 330.476168,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0014diHF1G0DBX",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0014diHF1G0DBX 问题_20261013-030955-505567.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0014diHF1G0DBX.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002fEQJL0N0Kbj",
+      "title": "如果太阳落下",
+      "artist": "许钧",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "如果太阳落下 - 许钧.mp3",
+          "sha256": "0c7fc0b7fcf0e8296c8c3f5e527f76d20285263868c960f676c1851b4b65c372"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9539072,
+        "durationSeconds": 216.3055,
+        "peakDbFS": -0.33,
+        "rmsDbFS": -12.33,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.372088,
+          "durationSeconds": 216.294943,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002fEQJL0N0Kbj",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002fEQJL0N0Kbj 如果太阳落下_20261013-031536-784116.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002fEQJL0N0Kbj.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001n0ZGX1DFuoB",
+      "title": "不再 feat. 许钧",
+      "artist": "杨乃文, 许钧",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "不再 feat. 许钧 - 杨乃文, 许钧.mp3",
+          "sha256": "94f89fa7d4cb92931889bdcca49561922e5f521757e76ddfdb82490c8b25b321"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 15929344,
+        "durationSeconds": 361.2096,
+        "peakDbFS": -0.9,
+        "rmsDbFS": -17.76,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.936744,
+          "durationSeconds": 361.196168,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001n0ZGX1DFuoB",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001n0ZGX1DFuoB 不再 feat. 许钧_20261013-031919-649894.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001n0ZGX1DFuoB.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002MHVtb1rNWgi",
+      "title": "只有一个办法",
+      "artist": "许钧",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "只有一个办法 - 许钧.mp3",
+          "sha256": "9c8460a8cbb6a950ee1339428b2e62299d2071c6a1e4b85d64fcfe4d1ca1bb6c"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 3563520,
+        "durationSeconds": 80.8054,
+        "peakDbFS": -0.77,
+        "rmsDbFS": -11.33,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.691039,
+          "durationSeconds": 80.7978,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002MHVtb1rNWgi",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002MHVtb1rNWgi 只有一个办法_20261013-032531-715162.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002MHVtb1rNWgi.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004Nt4rq0splVF",
+      "title": "29",
+      "artist": "许钧",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "29 - 许钧.mp3",
+          "sha256": "6c2a675c659a9abc9bd5c70953f7956408348fa75d33aaef25ac72d42ead5f52"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 16686592,
+        "durationSeconds": 378.3808,
+        "peakDbFS": -0.86,
+        "rmsDbFS": -13.94,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.779858,
+          "durationSeconds": 378.358617,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004Nt4rq0splVF",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004Nt4rq0splVF 29_20261013-032657-746690.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004Nt4rq0splVF.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001eGjo12otIm5",
+      "title": "殺し屋危機一髪",
+      "artist": "椎名林檎",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "殺し屋危機一髪 - 椎名林檎.mp3",
+          "sha256": "1fe9216508e97da2cd5315a36ea9d0878c467ceeede5247e5980f311ca621507"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 6803968,
+        "durationSeconds": 154.285,
+        "peakDbFS": -0.49,
+        "rmsDbFS": -12.31,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.475479,
+          "durationSeconds": 154.280249,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001eGjo12otIm5",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001eGjo12otIm5 殺し屋危機一髪_20261013-033327-009672.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001eGjo12otIm5.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001D0nTV2iBIj5",
+      "title": "紅海月の夜",
+      "artist": "椎名林檎",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "紅海月の夜 - 椎名林檎.mp3",
+          "sha256": "449f9a7dd35ac81b165e3b38bc6e1b73ea19ff6495a685c6997a38e063b927a7"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8359936,
+        "durationSeconds": 189.5677,
+        "peakDbFS": -0.26,
+        "rmsDbFS": -10.64,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.247823,
+          "durationSeconds": 189.545556,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001D0nTV2iBIj5",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001D0nTV2iBIj5 紅海月の夜_20261013-033607-873070.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001D0nTV2iBIj5.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0006UqLs2sXHBg",
+      "title": "i wanna be loved by you",
+      "artist": "椎名林檎",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "i wanna be loved by you - 椎名林檎.mp3",
+          "sha256": "63d0a22ed77c336ce39547b76ac4566e5e175fa7ff13e066a530e7f1b2f2bc61"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 4607488,
+        "durationSeconds": 104.4782,
+        "peakDbFS": -0.18,
+        "rmsDbFS": -10.74,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.153467,
+          "durationSeconds": 104.464739,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0006UqLs2sXHBg",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0006UqLs2sXHBg i wanna be loved by you_20261013-033923-315223.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0006UqLs2sXHBg.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003ZBkM84EUFqx",
+      "title": "IT WAS YOU",
+      "artist": "椎名林檎",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "IT WAS YOU - 椎名林檎.mp3",
+          "sha256": "412730aa4684d0b7d860fb27ff0251c216934c9d6a05b7effc8d8648adb51b13"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10336768,
+        "durationSeconds": 234.3938,
+        "peakDbFS": -2.79,
+        "rmsDbFS": -16.82,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -3.841861,
+          "durationSeconds": 234.371678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003ZBkM84EUFqx",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003ZBkM84EUFqx IT WAS YOU_20261013-034113-762278.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003ZBkM84EUFqx.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000xLw2D0E5Xjm",
+      "title": "丸ノ内サディスティック",
+      "artist": "椎名林檎",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "丸ノ内サディスティック [無罪モラトリアム] - 椎名林檎.mp3",
+          "sha256": "cb44b621e6c39e239c292b66e5e2ac6b45413d869a28f5da6de31e1b37595d5f"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10425856,
+        "durationSeconds": 236.414,
+        "peakDbFS": 0.0,
+        "rmsDbFS": -10.5,
+        "clippedSamples": 2,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.934504,
+          "durationSeconds": 236.409229,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000xLw2D0E5Xjm",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/000xLw2D0E5Xjm.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/000xLw2D0E5Xjm-ad33894a-076f-441a-aa36-e079a51de095.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002dUbjB2ZqY96",
+      "title": "Daydreamer",
+      "artist": "Adele",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Daydreamer - Adele.mp3",
+          "sha256": "597a3bf5e7502f69a15085c1f5ecf9efae794a14f2925f7ad52e5109ec41d05c"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9760768,
+        "durationSeconds": 221.3326,
+        "peakDbFS": -2.05,
+        "rmsDbFS": -17.87,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -3.048359,
+          "durationSeconds": 221.310454,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002dUbjB2ZqY96",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002dUbjB2ZqY96 Daydreamer_20261013-034918-374823.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002dUbjB2ZqY96.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003jmQh20aRW8r",
+      "title": "Love In The Dark",
+      "artist": "Adele",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Love In The Dark - Adele.mp3",
+          "sha256": "46e70e764c8a049092049b6dbffbe0a3dba8e5750a6f2bef878a32364f58dab2"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12623872,
+        "durationSeconds": 286.2556,
+        "peakDbFS": -0.99,
+        "rmsDbFS": -12.96,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.975562,
+          "durationSeconds": 286.250862,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003jmQh20aRW8r",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003jmQh20aRW8r Love In The Dark_20261013-035307-596502.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003jmQh20aRW8r.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003uzHJL1QO0cH",
+      "title": "Right As Rain",
+      "artist": "Adele",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Right As Rain - Adele.mp3",
+          "sha256": "3ec3c87f5d2c300c7dbf10cbd402e905d9ab9af5f072e9d9ecbae6b25b4ffb82"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8716800,
+        "durationSeconds": 197.6599,
+        "peakDbFS": -0.86,
+        "rmsDbFS": -13.5,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.84301,
+          "durationSeconds": 197.643515,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003uzHJL1QO0cH",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003uzHJL1QO0cH Right As Rain_20261013-035802-891301.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003uzHJL1QO0cH.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001eDYE44L0Mvn",
+      "title": "I Drink Wine",
+      "artist": "Adele",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "I Drink Wine - Adele.mp3",
+          "sha256": "1a3d41d3ae9b22ea915bcf2df11eb801c2828bcd3464c6167e580cf48f4b2a35"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 16623616,
+        "durationSeconds": 376.9527,
+        "peakDbFS": -0.56,
+        "rmsDbFS": -12.53,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.587984,
+          "durationSeconds": 376.948005,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001eDYE44L0Mvn",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001eDYE44L0Mvn I Drink Wine_20261013-040130-138406.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001eDYE44L0Mvn.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0012O1JW32BMUj",
+      "title": "All I Ask",
+      "artist": "Adele",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "All I Ask - Adele.mp3",
+          "sha256": "022040b4d28f76fb8c65c9d3390a98d0fafac63b98b033974e18e84398bdd80e"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 12002304,
+        "durationSeconds": 272.1611,
+        "peakDbFS": -1.25,
+        "rmsDbFS": -12.84,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.24705,
+          "durationSeconds": 272.144739,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0012O1JW32BMUj",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0012O1JW32BMUj All I Ask_20261013-040757-670262.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0012O1JW32BMUj.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000n3MUQ2H4e4L",
+      "title": "AWARDS SEASON",
+      "artist": "Bon Iver",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "AWARDS SEASON - Bon Iver.mp3",
+          "sha256": "7b2daaf3ec5c765c5b336834305caa7d3a7a7446f5440ecf966535ec702701d7"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 13974016,
+        "durationSeconds": 316.8711,
+        "peakDbFS": -0.91,
+        "rmsDbFS": -19.51,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.892025,
+          "durationSeconds": 316.866372,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000n3MUQ2H4e4L",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000n3MUQ2H4e4L AWARDS SEASON_20261013-041238-525801.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000n3MUQ2H4e4L.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002iMCar2KMyAe",
+      "title": "Everything Is Peaceful Love",
+      "artist": "Bon Iver",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Everything Is Peaceful Love - Bon Iver.mp3",
+          "sha256": "255f9617aa8737c709dffa9ed76b81e0d6833dc22b6e89999f74b18164869b9b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9292800,
+        "durationSeconds": 210.7211,
+        "peakDbFS": -0.77,
+        "rmsDbFS": -11.23,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.474107,
+          "durationSeconds": 210.704739,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002iMCar2KMyAe",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002iMCar2KMyAe Everything Is Peaceful Love_20261013-041804-910785.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002iMCar2KMyAe.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001n2G2V1XrrwZ",
+      "title": "33 \"GOD\"",
+      "artist": "Bon Iver",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "33 _GOD_ - Bon Iver.mp3",
+          "sha256": "fe3f3bc67439c29664c8c92c833848fd078c03390bef26d09d183b5f0e894bd0"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9427968,
+        "durationSeconds": 213.7861,
+        "peakDbFS": -0.94,
+        "rmsDbFS": -15.4,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.871166,
+          "durationSeconds": 213.761066,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001n2G2V1XrrwZ",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001n2G2V1XrrwZ 33 _GOD__20261013-042143-850093.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001n2G2V1XrrwZ.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000sNlEo1mhR6a",
+      "title": "Holocene",
+      "artist": "Bon Iver",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Holocene - Bon Iver.mp3",
+          "sha256": "5813db806f854777f41845cfdd767cf1381049614eb8ccaec8e251777e0f86f0"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 14910976,
+        "durationSeconds": 338.1174,
+        "peakDbFS": -2.4,
+        "rmsDbFS": -18.56,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -3.3792,
+          "durationSeconds": 338.103923,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000sNlEo1mhR6a",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000sNlEo1mhR6a Holocene_20261013-042526-266459.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000sNlEo1mhR6a.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001dxYiJ0AA0Na",
+      "title": "iMi",
+      "artist": "Bon Iver",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "iMi - Bon Iver.mp3",
+          "sha256": "d319603730755b6b31ca3b2af4c2ae58b6adc43d5f7e76e0b0cfa41aba6bdbba"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8671232,
+        "durationSeconds": 196.6266,
+        "peakDbFS": -1.53,
+        "rmsDbFS": -15.81,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.516175,
+          "durationSeconds": 196.624739,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001dxYiJ0AA0Na",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001dxYiJ0AA0Na iMi_20261013-043114-276474.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001dxYiJ0AA0Na.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0003PBrR2QwQEs",
+      "title": "The Most Beautiful Thing",
+      "artist": "Bruno Major, Finneas O’Connell",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "The Most Beautiful Thing - Bruno Major, Finneas O’Connell.mp3",
+          "sha256": "061c74aac888215302376c9753aa178b326542a93b7e07dba1cacb5620cdabfa"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10401792,
+        "durationSeconds": 235.8683,
+        "peakDbFS": -0.71,
+        "rmsDbFS": -12.72,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.63651,
+          "durationSeconds": 235.860658,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0003PBrR2QwQEs",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0003PBrR2QwQEs The Most Beautiful Thing_20261013-043437-864996.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0003PBrR2QwQEs.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002A8lVn1DkTj8",
+      "title": "Regent's Park",
+      "artist": "Bruno Major",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Regent's Park - Bruno Major.mp3",
+          "sha256": "9dab1a35cb31627843d2c45d5e2daca96fb48975c1815f849be36225dd6df952"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7848448,
+        "durationSeconds": 177.9693,
+        "peakDbFS": -0.59,
+        "rmsDbFS": -12.96,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.616811,
+          "durationSeconds": 177.947188,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002A8lVn1DkTj8",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002A8lVn1DkTj8 Regent's Park_20261013-043839-882730.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002A8lVn1DkTj8.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002UPJ6h4R4CZu",
+      "title": "Nothing",
+      "artist": "Bruno Major, Raelee Nikole",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Nothing - Bruno Major, Raelee Nikole.mp3",
+          "sha256": "779a4d789ec29b84f67815f3944945f2224551795d93651dc0e58ec40a3a3366"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7204864,
+        "durationSeconds": 163.3756,
+        "peakDbFS": -0.86,
+        "rmsDbFS": -14.01,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.825742,
+          "durationSeconds": 163.370862,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002UPJ6h4R4CZu",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002UPJ6h4R4CZu Nothing_20261013-044144-563862.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002UPJ6h4R4CZu.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0042dlZn0Bfu1m",
+      "title": "Just The Same",
+      "artist": "Bruno Major",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Just The Same - Bruno Major.mp3",
+          "sha256": "e0c0e5de5b4589c6ab3298bdd5c3f7df72b3125f330ce4711f71e18183b40d96"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9072128,
+        "durationSeconds": 205.7172,
+        "peakDbFS": -0.58,
+        "rmsDbFS": -12.88,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.566092,
+          "durationSeconds": 205.715351,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0042dlZn0Bfu1m",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0042dlZn0Bfu1m Just The Same_20261013-044434-716820.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0042dlZn0Bfu1m.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004YieBS0k9t2k",
+      "title": "Fair-Weather Friend",
+      "artist": "Bruno Major, Daniel Neil McDougall",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Fair-Weather Friend - Bruno Major, Daniel Neil McDougall.mp3",
+          "sha256": "adf4c6972b9dabe83ce0cbfb7536c573d258cababcf8bc0e31b9edea8bfb4ff9"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8204732,
+        "durationSeconds": 186.0483,
+        "peakDbFS": -0.19,
+        "rmsDbFS": -11.5,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.147076,
+          "durationSeconds": 186.045147,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004YieBS0k9t2k",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/004YieBS0k9t2k-trimmed-tail-1s.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004YieBS0k9t2k.json",
+      "trimmedTailSeconds": 1,
+      "version_replacement": null
+    },
+    {
+      "id": "003j9c1S33TtSQ",
+      "title": "it is over",
+      "artist": "clairo",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "it is over - clairo.mp3",
+          "sha256": "5334f3eb716201baf0e47d67c20d4ac133c1b56a8d9c9c7d0e39175d6344a265"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 6552064,
+        "durationSeconds": 148.5729,
+        "peakDbFS": -3.34,
+        "rmsDbFS": -21.51,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -4.337852,
+          "durationSeconds": 148.559433,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003j9c1S33TtSQ",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03B04-2首无回音重录-2026-10-13/raw/003j9c1S33TtSQ it is over_20261013-104746-650473.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03B04-2首无回音重录-2026-10-13/003j9c1S33TtSQ.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004KtQl42rhCIp",
+      "title": "Add Up My Love",
+      "artist": "Clairo",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Add Up My Love - Clairo.mp3",
+          "sha256": "8f98c63a196920db5ed710b9b62f868dc4387f6cf5b60842c4a82be5c7b9dd89"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9072128,
+        "durationSeconds": 205.7172,
+        "peakDbFS": -0.73,
+        "rmsDbFS": -11.84,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.730168,
+          "durationSeconds": 205.715351,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004KtQl42rhCIp",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004KtQl42rhCIp Add Up My Love_20261013-045204-819377.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004KtQl42rhCIp.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001ZqSJn2bEQE1",
+      "title": "Bags",
+      "artist": "Clairo",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Bags - Clairo.mp3",
+          "sha256": "64c6c2205b617cba33be8d93caa122fb7dad8286115be322c835e5c98d174368"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11512832,
+        "durationSeconds": 261.062,
+        "peakDbFS": -0.45,
+        "rmsDbFS": -9.8,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.393411,
+          "durationSeconds": 261.042698,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001ZqSJn2bEQE1",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001ZqSJn2bEQE1 Bags_20261013-045537-878647.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001ZqSJn2bEQE1.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004EgD1V2YL8NH",
+      "title": "Just For Today",
+      "artist": "Clairo",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Just For Today - Clairo.mp3",
+          "sha256": "f233b9908b0bc42f648226b104686956425bf152065516cc961d6cbd89a2110a"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9607168,
+        "durationSeconds": 217.8496,
+        "peakDbFS": -2.23,
+        "rmsDbFS": -21.91,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -3.223763,
+          "durationSeconds": 217.836168,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004EgD1V2YL8NH",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004EgD1V2YL8NH Just For Today_20261013-050007-987054.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004EgD1V2YL8NH.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000aLAYq1recqd",
+      "title": "how did I ever",
+      "artist": "Clairo",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "how did I ever - Clairo.mp3",
+          "sha256": "0316510c06037702e74698b03168c23ce46003a27546fcaccbbaf1aa83115fe9"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 5850112,
+        "durationSeconds": 132.6556,
+        "peakDbFS": -3.47,
+        "rmsDbFS": -23.4,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -4.47447,
+          "durationSeconds": 132.650862,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000aLAYq1recqd",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000aLAYq1recqd how did I ever_20261013-050353-576408.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000aLAYq1recqd.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003bXZG822iJCK",
+      "title": "这世界没有你想象的苦涩",
+      "artist": "Crispy脆乐团",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "这世界没有你想象的苦涩 - Crispy脆乐团.mp3",
+          "sha256": "55d8fbbf20ead8cd8816bb59b49b6d77ba153f8267daf7fa32d48c64f6f2bd80"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7403008,
+        "durationSeconds": 167.8687,
+        "peakDbFS": -3.03,
+        "rmsDbFS": -21.75,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -4.033606,
+          "durationSeconds": 167.863923,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003bXZG822iJCK",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003bXZG822iJCK 这世界没有你想象的苦涩_20261013-050612-537222.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003bXZG822iJCK.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "00171PXo3XW2LF",
+      "title": "装帧",
+      "artist": "Crispy脆乐团",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "装帧 - Crispy脆乐团.mp3",
+          "sha256": "c19a193389abb2a356e5661a067f947d846206d7f60e1cffdca81e5a2c6856bc"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10823168,
+        "durationSeconds": 245.4233,
+        "peakDbFS": -0.47,
+        "rmsDbFS": -15.47,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.488759,
+          "durationSeconds": 245.421474,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "00171PXo3XW2LF",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/00171PXo3XW2LF 装帧_20261013-050907-156242.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/00171PXo3XW2LF.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000Hwr423EClSO",
+      "title": "转圈圈",
+      "artist": "Crispy脆乐团",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "转圈圈 - Crispy脆乐团.mp3",
+          "sha256": "f7b8d3a0ac4970c5243b7ef7ace71af85bb22f28b9942e62cb8a93456cbf51ba"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11022848,
+        "durationSeconds": 249.9512,
+        "peakDbFS": -0.29,
+        "rmsDbFS": -12.08,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.18985,
+          "durationSeconds": 249.940658,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000Hwr423EClSO",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000Hwr423EClSO 转圈圈_20261013-051320-738550.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000Hwr423EClSO.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000w8o1G0n3x8D",
+      "title": "宇宙的角落",
+      "artist": "Crispy脆乐团",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "宇宙的角落 - Crispy脆乐团.mp3",
+          "sha256": "153fe7682f4287cd36a7cf1526f581a09eeb39e1c09976a01fdff674404b9f5a"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10405376,
+        "durationSeconds": 235.9496,
+        "peakDbFS": -0.51,
+        "rmsDbFS": -12.45,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.439451,
+          "durationSeconds": 235.939025,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000w8o1G0n3x8D",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000w8o1G0n3x8D 宇宙的角落_20261013-051739-582539.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000w8o1G0n3x8D.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001Mo03q0dOpCD",
+      "title": "过曝",
+      "artist": "Crispy脆乐团",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "过曝 - Crispy脆乐团.mp3",
+          "sha256": "6c592a4fa77fbfeb4684a0350ee64d4653ae6de21fe7ae481e1ddb72c133527b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10203648,
+        "durationSeconds": 231.3752,
+        "peakDbFS": -0.55,
+        "rmsDbFS": -12.0,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.457981,
+          "durationSeconds": 231.367596,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001Mo03q0dOpCD",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001Mo03q0dOpCD 过曝_20261013-052143-804325.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001Mo03q0dOpCD.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001NB9zC4KiuXe",
+      "title": "Pendant",
+      "artist": "Cuco",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Pendant - Cuco.mp3",
+          "sha256": "6c75007ac740a15b27608d11f498874a6f5f266eb4ba03174a041f0cd9c7610c"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 10425344,
+        "durationSeconds": 236.4024,
+        "peakDbFS": -0.55,
+        "rmsDbFS": -12.32,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.510944,
+          "durationSeconds": 236.383107,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001NB9zC4KiuXe",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001NB9zC4KiuXe Pendant_20261013-052542-818320.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001NB9zC4KiuXe.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003jo3nT2OxiaH",
+      "title": "Do Better",
+      "artist": "Cuco",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Do Better - Cuco.mp3",
+          "sha256": "ea32937755816e7a997e0c2e49342718510d831e8d583a10ecab6f8d432bffd6"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9333760,
+        "durationSeconds": 211.6499,
+        "peakDbFS": -0.94,
+        "rmsDbFS": -13.7,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.855314,
+          "durationSeconds": 211.645147,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003jo3nT2OxiaH",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003jo3nT2OxiaH Do Better_20261013-052946-057671.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003jo3nT2OxiaH.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003ynfi94MNd4t",
+      "title": "COuGhDrOPs (,,Ծ‸Ծ,, )",
+      "artist": "1999 WRITE THE FUTURE, Cuco, Warren Hue, 88rising",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "COuGhDrOPs (,,Ծ‸Ծ,, ) - 1999 WRITE THE FUTURE, Cuco, Warren Hue, 88rising.mp3",
+          "sha256": "2adf37b00cdd538a39f3b58f7926c3830f06f15ddab4011e3935a398aa48a940"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9142272,
+        "durationSeconds": 207.3078,
+        "peakDbFS": -0.61,
+        "rmsDbFS": -12.97,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.557111,
+          "durationSeconds": 207.282698,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003ynfi94MNd4t",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003ynfi94MNd4t COuGhDrOPs (,,Ծ‸Ծ,, )_20261013-053325-642756.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003ynfi94MNd4t.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000VIQsR1lXb5A",
+      "title": "Bossa No Sé",
+      "artist": "Cuco, Jean Carter",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Bossa No Sé - Cuco, Jean Carter.mp3",
+          "sha256": "14ea8c3f92d582f50e309d27352d95b52e13ea4ca9da9bb8faa0aaa4e6a0d831"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8908288,
+        "durationSeconds": 202.002,
+        "peakDbFS": -0.63,
+        "rmsDbFS": -10.62,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.467702,
+          "durationSeconds": 201.979841,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004a1aRp0WI3rt",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03B04-2首无回音重录-2026-10-13/raw/000VIQsR1lXb5A Bossa No Sé_20261013-105245-392304.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03B04-2首无回音重录-2026-10-13/000VIQsR1lXb5A.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": {
+        "originalSongMid": "004a1aRp0WI3rt",
+        "originalAlbum": "Bossa No Sé (Explicit)",
+        "actualSongMid": "000VIQsR1lXb5A",
+        "actualAlbum": "Para Mi (Explicit)",
+        "authorizedAt": "2026-10-13",
+        "authorization": "改录 Para Mi 专辑版（推荐）",
+        "sourceSkill": "/Users/kaluozheng/Zhengkaluo‘s Skills/qq-music/scripts/qq_music.py",
+        "selected": {
+          "name": "Bossa No Sé",
+          "artists": [
+            "Cuco",
+            "Jean Carter"
+          ],
+          "album": "Para Mi (Explicit)",
+          "album_mid": "004G6JoE3cJ5gk",
+          "duration_seconds": 201,
+          "song_id": 234979970,
+          "song_mid": "000VIQsR1lXb5A",
+          "song_type": 1,
+          "url": "https://y.qq.com/n/ryqq/songDetail/000VIQsR1lXb5A",
+          "confidence": 95
+        }
+      }
+    },
+    {
+      "id": "000Ccgnp1RNtvv",
+      "title": "Melting",
+      "artist": "Cuco",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Melting - Cuco.mp3",
+          "sha256": "3cce2251cd2d5216a2d5ca64371a8a7c9f2bb4aeebeb423fd830ad47ac8876f5"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9206272,
+        "durationSeconds": 208.759,
+        "peakDbFS": -1.92,
+        "rmsDbFS": -13.5,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.844518,
+          "durationSeconds": 208.745556,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000Ccgnp1RNtvv",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000Ccgnp1RNtvv Melting_20261013-053742-269799.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000Ccgnp1RNtvv.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003bpVPA2Rp69Q",
+      "title": "iFeel",
+      "artist": "((( O ))), FKJ",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "iFeel - ((( O ))), FKJ.mp3",
+          "sha256": "2a2d27ce4cc22eebede073a5c322407255e1e95b95199190223c61e2e6ddaa5c"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11911680,
+        "durationSeconds": 270.1061,
+        "peakDbFS": -0.48,
+        "rmsDbFS": -12.57,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.454287,
+          "durationSeconds": 270.081066,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003bpVPA2Rp69Q",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003bpVPA2Rp69Q iFeel_20261013-054119-239460.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003bpVPA2Rp69Q.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "000RE1ae3YbIR2",
+      "title": "Way Out",
+      "artist": "FKJ",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Way Out - FKJ.mp3",
+          "sha256": "0e4223168df7313abeef0829c69c386e350a9997470b8eb4b7e869bd3ced1568"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8849408,
+        "durationSeconds": 200.6668,
+        "peakDbFS": -0.73,
+        "rmsDbFS": -13.9,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.700749,
+          "durationSeconds": 200.647596,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "000RE1ae3YbIR2",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/000RE1ae3YbIR2 Way Out_20261013-054558-970482.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/000RE1ae3YbIR2.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002T9Y7w0WNlJS",
+      "title": "Waiting",
+      "artist": "FKJ, Madelyn Grant",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Waiting - FKJ, Madelyn Grant.mp3",
+          "sha256": "b2e3d536ac08fbd191cd1961468edf3237eb155d042b7e67dcd618bdfd02ba2f"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11605504,
+        "durationSeconds": 263.1634,
+        "peakDbFS": -0.54,
+        "rmsDbFS": -12.77,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.33135,
+          "durationSeconds": 263.158617,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002T9Y7w0WNlJS",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002T9Y7w0WNlJS Waiting_20261013-054927-211177.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002T9Y7w0WNlJS.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004gB41N4AcFak",
+      "title": "Tadow",
+      "artist": "FKJ",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Tadow - FKJ.mp3",
+          "sha256": "9a7f91e6fc73039526a3aa4fc2161b972de03eb22d83850d9d94f06a9de3731c"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 13271552,
+        "durationSeconds": 300.9422,
+        "peakDbFS": -0.85,
+        "rmsDbFS": -12.5,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.866725,
+          "durationSeconds": 300.931678,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004gB41N4AcFak",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004gB41N4AcFak Tadow_20261013-055357-236454.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004gB41N4AcFak.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003baKUZ3jVHFK",
+      "title": "Lying Together",
+      "artist": "FKJ",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Lying Together - FKJ.mp3",
+          "sha256": "1ccf7d7a4af1b81cd543d2ce6d68185798a085c3cef6222bed59d7bc0532d978"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11871744,
+        "durationSeconds": 269.2005,
+        "peakDbFS": -0.83,
+        "rmsDbFS": -12.97,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.791691,
+          "durationSeconds": 269.192902,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003baKUZ3jVHFK",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003baKUZ3jVHFK Lying Together_20261013-055907-425861.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003baKUZ3jVHFK.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003jRme62vImyv",
+      "title": "Blank Space/Stand By Me",
+      "artist": "Imagine Dragons",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Blank Space_Stand By Me - Imagine Dragons.mp3",
+          "sha256": "4c3abf3d88d8e13f85e772c9b866c790bfd1fce8321804cefaf4425f39f26e5a"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 13402112,
+        "durationSeconds": 303.9028,
+        "peakDbFS": -0.4,
+        "rmsDbFS": -10.2,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.301695,
+          "durationSeconds": 303.883515,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003jRme62vImyv",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003jRme62vImyv Blank Space_Stand By Me_20261013-060345-079082.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003jRme62vImyv.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0020ndPY24CcOP",
+      "title": "Thunder",
+      "artist": "Imagine Dragons",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "Thunder - Imagine Dragons.mp3",
+          "sha256": "48c1b0180d40964de6d868beee4e9cf3af515af09c02aef0eef295036fba9126"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8273920,
+        "durationSeconds": 187.6172,
+        "peakDbFS": -0.0,
+        "rmsDbFS": -9.61,
+        "clippedSamples": 1,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.976447,
+          "durationSeconds": 187.612494,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0020ndPY24CcOP",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/0020ndPY24CcOP.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/0020ndPY24CcOP-d5470c6d-b13f-479e-9ce1-63033249df23.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004SfX0s1cROYY",
+      "title": "Waves",
+      "artist": "Imagine Dragons",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Waves - Imagine Dragons.mp3",
+          "sha256": "f07716430859df88622f96d8f355939f0036ad958c1f9c042921478f55d98991"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9960960,
+        "durationSeconds": 225.8721,
+        "peakDbFS": -0.49,
+        "rmsDbFS": -12.58,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.149964,
+          "durationSeconds": 225.85576,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004SfX0s1cROYY",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004SfX0s1cROYY Waves_20261013-061210-295730.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004SfX0s1cROYY.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001Lrscs3PTJWJ",
+      "title": "Easy Come Easy Go",
+      "artist": "Imagine Dragons",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Easy Come Easy Go - Imagine Dragons.mp3",
+          "sha256": "da564d08021ca6df2031fe041e52ba0d629ae2c8a3e982443333f59068bee0ec"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7960576,
+        "durationSeconds": 180.5119,
+        "peakDbFS": -0.51,
+        "rmsDbFS": -11.15,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.41317,
+          "durationSeconds": 180.507188,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001Lrscs3PTJWJ",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001Lrscs3PTJWJ Easy Come Easy Go_20261013-061604-241714.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001Lrscs3PTJWJ.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003PW3GE2Bqm8d",
+      "title": "Symphony",
+      "artist": "Imagine Dragons",
+      "status": "manual-approved-exception",
+      "files": [
+        {
+          "path": "Symphony - Imagine Dragons.mp3",
+          "sha256": "45b7289a4ca388c648cee7d1cf3c2428228ea119bd9cd4bf5e843cd8e98f3173"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7781888,
+        "durationSeconds": 176.46,
+        "peakDbFS": 0.0,
+        "rmsDbFS": -10.45,
+        "clippedSamples": 2,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -0.865227,
+          "durationSeconds": 176.458209,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003PW3GE2Bqm8d",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/reviewed/2026-10-13/manual-export/003PW3GE2Bqm8d.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/attempts/003PW3GE2Bqm8d-434cd8cc-41f6-46a4-9132-d6678998d32a.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001AGdoa1GVFVC",
+      "title": "You Can Do It",
+      "artist": "Johnny Stimson",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "You Can Do It - Johnny Stimson.mp3",
+          "sha256": "5bf4ed0a8a50524a7e83a0190dd288762c621b786b97d0705ab54b1469d275e0"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8317952,
+        "durationSeconds": 188.6157,
+        "peakDbFS": -0.43,
+        "rmsDbFS": -12.61,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.484213,
+          "durationSeconds": 188.605147,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001AGdoa1GVFVC",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001AGdoa1GVFVC You Can Do It_20261013-062212-469908.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001AGdoa1GVFVC.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "0019Lb1m44iEIR",
+      "title": "Flower",
+      "artist": "Johnny Stimson",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Flower - Johnny Stimson.mp3",
+          "sha256": "c4ec813253972affb8368eec986df7f85958620f4ac1ba5ed5142861d5a3a35a"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7673856,
+        "durationSeconds": 174.0103,
+        "peakDbFS": -0.83,
+        "rmsDbFS": -12.59,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.580827,
+          "durationSeconds": 174.002698,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "0019Lb1m44iEIR",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/0019Lb1m44iEIR Flower_20261013-062528-000081.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/0019Lb1m44iEIR.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001Fy4qv2KsHci",
+      "title": "Butterflies",
+      "artist": "Johnny Stimson",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Butterflies - Johnny Stimson.mp3",
+          "sha256": "6e65f52010f8bd81bb47b146779a9ea0a1f26c9a59ef7d17f87a1d12cb090689"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7116800,
+        "durationSeconds": 161.3787,
+        "peakDbFS": -1.93,
+        "rmsDbFS": -15.21,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.933094,
+          "durationSeconds": 161.359433,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001Fy4qv2KsHci",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001Fy4qv2KsHci Butterflies_20261013-062829-015056.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001Fy4qv2KsHci.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "001x7MLY0SKdfx",
+      "title": "Pink Lemonade",
+      "artist": "Johnny Stimson",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Pink Lemonade - Johnny Stimson.mp3",
+          "sha256": "0afa37874383601f05c5509415b0e27775ccfc08d2d3a9f0ec239c8a89f8b28f"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7362048,
+        "durationSeconds": 166.9399,
+        "peakDbFS": -1.21,
+        "rmsDbFS": -13.55,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.209269,
+          "durationSeconds": 166.923515,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "001x7MLY0SKdfx",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/001x7MLY0SKdfx Pink Lemonade_20261013-063117-154009.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/001x7MLY0SKdfx.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003KTLrD0q77sy",
+      "title": "Zombies",
+      "artist": "Johnny Stimson",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Zombies - Johnny Stimson.mp3",
+          "sha256": "4788ef01886dc0e56f36d5c549aa8a2d7e82e6c87c21c0f75e0ba5dab4485e5b"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 5543424,
+        "durationSeconds": 125.7012,
+        "peakDbFS": -0.46,
+        "rmsDbFS": -12.1,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.417133,
+          "durationSeconds": 125.676168,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003KTLrD0q77sy",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003KTLrD0q77sy Zombies_20261013-063410-811660.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003KTLrD0q77sy.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004dcJ7k0vNsLn",
+      "title": "Look What We've Become",
+      "artist": "Pajaro Sunrise",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Look What We've Become - Pajaro Sunrise.mp3",
+          "sha256": "129c2ea8432c6102f5e70cc85e9bc139c49b01b1e471256927f379dd2c80c155"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 7737344,
+        "durationSeconds": 175.45,
+        "peakDbFS": -0.73,
+        "rmsDbFS": -14.15,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.747466,
+          "durationSeconds": 175.439433,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004dcJ7k0vNsLn",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004dcJ7k0vNsLn Look What We've Become_20261013-063622-019709.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004dcJ7k0vNsLn.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "003TvkRJ0VVQqG",
+      "title": "A Dog Named Tan",
+      "artist": "Pajaro Sunrise",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "A Dog Named Tan - Pajaro Sunrise.mp3",
+          "sha256": "4ccb32347c15f7016d9cb18b66e3981d6bed4a8cd4ddf35215f3c6e946af3eaf"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11227648,
+        "durationSeconds": 254.5952,
+        "peakDbFS": -1.52,
+        "rmsDbFS": -14.52,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -2.52261,
+          "durationSeconds": 254.590454,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "003TvkRJ0VVQqG",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/003TvkRJ0VVQqG A Dog Named Tan_20261013-063924-432150.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/003TvkRJ0VVQqG.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "004gB7Jc2j8ytz",
+      "title": "Song for Evangeline",
+      "artist": "Pajaro Sunrise",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Song for Evangeline - Pajaro Sunrise.mp3",
+          "sha256": "d76f7ebb0e6232a9043ea3412b3f781e8caffceb983406702673219f6e76ca33"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 11737088,
+        "durationSeconds": 266.1471,
+        "peakDbFS": -0.92,
+        "rmsDbFS": -14.94,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.902663,
+          "durationSeconds": 266.136576,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "004gB7Jc2j8ytz",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/004gB7Jc2j8ytz Song for Evangeline_20261013-064347-690643.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/004gB7Jc2j8ytz.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002wyXGE2QO741",
+      "title": "Romeo's Tune",
+      "artist": "Pajaro Sunrise",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "Romeo's Tune - Pajaro Sunrise.mp3",
+          "sha256": "2212c614b1c7ed0b3d1647455ad44a97da6d7f89a51354f5b11c580c19ac45f9"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 8649728,
+        "durationSeconds": 196.139,
+        "peakDbFS": -2.99,
+        "rmsDbFS": -15.59,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -4.060488,
+          "durationSeconds": 196.128413,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002wyXGE2QO741",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002wyXGE2QO741 Romeo's Tune_20261013-064822-479434.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002wyXGE2QO741.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    },
+    {
+      "id": "002TLRNZ3CrRSP",
+      "title": "I Don't Want to Love You No More",
+      "artist": "Pajaro Sunrise",
+      "status": "accepted",
+      "files": [
+        {
+          "path": "I Don't Want to Love You No More - Pajaro Sunrise.mp3",
+          "sha256": "996a0c4e6b2e4e5c7290a787ab873f988613a0e6add8684570f273d172d79dca"
+        }
+      ],
+      "quality": {
+        "sampleRate": 44100,
+        "channels": 2,
+        "sampleWidthBits": 16,
+        "frames": 9095680,
+        "durationSeconds": 206.2512,
+        "peakDbFS": -1.01,
+        "rmsDbFS": -16.01,
+        "clippedSamples": 0,
+        "silent": false,
+        "mp3": {
+          "peakDbFS": -1.999001,
+          "durationSeconds": 206.2378,
+          "decodePassed": true
+        }
+      },
+      "original_song_mid": "002TLRNZ3CrRSP",
+      "source": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/raw/002TLRNZ3CrRSP I Don't Want to Love You No More_20261013-065147-127532.mp3",
+      "take_path": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B03-B04-116首-2026-10-12/002TLRNZ3CrRSP.json",
+      "trimmedTailSeconds": 0,
+      "version_replacement": null
+    }
+  ]
+}

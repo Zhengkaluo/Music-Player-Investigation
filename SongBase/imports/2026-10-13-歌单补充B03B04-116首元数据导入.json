@@ -1,0 +1,2510 @@
+{
+  "schema_version": "songbase.playlist-track-import/v1",
+  "date": "2026-10-13",
+  "source_playlists": [
+    "咖啡厅",
+    "可以放"
+  ],
+  "scope": "B03/B04 only; 116 additions, one authorized album-version replacement",
+  "summary": {
+    "metadata_added": 116,
+    "audio_imported": 116,
+    "formal_tags_added": 0,
+    "zmpd_annotations_added": 0
+  },
+  "audio_manifest": "2026-10-13-歌单补充B03B04-116首正式入档.json",
+  "snapshot_directory": "archive/snapshots/playlist-expansion/2026-10-13-B03B04-116首入库前",
+  "tracks": [
+    {
+      "track_id": "qq:003exDD32B4XP5",
+      "title": "Charlie Brown",
+      "full_singer": "Coldplay",
+      "group_artist": "Coldplay",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Mylo Xyloto",
+      "duration_seconds": 285,
+      "song_id": 1005045,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003exDD32B4XP5",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003exDD32B4XP5",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Charlie Brown - Coldplay.mp3"
+    },
+    {
+      "track_id": "qq:000opCQL1V4Zoq",
+      "title": "Paradise",
+      "full_singer": "Coldplay",
+      "group_artist": "Coldplay",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Paradise",
+      "duration_seconds": 278,
+      "song_id": 1188009,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000opCQL1V4Zoq",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000opCQL1V4Zoq",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Paradise - Coldplay.mp3"
+    },
+    {
+      "track_id": "qq:000F4vDF2XmPzF",
+      "title": "Every Teardrop Is a Waterfall",
+      "full_singer": "Coldplay",
+      "group_artist": "Coldplay",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Every Teardrop Is a Waterfall",
+      "duration_seconds": 242,
+      "song_id": 2163135,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000F4vDF2XmPzF",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000F4vDF2XmPzF",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Every Teardrop Is a Waterfall - Coldplay.mp3"
+    },
+    {
+      "track_id": "qq:001ASmYb0j8Pg9",
+      "title": "WE PRAY",
+      "full_singer": "Coldplay, Little Simz, Burna Boy, Elyanna, TINI",
+      "group_artist": "Coldplay",
+      "artists": [
+        "Coldplay",
+        "Little Simz",
+        "Burna Boy",
+        "Elyanna",
+        "TINI"
+      ],
+      "album": "Moon Music",
+      "duration_seconds": 233,
+      "song_id": 522172229,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001ASmYb0j8Pg9",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001ASmYb0j8Pg9",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/WE PRAY - Coldplay, Little Simz, Burna Boy, Elyanna, TINI.mp3"
+    },
+    {
+      "track_id": "qq:001jIR8P0lZfw6",
+      "title": "Cry Cry Cry",
+      "full_singer": "Coldplay",
+      "group_artist": "Coldplay",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Everyday Life (Explicit)",
+      "duration_seconds": 167,
+      "song_id": 245279497,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001jIR8P0lZfw6",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001jIR8P0lZfw6",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Cry Cry Cry - Coldplay.mp3"
+    },
+    {
+      "track_id": "qq:001jpgj03QN8Kh",
+      "title": "Everything's Not Lost",
+      "full_singer": "Coldplay",
+      "group_artist": "Coldplay",
+      "artists": [
+        "Coldplay"
+      ],
+      "album": "Parachutes",
+      "duration_seconds": 436,
+      "song_id": 2017999,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001jpgj03QN8Kh",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001jpgj03QN8Kh",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Everything's Not Lost - Coldplay.mp3"
+    },
+    {
+      "track_id": "qq:004O1atc1yDZOZ",
+      "title": "Life Moves On",
+      "full_singer": "FINNEAS",
+      "group_artist": "FINNEAS",
+      "artists": [
+        "FINNEAS"
+      ],
+      "album": "Life Moves On",
+      "duration_seconds": 251,
+      "song_id": 244629932,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004O1atc1yDZOZ",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "004O1atc1yDZOZ",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Life Moves On - FINNEAS.mp3"
+    },
+    {
+      "track_id": "qq:003EJnRP4QnTfl",
+      "title": "For Cryin' Out Loud!",
+      "full_singer": "FINNEAS",
+      "group_artist": "FINNEAS",
+      "artists": [
+        "FINNEAS"
+      ],
+      "album": "For Cryin' Out Loud!",
+      "duration_seconds": 217,
+      "song_id": 507194784,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003EJnRP4QnTfl",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003EJnRP4QnTfl",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/For Cryin' Out Loud! - FINNEAS.mp3"
+    },
+    {
+      "track_id": "qq:004a8vE53RJ5vO",
+      "title": "Medieval",
+      "full_singer": "FINNEAS",
+      "group_artist": "FINNEAS",
+      "artists": [
+        "FINNEAS"
+      ],
+      "album": "Optimist",
+      "duration_seconds": 171,
+      "song_id": 328931874,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004a8vE53RJ5vO",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004a8vE53RJ5vO",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Medieval - FINNEAS.mp3"
+    },
+    {
+      "track_id": "qq:002hL2XJ2yGpak",
+      "title": "The Kids Are All Dying",
+      "full_singer": "FINNEAS",
+      "group_artist": "FINNEAS",
+      "artists": [
+        "FINNEAS"
+      ],
+      "album": "Optimist",
+      "duration_seconds": 167,
+      "song_id": 328931877,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002hL2XJ2yGpak",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002hL2XJ2yGpak",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/The Kids Are All Dying - FINNEAS.mp3"
+    },
+    {
+      "track_id": "qq:000l3Ux21CN8av",
+      "title": "Let's Fall in Love for the Night",
+      "full_singer": "FINNEAS",
+      "group_artist": "FINNEAS",
+      "artists": [
+        "FINNEAS"
+      ],
+      "album": "Blood Harmony (Explicit)",
+      "duration_seconds": 190,
+      "song_id": 253452300,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000l3Ux21CN8av",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000l3Ux21CN8av",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Let's Fall in Love for the Night - FINNEAS.mp3"
+    },
+    {
+      "track_id": "qq:002x9hnT1XUxEY",
+      "title": "I Don't Miss You at All",
+      "full_singer": "FINNEAS",
+      "group_artist": "FINNEAS",
+      "artists": [
+        "FINNEAS"
+      ],
+      "album": "Blood Harmony (Explicit)",
+      "duration_seconds": 128,
+      "song_id": 244494553,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002x9hnT1XUxEY",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002x9hnT1XUxEY",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/I Don't Miss You at All - FINNEAS.mp3"
+    },
+    {
+      "track_id": "qq:0024UbZ30SyWt7",
+      "title": "Baby It's Cold Outside",
+      "full_singer": "Mac Miller, Ariana Grande",
+      "group_artist": "Mac Miller",
+      "artists": [
+        "Mac Miller",
+        "Ariana Grande"
+      ],
+      "album": "",
+      "duration_seconds": 207,
+      "song_id": 109107992,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0024UbZ30SyWt7",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0024UbZ30SyWt7",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Baby It's Cold Outside - Mac Miller, Ariana Grande.mp3"
+    },
+    {
+      "track_id": "qq:000UjogV0Bpltc",
+      "title": "Woods",
+      "full_singer": "Mac Miller",
+      "group_artist": "Mac Miller",
+      "artists": [
+        "Mac Miller"
+      ],
+      "album": "Circles (Explicit)",
+      "duration_seconds": 286,
+      "song_id": 250820171,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000UjogV0Bpltc",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000UjogV0Bpltc",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Woods - Mac Miller.mp3"
+    },
+    {
+      "track_id": "qq:003XpTPV1HVZ71",
+      "title": "Circles",
+      "full_singer": "Mac Miller",
+      "group_artist": "Mac Miller",
+      "artists": [
+        "Mac Miller"
+      ],
+      "album": "Circles (Explicit)",
+      "duration_seconds": 170,
+      "song_id": 250820160,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003XpTPV1HVZ71",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003XpTPV1HVZ71",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Circles - Mac Miller.mp3"
+    },
+    {
+      "track_id": "qq:00313TiP3NS2pq",
+      "title": "Good News",
+      "full_singer": "Mac Miller",
+      "group_artist": "Mac Miller",
+      "artists": [
+        "Mac Miller"
+      ],
+      "album": "Circles (Explicit)",
+      "duration_seconds": 342,
+      "song_id": 250820163,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00313TiP3NS2pq",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "00313TiP3NS2pq",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Good News - Mac Miller.mp3"
+    },
+    {
+      "track_id": "qq:0014Stqd160SXY",
+      "title": "ROS",
+      "full_singer": "Mac Miller",
+      "group_artist": "Mac Miller",
+      "artists": [
+        "Mac Miller"
+      ],
+      "album": "GO:OD AM (Explicit)",
+      "duration_seconds": 343,
+      "song_id": 103193263,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0014Stqd160SXY",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0014Stqd160SXY",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/ROS - Mac Miller.mp3"
+    },
+    {
+      "track_id": "qq:004V4DWL3x50zs",
+      "title": "Hand Me Downs",
+      "full_singer": "Mac Miller",
+      "group_artist": "Mac Miller",
+      "artists": [
+        "Mac Miller"
+      ],
+      "album": "Circles (Explicit)",
+      "duration_seconds": 298,
+      "song_id": 250820166,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004V4DWL3x50zs",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004V4DWL3x50zs",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Hand Me Downs - Mac Miller.mp3"
+    },
+    {
+      "track_id": "qq:003xgGtD2ya9cF",
+      "title": "bliss",
+      "full_singer": "milet",
+      "group_artist": "milet",
+      "artists": [
+        "milet"
+      ],
+      "album": "",
+      "duration_seconds": 92,
+      "song_id": 451281814,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003xgGtD2ya9cF",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003xgGtD2ya9cF",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/bliss - milet.mp3"
+    },
+    {
+      "track_id": "qq:002PQwAQ0OlanK",
+      "title": "inside you",
+      "full_singer": "milet",
+      "group_artist": "milet",
+      "artists": [
+        "milet"
+      ],
+      "album": "inside you EP",
+      "duration_seconds": 221,
+      "song_id": 231706700,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002PQwAQ0OlanK",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002PQwAQ0OlanK",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/inside you - milet.mp3"
+    },
+    {
+      "track_id": "qq:001s7DY03qREDH",
+      "title": "jam",
+      "full_singer": "milet, iri",
+      "group_artist": "milet",
+      "artists": [
+        "milet",
+        "iri"
+      ],
+      "album": "visions (Explicit)",
+      "duration_seconds": 205,
+      "song_id": 339560315,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001s7DY03qREDH",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001s7DY03qREDH",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/jam - milet, iri.mp3"
+    },
+    {
+      "track_id": "qq:002jeqPM1W3pFm",
+      "title": "Walkin' In My Lane",
+      "full_singer": "milet",
+      "group_artist": "milet",
+      "artists": [
+        "milet"
+      ],
+      "album": "Walkin' In My Lane",
+      "duration_seconds": 240,
+      "song_id": 351831365,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002jeqPM1W3pFm",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002jeqPM1W3pFm",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Walkin' In My Lane - milet.mp3"
+    },
+    {
+      "track_id": "qq:000rIL8M0OBbUD",
+      "title": "Anytime Anywhere",
+      "full_singer": "milet",
+      "group_artist": "milet",
+      "artists": [
+        "milet"
+      ],
+      "album": "Anytime Anywhere",
+      "duration_seconds": 230,
+      "song_id": 438021880,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000rIL8M0OBbUD",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000rIL8M0OBbUD",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Anytime Anywhere - milet.mp3"
+    },
+    {
+      "track_id": "qq:003lWHKJ2x2WqU",
+      "title": "One Reason",
+      "full_singer": "milet",
+      "group_artist": "milet",
+      "artists": [
+        "milet"
+      ],
+      "album": "visions (Explicit)",
+      "duration_seconds": 253,
+      "song_id": 339560320,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003lWHKJ2x2WqU",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003lWHKJ2x2WqU",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/One Reason - milet.mp3"
+    },
+    {
+      "track_id": "qq:0012Nh6N230sq1",
+      "title": "Ontario",
+      "full_singer": "Novo Amor, Lowswimmer",
+      "group_artist": "Novo Amor",
+      "artists": [
+        "Novo Amor",
+        "Lowswimmer"
+      ],
+      "album": "Heiress",
+      "duration_seconds": 192,
+      "song_id": 203738812,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0012Nh6N230sq1",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0012Nh6N230sq1",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Ontario - Novo Amor, Lowswimmer.mp3"
+    },
+    {
+      "track_id": "qq:002H0YMo0pTVdY",
+      "title": "Euphor",
+      "full_singer": "Novo Amor, Lowswimmer",
+      "group_artist": "Novo Amor",
+      "artists": [
+        "Novo Amor",
+        "Lowswimmer"
+      ],
+      "album": "Heiress",
+      "duration_seconds": 243,
+      "song_id": 203738803,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002H0YMo0pTVdY",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "002H0YMo0pTVdY",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Euphor - Novo Amor, Lowswimmer.mp3"
+    },
+    {
+      "track_id": "qq:004F6UH44asCey",
+      "title": "Terraform",
+      "full_singer": "Novo Amor, Ed Tullett",
+      "group_artist": "Novo Amor",
+      "artists": [
+        "Novo Amor",
+        "Ed Tullett"
+      ],
+      "album": "Terraform",
+      "duration_seconds": 251,
+      "song_id": 212414544,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004F6UH44asCey",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "004F6UH44asCey",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Terraform - Novo Amor, Ed Tullett.mp3"
+    },
+    {
+      "track_id": "qq:003Xj1mz235nvk",
+      "title": "Can't Be By Myself",
+      "full_singer": "Lowswimmer, Squirrel Flower, Novo Amor",
+      "group_artist": "Lowswimmer",
+      "artists": [
+        "Lowswimmer",
+        "Squirrel Flower",
+        "Novo Amor"
+      ],
+      "album": "Can't Be By Myself",
+      "duration_seconds": 175,
+      "song_id": 398725460,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003Xj1mz235nvk",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003Xj1mz235nvk",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Can't Be By Myself - Lowswimmer, Squirrel Flower, Novo Amor.mp3"
+    },
+    {
+      "track_id": "qq:001m5X8d0dYc8y",
+      "title": "Sleepless",
+      "full_singer": "Novo Amor",
+      "group_artist": "Novo Amor",
+      "artists": [
+        "Novo Amor"
+      ],
+      "album": "Birthplace",
+      "duration_seconds": 202,
+      "song_id": 214117732,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001m5X8d0dYc8y",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001m5X8d0dYc8y",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Sleepless - Novo Amor.mp3"
+    },
+    {
+      "track_id": "qq:000lW4sR0nwszy",
+      "title": "Weather",
+      "full_singer": "Novo Amor",
+      "group_artist": "Novo Amor",
+      "artists": [
+        "Novo Amor"
+      ],
+      "album": "Woodgate, NY",
+      "duration_seconds": 232,
+      "song_id": 200280483,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000lW4sR0nwszy",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000lW4sR0nwszy",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Weather - Novo Amor.mp3"
+    },
+    {
+      "track_id": "qq:000icdEM1jz3ey",
+      "title": "猫じゃらし",
+      "full_singer": "RADWIMPS",
+      "group_artist": "RADWIMPS",
+      "artists": [
+        "RADWIMPS"
+      ],
+      "album": "猫じゃらし",
+      "duration_seconds": 267,
+      "song_id": 279624394,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000icdEM1jz3ey",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000icdEM1jz3ey",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/猫じゃらし - RADWIMPS.mp3"
+    },
+    {
+      "track_id": "qq:0014TcJX0M2nNU",
+      "title": "週刊少年ジャンプ",
+      "full_singer": "RADWIMPS",
+      "group_artist": "RADWIMPS",
+      "artists": [
+        "RADWIMPS"
+      ],
+      "album": "人間開花",
+      "duration_seconds": 351,
+      "song_id": 109000607,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0014TcJX0M2nNU",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0014TcJX0M2nNU",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/週刊少年ジャンプ - RADWIMPS.mp3"
+    },
+    {
+      "track_id": "qq:002qerLO2l6w7n",
+      "title": "正解",
+      "full_singer": "RADWIMPS",
+      "group_artist": "RADWIMPS",
+      "artists": [
+        "RADWIMPS"
+      ],
+      "album": "ANTI ANTI GENERATION",
+      "duration_seconds": 357,
+      "song_id": 222972324,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002qerLO2l6w7n",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "002qerLO2l6w7n",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/正解 - RADWIMPS.mp3"
+    },
+    {
+      "track_id": "qq:002ERJ8K3jICFN",
+      "title": "me me she",
+      "full_singer": "RADWIMPS",
+      "group_artist": "RADWIMPS",
+      "artists": [
+        "RADWIMPS"
+      ],
+      "album": "RADWIMPS 4 ～おかずのごはん～",
+      "duration_seconds": 281,
+      "song_id": 271536246,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002ERJ8K3jICFN",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002ERJ8K3jICFN",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/me me she - RADWIMPS.mp3"
+    },
+    {
+      "track_id": "qq:00374oyC1cx962",
+      "title": "そっけない",
+      "full_singer": "RADWIMPS",
+      "group_artist": "RADWIMPS",
+      "artists": [
+        "RADWIMPS"
+      ],
+      "album": "ANTI ANTI GENERATION",
+      "duration_seconds": 392,
+      "song_id": 222972313,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00374oyC1cx962",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "00374oyC1cx962",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/そっけない - RADWIMPS.mp3"
+    },
+    {
+      "track_id": "qq:000UKYHt184Acs",
+      "title": "いいんですか?",
+      "full_singer": "RADWIMPS",
+      "group_artist": "RADWIMPS",
+      "artists": [
+        "RADWIMPS"
+      ],
+      "album": "RADWIMPS 4 ～おかずのごはん～",
+      "duration_seconds": 248,
+      "song_id": 271536241,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000UKYHt184Acs",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000UKYHt184Acs",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/いいんですか_ - RADWIMPS.mp3"
+    },
+    {
+      "track_id": "qq:003cN4kC3hK8QC",
+      "title": "可一可再",
+      "full_singer": "陈奕迅, eason and the duo band",
+      "group_artist": "陈奕迅",
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "album": "L.O.V.E.",
+      "duration_seconds": 287,
+      "song_id": 215368718,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003cN4kC3hK8QC",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003cN4kC3hK8QC",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/可一可再 - 陈奕迅, eason and the duo band.mp3"
+    },
+    {
+      "track_id": "qq:003trXaC48bskK",
+      "title": "疯狂的朋友",
+      "full_singer": "陈奕迅, eason and the duo band",
+      "group_artist": "陈奕迅",
+      "artists": [
+        "陈奕迅",
+        "eason and the duo band"
+      ],
+      "album": "L.O.V.E.",
+      "duration_seconds": 236,
+      "song_id": 220050740,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003trXaC48bskK",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003trXaC48bskK",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/疯狂的朋友 - 陈奕迅, eason and the duo band.mp3"
+    },
+    {
+      "track_id": "qq:000jDQWP4JiB3y",
+      "title": "娱乐天空",
+      "full_singer": "陈奕迅",
+      "group_artist": "陈奕迅",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "rice & shine",
+      "duration_seconds": 363,
+      "song_id": 5205770,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000jDQWP4JiB3y",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000jDQWP4JiB3y",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/娱乐天空 - 陈奕迅.mp3"
+    },
+    {
+      "track_id": "qq:00230iSl1e4dVG",
+      "title": "积木",
+      "full_singer": "陈奕迅",
+      "group_artist": "陈奕迅",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "?",
+      "duration_seconds": 257,
+      "song_id": 1023386,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00230iSl1e4dVG",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "00230iSl1e4dVG",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/积木 - 陈奕迅.mp3"
+    },
+    {
+      "track_id": "qq:000bsqVZ2rdpuk",
+      "title": "吟游诗人",
+      "full_singer": "陈奕迅",
+      "group_artist": "陈奕迅",
+      "artists": [
+        "陈奕迅"
+      ],
+      "album": "?",
+      "duration_seconds": 286,
+      "song_id": 1025918,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000bsqVZ2rdpuk",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000bsqVZ2rdpuk",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/吟游诗人 - 陈奕迅.mp3"
+    },
+    {
+      "track_id": "qq:000LMNG21Zhnru",
+      "title": "Lily feat. Rachel",
+      "full_singer": "铃木真海子",
+      "group_artist": "铃木真海子",
+      "artists": [
+        "铃木真海子"
+      ],
+      "album": "Deep Green",
+      "duration_seconds": 147,
+      "song_id": 236184095,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000LMNG21Zhnru",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000LMNG21Zhnru",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Lily feat. Rachel - 铃木真海子.mp3"
+    },
+    {
+      "track_id": "qq:0013b8pW1azVXM",
+      "title": "TIME IS OVER",
+      "full_singer": "TOSHIKI HAYASHI (%C), BASI, 铃木真海子",
+      "group_artist": "TOSHIKI HAYASHI (%C)",
+      "artists": [
+        "TOSHIKI HAYASHI (%C)",
+        "BASI",
+        "铃木真海子"
+      ],
+      "album": "TIME IS OVER EP",
+      "duration_seconds": 267,
+      "song_id": 231571391,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0013b8pW1azVXM",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0013b8pW1azVXM",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/TIME IS OVER - TOSHIKI HAYASHI (%C), BASI, 铃木真海子.mp3"
+    },
+    {
+      "track_id": "qq:002B8b1G0ZWbjQ",
+      "title": "tokyo (feat. suzuki mamiko, Skaai)",
+      "full_singer": "yonawo, Skaai, 铃木真海子",
+      "group_artist": "yonawo",
+      "artists": [
+        "yonawo",
+        "Skaai",
+        "铃木真海子"
+      ],
+      "album": "tokyo (feat. suzuki mamiko, Skaai)",
+      "duration_seconds": 303,
+      "song_id": 368557591,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002B8b1G0ZWbjQ",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002B8b1G0ZWbjQ",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/tokyo (feat. suzuki mamiko, Skaai) - yonawo, Skaai, 铃木真海子.mp3"
+    },
+    {
+      "track_id": "qq:003zDUIn0e5cNT",
+      "title": "じゃむ(feat. iri)",
+      "full_singer": "铃木真海子, iri",
+      "group_artist": "铃木真海子",
+      "artists": [
+        "铃木真海子",
+        "iri"
+      ],
+      "album": "ms",
+      "duration_seconds": 290,
+      "song_id": 316355682,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003zDUIn0e5cNT",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003zDUIn0e5cNT",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/じゃむ(feat. iri) - 铃木真海子, iri.mp3"
+    },
+    {
+      "track_id": "qq:0019bDbh1WcWs5",
+      "title": "Contact (Toshiki Hayashi (%C) Remix)",
+      "full_singer": "铃木真海子",
+      "group_artist": "铃木真海子",
+      "artists": [
+        "铃木真海子"
+      ],
+      "album": "Deep Green",
+      "duration_seconds": 173,
+      "song_id": 236184098,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0019bDbh1WcWs5",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0019bDbh1WcWs5",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Contact (Toshiki Hayashi (%C) Remix) - 铃木真海子.mp3"
+    },
+    {
+      "track_id": "qq:0008vHqS43vS08",
+      "title": "月光",
+      "full_singer": "浅堤, Samjoo",
+      "group_artist": "浅堤",
+      "artists": [
+        "浅堤",
+        "Samjoo"
+      ],
+      "album": "不完整的村庄",
+      "duration_seconds": 185,
+      "song_id": 268021481,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0008vHqS43vS08",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0008vHqS43vS08",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/月光 - 浅堤, Samjoo.mp3"
+    },
+    {
+      "track_id": "qq:0031PPPX2OTino",
+      "title": "我变了",
+      "full_singer": "浅堤",
+      "group_artist": "浅堤",
+      "artists": [
+        "浅堤"
+      ],
+      "album": "好不容易我变了",
+      "duration_seconds": 146,
+      "song_id": 501201255,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0031PPPX2OTino",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0031PPPX2OTino",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/我变了 - 浅堤.mp3"
+    },
+    {
+      "track_id": "qq:0037W3UE3f9w3y",
+      "title": "好不容易",
+      "full_singer": "浅堤",
+      "group_artist": "浅堤",
+      "artists": [
+        "浅堤"
+      ],
+      "album": "好不容易我变了",
+      "duration_seconds": 241,
+      "song_id": 501201313,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0037W3UE3f9w3y",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0037W3UE3f9w3y",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/好不容易 - 浅堤.mp3"
+    },
+    {
+      "track_id": "qq:003YQybB2dZ4Mz",
+      "title": "恒春花絮",
+      "full_singer": "浅堤",
+      "group_artist": "浅堤",
+      "artists": [
+        "浅堤"
+      ],
+      "album": "婚礼之途",
+      "duration_seconds": 213,
+      "song_id": 332317019,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003YQybB2dZ4Mz",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003YQybB2dZ4Mz",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/恒春花絮 - 浅堤.mp3"
+    },
+    {
+      "track_id": "qq:000c6CTs30ecVY",
+      "title": "礼物",
+      "full_singer": "浅堤, HUSH",
+      "group_artist": "浅堤",
+      "artists": [
+        "浅堤",
+        "HUSH"
+      ],
+      "album": "婚礼之途",
+      "duration_seconds": 309,
+      "song_id": 332317133,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000c6CTs30ecVY",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000c6CTs30ecVY",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/礼物 - 浅堤, HUSH.mp3"
+    },
+    {
+      "track_id": "qq:004IYjrI1S3U8r",
+      "title": "ガーデン",
+      "full_singer": "藤井风",
+      "group_artist": "藤井风",
+      "artists": [
+        "藤井风"
+      ],
+      "album": "LOVE ALL SERVE ALL",
+      "duration_seconds": 229,
+      "song_id": 348020627,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004IYjrI1S3U8r",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "004IYjrI1S3U8r",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/ガーデン - 藤井风.mp3"
+    },
+    {
+      "track_id": "qq:004PNj7W3P4nX3",
+      "title": "Close to you",
+      "full_singer": "藤井风",
+      "group_artist": "藤井风",
+      "artists": [
+        "藤井风"
+      ],
+      "album": "何なんw EP",
+      "duration_seconds": 218,
+      "song_id": 252214962,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004PNj7W3P4nX3",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "004PNj7W3P4nX3",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Close to you - 藤井风.mp3"
+    },
+    {
+      "track_id": "qq:002mdBXj3BYeJz",
+      "title": "花",
+      "full_singer": "藤井风",
+      "group_artist": "藤井风",
+      "artists": [
+        "藤井风"
+      ],
+      "album": "花",
+      "duration_seconds": 246,
+      "song_id": 442856835,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002mdBXj3BYeJz",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002mdBXj3BYeJz",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/花 - 藤井风.mp3"
+    },
+    {
+      "track_id": "qq:0049JqVu3Fvmpj",
+      "title": "Sunny",
+      "full_singer": "藤井风",
+      "group_artist": "藤井风",
+      "artists": [
+        "藤井风"
+      ],
+      "album": "へでもねーよ EP",
+      "duration_seconds": 188,
+      "song_id": 287806766,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0049JqVu3Fvmpj",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0049JqVu3Fvmpj",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Sunny - 藤井风.mp3"
+    },
+    {
+      "track_id": "qq:002JSp8536Ra4c",
+      "title": "Just the Two of Us",
+      "full_singer": "藤井风",
+      "group_artist": "藤井风",
+      "artists": [
+        "藤井风"
+      ],
+      "album": "へでもねーよ EP",
+      "duration_seconds": 215,
+      "song_id": 287806768,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002JSp8536Ra4c",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002JSp8536Ra4c",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Just the Two of Us - 藤井风.mp3"
+    },
+    {
+      "track_id": "qq:0014diHF1G0DBX",
+      "title": "问题",
+      "full_singer": "许钧",
+      "group_artist": "许钧",
+      "artists": [
+        "许钧"
+      ],
+      "album": "美梦公司",
+      "duration_seconds": 330,
+      "song_id": 328833366,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0014diHF1G0DBX",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0014diHF1G0DBX",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/问题 - 许钧.mp3"
+    },
+    {
+      "track_id": "qq:002fEQJL0N0Kbj",
+      "title": "如果太阳落下",
+      "full_singer": "许钧",
+      "group_artist": "许钧",
+      "artists": [
+        "许钧"
+      ],
+      "album": "美梦公司",
+      "duration_seconds": 215,
+      "song_id": 328833287,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002fEQJL0N0Kbj",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "002fEQJL0N0Kbj",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/如果太阳落下 - 许钧.mp3"
+    },
+    {
+      "track_id": "qq:001n0ZGX1DFuoB",
+      "title": "不再 feat. 许钧",
+      "full_singer": "杨乃文, 许钧",
+      "group_artist": "杨乃文",
+      "artists": [
+        "杨乃文",
+        "许钧"
+      ],
+      "album": "越美丽越看不见",
+      "duration_seconds": 360,
+      "song_id": 244929859,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001n0ZGX1DFuoB",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001n0ZGX1DFuoB",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/不再 feat. 许钧 - 杨乃文, 许钧.mp3"
+    },
+    {
+      "track_id": "qq:002MHVtb1rNWgi",
+      "title": "只有一个办法",
+      "full_singer": "许钧",
+      "group_artist": "许钧",
+      "artists": [
+        "许钧"
+      ],
+      "album": "美梦公司",
+      "duration_seconds": 80,
+      "song_id": 328833235,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002MHVtb1rNWgi",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002MHVtb1rNWgi",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/只有一个办法 - 许钧.mp3"
+    },
+    {
+      "track_id": "qq:004Nt4rq0splVF",
+      "title": "29",
+      "full_singer": "许钧",
+      "group_artist": "许钧",
+      "artists": [
+        "许钧"
+      ],
+      "album": "29",
+      "duration_seconds": 377,
+      "song_id": 202904209,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004Nt4rq0splVF",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004Nt4rq0splVF",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/29 - 许钧.mp3"
+    },
+    {
+      "track_id": "qq:001eGjo12otIm5",
+      "title": "殺し屋危機一髪",
+      "full_singer": "椎名林檎",
+      "group_artist": "椎名林檎",
+      "artists": [
+        "椎名林檎"
+      ],
+      "album": "浮き名",
+      "duration_seconds": 153,
+      "song_id": 5072886,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001eGjo12otIm5",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "001eGjo12otIm5",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/殺し屋危機一髪 - 椎名林檎.mp3"
+    },
+    {
+      "track_id": "qq:001D0nTV2iBIj5",
+      "title": "紅海月の夜",
+      "full_singer": "椎名林檎",
+      "group_artist": "椎名林檎",
+      "artists": [
+        "椎名林檎"
+      ],
+      "album": "人間として",
+      "duration_seconds": 189,
+      "song_id": 484102210,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001D0nTV2iBIj5",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "001D0nTV2iBIj5",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/紅海月の夜 - 椎名林檎.mp3"
+    },
+    {
+      "track_id": "qq:0006UqLs2sXHBg",
+      "title": "i wanna be loved by you",
+      "full_singer": "椎名林檎",
+      "group_artist": "椎名林檎",
+      "artists": [
+        "椎名林檎"
+      ],
+      "album": "唄ひ手冥利 ～其ノ壱～",
+      "duration_seconds": 104,
+      "song_id": 221379264,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0006UqLs2sXHBg",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0006UqLs2sXHBg",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/i wanna be loved by you - 椎名林檎.mp3"
+    },
+    {
+      "track_id": "qq:003ZBkM84EUFqx",
+      "title": "IT WAS YOU",
+      "full_singer": "椎名林檎",
+      "group_artist": "椎名林檎",
+      "artists": [
+        "椎名林檎"
+      ],
+      "album": "浮き名",
+      "duration_seconds": 233,
+      "song_id": 5072893,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003ZBkM84EUFqx",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003ZBkM84EUFqx",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/IT WAS YOU - 椎名林檎.mp3"
+    },
+    {
+      "track_id": "qq:000xLw2D0E5Xjm",
+      "title": "丸ノ内サディスティック",
+      "full_singer": "椎名林檎",
+      "group_artist": "椎名林檎",
+      "artists": [
+        "椎名林檎"
+      ],
+      "album": "無罪モラトリアム",
+      "duration_seconds": 235,
+      "song_id": 4902613,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000xLw2D0E5Xjm",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000xLw2D0E5Xjm",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/丸ノ内サディスティック [無罪モラトリアム] - 椎名林檎.mp3"
+    },
+    {
+      "track_id": "qq:002dUbjB2ZqY96",
+      "title": "Daydreamer",
+      "full_singer": "Adele",
+      "group_artist": "Adele",
+      "artists": [
+        "Adele"
+      ],
+      "album": "19 (Explicit)",
+      "duration_seconds": 220,
+      "song_id": 108487790,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002dUbjB2ZqY96",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "002dUbjB2ZqY96",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Daydreamer - Adele.mp3"
+    },
+    {
+      "track_id": "qq:003jmQh20aRW8r",
+      "title": "Love In The Dark",
+      "full_singer": "Adele",
+      "group_artist": "Adele",
+      "artists": [
+        "Adele"
+      ],
+      "album": "25",
+      "duration_seconds": 285,
+      "song_id": 105345636,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003jmQh20aRW8r",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003jmQh20aRW8r",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Love In The Dark - Adele.mp3"
+    },
+    {
+      "track_id": "qq:003uzHJL1QO0cH",
+      "title": "Right As Rain",
+      "full_singer": "Adele",
+      "group_artist": "Adele",
+      "artists": [
+        "Adele"
+      ],
+      "album": "19 (Explicit)",
+      "duration_seconds": 197,
+      "song_id": 108487797,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003uzHJL1QO0cH",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003uzHJL1QO0cH",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Right As Rain - Adele.mp3"
+    },
+    {
+      "track_id": "qq:001eDYE44L0Mvn",
+      "title": "I Drink Wine",
+      "full_singer": "Adele",
+      "group_artist": "Adele",
+      "artists": [
+        "Adele"
+      ],
+      "album": "30",
+      "duration_seconds": 376,
+      "song_id": 331731107,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001eDYE44L0Mvn",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001eDYE44L0Mvn",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/I Drink Wine - Adele.mp3"
+    },
+    {
+      "track_id": "qq:0012O1JW32BMUj",
+      "title": "All I Ask",
+      "full_singer": "Adele",
+      "group_artist": "Adele",
+      "artists": [
+        "Adele"
+      ],
+      "album": "25",
+      "duration_seconds": 271,
+      "song_id": 105345628,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0012O1JW32BMUj",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0012O1JW32BMUj",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/All I Ask - Adele.mp3"
+    },
+    {
+      "track_id": "qq:000n3MUQ2H4e4L",
+      "title": "AWARDS SEASON",
+      "full_singer": "Bon Iver",
+      "group_artist": "Bon Iver",
+      "artists": [
+        "Bon Iver"
+      ],
+      "album": "SABLE,",
+      "duration_seconds": 316,
+      "song_id": 527697383,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000n3MUQ2H4e4L",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000n3MUQ2H4e4L",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/AWARDS SEASON - Bon Iver.mp3"
+    },
+    {
+      "track_id": "qq:002iMCar2KMyAe",
+      "title": "Everything Is Peaceful Love",
+      "full_singer": "Bon Iver",
+      "group_artist": "Bon Iver",
+      "artists": [
+        "Bon Iver"
+      ],
+      "album": "SABLE, fABLE (Explicit)",
+      "duration_seconds": 210,
+      "song_id": 573407775,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002iMCar2KMyAe",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002iMCar2KMyAe",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Everything Is Peaceful Love - Bon Iver.mp3"
+    },
+    {
+      "track_id": "qq:001n2G2V1XrrwZ",
+      "title": "33 \"GOD\"",
+      "full_singer": "Bon Iver",
+      "group_artist": "Bon Iver",
+      "artists": [
+        "Bon Iver"
+      ],
+      "album": "22, A Million",
+      "duration_seconds": 213,
+      "song_id": 108340043,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001n2G2V1XrrwZ",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001n2G2V1XrrwZ",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/33 _GOD_ - Bon Iver.mp3"
+    },
+    {
+      "track_id": "qq:000sNlEo1mhR6a",
+      "title": "Holocene",
+      "full_singer": "Bon Iver",
+      "group_artist": "Bon Iver",
+      "artists": [
+        "Bon Iver"
+      ],
+      "album": "Holocene",
+      "duration_seconds": 337,
+      "song_id": 958545,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000sNlEo1mhR6a",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000sNlEo1mhR6a",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Holocene - Bon Iver.mp3"
+    },
+    {
+      "track_id": "qq:001dxYiJ0AA0Na",
+      "title": "iMi",
+      "full_singer": "Bon Iver",
+      "group_artist": "Bon Iver",
+      "artists": [
+        "Bon Iver"
+      ],
+      "album": "i,i",
+      "duration_seconds": 196,
+      "song_id": 234467739,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001dxYiJ0AA0Na",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001dxYiJ0AA0Na",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/iMi - Bon Iver.mp3"
+    },
+    {
+      "track_id": "qq:0003PBrR2QwQEs",
+      "title": "The Most Beautiful Thing",
+      "full_singer": "Bruno Major, Finneas O’Connell",
+      "group_artist": "Bruno Major",
+      "artists": [
+        "Bruno Major",
+        "Finneas O’Connell"
+      ],
+      "album": "The Most Beautiful Thing",
+      "duration_seconds": 235,
+      "song_id": 256951163,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0003PBrR2QwQEs",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0003PBrR2QwQEs",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/The Most Beautiful Thing - Bruno Major, Finneas O’Connell.mp3"
+    },
+    {
+      "track_id": "qq:002A8lVn1DkTj8",
+      "title": "Regent's Park",
+      "full_singer": "Bruno Major",
+      "group_artist": "Bruno Major",
+      "artists": [
+        "Bruno Major"
+      ],
+      "album": "To Let A Good Thing Die",
+      "duration_seconds": 177,
+      "song_id": 260339886,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002A8lVn1DkTj8",
+      "source_playlists": [
+        "咖啡厅",
+        "可以放"
+      ],
+      "original_song_mid": "002A8lVn1DkTj8",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Regent's Park - Bruno Major.mp3"
+    },
+    {
+      "track_id": "qq:002UPJ6h4R4CZu",
+      "title": "Nothing",
+      "full_singer": "Bruno Major, Raelee Nikole",
+      "group_artist": "Bruno Major",
+      "artists": [
+        "Bruno Major",
+        "Raelee Nikole"
+      ],
+      "album": "Nothing",
+      "duration_seconds": 162,
+      "song_id": 244411463,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002UPJ6h4R4CZu",
+      "source_playlists": [
+        "咖啡厅",
+        "可以放"
+      ],
+      "original_song_mid": "002UPJ6h4R4CZu",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Nothing - Bruno Major, Raelee Nikole.mp3"
+    },
+    {
+      "track_id": "qq:0042dlZn0Bfu1m",
+      "title": "Just The Same",
+      "full_singer": "Bruno Major",
+      "group_artist": "Bruno Major",
+      "artists": [
+        "Bruno Major"
+      ],
+      "album": "Just The Same",
+      "duration_seconds": 205,
+      "song_id": 245717561,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0042dlZn0Bfu1m",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0042dlZn0Bfu1m",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Just The Same - Bruno Major.mp3"
+    },
+    {
+      "track_id": "qq:004YieBS0k9t2k",
+      "title": "Fair-Weather Friend",
+      "full_singer": "Bruno Major, Daniel Neil McDougall",
+      "group_artist": "Bruno Major",
+      "artists": [
+        "Bruno Major",
+        "Daniel Neil McDougall"
+      ],
+      "album": "Fair-Weather Friend",
+      "duration_seconds": 186,
+      "song_id": 244599062,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004YieBS0k9t2k",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004YieBS0k9t2k",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Fair-Weather Friend - Bruno Major, Daniel Neil McDougall.mp3"
+    },
+    {
+      "track_id": "qq:003j9c1S33TtSQ",
+      "title": "it is over",
+      "full_singer": "clairo",
+      "group_artist": "Clairo",
+      "artists": [
+        "clairo"
+      ],
+      "album": "moth girl",
+      "duration_seconds": 147,
+      "song_id": 230513371,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003j9c1S33TtSQ",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003j9c1S33TtSQ",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/it is over - clairo.mp3"
+    },
+    {
+      "track_id": "qq:004KtQl42rhCIp",
+      "title": "Add Up My Love",
+      "full_singer": "Clairo",
+      "group_artist": "Clairo",
+      "artists": [
+        "Clairo"
+      ],
+      "album": "Charm",
+      "duration_seconds": 205,
+      "song_id": 484822577,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004KtQl42rhCIp",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004KtQl42rhCIp",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Add Up My Love - Clairo.mp3"
+    },
+    {
+      "track_id": "qq:001ZqSJn2bEQE1",
+      "title": "Bags",
+      "full_singer": "Clairo",
+      "group_artist": "Clairo",
+      "artists": [
+        "Clairo"
+      ],
+      "album": "Immunity (Explicit)",
+      "duration_seconds": 260,
+      "song_id": 235259742,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001ZqSJn2bEQE1",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001ZqSJn2bEQE1",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Bags - Clairo.mp3"
+    },
+    {
+      "track_id": "qq:004EgD1V2YL8NH",
+      "title": "Just For Today",
+      "full_singer": "Clairo",
+      "group_artist": "Clairo",
+      "artists": [
+        "Clairo"
+      ],
+      "album": "Sling",
+      "duration_seconds": 217,
+      "song_id": 317317142,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004EgD1V2YL8NH",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004EgD1V2YL8NH",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Just For Today - Clairo.mp3"
+    },
+    {
+      "track_id": "qq:000aLAYq1recqd",
+      "title": "how did I ever",
+      "full_singer": "Clairo",
+      "group_artist": "Clairo",
+      "artists": [
+        "Clairo"
+      ],
+      "album": "how did I ever",
+      "duration_seconds": 132,
+      "song_id": 266705258,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000aLAYq1recqd",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000aLAYq1recqd",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/how did I ever - Clairo.mp3"
+    },
+    {
+      "track_id": "qq:003bXZG822iJCK",
+      "title": "这世界没有你想象的苦涩",
+      "full_singer": "Crispy脆乐团",
+      "group_artist": "Crispy脆乐团",
+      "artists": [
+        "Crispy脆乐团"
+      ],
+      "album": "玩伴",
+      "duration_seconds": 167,
+      "song_id": 102816673,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003bXZG822iJCK",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003bXZG822iJCK",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/这世界没有你想象的苦涩 - Crispy脆乐团.mp3"
+    },
+    {
+      "track_id": "qq:00171PXo3XW2LF",
+      "title": "装帧",
+      "full_singer": "Crispy脆乐团",
+      "group_artist": "Crispy脆乐团",
+      "artists": [
+        "Crispy脆乐团"
+      ],
+      "album": "装帧",
+      "duration_seconds": 245,
+      "song_id": 260829905,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/00171PXo3XW2LF",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "00171PXo3XW2LF",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/装帧 - Crispy脆乐团.mp3"
+    },
+    {
+      "track_id": "qq:000Hwr423EClSO",
+      "title": "转圈圈",
+      "full_singer": "Crispy脆乐团",
+      "group_artist": "Crispy脆乐团",
+      "artists": [
+        "Crispy脆乐团"
+      ],
+      "album": "有多少光就有多少黑",
+      "duration_seconds": 249,
+      "song_id": 236682626,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Hwr423EClSO",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000Hwr423EClSO",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/转圈圈 - Crispy脆乐团.mp3"
+    },
+    {
+      "track_id": "qq:000w8o1G0n3x8D",
+      "title": "宇宙的角落",
+      "full_singer": "Crispy脆乐团",
+      "group_artist": "Crispy脆乐团",
+      "artists": [
+        "Crispy脆乐团"
+      ],
+      "album": "有多少光就有多少黑",
+      "duration_seconds": 235,
+      "song_id": 236682630,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000w8o1G0n3x8D",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000w8o1G0n3x8D",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/宇宙的角落 - Crispy脆乐团.mp3"
+    },
+    {
+      "track_id": "qq:001Mo03q0dOpCD",
+      "title": "过曝",
+      "full_singer": "Crispy脆乐团",
+      "group_artist": "Crispy脆乐团",
+      "artists": [
+        "Crispy脆乐团"
+      ],
+      "album": "过曝",
+      "duration_seconds": 230,
+      "song_id": 213469499,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Mo03q0dOpCD",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001Mo03q0dOpCD",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/过曝 - Crispy脆乐团.mp3"
+    },
+    {
+      "track_id": "qq:001NB9zC4KiuXe",
+      "title": "Pendant",
+      "full_singer": "Cuco",
+      "group_artist": "Cuco",
+      "artists": [
+        "Cuco"
+      ],
+      "album": "Pendant",
+      "duration_seconds": 235,
+      "song_id": 387793074,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001NB9zC4KiuXe",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "001NB9zC4KiuXe",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Pendant - Cuco.mp3"
+    },
+    {
+      "track_id": "qq:003jo3nT2OxiaH",
+      "title": "Do Better",
+      "full_singer": "Cuco",
+      "group_artist": "Cuco",
+      "artists": [
+        "Cuco"
+      ],
+      "album": "Para Mi (Explicit)",
+      "duration_seconds": 211,
+      "song_id": 234979964,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003jo3nT2OxiaH",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003jo3nT2OxiaH",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Do Better - Cuco.mp3"
+    },
+    {
+      "track_id": "qq:003ynfi94MNd4t",
+      "title": "COuGhDrOPs (,,Ծ‸Ծ,, )",
+      "full_singer": "1999 WRITE THE FUTURE, Cuco, Warren Hue, 88rising",
+      "group_artist": "1999 WRITE THE FUTURE",
+      "artists": [
+        "1999 WRITE THE FUTURE",
+        "Cuco",
+        "Warren Hue",
+        "88rising"
+      ],
+      "album": "hella (˃̣̣̥╭╮˂̣̣̥) ✧ ♡ ‧º·˚",
+      "duration_seconds": 206,
+      "song_id": 469408497,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003ynfi94MNd4t",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003ynfi94MNd4t",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/COuGhDrOPs (,,Ծ‸Ծ,, ) - 1999 WRITE THE FUTURE, Cuco, Warren Hue, 88rising.mp3"
+    },
+    {
+      "track_id": "qq:000VIQsR1lXb5A",
+      "title": "Bossa No Sé",
+      "full_singer": "Cuco, Jean Carter",
+      "group_artist": "Cuco",
+      "artists": [
+        "Cuco",
+        "Jean Carter"
+      ],
+      "album": "Para Mi (Explicit)",
+      "duration_seconds": 201,
+      "song_id": 234979970,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000VIQsR1lXb5A",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004a1aRp0WI3rt",
+      "version_replacement": {
+        "originalSongMid": "004a1aRp0WI3rt",
+        "originalAlbum": "Bossa No Sé (Explicit)",
+        "actualSongMid": "000VIQsR1lXb5A",
+        "actualAlbum": "Para Mi (Explicit)",
+        "authorizedAt": "2026-10-13",
+        "authorization": "改录 Para Mi 专辑版（推荐）",
+        "sourceSkill": "/Users/kaluozheng/Zhengkaluo‘s Skills/qq-music/scripts/qq_music.py",
+        "selected": {
+          "name": "Bossa No Sé",
+          "artists": [
+            "Cuco",
+            "Jean Carter"
+          ],
+          "album": "Para Mi (Explicit)",
+          "album_mid": "004G6JoE3cJ5gk",
+          "duration_seconds": 201,
+          "song_id": 234979970,
+          "song_mid": "000VIQsR1lXb5A",
+          "song_type": 1,
+          "url": "https://y.qq.com/n/ryqq/songDetail/000VIQsR1lXb5A",
+          "confidence": 95
+        }
+      },
+      "action": "added",
+      "destination_relative_path": "SongResources/Bossa No Sé - Cuco, Jean Carter.mp3"
+    },
+    {
+      "track_id": "qq:000Ccgnp1RNtvv",
+      "title": "Melting",
+      "full_singer": "Cuco",
+      "group_artist": "Cuco",
+      "artists": [
+        "Cuco"
+      ],
+      "album": "Melting",
+      "duration_seconds": 208,
+      "song_id": 215359608,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000Ccgnp1RNtvv",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "000Ccgnp1RNtvv",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Melting - Cuco.mp3"
+    },
+    {
+      "track_id": "qq:003bpVPA2Rp69Q",
+      "title": "iFeel",
+      "full_singer": "((( O ))), FKJ",
+      "group_artist": "((( O )))",
+      "artists": [
+        "((( O )))",
+        "FKJ"
+      ],
+      "album": "iFeel",
+      "duration_seconds": 269,
+      "song_id": 274236706,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003bpVPA2Rp69Q",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003bpVPA2Rp69Q",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/iFeel - ((( O ))), FKJ.mp3"
+    },
+    {
+      "track_id": "qq:000RE1ae3YbIR2",
+      "title": "Way Out",
+      "full_singer": "FKJ",
+      "group_artist": "FKJ",
+      "artists": [
+        "FKJ"
+      ],
+      "album": "Way Out",
+      "duration_seconds": 200,
+      "song_id": 350295624,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000RE1ae3YbIR2",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "000RE1ae3YbIR2",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Way Out - FKJ.mp3"
+    },
+    {
+      "track_id": "qq:002T9Y7w0WNlJS",
+      "title": "Waiting",
+      "full_singer": "FKJ, Madelyn Grant",
+      "group_artist": "FKJ",
+      "artists": [
+        "FKJ",
+        "Madelyn Grant"
+      ],
+      "album": "Take Off",
+      "duration_seconds": 262,
+      "song_id": 105631311,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002T9Y7w0WNlJS",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002T9Y7w0WNlJS",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Waiting - FKJ, Madelyn Grant.mp3"
+    },
+    {
+      "track_id": "qq:004gB41N4AcFak",
+      "title": "Tadow",
+      "full_singer": "FKJ",
+      "group_artist": "FKJ",
+      "artists": [
+        "FKJ"
+      ],
+      "album": "Jazzy Chill: Sweet Jazzy Infused Tunes to Chill Out",
+      "duration_seconds": 300,
+      "song_id": 264598236,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004gB41N4AcFak",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004gB41N4AcFak",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Tadow - FKJ.mp3"
+    },
+    {
+      "track_id": "qq:003baKUZ3jVHFK",
+      "title": "Lying Together",
+      "full_singer": "FKJ",
+      "group_artist": "FKJ",
+      "artists": [
+        "FKJ"
+      ],
+      "album": "French Kiwi Juice",
+      "duration_seconds": 268,
+      "song_id": 200916207,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003baKUZ3jVHFK",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003baKUZ3jVHFK",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Lying Together - FKJ.mp3"
+    },
+    {
+      "track_id": "qq:003jRme62vImyv",
+      "title": "Blank Space/Stand By Me",
+      "full_singer": "Imagine Dragons",
+      "group_artist": "Imagine Dragons",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "album": "Best Covers Ever (Explicit)",
+      "duration_seconds": 303,
+      "song_id": 255285274,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003jRme62vImyv",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003jRme62vImyv",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Blank Space_Stand By Me - Imagine Dragons.mp3"
+    },
+    {
+      "track_id": "qq:0020ndPY24CcOP",
+      "title": "Thunder",
+      "full_singer": "Imagine Dragons",
+      "group_artist": "Imagine Dragons",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "album": "Evolve",
+      "duration_seconds": 187,
+      "song_id": 202210552,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0020ndPY24CcOP",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "0020ndPY24CcOP",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Thunder - Imagine Dragons.mp3"
+    },
+    {
+      "track_id": "qq:004SfX0s1cROYY",
+      "title": "Waves",
+      "full_singer": "Imagine Dragons",
+      "group_artist": "Imagine Dragons",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "album": "Mercury - Acts 1 & 2",
+      "duration_seconds": 225,
+      "song_id": 361819516,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004SfX0s1cROYY",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "004SfX0s1cROYY",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Waves - Imagine Dragons.mp3"
+    },
+    {
+      "track_id": "qq:001Lrscs3PTJWJ",
+      "title": "Easy Come Easy Go",
+      "full_singer": "Imagine Dragons",
+      "group_artist": "Imagine Dragons",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "album": "Mercury - Act 1",
+      "duration_seconds": 179,
+      "song_id": 322330695,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Lrscs3PTJWJ",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001Lrscs3PTJWJ",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Easy Come Easy Go - Imagine Dragons.mp3"
+    },
+    {
+      "track_id": "qq:003PW3GE2Bqm8d",
+      "title": "Symphony",
+      "full_singer": "Imagine Dragons",
+      "group_artist": "Imagine Dragons",
+      "artists": [
+        "Imagine Dragons"
+      ],
+      "album": "Mercury - Acts 1 & 2",
+      "duration_seconds": 175,
+      "song_id": 361819511,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003PW3GE2Bqm8d",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003PW3GE2Bqm8d",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Symphony - Imagine Dragons.mp3"
+    },
+    {
+      "track_id": "qq:001AGdoa1GVFVC",
+      "title": "You Can Do It",
+      "full_singer": "Johnny Stimson",
+      "group_artist": "Johnny Stimson",
+      "artists": [
+        "Johnny Stimson"
+      ],
+      "album": "You Can Do It",
+      "duration_seconds": 187,
+      "song_id": 440883515,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001AGdoa1GVFVC",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001AGdoa1GVFVC",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/You Can Do It - Johnny Stimson.mp3"
+    },
+    {
+      "track_id": "qq:0019Lb1m44iEIR",
+      "title": "Flower",
+      "full_singer": "Johnny Stimson",
+      "group_artist": "Johnny Stimson",
+      "artists": [
+        "Johnny Stimson"
+      ],
+      "album": "Flower",
+      "duration_seconds": 173,
+      "song_id": 244097331,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/0019Lb1m44iEIR",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "0019Lb1m44iEIR",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Flower - Johnny Stimson.mp3"
+    },
+    {
+      "track_id": "qq:001Fy4qv2KsHci",
+      "title": "Butterflies",
+      "full_singer": "Johnny Stimson",
+      "group_artist": "Johnny Stimson",
+      "artists": [
+        "Johnny Stimson"
+      ],
+      "album": "Butterflies",
+      "duration_seconds": 161,
+      "song_id": 288216359,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001Fy4qv2KsHci",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001Fy4qv2KsHci",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Butterflies - Johnny Stimson.mp3"
+    },
+    {
+      "track_id": "qq:001x7MLY0SKdfx",
+      "title": "Pink Lemonade",
+      "full_singer": "Johnny Stimson",
+      "group_artist": "Johnny Stimson",
+      "artists": [
+        "Johnny Stimson"
+      ],
+      "album": "Pink Lemonade",
+      "duration_seconds": 166,
+      "song_id": 273346643,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001x7MLY0SKdfx",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "001x7MLY0SKdfx",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Pink Lemonade - Johnny Stimson.mp3"
+    },
+    {
+      "track_id": "qq:003KTLrD0q77sy",
+      "title": "Zombies",
+      "full_singer": "Johnny Stimson",
+      "group_artist": "Johnny Stimson",
+      "artists": [
+        "Johnny Stimson"
+      ],
+      "album": "Zombies",
+      "duration_seconds": 124,
+      "song_id": 278650014,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003KTLrD0q77sy",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "003KTLrD0q77sy",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Zombies - Johnny Stimson.mp3"
+    },
+    {
+      "track_id": "qq:004dcJ7k0vNsLn",
+      "title": "Look What We've Become",
+      "full_singer": "Pajaro Sunrise",
+      "group_artist": "Pajaro Sunrise",
+      "artists": [
+        "Pajaro Sunrise"
+      ],
+      "album": "Old Goodbyes",
+      "duration_seconds": 174,
+      "song_id": 828669,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004dcJ7k0vNsLn",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "004dcJ7k0vNsLn",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Look What We've Become - Pajaro Sunrise.mp3"
+    },
+    {
+      "track_id": "qq:003TvkRJ0VVQqG",
+      "title": "A Dog Named Tan",
+      "full_singer": "Pajaro Sunrise",
+      "group_artist": "Pajaro Sunrise",
+      "artists": [
+        "Pajaro Sunrise"
+      ],
+      "album": "Pajaro Sunrise",
+      "duration_seconds": 254,
+      "song_id": 105769435,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003TvkRJ0VVQqG",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "003TvkRJ0VVQqG",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/A Dog Named Tan - Pajaro Sunrise.mp3"
+    },
+    {
+      "track_id": "qq:004gB7Jc2j8ytz",
+      "title": "Song for Evangeline",
+      "full_singer": "Pajaro Sunrise",
+      "group_artist": "Pajaro Sunrise",
+      "artists": [
+        "Pajaro Sunrise"
+      ],
+      "album": "Old Goodbyes",
+      "duration_seconds": 265,
+      "song_id": 828667,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004gB7Jc2j8ytz",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "004gB7Jc2j8ytz",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Song for Evangeline - Pajaro Sunrise.mp3"
+    },
+    {
+      "track_id": "qq:002wyXGE2QO741",
+      "title": "Romeo's Tune",
+      "full_singer": "Pajaro Sunrise",
+      "group_artist": "Pajaro Sunrise",
+      "artists": [
+        "Pajaro Sunrise"
+      ],
+      "album": "Pajaro Sunrise",
+      "duration_seconds": 195,
+      "song_id": 105769434,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002wyXGE2QO741",
+      "source_playlists": [
+        "咖啡厅"
+      ],
+      "original_song_mid": "002wyXGE2QO741",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/Romeo's Tune - Pajaro Sunrise.mp3"
+    },
+    {
+      "track_id": "qq:002TLRNZ3CrRSP",
+      "title": "I Don't Want to Love You No More",
+      "full_singer": "Pajaro Sunrise",
+      "group_artist": "Pajaro Sunrise",
+      "artists": [
+        "Pajaro Sunrise"
+      ],
+      "album": "Old Goodbyes",
+      "duration_seconds": 205,
+      "song_id": 828668,
+      "song_type": 1,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002TLRNZ3CrRSP",
+      "source_playlists": [
+        "可以放"
+      ],
+      "original_song_mid": "002TLRNZ3CrRSP",
+      "version_replacement": null,
+      "action": "added",
+      "destination_relative_path": "SongResources/I Don't Want to Love You No More - Pajaro Sunrise.mp3"
+    }
+  ]
+}
