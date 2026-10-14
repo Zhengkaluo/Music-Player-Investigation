@@ -1,0 +1,811 @@
+{
+  "schemaVersion": "flowset.wave7-catalog-merge-audit/v1",
+  "generatedAt": "2026-10-05T10:49:57.933915+00:00",
+  "sourceAnnotation": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本·第七波闭环补标100首-郑卡罗-2026-10-05.json",
+  "sourceAnnotationSha256": "bd335250e15be4ec66f9edc9e94fd67f4882a6ce7781672c7ebdb3636ef979e6",
+  "batchList": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/第七波测试清单.csv",
+  "batchListSha256": "ad0d65f5e3d4b934cc9cb50d9082759fab3be684f17f0778868cbfd61583b3ca",
+  "catalogTracks": 480,
+  "exportedTracks": 100,
+  "completedTracks": 98,
+  "qualifiedNewTracks": 93,
+  "mergedExistingTransitionCompleteTracks": 70,
+  "pendingNewTracksNeedingFullBidirectionalTransitions": 23,
+  "blindAnchorRepeats": 5,
+  "manualDiscardedBeforeLabeling": 2,
+  "merged": [
+    {
+      "trackId": "qq:004QUJic2NsHKk",
+      "filename": "4 Her - iwamizu.mp3",
+      "audioSha256": "623a3185c302f1506a0c940d392ea5c128945a76b423897c61dffafd4f0a1038",
+      "catalogTrackId": "track-0004"
+    },
+    {
+      "trackId": "qq:000vGyDL2h5IVl",
+      "filename": "A Calf Born In Winter - Khruangbin.mp3",
+      "audioSha256": "c23f26545ebb60b1afcdba0257b12862dc46b5575a54c325b9bf67c9acbe7746",
+      "catalogTrackId": "track-0007"
+    },
+    {
+      "trackId": "qq:001Yccb32sPw6J",
+      "filename": "a,s,a - fox capture plan.mp3",
+      "audioSha256": "c947226be971937ecb988436fd54ab7593c6dd83860ce68dbf28b46ed0e635f7",
+      "catalogTrackId": "track-0395"
+    },
+    {
+      "trackId": "qq:002zuwNj3JoRQk",
+      "filename": "Always - Daniel Caesar.mp3",
+      "audioSha256": "3655d68613a4245639b1014d8dd8895b6ad786a7a92217559b88433af1980c1c",
+      "catalogTrackId": "track-0017"
+    },
+    {
+      "trackId": "qq:002jBS8E2qmhSe",
+      "filename": "anemo - euphoria.mp3",
+      "audioSha256": "071890a995cc40eb7c6764df85f20fe2ef42c66a0436aff99f12acbd6cca0ba5",
+      "catalogTrackId": "track-0397"
+    },
+    {
+      "trackId": "qq:003WZxOr0nISl8",
+      "filename": "Apalachee - Goldmund.mp3",
+      "audioSha256": "ede4cd355bf0d9b1282809607981f56ff0e92927b95dff51cbe6319a7704e218",
+      "catalogTrackId": "track-0023"
+    },
+    {
+      "trackId": "qq:000k0wjJ18IyA5",
+      "filename": "April - 小濑村晶.mp3",
+      "audioSha256": "84e08fe2f4c3575c739a851f6c52db3aae0fe2eeddafe2a3e47eb9e759239d7a",
+      "catalogTrackId": "track-0025"
+    },
+    {
+      "trackId": "qq:004Wvz723OsKcX",
+      "filename": "Attune - Alfa Mist.mp3",
+      "audioSha256": "57e7115bfb3c73e503621b7b43b6c6dc4f718af97b02f79a020117033cbf2ded",
+      "catalogTrackId": "track-0030"
+    },
+    {
+      "trackId": "qq:0000AfxH4IPzsZ",
+      "filename": "Baby Boy - Choker.mp3",
+      "audioSha256": "b8d73ddf4349428e888b13821d4b927d3d55890fa3409c8f73078916aecaf956",
+      "catalogTrackId": "track-0032"
+    },
+    {
+      "trackId": "qq:000eyJQw2EJvvT",
+      "filename": "Baghon Main - AROOJ AFTAB.mp3",
+      "audioSha256": "a2d5166f34bd8f90eabd3835fa88b466ed3208c5e38b8ca81a867cb68c0cd339",
+      "catalogTrackId": "track-0035"
+    },
+    {
+      "trackId": "qq:003QeGk22mGMRh",
+      "filename": "Beauté - Jordan Critz.mp3",
+      "audioSha256": "327a07a8e3b1411539191d263b92986d790d7b910e247c6051d0678ad62a8219",
+      "catalogTrackId": "track-0037"
+    },
+    {
+      "trackId": "qq:004bgcGz2XKuuq",
+      "filename": "Before Dawn - Men I Trust.mp3",
+      "audioSha256": "8466e4c90b70c670326de70f06d856b42a446a382caf2c2706e46ffc11b22874",
+      "catalogTrackId": "track-0040"
+    },
+    {
+      "trackId": "qq:003IiDsd32QrAY",
+      "filename": "Between The Trees - 小濑村晶.mp3",
+      "audioSha256": "68bb762c331055e45b506124fea664d7a968a6e54c85a3b99e75f41a76d4f2e8",
+      "catalogTrackId": "track-0045"
+    },
+    {
+      "trackId": "qq:002rKFyw2sDUvo",
+      "filename": "Black Hole Era - Men I Trust.mp3",
+      "audioSha256": "0bd563d7a137e98e5a5255c6bbf42a3bd467ef090ad0c2fad2af369761fc306c",
+      "catalogTrackId": "track-0046"
+    },
+    {
+      "trackId": "qq:000HV69V2OKcLG",
+      "filename": "Book - Chon.mp3",
+      "audioSha256": "57b06f0f3082ce6b878a2353eed4011aed6cfe459f7546eca3714909f8573cd3",
+      "catalogTrackId": "track-0052"
+    },
+    {
+      "trackId": "qq:000YmZ4X3cIaIQ",
+      "filename": "Brian - Alfa Mist.mp3",
+      "audioSha256": "97bab0bb3bed2b2cfd53be2781e6484303fdcd3d055bb871f98ac93a139223e4",
+      "catalogTrackId": "track-0054"
+    },
+    {
+      "trackId": "qq:003A7wgv3CShSY",
+      "filename": "Burst - Kiasmos.mp3",
+      "audioSha256": "6152cff155973c559bfeb1ab9de0bc5da5532ed00300d44f3e7350dabd3974ed",
+      "catalogTrackId": "track-0056"
+    },
+    {
+      "trackId": "qq:002nspul0afXe2",
+      "filename": "Butterfly - Cleo Sol.mp3",
+      "audioSha256": "7bc71dedbd90be1db0e3504771ed52dd07c7bb4fa80ee9322f18a0384076db31",
+      "catalogTrackId": "track-0059"
+    },
+    {
+      "trackId": "qq:003m8N1q42ILKQ",
+      "filename": "Costa da Caparica - RIOPY.mp3",
+      "audioSha256": "19d06a3d87949befef484e2c48e54473f7fe785556a13b0930ffcbe36debe5f8",
+      "catalogTrackId": "track-0075"
+    },
+    {
+      "trackId": "qq:003t03791sFq4k",
+      "filename": "CREEK - Hiroshi Yoshimura.mp3",
+      "audioSha256": "1f9ffb93ecf732ea20add64aa97556c5c3913a175f6bf558c9307bcdbaa3beb8",
+      "catalogTrackId": "track-0060"
+    },
+    {
+      "trackId": "qq:003rqPD04BV0pS",
+      "filename": "crybaby - Kiefer.mp3",
+      "audioSha256": "d1e172cd9c3203e5088ca199a8287f6a88ab12e9e29935658f93413d23353e0d",
+      "catalogTrackId": "track-0401"
+    },
+    {
+      "trackId": "qq:0020lBfx0ge2sV",
+      "filename": "Days of Daze - tfvsjs.mp3",
+      "audioSha256": "957152a699b3388ab1cc155bc513124ab1eb19871f007e7735fb7119d1869de0",
+      "catalogTrackId": "track-0078"
+    },
+    {
+      "trackId": "qq:002dKeV033UOvU",
+      "filename": "Diamond Cut - 文雀.mp3",
+      "audioSha256": "ece219a2402c4825cb632983ce11e1bc61fa35e7dcab6ea81988278a287fc087",
+      "catalogTrackId": "track-0087"
+    },
+    {
+      "trackId": "qq:004dSD1a3aiGA7",
+      "filename": "Explore the World - I Spell it Nature.mp3",
+      "audioSha256": "7fd0cb72d2709a4505a9c021fea0663f0f7802b7da05d3e9fc685f9d6445ca69",
+      "catalogTrackId": "track-0107"
+    },
+    {
+      "trackId": "qq:000Din7j32GT2W",
+      "filename": "FEEL - Hiroshi Yoshimura.mp3",
+      "audioSha256": "524f1fa17db66f683be1b2808a962bc54937a17f46da948e27ee59c60d1a08d1",
+      "catalogTrackId": "track-0108"
+    },
+    {
+      "trackId": "qq:002CCxh22un7aE",
+      "filename": "Hawaii Oslo - Hania Rani.mp3",
+      "audioSha256": "e411dddd577518a9a94921282b214525fd05fa744f7cbcf5b5b35073744417ff",
+      "catalogTrackId": "track-0143"
+    },
+    {
+      "trackId": "qq:003xz29R1B1rjl",
+      "filename": "Her Light - Cleo Sol.mp3",
+      "audioSha256": "8ddc60f635bd155324e7b3fd01a5dad2a36f0f6d155b6fbee768635943d759ee",
+      "catalogTrackId": "track-0149"
+    },
+    {
+      "trackId": "qq:000BTyTj02a0Ge",
+      "filename": "I Giorni - Ludovico Einaudi.mp3",
+      "audioSha256": "45d21a5f72a4ad08b5a79e557a8e24f08f76554b8766bddfc46c450f86548a9d",
+      "catalogTrackId": "track-0159"
+    },
+    {
+      "trackId": "qq:00412O2t3vvSaf",
+      "filename": "Inayaat - AROOJ AFTAB.mp3",
+      "audioSha256": "55c696ce5174a7236bd7c708e6eaa2191a7e0a662fbe7f2b3ad29d2316d605ba",
+      "catalogTrackId": "track-0166"
+    },
+    {
+      "trackId": "qq:000SVSO43iO5Sf",
+      "filename": "Kaleidoscope - fox capture plan.mp3",
+      "audioSha256": "b60ed561a3d362e28a4ea63187ef7dfa9bde806a89df0225f4cf0000a7e6f7da",
+      "catalogTrackId": "track-0178"
+    },
+    {
+      "trackId": "qq:002RmLCj3YocBw",
+      "filename": "Leave My Home - FKJ.mp3",
+      "audioSha256": "e47cd6220280e4805c88d3225534d28634e7e5ad03cdb56bf26b42c1b8e40bf4",
+      "catalogTrackId": "track-0192"
+    },
+    {
+      "trackId": "qq:001Ev8hg2TD4EF",
+      "filename": "Mars 2027 - 青葉市子.mp3",
+      "audioSha256": "fb542ec7349c51e64f955d7bedfb0012ae261e4d87a3b50099f4f161c7b56332",
+      "catalogTrackId": "track-0210"
+    },
+    {
+      "trackId": "qq:002rH1mb3CdKee",
+      "filename": "Masollan - Balmorhea.mp3",
+      "audioSha256": "5be29dae1ed50f03f7ab0584a2b7749a0ad8279af6a4617d50ebd93724682871",
+      "catalogTrackId": "track-0211"
+    },
+    {
+      "trackId": "qq:000AexBa3aUqOw",
+      "filename": "Moksha - Choker.mp3",
+      "audioSha256": "0d468a395abb889abc08ef1c2d6d0dc6a330b64f6efbd3fb725068a026ffb076",
+      "catalogTrackId": "track-0222"
+    },
+    {
+      "trackId": "qq:004col4V0Addn1",
+      "filename": "Murmuration - GoGo Penguin.mp3",
+      "audioSha256": "8dc2aefa6cd8e2828748d226edfbef9ebb5ed7c54d4ddb5161e82362078bef2d",
+      "catalogTrackId": "track-0228"
+    },
+    {
+      "trackId": "qq:002d45We3GEd3t",
+      "filename": "on the pisces moon - Yaya Bey.mp3",
+      "audioSha256": "5b36813165d584293c9496e1f161bf5c5d092ad00098634cdcda307e0acb3831",
+      "catalogTrackId": "track-0417"
+    },
+    {
+      "trackId": "qq:000VscI62pVJIh",
+      "filename": "Passacaglia (fugler med ord i nebbet) - Spurv.mp3",
+      "audioSha256": "5a69cb02c701f9bb6fff424aedf3808079f0f8ad5ed0e6ea12c092f330e49e1e",
+      "catalogTrackId": "track-0256"
+    },
+    {
+      "trackId": "qq:001y4w0t38xHV3",
+      "filename": "Plug In Baby - fox capture plan.mp3",
+      "audioSha256": "60768991107524a016610809ebee6145e97912b36a3a50996923f3deb4a9cefe",
+      "catalogTrackId": "track-0261"
+    },
+    {
+      "trackId": "qq:001r0we12IjRXg",
+      "filename": "Quarters - Bibio.mp3",
+      "audioSha256": "fb007552edd2b7c2dd7ec91beaed8d394d22ffedcbf8ed0d02346539d24edece",
+      "catalogTrackId": "track-0265"
+    },
+    {
+      "trackId": "qq:004RlFCf21hXWK",
+      "filename": "Rollerball - Mogwai.mp3",
+      "audioSha256": "1e9e1885dc13a63cd8558b91b710d71d099b2e8bc4e6bc88e017200ed805fd59",
+      "catalogTrackId": "track-0276"
+    },
+    {
+      "trackId": "qq:003XfAN33n2GQj",
+      "filename": "Sailed - Kiasmos.mp3",
+      "audioSha256": "7c832f6d1ef062268370436ab47ef89bdf37c211df1f3ca667a4f994b8d2bba3",
+      "catalogTrackId": "track-0287"
+    },
+    {
+      "trackId": "qq:001kqduD3jf6C0",
+      "filename": "Sakura - RIOPY.mp3",
+      "audioSha256": "f05b6fa606c369e8cb6bae251145ec10bb34e6f7aa18675cc9acafbe2af951d5",
+      "catalogTrackId": "track-0288"
+    },
+    {
+      "trackId": "qq:0006aQVw4RReA0",
+      "filename": "Secret Pint - Mogwai.mp3",
+      "audioSha256": "4dd203765d91561eeab8b058ade22000b8fcee803c9294f32ec26f7ee1c573f1",
+      "catalogTrackId": "track-0291"
+    },
+    {
+      "trackId": "qq:002rCRhp1lzt8z",
+      "filename": "showers with sunny intervals - how to count one to ten.mp3",
+      "audioSha256": "247440f20731a5d142b3e86939ba2a24c5de82b9a16cf8e1f2278eecb73f195a",
+      "catalogTrackId": "track-0424"
+    },
+    {
+      "trackId": "qq:000K72Bh3DYh4W",
+      "filename": "Spartacus Love Theme - RePlus.mp3",
+      "audioSha256": "2e20189bdd763a675488ecb419574e711ec12e820f4979827118982acc01fd1c",
+      "catalogTrackId": "track-0308"
+    },
+    {
+      "trackId": "qq:001W3aRD0pTanm",
+      "filename": "Summer Suite - Jordan Critz.mp3",
+      "audioSha256": "c599e74c0462ee2a131d85a98b021580bc10fcc15bf420e677cbe0a6667b164b",
+      "catalogTrackId": "track-0323"
+    },
+    {
+      "trackId": "qq:002fxf3t2ALtcN",
+      "filename": "Sworn - Kiasmos.mp3",
+      "audioSha256": "5219ad94eed6e4a340d1efad1919e5f87cb54045c6e75768bc4aad7d238ce67e",
+      "catalogTrackId": "track-0330"
+    },
+    {
+      "trackId": "qq:002xV9Fi2BDhIi",
+      "filename": "Us - A COLORS SHOW - FKJ.mp3",
+      "audioSha256": "3114d580b506250be714577d10e636d5cdf7960a5323c16b35f4af25d594c876",
+      "catalogTrackId": "track-0362"
+    },
+    {
+      "trackId": "qq:002ukzuo0u5PpB",
+      "filename": "Valley Wulf - Bibio.mp3",
+      "audioSha256": "0d8d228ff1288bc53814cb0ccb58f0409180b70266f263f8d0dced1ea741cbee",
+      "catalogTrackId": "track-0366"
+    },
+    {
+      "trackId": "qq:003mIUru2PtkWB",
+      "filename": "We Had to End It - Cuco.mp3",
+      "audioSha256": "848e254b261e000dce90e75041b088ad77a02fc396f6baec5692e6fd8dcaa31b",
+      "catalogTrackId": "track-0375"
+    },
+    {
+      "trackId": "qq:001B8RWL2XpoZd",
+      "filename": "When You Were Mine - Prince.mp3",
+      "audioSha256": "edb407f06c21f6be5eff7b85d3fad3c712a891c0f3b5d0674b26230ef697921a",
+      "catalogTrackId": "track-0379"
+    },
+    {
+      "trackId": "qq:001Yr0lf42iGF6",
+      "filename": "Yellow Surf - toconoma.mp3",
+      "audioSha256": "4816a5b537f68266348c64652a4844c5d35a8743c0a297ae6e86d70191f7c838",
+      "catalogTrackId": "track-0391"
+    },
+    {
+      "trackId": "qq:002Vup6o0UxIf1",
+      "filename": "Yes! I Am a Long Way from Home - Mogwai.mp3",
+      "audioSha256": "b07e70fe22be1c2e5b129a0d731abcfdc19c9932e1e643ca4a259079117ae12c",
+      "catalogTrackId": "track-0392"
+    },
+    {
+      "trackId": "qq:002cO90C3RuTSi",
+      "filename": "あの日のままのぼくら - 雨宮天, 高橋李依, 茅野愛衣.mp3",
+      "audioSha256": "3114c194d78c7b44735cab230d82d761c33a4b8f21f0bd8c2fa787be184a39d7",
+      "catalogTrackId": "track-0433"
+    },
+    {
+      "trackId": "qq:001M1pBx4a1a3B",
+      "filename": "あの街に風吹けば - 羊文学.mp3",
+      "audioSha256": "57800ca367b0adcbf1370aeea2b0b84f8009e9eb050490957d677305a65200b3",
+      "catalogTrackId": "track-0434"
+    },
+    {
+      "trackId": "qq:003wyPWg2vNdDH",
+      "filename": "うたのけはい - 青葉市子.mp3",
+      "audioSha256": "489e55996a5c88a6b7628b47b4988806b267390453c4594748b66489457bcafc",
+      "catalogTrackId": "track-0436"
+    },
+    {
+      "trackId": "qq:001tZ9sr11IkDI",
+      "filename": "おめでとうの唄 - 青葉市子.mp3",
+      "audioSha256": "b8ea157f28a7379b177a0711c6da8bdf8e3f418bdd478df24104dbb358773a66",
+      "catalogTrackId": "track-0438"
+    },
+    {
+      "trackId": "qq:001sEBpU4eSUwP",
+      "filename": "さよならペンギン - 青葉市子.mp3",
+      "audioSha256": "0d5dbeb1fd73d6fbeb8cd136ba543e2c0451603ec344e8f8cb5e4e472ed26f49",
+      "catalogTrackId": "track-0439"
+    },
+    {
+      "trackId": "qq:0015SwUd2uOwmJ",
+      "filename": "アンディーヴと眠って - 青葉市子.mp3",
+      "audioSha256": "aa4a229c4860f912422ea9995e36464e71c04b8f1f8eeb5a5175f8df8cd6ec18",
+      "catalogTrackId": "track-0443"
+    },
+    {
+      "trackId": "qq:002CRWbF4L1ef4",
+      "filename": "フェンスのある家 - OGRE YOU A**HOLE.mp3",
+      "audioSha256": "6ae0faa6ec4a60c18337e7abf6bda4821a9c8599d99746a782f7dcc1717cbfc3",
+      "catalogTrackId": "track-0444"
+    },
+    {
+      "trackId": "qq:002ySl5c0f7jQb",
+      "filename": "マホロボシヤ - 青葉市子.mp3",
+      "audioSha256": "6c31b59a261353de27e13181d1b16a96ee9ea5ed9107f221f3a6d8c873bea268",
+      "catalogTrackId": "track-0446"
+    },
+    {
+      "trackId": "qq:004WbB4i3RClST",
+      "filename": "ロープ - OGRE YOU A**HOLE.mp3",
+      "audioSha256": "82dffee6175bd5d2868e7541e5f88154f0db21f1941d3bb647d1c90bb2f50bf6",
+      "catalogTrackId": "track-0450"
+    },
+    {
+      "trackId": "qq:00400umx31UH5p",
+      "filename": "人间风景 - Fayzz.mp3",
+      "audioSha256": "0cab90f981edbc8e9e8e0f818eb5e1c791f94a8e050e822a7e671ed0c2b1e67b",
+      "catalogTrackId": "track-0452"
+    },
+    {
+      "trackId": "qq:002ZRUn93X6hde",
+      "filename": "仁恕 - iwamizu.mp3",
+      "audioSha256": "1fc9d36516eb80b7c97ff15cf0d882b8da4893f4a74d6efdf7ddb55f89de265b",
+      "catalogTrackId": "track-0453"
+    },
+    {
+      "trackId": "qq:003Iat1t4aoTdW",
+      "filename": "双位循环 - She Never Sings Our Songs.mp3",
+      "audioSha256": "49958b63bf8e9268d753394ef7ef05032e548295b90b322ab7a9af4185158571",
+      "catalogTrackId": "track-0457"
+    },
+    {
+      "trackId": "qq:004gdY3S3vzhdj",
+      "filename": "季风 (Monsoon) - Fayzz.mp3",
+      "audioSha256": "e83e437d7c45e1bb4eb56699747e00acffa49cd1447460b587f4ec90e53e978f",
+      "catalogTrackId": "track-0463"
+    },
+    {
+      "trackId": "qq:003u54g41pPMoD",
+      "filename": "明天你依旧在我身旁 - 声音玩具.mp3",
+      "audioSha256": "4f8f86b2b960da0e8c350a896b76f09c6ccf5eff0b9b1e89b3884eaee2ca8a80",
+      "catalogTrackId": "track-0467"
+    },
+    {
+      "trackId": "qq:003LDRsX47cggs",
+      "filename": "电动少女 - Chinese Football.mp3",
+      "audioSha256": "7b7589dbb798cac1e7b0bf5ee82b1a3b764e84ce6bda906c60955140ab6fec8e",
+      "catalogTrackId": "track-0470"
+    },
+    {
+      "trackId": "qq:003UXQSv0OiIBc",
+      "filename": "神様のたくらみ - 青葉市子.mp3",
+      "audioSha256": "f5e0ffcaac9267c9657085d0fec2cad50410c59bc8fcfce53472ad4adb0c7ee2",
+      "catalogTrackId": "track-0472"
+    },
+    {
+      "trackId": "qq:003q0Ol72JP40X",
+      "filename": "金色 - 羊文学.mp3",
+      "audioSha256": "7a43b389e4fe96c6639c8e11a262c0d04cbab4d19d2a07c236d7223b1ae55727",
+      "catalogTrackId": "track-0478"
+    }
+  ],
+  "pending": [
+    {
+      "trackId": "qq:002QRYfa0g0ycu",
+      "filename": "BABY BLUE - Fishmans.mp3",
+      "audioSha256": "077692bed564d364662078acab6994ba6d52e3f99131202b2e404a2782bbf9a8"
+    },
+    {
+      "trackId": "qq:000Fw7cX09LLr6",
+      "filename": "Clementine - Sarah Jaffe.mp3",
+      "audioSha256": "f8f8d47684113af082c8c5e8dae746420f284e44510561070c0da24f4c8dc43d"
+    },
+    {
+      "trackId": "qq:0015jyw41OJ2BE",
+      "filename": "Ditto - DooPiano.mp3",
+      "audioSha256": "f08318609a67867bd274750b62b53e77c483bce93ff13a9c26e0b9228c114ff3"
+    },
+    {
+      "trackId": "qq:000fr5BQ0jAxGk",
+      "filename": "El Transcurrir De Las Horas - Bosques De Mi Mente.mp3",
+      "audioSha256": "84aeb8bdaaa990f9443c7f705ded262a2740b7067874610fd47245fc5b2182c3"
+    },
+    {
+      "trackId": "qq:004emx212UOp6C",
+      "filename": "Free Shoes - Busty and the Bass.mp3",
+      "audioSha256": "6fb6fd01cacd98c626033b10e275f5a22f856f577dedd72a0ad3eb8bef58cb23"
+    },
+    {
+      "trackId": "qq:002kLt2c0pfNqf",
+      "filename": "Girls from Nyc - Harrison Hudson.mp3",
+      "audioSha256": "4e844e9ddbf3fecd265dc346f6a23b49f1d94654b9bd5b84f4c7d6e3e49b94fe"
+    },
+    {
+      "trackId": "qq:0020exsa1lzTSy",
+      "filename": "Hell N Back - Bakar.mp3",
+      "audioSha256": "e5f050c34738f37bf54c001811386de521c736461048a4f649e7c59a29fd2e5b"
+    },
+    {
+      "trackId": "qq:000ZzVmT0pztQn",
+      "filename": "In My Feelings - Brasstracks.mp3",
+      "audioSha256": "7c27562e2af3d947983f3ddc744fbb12b800f4e307529991eb57d356fce4dc8e"
+    },
+    {
+      "trackId": "qq:001Yp2jV0q9f5B",
+      "filename": "Love Of The Loveless - Eels.mp3",
+      "audioSha256": "15870000f07e40a61d568b5734cc941acc2d2a028ef14874443c08d3ac13f7cb"
+    },
+    {
+      "trackId": "qq:0048buGv2Ed4db",
+      "filename": "Meet Me Halfway - Black Eyed Peas.mp3",
+      "audioSha256": "6cf9f492e73740cbf5509d4ffe0a1ebc0b18344090b72bc51f3f8c657aa9059e"
+    },
+    {
+      "trackId": "qq:002vRxmB2XHA8X",
+      "filename": "New Day - Devon Rea.mp3",
+      "audioSha256": "72ea0ccbd05ad6a03aed6f9cdd4770475dd8edaec8520b19635504a705af6b70"
+    },
+    {
+      "trackId": "qq:003j6EiF1Qnh13",
+      "filename": "Reflektor - Arcade Fire.mp3",
+      "audioSha256": "1c9d1414562db039272db5932001739305e3d9f280861dcf8dc18cc7278a0d51"
+    },
+    {
+      "trackId": "qq:002seChr18gdsK",
+      "filename": "Remarkable Diving Feat - Sea Power.mp3",
+      "audioSha256": "e1340a23dfc9c8b6296b1f9f2e846d6986ec1d4524f5fdc482d0d3bbf3c3ff22"
+    },
+    {
+      "trackId": "qq:002CcEQY1xqVyA",
+      "filename": "Say U Won't - Brasstracks.mp3",
+      "audioSha256": "e94423763b29f97b8ef7e39d1231a1a6ac890d67ce1c9f8ac1611ef59943fcc0"
+    },
+    {
+      "trackId": "qq:003zVwHk2xsG8w",
+      "filename": "The Idiot - Seth Staton Watkins.mp3",
+      "audioSha256": "9f29406209b48c3dc6a6cdcb7ede7c6bf3dce62c88344d15639cbfd03ea38d1d"
+    },
+    {
+      "trackId": "qq:00298Rmi4YuPm3",
+      "filename": "Things Change - Busty and the Bass.mp3",
+      "audioSha256": "f36240a295e16a68106b05b6887d23288969c9d42249a556d83e2f01dc66743a"
+    },
+    {
+      "trackId": "qq:003kokjK2mtbbP",
+      "filename": "Track in Time - Dennis Kuo.mp3",
+      "audioSha256": "31ef3e50bb09d05ce8f8f5c3ff1b499d7d7f60a199d634c814c92c2292480e28"
+    },
+    {
+      "trackId": "qq:001oflCY04HG3p",
+      "filename": "Up Top - Busty and the Bass.mp3",
+      "audioSha256": "9cd36a44c5c083841b7d6c0cc1cd5439f115e6078a952115ad33b2dbfe3d63fc"
+    },
+    {
+      "trackId": "qq:003oIEvw3dcIKc",
+      "filename": "いりぐちでぐち - 青葉市子.mp3",
+      "audioSha256": "1056b734f0e950d748c0f16029330d1b69e0b89e8a6a28aaec302ad6f6f20fbe"
+    },
+    {
+      "trackId": "qq:004KMRH61Ljgwt",
+      "filename": "オトノケ - Otonoke - Creepy Nuts.mp3",
+      "audioSha256": "e6633f9ea4d234177686c63e9e784aa77b73b006f2fecc443b92651347b959a4"
+    },
+    {
+      "trackId": "qq:003jSlE31PQbqZ",
+      "filename": "住在十六层的少年 - 16层乐队.mp3",
+      "audioSha256": "d455a266d3f6e3a1c361ab9f9cac5f14d6ae2854a0d7f2a4770cd963654bad89"
+    },
+    {
+      "trackId": "qq:002Dtbtf3ZIb3Y",
+      "filename": "半空日落色 - Uhsgnǒd.mp3",
+      "audioSha256": "483dc83b1bf16323b5de76c89695b9ec3fc00b5cc67a46b62fcebdceecbc2dee"
+    },
+    {
+      "trackId": "qq:001ibzed4YD80W",
+      "filename": "惊蛰 - 天声乐队.mp3",
+      "audioSha256": "d630a3f11da3cd39a1de1823aadeafc056c04bc14517a04ae92fa4945f709ec0"
+    }
+  ],
+  "anchors": [
+    {
+      "trackId": "qq:001bp0Yk2yH056",
+      "filename": "Borderlines - Vraell.mp3",
+      "audioSha256": "dc93777ad811c34be1ad83900464c406f085b46fbb9ee0db758440d4d8d6f510",
+      "previousSourceAnnotationId": "5af4f6793ce6de715919",
+      "previousSelections": {
+        "适合的时段": [
+          "11-14",
+          "14-17",
+          "8-11"
+        ],
+        "能量状态": [
+          "渐进"
+        ],
+        "噪音程度": [
+          "2"
+        ],
+        "摇摆速率": [
+          "3"
+        ],
+        "负担程度": [
+          "2"
+        ]
+      },
+      "repeatSelections": {
+        "适合的时段": [
+          "8-11",
+          "11-14"
+        ],
+        "能量状态": [
+          "渐进"
+        ],
+        "噪音程度": [
+          "2"
+        ],
+        "摇摆速率": [
+          "3"
+        ],
+        "负担程度": [
+          "4"
+        ]
+      },
+      "numericDelta": {
+        "噪音程度": 0,
+        "摇摆速率": 0,
+        "负担程度": 2
+      },
+      "trainingTruthPolicy": "preserve-previous-selection"
+    },
+    {
+      "trackId": "qq:000IEMhw2BYOh7",
+      "filename": "Detective Lungmen - 塞壬唱片-MSR, 顾忠山, Damien Banzigou.mp3",
+      "audioSha256": "5acc2f8a569f4b0950da536436f57c47a3dc1827baf8f47942c41b0305ede77f",
+      "previousSourceAnnotationId": "ac66b77f0a0389e7fa55",
+      "previousSelections": {
+        "适合的时段": [
+          "14-17"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "5"
+        ],
+        "摇摆速率": [
+          "5"
+        ],
+        "负担程度": [
+          "4"
+        ]
+      },
+      "repeatSelections": {
+        "适合的时段": [
+          "17-20",
+          "14-17"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "4"
+        ],
+        "摇摆速率": [
+          "4"
+        ],
+        "负担程度": [
+          "3"
+        ]
+      },
+      "numericDelta": {
+        "噪音程度": -1,
+        "摇摆速率": -1,
+        "负担程度": -1
+      },
+      "trainingTruthPolicy": "preserve-previous-selection"
+    },
+    {
+      "trackId": "qq:004F9h4J1NjHD9",
+      "filename": "Sagu Palm's Song - 青葉市子.mp3",
+      "audioSha256": "394b54df35c741866606f6e41fa12516c135d5866f1d565ec427b998c7788260",
+      "previousSourceAnnotationId": "dda30142209106855e38",
+      "previousSelections": {
+        "适合的时段": [
+          "8-11",
+          "11-14",
+          "14-17"
+        ],
+        "能量状态": [
+          "平静"
+        ],
+        "噪音程度": [
+          "1"
+        ],
+        "摇摆速率": [
+          "2"
+        ],
+        "负担程度": [
+          "1"
+        ]
+      },
+      "repeatSelections": {
+        "适合的时段": [
+          "8-11",
+          "14-17",
+          "11-14",
+          "17-20"
+        ],
+        "能量状态": [
+          "平静"
+        ],
+        "噪音程度": [
+          "2"
+        ],
+        "摇摆速率": [
+          "3"
+        ],
+        "负担程度": [
+          "3"
+        ]
+      },
+      "numericDelta": {
+        "噪音程度": 1,
+        "摇摆速率": 1,
+        "负担程度": 2
+      },
+      "trainingTruthPolicy": "preserve-previous-selection"
+    },
+    {
+      "trackId": "qq:004fGoVl3u0eL0",
+      "filename": "The edge of everything - Sleepmakeswaves.mp3",
+      "audioSha256": "5aaf394db32cd3e2d58a32566e82863d046b7379f13ee0e8be092f9f6798eb94",
+      "previousSourceAnnotationId": "4062aeefb94192d2088a",
+      "previousSelections": {
+        "适合的时段": [
+          "17-20"
+        ],
+        "能量状态": [
+          "爆发"
+        ],
+        "噪音程度": [
+          "8"
+        ],
+        "摇摆速率": [
+          "5"
+        ],
+        "负担程度": [
+          "6"
+        ]
+      },
+      "repeatSelections": {
+        "适合的时段": [
+          "17-20",
+          "8-11"
+        ],
+        "能量状态": [
+          "爆发"
+        ],
+        "噪音程度": [
+          "6"
+        ],
+        "摇摆速率": [
+          "5"
+        ],
+        "负担程度": [
+          "6"
+        ]
+      },
+      "numericDelta": {
+        "噪音程度": -2,
+        "摇摆速率": 0,
+        "负担程度": 0
+      },
+      "trainingTruthPolicy": "preserve-previous-selection"
+    },
+    {
+      "trackId": "qq:000LbxEY3wyFZ8",
+      "filename": "ライフワーク - OGRE YOU A**HOLE.mp3",
+      "audioSha256": "2cc92e33de20b4a4e10c23970e14fe901f3438cca3e8849d368bb9b5c2aecc5d",
+      "previousSourceAnnotationId": "fa18d33efcaab3af00d2",
+      "previousSelections": {
+        "适合的时段": [
+          "14-17"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "8"
+        ],
+        "摇摆速率": [
+          "7"
+        ],
+        "负担程度": [
+          "2"
+        ]
+      },
+      "repeatSelections": {
+        "适合的时段": [
+          "17-20"
+        ],
+        "能量状态": [
+          "有冲劲"
+        ],
+        "噪音程度": [
+          "6"
+        ],
+        "摇摆速率": [
+          "5"
+        ],
+        "负担程度": [
+          "3"
+        ]
+      },
+      "numericDelta": {
+        "噪音程度": -2,
+        "摇摆速率": -2,
+        "负担程度": 1
+      },
+      "trainingTruthPolicy": "preserve-previous-selection"
+    }
+  ],
+  "manualDiscarded": [
+    {
+      "trackId": "qq:001hpPyk2HS7Y2",
+      "filename": "Diya Hai - AROOJ AFTAB.mp3",
+      "reason": "user-declared-archive-discard-before-zmpd-labeling",
+      "inCatalog": true
+    },
+    {
+      "trackId": "qq:003BDBLq2LtEgh",
+      "filename": "男の子女の子 - Les 5-4-3-2-1.mp3",
+      "reason": "user-declared-archive-discard-before-zmpd-labeling",
+      "inCatalog": false
+    }
+  ]
+}

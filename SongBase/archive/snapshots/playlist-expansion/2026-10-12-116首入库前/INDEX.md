@@ -1,0 +1,56 @@
+# SongBase 文件索引
+
+本索引只说明文件职责；曲库主数据与音源不因整理而改变。
+
+## 当前主线（根目录）
+
+| 分类 | 文件 | 用途 |
+|---|---|---|
+| 曲库主数据 | `song_base_by_artist.json` | 当前歌曲级曲库唯一主数据。 |
+| 正式标签 | `song_tags.json` | 以 `qq:<MID>` 为键的人工确认标签。 |
+| 候选与规则 | `song_tag_candidates.json`、`song_tag_mapping.json` | 复核证据与长期映射规则。 |
+| 本地音源 | `SongResources/` | 当前唯一音源目录；Flowset 通过软链接引用。 |
+| 当前工具 | `manage_albums.py`、`sync_missing_audio.py`、`serve_songbase.py`、`archive_discarded_tracks.py`、`import_recording_delivery.py`、`import_combined_annotations.py`、`update_report_snapshots.py`、`build_annotation_gap_report.py` | 维护曲库、同步/导入音源、启动试听、归档舍弃、导入联合 Tag + ZMPD 标注，以及刷新统计与联合缺口报告。 |
+| 生成页面 | `song_base_browser.html`、`song_tags_browser.html`、`song_manual_tagging.html`、`song_combined_annotation.html` | 由对应 `build_*` 脚本生成。 |
+
+## 补录与运行状态
+
+- `imports/`：曲目元数据导入、补录与重录的 JSON/Markdown 清单，以及保留的已验收音源。清单至少记录 QQ MID、来源和处理状态；涉及音频文件时再记录目标文件和 SHA-256。
+- `待录制清单.json`、`待录制清单.md`：当前主库缺本地音源的逐曲核对结果；严格分开可进入 QQ 录制的曲目与已确认下架曲目，并保留建议批次。
+- `待重录清单.json`：用户明确指定的待重录曲目；保留 QQ MID、来源链接、目标文件与任务状态，不等同于归档舍弃或错误音源记录。
+- `待舍弃归档清单.json`：用户明确指定、尚未实际归档的舍弃任务；仅作待办记录，不等同于 `archive/removed_tracks/` 中已执行的归档。
+- `runtime/history/`：已结束任务的运行状态快照；新的同步运行会在根目录生成新的运行状态文件。
+
+### 当前录制入库状态（2026-10-10）
+
+本轮90首已写入 `SongResources/`；逐曲 QQ MID、目标路径、SHA-256 与3首尾部裁切记录见 `imports/2026-10-10-剩余90首录制正式入档.json` / `.md`。当前本地可播1,318首，待录制0首、待入库0首；3首已下架曲目保留在待录制清单的 `unavailable_tracks` 中。
+
+### 当前标注状态（2026-10-10）
+
+主库 1,321 首，正式 Tag 1,215 首，当前候选 0 首；SongBase 可匹配人工 ZMPD 433 首，训练 manifest 共477条标注记录、467首合格真值。联合待标队列剩890首：104首两者都缺、2首只缺 Tag、784首只缺 ZMPD。
+
+## 归档
+
+- `archive/removed_tracks/`：唯一的“归档舍弃”路径，包含被舍弃曲目记录与其音源。
+- `archive/incorrect_audio/`：保留曲目的错误本地音频，与舍弃曲目严格分开。
+- `archive/replaced_audio/`：重录替换前的旧音源备份；按批次保存，并由 `imports/` 中的替换清单记录新旧 SHA-256。
+- `archive/snapshots/`：归档操作前的主曲库、正式标签和候选标签快照。
+- `archive/manual-pending-download/`：已退役的固定清单下载流程。
+- `archive/legacy-link-search/`、`archive/legacy-monitors/`、`archive/broken-download-pipeline/`：只供追溯的旧工具。
+
+## 历史参考资料（仍在根目录）
+
+- `qqmusic_playlists.json`、`qqmusic_playlists.md`：QQ 歌单来源档案；保留歌单当时的曲序、QQ MID 与分享链接，用于导入溯源。
+- `song_tag_candidate_report.md`：候选生成器的报告输出；内容日期由候选生成任务决定。
+- `曲库风格与语种报告.md`：基于当前主库与正式标签的统计快照，不是主数据；语种部分会随正式标签覆盖度更新。
+- `咖啡店曲库_50张专辑扩充建议.md`：历史扩充建议，不是当前主数据。
+
+## 日常入口
+
+1. 曲库条目与外链：`manage_albums.py`
+2. 本地音源缺失扫描/下载：`sync_missing_audio.py`
+3. 已核验补录：`import_supplemental_audio.py`
+4. 标签浏览页重建：`build_song_tags_browser.py`
+5. 联合 Tag + ZMPD 导入：`import_combined_annotations.py`
+6. 页面试听：`serve_songbase.py`
+7. 曲目归档舍弃：`archive_discarded_tracks.py`

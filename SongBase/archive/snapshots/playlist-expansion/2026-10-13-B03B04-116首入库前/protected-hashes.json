@@ -1,0 +1,15 @@
+{
+  "nanze版本-歌曲特征.json": "3a8f19c73248066831de6979794b3999bdf813aa9240a56f05eeb7a75cf00157",
+  "song_identity_aliases.json": "fc2f616927ced1fde7038e60672471a00bf0558dbe97bae526caff0803f2dd7c",
+  "待舍弃归档清单.json": "372810ec306f42be2eb010fb75418578f80a926db357bd5016182086f3bd43a5",
+  "song_tag_candidates.json": "6c0624eff0b11c63f1dcbad4f789ba60a1c9f4a7b23c3ab570ee7183aba985bb",
+  "第六批ZMPD合并审计.json": "6a744d7f6dd24c1eef310e9e2971980cff97a1331ac02602b470579e49090333",
+  "第七批ZMPD合并审计.json": "553bc951ca7dbefedbac3c46bb4b7b19058d42a335addc64d66fd05b641c7b87",
+  "new_albums_config.json": "e237323dd270f606584b3244db2b01a6a7d1639dc02cc6cf594b700e0b5afa44",
+  "待重录清单.json": "a7350c8f40a91a13fc58df12004d143bbc28ed34f7c73a6e38d6f92aa23ef1ca",
+  "歌曲特征.json": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea",
+  "song_tag_mapping.json": "5bc6e96191348aff87ed096666e61290f350dcbf9b944e418cf065858ac7dcf5",
+  "song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+  "qqmusic_playlists.json": "887c5321bb4815169e4cc97678eb59d884753c51c075a05d66153cdd023146e7",
+  "../ZMPD-模型预测开发/manifests/training-manifest.json": "aaf87b3ffc5b2c2d45ca7ae40bf92fe0be1781e5a150ba04e162edb7fc5a6dc4"
+}

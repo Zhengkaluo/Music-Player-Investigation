@@ -1,0 +1,37 @@
+{
+  "schema_version": "songbase.tag-candidates/v1",
+  "generated_at": "2026-08-21",
+  "sample": {
+    "size": 0,
+    "mode": "all_untagged",
+    "population": 0
+  },
+  "taxonomy": {
+    "genres": [
+      "Ambient / Neo-Classical",
+      "Post-Rock / Cinematic",
+      "Electronic",
+      "Jazz / Soul",
+      "Folk / Singer-Songwriter",
+      "Rock / Alternative",
+      "Hip-Hop / R&B"
+    ],
+    "languages": [
+      "Minnan",
+      "Japanese",
+      "Other Languages"
+    ],
+    "forms": [
+      "Instrumental"
+    ]
+  },
+  "mapping_version": "2026-08-11",
+  "sources": [
+    "Last.fm track.getTopTags",
+    "Last.fm album.getTopTags",
+    "Last.fm artist.getTopTags"
+  ],
+  "tracks": {},
+  "rescored_at": "2026-08-21",
+  "pruned_at": "2026-10-08"
+}

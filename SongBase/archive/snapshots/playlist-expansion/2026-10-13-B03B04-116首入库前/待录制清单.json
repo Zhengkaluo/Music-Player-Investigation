@@ -1,0 +1,132 @@
+{
+  "schema_version": "songbase.pending-recordings/v1",
+  "updated_at": "2026-10-12",
+  "created_at": "2026-10-12T14:59:19+08:00",
+  "policy": "仅收录当前主库尚未匹配正式本地音源的曲目。recordable_tracks 为保留的缺源任务池；其中 recorded_awaiting_import 已录制验收，无需重录，只待入库。unavailable_tracks 已确认下架，不得加入录制队列。按 QQ MID 保留交付凭据。",
+  "source": {
+    "library": "song_base_by_artist.json",
+    "resources": "SongResources/",
+    "playlist_import": "imports/2026-10-12-歌单补充116首元数据导入.json",
+    "identity_rule": "QQ MID + current SongBase metadata; local audio uses the same resolver as song_tags_browser.html"
+  },
+  "summary": {
+    "library_tracks": 1437,
+    "local_playable_tracks": 1434,
+    "missing_total": 3,
+    "recordable_tracks": 0,
+    "unavailable_tracks": 3,
+    "recordable_duration_seconds": 0,
+    "recordable_artist_count": 0,
+    "planned_batches": 0,
+    "remaining_to_record": 0,
+    "recorded_awaiting_import": 0,
+    "imported_this_batch": 116
+  },
+  "batches": [],
+  "unavailable_tracks": [
+    {
+      "track_id": "qq:000mE2OE0QmTxY",
+      "song_mid": "000mE2OE0QmTxY",
+      "title": "自己做决定 feat.陈绮贞",
+      "artist": "Cee",
+      "full_singer": "Cee, 路壹Lu1, 陈绮贞",
+      "album": "自己做决定 feat.陈绮贞",
+      "duration_seconds": 289,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/000mE2OE0QmTxY",
+      "status": "unavailable",
+      "reason": "用户确认 QQ 音乐已下架，不进入录制队列。"
+    },
+    {
+      "track_id": "qq:004W1uSI0FiTaG",
+      "song_mid": "004W1uSI0FiTaG",
+      "title": "Prisoner",
+      "artist": "M.I.L.K.",
+      "full_singer": "M.I.L.K., Benny Sings",
+      "album": "Prisoner (feat. Benny Sings)",
+      "duration_seconds": 167,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/004W1uSI0FiTaG",
+      "status": "unavailable",
+      "reason": "用户确认 QQ 音乐已下架，不进入录制队列。"
+    },
+    {
+      "playlist_position": 139,
+      "track_id": "qq:002OSPum4c1ZsU",
+      "song_mid": "002OSPum4c1ZsU",
+      "title": "寒心寺",
+      "artist": "文雀",
+      "full_singer": "文雀",
+      "album": "彩虹山",
+      "duration_seconds": 374,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/002OSPum4c1ZsU",
+      "target_relative_path": "SongResources/寒心寺 - 文雀.mp3",
+      "status": "unavailable",
+      "reason": "用户于2026-10-10确认 QQ 音乐已下架，不进入录制队列。",
+      "confirmed_at": "2026-10-10",
+      "confirmation_source": "user",
+      "automatic_failure": "Timed out waiting for player state"
+    }
+  ],
+  "recordable_tracks": [],
+  "recording_progress": {
+    "updated_at": "2026-10-12",
+    "batch_directory": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-B01-B02-118首-2026-10-11",
+    "delivery_receipt": "imports/2026-10-12-歌单补充116首交付凭据.json",
+    "recorded_awaiting_import": 0,
+    "remaining_to_record": 0,
+    "unavailable_tracks": 3,
+    "excluded_unavailable_candidates": 2,
+    "formal_import_status": "complete",
+    "imported_tracks": 116,
+    "import_manifest": "imports/2026-10-12-歌单补充116首正式入档.json"
+  },
+  "excluded_unavailable_candidates": [
+    {
+      "batch_id": "B02",
+      "sequence_in_batch": 19,
+      "song_mid": "0011BLZM0ZTHx3",
+      "title": "8+8=8",
+      "artist": "岛屿心情",
+      "original_review_artist_credit": "岛屿心情",
+      "album": "Island Mood",
+      "duration_seconds": 337,
+      "song_id": 221283329,
+      "song_type": 1,
+      "url": "https://y.qq.com/n/ryqq/songDetail/0011BLZM0ZTHx3",
+      "source_playlists": [
+        "可以放"
+      ],
+      "selected_artists": [
+        "岛屿心情"
+      ],
+      "note": "—",
+      "status": "unavailable",
+      "in_main_library": false,
+      "reason": "2026-10-12实际QQ详情页显示歌曲已下架；未入主库、未录成。",
+      "evidence": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-岛屿心情2首重录-2026-10-12/unavailable.json"
+    },
+    {
+      "batch_id": "B02",
+      "sequence_in_batch": 21,
+      "song_mid": "000n0SUH3RFLVo",
+      "title": "When Everything End",
+      "artist": "岛屿心情",
+      "original_review_artist_credit": "岛屿心情",
+      "album": "Island Mood",
+      "duration_seconds": 280,
+      "song_id": 221283336,
+      "song_type": 1,
+      "url": "https://y.qq.com/n/ryqq/songDetail/000n0SUH3RFLVo",
+      "source_playlists": [
+        "可以放"
+      ],
+      "selected_artists": [
+        "岛屿心情"
+      ],
+      "note": "—",
+      "status": "unavailable",
+      "in_main_library": false,
+      "reason": "2026-10-12实际QQ详情页显示歌曲已下架；未入主库、未录成。",
+      "evidence": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/recordings/歌单补充-岛屿心情2首重录-2026-10-12/unavailable.json"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SongTag 映射编辑器</title>
+  <style>
+    :root{--bg:#0e1412;--panel:#17201d;--panel2:#1d2925;--line:#304039;--text:#edf3ee;--muted:#9aaca3;--accent:#c9dd87;--accentInk:#18210d;--danger:#ee9d99;--radius:15px}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.shell{width:min(1180px,calc(100% - 32px));margin:auto;padding:30px 0 60px}.eyebrow{margin:0 0 7px;color:var(--accent);font-size:12px;letter-spacing:.13em;text-transform:uppercase}h1{font-size:clamp(28px,4vw,42px);margin:0;letter-spacing:-.035em}.subhead{color:var(--muted);margin:7px 0 22px}.topbar{position:sticky;top:0;z-index:5;display:flex;gap:9px;align-items:center;flex-wrap:wrap;background:rgba(14,20,18,.94);padding:12px 0;border-bottom:1px solid var(--line)}button,input,select,textarea{font:inherit}button{cursor:pointer}.button{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:9px;padding:9px 12px}.button:hover{color:var(--text);border-color:var(--muted)}.button.primary{background:var(--accent);border-color:var(--accent);color:var(--accentInk);font-weight:700}.save-state{margin-left:auto;color:var(--muted);font-size:13px}.save-state.dirty{color:var(--accent)}.section{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:17px;margin-top:18px}.section h2{font-size:17px;margin:0 0 4px}.section h3{font-size:14px;margin:18px 0 4px}.section h3:first-of-type{margin-top:0}.section .hint{margin:0 0 14px;color:var(--muted);font-size:13px}.meta-grid{display:grid;grid-template-columns:180px 1fr;gap:10px;max-width:800px}.field label{display:block;color:var(--muted);font-size:12px;margin-bottom:4px}input,select,textarea{width:100%;color:var(--text);background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:8px 9px;outline:none}textarea{resize:vertical;min-height:70px}input:focus,select:focus,textarea:focus{border-color:var(--accent)}.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}.chip{color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 8px;font-size:12px}.rule-list{display:grid;gap:10px}.rule{border:1px solid var(--line);background:var(--panel2);border-radius:11px;padding:12px}.rule-head{display:flex;align-items:center;gap:9px;margin-bottom:10px}.rule-head strong{font-weight:600}.rule-head .status-dot{height:8px;width:8px;border-radius:50%;background:var(--accent)}.rule-head .rule-num{color:var(--muted);font-size:12px}.remove{margin-left:auto;color:var(--danger);border-color:rgba(238,157,153,.35)}.rule-grid{display:grid;grid-template-columns:1.2fr 1.5fr .7fr .8fr;gap:9px}.rule-grid.wide{grid-template-columns:1fr 1fr 1.2fr .6fr .8fr}.field.full{grid-column:1/-1}.field small{display:block;color:var(--muted);font-size:11px;margin-top:4px}.weak-table{width:100%;border-collapse:collapse}.weak-table th,.weak-table td{padding:7px;border-bottom:1px solid rgba(48,64,57,.75);text-align:left;vertical-align:top}.weak-table th{color:var(--muted);font-size:12px;font-weight:600}.weak-table td:last-child{width:1%}.inline-input{min-width:150px}.footer{color:var(--muted);font-size:12px;margin-top:18px}.toast{position:fixed;right:20px;bottom:20px;max-width:min(440px,calc(100% - 40px));padding:11px 14px;background:var(--panel2);border:1px solid var(--line);border-radius:10px;box-shadow:0 10px 35px rgba(0,0,0,.25);opacity:0;transform:translateY(8px);pointer-events:none;transition:.18s}.toast.show{opacity:1;transform:translateY(0)}.toast.error{border-color:var(--danger);color:var(--danger)}
+    @media(max-width:820px){.rule-grid,.rule-grid.wide{grid-template-columns:1fr 1fr}.field.full{grid-column:1/-1}}@media(max-width:580px){.shell{width:calc(100% - 20px);padding-top:20px}.meta-grid,.rule-grid,.rule-grid.wide{grid-template-columns:1fr}.save-state{margin-left:0;width:100%}.topbar{position:static}.weak-table th:nth-child(2),.weak-table td:nth-child(2){min-width:220px}}
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <p class="eyebrow">SongBase taxonomy</p>
+    <h1>SongTag 映射编辑器</h1>
+    <p class="subhead">离线维护平台原始标签如何生成候选；这里的保存不会直接改动正式歌曲标签。</p>
+    <div class="topbar">
+      <button class="button primary" id="open" type="button">选择 song_tag_mapping.json</button>
+      <button class="button primary" id="save" type="button" disabled>保存回本地文件</button>
+      <button class="button" id="reload" type="button" disabled>重新载入已选文件</button>
+      <button class="button" id="export" type="button" disabled>下载 JSON 副本</button>
+      <input id="importFile" type="file" accept="application/json,.json" hidden>
+      <span class="save-state" id="saveState">先选择 song_tag_mapping.json</span>
+    </div>
+    <section class="section">
+      <h2>基础信息</h2>
+      <p class="hint">版本可用日期或语义版本号；保存时会自动更新更新时间。</p>
+      <div class="meta-grid">
+        <div class="field"><label for="version">映射版本</label><input id="version" type="text"></div>
+        <div class="field"><label for="description">说明</label><textarea id="description" rows="2"></textarea></div>
+      </div>
+      <div class="chips" id="genres"></div>
+    </section>
+    <section class="section">
+      <h2>直接映射</h2>
+      <p class="hint">外部标签单独出现即可贡献分数。高分不等于自动确认，仍要结合曲目、专辑或艺人级来源。</p>
+      <div class="rule-list" id="directRules"></div>
+      <p><button class="button" id="addDirect" type="button">+ 新增直接映射</button></p>
+    </section>
+    <section class="section">
+      <h2>组合映射</h2>
+      <p class="hint">把编制词或模糊词放在这里：例如 Piano 只有与 Ambient 或 Jazz/Soul 同现时才增强某一类别。</p>
+      <div class="rule-list" id="combinationRules"></div>
+      <p><button class="button" id="addCombination" type="button">+ 新增组合映射</button></p>
+    </section>
+    <section class="section">
+      <h2>艺人校准</h2>
+      <h3>置信度校准</h3>
+      <p class="hint">只在指定艺人已命中指定风格时，微调候选置信度。它不能替代曲目或专辑证据，也不会自动写入正式标签。</p>
+      <div class="rule-list" id="artistCalibrations"></div>
+      <p><button class="button" id="addArtistCalibration" type="button">+ 新增艺人校准</button></p>
+      <h3>艺人／专辑风格先验</h3>
+      <p class="hint">把人工复盘中稳定的归类写成候选竞争分。可选地限制到一张专辑；先验会改变候选风格，但不会提高来源层级或自动写入正式标签。</p>
+      <div class="rule-list" id="artistGenreCalibrations"></div>
+      <p><button class="button" id="addArtistGenreCalibration" type="button">+ 新增风格先验</button></p>
+      <h3>艺人复核政策</h3>
+      <p class="hint">不改变候选分数：用于声明某些艺人的风格边界可接受，或某些候选必须暂缓人工复核。</p>
+      <div class="rule-list" id="artistReviewPolicies"></div>
+      <p><button class="button" id="addArtistReviewPolicy" type="button">+ 新增复核政策</button></p>
+    </section>
+    <section class="section">
+      <h2>弱信号词</h2>
+      <p class="hint">记录“为什么不能单独判断”，防止后续规则把泛标签强行塞入某个风格。</p>
+      <table class="weak-table"><thead><tr><th>原始词</th><th>说明</th><th></th></tr></thead><tbody id="weakTerms"></tbody></table>
+      <p><button class="button" id="addWeak" type="button">+ 新增弱信号词</button></p>
+    </section>
+    <section class="section">
+      <h2>忽略词与维护原则</h2>
+      <p class="hint">忽略词不会参与风格判断。维护原则会同时保存到映射 JSON。</p>
+      <div class="field"><label for="ignoredTerms">忽略词（用逗号分隔）</label><textarea id="ignoredTerms" rows="3"></textarea></div>
+      <div class="field" style="margin-top:10px"><label for="updatePolicy">更新原则</label><textarea id="updatePolicy" rows="3"></textarea></div>
+      <div class="field" style="margin-top:10px"><label for="reviewThreshold">复核阈值说明</label><textarea id="reviewThreshold" rows="3"></textarea></div>
+    </section>
+    <p class="footer">这是可直接双击打开的离线页面：选择 <code>song_tag_mapping.json</code> 后编辑。支持 File System Access 的浏览器会在保存时请求写入权限并原位更新文件；其他浏览器会下载更新后的 JSON，手动替换原文件即可。</p>
+  </main>
+  <div class="toast" id="toast" role="status"></div>
+  <script>
+  (() => {
+    const $ = id => document.getElementById(id);
+    const state = { data: null, dirty: false, fileHandle: null, fileName: "" };
+    const statuses = ["proposed", "verified", "deprecated"];
+    const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[char]));
+    const splitTerms = value => [...new Set(String(value || "").split(/[,，\n]/).map(item => item.trim()).filter(Boolean))];
+    const joinTerms = value => Array.isArray(value) ? value.join(", ") : "";
+    const today = () => new Date().toISOString().slice(0, 10);
+    function toast(message, error = false) { const node = $("toast"); node.textContent = message; node.className = `toast show${error ? " error" : ""}`; clearTimeout(toast.timer); toast.timer = setTimeout(() => { node.className = "toast"; }, 3600); }
+    function setControls(enabled) { ["save", "reload", "export"].forEach(id => { $(id).disabled = !enabled; }); }
+    function markDirty() { state.dirty = true; $("saveState").textContent = "有未保存修改"; $("saveState").className = "save-state dirty"; }
+    function markSaved(label = "已载入") { state.dirty = false; $("saveState").textContent = `${label} · ${state.fileName || "song_tag_mapping.json"}`; $("saveState").className = "save-state"; }
+    function selectOptions(selected) { return statuses.map(status => `<option value="${status}" ${status === selected ? "selected" : ""}>${status}</option>`).join(""); }
+    function genreOptions(selected) { return state.data.genres.map(genre => `<option value="${escapeHtml(genre)}" ${genre === selected ? "selected" : ""}>${escapeHtml(genre)}</option>`).join(""); }
+    function bindValue(node, handler) { node.addEventListener("input", event => { handler(event.target.value); markDirty(); }); node.addEventListener("change", event => { handler(event.target.value); markDirty(); }); }
+    function ruleCard(kind, rule, index) {
+      const isDirect = kind === "direct_rules";
+      const termsKey = isDirect ? "match_any" : "match_all";
+      const card = document.createElement("article"); card.className = "rule";
+      card.innerHTML = `<div class="rule-head"><span class="status-dot"></span><strong>${isDirect ? "直接规则" : "组合规则"}</strong><span class="rule-num">#${index + 1}</span><button class="button remove" type="button">删除</button></div><div class="rule-grid ${isDirect ? "" : "wide"}"><div class="field"><label>规则 ID</label><input data-key="id" value="${escapeHtml(rule.id)}"></div><div class="field"><label>目标风格</label><select data-key="target">${genreOptions(rule.target)}</select></div><div class="field"><label>分数（0–10）</label><input data-key="score" type="number" min="0.1" max="10" step="0.1" value="${escapeHtml(rule.score)}"></div><div class="field"><label>状态</label><select data-key="status">${selectOptions(rule.status)}</select></div><div class="field ${isDirect ? "full" : ""}"><label>${isDirect ? "匹配任一词" : "必须同时存在"}</label><input data-key="${termsKey}" value="${escapeHtml(joinTerms(rule[termsKey]))}" placeholder="用逗号分隔"></div>${isDirect ? "" : `<div class="field full"><label>还需至少出现一个上下文词</label><input data-key="require_any" value="${escapeHtml(joinTerms(rule.require_any))}" placeholder="用逗号分隔；留空表示不需要"></div>`}<div class="field full"><label>判断说明</label><textarea data-key="note" rows="2">${escapeHtml(rule.note)}</textarea></div></div>`;
+      card.querySelectorAll("[data-key]").forEach(input => bindValue(input, value => { const key = input.dataset.key; rule[key] = [termsKey, "require_any"].includes(key) ? splitTerms(value) : key === "score" ? Number(value) : value; }));
+      card.querySelector(".remove").addEventListener("click", () => { state.data[kind].splice(index, 1); markDirty(); renderRules(); });
+      return card;
+    }
+    function renderRules() { const direct = $("directRules"), combo = $("combinationRules"); direct.replaceChildren(...state.data.direct_rules.map((rule, index) => ruleCard("direct_rules", rule, index))); combo.replaceChildren(...state.data.combination_rules.map((rule, index) => ruleCard("combination_rules", rule, index))); }
+    function calibrationCard(rule, index) {
+      const card = document.createElement("article"); card.className = "rule";
+      card.innerHTML = `<div class="rule-head"><span class="status-dot"></span><strong>艺人置信度校准</strong><span class="rule-num">#${index + 1}</span><button class="button remove" type="button">删除</button></div><div class="rule-grid wide"><div class="field"><label>规则 ID</label><input data-key="id" value="${escapeHtml(rule.id)}"></div><div class="field"><label>艺人（可填多个别名）</label><input data-key="artist_match_any" value="${escapeHtml(joinTerms(rule.artist_match_any))}" placeholder="用逗号分隔"></div><div class="field"><label>目标风格</label><select data-key="target">${genreOptions(rule.target)}</select></div><div class="field"><label>加成（0–1）</label><input data-key="confidence_delta" type="number" min="0.01" max="0.5" step="0.01" value="${escapeHtml(rule.confidence_delta)}"></div><div class="field"><label>最高置信度（0–1）</label><input data-key="max_confidence" type="number" min="0.01" max="1" step="0.01" value="${escapeHtml(rule.max_confidence)}"></div><div class="field"><label>状态</label><select data-key="status">${selectOptions(rule.status)}</select></div><div class="field full"><label>判断说明</label><textarea data-key="note" rows="2">${escapeHtml(rule.note)}</textarea></div></div>`;
+      card.querySelectorAll("[data-key]").forEach(input => bindValue(input, value => { const key = input.dataset.key; rule[key] = key === "artist_match_any" ? splitTerms(value) : ["confidence_delta", "max_confidence"].includes(key) ? Number(value) : value; }));
+      card.querySelector(".remove").addEventListener("click", () => { state.data.artist_confidence_adjustments.splice(index, 1); markDirty(); renderArtistCalibrations(); });
+      return card;
+    }
+    function renderArtistCalibrations() { const rules = state.data.artist_confidence_adjustments || []; state.data.artist_confidence_adjustments = rules; $("artistCalibrations").replaceChildren(...rules.map((rule, index) => calibrationCard(rule, index))); }
+    function genreCalibrationCard(rule, index) {
+      const card = document.createElement("article"); card.className = "rule";
+      card.innerHTML = `<div class="rule-head"><span class="status-dot"></span><strong>艺人／专辑风格先验</strong><span class="rule-num">#${index + 1}</span><button class="button remove" type="button">删除</button></div><div class="rule-grid wide"><div class="field"><label>规则 ID</label><input data-key="id" value="${escapeHtml(rule.id)}"></div><div class="field"><label>艺人（可填多个别名）</label><input data-key="artist_match_any" value="${escapeHtml(joinTerms(rule.artist_match_any))}" placeholder="用逗号分隔"></div><div class="field"><label>限定专辑（可留空）</label><input data-key="album_match_any" value="${escapeHtml(joinTerms(rule.album_match_any))}" placeholder="用逗号分隔"></div><div class="field"><label>目标风格</label><select data-key="target">${genreOptions(rule.target)}</select></div><div class="field"><label>先验分（0–10）</label><input data-key="score_bonus" type="number" min="0.1" max="10" step="0.05" value="${escapeHtml(rule.score_bonus)}"></div><div class="field"><label>状态</label><select data-key="status">${selectOptions(rule.status)}</select></div><div class="field full"><label>判断说明</label><textarea data-key="note" rows="2">${escapeHtml(rule.note)}</textarea></div></div>`;
+      card.querySelectorAll("[data-key]").forEach(input => bindValue(input, value => { const key = input.dataset.key; rule[key] = ["artist_match_any", "album_match_any"].includes(key) ? splitTerms(value) : key === "score_bonus" ? Number(value) : value; }));
+      card.querySelector(".remove").addEventListener("click", () => { state.data.artist_genre_calibrations.splice(index, 1); markDirty(); renderArtistGenreCalibrations(); });
+      return card;
+    }
+    function renderArtistGenreCalibrations() { const rules = state.data.artist_genre_calibrations || []; state.data.artist_genre_calibrations = rules; $("artistGenreCalibrations").replaceChildren(...rules.map((rule, index) => genreCalibrationCard(rule, index))); }
+    function policyActionOptions(selected) { return [["accepted", "正常可接受"], ["boundary_accepted", "边界可接受"], ["deferred", "暂缓人工复核"]].map(([value, label]) => `<option value="${value}" ${value === selected ? "selected" : ""}>${label}</option>`).join(""); }
+    function reviewPolicyCard(rule, index) {
+      const card = document.createElement("article"); card.className = "rule";
+      card.innerHTML = `<div class="rule-head"><span class="status-dot"></span><strong>艺人复核政策</strong><span class="rule-num">#${index + 1}</span><button class="button remove" type="button">删除</button></div><div class="rule-grid wide"><div class="field"><label>规则 ID</label><input data-key="id" value="${escapeHtml(rule.id)}"></div><div class="field"><label>艺人（可填多个别名）</label><input data-key="artist_match_any" value="${escapeHtml(joinTerms(rule.artist_match_any))}" placeholder="用逗号分隔"></div><div class="field"><label>可接受风格</label><input data-key="accepted_genres" value="${escapeHtml(joinTerms(rule.accepted_genres))}" placeholder="精确输入风格名，用逗号分隔"></div><div class="field"><label>命中可接受风格时</label><select data-key="on_accepted">${policyActionOptions(rule.on_accepted || "accepted")}</select></div><div class="field"><label>不可接受风格</label><input data-key="rejected_genres" value="${escapeHtml(joinTerms(rule.rejected_genres))}" placeholder="精确输入风格名，用逗号分隔"></div><div class="field"><label>命中不可接受风格时</label><select data-key="on_rejected">${policyActionOptions(rule.on_rejected || "deferred")}</select></div><div class="field"><label>状态</label><select data-key="status">${selectOptions(rule.status)}</select></div><div class="field full"><label>判断说明</label><textarea data-key="note" rows="2">${escapeHtml(rule.note)}</textarea></div></div>`;
+      card.querySelectorAll("[data-key]").forEach(input => bindValue(input, value => { const key = input.dataset.key; rule[key] = ["artist_match_any", "accepted_genres", "rejected_genres"].includes(key) ? splitTerms(value) : value; }));
+      card.querySelector(".remove").addEventListener("click", () => { state.data.artist_review_policies.splice(index, 1); markDirty(); renderArtistReviewPolicies(); });
+      return card;
+    }
+    function renderArtistReviewPolicies() { const rules = state.data.artist_review_policies || []; state.data.artist_review_policies = rules; $("artistReviewPolicies").replaceChildren(...rules.map((rule, index) => reviewPolicyCard(rule, index))); }
+    function renderWeakTerms() { const body = $("weakTerms"); body.replaceChildren(...state.data.weak_terms.map((item, index) => { const row = document.createElement("tr"); row.innerHTML = `<td><input class="inline-input" value="${escapeHtml(item.term)}"></td><td><input value="${escapeHtml(item.reason)}"></td><td><button class="button remove" type="button">删除</button></td>`; const inputs = row.querySelectorAll("input"); bindValue(inputs[0], value => { item.term = value; }); bindValue(inputs[1], value => { item.reason = value; }); row.querySelector("button").addEventListener("click", () => { state.data.weak_terms.splice(index, 1); markDirty(); renderWeakTerms(); }); return row; })); }
+    function render() { const data = state.data; $("version").value = data.version || ""; $("description").value = data.description || ""; $("ignoredTerms").value = joinTerms(data.ignored_terms); $("updatePolicy").value = data.maintenance?.update_policy || ""; $("reviewThreshold").value = data.maintenance?.review_threshold || ""; $("genres").innerHTML = data.genres.map(genre => `<span class="chip">${escapeHtml(genre)}</span>`).join(""); renderRules(); renderArtistCalibrations(); renderArtistGenreCalibrations(); renderArtistReviewPolicies(); renderWeakTerms(); setControls(true); markSaved(); }
+    function newRule(kind) { const number = state.data[kind].length + 1; const base = { id: `${kind === "direct_rules" ? "new-direct" : "new-combination"}-${number}`, target: state.data.genres[0], score: 3, status: "proposed", note: "" }; if (kind === "direct_rules") base.match_any = []; else { base.match_all = []; base.require_any = []; } state.data[kind].push(base); markDirty(); renderRules(); }
+    function newArtistCalibration() { const rules = state.data.artist_confidence_adjustments || (state.data.artist_confidence_adjustments = []); rules.push({ id: `artist-calibration-${rules.length + 1}`, artist_match_any: [], target: state.data.genres[0], confidence_delta: 0.05, max_confidence: 0.70, status: "proposed", note: "" }); markDirty(); renderArtistCalibrations(); }
+    function newArtistGenreCalibration() { const rules = state.data.artist_genre_calibrations || (state.data.artist_genre_calibrations = []); rules.push({ id: `artist-genre-prior-${rules.length + 1}`, artist_match_any: [], album_match_any: [], target: state.data.genres[0], score_bonus: 2, status: "proposed", note: "" }); markDirty(); renderArtistGenreCalibrations(); }
+    function newArtistReviewPolicy() { const rules = state.data.artist_review_policies || (state.data.artist_review_policies = []); rules.push({ id: `artist-review-policy-${rules.length + 1}`, artist_match_any: [], accepted_genres: [], rejected_genres: [], on_accepted: "accepted", on_rejected: "deferred", status: "proposed", note: "" }); markDirty(); renderArtistReviewPolicies(); }
+    function artistReviewPolicyErrors() { const errors = [], ids = new Set(), actions = new Set(["accepted", "boundary_accepted", "deferred"]); (state.data.artist_review_policies || []).forEach((rule, index) => { const name = `艺人复核政策 #${index + 1}`; if (!rule.id?.trim()) errors.push(`${name} 缺少规则 ID`); if (ids.has(rule.id)) errors.push(`${name} 的规则 ID 重复`); ids.add(rule.id); if (!rule.artist_match_any?.length) errors.push(`${name} 至少需要一个艺人名`); for (const genre of [...(rule.accepted_genres || []), ...(rule.rejected_genres || [])]) if (!state.data.genres.includes(genre)) errors.push(`${name} 包含无效风格：${genre}`); if (!(rule.accepted_genres?.length || rule.rejected_genres?.length)) errors.push(`${name} 至少填写一项风格`); if (rule.on_accepted && !actions.has(rule.on_accepted)) errors.push(`${name} 的可接受动作无效`); if (rule.on_rejected && !actions.has(rule.on_rejected)) errors.push(`${name} 的不可接受动作无效`); if (!statuses.includes(rule.status)) errors.push(`${name} 的状态无效`); }); return errors; }
+    function collectTopFields() { state.data.version = $("version").value.trim(); state.data.description = $("description").value.trim(); state.data.ignored_terms = splitTerms($("ignoredTerms").value); state.data.maintenance = { ...(state.data.maintenance || {}), rule_status: statuses, update_policy: $("updatePolicy").value.trim(), review_threshold: $("reviewThreshold").value.trim() }; }
+    function clientErrors() { collectTopFields(); const errors = []; if (!state.data.version) errors.push("请填写映射版本"); for (const [kind, label] of [["direct_rules", "直接规则"], ["combination_rules", "组合规则"]]) { const ids = new Set(); state.data[kind].forEach((rule, index) => { const name = `${label} #${index + 1}`; if (!rule.id?.trim()) errors.push(`${name} 缺少规则 ID`); if (ids.has(rule.id)) errors.push(`${name} 的规则 ID 重复`); ids.add(rule.id); if (!state.data.genres.includes(rule.target)) errors.push(`${name} 的目标风格无效`); if (!statuses.includes(rule.status)) errors.push(`${name} 的状态无效`); if (!(Number(rule.score) > 0 && Number(rule.score) <= 10)) errors.push(`${name} 的分数必须在 0–10 之间`); const terms = kind === "direct_rules" ? rule.match_any : rule.match_all; if (!terms?.length) errors.push(`${name} 至少需要一个${kind === "direct_rules" ? "匹配词" : "必需词"}`); }); } const ids = new Set(); (state.data.artist_confidence_adjustments || []).forEach((rule, index) => { const name = `艺人校准 #${index + 1}`; if (!rule.id?.trim()) errors.push(`${name} 缺少规则 ID`); if (ids.has(rule.id)) errors.push(`${name} 的规则 ID 重复`); ids.add(rule.id); if (!rule.artist_match_any?.length) errors.push(`${name} 至少需要一个艺人名`); if (!state.data.genres.includes(rule.target)) errors.push(`${name} 的目标风格无效`); if (!statuses.includes(rule.status)) errors.push(`${name} 的状态无效`); if (!(Number(rule.confidence_delta) > 0 && Number(rule.confidence_delta) <= 0.5)) errors.push(`${name} 的加成必须在 0–0.5 之间`); if (!(Number(rule.max_confidence) > 0 && Number(rule.max_confidence) <= 1)) errors.push(`${name} 的最高置信度必须在 0–1 之间`); }); const genreIds = new Set(); (state.data.artist_genre_calibrations || []).forEach((rule, index) => { const name = `风格先验 #${index + 1}`; if (!rule.id?.trim()) errors.push(`${name} 缺少规则 ID`); if (genreIds.has(rule.id)) errors.push(`${name} 的规则 ID 重复`); genreIds.add(rule.id); if (!rule.artist_match_any?.length) errors.push(`${name} 至少需要一个艺人名`); if (!state.data.genres.includes(rule.target)) errors.push(`${name} 的目标风格无效`); if (!statuses.includes(rule.status)) errors.push(`${name} 的状态无效`); if (!(Number(rule.score_bonus) > 0 && Number(rule.score_bonus) <= 10)) errors.push(`${name} 的先验分必须在 0–10 之间`); }); return errors; }
+    function jsonText() { return JSON.stringify(state.data, null, 2) + "\n"; }
+    function exportJson(message = "已下载更新后的 JSON 副本。") { if (!state.data) return; collectTopFields(); const url = URL.createObjectURL(new Blob([jsonText()], { type: "application/json" })); const link = document.createElement("a"); link.href = url; link.download = "song_tag_mapping.json"; link.click(); setTimeout(() => URL.revokeObjectURL(url), 1000); toast(message); }
+    async function loadFile(file, handle = null) { const incoming = JSON.parse(await file.text()); if (incoming.schema_version !== "songbase.tag-mapping/v1") throw new Error("不是 SongTag 映射 JSON"); if (!Array.isArray(incoming.genres) || !Array.isArray(incoming.direct_rules) || !Array.isArray(incoming.combination_rules)) throw new Error("映射 JSON 缺少必要字段"); state.data = incoming; state.fileHandle = handle; state.fileName = file.name || "song_tag_mapping.json"; render(); toast(handle ? "已取得本地文件写入权限。" : "已载入 JSON；保存时会下载更新后的版本。", false); }
+    async function openMapping() { if (state.dirty && !confirm("载入会替换当前未保存修改，继续吗？")) return; if ("showOpenFilePicker" in window) { try { const [handle] = await window.showOpenFilePicker({ multiple: false, types: [{ description: "SongTag 映射 JSON", accept: { "application/json": [".json"] } }] }); await loadFile(await handle.getFile(), handle); return; } catch (error) { if (error.name === "AbortError") return; }
+      toast("浏览器未授予原位写入权限；已切换到普通文件选择。", false);
+    }
+    $("importFile").click();
+    }
+    async function save() { const errors = [...clientErrors(), ...artistReviewPolicyErrors()]; if (errors.length) { toast(errors.slice(0, 3).join("；"), true); return; } state.data.updated_at = today(); if (!state.fileHandle) { exportJson("浏览器没有原位写入权限，已下载更新后的 JSON；请替换原文件。"); markSaved("已导出"); return; } try { const writable = await state.fileHandle.createWritable(); await writable.write(jsonText()); await writable.close(); markSaved("已保存"); toast("已原位更新 song_tag_mapping.json。"); } catch (error) { toast("无法原位保存，已改为下载 JSON 副本。", true); exportJson("已下载更新后的 JSON；请替换原文件。"); markSaved("已导出"); } }
+    async function reload() { if (state.dirty && !confirm("放弃当前未保存修改并重新载入吗？")) return; if (state.fileHandle) { try { await loadFile(await state.fileHandle.getFile(), state.fileHandle); return; } catch (error) { toast("无法重新读取该文件，请重新选择。", true); } } openMapping(); }
+    $("open").addEventListener("click", openMapping); $("save").addEventListener("click", save); $("reload").addEventListener("click", reload); $("export").addEventListener("click", () => exportJson()); $("importFile").addEventListener("change", async event => { const file = event.target.files?.[0]; if (!file) return; try { await loadFile(file); } catch (error) { toast(error.message || "JSON 无法载入", true); } finally { event.target.value = ""; } }); $("addDirect").addEventListener("click", () => newRule("direct_rules")); $("addCombination").addEventListener("click", () => newRule("combination_rules")); $("addArtistCalibration").addEventListener("click", newArtistCalibration); $("addArtistGenreCalibration").addEventListener("click", newArtistGenreCalibration); $("addArtistReviewPolicy").addEventListener("click", newArtistReviewPolicy); $("addWeak").addEventListener("click", () => { state.data.weak_terms.push({ term: "", reason: "" }); markDirty(); renderWeakTerms(); }); ["version", "description", "ignoredTerms", "updatePolicy", "reviewThreshold"].forEach(id => $(id).addEventListener("input", markDirty));
+  })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+  "song_tag_candidates.json": "6c0624eff0b11c63f1dcbad4f789ba60a1c9f4a7b23c3ab570ee7183aba985bb",
+  "song_tag_mapping.json": "5bc6e96191348aff87ed096666e61290f350dcbf9b944e418cf065858ac7dcf5",
+  "song_identity_aliases.json": "fc2f616927ced1fde7038e60672471a00bf0558dbe97bae526caff0803f2dd7c",
+  "歌曲特征.json": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea",
+  "new_albums_config.json": "e237323dd270f606584b3244db2b01a6a7d1639dc02cc6cf594b700e0b5afa44",
+  "待重录清单.json": "a7350c8f40a91a13fc58df12004d143bbc28ed34f7c73a6e38d6f92aa23ef1ca",
+  "待舍弃归档清单.json": "372810ec306f42be2eb010fb75418578f80a926db357bd5016182086f3bd43a5",
+  "archive/removed_tracks/discarded_tracks.json": "5ad2a93c75b975e66b09325ec441376e1594055ea2e53f535b8b5ce42b1547a5"
+}
