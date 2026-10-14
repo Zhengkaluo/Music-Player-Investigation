@@ -50,12 +50,21 @@ class MacOSMonitor:
         self.latest = None
         self.last_device = {"deviceId": "macos-pending", "deviceName": "等待 Core Audio"}
         self.error = None
+        self.volume_test_session = None
+        self.last_observed_volume = None
+        self.last_program_volume = None
+        self.last_program_at = 0.0
         self.worker = None
         if start_worker:
             self.worker = threading.Thread(target=self._supervise, name="macos-audio-monitor", daemon=True)
             self.worker.start()
 
     def close(self):
+        if self.volume_test_session:
+            try:
+                self.manual_volume_test("restore")
+            except RuntimeError:
+                pass
         self.stop_event.set()
         with self.lock:
             process = self.process
@@ -128,22 +137,40 @@ class MacOSMonitor:
             message = deepcopy(self.latest)
             device = deepcopy(self.last_device)
             error = self.error
+            volume = None if message is None else message.get("systemVolume")
+            manual_changed = (volume is not None and self.last_observed_volume is not None
+                              and abs(volume - self.last_observed_volume) > 0.05
+                              and not (self.last_program_volume is not None
+                                       and abs(volume - self.last_program_volume) <= 0.6
+                                       and time.monotonic() - self.last_program_at <= 2))
+            if volume is not None:
+                self.last_observed_volume = volume
         stale = (message is None or
                  float(timestamp_ms) - float(message.get("timestampMs", 0)) > 2000)
-        volume = None if message is None else message.get("systemVolume")
         return {
             "timestampMs": float(timestamp_ms),
+            "platform": self.platform,
             "deviceId": device["deviceId"],
             "deviceName": device["deviceName"],
+            "environmentFingerprint": "macos:%s" % platform.mac_ver()[0],
+            "deviceTransport": None if message is None else message.get("deviceTransport"),
             "systemVolume": volume,
-            "shortTermLufs": None,
-            "momentaryLufs": None,
+            "systemVolumeDb": None if message is None else message.get("systemVolumeDb"),
+            "volumeDbMin": None if message is None else message.get("volumeDbMin"),
+            "volumeDbMax": None if message is None else message.get("volumeDbMax"),
+            "volumeDbStep": None if message is None else message.get("volumeDbStep"),
+            "outputAttenuationDb": None if message is None else message.get("outputAttenuationDb"),
+            "volumeDbSource": None if message is None else message.get("volumeDbSource"),
+            "volumeDbMappingReliable": False if message is None else bool(message.get("volumeDbMappingReliable")),
+            "captureResponse": "unknown",
+            "shortTermLufs": None if message is None else message.get("shortTermLufs"),
+            "momentaryLufs": None if message is None else message.get("momentaryLufs"),
             "rmsDbfs": None if message is None or message.get("event") != "meter" else message.get("rmsDbfs"),
             "peakDbfs": None if message is None or message.get("event") != "meter" else message.get("peakDbfs"),
             "isSilent": message is not None and message.get("rmsDbfs", 0) <= -90,
             "captureAvailable": not stale,
-            "volumeControllable": False,
-            "manualVolumeChanged": False,
+            "volumeControllable": False if message is None else bool(message.get("volumeWritableCapability")),
+            "manualVolumeChanged": manual_changed,
             "scenarioId": None,
             "scenarioLabel": "真实系统输出",
             "volumeReadable": False if message is None else bool(message.get("volumeReadable")),
@@ -155,5 +182,51 @@ class MacOSMonitor:
             "droppedFrames": None if message is None else message.get("droppedFrames"),
             "maxCallbackSeconds": None if message is None else message.get("maxCallbackSeconds"),
             "maxCallbackIntervalSeconds": None if message is None else message.get("maxCallbackIntervalSeconds"),
+            "peakGuard": None if message is None else message.get("peakGuard"),
             "error": "等待第一批音频数据" if message is None and error is None else error,
         }
+
+    def _volume_command(self, *arguments):
+        result = subprocess.run([self.command[0], *map(str, arguments)], capture_output=True,
+                                text=True, timeout=5)
+        lines = [line for line in result.stdout.splitlines() if line.strip()]
+        message = json.loads(lines[-1]) if lines else {}
+        if message.get("schemaVersion") != SCHEMA:
+            raise RuntimeError("未知 macOS 音量命令响应")
+        if result.returncode or message.get("event") == "error":
+            raise RuntimeError(message.get("message") or result.stderr.strip()
+                               or "macOS 音量命令失败")
+        return message
+
+    def recommended_volume(self, target_db):
+        result = self._volume_command("--volume-convert-db", target_db)
+        return float(result["targetVolume"])
+
+    def manual_volume_test(self, action, step=1.0):
+        with self.lock:
+            if action == "lower":
+                if self.volume_test_session:
+                    raise RuntimeError("上一次测试音量尚未恢复")
+                result = self._volume_command("--volume-lower", step)
+                self.volume_test_session = {
+                    "deviceId": result["deviceId"],
+                    "baseline": result["beforeVolume"],
+                    "written": result["appliedVolume"],
+                }
+                self.last_program_volume = result["appliedVolume"]
+                self.last_program_at = time.monotonic()
+                return result
+            if action == "restore":
+                if not self.volume_test_session:
+                    raise RuntimeError("没有待恢复的测试音量")
+                session = self.volume_test_session
+                try:
+                    result = self._volume_command(
+                        "--volume-restore", session["baseline"], session["written"],
+                        "--device", session["deviceId"])
+                finally:
+                    self.volume_test_session = None
+                self.last_program_volume = result["appliedVolume"]
+                self.last_program_at = time.monotonic()
+                return result
+            raise ValueError("未知音量测试动作")

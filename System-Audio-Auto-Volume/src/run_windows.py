@@ -1,4 +1,4 @@
-"""Windows-only entry point for the read-only system audio monitor."""
+"""Windows entry point for monitoring and explicit M6 manual volume tests."""
 
 import argparse
 from pathlib import Path
@@ -23,7 +23,7 @@ def main():
         WindowsMonitor(),
         args.settings or ROOT / "runtime" / "windows-settings.json",
         args.port,
-        "M4 Windows 真实只读监控：读取 WASAPI loopback 和 EndpointVolume，绝不写入音量。",
+        "M8a Windows：真实影子建议不执行；只有界面人工测试按钮可以小幅写入并安全恢复音量。",
     )
 
 

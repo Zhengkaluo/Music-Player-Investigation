@@ -44,7 +44,7 @@
     main { padding: 18px; }
     .notice { padding: 10px 12px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); font-size: 13px; margin-bottom: 12px; }
     .error { display: none; padding: 10px 12px; margin-bottom: 12px; border-radius: 10px; background: light-dark(#fff0e7, #43271b); color: var(--warn); font-size: 13px; }
-    .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
     .card { background: var(--panel); border: 1px solid var(--border); border-radius: 14px; }
     .metric { padding: 16px; }
     .label { font-size: 12px; }
@@ -57,6 +57,13 @@
     .panel-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
     h2 { font-size: 15px; margin: 0; }
     canvas { width: 100%; height: 280px; display: block; margin-top: 12px; }
+    .chart-legend { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 7px; color: var(--muted); font-size: 11px; }
+    .legend-item { display: inline-flex; align-items: center; gap: 6px; }
+    .legend-line, .legend-band { width: 18px; height: 3px; border-radius: 2px; background: var(--accent); }
+    .legend-effective { background: var(--good); height: 4px; }
+    .legend-trigger { background: #d45b74; height: 2px; }
+    .legend-volume { background: var(--warn); height: 2px; }
+    .legend-band { height: 9px; background: color-mix(in srgb, var(--good) 24%, transparent); }
     .chart-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 8px; }
     .scenario-buttons { display: flex; gap: 7px; flex-wrap: wrap; }
     .scenario-buttons[hidden], button[hidden] { display: none; }
@@ -67,6 +74,7 @@
     .field input, .field select { width: 100%; }
     .field-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; }
     .settings-actions { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: 14px; }
+    .test-actions { display: flex; gap: 7px; flex-wrap: wrap; }
     .events { margin-top: 12px; overflow: hidden; }
     .events h2 { padding: 14px 16px 8px; }
     .event-list { list-style: none; padding: 0 16px 12px; margin: 0; }
@@ -102,36 +110,52 @@
       <section class="metrics" aria-label="当前监控值">
         <article class="card metric"><div class="label" id="loudness-label">模拟 Short-term loudness</div><div class="value" id="loudness">— <small id="loudness-unit">LUFS</small></div><div class="meta" id="levels">等待监测数据</div></article>
         <article class="card metric"><div class="label" id="volume-label">当前模拟系统音量</div><div class="value" id="volume">—<small>%</small></div><div class="meta" id="baseline">用户基准 —</div></article>
-        <article class="card metric"><div class="label">自动修正</div><div class="value negative" id="correction">— <small>个百分点</small></div><div class="meta" id="reason">等待控制器</div></article>
+        <article class="card metric"><div class="label" id="correction-label">自动修正</div><div class="value negative" id="correction">— <small id="correction-unit">个百分点</small></div><div class="meta" id="reason">等待控制器</div></article>
+        <article class="card metric"><div class="label">Peak Guard · 只记录</div><div class="value negative" id="peak-guard">— <small>dB</small></div><div class="meta" id="peak-guard-detail">等待快速峰值数据</div></article>
       </section>
 
       <div class="layout">
         <section class="card chart-panel" aria-labelledby="history-title">
           <div class="panel-head"><div><h2 id="history-title">最近 60 秒</h2><div class="sub" id="chart-subtitle">模拟响度、目标区间和系统音量</div></div><div class="sub" id="scenario">—</div></div>
           <canvas id="chart" role="img" aria-label="最近六十秒模拟响度与系统音量趋势"></canvas>
+          <div class="chart-legend" aria-label="图表图例"><span class="legend-item"><i class="legend-line"></i>源 Short-term</span><span class="legend-item"><i class="legend-line legend-effective"></i>输出估算（控制依据）</span><span class="legend-item"><i class="legend-band"></i>输出估算目标区间</span><span class="legend-item"><i class="legend-line legend-trigger"></i>开始降低触发线</span><span class="legend-item"><i class="legend-line legend-volume"></i>系统音量趋势（非 LUFS 轴）</span></div>
           <div class="chart-foot"><div class="note" id="target-note">目标区间 —</div><div class="scenario-buttons" id="simulation-controls" aria-label="模拟场景"><button data-scenario="normal">目标范围</button><button data-scenario="loud">持续偏响</button><button data-scenario="quiet">持续偏轻</button><button data-scenario="peak">短峰值</button><button data-scenario="fade">渐弱</button><button data-scenario="silence">静音</button></div></div>
         </section>
 
         <section class="card settings" aria-labelledby="settings-title">
-          <div class="panel-head"><div><h2 id="settings-title">控制设置</h2><div class="sub" id="settings-subtitle">服务端会重新校验所有输入</div></div></div>
+          <div class="panel-head"><div><h2 id="settings-title">控制设置</h2><div class="sub" id="settings-subtitle">服务端会重新校验所有输入</div></div><button type="button" id="suggest-settings" hidden>按最近 15 秒生成起始参数</button></div>
           <form id="settings-form">
             <div class="settings-grid">
-              <div class="field"><label for="trigger">触发响度 LUFS</label><input id="trigger" type="number" min="-70" max="0" step="0.5" required></div>
+              <div class="field"><label for="trigger">输出估算触发响度 LUFS</label><input id="trigger" type="number" min="-70" max="0" step="0.5" required></div>
               <div class="field"><label for="silence">静音门 dBFS</label><input id="silence" type="number" min="-100" max="-20" step="1" required></div>
-              <div class="field full"><label>目标响度区间 LUFS</label><div class="field-pair"><input id="target-low" aria-label="目标响度下沿" type="number" min="-70" max="0" step="0.5" required><input id="target-high" aria-label="目标响度上沿" type="number" min="-70" max="0" step="0.5" required></div></div>
+              <div class="field full"><label>输出估算目标区间 LUFS</label><div class="field-pair"><input id="target-low" aria-label="目标响度下沿" type="number" min="-70" max="0" step="0.5" required><input id="target-high" aria-label="目标响度上沿" type="number" min="-70" max="0" step="0.5" required></div></div>
               <div class="field full"><label>系统音量范围 %</label><div class="field-pair"><input id="volume-min" aria-label="最低系统音量" type="number" min="0" max="100" step="1" required><input id="volume-max" aria-label="最高系统音量" type="number" min="0" max="100" step="1" required></div></div>
-              <div class="field"><label for="lower-step">每次压低 %</label><input id="lower-step" type="number" min="0.1" max="20" step="0.5" required></div>
-              <div class="field"><label for="lower-wait">偏响持续秒数</label><input id="lower-wait" type="number" min="0.25" max="60" step="0.25" required></div>
-              <div class="field"><label for="recovery-step">每次恢复 %</label><input id="recovery-step" type="number" min="0.1" max="10" step="0.5" required></div>
+              <input id="lower-step" type="hidden">
+              <div class="field"><label for="lower-gain">偏差转下降比例</label><input id="lower-gain" type="number" min="0.1" max="1" step="0.1" required></div>
+              <div class="field"><label for="lower-rate">每秒最多下降 dB</label><input id="lower-rate" type="number" min="0.1" max="12" step="0.1" required></div>
+              <div class="field"><label for="lower-db-step">最小下降建议 dB</label><input id="lower-db-step" type="number" min="0.1" max="3" step="0.05" required></div>
+              <div class="field"><label for="lower-wait">偏响证据窗口秒数</label><input id="lower-wait" type="number" min="0.25" max="60" step="0.25" required></div>
+              <div class="field"><label for="sustain-ratio">窗口超阈值比例 %</label><input id="sustain-ratio" type="number" min="50" max="100" step="1" required></div>
+              <div class="field"><label for="recovery-step">每次恢复 %</label><input id="recovery-step" type="number" min="0.1" max="10" step="0.1" required></div>
               <div class="field"><label for="recovery-wait">偏轻持续秒数</label><input id="recovery-wait" type="number" min="1" max="300" step="1" required></div>
               <div class="field full"><label for="override">手动调节后让路秒数</label><input id="override" type="number" min="0" max="600" step="1" required></div>
             </div>
-            <div class="settings-actions"><button type="button" id="switch-device">模拟切换设备</button><button class="primary" type="submit">保存设置</button></div>
+            <div class="settings-actions"><div class="test-actions"><button type="button" id="switch-device">模拟切换设备</button><button type="button" id="test-volume" hidden>测试降低 1 个百分点</button><button type="button" id="restore-volume" hidden>安全恢复</button></div><button class="primary" type="submit">保存设置</button></div>
           </form>
+          <div id="calibration-panel" hidden>
+            <h3>输出设备校准</h3>
+            <div class="sub" id="calibration-status">尚未校准</div>
+            <div class="test-actions">
+              <button type="button" id="calibration-start">开始三档校准</button>
+              <button type="button" id="calibration-capture">记录当前档</button>
+              <button type="button" id="calibration-finish">完成并分类</button>
+              <button type="button" id="calibration-cancel">取消</button>
+            </div>
+          </div>
         </section>
       </div>
 
-      <section class="card events" aria-labelledby="events-title"><h2 id="events-title">最近控制事件</h2><ul class="event-list" id="events"><li class="empty">尚无动作</li></ul></section>
+      <section class="card events" aria-labelledby="events-title"><h2 id="events-title">最近建议与控制事件</h2><ul class="event-list" id="events"><li class="empty">尚无动作</li></ul></section>
     </main>
   </div>
 
@@ -162,8 +186,12 @@
       $('volume-min').value = settings.minSystemVolume;
       $('volume-max').value = settings.maxSystemVolume;
       $('lower-step').value = settings.lowerStepPercent;
+      $('lower-gain').value = settings.lowerGain;
+      $('lower-rate').value = settings.maxLowerDbPerSecond;
+      $('lower-db-step').value = settings.minLowerStepDb;
       $('recovery-step').value = settings.recoveryStepPercent;
       $('lower-wait').value = settings.lowerSustainSeconds;
+      $('sustain-ratio').value = Math.round(settings.sustainRatio * 100);
       $('recovery-wait').value = settings.recoverySustainSeconds;
       $('override').value = settings.manualOverrideSeconds;
       $('silence').value = settings.silenceGateDbfs;
@@ -174,54 +202,101 @@
       const measurement = status.measurement;
       const volume = status.volume;
       const action = status.controller.lastAction;
+      const guard = measurement.peakGuard;
+      const shadowEnabled = Boolean(status.shadow && status.shadow.enabled);
+      const calibration = status.calibration || {};
+      const hasLoudness = measurement.shortTermLufs != null;
+      const effectiveText = measurement.effectiveLufs == null
+        ? '输出估算未校准' : `输出估算 ${number(measurement.effectiveLufs)} LUFS`;
+      const triggerGap = status.settings.triggerLufs - status.settings.targetLufs.high;
       $('device').textContent = `${status.device.name} · ${status.device.captureAvailable ? measurement.scenarioLabel : '等待音频权限或数据'}`;
       $('state').textContent = stateLabel(status.controller.state);
       $('scenario').textContent = simulated ? `场景：${measurement.scenarioLabel}`
-        : status.platform === 'windows' ? 'WASAPI · 只读' : 'Core Audio · 只读';
-      $('loudness-label').textContent = simulated ? '模拟 Short-term loudness' : '实时 RMS';
-      $('loudness-unit').textContent = simulated ? 'LUFS' : 'dBFS';
-      $('loudness').firstChild.textContent = `${number(simulated ? measurement.shortTermLufs : measurement.rmsDbfs)} `;
+        : `${status.platform === 'windows' ? 'WASAPI' : 'Core Audio'} · ${shadowEnabled ? '影子决策' : '只读'}`;
+      $('loudness-label').textContent = simulated ? '模拟 Short-term loudness' : hasLoudness ? '实时源 Short-term loudness' : '实时 RMS';
+      $('loudness-unit').textContent = simulated || hasLoudness ? 'LUFS' : 'dBFS';
+      $('loudness').firstChild.textContent = `${number(hasLoudness ? measurement.shortTermLufs : measurement.rmsDbfs)} `;
       $('levels').textContent = simulated
         ? `Momentary ${number(measurement.momentaryLufs)} LUFS · RMS ${number(measurement.rmsDbfs)} dBFS · Peak ${number(measurement.peakDbfs)} dBFS`
-        : `Peak ${number(measurement.peakDbfs)} dBFS · ${measurement.sampleRate ? `${number(measurement.sampleRate, 0)} Hz` : '采样率 —'} · 丢帧 ${measurement.droppedFrames ?? '—'}`;
+        : `${effectiveText} · ${hasLoudness ? `Momentary ${number(measurement.momentaryLufs)} LUFS · ` : ''}RMS ${number(measurement.rmsDbfs)} dBFS · Peak ${number(measurement.peakDbfs)} dBFS · ${measurement.sampleRate ? `${number(measurement.sampleRate, 0)} Hz` : '采样率 —'} · 丢帧 ${measurement.droppedFrames ?? '—'}`;
       $('volume-label').textContent = simulated ? '当前模拟系统音量' : '当前系统音量（只读）';
       $('volume').firstChild.textContent = `${number(volume.system, 0)}`;
+      const responseLabel = ({'pre-volume':'音量前捕获','post-volume':'音量后捕获','unreliable':'捕获不可靠',unknown:'未校准'})[measurement.captureResponse] || measurement.captureResponse;
       $('baseline').textContent = simulated
         ? `用户基准 ${number(volume.baseline, 0)}% · 模拟系统读数`
-        : `${status.device.volumeReadable ? `${status.platform === 'windows' ? 'EndpointVolume' : 'Core Audio'} 实际读数` : '设备未提供主音量读数'} · 可写能力 ${status.device.volumeWritableCapability ? '有' : '无/未知'}`;
-      const correction = volume.correctionPercentPoints;
-      $('correction').firstChild.textContent = correction == null ? '— ' : `${correction > 0 ? '+' : ''}${number(correction, 0)} `;
-      $('reason').textContent = status.device.error || action.reason || '当前无需调整';
+        : `${status.device.volumeReadable ? `${status.platform === 'windows' ? 'EndpointVolume' : 'Core Audio'} 实际读数` : '设备未提供主音量读数'} · ${volume.dbMappingReliable ? `${number(volume.systemDb)} dB（范围 ${number(volume.dbMin)} 至 ${number(volume.dbMax)} dB）` : 'dB 映射不可用'} · ${responseLabel}`;
+      const dbSuggestion = shadowEnabled ? volume.recommendedAttenuationDb : null;
+      const correction = dbSuggestion ?? (shadowEnabled ? volume.recommendedCorrectionPercentPoints : volume.correctionPercentPoints);
+      $('correction-label').textContent = dbSuggestion != null ? '影子 dB 建议' : shadowEnabled ? '影子建议' : '自动修正';
+      $('correction-unit').textContent = dbSuggestion != null ? 'dB' : '个百分点';
+      $('correction').firstChild.textContent = correction == null ? '— ' : `${correction > 0 ? '+' : ''}${number(correction)} `;
+      $('reason').textContent = status.device.error || (shadowEnabled && volume.recommended != null
+        ? `${action.reason} · 实际 ${number(volume.system, 0)}% → 建议 ${number(volume.recommended, 0)}%（未执行）`
+        : shadowEnabled && volume.recommendedDb != null
+        ? `${action.reason} · ${number(volume.systemDb)} dB → ${number(volume.recommendedDb)} dB（未执行）`
+        : action.reason || '当前无需调整');
+      $('peak-guard').firstChild.textContent = guard == null ? '— ' : `${number(guard.suggestedAttenuationDb)} `;
+      $('peak-guard-detail').textContent = guard == null ? '等待快速峰值数据'
+        : `${({ARMED:'待命', ATTACK:'检测到爆音', HOLD:'建议保持', RELEASE:'建议释放'})[guard.state] || guard.state} · Peak ${number(guard.samplePeakDbfs)} dBFS · 快速 RMS ${number(guard.fastRmsDbfs)} dBFS · 跳升 ${number(guard.relativeJumpDb)} dB · 未执行`;
       $('target-note').textContent = simulated
         ? `目标 ${status.settings.targetLufs.low} 至 ${status.settings.targetLufs.high} LUFS · 触发 ${status.settings.triggerLufs} LUFS`
-        : '真实只读阶段只显示 RMS / Peak；LUFS 校准在 M5 完成';
+        : measurement.effectiveLufs != null
+        ? `当前输出估算 ${number(measurement.effectiveLufs)} LUFS；目标 ${status.settings.targetLufs.low} 至 ${status.settings.targetLufs.high}，必须高于 ${status.settings.triggerLufs} 才开始判断${triggerGap > 8 ? `；触发线比目标上沿高 ${number(triggerGap)} LU，跨度可能过大` : ''}`
+        : hasLoudness ? '蓝线是源响度；输出估算尚未校准，目标区间暂不参与判断' : '等待响度窗口预热';
       $('notice').textContent = simulated
         ? 'M0–M2 模拟模式：当前数据与系统音量均为模拟值，不会读取或修改电脑真实音量。'
-        : status.platform === 'windows'
-          ? 'M4 Windows 真实只读监控：读取 WASAPI loopback、设备和 EndpointVolume；不录音、不保存 PCM、绝不写入系统音量。'
-          : 'M3 macOS 真实只读监控：读取系统输出、设备和主音量；不录音、不保存 PCM、绝不写入系统音量。';
-      $('chart-subtitle').textContent = simulated ? '模拟响度、目标区间和系统音量' : '真实 RMS、Peak 与只读系统音量';
-      $('settings-subtitle').textContent = simulated ? '服务端会重新校验所有输入' : '真实只读阶段仅保存参数；控制模式固定为只监控';
-      $('mode').disabled = !simulated;
+        : `M8a ${status.platform === 'windows' ? 'Windows' : 'macOS'}：窗口证据只生成影子建议，绝不自动执行；只有下方人工校准按钮可以小幅写入并安全恢复。`;
+      $('chart-subtitle').textContent = simulated ? '模拟响度、目标区间和系统音量' : hasLoudness ? '蓝：源响度 · 青：输出估算（用于控制判断）' : '真实 RMS、Peak 与只读系统音量';
+      $('settings-subtitle').textContent = simulated ? '服务端会重新校验所有输入' : '响度阈值作用于青色输出估算线；蓝色源响度仅供对照';
+      $('mode').value = status.settings.mode;
+      $('mode').disabled = false;
+      Array.from($('mode').options).forEach(option => { option.disabled = !simulated && !['monitor', 'shadow'].includes(option.value); });
       $('simulation-controls').hidden = !simulated;
       $('switch-device').hidden = !simulated;
-      $('chart').setAttribute('aria-label', simulated ? '最近六十秒模拟响度与系统音量趋势' : '最近六十秒真实 RMS 与系统音量趋势');
+      $('suggest-settings').hidden = simulated;
+      $('test-volume').hidden = simulated;
+      $('restore-volume').hidden = simulated;
+      $('test-volume').disabled = simulated || !status.device.volumeWritableCapability || status.manualVolumeTestPending;
+      $('restore-volume').disabled = simulated || !status.manualVolumeTestPending;
+      $('calibration-panel').hidden = simulated;
+      const points = calibration.session ? calibration.session.points.length : 0;
+      $('calibration-status').textContent = calibration.active
+        ? `正在校准：已记录 ${points}/3 档。每次手动调节后播放同一稳定片段至少 3 秒。`
+        : calibration.profile
+        ? `${responseLabel} · 置信度 ${calibration.profile.confidence} · ${calibration.status}`
+        : `尚无有效档案 · ${calibration.status || 'missing'}`;
+      $('calibration-start').disabled = simulated || calibration.active || !volume.dbMappingReliable;
+      $('calibration-capture').disabled = simulated || !calibration.active || points >= 3;
+      $('calibration-finish').disabled = simulated || !calibration.active || points < 3;
+      $('calibration-cancel').disabled = simulated || !calibration.active;
+      $('chart').setAttribute('aria-label', simulated ? '最近六十秒模拟响度与系统音量趋势' : hasLoudness ? '最近六十秒源响度、输出估算与系统音量趋势' : '最近六十秒真实 RMS 与系统音量趋势');
       if (!settingsLoaded) populateSettings(status.settings);
     }
 
-    function renderEvents(actions) {
+    function renderEvents(actions, peakGuardEvents) {
       const list = $('events');
       list.replaceChildren();
-      if (!actions.length) {
+      const events = [...actions, ...peakGuardEvents].sort((a, b) => b.timestampMs - a.timestampMs);
+      if (!events.length) {
         const item = document.createElement('li'); item.className = 'empty'; item.textContent = '尚无动作'; list.append(item); return;
       }
-      actions.slice(0, 8).forEach(action => {
+      events.slice(0, 8).forEach(action => {
         const item = document.createElement('li');
-        const time = document.createElement('time'); time.textContent = new Date(action.timestampMs).toLocaleTimeString();
-        const kind = document.createElement('span'); kind.className = 'event-kind'; kind.textContent = action.kind;
+        const time = document.createElement('time');
+        const eventWindow = action.eventWindow;
+        time.textContent = eventWindow && eventWindow.durationSeconds > 0
+          ? `${new Date(eventWindow.firstTimestampMs).toLocaleTimeString()}–${new Date(eventWindow.lastTimestampMs).toLocaleTimeString()}`
+          : new Date(action.timestampMs).toLocaleTimeString();
+        const isPeakGuard = action.schemaVersion === 'system-audio.peak-guard-event/v1';
+        const kind = document.createElement('span'); kind.className = 'event-kind'; kind.textContent = isPeakGuard ? 'Peak Guard' : action.kind;
         const reason = document.createElement('span');
-        const change = action.recommendedVolume == null ? '' : `（${number(action.beforeVolume, 0)}% → ${number(action.recommendedVolume, 0)}%）`;
-        reason.textContent = `${action.reason}${change}`;
+        const change = isPeakGuard ? `（建议 ${number(action.suggestedAttenuationDb)} dB，未执行）`
+          : action.recommendedVolumeDb != null ? `（${number(action.beforeVolumeDb)} dB → ${number(action.recommendedVolumeDb)} dB${action.execute ? '' : '，未执行'}）`
+          : action.recommendedVolume == null ? '' : `（${number(action.beforeVolume, 0)}% → ${number(action.recommendedVolume, 0)}%${action.execute ? '' : '，未执行'}）`;
+        const grouped = eventWindow && eventWindow.occurrences > 1
+          ? `持续 ${number(eventWindow.durationSeconds, 0)} 秒，共 ${eventWindow.occurrences} 次判断；`
+          : '';
+        reason.textContent = `${grouped}${action.reason}${change}`;
         item.append(time, kind, reason); list.append(item);
       });
     }
@@ -232,24 +307,41 @@
       const width = Math.max(320, canvas.clientWidth), height = Math.max(220, canvas.clientHeight);
       canvas.width = width * ratio; canvas.height = height * ratio;
       const context = canvas.getContext('2d'); context.scale(ratio, ratio);
-      const colors = getComputedStyle(document.documentElement);
-      const border = colors.getPropertyValue('--border').trim(), accent = colors.getPropertyValue('--accent').trim();
-      const soft = colors.getPropertyValue('--accent-soft').trim(), warn = colors.getPropertyValue('--warn').trim(), muted = colors.getPropertyValue('--muted').trim();
+      const dark = matchMedia('(prefers-color-scheme: dark)').matches;
+      const border = dark ? '#393d41' : '#d9dcde', accent = dark ? '#7da2ff' : '#2458d3';
+      const effective = dark ? '#5fd0a0' : '#17704b';
+      const triggerColor = dark ? '#ff8098' : '#b72f4d';
+      const warn = dark ? '#f0a56e' : '#a64e14', muted = dark ? '#aeb4b9' : '#676d72';
+      const targetBand = dark ? 'rgba(74, 196, 158, .18)' : 'rgba(28, 156, 120, .13)';
       const left = 46, right = width - 12, top = 12, bottom = height - 28;
-      const y = value => top + (-8 - value) / 32 * (bottom - top);
       context.clearRect(0, 0, width, height);
       const low = Number($('target-low').value || -21), high = Number($('target-high').value || -17);
-      if (simulated) { context.fillStyle = soft; context.fillRect(left, y(high), right - left, y(low) - y(high)); }
+      const trigger = Number($('trigger').value || -15);
+      const levels = rows.flatMap(row => [row.shortTermLufs ?? row.rmsDbfs, row.effectiveLufs]).filter(Number.isFinite);
+      levels.push(low, high, trigger);
+      const yMax = Math.min(0, Math.ceil((Math.max(...levels) + 3) / 10) * 10);
+      let yMin = Math.max(-80, Math.floor((Math.min(...levels) - 3) / 10) * 10);
+      if (yMax - yMin < 30) yMin = yMax - 30;
+      const y = value => top + (yMax - value) / (yMax - yMin) * (bottom - top);
+      if (simulated || ($('mode').value === 'shadow')) { context.fillStyle = targetBand; context.fillRect(left, y(high), right - left, y(low) - y(high)); }
       context.strokeStyle = border; context.fillStyle = muted; context.lineWidth = 1; context.font = '11px system-ui';
-      [-10, -20, -30, -40].forEach(value => { context.beginPath(); context.moveTo(left, y(value)); context.lineTo(right, y(value)); context.stroke(); context.fillText(`${value}`, 8, y(value) + 4); });
+      for (let value = yMax; value >= yMin; value -= 10) { context.beginPath(); context.moveTo(left, y(value)); context.lineTo(right, y(value)); context.stroke(); context.fillText(`${value}`, 8, y(value) + 4); }
+      context.save(); context.strokeStyle = triggerColor; context.fillStyle = triggerColor; context.lineWidth = 1.5; context.setLineDash([6, 5]); context.beginPath(); context.moveTo(left, y(trigger)); context.lineTo(right, y(trigger)); context.stroke(); context.setLineDash([]); context.textAlign = 'right'; context.fillText(`触发 ${trigger}`, right, y(trigger) - 4); context.restore();
       if (rows.length > 1) {
         const x = index => left + index / Math.max(1, rows.length - 1) * (right - left);
-        context.strokeStyle = accent; context.lineWidth = 2.5; context.beginPath();
-        let started = false;
-        rows.forEach((row, index) => { const level = simulated ? row.shortTermLufs : row.rmsDbfs; if (level == null) { started = false; return; } const px = x(index), py = y(level); if (!started) { context.moveTo(px, py); started = true; } else context.lineTo(px, py); }); context.stroke();
+        const line = (valueFor, color, width) => {
+          context.strokeStyle = color; context.lineWidth = width; context.beginPath();
+          let started = false;
+          rows.forEach((row, index) => { const level = valueFor(row); if (level == null) { started = false; return; } const px = x(index), py = y(level); if (!started) { context.moveTo(px, py); started = true; } else context.lineTo(px, py); });
+          context.stroke();
+        };
+        line(row => row.shortTermLufs ?? row.rmsDbfs, accent, 2);
+        if (!simulated) line(row => row.effectiveLufs, effective, 3);
         context.strokeStyle = warn; context.lineWidth = 1.5; context.beginPath();
-        started = false;
+        let started = false;
         rows.forEach((row, index) => { if (row.systemVolume == null) { started = false; return; } const px = x(index), py = bottom - row.systemVolume / 100 * 48; if (!started) { context.moveTo(px, py); started = true; } else context.lineTo(px, py); }); context.stroke();
+        context.fillStyle = warn;
+        rows.forEach((row, index) => { if (row.recommendedVolume == null) return; const px = x(index), py = bottom - row.recommendedVolume / 100 * 48; context.beginPath(); context.arc(px, py, 3, 0, Math.PI * 2); context.fill(); });
       }
       context.fillStyle = muted; context.fillText('60 秒前', left, height - 7); context.fillText('现在', right - 22, height - 7);
     }
@@ -258,7 +350,7 @@
       try { renderStatus(await api('/api/status')); clearError(); } catch (error) { showError(error); }
     }
     async function refreshHistory() {
-      try { const value = await api('/api/history'); rows = value.rows; renderEvents(value.actions); drawChart(); } catch (error) { showError(error); }
+      try { const value = await api('/api/history'); rows = value.rows; renderEvents(value.actions, value.peakGuardEvents || []); drawChart(); } catch (error) { showError(error); }
     }
     $('settings-form').addEventListener('submit', async event => {
       event.preventDefault();
@@ -269,11 +361,27 @@
           targetLufs: {low:Number($('target-low').value), high:Number($('target-high').value)},
           minSystemVolume: Number($('volume-min').value), maxSystemVolume: Number($('volume-max').value),
           lowerStepPercent: Number($('lower-step').value), recoveryStepPercent: Number($('recovery-step').value),
+          lowerGain: Number($('lower-gain').value), maxLowerDbPerSecond: Number($('lower-rate').value),
+          minLowerStepDb: Number($('lower-db-step').value),
           lowerSustainSeconds: Number($('lower-wait').value), recoverySustainSeconds: Number($('recovery-wait').value),
+          sustainRatio: Number($('sustain-ratio').value) / 100,
           manualOverrideSeconds: Number($('override').value), silenceGateDbfs: Number($('silence').value)
         })});
         populateSettings(result); clearError(); await refreshStatus();
       } catch (error) { showError(error); }
+    });
+    $('suggest-settings').addEventListener('click', () => {
+      const recent = rows.filter(row => !row.isSilent && Number.isFinite(row.effectiveLufs)).slice(-60).map(row => row.effectiveLufs).sort((a, b) => a - b);
+      if (recent.length < 12) return showError(new Error('请先稳定播放一段你觉得音量舒适的内容至少 3 秒'));
+      const middle = Math.floor(recent.length / 2);
+      const median = recent.length % 2 ? recent[middle] : (recent[middle - 1] + recent[middle]) / 2;
+      const half = value => Math.round(value * 2) / 2;
+      $('target-low').value = half(median - 3);
+      $('target-high').value = half(median + 1);
+      $('trigger').value = half(median + 4);
+      $('silence').value = Math.min(Number($('silence').value), -55);
+      clearError(); drawChart();
+      $('target-note').textContent = `已按最近 ${Math.min(15, Math.round(recent.length / 4))} 秒的舒适听感填入目标、触发线和保守静音门；确认后点击“保存设置”`;
     });
     $('mode').addEventListener('change', async () => {
       try { await api('/api/mode', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({mode:$('mode').value})}); clearError(); } catch (error) { showError(error); }
@@ -284,6 +392,28 @@
     $('switch-device').addEventListener('click', async () => {
       try { await api('/api/simulate', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action:'switch-device'})}); clearError(); await refreshStatus(); } catch (error) { showError(error); }
     });
+    $('test-volume').addEventListener('click', async () => {
+      try {
+        await api('/api/volume-test', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action:'lower', stepPercentPoints:1})});
+        clearError(); await Promise.all([refreshStatus(), refreshHistory()]);
+      } catch (error) { showError(error); }
+    });
+    $('restore-volume').addEventListener('click', async () => {
+      try {
+        await api('/api/volume-test', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action:'restore'})});
+        clearError(); await Promise.all([refreshStatus(), refreshHistory()]);
+      } catch (error) { showError(error); }
+    });
+    async function calibrationAction(action) {
+      try {
+        await api('/api/calibration', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action})});
+        clearError(); await Promise.all([refreshStatus(), refreshHistory()]);
+      } catch (error) { showError(error); }
+    }
+    $('calibration-start').addEventListener('click', () => calibrationAction('start'));
+    $('calibration-capture').addEventListener('click', () => calibrationAction('capture'));
+    $('calibration-finish').addEventListener('click', () => calibrationAction('finish'));
+    $('calibration-cancel').addEventListener('click', () => calibrationAction('cancel'));
     window.addEventListener('resize', drawChart);
     Promise.all([refreshStatus(), refreshHistory()]);
     setInterval(refreshStatus, 250);

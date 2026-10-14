@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections import deque
 from copy import deepcopy
 from datetime import datetime, timezone
 import math
@@ -10,8 +11,9 @@ import math
 SETTINGS_SCHEMA = "system-audio.settings/v1"
 STATE_SCHEMA = "system-audio.state/v1"
 ACTION_SCHEMA = "system-audio.action/v1"
-CONTROLLER_VERSION = "controller-m0-m2/v1"
+CONTROLLER_VERSION = "controller-m8a/v1"
 MODES = {"monitor", "shadow", "lower-only", "automatic"}
+CAPTURE_RESPONSES = {"unknown", "pre-volume", "post-volume", "unreliable"}
 
 
 def iso_now():
@@ -27,8 +29,12 @@ def default_settings():
         "minSystemVolume": 20.0,
         "maxSystemVolume": 75.0,
         "lowerStepPercent": 3.0,
+        "lowerGain": 0.7,
+        "maxLowerDbPerSecond": 2.0,
+        "minLowerStepDb": 0.25,
         "recoveryStepPercent": 1.0,
         "lowerSustainSeconds": 3.0,
+        "sustainRatio": 0.8,
         "recoverySustainSeconds": 12.0,
         "manualOverrideSeconds": 30.0,
         "silenceGateDbfs": -55.0,
@@ -43,6 +49,40 @@ def _number(value, name, low, high):
     if not low <= value <= high:
         raise ValueError("%s 必须在 %s..%s 之间" % (name, low, high))
     return value
+
+
+def classify_capture_response(before_lufs, after_lufs, applied_delta_db,
+                              tolerance_lu=1.0):
+    """Classify whether a capture follows a known endpoint attenuation change."""
+    before = _number(before_lufs, "beforeLufs", -120, 20)
+    after = _number(after_lufs, "afterLufs", -120, 20)
+    delta = _number(applied_delta_db, "appliedDeltaDb", -60, 0)
+    tolerance = _number(tolerance_lu, "toleranceLu", 0.1, 6)
+    if delta > -1:
+        raise ValueError("校准衰减至少需要 1 dB")
+    observed = after - before
+    if abs(observed - delta) <= tolerance:
+        kind = "post-volume"
+    elif abs(observed) <= tolerance:
+        kind = "pre-volume"
+    else:
+        kind = "unreliable"
+    return {"captureResponse": kind, "observedDeltaLu": round(observed, 3),
+            "appliedDeltaDb": delta}
+
+
+def effective_output_lufs(measured_lufs, capture_response,
+                          output_attenuation_db=None):
+    """Return device-path loudness only when the capture response is known."""
+    if measured_lufs is None:
+        return None
+    measured = _number(measured_lufs, "measuredLufs", -120, 20)
+    if capture_response == "post-volume":
+        return measured
+    if capture_response == "pre-volume" and output_attenuation_db is not None:
+        attenuation = _number(output_attenuation_db, "outputAttenuationDb", -200, 20)
+        return max(-120.0, min(20.0, measured + attenuation))
+    return None
 
 
 def validate_settings(candidate, base=None):
@@ -75,8 +115,12 @@ def validate_settings(candidate, base=None):
         raise ValueError("minSystemVolume 必须小于 maxSystemVolume")
     for key, low, high in (
         ("lowerStepPercent", 0.1, 20),
+        ("lowerGain", 0.1, 1),
+        ("maxLowerDbPerSecond", 0.1, 12),
+        ("minLowerStepDb", 0.1, 3),
         ("recoveryStepPercent", 0.1, 10),
         ("lowerSustainSeconds", 0.25, 60),
+        ("sustainRatio", 0.5, 1),
         ("recoverySustainSeconds", 1, 300),
         ("manualOverrideSeconds", 0, 600),
         ("silenceGateDbfs", -100, -20),
@@ -98,6 +142,14 @@ def validate_observation(value):
         missing = sorted(required - set(value if isinstance(value, dict) else {}))
         raise ValueError("监测数据缺少字段：%s" % ", ".join(missing))
     result = deepcopy(value)
+    result.setdefault("captureResponse", "unknown")
+    result.setdefault("systemVolumeDb", None)
+    result.setdefault("volumeDbMin", None)
+    result.setdefault("volumeDbMax", None)
+    result.setdefault("volumeDbStep", None)
+    result.setdefault("outputAttenuationDb", None)
+    result.setdefault("volumeDbSource", None)
+    result.setdefault("volumeDbMappingReliable", False)
     result["timestampMs"] = _number(result["timestampMs"], "timestampMs", 0, 10**16)
     if result["systemVolume"] is not None:
         result["systemVolume"] = _number(result["systemVolume"], "systemVolume", 0, 100)
@@ -106,6 +158,31 @@ def validate_observation(value):
     for key in ("shortTermLufs", "momentaryLufs", "rmsDbfs", "peakDbfs"):
         if result[key] is not None:
             result[key] = _number(result[key], key, -120, 20)
+    for key in ("systemVolumeDb", "volumeDbMin", "volumeDbMax",
+                "outputAttenuationDb"):
+        if result[key] is not None:
+            result[key] = _number(result[key], key, -200, 20)
+    if result["volumeDbStep"] is not None:
+        result["volumeDbStep"] = _number(result["volumeDbStep"], "volumeDbStep", 0, 100)
+    if (result["volumeDbMin"] is not None and result["volumeDbMax"] is not None
+            and result["volumeDbMin"] >= result["volumeDbMax"]):
+        raise ValueError("volumeDbMin 必须小于 volumeDbMax")
+    if result["volumeDbSource"] is not None and (
+            not isinstance(result["volumeDbSource"], str)
+            or not result["volumeDbSource"].strip()):
+        raise ValueError("volumeDbSource 必须是非空字符串或 null")
+    if not isinstance(result["volumeDbMappingReliable"], bool):
+        raise ValueError("volumeDbMappingReliable 必须是 boolean")
+    if result["volumeDbMappingReliable"]:
+        required_db = ("systemVolumeDb", "volumeDbMin", "volumeDbMax",
+                       "outputAttenuationDb", "volumeDbSource")
+        if any(result[key] is None for key in required_db):
+            raise ValueError("可靠 dB 映射缺少范围、衰减或来源")
+        expected = result["systemVolumeDb"] - result["volumeDbMax"]
+        if abs(result["outputAttenuationDb"] - expected) > 0.1:
+            raise ValueError("outputAttenuationDb 与设备 dB 范围不一致")
+    if result["captureResponse"] not in CAPTURE_RESPONSES:
+        raise ValueError("captureResponse 不受支持")
     for key in ("isSilent", "captureAvailable", "volumeControllable", "manualVolumeChanged"):
         if not isinstance(result[key], bool):
             raise ValueError("%s 必须是 boolean" % key)
@@ -119,7 +196,8 @@ class VolumeController:
         self.settings = validate_settings(settings or default_settings())
         self.device_id = None
         self.baseline_volume = None
-        self.over_since_ms = None
+        self.over_window = deque()
+        self.lowering_active = False
         self.below_since_ms = None
         self.manual_until_ms = 0.0
         self.state = "MONITORING"
@@ -129,10 +207,12 @@ class VolumeController:
         merged = dict(partial)
         merged["updatedAt"] = iso_now()
         self.settings = validate_settings(merged, self.settings)
+        self._reset_levels()
         return deepcopy(self.settings)
 
     def _action(self, observation, kind="none", reason="", recommended=None,
-                execute=False, sustained=0.0):
+                execute=False, sustained=0.0, recommended_db=None,
+                attenuation_db=None):
         return {
             "schemaVersion": ACTION_SCHEMA,
             "timestampMs": observation["timestampMs"],
@@ -140,15 +220,29 @@ class VolumeController:
             "kind": kind,
             "reason": reason,
             "evidence": {
+                "deviceId": observation["deviceId"],
                 "shortTermLufs": observation["shortTermLufs"],
                 "momentaryLufs": observation["momentaryLufs"],
                 "rmsDbfs": observation["rmsDbfs"],
                 "peakDbfs": observation["peakDbfs"],
+                "captureResponse": observation["captureResponse"],
+                "systemVolumeDb": observation["systemVolumeDb"],
+                "outputAttenuationDb": observation["outputAttenuationDb"],
+                "volumeDbMappingReliable": observation["volumeDbMappingReliable"],
+                "effectiveLufs": effective_output_lufs(
+                    observation["shortTermLufs"], observation["captureResponse"],
+                    observation["outputAttenuationDb"]),
                 "sustainedForSeconds": round(sustained, 3),
+                "windowRatio": None,
+                "windowSamples": 0,
             },
             "beforeVolume": observation["systemVolume"],
             "recommendedVolume": recommended,
+            "beforeVolumeDb": observation["systemVolumeDb"],
+            "recommendedVolumeDb": recommended_db,
+            "recommendedAttenuationDb": attenuation_db,
             "appliedVolume": None,
+            "appliedVolumeDb": None,
             "execute": bool(execute),
             "mode": self.settings["mode"],
             "controllerVersion": CONTROLLER_VERSION,
@@ -156,12 +250,27 @@ class VolumeController:
         }
 
     def _reset_levels(self):
-        self.over_since_ms = None
+        self.over_window.clear()
+        self.lowering_active = False
         self.below_since_ms = None
+
+    def _high_window(self, now, level, threshold):
+        window_ms = self.settings["lowerSustainSeconds"] * 1000
+        self.over_window.append((now, level > threshold))
+        cutoff = now - window_ms
+        while self.over_window and self.over_window[0][0] < cutoff:
+            self.over_window.popleft()
+        covered = ((now - self.over_window[0][0]) / 1000
+                   if self.over_window else 0.0)
+        ratio = (sum(over for _timestamp, over in self.over_window) / len(self.over_window)
+                 if self.over_window else 0.0)
+        return covered, ratio
 
     def step(self, raw_observation):
         observation = validate_observation(raw_observation)
         now = observation["timestampMs"]
+        step_seconds = (0.25 if self.last_timestamp_ms is None else
+                        max(0.05, min(1.0, (now - self.last_timestamp_ms) / 1000)))
         if self.last_timestamp_ms is not None and now < self.last_timestamp_ms:
             raise ValueError("timestampMs 不能倒退")
         self.last_timestamp_ms = now
@@ -210,35 +319,99 @@ class VolumeController:
             self.state = "UNSUPPORTED"
             return self._action(observation, "blocked", "当前设备无法读取系统音量")
 
-        level = observation["shortTermLufs"]
-        silent = (observation["isSilent"] or observation["rmsDbfs"] is None
-                  or observation["rmsDbfs"] <= self.settings["silenceGateDbfs"])
-        if level is None or silent:
+        measured_level = observation["shortTermLufs"]
+        if observation["isSilent"]:
             self._reset_levels()
             self.state = "AUTO_HOLDING" if mode != "shadow" else "SHADOW"
-            return self._action(observation, "blocked", "静音、暂停或测量缺失时禁止调整")
+            return self._action(observation, "blocked", "系统静音或播放暂停，禁止调整")
+        if measured_level is None:
+            self._reset_levels()
+            self.state = "SHADOW" if mode == "shadow" else "AUTO_HOLDING"
+            return self._action(observation, "blocked", "Short-term 尚未预热或测量暂时缺失")
+        level = effective_output_lufs(
+            measured_level, observation["captureResponse"],
+            observation["outputAttenuationDb"])
+        if level is None:
+            self._reset_levels()
+            self.state = "SHADOW" if mode == "shadow" else "UNSUPPORTED"
+            return self._action(observation, "blocked", "输出侧响度映射尚未校准，仅记录源响度")
+        if observation["rmsDbfs"] is None:
+            self._reset_levels()
+            self.state = "AUTO_HOLDING" if mode != "shadow" else "SHADOW"
+            return self._action(observation, "blocked", "RMS 测量暂时缺失，禁止调整")
+        if observation["rmsDbfs"] <= self.settings["silenceGateDbfs"]:
+            self._reset_levels()
+            self.state = "AUTO_HOLDING" if mode != "shadow" else "SHADOW"
+            return self._action(
+                observation, "blocked",
+                "当前 RMS %.1f dBFS 低于静音门 %.1f dBFS，禁止调整" % (
+                    observation["rmsDbfs"], self.settings["silenceGateDbfs"]))
 
-        if level > self.settings["triggerLufs"]:
+        target_high = self.settings["targetLufs"]["high"]
+        if self.lowering_active and level <= target_high:
+            self.over_window.clear()
+            self.lowering_active = False
+
+        threshold = target_high if self.lowering_active else self.settings["triggerLufs"]
+        if self.lowering_active or level > threshold or self.over_window:
             self.below_since_ms = None
-            if self.over_since_ms is None:
-                self.over_since_ms = now
-            sustained = max(0.0, (now - self.over_since_ms) / 1000)
-            if sustained < self.settings["lowerSustainSeconds"]:
+            sustained, ratio = self._high_window(now, level, threshold)
+            has_high_sample = any(over for _timestamp, over in self.over_window)
+            if not has_high_sample:
+                self.over_window.clear()
+            elif (sustained < self.settings["lowerSustainSeconds"]
+                  or ratio < self.settings["sustainRatio"]):
                 self.state = "OBSERVING_HIGH"
-                return self._action(observation, reason="等待持续偏响证据", sustained=sustained)
-            self.over_since_ms = None
-            recommended = max(self.settings["minSystemVolume"],
-                              observation["systemVolume"] - self.settings["lowerStepPercent"])
-            if recommended >= observation["systemVolume"]:
-                self.state = "AUTO_HOLDING"
-                return self._action(observation, "blocked", "已经达到最低系统音量", sustained=sustained)
-            execute = mode in {"lower-only", "automatic"}
-            self.state = "LOWERING" if execute else "SHADOW"
-            return self._action(observation, "lower" if execute else "would-lower",
-                                "持续偏响，建议分步压低系统音量", recommended, execute, sustained)
+                action = self._action(
+                    observation, reason="等待偏响证据窗口", sustained=sustained)
+                action["evidence"].update(windowRatio=round(ratio, 3),
+                                          windowSamples=len(self.over_window))
+                return action
+            else:
+                sample_count = len(self.over_window)
+                self.over_window.clear()
+                self.lowering_active = True
+                if (not observation["volumeDbMappingReliable"]
+                        or observation["systemVolumeDb"] is None
+                        or observation["volumeDbMin"] is None):
+                    self.state = "SHADOW" if mode == "shadow" else "UNSUPPORTED"
+                    return self._action(
+                        observation, "blocked", "设备 dB 映射不可靠，拒绝生成音量目标",
+                        sustained=sustained)
+                error_db = max(0.0, level - target_high)
+                desired_db = error_db * self.settings["lowerGain"]
+                rate_cap = self.settings["maxLowerDbPerSecond"] * step_seconds
+                step_db = min(desired_db, rate_cap)
+                if desired_db >= self.settings["minLowerStepDb"]:
+                    step_db = min(max(step_db, self.settings["minLowerStepDb"]), rate_cap)
+                target_db = max(observation["volumeDbMin"],
+                                observation["systemVolumeDb"] - step_db)
+                actual_step_db = target_db - observation["systemVolumeDb"]
+                if actual_step_db >= -0.01:
+                    self.state = "AUTO_HOLDING"
+                    return self._action(
+                        observation, "blocked", "已经达到设备最低 dB", sustained=sustained)
+                execute = mode in {"lower-only", "automatic"}
+                self.state = "LOWERING" if execute else "SHADOW"
+                action = self._action(
+                    observation, "lower" if execute else "would-lower",
+                    "持续偏响，建议按 dB 分步压低系统音量",
+                    None, execute, sustained, round(target_db, 3),
+                    round(actual_step_db, 3))
+                action["evidence"].update(windowRatio=round(ratio, 3),
+                                          windowSamples=sample_count,
+                                          errorDb=round(error_db, 3),
+                                          rateLimitDb=round(rate_cap, 3))
+                return action
 
-        self.over_since_ms = None
-        if mode == "automatic" and level < self.settings["targetLufs"]["low"]:
+        target_low = self.settings["targetLufs"]["low"]
+        if mode in {"shadow", "lower-only"} and level < target_low:
+            self.below_since_ms = None
+            self.state = "SHADOW" if mode == "shadow" else "AUTO_HOLDING"
+            return self._action(
+                observation, reason="输出估算低于目标区间；当前模式不生成升高建议")
+
+        if mode == "automatic" and level < target_low:
             if self.below_since_ms is None:
                 self.below_since_ms = now
             sustained = max(0.0, (now - self.below_since_ms) / 1000)
@@ -255,6 +428,12 @@ class VolumeController:
             return self._action(observation, "recover", "持续偏轻，缓慢恢复系统音量",
                                 recommended, True, sustained)
 
+        if not self.lowering_active and level > target_high:
+            self.below_since_ms = None
+            self.state = "SHADOW" if mode == "shadow" else "AUTO_HOLDING"
+            return self._action(
+                observation, reason="输出估算高于目标上沿，但尚未达到降低触发线")
+
         self.below_since_ms = None
         self.state = "SHADOW" if mode == "shadow" else "AUTO_HOLDING"
-        return self._action(observation, reason="当前位于保持区间")
+        return self._action(observation, reason="输出估算位于目标或回差区间")

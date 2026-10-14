@@ -1,7 +1,7 @@
 # 监控界面与声音压制方案
 
-> 状态：技术研究与交互草案 v0.1  
-> 日期：2026-10-03
+> 状态：技术方案 v0.2
+> 日期：2026-10-05
 
 ## 1. 结论
 
@@ -10,7 +10,7 @@
 1. **系统音量控制**：监测系统混音，持续偏响时降低当前输出设备的主音量。实现相对简单、延迟影响小，适合作为第一版。
 2. **音频 DSP 压制**：把所有系统音频先送入我们的处理链，执行增益骑乘、动态压缩和峰值限制，再送到真实输出设备。控制精确，但需要接管音频路由，平台实现与安装复杂度明显更高。
 
-第一版建议使用系统音量控制，并把界面、指标、日志和控制算法做好。真正 DSP 作为独立验证阶段，不能把“降低系统音量”宣传成“已经实现实时限制器”。
+第一版使用系统音量控制，并把界面、指标、日志和控制算法做好。真正 DSP 是最终产品目标，作为独立阶段开发；不能把“降低系统音量”宣传成“已经拦截第一个爆音”。
 
 ## 2. 监控界面信息结构
 
@@ -142,33 +142,159 @@
 - ceiling 从保守的 `-1 dBTP` 实验值开始，不直接承诺为产品标准。
 - 记录 gain reduction，出现长时间大幅限制时应降低前级增益，而不是持续“顶住”限制器。
 
+### 3.4 突然爆音：Peak Guard 双路径
+
+“突然爆一下”需要同时观察绝对峰值和相对变化。只判断 `Peak > -1 dBFS` 会把正常母带和鼓点频繁判为异常；只判断相对增幅，又可能在安静背景中对无害声音过度反应。
+
+共同检测链路：
+
+```text
+输入 PCM
+  ├─ Sample / True Peak ───────────────┐
+  ├─ 5–10 ms 快速能量 ────────────────┤
+  └─ 最近约 1 秒稳定基线 ─────────────┤
+                                        ↓
+                        绝对阈值 + 相对突增联合判断
+                                        ↓
+                  ARMED → ATTACK → HOLD → RELEASE
+```
+
+首轮实验参数如下，它们是测试起点，不是已确认的产品默认值：
+
+| 参数 | 初始值 | 作用 |
+|---|---:|---|
+| True Peak ceiling | `-1 dBTP` | 限制数字峰值，不代表听力安全音量 |
+| 相对突增阈值 | `+10 dB` | 相对最近稳定基线识别突然变响 |
+| 最短确认 | `10–20 ms` | 过滤单采样异常，仍能捕捉短通知音 |
+| Look-ahead | `5 ms` | DSP 模式在峰值输出前准备衰减 |
+| 最大临时衰减 | `12 dB` | 防止一次保护动作把声音完全压没 |
+| Hold | `500 ms` | 避免峰值刚过就立即反弹 |
+| Release | `2 s` | 平滑恢复，降低抽吸感 |
+| Cooldown | `1 s` | 防止同一事件反复触发 |
+
+实际动作分为两条路径：
+
+1. **系统音量 Peak Guard**：检测后把“快速压低系统主音量”的命令送出音频回调。它能减轻持续几百毫秒以上的爆响，但第一段声音已经到达硬件，不能承诺拦住单次脉冲。
+2. **DSP Peak Guard**：在输出前保留约 5 ms look-ahead，同时执行突增衰减和 True-Peak limiter。它才能处理几十毫秒以内的尖峰，但必须接管系统输出路径。
+
+Peak Guard 不使用 Short-term LUFS 作为唯一触发量。3 秒响度用于稳定来源之间的整体听感；快速能量和 True Peak 用于爆音，两条控制路径共享事件日志但分别决策。
+
+界面需要新增：
+
+- Peak Guard 当前状态、触发时间和触发原因；
+- 检测到的绝对峰值、相对突增量和建议/实际衰减量；
+- `只记录`、`快速压低系统音量`、`DSP 限制器` 三种明确模式；
+- 系统最大音量上限。数字限幅不能推断耳边 dBA，不能替代用户设定的最大系统音量。
+
 ## 4. 真正 DSP 压制为何更难
 
 监听系统输出不等于能够修改系统输出。DSP 模式需要让原始声音不再直达扬声器，同时把处理后的声音重新送到真实设备，否则会出现原声和处理声重叠。
 
 ### 4.1 macOS
 
-可验证的方向：
+macOS 分成“低成本技术验证”和“生产级路由”两条路线。
+
+#### 技术验证：Core Audio tap 静音并重放
 
 ```text
 Core Audio global tap
-  + muted / mutedWhenTapped
+  + mutedWhenTapped
   → 实时 DSP
   → AUHAL / 输出 Audio Unit
   → 当前真实输出设备
 ```
 
-Apple 的 `CATapMuteBehavior` 明确支持捕获时不把被 tap 的音频继续送往硬件；系统也提供 Dynamics Processor 和 Peak Limiter Audio Units。因此 macOS 可以先做一个不安装虚拟音频驱动的技术试验。
+当前只读 helper 已经证明 global tap 能取得系统混音。技术验证阶段可以把 tap 改为 `mutedWhenTapped`，将同一批 PCM 经过 Peak Guard 后用 AUHAL 输出到真实设备，并排除本程序输出以避免反馈。
 
-仍需验证：全局 tap 静音覆盖、排除本程序避免反馈、蓝牙/HDMI 路由、设备时钟漂移、输出格式变化、睡眠唤醒、权限撤销以及进程崩溃后是否立即恢复原声。任何一项不可靠，都不能成为默认模式。
+这条路线只用于回答延迟、漏音和崩溃恢复是否可接受，不能直接作为默认功能。tap 权限被撤销、处理进程卡住或输出设备断开时，系统可能出现静音或重复路由风险。
+
+#### 生产目标：虚拟输出设备
+
+Apple 提供 Audio Server Driver Plug-in，用于发布一个可被系统选择的虚拟音频设备。生产级信号路径定义为：
+
+```text
+应用与系统声音
+  → System Audio Auto Volume 虚拟输出设备
+  → 共享环形缓冲区
+  → macOS DSP 服务
+       1. K-weighting / 响度监测
+       2. Peak Guard 突增检测
+       3. 5 ms look-ahead gain envelope
+       4. True-Peak limiter
+  → AUHAL
+  → 用户选择的真实扬声器 / 耳机
+```
+
+实际运行顺序：
+
+1. 服务启动后先记录当前真实默认输出设备，不立即修改路由。
+2. 初始化虚拟设备、环形缓冲区和真实设备 AUHAL 输出；只有输入、DSP、输出三段均 ready 才允许用户切换到 DSP 模式。
+3. 用户确认后将虚拟设备设为系统输出。原始声音只进入虚拟设备，处理后的声音只送往记录的真实设备。
+4. 实时线程只做无锁 PCM 读写、峰值计算和增益包络；JSON、日志、HTTP、设备枚举全部在控制线程执行。
+5. 真实输出设备切换时先冻结增益、建立新 AUHAL，再做短淡入；旧设备停止后才释放。
+6. 用户关闭 DSP 时先将系统默认输出恢复为真实设备，再停止虚拟设备和 DSP，不能反过来导致持续静音。
+7. 服务崩溃或心跳超时时，由独立守护进程恢复先前默认设备；恢复失败时给出系统设置中的人工恢复路径。
+
+macOS 平台模块边界：
+
+| 模块 | 职责 |
+|---|---|
+| Audio Server Plug-in / Driver Extension | 暴露虚拟双声道输出、时钟与 PCM 缓冲区 |
+| DSP 服务 | Peak Guard、增益包络、限幅、真实设备输出 |
+| 共享控制服务 | 设置、状态机、事件和本地 API |
+| 当前 Core Audio tap helper | 继续用于只读模式和对照，不参与生产 DSP 路由 |
+
+安装虚拟设备需要独立、可撤销的安装流程。不能把驱动安装、默认设备切换或系统音频权限变更隐藏在普通“开启保护”按钮后面。
+
+macOS 必测：tap 静音覆盖、排除本程序、44.1/48 kHz、蓝牙/HDMI、设备时钟漂移、睡眠唤醒、权限撤销、服务强制结束和卸载恢复。任何一项不能可靠 fail-open，都不能成为默认模式。
 
 ### 4.2 Windows
 
-WASAPI loopback 只能复制当前 shared-mode 渲染流用于监听，不能阻止原声继续输出；exclusive-mode 也不能使用 loopback。因此“回录 → 处理 → 再播放”会产生双声，不能直接作为正式方案。
+WASAPI loopback 只负责监测，不能阻止原声继续输出。因此正式 DSP 不能采用“loopback 回录 → 处理 → 再播放”，否则会同时听到原声和处理声。
 
-Windows 的正式系统级 DSP 插入点是 Audio Processing Object（APO）。Endpoint Effect 可以作用于使用同一端点的所有流，但自定义 APO 是实时 COM 组件，需要与驱动包和 INF 安装/注册一起交付，并满足非阻塞、低延迟等实时约束。它属于单独的驱动级项目，不应混进第一版监控工具。
+#### 首选生产路线：Endpoint Effect APO
 
-备选路线是提供自有虚拟输出设备，让用户把它设为系统输出，再由应用处理后播放到真实设备；这同样涉及驱动安装、设备切换和卸载恢复，不比普通桌面功能轻量。
+Windows 的系统级插入点是 Audio Processing Object。Endpoint Effect（EFX）位于端点混音之后，适合扬声器保护，并可覆盖使用该端点的流。信号路径定义为：
+
+```text
+各应用音频流
+  → Windows Audio Engine 混音
+  → System Audio Auto Volume Endpoint APO
+       1. Peak / 快速能量检测
+       2. 相对突增判断
+       3. look-ahead gain envelope
+       4. True-Peak limiter
+  → 端点输出路径（包含系统音量与驱动处理）
+  → 扬声器或耳机
+```
+
+实际运行逻辑：
+
+1. C++ APO 作为实时 COM 组件，通过驱动包和 INF 与目标输出端点关联；Python 服务不进入 PCM 处理线程。
+2. `APOProcess` 在系统提供的缓冲区上原地处理。实时路径禁止内存分配、文件/网络 I/O、锁等待和任何可能阻塞的系统调用。
+3. UI 修改参数时，共享控制服务生成一份完整、校验后的只读配置快照；APO 在缓冲区边界无锁换入新快照。
+4. APO 只向无锁计数器写入 peak、gain reduction、触发次数和故障码；普通线程再把摘要送到现有本地 API 和界面。
+5. 输出端点切换后检查新端点是否安装并启用 APO。未安装时自动降级为 WASAPI 只读监控，不能假装 DSP 仍在工作。
+6. 用户关闭保护时将 gain envelope 平滑恢复到 `0 dB` 后 bypass；卸载必须先解除端点关联，再移除 DLL/驱动包。
+7. APO 初始化或运行失败时必须输出未处理 PCM 或由 Windows 停用效果，不能循环静音、重复播放或回退到系统音量连写。
+
+Windows 平台模块边界：
+
+| 模块 | 职责 |
+|---|---|
+| Endpoint APO DLL | 实时 Peak Guard 与 limiter，只处理 PCM |
+| 安装包 / INF | APO 注册、端点关联、升级与卸载 |
+| Windows 控制桥 | 配置快照、状态计数器、端点能力检测 |
+| 共享控制服务 | UI、设置、事件日志和平台无关策略 |
+| WASAPI loopback monitor | 只读对照和无 APO 时的降级监控 |
+
+APO 需要签名、安装权限和 Windows Driver Kit 工程；Windows 11 还需要按当前 APO/CAPX 规范完成打包和验证。它属于独立的原生项目，不与 Python 监控进程混编。
+
+#### 备选路线：虚拟输出设备
+
+如果 Endpoint APO 无法以可维护方式覆盖目标端点，则提供自有虚拟输出设备，让用户将它设为系统输出，再由 DSP 服务渲染到真实设备。运行逻辑与 macOS 虚拟设备路线相同，但仍需要驱动签名、安装、默认设备切换和崩溃恢复，复杂度不低于 APO。
+
+Windows 必测：共享模式、RAW、exclusive/offload 路径、USB/蓝牙/HDMI、默认端点切换、格式协商、APO 被系统停用、服务退出、升级和卸载。无法确认经过 APO 的路径必须明确显示为“未受保护”。
 
 ### 4.3 跨平台决策
 
@@ -190,9 +316,9 @@ Windows 的正式系统级 DSP 插入点是 Audio Processing Object（APO）。E
 5. 默认禁止自动升到用户基准以上，并受最高系统音量限制。
 6. 用户手动调节、设备切换、捕获异常时立刻停止写入。
 
-### 5.2 后续 DSP 模式
+### 5.2 最终 DSP 模式
 
-只有平台路由验证通过后，才增加：
+平台路由验证通过后实现：
 
 1. 慢速响度增益骑乘；
 2. 温和宽带压缩；
@@ -220,6 +346,7 @@ Windows 的正式系统级 DSP 插入点是 Audio Processing Object（APO）。E
 
 ## 7. 参考
 
+- [ITU-R BS.1770-5：Programme loudness and true-peak algorithms](https://www.itu.int/rec/R-REC-BS.1770-5-202311-I)
 - [EBU R128：Loudness normalisation and permitted maximum level](https://tech.ebu.ch/publications/r128)
 - [Microsoft：Loudness Equalization DSP](https://learn.microsoft.com/en-us/windows-hardware/drivers/audio/loudness-equalization-dsp)
 - [Microsoft：Audio Processing Object Architecture](https://learn.microsoft.com/en-us/windows-hardware/drivers/audio/audio-processing-object-architecture)
@@ -227,4 +354,5 @@ Windows 的正式系统级 DSP 插入点是 Audio Processing Object（APO）。E
 - [Microsoft：WASAPI Loopback Recording](https://learn.microsoft.com/en-us/windows/win32/coreaudio/loopback-recording)
 - [Apple：Capturing system audio with Core Audio taps](https://developer.apple.com/documentation/CoreAudio/capturing-system-audio-with-core-audio-taps)
 - [Apple：CATapMuteBehavior](https://developer.apple.com/documentation/coreaudio/catapmutebehavior)
+- [Apple：Creating an Audio Server Driver Plug-in](https://developer.apple.com/documentation/coreaudio/creating-an-audio-server-driver-plug-in)
 - [Apple：System-Supplied Audio Units](https://developer.apple.com/library/archive/documentation/MusicAudio/Conceptual/CoreAudioOverview/SystemAudioUnits/SystemAudioUnits.html)

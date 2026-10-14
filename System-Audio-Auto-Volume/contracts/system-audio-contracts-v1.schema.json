@@ -5,14 +5,15 @@
   "oneOf": [
     {"$ref": "#/$defs/settings"},
     {"$ref": "#/$defs/state"},
-    {"$ref": "#/$defs/action"}
+    {"$ref": "#/$defs/action"},
+    {"$ref": "#/$defs/peakGuardEvent"}
   ],
   "$defs": {
     "nullableLevel": {"type": ["number", "null"], "minimum": -120, "maximum": 20},
     "settings": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["schemaVersion", "mode", "triggerLufs", "targetLufs", "minSystemVolume", "maxSystemVolume", "lowerStepPercent", "recoveryStepPercent", "lowerSustainSeconds", "recoverySustainSeconds", "manualOverrideSeconds", "silenceGateDbfs", "updatedAt"],
+      "required": ["schemaVersion", "mode", "triggerLufs", "targetLufs", "minSystemVolume", "maxSystemVolume", "lowerStepPercent", "lowerGain", "maxLowerDbPerSecond", "minLowerStepDb", "recoveryStepPercent", "lowerSustainSeconds", "sustainRatio", "recoverySustainSeconds", "manualOverrideSeconds", "silenceGateDbfs", "updatedAt"],
       "properties": {
         "schemaVersion": {"const": "system-audio.settings/v1"},
         "mode": {"enum": ["monitor", "shadow", "lower-only", "automatic"]},
@@ -26,8 +27,12 @@
         "minSystemVolume": {"type": "number", "minimum": 0, "maximum": 100},
         "maxSystemVolume": {"type": "number", "minimum": 0, "maximum": 100},
         "lowerStepPercent": {"type": "number", "exclusiveMinimum": 0, "maximum": 20},
+        "lowerGain": {"type": "number", "minimum": 0.1, "maximum": 1},
+        "maxLowerDbPerSecond": {"type": "number", "minimum": 0.1, "maximum": 12},
+        "minLowerStepDb": {"type": "number", "minimum": 0.1, "maximum": 3},
         "recoveryStepPercent": {"type": "number", "exclusiveMinimum": 0, "maximum": 10},
         "lowerSustainSeconds": {"type": "number", "minimum": 0.25, "maximum": 60},
+        "sustainRatio": {"type": "number", "minimum": 0.5, "maximum": 1},
         "recoverySustainSeconds": {"type": "number", "minimum": 1, "maximum": 300},
         "manualOverrideSeconds": {"type": "number", "minimum": 0, "maximum": 600},
         "silenceGateDbfs": {"type": "number", "minimum": -100, "maximum": -20},
@@ -53,7 +58,7 @@
     "action": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["schemaVersion", "timestampMs", "state", "kind", "reason", "evidence", "beforeVolume", "recommendedVolume", "appliedVolume", "execute", "mode", "controllerVersion", "settingsUpdatedAt"],
+      "required": ["schemaVersion", "timestampMs", "state", "kind", "reason", "evidence", "beforeVolume", "recommendedVolume", "beforeVolumeDb", "recommendedVolumeDb", "recommendedAttenuationDb", "appliedVolume", "appliedVolumeDb", "execute", "mode", "controllerVersion", "settingsUpdatedAt"],
       "properties": {
         "schemaVersion": {"const": "system-audio.action/v1"},
         "timestampMs": {"type": "number", "minimum": 0},
@@ -63,11 +68,42 @@
         "evidence": {"type": "object"},
         "beforeVolume": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
         "recommendedVolume": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "beforeVolumeDb": {"type": ["number", "null"], "minimum": -200, "maximum": 20},
+        "recommendedVolumeDb": {"type": ["number", "null"], "minimum": -200, "maximum": 20},
+        "recommendedAttenuationDb": {"type": ["number", "null"], "minimum": -60, "maximum": 0},
         "appliedVolume": {"type": ["number", "null"], "minimum": 0, "maximum": 100},
+        "appliedVolumeDb": {"type": ["number", "null"], "minimum": -200, "maximum": 20},
         "execute": {"type": "boolean"},
         "mode": {"enum": ["monitor", "shadow", "lower-only", "automatic"]},
         "controllerVersion": {"type": "string"},
-        "settingsUpdatedAt": {"type": "string"}
+        "settingsUpdatedAt": {"type": "string"},
+        "eventWindow": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["firstTimestampMs", "lastTimestampMs", "durationSeconds", "occurrences"],
+          "properties": {
+            "firstTimestampMs": {"type": "number", "minimum": 0},
+            "lastTimestampMs": {"type": "number", "minimum": 0},
+            "durationSeconds": {"type": "number", "minimum": 0, "maximum": 30},
+            "occurrences": {"type": "integer", "minimum": 1}
+          }
+        }
+      }
+    },
+    "peakGuardEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schemaVersion", "timestampMs", "kind", "state", "reason", "evidence", "suggestedAttenuationDb", "execute", "mode"],
+      "properties": {
+        "schemaVersion": {"const": "system-audio.peak-guard-event/v1"},
+        "timestampMs": {"type": "number", "minimum": 0},
+        "kind": {"const": "peak-guard"},
+        "state": {"enum": ["ATTACK", "HOLD", "RELEASE", "ARMED"]},
+        "reason": {"type": "string", "minLength": 1},
+        "evidence": {"type": "object"},
+        "suggestedAttenuationDb": {"type": "number", "minimum": -12, "maximum": 0},
+        "execute": {"const": false},
+        "mode": {"const": "shadow"}
       }
     }
   }

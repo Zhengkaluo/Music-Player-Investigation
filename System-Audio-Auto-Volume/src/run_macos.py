@@ -1,4 +1,4 @@
-"""macOS-only entry point for the read-only system audio monitor."""
+"""macOS entry point for monitoring and explicit M6 manual volume tests."""
 
 import argparse
 from pathlib import Path
@@ -23,7 +23,7 @@ def main():
         MacOSMonitor(),
         args.settings or ROOT / "runtime" / "macos-settings.json",
         args.port,
-        "M3 macOS 真实只读监控：读取 Core Audio 和系统音量，绝不写入音量。",
+        "M8a macOS：真实影子建议不执行；只有界面人工测试按钮可以小幅写入并安全恢复音量。",
     )
 
 

@@ -1,6 +1,6 @@
 # System Audio Auto Volume
 
-> 状态：M0–M2 已完成；M3 macOS 与 M4 Windows 只读原型已实现  
+> 状态：M0–M2 已完成；M3–M5.5 已实现；M6 macOS 实机通过；M7 已实现；M8a-2～M8a-4 已完成，M8a-5 跨设备实机矩阵待补齐
 > 建立日期：2026-10-03  
 > 开发路径：`/Users/kaluozheng/Music-Player-Investigation/System-Audio-Auto-Volume`
 
@@ -8,9 +8,27 @@
 
 M0–M2 已建立可运行的模拟版本：版本化 JSON 契约、六类音频场景、共享控制状态机、本机 API、设置持久化和监控界面。
 
-M3 已接入 macOS 14.4+ Core Audio process tap：实时显示默认输出设备、RMS、Peak、采样率、丢帧、回调指标和只读系统音量。它不保存 PCM、不写录音文件，也没有任何系统音量写入调用。M3 的 60 分钟连续运行与多设备门禁仍待正式验收。
+M3 已接入 macOS 14.4+ Core Audio process tap：实时显示默认输出设备、RMS、Peak、采样率、丢帧、回调指标和只读系统音量。监控路径不保存 PCM、不写录音文件，也不会调用 M6 的人工音量写入命令。M3 的 60 分钟连续运行与多设备门禁仍待正式验收。
 
-M4 已接入 Windows WASAPI loopback 与 EndpointVolume 只读接口：沿用严格的默认渲染端点匹配，监听默认设备、端点状态和音量/静音变化。当前代码不包含任何 EndpointVolume 写入调用；由于本轮开发主机是 macOS，Windows 实机验收尚未进行。
+M4 已接入 Windows WASAPI loopback 与 EndpointVolume 只读监控：沿用严格的默认渲染端点匹配，监听默认设备、端点状态和音量/静音变化。监控回调不会写 EndpointVolume；M6 的写入只由人工校准接口触发。由于本轮开发主机是 macOS，Windows 实机验收尚未进行。
+
+M5 已实现跨平台一致的 K-weighting、400 ms Momentary 与 3 s Short-term 响度。六组合成信号与 FFmpeg `ebur128` 的离线误差在 0.001 LU 内；结果与剩余门禁见 [`M5_CALIBRATION.md`](M5_CALIBRATION.md)。真实模式只允许 `monitor` 或 M7 `shadow`，两者都不会执行自动音量调整。
+
+M5.5 已加入 10 ms Peak Guard 影子检测：同时观察 Sample Peak、快速 RMS 与约 1 秒基线，连续 20 ms 达到条件才记录事件，并生成最多 −12 dB 的建议衰减。macOS 与 Windows 都在各自音频回调侧计算相同摘要，共享服务只显示和记录结果；`execute` 固定为 `false`，不修改 PCM，也不写系统音量。True Peak 字段目前仅预留，尚未实现。
+
+M6 已增加独立的人工音量校准入口。监控与控制器仍不会写音量；只有界面上的“测试降低 1 个百分点”按钮可以执行一次小幅降低，“安全恢复”会在设备未切换且当前值仍等于程序写入值时恢复。2026-10-05 已在 `MacBook Pro扬声器` 实测 `18.75% → 17.75% → 18.75%`；Windows 适配器与用户接管保护已完成自动测试，仍待 Windows 实机验证。
+
+M7 已允许真实数据进入共享影子控制器：界面同时显示实际音量、建议音量与未执行原因，事件按平台追加到 `runtime/macos-shadow-events.jsonl` 或 `runtime/windows-shadow-events.jsonl`。当前影子模式只生成降低建议，不生成恢复/升高建议；平台写入方法不会被调用。验证与人工复核项见 [`M7_SHADOW_REPORT.md`](M7_SHADOW_REPORT.md)。
+
+M8a 已把严格连续计时改为证据窗口：窗口内超阈值样本达到 `sustainRatio`（默认 80%）才生成建议，短暂回落不会立即清空全部证据；首次触发后以 `targetLufs.high` 作为停止边界。相同 `would-lower` 在固定 30 秒内合并为一个持续偏响事件，Mac 与 Windows 共用该逻辑，仍然不执行自动音量写入。
+
+2026-10-13 的三档实测表明，当前 `MacBook Pro扬声器` 的 Core Audio tap 位于系统主音量之前：31%、50%、69% 下同一段音乐的 Short-term 曲线基本重合。该结论已写入按设备 ID 保存的反馈档案；服务会在设备、系统环境、dB 来源或 dB 范围变化时使档案失效，并退回只监测/影子状态。
+
+M8a-1 已补齐统一的设备 dB 能力字段。macOS 本机只读验证得到：`BuiltInSpeakerDevice` 在 68.75% 时为 −10.85 dB，设备范围 −63.5 至 0 dB；Windows 已接入 EndpointVolume 当前 dB 与范围读取，待 Windows 实机复核。界面现在分别标明源 Short-term、输出估算是否已校准，以及设备 dB 映射状态；自动音量写入仍关闭。
+
+M8a-2～M8a-4 已完成：界面提供三档引导校准，稳定窗口取中位数后把设备分成 `pre-volume`、`post-volume` 或 `unreliable`；共享控制器只在档案与 dB 映射都可靠时计算 `effectiveLufs`，并按比例、每秒限速和最小步长生成 dB 建议。macOS 负责 dB ↔ scalar 转换，Windows 负责 EndpointVolume dB 能力；两端都只生成影子建议，不自动写音量。
+
+M8a-5 的代码门禁和 macOS 内建扬声器实机门禁已通过。Windows 实机、macOS 蓝牙/USB/HDMI，以及 Windows 扬声器/耳机/蓝牙/exclusive-mode 仍需在相应硬件上补测，因此尚不开放 M8b。结果见 [`M8A_ACCEPTANCE_REPORT.md`](M8A_ACCEPTANCE_REPORT.md)。
 
 两个系统使用隔离入口，共用同一份 `AudioSource` 接口、控制器、HTTP 服务、状态契约和界面：
 
@@ -19,7 +37,7 @@ M4 已接入 Windows WASAPI loopback 与 EndpointVolume 只读接口：沿用严
 | 模拟开发 | `src/service.py` → `Simulator` |
 | macOS | `src/run_macos.py` → `src/macos_monitor.py` → Core Audio helper |
 | Windows | `src/run_windows.py` → `src/windows_monitor.py` → WASAPI / EndpointVolume |
-| 跨平台共享 | `src/source_contract.py`、`src/controller.py`、`src/service.py`、`ui/index.html` |
+| 跨平台共享 | `src/source_contract.py`、`src/loudness_meter.py`、`src/controller.py`、`src/service.py`、`ui/index.html` |
 
 平台入口只在确认当前操作系统后延迟加载本平台适配器；macOS 不导入 Windows 依赖，Windows 也不导入 macOS helper。
 
@@ -48,7 +66,7 @@ macOS 真实只读监控：
 python3 src/run_macos.py
 ```
 
-首次运行可能出现“系统音频录制”权限提示；允许后只会取得实时电平摘要，不会保存声音内容。真实模式的控制模式被服务端固定为 `monitor`。
+首次运行可能出现“系统音频录制”权限提示；允许后只会取得实时电平摘要，不会保存声音内容。真实模式允许 `monitor` 与不执行写入的 `shadow`；`lower-only` 和 `automatic` 仍被拒绝。
 
 Windows 10/11 首次安装依赖并运行：
 
@@ -58,13 +76,15 @@ runtime\.venv-windows\Scripts\python.exe -m pip install -r requirements-windows.
 runtime\.venv-windows\Scripts\python.exe src\run_windows.py
 ```
 
-Windows 模式同样固定为 `monitor`。WASAPI exclusive-mode、设备拔出与同名输出的行为必须在 Windows 主机上完成门禁验收。
+Windows 模式同样允许 `monitor` 与不执行写入的 `shadow`。WASAPI exclusive-mode、设备拔出与同名输出的行为必须在 Windows 主机上完成门禁验收。
 
 ## 1. 项目目标
 
 开发一套同时支持 macOS 和 Windows 的系统级自动音量工具。它不依赖 QQ 音乐或任何特定播放器，而是监听当前输出设备正在播放的系统混音，实时估计响度，并在必要时平滑调整该设备的系统主音量。
 
 目标是减少歌曲、视频、网页和其他播放来源切换时的明显音量落差，同时尽量保留内容自身的动态变化。
+
+系统主音量控制是第一条交付链路，不是最终能力上限。最终产品目标是在 macOS 和 Windows 上分别建立可撤销的 DSP 音频路径，通过小型 look-ahead 与 True-Peak limiter，在第一个爆音到达真实输出设备之前完成衰减。
 
 基础闭环：
 
@@ -104,15 +124,29 @@ Windows 模式同样固定为 `monitor`。WASAPI exclusive-mode、设备拔出�
 | REQ-14 | 可调整控制参数 | 可设置触发响度、目标响度区间、系统音量上下限、压低与恢复速度 |
 | REQ-15 | 显示动态调整过程 | 提供最近 60 秒趋势和动作原因，区分用户操作与自动操作 |
 | REQ-16 | 区分音量调节与信号压制 | 界面和日志必须明确当前采用系统主音量控制，还是音频 DSP 压缩/限幅 |
+| REQ-17 | 真正拦截第一个爆音 | 最终 DSP 模式必须在原始音频到达真实设备前执行 look-ahead 与 True-Peak 限制；事后降低系统音量不算完成 |
 
-### 2.2 当前不做
+### 2.2 M8 当前不做
 
 - 不按应用分别调节音量；第一版只控制当前输出设备的系统主音量。
-- 不对音频流施加压缩器、限制器或重新编码；第一版调整的是系统音量，不修改音频内容。
+- M8 不对音频流施加压缩器或限制器；当前阶段调整系统音量，不修改音频内容。DSP 是后续必达目标，不是被取消的需求。
 - 不识别歌曲、艺人、风格或 ZMPD 标签。
 - 不使用麦克风估计房间内的真实声压级，因此不能承诺耳边的绝对 dBA 或医疗级听力保护。
 - 不把监测到的系统声音录制、归档或加入 SongBase/Flowset 训练数据。
 - 不为未知来源预先做整曲分析，也不要求播放器提供曲目信息。
+
+### 2.3 最终 DSP 目标
+
+最终模式必须满足：
+
+- 原始系统音频不能绕过处理链直接到达扬声器或耳机；
+- 使用约 5 ms 的 look-ahead，在第一个危险峰值输出前建立衰减包络；
+- 使用 True Peak 而不是只依赖 Sample Peak 验证输出 ceiling；
+- macOS 和 Windows 分别采用本平台可安装、可撤销、可故障恢复的路由方案；
+- 处理失败时必须安全 bypass 或恢复原输出，不能持续静音、双声或循环回放；
+- 界面明确区分“系统音量快速补救”与“DSP 已提前拦截”。
+
+详细平台路线见 [`MONITORING_AND_SUPPRESSION.md`](MONITORING_AND_SUPPRESSION.md)。
 
 ## 3. “音量稳定”的准确含义
 
@@ -223,7 +257,7 @@ windows/
 
 不为了“跨平台”提前建立复杂插件系统；两个明确的平台适配器已经足够。
 
-监控界面和声音压制的详细方案见 [`MONITORING_AND_SUPPRESSION.md`](MONITORING_AND_SUPPRESSION.md)。
+监控界面、突然爆音 Peak Guard、macOS 虚拟输出设备和 Windows Endpoint APO 的详细运行方案见 [`MONITORING_AND_SUPPRESSION.md`](MONITORING_AND_SUPPRESSION.md)。
 可直接执行的里程碑、任务门禁和验收顺序见 [`DEVELOPMENT_PLAN.md`](DEVELOPMENT_PLAN.md)。
 
 ## 7. 平台方案

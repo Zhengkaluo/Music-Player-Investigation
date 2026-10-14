@@ -1,13 +1,16 @@
-"""Read-only Windows WASAPI loopback meter and EndpointVolume observer."""
+"""Windows WASAPI meter with explicit M6 manual EndpointVolume calibration."""
 
 from __future__ import annotations
 
 from array import array
 from copy import deepcopy
 import math
+import platform as system_platform
 import sys
 import threading
 import time
+
+from loudness_meter import LoudnessMeter, PeakGuard
 
 
 def default_loopback(audio, api):
@@ -29,7 +32,7 @@ def dbfs(amplitude):
 
 
 class PCMWindow:
-    def __init__(self):
+    def __init__(self, sample_rate=None, channels=None):
         self.squares = 0
         self.samples = 0
         self.peak = 0
@@ -39,6 +42,10 @@ class PCMWindow:
         self.max_callback_seconds = 0.0
         self.max_callback_interval_seconds = 0.0
         self.last_callback = None
+        self.loudness = (LoudnessMeter(sample_rate, channels)
+                         if sample_rate is not None and channels is not None else None)
+        self.peak_guard = (PeakGuard(sample_rate, channels)
+                           if sample_rate is not None and channels is not None else None)
 
     def consume(self, data, frame_count, status, callback_seconds, callback_at):
         values = array("h", data)
@@ -51,6 +58,9 @@ class PCMWindow:
         self.squares += sum(value * value for value in values)
         self.samples += len(values)
         self.peak = max(self.peak, max(map(abs, values), default=0))
+        if self.loudness:
+            self.loudness.consume(values, scale=1 / 32768)
+            self.peak_guard.consume(values, scale=1 / 32768)
         self.frames += frame_count
         self.callbacks += 1
         if status:
@@ -70,6 +80,9 @@ class PCMWindow:
             "maxCallbackSeconds": self.max_callback_seconds,
             "maxCallbackIntervalSeconds": self.max_callback_interval_seconds,
         }
+        if self.loudness:
+            result.update(self.loudness.snapshot())
+            result["peakGuard"] = self.peak_guard.snapshot()
         self.squares = self.samples = self.peak = self.frames = self.callbacks = 0
         self.dropped_frames = 0
         self.max_callback_seconds = self.max_callback_interval_seconds = 0.0
@@ -104,6 +117,10 @@ class WindowsMonitor:
         self.latest = None
         self.last_device = {"deviceId": "windows-pending", "deviceName": "等待 WASAPI"}
         self.error = None
+        self.volume_test_session = None
+        self.last_observed_volume = None
+        self.last_program_volume = None
+        self.last_program_at = 0.0
         self.worker = None
         if start_worker:
             self.worker = threading.Thread(target=self._supervise,
@@ -111,6 +128,11 @@ class WindowsMonitor:
             self.worker.start()
 
     def close(self):
+        if self.volume_test_session:
+            try:
+                self.manual_volume_test("restore")
+            except RuntimeError:
+                pass
         self.stop_event.set()
         self.reconfigure_event.set()
         if self.worker:
@@ -133,9 +155,9 @@ class WindowsMonitor:
         comtypes.CoInitializeEx(comtypes.COINIT_MULTITHREADED)
         audio = enumerator = endpoint = stream = None
         volume_callback = device_callback = None
-        meter = PCMWindow()
         meter_lock = threading.Lock()
-        volume_state = {"value": None, "muted": None}
+        volume_state = {"value": None, "db": None, "dbMin": None, "dbMax": None,
+                        "dbStep": None, "muted": None, "hardwareSupport": None}
         monitor = self
 
         class VolumeCallback(volume_callback_base):
@@ -165,7 +187,19 @@ class WindowsMonitor:
             device_id = str(getattr(device, "id", None) or device.GetId())
             device_name = str(getattr(device, "FriendlyName", None) or output["name"])
             volume_state.update(value=float(endpoint.GetMasterVolumeLevelScalar()) * 100,
+                                db=float(endpoint.GetMasterVolumeLevel()),
                                 muted=bool(endpoint.GetMute()))
+            try:
+                db_min, db_max, db_step = endpoint.GetVolumeRange()
+                volume_state.update(dbMin=float(db_min), dbMax=float(db_max),
+                                    dbStep=float(db_step))
+            except Exception:
+                volume_state.update(dbMin=None, dbMax=None, dbStep=None)
+            try:
+                volume_state["hardwareSupport"] = bool(
+                    int(endpoint.QueryHardwareSupport()) & 0x1)
+            except Exception:
+                volume_state["hardwareSupport"] = None
             with self.lock:
                 self.last_device = {"deviceId": device_id, "deviceName": device_name}
                 self.error = None
@@ -178,6 +212,7 @@ class WindowsMonitor:
 
             rate = int(loopback["defaultSampleRate"])
             channels = int(loopback["maxInputChannels"])
+            meter = PCMWindow(rate, channels)
 
             def callback(data, frame_count, _time_info, status):
                 started = time.perf_counter()
@@ -203,12 +238,30 @@ class WindowsMonitor:
                         "WASAPI 回调超过 2 秒无数据；请检查设备断开或 exclusive-mode 播放")
                 if values is None:
                     continue
+                try:
+                    volume_state["db"] = float(endpoint.GetMasterVolumeLevel())
+                except Exception:
+                    volume_state["db"] = None
+                db_values = (volume_state["db"], volume_state["dbMin"],
+                             volume_state["dbMax"])
+                db_reliable = (all(value is not None and math.isfinite(value)
+                                   for value in db_values)
+                               and volume_state["dbMin"] < volume_state["dbMax"])
                 with self.lock:
                     values.update({
                         "timestampMs": time.time() * 1000,
                         "deviceId": device_id,
                         "deviceName": device_name,
                         "systemVolume": volume_state["value"],
+                        "systemVolumeDb": volume_state["db"],
+                        "volumeDbMin": volume_state["dbMin"],
+                        "volumeDbMax": volume_state["dbMax"],
+                        "volumeDbStep": volume_state["dbStep"],
+                        "outputAttenuationDb": (volume_state["db"] - volume_state["dbMax"]
+                                                if db_reliable else None),
+                        "volumeDbSource": "windows-endpointvolume" if db_reliable else None,
+                        "volumeDbMappingReliable": db_reliable,
+                        "volumeHardwareSupport": volume_state["hardwareSupport"],
                         "volumeReadable": volume_state["value"] is not None,
                         "volumeWritableCapability": True,
                         "muted": volume_state["muted"],
@@ -248,21 +301,41 @@ class WindowsMonitor:
             message = deepcopy(self.latest)
             device = deepcopy(self.last_device)
             error = self.error
+            volume = None if message is None else message.get("systemVolume")
+            manual_changed = (volume is not None and self.last_observed_volume is not None
+                              and abs(volume - self.last_observed_volume) > 0.05
+                              and not (self.last_program_volume is not None
+                                       and abs(volume - self.last_program_volume) <= 0.6
+                                       and time.monotonic() - self.last_program_at <= 2))
+            if volume is not None:
+                self.last_observed_volume = volume
         stale = (message is None or
                  float(timestamp_ms) - float(message.get("timestampMs", 0)) > 2000)
         return {
             "timestampMs": float(timestamp_ms),
+            "platform": self.platform,
             "deviceId": device["deviceId"],
             "deviceName": device["deviceName"],
+            "environmentFingerprint": "windows:%s" % system_platform.version(),
+            "deviceTransport": "windows-render-endpoint",
             "systemVolume": None if message is None else message.get("systemVolume"),
-            "shortTermLufs": None,
-            "momentaryLufs": None,
+            "systemVolumeDb": None if message is None else message.get("systemVolumeDb"),
+            "volumeDbMin": None if message is None else message.get("volumeDbMin"),
+            "volumeDbMax": None if message is None else message.get("volumeDbMax"),
+            "volumeDbStep": None if message is None else message.get("volumeDbStep"),
+            "outputAttenuationDb": None if message is None else message.get("outputAttenuationDb"),
+            "volumeDbSource": None if message is None else message.get("volumeDbSource"),
+            "volumeDbMappingReliable": False if message is None else bool(message.get("volumeDbMappingReliable")),
+            "volumeHardwareSupport": None if message is None else message.get("volumeHardwareSupport"),
+            "captureResponse": "unknown",
+            "shortTermLufs": None if message is None else message.get("shortTermLufs"),
+            "momentaryLufs": None if message is None else message.get("momentaryLufs"),
             "rmsDbfs": None if message is None else message.get("rmsDbfs"),
             "peakDbfs": None if message is None else message.get("peakDbfs"),
             "isSilent": message is not None and message.get("rmsDbfs", 0) <= -90,
             "captureAvailable": not stale,
-            "volumeControllable": False,
-            "manualVolumeChanged": False,
+            "volumeControllable": False if message is None else bool(message.get("volumeWritableCapability")),
+            "manualVolumeChanged": manual_changed,
             "scenarioId": None,
             "scenarioLabel": "真实系统输出",
             "volumeReadable": False if message is None else bool(message.get("volumeReadable")),
@@ -274,5 +347,64 @@ class WindowsMonitor:
             "droppedFrames": None if message is None else message.get("droppedFrames"),
             "maxCallbackSeconds": None if message is None else message.get("maxCallbackSeconds"),
             "maxCallbackIntervalSeconds": None if message is None else message.get("maxCallbackIntervalSeconds"),
+            "peakGuard": None if message is None else message.get("peakGuard"),
             "error": "等待第一批音频数据" if message is None and error is None else error,
         }
+
+    def _volume_operation(self, target=None, expected_device=None, expected_volume=None):
+        _api, comtypes, audio_utilities, _volume_callback, _device_callback = (
+            self.dependency_loader())
+        comtypes.CoInitialize()
+        try:
+            device = audio_utilities.GetSpeakers()
+            endpoint = device.EndpointVolume
+            device_id = str(getattr(device, "id", None) or device.GetId())
+            device_name = str(getattr(device, "FriendlyName", None) or device_id)
+            current = float(endpoint.GetMasterVolumeLevelScalar()) * 100
+            if expected_device is not None and device_id != expected_device:
+                raise RuntimeError("输出设备已切换，拒绝恢复测试音量")
+            if expected_volume is not None and abs(current - expected_volume) > 0.6:
+                raise RuntimeError("测试后音量已被用户修改，拒绝覆盖当前音量")
+            if target is not None:
+                endpoint.SetMasterVolumeLevelScalar(max(0, min(100, target)) / 100, None)
+            actual = float(endpoint.GetMasterVolumeLevelScalar()) * 100
+            return {"deviceId": device_id, "deviceName": device_name,
+                    "beforeVolume": current, "appliedVolume": actual,
+                    "muted": bool(endpoint.GetMute())}
+        finally:
+            comtypes.CoUninitialize()
+
+    def manual_volume_test(self, action, step=1.0):
+        with self.lock:
+            if action == "lower":
+                if self.volume_test_session:
+                    raise RuntimeError("上一次测试音量尚未恢复")
+                if not 0.1 <= float(step) <= 3:
+                    raise ValueError("测试步长必须在 0.1..3 个百分点")
+                current = self._volume_operation()
+                result = self._volume_operation(
+                    target=max(0, current["beforeVolume"] - float(step)),
+                    expected_device=current["deviceId"],
+                    expected_volume=current["beforeVolume"])
+                self.volume_test_session = {
+                    "deviceId": result["deviceId"],
+                    "baseline": current["beforeVolume"],
+                    "written": result["appliedVolume"],
+                }
+                self.last_program_volume = result["appliedVolume"]
+                self.last_program_at = time.monotonic()
+                return result
+            if action == "restore":
+                if not self.volume_test_session:
+                    raise RuntimeError("没有待恢复的测试音量")
+                session = self.volume_test_session
+                try:
+                    result = self._volume_operation(
+                        target=session["baseline"], expected_device=session["deviceId"],
+                        expected_volume=session["written"])
+                finally:
+                    self.volume_test_session = None
+                self.last_program_volume = result["appliedVolume"]
+                self.last_program_at = time.monotonic()
+                return result
+            raise ValueError("未知音量测试动作")
