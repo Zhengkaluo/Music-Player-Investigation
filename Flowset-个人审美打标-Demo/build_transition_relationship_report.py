@@ -38,6 +38,9 @@ PAIRS = [
     ("flowset-style-transition-review- seventh-test.json", "题目-第7组.json", "矩阵补全 3", "matrix"),
     ("flowset-style-transition-review-ninth test.json", "题目-第9组-桥接方向.json", "桥接方向", "direction"),
     ("flowset-style-transition-review-tenth test.json", "题目-第10组-cost-risk校准.json", "声学校准", "acoustic"),
+    ("flowset-style-transition-review-11-test.json", "题目-第11组.json", "算法 Top1 验证 11", "algorithm"),
+    ("flowset-style-transition-review-12-test.json", "题目-第12组.json", "低 cost 验证 12", "low_cost"),
+    ("flowset-style-transition-review-13-test.json", "题目-第13组.json", "低 cost 验证 13", "low_cost"),
 ]
 
 # These responses were made against a wrong/ambiguous recording in the historical
@@ -56,6 +59,8 @@ FAMILY_LABELS = {
     "matrix": "矩阵补全",
     "direction": "桥接方向",
     "acoustic": "声学校准",
+    "algorithm": "算法 Top1 验证",
+    "low_cost": "低 cost 验证",
 }
 
 FLOWSET_WAVES = [
@@ -1077,7 +1082,7 @@ function renderHeader(){
 
 function renderCoverage(){
   const m=DATA.meta;
-  const steps=[['8 份 review',m.presented_questions+'题'],['去掉复测',m.primary_questions_before_audio_qa+'题'],['音频 QA',m.analysis_questions+'题'],['候选衔接',m.candidate_rows+'条'],['两端 Flowset',m.two_sided_flow_rows+'条']];
+  const steps=[[m.included_review_files+' 份 review',m.presented_questions+'题'],['去掉复测',m.primary_questions_before_audio_qa+'题'],['音频 QA',m.analysis_questions+'题'],['候选衔接',m.candidate_rows+'条'],['两端 Flowset',m.two_sided_flow_rows+'条']];
   $('funnel').innerHTML=steps.map((s,i)=>`${i?'<span class="arrow">→</span>':''}<div class="funnel-step"><b>${esc(s[1])}</b><span>${esc(s[0])}</span></div>`).join('');
   $('ratingDist').innerHTML=bars(DATA.rating_distribution,'n','rating',Math.max(...DATA.rating_distribution.map(x=>x.n)));
   [...$('ratingDist').querySelectorAll('.bar-row span')].forEach((node,i)=>node.textContent=`${DATA.rating_distribution[i].rating} 分`);

@@ -1,0 +1,3616 @@
+{
+  "schemaVersion": "flowset.annotations/v1",
+  "exportedAt": "2026-10-10T10:52:28.689212+00:00",
+  "app": {
+    "name": "SongBase Tag + ZMPD 联合标注",
+    "version": "1"
+  },
+  "annotator": {
+    "id": "郑卡罗"
+  },
+  "dataset": {
+    "name": "SongBase Tag + ZMPD 联合标注 2026-10-10",
+    "trackCount": 50
+  },
+  "dimensions": [
+    {
+      "id": "time-scene",
+      "name": "适合的时段",
+      "mode": "multiple",
+      "options": [
+        {
+          "id": "option-mrnmytrk-y6ij6",
+          "label": "8-11"
+        },
+        {
+          "id": "option-mrnmytrk-zc362",
+          "label": "11-14"
+        },
+        {
+          "id": "option-mrnmytrk-f0hlx",
+          "label": "14-17"
+        },
+        {
+          "id": "option-mrnmytrk-54l50",
+          "label": "17-20"
+        }
+      ]
+    },
+    {
+      "id": "energy-state",
+      "name": "能量状态",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-1-平静",
+          "label": "平静"
+        },
+        {
+          "id": "option-2-渐进",
+          "label": "渐进"
+        },
+        {
+          "id": "option-3-有冲劲",
+          "label": "有冲劲"
+        },
+        {
+          "id": "option-4-爆发",
+          "label": "爆发"
+        },
+        {
+          "id": "option-5-不确定",
+          "label": "不确定"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv2el-bcz56",
+      "name": "噪音程度",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmx6nb-hceo5",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmx6nb-me16i",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmx6nb-gpkmg",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmx6nb-xhmoc",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmx6nb-nrjzr",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmx6nb-3f5jk",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmx6nb-koip6",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmx6nb-qqwvw",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmx6nb-ot0xk",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmx6nb-khx5g",
+          "label": "10"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv3aw-rxr7k",
+      "name": "摇摆速率",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmxcnn-ykgfn",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmxcnn-64mj5",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmxcnn-5aaot",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmxcnn-iuu46",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmxcnn-msz0f",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmxcnn-vrulw",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmxcnn-05i18",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmxcnn-lrmxo",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmxcnn-kdr2b",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmxcnn-r7ede",
+          "label": "10"
+        }
+      ]
+    },
+    {
+      "id": "dimension-mrnmv3ns-cb63i",
+      "name": "负担程度",
+      "mode": "single",
+      "options": [
+        {
+          "id": "option-mrnmxdlm-cae37",
+          "label": "1"
+        },
+        {
+          "id": "option-mrnmxdlm-gmiqn",
+          "label": "2"
+        },
+        {
+          "id": "option-mrnmxdlm-d0znk",
+          "label": "3"
+        },
+        {
+          "id": "option-mrnmxdlm-8vv1r",
+          "label": "4"
+        },
+        {
+          "id": "option-mrnmxdlm-qypsz",
+          "label": "5"
+        },
+        {
+          "id": "option-mrnmxdlm-g3mmn",
+          "label": "6"
+        },
+        {
+          "id": "option-mrnmxdlm-hz4jz",
+          "label": "7"
+        },
+        {
+          "id": "option-mrnmxdlm-32e5u",
+          "label": "8"
+        },
+        {
+          "id": "option-mrnmxdlm-2b61y",
+          "label": "9"
+        },
+        {
+          "id": "option-mrnmxdlm-emkzp",
+          "label": "10"
+        }
+      ]
+    }
+  ],
+  "tracks": [
+    {
+      "order": 1,
+      "file": {
+        "name": "拥抱 (2013新录制作品) - 五月天.mp3",
+        "relativePath": "../SongBase/SongResources/拥抱 (2013新录制作品) - 五月天.mp3",
+        "size": 11536761,
+        "lastModified": 1791512126568,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 2,
+      "file": {
+        "name": "Another Shore - 吴卓玲.mp3",
+        "relativePath": "../SongBase/SongResources/Another Shore - 吴卓玲.mp3",
+        "size": 18592957,
+        "lastModified": 1791595738586,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 3,
+      "file": {
+        "name": "缓慢味 - 囍浪.mp3",
+        "relativePath": "../SongBase/SongResources/缓慢味 - 囍浪.mp3",
+        "size": 11796941,
+        "lastModified": 1791595738800,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 4,
+      "file": {
+        "name": "Finger (Audiotree Live Version) - 大象体操.mp3",
+        "relativePath": "../SongBase/SongResources/Finger (Audiotree Live Version) - 大象体操.mp3",
+        "size": 11876353,
+        "lastModified": 1791595739055,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 5,
+      "file": {
+        "name": "羽毛 (feat. 坏特 te) (Feather) - 大象体操.mp3",
+        "relativePath": "../SongBase/SongResources/羽毛 (feat. 坏特 te) (Feather) - 大象体操.mp3",
+        "size": 9280826,
+        "lastModified": 1791595739148,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 6,
+      "file": {
+        "name": "It’s time for you - 巧克力工厂.mp3",
+        "relativePath": "../SongBase/SongResources/It’s time for you - 巧克力工厂.mp3",
+        "size": 13768663,
+        "lastModified": 1791512127110,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 7,
+      "file": {
+        "name": "If I Say I Love You - 恐龙的皮 The Dinosaur's Skin.mp3",
+        "relativePath": "../SongBase/SongResources/If I Say I Love You - 恐龙的皮 The Dinosaur's Skin.mp3",
+        "size": 9256794,
+        "lastModified": 1791595739181,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 8,
+      "file": {
+        "name": "Millions of Years Apart (feat. MANDARK) - 恐龙的皮 The Dinosaur's Skin.mp3",
+        "relativePath": "../SongBase/SongResources/Millions of Years Apart (feat. MANDARK) - 恐龙的皮 The Dinosaur's Skin.mp3",
+        "size": 8696728,
+        "lastModified": 1791595739302,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 9,
+      "file": {
+        "name": "污水塘 Polluted Pond (Live) - 惘闻.mp3",
+        "relativePath": "../SongBase/SongResources/污水塘 Polluted Pond (Live) - 惘闻.mp3",
+        "size": 15101953,
+        "lastModified": 1791512126535,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 10,
+      "file": {
+        "name": "Welcome to Utopia - 惘闻.mp3",
+        "relativePath": "../SongBase/SongResources/Welcome to Utopia - 惘闻.mp3",
+        "size": 22722394,
+        "lastModified": 1791512126623,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 11,
+      "file": {
+        "name": "Rain Watcher - 惘闻.mp3",
+        "relativePath": "../SongBase/SongResources/Rain Watcher - 惘闻.mp3",
+        "size": 13553414,
+        "lastModified": 1791512126920,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 12,
+      "file": {
+        "name": "Lonely God - 惘闻.mp3",
+        "relativePath": "../SongBase/SongResources/Lonely God - 惘闻.mp3",
+        "size": 22828973,
+        "lastModified": 1791595738928,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 13,
+      "file": {
+        "name": "Double - 文雀.mp3",
+        "relativePath": "../SongBase/SongResources/Double - 文雀.mp3",
+        "size": 10772941,
+        "lastModified": 1791512126670,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 14,
+      "file": {
+        "name": "浮生若梦 - 文雀.mp3",
+        "relativePath": "../SongBase/SongResources/浮生若梦 - 文雀.mp3",
+        "size": 18719390,
+        "lastModified": 1791512126806,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 15,
+      "file": {
+        "name": "一个人的快乐 - 文雀.mp3",
+        "relativePath": "../SongBase/SongResources/一个人的快乐 - 文雀.mp3",
+        "size": 12419700,
+        "lastModified": 1791595739138,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 16,
+      "file": {
+        "name": "60kmh - 晨曦光廊.mp3",
+        "relativePath": "../SongBase/SongResources/60kmh - 晨曦光廊.mp3",
+        "size": 18559520,
+        "lastModified": 1791595738897,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 17,
+      "file": {
+        "name": "满世 完结篇 - 景德镇文艺复兴.mp3",
+        "relativePath": "../SongBase/SongResources/满世 完结篇 - 景德镇文艺复兴.mp3",
+        "size": 13249349,
+        "lastModified": 1791595738717,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 18,
+      "file": {
+        "name": "太阳睡着了 (Demo) - 曾柯淳.mp3",
+        "relativePath": "../SongBase/SongResources/太阳睡着了 (Demo) - 曾柯淳.mp3",
+        "size": 4849414,
+        "lastModified": 1791595739283,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 19,
+      "file": {
+        "name": "枕头下的宇宙 - 曾柯淳.mp3",
+        "relativePath": "../SongBase/SongResources/枕头下的宇宙 - 曾柯淳.mp3",
+        "size": 7225512,
+        "lastModified": 1791595739289,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 20,
+      "file": {
+        "name": "一只死在春天的猫 - 曾柯淳.mp3",
+        "relativePath": "../SongBase/SongResources/一只死在春天的猫 - 曾柯淳.mp3",
+        "size": 7022802,
+        "lastModified": 1791595739295,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 21,
+      "file": {
+        "name": "The Fear In My Heart - 朴树.mp3",
+        "relativePath": "../SongBase/SongResources/The Fear In My Heart - 朴树.mp3",
+        "size": 15826067,
+        "lastModified": 1791595739364,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 22,
+      "file": {
+        "name": "Don't Mind Me feat. Crispy脆乐团 - 杨乃文.mp3",
+        "relativePath": "../SongBase/SongResources/Don't Mind Me feat. Crispy脆乐团 - 杨乃文.mp3",
+        "size": 7463749,
+        "lastModified": 1791595739018,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 23,
+      "file": {
+        "name": "大好きな人生 - 林忆莲.mp3",
+        "relativePath": "../SongBase/SongResources/大好きな人生 - 林忆莲.mp3",
+        "size": 13692386,
+        "lastModified": 1791512126941,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 24,
+      "file": {
+        "name": "出现又离开 (Live) - 梁博.mp3",
+        "relativePath": "../SongBase/SongResources/出现又离开 (Live) - 梁博.mp3",
+        "size": 17335945,
+        "lastModified": 1791595739250,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 25,
+      "file": {
+        "name": "黑夜中 (Live) - 梁博.mp3",
+        "relativePath": "../SongBase/SongResources/黑夜中 (Live) - 梁博.mp3",
+        "size": 21004581,
+        "lastModified": 1791595739266,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 26,
+      "file": {
+        "name": "如梦重叠 - 沉默橙.mp3",
+        "relativePath": "../SongBase/SongResources/如梦重叠 - 沉默橙.mp3",
+        "size": 7507635,
+        "lastModified": 1791595739213,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 27,
+      "file": {
+        "name": "Storytelling - 湯川潮音.mp3",
+        "relativePath": "../SongBase/SongResources/Storytelling - 湯川潮音.mp3",
+        "size": 14398737,
+        "lastModified": 1791512126955,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 28,
+      "file": {
+        "name": "云男 - 现象师.mp3",
+        "relativePath": "../SongBase/SongResources/云男 - 现象师.mp3",
+        "size": 17155177,
+        "lastModified": 1791512126551,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 29,
+      "file": {
+        "name": "宿醉之星 - 琥珀乐队.mp3",
+        "relativePath": "../SongBase/SongResources/宿醉之星 - 琥珀乐队.mp3",
+        "size": 18505186,
+        "lastModified": 1791595739317,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 30,
+      "file": {
+        "name": "站在太阳上 (Feet on the Sun) - 甜梅号.mp3",
+        "relativePath": "../SongBase/SongResources/站在太阳上 (Feet on the Sun) - 甜梅号.mp3",
+        "size": 18988973,
+        "lastModified": 1791512127145,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 31,
+      "file": {
+        "name": "金玉良田 (Farms we used to cherish) - 甜梅号.mp3",
+        "relativePath": "../SongBase/SongResources/金玉良田 (Farms we used to cherish) - 甜梅号.mp3",
+        "size": 29509006,
+        "lastModified": 1791512127170,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 32,
+      "file": {
+        "name": "月娘总是照着我们 (Luna keeps an eye on every soul) - 甜梅号.mp3",
+        "relativePath": "../SongBase/SongResources/月娘总是照着我们 (Luna keeps an eye on every soul) - 甜梅号.mp3",
+        "size": 30140124,
+        "lastModified": 1791512127300,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 33,
+      "file": {
+        "name": "一个人的永远 (Inst.) - 甜梅号.mp3",
+        "relativePath": "../SongBase/SongResources/一个人的永远 (Inst.) - 甜梅号.mp3",
+        "size": 13646410,
+        "lastModified": 1791512127320,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 34,
+      "file": {
+        "name": "南方蝶道 (Southern Butterfly Path) - 甜梅号.mp3",
+        "relativePath": "../SongBase/SongResources/南方蝶道 (Southern Butterfly Path) - 甜梅号.mp3",
+        "size": 23493528,
+        "lastModified": 1791512127379,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-4-爆发"
+          ],
+          "labels": [
+            "爆发"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-3f5jk"
+          ],
+          "labels": [
+            "6"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-qypsz"
+          ],
+          "labels": [
+            "5"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 35,
+      "file": {
+        "name": "Rosemary - 痛仰乐队.mp3",
+        "relativePath": "../SongBase/SongResources/Rosemary - 痛仰乐队.mp3",
+        "size": 16875145,
+        "lastModified": 1791595739008,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 36,
+      "file": {
+        "name": "秘密爱人 - Steal love - 短跑小说.mp3",
+        "relativePath": "../SongBase/SongResources/秘密爱人 - Steal love - 短跑小说.mp3",
+        "size": 12743618,
+        "lastModified": 1791595738631,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 4,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 37,
+      "file": {
+        "name": "我独自过冬 - 碎叠.mp3",
+        "relativePath": "../SongBase/SongResources/我独自过冬 - 碎叠.mp3",
+        "size": 12120859,
+        "lastModified": 1791512127258,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "8-11",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 38,
+      "file": {
+        "name": "秋天降落 - 碎叠.mp3",
+        "relativePath": "../SongBase/SongResources/秋天降落 - 碎叠.mp3",
+        "size": 15662018,
+        "lastModified": 1791512127275,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-nrjzr"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 39,
+      "file": {
+        "name": "more than words - 羊文学.mp3",
+        "relativePath": "../SongBase/SongResources/more than words - 羊文学.mp3",
+        "size": 11617218,
+        "lastModified": 1791595739223,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 40,
+      "file": {
+        "name": "Surfing Rock - 肖骏.mp3",
+        "relativePath": "../SongBase/SongResources/Surfing Rock - 肖骏.mp3",
+        "size": 8896304,
+        "lastModified": 1791595738974,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-msz0f"
+          ],
+          "labels": [
+            "5"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 41,
+      "file": {
+        "name": "穿过冰面 - 花伦.mp3",
+        "relativePath": "../SongBase/SongResources/穿过冰面 - 花伦.mp3",
+        "size": 13748810,
+        "lastModified": 1791595739068,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-g3mmn"
+          ],
+          "labels": [
+            "6"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 42,
+      "file": {
+        "name": "安全降落 - 表情银行.mp3",
+        "relativePath": "../SongBase/SongResources/安全降落 - 表情银行.mp3",
+        "size": 12297447,
+        "lastModified": 1791595739095,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 43,
+      "file": {
+        "name": "小男孩 - 表情银行.mp3",
+        "relativePath": "../SongBase/SongResources/小男孩 - 表情银行.mp3",
+        "size": 10284973,
+        "lastModified": 1791595739105,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 44,
+      "file": {
+        "name": "Felix - 表情银行.mp3",
+        "relativePath": "../SongBase/SongResources/Felix - 表情银行.mp3",
+        "size": 13468777,
+        "lastModified": 1791595739116,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx"
+          ],
+          "labels": [
+            "11-14",
+            "14-17"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 45,
+      "file": {
+        "name": "苍蝇为什么要搓手 - 表情银行.mp3",
+        "relativePath": "../SongBase/SongResources/苍蝇为什么要搓手 - 表情银行.mp3",
+        "size": 11090590,
+        "lastModified": 1791595739128,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 46,
+      "file": {
+        "name": "筛子浪 Seaman's Diary - 许钧.mp3",
+        "relativePath": "../SongBase/SongResources/筛子浪 Seaman's Diary - 许钧.mp3",
+        "size": 12823030,
+        "lastModified": 1791595738944,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-gmiqn"
+          ],
+          "labels": [
+            "2"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 47,
+      "file": {
+        "name": "恐怖的房子 - 超级市场.mp3",
+        "relativePath": "../SongBase/SongResources/恐怖的房子 - 超级市场.mp3",
+        "size": 17900190,
+        "lastModified": 1791595739030,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "8-11",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-gpkmg"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-8vv1r"
+          ],
+          "labels": [
+            "4"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 48,
+      "file": {
+        "name": "重来 - 逃跑计划.mp3",
+        "relativePath": "../SongBase/SongResources/重来 - 逃跑计划.mp3",
+        "size": 12500157,
+        "lastModified": 1791595739341,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-3-有冲劲"
+          ],
+          "labels": [
+            "有冲劲"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-5aaot"
+          ],
+          "labels": [
+            "3"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 49,
+      "file": {
+        "name": "时过境迁feat.罗小黑 - 野岸刊.mp3",
+        "relativePath": "../SongBase/SongResources/时过境迁feat.罗小黑 - 野岸刊.mp3",
+        "size": 20557365,
+        "lastModified": 1791595738815,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-zc362",
+            "option-mrnmytrk-f0hlx",
+            "option-mrnmytrk-54l50"
+          ],
+          "labels": [
+            "11-14",
+            "14-17",
+            "17-20"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-2-渐进"
+          ],
+          "labels": [
+            "渐进"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-xhmoc"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-iuu46"
+          ],
+          "labels": [
+            "4"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    },
+    {
+      "order": 50,
+      "file": {
+        "name": "kimochi - 铃木真海子.mp3",
+        "relativePath": "../SongBase/SongResources/kimochi - 铃木真海子.mp3",
+        "size": 10266165,
+        "lastModified": 1791595738965,
+        "type": "audio/mpeg"
+      },
+      "selections": [
+        {
+          "dimensionId": "time-scene",
+          "dimension": "适合的时段",
+          "optionIds": [
+            "option-mrnmytrk-y6ij6",
+            "option-mrnmytrk-zc362"
+          ],
+          "labels": [
+            "8-11",
+            "11-14"
+          ]
+        },
+        {
+          "dimensionId": "energy-state",
+          "dimension": "能量状态",
+          "optionIds": [
+            "option-1-平静"
+          ],
+          "labels": [
+            "平静"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv2el-bcz56",
+          "dimension": "噪音程度",
+          "optionIds": [
+            "option-mrnmx6nb-me16i"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3aw-rxr7k",
+          "dimension": "摇摆速率",
+          "optionIds": [
+            "option-mrnmxcnn-64mj5"
+          ],
+          "labels": [
+            "2"
+          ]
+        },
+        {
+          "dimensionId": "dimension-mrnmv3ns-cb63i",
+          "dimension": "负担程度",
+          "optionIds": [
+            "option-mrnmxdlm-d0znk"
+          ],
+          "labels": [
+            "3"
+          ]
+        }
+      ],
+      "confidence": 3,
+      "note": null,
+      "completed": true
+    }
+  ],
+  "summary": {
+    "completedTracks": 50,
+    "incompleteTracks": 0
+  }
+}
