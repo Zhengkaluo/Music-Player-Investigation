@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "flowset.musicbase-extraction-progress/v1",
+  "startedAt": "2026-10-11T07:55:59.883807+00:00",
+  "completedAt": "2026-10-11T08:04:51.564389+00:00",
+  "inputDirectory": "input",
+  "summary": {
+    "requested": 272,
+    "completed": 272,
+    "failedAttempts": 0,
+    "processedThisRun": 272,
+    "remaining": 0,
+    "safety": {
+      "mode": "serial-single-track",
+      "reserveDiskBytes": 21474836480,
+      "minimumMemoryFreePercent": 30,
+      "trackTimeoutSeconds": 900
+    }
+  }
+}

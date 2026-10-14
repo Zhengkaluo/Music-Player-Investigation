@@ -1,0 +1,20 @@
+{
+  "schema_version": "songbase.pending-discard-archive/v1",
+  "updated_at": "2026-10-05",
+  "policy": "此清单仅维护用户明确指定、尚未执行的舍弃归档任务。登记不会修改主曲库、正式标签、候选标签或本地音源；实际归档须经用户确认后，使用归档流程完成并保留对应归档记录。",
+  "tracks": {
+    "qq:001hpPyk2HS7Y2": {
+      "title": "Diya Hai",
+      "artist": "AROOJ AFTAB",
+      "full_singer": "Arooj Aftab, Badi Assad",
+      "album": "Vulture Prince",
+      "duration_seconds": 340,
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/001hpPyk2HS7Y2",
+      "youtube": "https://youtube.com/watch?v=oCUFC-ULdOk",
+      "target_relative_path": "SongResources/Diya Hai - AROOJ AFTAB.mp3",
+      "status": "pending",
+      "requested_at": "2026-10-05",
+      "note": "用户指定待舍弃归档；尚未执行。"
+    }
+  }
+}

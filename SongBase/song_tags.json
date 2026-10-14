@@ -1,7 +1,7 @@
 {
   "schema_version": "songbase.tags/v1",
   "taxonomy_version": "2026-08-07",
-  "updated_at": "2026-09-10",
+  "updated_at": "2026-10-10",
   "taxonomy": {
     "genres": [
       "Ambient / Neo-Classical",
@@ -654,18 +654,6 @@
       "source": "human_artist_batch_review",
       "updated_at": "2026-08-20",
       "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
-    },
-    "qq:0009v77J2FUFvx": {
-      "genre": "Ambient / Neo-Classical",
-      "secondary_genres": [
-        "Hip-Hop / R&B",
-        "Folk / Singer-Songwriter"
-      ],
-      "language": null,
-      "instrumental": null,
-      "source": "human_artist_batch_review",
-      "updated_at": "2026-08-20",
-      "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；原候选置信度 65%。"
     },
     "qq:001jzOWo2xqSAK": {
       "genre": "Ambient / Neo-Classical",
@@ -5475,15 +5463,6 @@
       "updated_at": "2026-08-28",
       "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。已按人工判断调整主副风格。"
     },
-    "qq:001I2LuN0X9HCE": {
-      "genre": "Post-Rock / Cinematic",
-      "secondary_genres": [],
-      "language": null,
-      "instrumental": true,
-      "source": "human_artist_batch_review",
-      "updated_at": "2026-08-28",
-      "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
-    },
     "qq:002aDDHQ1QwW6G": {
       "genre": "Post-Rock / Cinematic",
       "secondary_genres": [],
@@ -8608,6 +8587,4024 @@
       "source": "human_candidate_confirmed",
       "updated_at": "2026-09-10",
       "note": "候选纠错页确认候选：主风格 Rock / Alternative（原候选置信度 79%）；副风格 Electronic；器乐性 非器乐。"
+    },
+    "qq:0044thS03J3WXq": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Ambient / Neo-Classical（原候选置信度 75%）；副风格 Post-Rock / Cinematic；器乐性 Instrumental。"
+    },
+    "qq:000xKZ403aD12K": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Rock / Alternative；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:003Uz0BI0jM7I7": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Hip-Hop / R&B"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative、Hip-Hop / R&B；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:000xqAza2VkRPJ": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Rock / Alternative；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:004G4lsa1K8FF0": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:003u141L3pAKss": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 Instrumental。"
+    },
+    "qq:003LysKk0ty8CG": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；器乐性 Instrumental。"
+    },
+    "qq:003yFUm51epmrD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；器乐性 Instrumental。"
+    },
+    "qq:004bgvIQ3a5Pzo": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 73%）；副风格 Hip-Hop / R&B；器乐性 非器乐。"
+    },
+    "qq:001ly1ww3DYheR": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格由候选 Folk / Singer-Songwriter 修正为 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:001MXd5d1RwQSc": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格由候选 Jazz / Soul 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；器乐性 Instrumental。"
+    },
+    "qq:001NWvDc0F2K1p": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Post-Rock / Cinematic；器乐性 Instrumental。"
+    },
+    "qq:000BKhUC3KCJeq": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 70%）；副风格 Post-Rock / Cinematic、Hip-Hop / R&B；器乐性 Instrumental。"
+    },
+    "qq:004cqNrJ06jCQe": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:003sNL1q2TytB7": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Post-Rock / Cinematic；器乐性 Instrumental。"
+    },
+    "qq:004NdfcT2OwLBY": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；器乐性 非器乐。"
+    },
+    "qq:003VkCmG0nezHj": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-18",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:004XPWmk3aNhHk": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:004Lze9o1l2NHm": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:000tDeX64NQu44": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 65%）；副风格 Rock / Alternative；器乐性 非器乐。"
+    },
+    "qq:001WqQpv4Y2F4Q": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": null,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 未知。语言 Japanese。备注：这首曲子的音源不对，可以标为没有音源，但是tag我还是打了"
+    },
+    "qq:002ZTVhb0fIvtH": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Jazz / Soul 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Rock / Alternative；器乐性 非器乐。"
+    },
+    "qq:0017v9nE1sTX8z": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:004SgqqV0Rqz2I": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 Instrumental。"
+    },
+    "qq:001jmECw24Ua46": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:003Ad5xL0sUBjb": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；器乐性 非器乐。"
+    },
+    "qq:000tcIIw4H4p2g": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:000NYjiu04EmeE": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Electronic、Ambient / Neo-Classical；器乐性 Instrumental。"
+    },
+    "qq:000vvz0P2oSbde": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:003lEaw10zHyx5": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:000DBKjD2JXepa": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Electronic",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Electronic、Hip-Hop / R&B；器乐性 Instrumental。"
+    },
+    "qq:000HDXAt3GgW4h": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Electronic；器乐性 Instrumental。"
+    },
+    "qq:003yoh8G2Tr08k": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative；器乐性 非器乐。"
+    },
+    "qq:000SVpD03mWgWV": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 65%）；副风格 Hip-Hop / R&B；器乐性 非器乐。"
+    },
+    "qq:000w88dE0wlnEd": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Post-Rock / Cinematic（原候选置信度 65%）；副风格 无；器乐性 Instrumental。"
+    },
+    "qq:002blJ7Y0bvG5w": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Post-Rock / Cinematic；器乐性 Instrumental。"
+    },
+    "qq:0002FfST4PkrDZ": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Other Languages",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；器乐性 非器乐。语言 Other Languages。"
+    },
+    "qq:004StP7u0GX8V2": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "language": "Other Languages",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 65%）；副风格 Jazz / Soul、Hip-Hop / R&B；器乐性 非器乐。语言 Other Languages。备注：这首音源不准确，但我打了tag，可以标为没有本地音源"
+    },
+    "qq:0021aHvS043tc3": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Jazz / Soul、Hip-Hop / R&B；器乐性 非器乐。"
+    },
+    "qq:003fQyYy3RUsRb": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Hip-Hop / R&B；器乐性 非器乐。"
+    },
+    "qq:002qIVN52Tm5YO": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter、Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:0021LXlM0ABeNP": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；器乐性 Instrumental。"
+    },
+    "qq:003yLgPW2gEEyE": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Post-Rock / Cinematic；器乐性 Instrumental。"
+    },
+    "qq:002jNi0404aqYg": {
+      "genre": "Electronic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Electronic（原候选置信度 65%）；副风格 无；器乐性 Instrumental。"
+    },
+    "qq:004June21cxORq": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:004EoRME3iYKXo": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": null,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Ambient / Neo-Classical 修正为 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 未知。备注：这首曲子音源是错的，但是我打了tag，你可以标为本地无音源"
+    },
+    "qq:001bp0Yk2yH056": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:0013zSOF2zSV7k": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Electronic、Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:000DdmbL0PJlHm": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Electronic；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:001WvV0B2EkgXw": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:001fTrGD0zDCAd": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Electronic、Folk / Singer-Songwriter；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:002RCx9q4Yctzc": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Hip-Hop / R&B；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:002r2KU31vfgEa": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Rock / Alternative；器乐性 非器乐。语言 Japanese。"
+    },
+    "qq:000IS2NM4WrX8U": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Post-Rock / Cinematic（原候选置信度 65%）；副风格 Jazz / Soul；器乐性 Instrumental。"
+    },
+    "qq:001T13Gu43Ufnu": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Folk / Singer-Songwriter 修正为 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；器乐性 非器乐。"
+    },
+    "qq:000RMp580QOCBV": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；器乐性 非器乐。"
+    },
+    "qq:000FHBUk3hkHTd": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Post-Rock / Cinematic；器乐性 Instrumental。"
+    },
+    "qq:003t9znv34JkTJ": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter、Post-Rock / Cinematic；器乐性 非器乐。"
+    },
+    "qq:003Aayu02tPYhI": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；器乐性 Instrumental。"
+    },
+    "qq:002fWpie3IjneY": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:003uKKf71WF3v1": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-19",
+      "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；器乐性 非器乐。"
+    },
+    "qq:003AYAxq3Yx3Sk": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000vzPwV025JK6": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002rsnfh4ReTtN": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003dQS183cZrze": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000VtXQj0oR6WQ": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative；语言 Japanese；器乐性 非器乐。 这首曲子的音源不对，记录一下。但是我把tag打了。"
+    },
+    "qq:002OwtO012XssG": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": null,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Rock / Alternative、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 未人工判断。"
+    },
+    "qq:000Nc1kO0AWfI1": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。 用户复核更正：器乐性为非器乐。"
+    },
+    "qq:0014V4Mf2zvudb": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Post-Rock / Cinematic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:001nStVE0gi3fN": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003X0nJo1xG3po": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Jazz / Soul；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:003cxef417It4Q": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002lQStw2C4X8q": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001QjNkD4BIRDS": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002N8yWT2bsLEo": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003hcyx50jMIWp": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002OyBdX0eSznT": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 Japanese；器乐性 非器乐。 用户复核更正：器乐性为非器乐。"
+    },
+    "qq:000FiYeD3sVSAe": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003iQ1eJ3V5gu8": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002hAWBS4dusFj": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003FwUep3lfCcU": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000mm88j1GnWlk": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001Iwy7u4DfDMO": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001AcY6m1ouZay": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001I5qRB1fQ2qV": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001pj06x1pM1Iu": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002gpRgI2L7HNy": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative、Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:000IEMhw2BYOh7": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Post-Rock / Cinematic（原候选置信度 65%）；副风格 Jazz / Soul、Electronic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:003KDs6p0Mctpz": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001By7Vt3CGYpK": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ZCrBG3LyaPW": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000QDU362iiNWB": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ptk9A4CbbQN": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Electronic（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Post-Rock / Cinematic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:001W1IJd2oFNwF": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Hip-Hop / R&B、Electronic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002UDvk23XDz6F": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Electronic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002KaR411pNx4d": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Electronic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:001cwnOY12PLO3": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0029Ycmh17zwmu": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000nGIQK3m50Vy": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000787A00NmJf7": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003pNAXC197QcI": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000CkyJi0yJSXv": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001rMdT03B2VLY": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0041Ewzh1B0xbc": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003jwsZ22dp65l": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003h3zxG3NOVvt": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004MtnLm0p2hD5": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-21",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:0021bCvd1QXexX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:001C5UC21oYgri": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003uDpf31hSIH1": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004Iwdtt3THGLi": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Electronic、Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001ltwY22ks3RA": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000WCQJX2WtTkx": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0014X03s0BLY5q": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000ZoJq13ysJxD": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Jazz / Soul；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:0045DtLx0cBoYe": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Jazz / Soul；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000MON9D0pQLrp": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Jazz / Soul、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000TQcC94CIZvg": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000uKPA63X87lS": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:003Y9mCv04Ak1k": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003Tyoi212TbHC": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ZjXv33PGxp3": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001yNCBj2IVF8g": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003SdPJL0wjXuE": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000CaK1p3SZWcc": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000md38x29CEas": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002BIAKl3UoTOS": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-09-22",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ghioO0H90W3": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 非器乐。"
+    },
+    "qq:00032MAj0Zer7d": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Electronic（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002zhKMg3Z3RXT": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001WzisU1bVOXx": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0005oxPC13H9Sh": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0037ycgg1j7fBw": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Jazz / Soul、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002rlj5P36ALh2": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Electronic（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001UkOzc10hSqB": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Electronic"
+      ],
+      "language": "Japanese",
+      "instrumental": null,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Electronic；语言 Japanese；器乐性 未人工判断。"
+    },
+    "qq:002egewX3cCsqX": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0028McIG0GHato": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002GkQQ60Aiiys": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0038Hfmg1O5iXA": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000T20hG2BAULp": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002DFoEv4PBO4p": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Folk / Singer-Songwriter、Post-Rock / Cinematic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:000KvPmc4Q5VOa": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004UKSGH4SinOx": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Other Languages",
+      "instrumental": null,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 Other Languages；器乐性 未人工判断。"
+    },
+    "qq:00228A1v0s2cAf": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative、Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002tDMql4JZNMa": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Electronic（原候选置信度 65%）；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0034oDCf3KopG7": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0010hgVL2wxDa6": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002I4Sn81ZKRqZ": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004I39hz30qXKl": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002IHLW93LUfdA": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Hip-Hop / R&B；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:001F8QWE2KnVdS": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:0022sQU12exG4G": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Electronic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003sQVq50qFqO6": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:003uNnkx4gMb3g": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 Electronic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:001SxfqB3cSWpH": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002peuFy061AEO": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001tmZUy4NjNdE": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0005xGb03LnpV3": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002RBbP70CnemQ": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004C2efy0FWxJy": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003JlIAG2xddPq": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004NOEGg1o7eUT": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004Mlj3H2MtQWo": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001pfAfi3u996V": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003nzOeQ2mieuv": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000LHut30evEZX": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ptCkP0XhwGC": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Electronic；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001VVquP2F430i": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Post-Rock / Cinematic（原候选置信度 65%）；副风格 Electronic；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:002zOOlG28JrZN": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003BwZKf3HiMfq": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:003TdGHB3R3Pvl": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003WCeMV2xHXqH": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:00429FLu4LqiAx": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0002V6mJ2PMUhe": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003ipzof0bSetW": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Ambient / Neo-Classical（原候选置信度 65%）；副风格 无；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:0030kLf23uNKKo": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001J3vV23wSAVS": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页采用当前人工修正结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004DO1QH30haO6": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000stu0v1vkqek": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002IgQUt0VEQ3R": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Other Languages",
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Post-Rock / Cinematic（原候选置信度 65%）；副风格 Rock / Alternative；语言 Other Languages；器乐性 Instrumental。"
+    },
+    "qq:000OIFD64emJT4": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Post-Rock / Cinematic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Ambient / Neo-Classical、Post-Rock / Cinematic；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0006g0Wo4dnn2Q": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:004LcEAa3hGLGq": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Ambient / Neo-Classical；语言 未人工判断；器乐性 Instrumental。"
+    },
+    "qq:003D1uIB0zqMXf": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_confirmed",
+      "updated_at": "2026-10-04",
+      "note": "候选纠错页确认当前人工结果：主风格 Electronic（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001H7qJN1i51W6": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002oykNu3iq2MX": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003F1DtT0DU41P": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Hip-Hop / R&B"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter、Hip-Hop / R&B；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002yjlyG1pbADK": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003U1FIZ3EA8LV": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Hip-Hop / R&B；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:0029h2C534qCJT": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Post-Rock / Cinematic、Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001u472F1GC22r": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Jazz / Soul、Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003ZDBMZ2faI6W": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002NYb4M3mW9QD": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:004UKG2j4PBePU": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003i9IMd3G5uRp": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001ukyy43ymAgB": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Other Languages",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter；语言 Other Languages；器乐性 非器乐。"
+    },
+    "qq:001t8grO20xiPh": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:004Pl67C2CpvLa": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001owWwY4QSrD3": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0034yS3x0effNA": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:000zOh2y0t2Qb8": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Electronic、Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:00172DC822gIId": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Jazz / Soul、Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:004Pbu1f0J7h6S": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0037tbI82CO0jZ": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000ICxRm1e9QdA": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:004cRkHl48nUQu": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002ic6jw1iwaBn": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003JrvIu3v8psF": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Electronic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0047vbLK0VJXsg": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003crifO3O5IxC": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0020q49p1ns0OE": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001OQBm730Pck8": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004aN4rz49Hxgz": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003WOB3O0YqxSG": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003EuLiN3EaXJx": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。 用户复核更正：器乐性为 Instrumental。"
+    },
+    "qq:002U5kxR2JbFsj": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Electronic；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000Hyfmi0JE1Y8": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003bj3ah2Q5McF": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001Z3IH00yodJr": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Post-Rock / Cinematic；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001hZ8VQ45amtR": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Post-Rock / Cinematic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter、Post-Rock / Cinematic；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001JDIEy3Vv9QU": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001iKFaN1wmqXl": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004bZPVY3rG1fC": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000BvWag0zd5HI": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:00256HCz3C4GA4": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003ymFHT3sKEoR": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002n53j63QnJv9": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Electronic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001ERq4j3YlZEY": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003ug9cK2cOjqZ": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003Ft6Kl1oRQU3": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002OTrxV1e65m3": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002yIzyd18Y8Nr": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:004IIo8z34DTXf": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。 用户复核更正：语言为英语，按默认语言不写专门标签。"
+    },
+    "qq:001yDfsR28fPFJ": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Other Languages",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；语言 Other Languages；器乐性 非器乐。"
+    },
+    "qq:001ZE3Ja29nTRu": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。 用户复核更正：器乐性为 Instrumental。"
+    },
+    "qq:002jwFDy2XXABF": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0021yyBl3YHc13": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0046fjLR0gOvh9": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003eUGY64JZILi": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。 用户复核更正：器乐性为非器乐。"
+    },
+    "qq:003fz3ht2B9d0Z": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "language": "Other Languages",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Jazz / Soul、Hip-Hop / R&B；语言 Other Languages；器乐性 非器乐。"
+    },
+    "qq:003YUqEW4Bplru": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001yU9Ii2MUWof": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003oCnFZ1lnGzL": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000JrdU14Y1Lbb": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000kG02G0sNHnQ": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": "Other Languages",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Electronic；副风格 Post-Rock / Cinematic；语言 Other Languages；器乐性 非器乐。"
+    },
+    "qq:000ysM3f1hyUNn": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ivuft39MWgp": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Electronic",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Electronic、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000EwRNs42sDVh": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001SZaut1BYJNi": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000Wo2hS1oAy5Q": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000xesJ6409CZE": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Jazz / Soul、Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001LoLu12MFfhW": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Hip-Hop / R&B、Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:004NOaGg2w9Ybc": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001q7WVy00oNtn": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0022Av8e2uGiix": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Hip-Hop / R&B、Electronic；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002omZIj0pqAhU": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004MduO90on8Y8": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003TwR2S1Mr4dC": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002QAigR2LzEFn": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Rock / Alternative"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001HTukR0iU6Ks": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Post-Rock / Cinematic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-04",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter、Post-Rock / Cinematic；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002yjHti2Y4GbZ": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001y27Va342IXs": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0004FivA2wlPut": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004F52ih3w6pZN": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Electronic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002BaMAP2L4c1j": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0047w50Z2xR9D2": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003Yxqjy30eCQY": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter、Post-Rock / Cinematic；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002zNIpE2OWF50": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:004CKntE0jM43B": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0047hJIe1VcLLI": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002pI6rJ2yVLeg": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000D0CB714neCt": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic、Electronic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003xubth3E8N7D": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003aIoZj4TSjPj": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Jazz / Soul、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003Tedn00IU7Hx": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0027MOU12Nk2F2": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Jazz / Soul、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0008lKqV1wxI29": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000bb6y31ke4DO": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic、Electronic；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002V6dd03LPjXl": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Electronic、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001kz4h52xJzGe": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002ZONdS0IyrRX": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000GwIJV1XOR8m": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001EKBWO1dQXsf": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0032Ne8D14ZfYO": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0040uvS01ZVFsO": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002TFicq4AGTtE": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Electronic；副风格 Folk / Singer-Songwriter、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000pEXFd3Bmq1o": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative、Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001f9F2g3hNMvm": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003dHtzV0qMa13": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0024W4RZ2nOlWV": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001cdbRN4DHkVY": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Electronic、Jazz / Soul；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0014DtAP21sJ4h": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002zReeT1yjdtm": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000dU93h3T7HoN": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Hip-Hop / R&B；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000ssbpB2B5GSN": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000LjXtF05Y0LZ": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:000sGB2h2Pg607": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002JMbyD132PhI": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0035IJHB1DHfS2": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002zEThM3ikRUF": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:001cpNSI1zyl0Q": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Rock / Alternative",
+        "Electronic"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Rock / Alternative、Electronic；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003M9SnS2HTmjW": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Folk / Singer-Songwriter、Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:001pn5pl0ocFRu": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Rock / Alternative；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:001xszNF0cvdvO": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:003g41Ez0WmJNh": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:003bMpC408RBLE": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0026KSWG4SDs5B": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000JsTfy2GCHon": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical、Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:000QKVvB2EXuCx": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Folk / Singer-Songwriter；副风格 Ambient / Neo-Classical；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:002tulXL1GCjhC": {
+      "genre": "Jazz / Soul",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_manual_no_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "无候选手动标注：主风格 Jazz / Soul；副风格 Rock / Alternative；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:000O5Ap414r9oE": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "候选人工复核：确认主风格 Hip-Hop / R&B；副风格 无；语言 Japanese；器乐性 非器乐。"
+    },
+    "qq:004TYaG82tCwF1": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "候选人工复核：主风格由 Jazz / Soul 修正为 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:003cyCJ13XrEOW": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "候选人工复核：确认主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:0048HO5a3sPChR": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "候选人工复核：确认主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+    },
+    "qq:002ZCCko46Jq71": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "候选人工复核：主风格由 Electronic 修正为 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:002XuiEy20CQ5e": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_candidate_review",
+      "updated_at": "2026-10-08",
+      "note": "候选人工复核：确认主风格 Electronic；副风格 Folk / Singer-Songwriter、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+    },
+    "qq:0048VoOX3bYSTw": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001FTzqH42zaB3": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0024cFoZ3XRS2f": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002ELhCg26xEdo": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000AfObd05CAd7": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002eRgVQ4eLv54": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0048Jn2W1VALEr": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001gbXuW0syTgn": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001FAcNJ2Qasvh": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0013cpd92A3j1k": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002eMECw1CE5vn": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001vA3Ul3j8pZ0": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:004BC0eL3jhZa8": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003ezzJd4MptHZ": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-09",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001sYeaM3Te8Ve": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001jXpn72EvZtq": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000usshm3WwLLs": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:004ZJkPD4dUxIS": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002RG06N0T9zK8": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000l58Wh1cinVC": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:00073hOK283QII": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002duDwG2PwubO": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Hip-Hop / R&B"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001fSEVh3xrTJP": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0001lCI72yXQ4F": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0008P9ux0TC3ho": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003YDLNN4EIffX": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003a8oi60gTRb9": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001W1XJR49YEON": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:004Hp3h12kfMvU": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0004rSqn1xwy70": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000CNsZ20gAfcx": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001uOGeQ2rZTPy": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003U4RLy1lRrzq": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Ambient / Neo-Classical",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:004RnRy44FJO96": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000AvO4C4BeGbA": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003dNf1M2Boo0K": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003YjTL42AQzNo": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [
+        "Hip-Hop / R&B"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0046RnQs2tSuVb": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000zj5ZP3SgtgB": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0008E2he3dUseC": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003gaenC4WfeMN": {
+      "genre": "Ambient / Neo-Classical",
+      "secondary_genres": [
+        "Post-Rock / Cinematic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002ofB9D3ZLdlB": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0031mOVe3NEc5g": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0037uaNi3f448N": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:004cHAAD2sv59s": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000R53G94DatTG": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003DIjfz3r8ejJ": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0028w8qh33PEbF": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003H2wp53LOyj8": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0046itwD3abzOM": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Jazz / Soul",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000Causn0xHMoT": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001Ieejp1qL4s2": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0014AXGx1Sp8aH": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002ep8yZ1z4efX": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Jazz / Soul"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000X16Yk2BC53v": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [
+        "Electronic",
+        "Ambient / Neo-Classical"
+      ],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:002ctGMN0hsNmb": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000BzIpH1FTNrZ": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0018SFFk2R8tgv": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:0044FgvG1zPAma": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [
+        "Electronic",
+        "Folk / Singer-Songwriter"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003BhLbV0gunrC": {
+      "genre": "Folk / Singer-Songwriter",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:000fbEhM2vgdOE": {
+      "genre": "Electronic",
+      "secondary_genres": [
+        "Post-Rock / Cinematic",
+        "Rock / Alternative"
+      ],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:003G0sVN0lWqid": {
+      "genre": "Rock / Alternative",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001U5wNn266GDq": {
+      "genre": "Post-Rock / Cinematic",
+      "secondary_genres": [],
+      "language": null,
+      "instrumental": true,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
+    },
+    "qq:001FigFM2goAOg": {
+      "genre": "Hip-Hop / R&B",
+      "secondary_genres": [
+        "Folk / Singer-Songwriter"
+      ],
+      "language": "Japanese",
+      "instrumental": false,
+      "source": "human_combined_tag_zmpd_review",
+      "updated_at": "2026-10-10",
+      "note": "Tag + ZMPD 联合标注确认入档。"
     }
   }
 }

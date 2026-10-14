@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "generatorSource": "/Users/kaluozheng/MusicPlayer-FlowSystem/apps/playlist-generator",
+  "tracks": 1204,
+  "coverage": "候选库：1204 首特征，其中 1204 首可直接播放；加权总分法（WTSM）。",
+  "loadSeconds": 0.982,
+  "generationSeconds": 2.057,
+  "playlistSummary": "26 首 · 2:00\n开场 0.160 · 平均曲线 0.078 · 能量软成本 0.028 · 平均综合转场 0.441 · 最高风险 0.479",
+  "playlistTracks": 26,
+  "actualDurationMinutes": 120.08856666666668,
+  "maximumTransitionRisk": 0.47905,
+  "feedbackExportReadable": true,
+  "playback": {
+    "time": 0.50965,
+    "duration": 206.464,
+    "error": null
+  },
+  "pageErrors": []
+}

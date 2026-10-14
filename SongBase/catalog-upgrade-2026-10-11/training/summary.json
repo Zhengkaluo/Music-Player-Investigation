@@ -1,0 +1,1 @@
+{"trainingTracks":467,"annotationBatches":9,"trainedVariants":["A-global","B-global-temporal8","C-global-temporal8-segments"],"selectedDimensions":5,"humanGroundTruthTracks":416,"modelPredictedTracks":788,"featureSources":{"previous-hash-verified-features":403,"new-hash-verified-v3-extraction":64}}

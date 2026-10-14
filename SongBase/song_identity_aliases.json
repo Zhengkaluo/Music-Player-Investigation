@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "songbase.identity-aliases/v1",
+  "updatedAt": "2026-10-10",
+  "artistAliases": {
+    "OGRE YOU A__HOLE": "OGRE YOU A**HOLE",
+    "OGRE YOU AHOLE": "OGRE YOU A**HOLE",
+    "OGRE YOU ASSHOLE": "OGRE YOU A**HOLE",
+    "RePlus": "Re:Plus",
+    "Re_Plus": "Re:Plus"
+  },
+  "filenameAliases": {
+    "フェンスのある家 - OGRE YOU A__HOLE.mp3": "フェンスのある家 - OGRE YOU A**HOLE.mp3",
+    "ライフワーク - OGRE YOU A__HOLE.mp3": "ライフワーク - OGRE YOU A**HOLE.mp3",
+    "ライフワーク - OGRE YOU ASSHOLE.mp3": "ライフワーク - OGRE YOU A**HOLE.mp3",
+    "ロープ - OGRE YOU A__HOLE.mp3": "ロープ - OGRE YOU A**HOLE.mp3",
+    "本当みたい - OGRE YOU AHOLE.mp3": "本当みたい - OGRE YOU A**HOLE.mp3",
+    "本当みたい - OGRE YOU ASSHOLE.mp3": "本当みたい - OGRE YOU A**HOLE.mp3",
+    "また明日 - OGRE YOU A__HOLE.mp3": "また明日 - OGRE YOU A**HOLE.mp3",
+    "乌托邦？神经网络的世界 (A Utopia The World Of Neural Networks) - 鲸鱼马戏团.mp3": "乌托邦？神经网络的世界 (A Utopia? The World Of Neural Networks) - 鲸鱼马戏团.mp3",
+    "羽毛 (feat. 坏特 te) (Feather) - 大象体操.mp3": "羽毛 (feat. 坏特 ?te) (Feather) - 大象体操.mp3",
+    "60kmh - 晨曦光廊.mp3": "60km／h - 晨曦光廊.mp3"
+  },
+  "note": "正式身份以 SongBase title + artist 为准；artistAliases 用于规范展示与严格联合匹配，filenameAliases 用于兼容历史文件名。不得使用标题单独匹配。"
+}

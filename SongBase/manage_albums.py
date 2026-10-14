@@ -12,6 +12,7 @@ song_base 专辑追加 + YT/BL 链接搜索，共用配置。
   python3 SongBase/manage_albums.py add          # 追加专辑到曲库
   python3 SongBase/manage_albums.py links        # 搜索 YT/BL 链接
   python3 SongBase/manage_albums.py all          # 追加 + 搜索
+  python3 SongBase/manage_albums.py rebuild      # 重算统计并刷新 JSON/Markdown
   python3 SongBase/manage_albums.py monitor      # 启动监控面板
 """
 import asyncio
@@ -21,9 +22,6 @@ import subprocess
 import sys
 import time
 from pathlib import Path
-
-import requests
-from qqmusic_api import Client
 
 BASE = Path(__file__).resolve().parent
 JSON_PATH = BASE / "song_base_by_artist.json"
@@ -125,6 +123,8 @@ def title_matches_song(title, song_name):
 
 
 def verify_youtube_oembed(url, artist, timeout=10):
+    import requests
+
     try:
         r = requests.get(f"https://www.youtube.com/oembed?url={url}&format=json", timeout=timeout)
         if r.status_code != 200:
@@ -246,11 +246,15 @@ def recompute_stats(data):
     singers.sort(key=lambda x: x["name"].lower())
     data["singers"] = singers
     data["total_singers"] = len(singers)
-    all_titles = set()
+    unique_tracks = set()
     for s in singers:
         for sg in s["songs"]:
-            all_titles.add((s["name"].lower(), sg["title"].lower()))
-    data["total_unique_songs"] = len(all_titles)
+            match = re.search(r"/songDetail/([A-Za-z0-9]+)", sg.get("qq_music", ""))
+            if match:
+                unique_tracks.add(("qq", match.group(1)))
+            else:
+                unique_tracks.add(("fallback", s["name"].lower(), sg["title"].lower()))
+    data["total_unique_songs"] = len(unique_tracks)
     data["export_date"] = time.strftime("%Y-%m-%d")
     for s in singers:
         s["youtube"] = sum(1 for sg in s["songs"] if sg["youtube"])
@@ -265,6 +269,8 @@ def find_artist_index(singers, name):
 
 
 async def cmd_add():
+    from qqmusic_api import Client
+
     config = load_config()
     data = load_data()
     singers = data["singers"]
@@ -377,6 +383,8 @@ def search_youtube(song_name, artist, timeout=20):
 
 
 def search_bilibili(song_name, artist, timeout=10):
+    import requests
+
     primary = artist.split(",")[0].strip()
     try:
         resp = requests.get(
@@ -607,11 +615,18 @@ if __name__ == "__main__":
     elif cmd == "all":
         asyncio.run(cmd_add())
         cmd_links()
+    elif cmd == "rebuild":
+        data = load_data()
+        recompute_stats(data)
+        save_data(data)
+        rebuild_md(data)
+        print(f"✅ 已重建: {data['total_singers']} 位艺人 · {data['total_unique_songs']} 首歌曲")
     elif cmd == "monitor":
         cmd_monitor()
     else:
-        print("用法: python3 SongBase/manage_albums.py {add|links|all|monitor}")
+        print("用法: python3 SongBase/manage_albums.py {add|links|all|rebuild|monitor}")
         print("  add      - 从 new_albums_config.json 追加专辑到曲库")
         print("  links    - 为配置中的专辑搜索 YT/BL 链接")
         print("  all      - 追加 + 搜索")
+        print("  rebuild  - 重算统计并刷新 JSON/Markdown")
         print("  monitor  - 启动监控面板 (http://localhost:8765)")

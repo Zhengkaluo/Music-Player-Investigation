@@ -1,0 +1,107 @@
+{
+  "phase": "completed",
+  "scan": {
+    "library_songs": 1261,
+    "linked_songs": 870,
+    "local_audio": 868,
+    "missing": 2,
+    "deduplicated": 0
+  },
+  "counts": {
+    "pending": 0,
+    "downloading": 0,
+    "success": 2,
+    "failed": 0,
+    "skipped": 0
+  },
+  "total": 2,
+  "processed": 2,
+  "remaining": 0,
+  "progress": 100.0,
+  "started_at": "2026-07-31T10:24:44+08:00",
+  "updated_at": "2026-07-31T10:25:11+08:00",
+  "finished_at": "2026-07-31T10:25:11+08:00",
+  "elapsed_seconds": 27,
+  "eta_seconds": 0,
+  "downloaded_mb": 19.4,
+  "disk_free_gb": 685.0,
+  "current_id": null,
+  "stop_requested": false,
+  "error": "",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Marginalia #37",
+      "artist": "Masakatsu Takagi",
+      "full_singer": "Masakatsu Takagi",
+      "album": "Marginalia",
+      "duration": 538,
+      "filename": "Marginalia #37 - Masakatsu Takagi.mp3",
+      "sources": [
+        {
+          "provider": "YouTube",
+          "url": "https://youtube.com/watch?v=_4Ivbn80OtM"
+        }
+      ],
+      "provider": "YouTube",
+      "status": "success",
+      "message": "YouTube · 12.3 MB",
+      "size_mb": 12.3,
+      "started_at": "2026-07-31T10:24:44+08:00",
+      "finished_at": "2026-07-31T10:24:57+08:00"
+    },
+    {
+      "id": 2,
+      "title": "Marginalia #25",
+      "artist": "Masakatsu Takagi",
+      "full_singer": "Masakatsu Takagi",
+      "album": "Marginalia",
+      "duration": 310,
+      "filename": "Marginalia #25 - Masakatsu Takagi.mp3",
+      "sources": [
+        {
+          "provider": "YouTube",
+          "url": "https://youtube.com/watch?v=Yc1zk-AGLNk"
+        }
+      ],
+      "provider": "YouTube",
+      "status": "success",
+      "message": "YouTube · 7.1 MB",
+      "size_mb": 7.1,
+      "started_at": "2026-07-31T10:24:58+08:00",
+      "finished_at": "2026-07-31T10:25:10+08:00"
+    }
+  ],
+  "logs": [
+    {
+      "time": "10:24:44",
+      "level": "info",
+      "message": "发现 2 首需要下载。"
+    },
+    {
+      "time": "10:24:44",
+      "level": "info",
+      "message": "[1/2] Marginalia #37 — Masakatsu Takagi"
+    },
+    {
+      "time": "10:24:57",
+      "level": "success",
+      "message": "完成：Marginalia #37 · YouTube · 12.3 MB"
+    },
+    {
+      "time": "10:24:58",
+      "level": "info",
+      "message": "[2/2] Marginalia #25 — Masakatsu Takagi"
+    },
+    {
+      "time": "10:25:10",
+      "level": "success",
+      "message": "完成：Marginalia #25 · YouTube · 7.1 MB"
+    },
+    {
+      "time": "10:25:11",
+      "level": "info",
+      "message": "全部任务处理完成。"
+    }
+  ]
+}

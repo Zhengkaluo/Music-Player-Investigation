@@ -1,0 +1,244 @@
+{
+  "schemaVersion": "flowset.wave6-catalog-merge-audit/v1",
+  "generatedAt": "2026-10-03T15:47:22.228916+00:00",
+  "sourceAnnotation": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json",
+  "sourceAnnotationSha256": "98ec3e1e9fa2ebaa492f06fb961a2d332ed4f208c4898ce6663764c7f0413440",
+  "catalog": "/Users/kaluozheng/Music-Player-Investigation/SongBase/歌曲特征.json",
+  "catalogTracks": 480,
+  "qualifiedWave6Tracks": 100,
+  "mergedExistingTransitionCompleteTracks": 32,
+  "pendingNewTracksNeedingFullBidirectionalTransitions": 68,
+  "canonicalizedCatalogIdentities": [],
+  "merged": [
+    {
+      "filename": "2AM in New York - iwamizu.mp3",
+      "trackId": "track-0003",
+      "audioSha256": "546f847e29997e880802999aedee80b5702134c7ce645440cea456d6a32070b7"
+    },
+    {
+      "filename": "夕凪 - 羊文学.mp3",
+      "trackId": "track-0460",
+      "audioSha256": "61b1f1fee1298651e89f73637477f9adc45978a28aca7c2c29b9015adfa8e831"
+    },
+    {
+      "filename": "airport - 柏大輔.mp3",
+      "trackId": "track-0396",
+      "audioSha256": "114c94a7b6759033525e6ad1fda5988275a827ce5fa3576e439b08bb4b95a4e4"
+    },
+    {
+      "filename": "Ante Meridiem - Men I Trust.mp3",
+      "trackId": "track-0021",
+      "audioSha256": "3ee29cacd97b032bf9491ca75fd7bed577d712893983e7922b6ad554e4f8ef3e"
+    },
+    {
+      "filename": "Argentina - iimmune.mp3",
+      "trackId": "track-0026",
+      "audioSha256": "76c7a9b044ff1b1d3467a367632b05b8c0230ee4266a2f4d3d7f287cb9075485"
+    },
+    {
+      "filename": "Bellows - Loscil.mp3",
+      "trackId": "track-0043",
+      "audioSha256": "c20d162d2bfcb166ea3195d323b47bd2503888294ee780810c51a105681c9b26"
+    },
+    {
+      "filename": "Beluga - Men I Trust.mp3",
+      "trackId": "track-0044",
+      "audioSha256": "7872df9c43d50ea4cdb976b83cf1c93c1fc739ea04057c4fde4a2a0cbc42656d"
+    },
+    {
+      "filename": "calm - Jizue.mp3",
+      "trackId": "track-0400",
+      "audioSha256": "deacf18e88e390ff56d15029d1cee01a4b50b7391b4b14a8eb11f75430f7116f"
+    },
+    {
+      "filename": "Charlie - Loscil.mp3",
+      "trackId": "track-0065",
+      "audioSha256": "515f6fdc2bd0a0c03fe79b92f6c8a1421c85a6a2c38463ed7b1a3520aa5a77ae"
+    },
+    {
+      "filename": "Chinook - Loscil.mp3",
+      "trackId": "track-0067",
+      "audioSha256": "32bd094903f0b621956d13442739225ac4bacc4e373eb404b232dc5888d18f30"
+    },
+    {
+      "filename": "Dance PM - Hiroshi Yoshimura.mp3",
+      "trackId": "track-0076",
+      "audioSha256": "e1f0f225ab809b5a57e02f02ab02505d46dabfbeeb4979b05407065de8ec299b"
+    },
+    {
+      "filename": "Dazed - Kiasmos.mp3",
+      "trackId": "track-0079",
+      "audioSha256": "2bee7d4df5b3bc1e68785edbe30c42ac01242a3b4a544d235f68cf573ea9a360"
+    },
+    {
+      "filename": "earthly things - Kiefer.mp3",
+      "trackId": "track-0404",
+      "audioSha256": "cb4e48386231e77116ac323c43546884be03566648074400e0f4af1286a16201"
+    },
+    {
+      "filename": "For Years And Years - Helios.mp3",
+      "trackId": "track-0119",
+      "audioSha256": "5eebd1fc4d88f9b966f69f47145f5c6f657d0ffc82068a213d9475f4cd0214ae"
+    },
+    {
+      "filename": "Go! - Public Service Broadcasting.mp3",
+      "trackId": "track-0132",
+      "audioSha256": "e05b1a99cccdc9592c9b4f1ae3324a3cfbeaf8821d601b6a199608835550bd69"
+    },
+    {
+      "filename": "Grown - Kiasmos.mp3",
+      "trackId": "track-0135",
+      "audioSha256": "254947db39d6f21a7e72188ce5dd00f14b67d547975f008121a98b48a83e5fe0"
+    },
+    {
+      "filename": "Held - Kiasmos, Dauwd.mp3",
+      "trackId": "track-0144",
+      "audioSha256": "0dfa3ad2b6528a650a6603e24250cced13044b749bc34163c3e55cf4512b8d62"
+    },
+    {
+      "filename": "Hello - Hania Rani.mp3",
+      "trackId": "track-0147",
+      "audioSha256": "104bfd33fab0a20f9c0b71ea7e8e61aeb755918fadee003d6516eb99fa52596c"
+    },
+    {
+      "filename": "Hold Me Up (Thank You) - Khruangbin.mp3",
+      "trackId": "track-0153",
+      "audioSha256": "12c515c70ecf67d996ae91a45773323078e9fb354af5a5722d1a5eb21e5f0df1"
+    },
+    {
+      "filename": "i love my friends - Kiefer.mp3",
+      "trackId": "track-0409",
+      "audioSha256": "0c2f5d3191ddb7689a53c0c2d59d6b5967bce59c9022cf611f667d861f9eb88b"
+    },
+    {
+      "filename": "I'll Never Find Your Soul - Hania Rani.mp3",
+      "trackId": "track-0162",
+      "audioSha256": "22a20e11629315f81b5d348db75a630488513c653efd1a2697994e30d8d0f78d"
+    },
+    {
+      "filename": "iam POD (0%) - 青葉市子.mp3",
+      "trackId": "track-0410",
+      "audioSha256": "2b1deb3f1ea33ec61605682b0618696a079f73d01f98a61f065a248c80869f84"
+    },
+    {
+      "filename": "Juegos y Nubes - Khruangbin.mp3",
+      "trackId": "track-0175",
+      "audioSha256": "8309e481c2b8bc76dd404b85d0538824ef0dff8fc471246809014ad5461c6096"
+    },
+    {
+      "filename": "Memoria - 中村遥.mp3",
+      "trackId": "track-0213",
+      "audioSha256": "d230e749cf66c1280c76a251f9bcd3e731cb210564fda91db88dc4dbddd58918"
+    },
+    {
+      "filename": "Nighttime - RePlus.mp3",
+      "trackId": "track-0235",
+      "audioSha256": "af89eb0e859fbd7c9feb851f5926793368f289268b15ded260a3dfdf64352bb1"
+    },
+    {
+      "filename": "One Dream feat. Sam Ock - RePlus.mp3",
+      "trackId": "track-0245",
+      "audioSha256": "48722c6d37bdd50717bdd9614974ca18e49ae34211470bbae26d1cb0f1ac8d6a"
+    },
+    {
+      "filename": "Saturnine - GoGo Penguin.mp3",
+      "trackId": "track-0289",
+      "audioSha256": "92497f1d00059fc5570ba4ab4cb6f530ff0538fcae7c22f3854e8344db41b934"
+    },
+    {
+      "filename": "SHEEP - Hiroshi Yoshimura.mp3",
+      "trackId": "track-0280",
+      "audioSha256": "11b68a3700a330b19cda0e5a825af6a17a62f3a6e9f48a036614664f26d73a15"
+    },
+    {
+      "filename": "Soulmate - April Rain.mp3",
+      "trackId": "track-0306",
+      "audioSha256": "3993a3ca39ce95ba4905980bf6e7b5b34ac9954c173a47a39469ca30a5e6db80"
+    },
+    {
+      "filename": "Step - 羊文学.mp3",
+      "trackId": "track-0318",
+      "audioSha256": "c72077779ac66049af7a6c604328bc00d832e35eb8639b70bf542683b1ee9066"
+    },
+    {
+      "filename": "Told - Kiasmos.mp3",
+      "trackId": "track-0351",
+      "audioSha256": "ee696b0ac9329bbef9a37f6622cc4cddae912ebaa57b48334a920ac5c1ff4158"
+    },
+    {
+      "filename": "いきのこり●ぼくら - 青葉市子.mp3",
+      "trackId": "track-0435",
+      "audioSha256": "c8c4f1b54d366018d36ae25fa0a448c7d5f283d8534a88745e27ea57aabe6a1b"
+    }
+  ],
+  "pending": [
+    "1 to 10 - Midnight Jogging Club.mp3",
+    "A Real Hero - College, Electric Youth.mp3",
+    "Anything Can Be - Pray For Sound.mp3",
+    "Anything Can Happen - Violet Palms.mp3",
+    "AURORA - haruka nakamura.mp3",
+    "Awake - TWO LANES.mp3",
+    "Beer - Yosi Horikawa.mp3",
+    "Better Not - Louis the child.mp3",
+    "Breakfast in Bed - Stephanie Poetri.mp3",
+    "Bubble - Shii.mp3",
+    "Casey Jones (with Dan Kelly of Fortunate Youth) - Roots of Creation.mp3",
+    "cider cider - ミツメ.mp3",
+    "Cold Cold Cold - Cage The Elephant.mp3",
+    "Cool with You - Her's.mp3",
+    "Currently - Keaton Simons.mp3",
+    "Dial Drunk - Noah Kahan, Post Malone.mp3",
+    "Don't Throw Out My Legos - AJR.mp3",
+    "Driftless - Vansire.mp3",
+    "epitaph - Hippo Campus.mp3",
+    "Eternity Is the Wait Between Breaths - Múm.mp3",
+    "Golden Hour - Matthew Pinder.mp3",
+    "Gone - Ye (侃爷), Consequence, Cam'Ron.mp3",
+    "Halves and Quarters - Guantanamo Bay Surf Club.mp3",
+    "Hard Drive - Cassandra Jenkins.mp3",
+    "Hourglass - Gowe.mp3",
+    "In the Aeroplane over the Sea - Neutral Milk Hotel.mp3",
+    "In Your Room - Airiel.mp3",
+    "Kamaloka - GoGo Penguin.mp3",
+    "Lights - Josh Ritter.mp3",
+    "Little Nerves - Binkbeats.mp3",
+    "Local Paradise - Parker.mp3",
+    "Lorge - El Ten Eleven.mp3",
+    "Lost In The Light - Bahamas.mp3",
+    "MOON NIGHT - I Don't Like Mondays..mp3",
+    "My Lover Lies Under - Cherry Ghost.mp3",
+    "Never Been Better - Ben Abraham, corook.mp3",
+    "One - Sleeping At Last.mp3",
+    "Ophelia - The Lumineers.mp3",
+    "Paranoid Android - El Ten Eleven.mp3",
+    "Peace - Chon.mp3",
+    "Plantago Fengdouensis - Shii.mp3",
+    "roses & sunflowers - Timmy Albert.mp3",
+    "Rust inside - 惘闻.mp3",
+    "Siesta Freestyle - Lewis OfMan.mp3",
+    "Silhouette - Ax and the Hatchetmen.mp3",
+    "Summer Lovin' - The Tuesday Crew.mp3",
+    "Swashers - Yosi Horikawa.mp3",
+    "Swelling Time - The Shanghai Restoration Project.mp3",
+    "Swimming in Purple Clouds - The Shanghai Restoration Project.mp3",
+    "Telescope - Cage The Elephant.mp3",
+    "The Adults Are Talking - The Strokes.mp3",
+    "To the East Coast - Kaishandao.mp3",
+    "Umbrella - I Don't Like Mondays..mp3",
+    "What Once Was - Her's.mp3",
+    "Zero - Imagine Dragons.mp3",
+    "わたしのうた - ラブリーサマーちゃん.mp3",
+    "召唤 - 朴树.mp3",
+    "回転・天使 - betcover!!.mp3",
+    "夜班车 - Allenvave.mp3",
+    "懒得去管 - 孙燕姿.mp3",
+    "我 - 超级市场.mp3",
+    "日の出 - kanekoayano.mp3",
+    "河 - Before the Sunrise.mp3",
+    "波よせて - clammbon.mp3",
+    "滴いっぱいの記憶 - 平沢進.mp3",
+    "祝你开心 - 孙燕姿.mp3",
+    "穿过火焰 - 花伦.mp3",
+    "腕の中でしか眠れない猫のように - カネコアヤノ.mp3"
+  ]
+}

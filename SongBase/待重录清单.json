@@ -1,0 +1,16 @@
+{
+  "schema_version": "songbase.pending-rerecordings/v1",
+  "updated_at": "2026-10-05",
+  "policy": "此清单仅维护用户明确指定、尚未完成的重录任务。曲目仍保留在主曲库；完成后须核验标题与艺人、试听结果和目标音源文件，再将条目移出清单并留下对应记录。",
+  "tracks": {
+    "qq:003BDBLq2LtEgh": {
+      "title": "男の子女の子",
+      "artist": "Les 5-4-3-2-1",
+      "qq_music": "https://y.qq.com/n/ryqq/songDetail/003BDBLq2LtEgh",
+      "youtube": "https://youtube.com/watch?v=nYYjHEGKy7E",
+      "target_relative_path": "SongResources/男の子女の子 - Les 5-4-3-2-1.mp3",
+      "status": "pending",
+      "added_at": "2026-10-05"
+    }
+  }
+}

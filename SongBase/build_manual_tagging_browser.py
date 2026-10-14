@@ -34,7 +34,7 @@ TEMPLATE = r'''<!doctype html>
 </head>
 <body>
   <main class="shell">
-    <div class="topline"><div><p class="eyebrow">Manual review queue</p><h1>无候选曲目手动标注</h1><p class="sub">逐首填写并自动保存在本机；导出的 JSON 不会直接改写正式标签库。</p></div><a class="back" href="song_tags_browser.html">← 返回标签浏览器</a></div>
+    <div class="topline"><div><p class="eyebrow">Manual review queue</p><h1>无候选曲目手动标注</h1><p class="sub">这里只列出尚无正式标签且无主候选的曲目；已正式入档的歌曲请返回标签浏览器试听。本地音源缺失时会提供外部播放链接。</p></div><a class="back" href="song_tags_browser.html">← 返回标签浏览器</a></div>
     <section class="metrics">
       <div class="metric"><strong id="total">—</strong><span>无主候选</span></div>
       <div class="metric"><strong id="completed">—</strong><span>已完成</span></div>
@@ -44,7 +44,7 @@ TEMPLATE = r'''<!doctype html>
     <section class="toolbar">
       <input id="search" type="search" placeholder="搜索歌曲、艺人或专辑…">
       <select id="artist"><option value="all">全部艺人</option></select>
-      <select id="status"><option value="pending">只看待处理</option><option value="all">全部</option><option value="done">只看已完成</option></select>
+      <select id="status"><option value="pending">只看待处理</option><option value="all">全部</option><option value="done">只看已完成</option><option value="local">只看有本地音源</option></select>
       <button class="button primary" id="export" type="button">导出已完成 JSON</button>
     </section>
     <section class="workspace">
@@ -66,7 +66,7 @@ TEMPLATE = r'''<!doctype html>
     function done(id){const value=review(id);return value.completed===true&&Boolean(value.genre)}
     function persist(){try{localStorage.setItem(STORAGE_KEY,JSON.stringify(reviews));return true}catch(error){toast('浏览器无法保存本机进度，请先导出当前结果。',true);return false}}
     let toastTimer;function toast(message,error=false){const node=$('toast');node.textContent=message;node.className=`toast show${error?' error':''}`;clearTimeout(toastTimer);toastTimer=setTimeout(()=>node.className='toast',2600)}
-    function filtered(){const q=state.search.trim().toLocaleLowerCase();return DATA.songs.filter(song=>{if(q&&![song.title,song.artist,song.album].join(' ').toLocaleLowerCase().includes(q))return false;if(state.artist!=='all'&&song.artist!==state.artist)return false;if(state.status==='pending'&&done(song.id))return false;if(state.status==='done'&&!done(song.id))return false;return true}).sort((a,b)=>a.artist.localeCompare(b.artist)||a.title.localeCompare(b.title))}
+    function filtered(){const q=state.search.trim().toLocaleLowerCase();return DATA.songs.filter(song=>{if(q&&![song.title,song.artist,song.album].join(' ').toLocaleLowerCase().includes(q))return false;if(state.artist!=='all'&&song.artist!==state.artist)return false;if(state.status==='pending'&&done(song.id))return false;if(state.status==='done'&&!done(song.id))return false;if(state.status==='local'&&!song.audio_url)return false;return true}).sort((a,b)=>a.artist.localeCompare(b.artist)||a.title.localeCompare(b.title))}
     function metrics(){const completed=DATA.songs.filter(song=>done(song.id)).length,total=DATA.songs.length,rate=total?completed/total*100:0;$('total').textContent=total;$('completed').textContent=completed;$('remaining').textContent=total-completed;$('rate').textContent=`${rate.toFixed(1)}%`;$('progress').style.width=`${rate}%`;$('export').disabled=completed===0}
     function renderQueue(){const rows=filtered();if(!rows.some(song=>song.id===state.activeId)){state.activeId=rows[0]?.id||null}$('queueHead').textContent=`当前筛选 ${rows.length} / ${DATA.songs.length} 首`;$('queue').innerHTML=rows.length?rows.map(song=>`<button class="queue-item${song.id===state.activeId?' active':''}${done(song.id)?' done':''}" type="button" data-id="${esc(song.id)}"><div class="queue-title"><span>${esc(song.title)}</span><i></i></div><div class="meta">${esc(song.artist)} · ${esc(song.album||'未标注专辑')}</div></button>`).join(''):'<div class="empty">当前筛选没有曲目。</div>';document.querySelectorAll('[data-id]').forEach(button=>button.addEventListener('click',()=>{state.activeId=button.dataset.id;render()}))}
     function option(value,label,current){return `<option value="${esc(value)}"${value===current?' selected':''}>${esc(label)}</option>`}

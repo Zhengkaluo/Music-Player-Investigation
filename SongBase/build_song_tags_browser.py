@@ -10,6 +10,7 @@ import subprocess
 import sys
 import unicodedata
 from pathlib import Path
+from urllib.parse import quote
 
 
 BASE = Path(__file__).resolve().parent
@@ -81,16 +82,24 @@ def find_local_audio(
     title: str,
     group_artist: str,
     full_singer: str,
+    album: str,
     exact_audio: dict[str, Path],
     compact_audio: dict[str, Path],
 ) -> str | None:
-    for artist in artist_variants(group_artist, full_singer):
-        stem = f"{clean_filename(title)} - {clean_filename(artist)}"
+    artists = artist_variants(group_artist, full_singer)
+    stems = []
+    if album:
+        stems.extend(
+            f"{clean_filename(title)} [{clean_filename(album)}] - {clean_filename(artist)}"
+            for artist in artists
+        )
+    stems.extend(f"{clean_filename(title)} - {clean_filename(artist)}" for artist in artists)
+    for stem in stems:
         path = exact_audio.get(unicodedata.normalize("NFC", stem).casefold())
         if path is None:
             path = compact_audio.get(normalized_stem(stem))
         if path is not None:
-            return path.resolve().as_uri()
+            return quote(path.relative_to(BASE).as_posix(), safe="/")
     return None
 
 
@@ -152,6 +161,7 @@ def build_payload(library: dict, tags: dict, candidates: dict | None) -> dict:
                     song.get("title", ""),
                     singer.get("name", ""),
                     song.get("full_singer", ""),
+                    song.get("album", ""),
                     exact_audio,
                     compact_audio,
                 ),
@@ -225,6 +235,7 @@ TEMPLATE = r'''<!doctype html>
       <button class="tab" id="browseTab" type="button" aria-selected="true">标签浏览</button>
       <button class="tab" id="reviewTab" type="button" aria-selected="false">候选纠错 <span id="candidateCount"></span></button>
       <a class="tab" href="song_manual_tagging.html">无候选手动标注 <span id="manualCount"></span></a>
+      <a class="tab" href="song_combined_annotation.html">Tag + ZMPD 联合标注</a>
     </nav>
     <section class="view-panel" id="browseView">
     <section class="metrics" aria-label="标签进度">
@@ -388,6 +399,7 @@ def main() -> None:
         f"{payload['audio']['mapped_tracks']} local-playable"
     )
     subprocess.run([sys.executable, str(BASE / "build_manual_tagging_browser.py")], check=True)
+    subprocess.run([sys.executable, str(BASE / "build_combined_annotation_browser.py")], check=True)
 
 
 if __name__ == "__main__":

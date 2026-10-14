@@ -1,27 +1,50 @@
 # QQ 音乐曲库（按歌手索引）
-> 486 位艺人 · 1161 首歌曲 · 2026-09-15
-> YouTube: 729 | Bilibili: 0
+> 551 位艺人 · 1553 首歌曲 · 2026-10-13
+> YouTube: 715 | Bilibili: 0
+
+## ((( O ))) (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | iFeel | iFeel | 4:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/003bpVPA2Rp69Q) | - |
 
 ## 16层乐队 (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 住在十六层的少年 | 鹿亦微灯 | 8:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jSlE31PQbqZ) | [▶️](https://youtube.com/watch?v=XdZzymXHhuM) |
 
+## 1999 WRITE THE FUTURE (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | COuGhDrOPs (,,Ծ‸Ծ,, ) | hella (˃̣̣̥╭╮˂̣̣̥) ✧ ♡ ‧º·˚ | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ynfi94MNd4t) | - |
+
 ## 21 Savage (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Said N Done | SAVAGE MODE II (Explicit) | 3:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ghioO0H90W3) | [▶️](https://youtube.com/watch?v=_zXBotJmdOs) |
 
-## 3nd (2首)
+## 3nd (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | ceramics | DEMO | 5:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/003FqTgo25TB9X) | - |
 | 2 | テレプシコラー | we dance × avec toi | 4:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/001H7qJN1i51W6) | - |
+| 3 | Nemure | DEMO (小样) | 4:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/0048VoOX3bYSTw) | - |
 
 ## 7co (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | TOMATO | TOMATO | 3:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/000O5Ap414r9oE) | [▶️](https://youtube.com/watch?v=UFw27xYEvbY) |
+
+## 88rising (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Indigo | Indigo | 2:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/003qtjfJ3xJNmA) | - |
+
+## A Picture Of Her (3首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | picnic-perfect | C | 6:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/001yoUMK0ibs4P) | - |
+| 2 | Seize the day (把握现在) | C | 4:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MZWRs31PFIm) | - |
+| 3 | intro | C | 1:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/001WjPT61tjkne) | - |
 
 ## Acro Jazz Laboratories (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -32,6 +55,20 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | The Deep South | Corduroy Road (Original Score) | 3:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/00032MAj0Zer7d) | [▶️](https://youtube.com/watch?v=5aSDefBCsyM) |
+
+## Adele (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Daydreamer | 19 (Explicit) | 3:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/002dUbjB2ZqY96) | - |
+| 2 | Love In The Dark | 25 | 4:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jmQh20aRW8r) | - |
+| 3 | Right As Rain | 19 (Explicit) | 3:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/003uzHJL1QO0cH) | - |
+| 4 | I Drink Wine | 30 | 6:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/001eDYE44L0Mvn) | - |
+| 5 | All I Ask | 25 | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/0012O1JW32BMUj) | - |
+
+## After Louise (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | No Fun | Nothing's Accidental | 2:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/001y27Va342IXs) | - |
 
 ## Airiel (2首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -63,36 +100,38 @@
 | 9 | Run Outs | Bring Backs | 4:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/003AzUdz1QSY7a) | - |
 | 10 | Teki | Bring Backs | 6:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/001LTc2W46nOpa) | [▶️](https://youtube.com/watch?v=npnt5AlUEcU) |
 
-## All India Radio (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Sunburst | Café del Mar, Vol. 22 | 4:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/003HKm8c2ForNG) | [▶️](https://youtube.com/watch?v=24c5Th3DZWs) |
-
 ## Allenvave (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 夜班车 | Summernight | 3:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/003agrX73jEW1g) | - |
+
+## Amiina (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Rugla | Kurr | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/003eslBe24CuOd) | - |
+
+## AMnesiac安尼西亚 (3首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | White Light | AM | 9:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/002CZyfr1u39Qu) | - |
+| 2 | The Terminal | AM | 7:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/004czUII1kqlDj) | - |
+| 3 | Nice to Meet You | AM | 4:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/002nG6hp3wbhFD) | - |
 
 ## ano (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 許婚っきゅん | 許婚っきゅん | 3:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/003F1DtT0DU41P) | - |
 
-## April Rain (1首 · YT:1)
+## Aphex Twin (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | Soulmate | Waiting for Sunrise | 6:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001I2LuN0X9HCE) | [▶️](https://youtube.com/watch?v=6DQHqZ_R7sE) |
+| 1 | Avril 14th | Drukqs (Unique UPC for Amazon) | 2:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NoV0A0SHEIT) | - |
 
 ## ARAI (2首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Featuring Uzuhan | Featuring Uzuhan (Explicit) | 5:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/000vzPwV025JK6) | [▶️](https://youtube.com/watch?v=o3DalGQwBz0) |
 | 2 | We Shouldn‘t But .. | We Shouldn‘t But .. | 3:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/002zhKMg3Z3RXT) | [▶️](https://youtube.com/watch?v=0xoxFpth38M) |
-
-## Arbour (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Flyaway | Sights & Sounds | 2:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/000zd8Ei2CXQ5z) | [▶️](https://youtube.com/watch?v=CCA2-16pCso) |
 
 ## Arcade Fire (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -141,6 +180,11 @@
 |---|------|------|------|--------|---------|
 | 1 | Where Do We Go! | Where Do We Go! | 3:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/003U1FIZ3EA8LV) | - |
 
+## BAANDIT! (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Miss.mp3 | Miss.mp3 | 2:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/004F52ih3w6pZN) | - |
+
 ## Bahamas (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -151,7 +195,7 @@
 |---|------|------|------|--------|---------|
 | 1 | Hell N Back | Hell N Back (Explicit) | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/0020exsa1lzTSy) | [▶️](https://youtube.com/watch?v=BdrNvQ4YCng) |
 
-## Balmorhea (6首 · YT:6)
+## Balmorhea (7首 · YT:6)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Days | Stranger | 8:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/003QKuSZ04ELv8) | [▶️](https://youtube.com/watch?v=wAJnYnRHi08) |
@@ -160,6 +204,7 @@
 | 4 | New Conditions | New Conditions | 3:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/0044thS03J3WXq) | [▶️](https://youtube.com/watch?v=kEx_q7MoRGs) |
 | 5 | Night Squall | Constellations | 3:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/002sAguz27ILLc) | [▶️](https://youtube.com/watch?v=y_X_Tk62--Q) |
 | 6 | Remembrance | All Is Wild, All Is Silent | 5:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ATjVB4OutLK) | [▶️](https://youtube.com/watch?v=C-wu2VcYNCA) |
+| 7 | Bowsprit | Constellations | 5:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/003AJPVU2EgJy4) | - |
 
 ## Bankrol Hayden (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -176,10 +221,11 @@
 |---|------|------|------|--------|---------|
 | 1 | Ferrari | Ferrari | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/002rsnfh4ReTtN) | [▶️](https://youtube.com/watch?v=nyRawESIuy4) |
 
-## Before the Sunrise (1首)
+## Before the Sunrise (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 河 | 河 | 5:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/0045qBlS24pkhK) | - |
+| 2 | 秘密 | 秘密 | 4:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000eTEfD05visO) | - |
 
 ## Ben Abraham (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -211,6 +257,13 @@
 | 2 | Under A Lone Ash | Ribbons | 2:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/0019JgoE1ogyxP) | [▶️](https://youtube.com/watch?v=35wN0wMdd3k) |
 | 3 | Valley Wulf | Ribbons | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ukzuo0u5PpB) | [▶️](https://youtube.com/watch?v=Qt7wCX1td04) |
 
+## Billie Eilish (3首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | BIRDS OF A FEATHER | HIT ME HARD AND SOFT | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/002V2peX1YZpo8) | - |
+| 2 | CHIHIRO | HIT ME HARD AND SOFT | 5:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/001etTqc0layUE) | - |
+| 3 | &burn | &burn | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/001kuDLZ350njw) | - |
+
 ## Binkbeats (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -221,15 +274,22 @@
 |---|------|------|------|--------|---------|
 | 1 | Salem Sisters | Forever Howlong (Explicit) | 3:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/0037ycgg1j7fBw) | [▶️](https://youtube.com/watch?v=RTffgNo04eI) |
 
+## Black Country, New Road (2首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Mark’s Theme | Ants From Up There | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/0021VK6I2P9wuK) | - |
+| 2 | Snow Globes | Ants From Up There | 9:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/0000h7en0ypOJq) | - |
+
 ## Black Eyed Peas (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Meet Me Halfway | THE E.N.D. (THE ENERGY NEVER DIES) [International Deluxe Version] | 4:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/0048buGv2Ed4db) | [▶️](https://youtube.com/watch?v=I7HahVwYpwo) |
 
-## Blood Orange (1首)
+## Blood Orange (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | The Field | Essex Honey | 3:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014k29u0pYyH6) | - |
+| 2 | Charcoal Baby (Explicit) | Negro Swan (Explicit) | 4:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/002jPi7U1o6SGv) | - |
 
 ## BLU-SWING (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -242,15 +302,25 @@
 |---|------|------|------|--------|---------|
 | 1 | Long Walk, Short Dock | After Hours | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/001W1IJd2oFNwF) | [▶️](https://youtube.com/watch?v=qWCoHhsoM44) |
 
-## Blumio (1首)
+## Bon Iver (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | König oder Feigling - Ed’s Theme | Street Fighter 6 Original Soundtrack [Year 1] | 4:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ENAdr0nUkZ9) | - |
+| 1 | THINGS BEHIND THINGS BEHIND THINGS | SABLE, | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/0007mBvO3we7zt) | - |
+| 2 | AWARDS SEASON | SABLE, | 5:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/000n3MUQ2H4e4L) | - |
+| 3 | Everything Is Peaceful Love | SABLE, fABLE (Explicit) | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/002iMCar2KMyAe) | - |
+| 4 | 33 "GOD" | 22, A Million | 3:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/001n2G2V1XrrwZ) | - |
+| 5 | Holocene | Holocene | 5:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/000sNlEo1mhR6a) | - |
+| 6 | iMi | i,i | 3:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/001dxYiJ0AA0Na) | - |
 
 ## Bosques De Mi Mente (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | El Transcurrir De Las Horas | Nueve Días De Invierno | 3:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/000fr5BQ0jAxGk) | [▶️](https://youtube.com/watch?v=WyZjm7SnK9k) |
+
+## BoyWithUke (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Prairies | Serotonin Dreams (Explicit) | 3:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MByuH0SyXGN) | - |
 
 ## Brasstracks (3首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -258,6 +328,11 @@
 | 1 | In My Feelings | In My Feelings | 3:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ZzVmT0pztQn) | [▶️](https://youtube.com/watch?v=OudpqgzR4aA) |
 | 2 | Say U Won't | Good Love | 3:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/002CcEQY1xqVyA) | [▶️](https://youtube.com/watch?v=l1vEACYaUQY) |
 | 3 | Welcome Back | Welcome Back Era (Explicit) | 3:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/003c9m7O2Dydl7) | [▶️](https://youtube.com/watch?v=c9ogqBOURRw) |
+
+## Bren Joy (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | EL DORADO | SUNSET BLACK (Explicit) | 3:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/00287xxv1N2ezt) | - |
 
 ## Broncho (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -269,10 +344,14 @@
 |---|------|------|------|--------|---------|
 | 1 | Mediterraneo | RE_CORDIS | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/0021bCvd1QXexX) | [▶️](https://youtube.com/watch?v=uExwZItcNVM) |
 
-## Burna Boy (1首 · YT:1)
+## Bruno Major (0首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | Cloak & Dagger (feat. J Hus) | Love, Damini (Explicit) | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014o7Ta4HLLAF) | [▶️](https://youtube.com/watch?v=Ri_VVDbpkdY) |
+| 1 | The Most Beautiful Thing | The Most Beautiful Thing | 3:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/0003PBrR2QwQEs) | - |
+| 2 | Regent's Park | To Let A Good Thing Die | 2:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002A8lVn1DkTj8) | - |
+| 3 | Nothing | Nothing | 2:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/002UPJ6h4R4CZu) | - |
+| 4 | Just The Same | Just The Same | 3:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/0042dlZn0Bfu1m) | - |
+| 5 | Fair-Weather Friend | Fair-Weather Friend | 3:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/004YieBS0k9t2k) | - |
 
 ## Busty and the Bass (3首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -287,15 +366,15 @@
 | 1 | Cold Cold Cold | Tell Me I'm Pretty | 3:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/000afH2Z0gIzbI) | [▶️](https://youtube.com/watch?v=n95eekfFZZg) |
 | 2 | Telescope | Melophobia | 3:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/001wyhYY1tHbNB) | [▶️](https://youtube.com/watch?v=GouP9Kzy3mo) |
 
-## Cagnet (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Candy Kisses | 喜剧之王 电影原声带 | 3:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/003oVhrZ3d2FFj) | - |
-
 ## Caravan Palace (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Spirits | Gangbusters Melody Club (Explicit) | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/002rlj5P36ALh2) | - |
+
+## Carsick Cars (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 告别 | 告别 | 4:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/0047w50Z2xR9D2) | - |
 
 ## Cassandra Jenkins (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -306,11 +385,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 自己做决定 feat.陈绮贞 | 自己做决定 feat.陈绮贞 | 4:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/000mE2OE0QmTxY) | - |
-
-## Celler Dwellers (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | I Need Some Sleep | I Need Some Sleep | 3:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/004OQtyb1MUdV5) | [▶️](https://youtube.com/watch?v=pqiSph8Mpx0) |
 
 ## cero (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -328,11 +402,17 @@
 | 1 | Drinking For Two | Herd Runners | 5:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/003dQS183cZrze) | [▶️](https://youtube.com/watch?v=CLYMszjVK7Q) |
 | 2 | My Lover Lies Under | Herd Runners | 3:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/001C5UC21oYgri) | [▶️](https://youtube.com/watch?v=3VkeBiOIVU0) |
 
-## Chestnut Bakery (2首 · YT:2)
+## Chestnut Bakery (3首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Mirror (Bedroom Session) | Mirror | 4:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/003uDpf31hSIH1) | [▶️](https://youtube.com/watch?v=RXsVhNvEu7s) |
 | 2 | Tunnel Party | Diaries | 4:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/002egewX3cCsqX) | [▶️](https://youtube.com/watch?v=02kr5NEy6uc) |
+| 3 | September | Diaries | 5:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Yxqjy30eCQY) | - |
+
+## Childs (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Mariana | Yui | 5:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/00057UGO34f6bd) | - |
 
 ## chilldspot (3首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -353,13 +433,15 @@
 |---|------|------|------|--------|---------|
 | 1 | Menina | Menina | 5:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Iwdtt3THGLi) | [▶️](https://youtube.com/watch?v=MVkymYrRGPw) |
 
-## Chinese Football (2首)
+## Chinese Football (4首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 电动少女 | Here Comes a New Challenger! | 5:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/003LDRsX47cggs) | - |
 | 2 | 人生游乐场 | Win&Lose | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/003i9IMd3G5uRp) | - |
+| 3 | 地球上最后一个EMO男孩 | Chinese Football | 5:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/0027zDei3XGzHO) | - |
+| 4 | 守门员 | Chinese Football | 4:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/003bJwBg1Vk3fw) | - |
 
-## Choker (5首 · YT:5)
+## Choker (6首 · YT:5)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Baby Boy | Honeybloom (Explicit) | 2:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/0000AfxH4IPzsZ) | [▶️](https://youtube.com/watch?v=8FscBQAqcjs) |
@@ -367,6 +449,7 @@
 | 3 | Lucky | Forever & A Few (Explicit) | 4:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/000xu9YP0QyWcn) | [▶️](https://youtube.com/watch?v=jS2nxAyV9eE) |
 | 4 | Moksha | Peak (Explicit) | 3:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/000AexBa3aUqOw) | [▶️](https://youtube.com/watch?v=SFWOIItbXkk) |
 | 5 | Windbreaker | Honeybloom (Explicit) | 2:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/001QedOf2fLgUt) | [▶️](https://youtube.com/watch?v=X7-GoZAyAJ4) |
+| 6 | Drift | Honeybloom (Explicit) | 3:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/002zNIpE2OWF50) | - |
 
 ## Chon (8首 · YT:6)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -380,7 +463,7 @@
 | 7 | Sleepy Tea | Homey | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/0015LB9F4ePo5B) | [▶️](https://youtube.com/watch?v=AtXN2Oxhwtc) |
 | 8 | Suda | Grow | 3:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ItfhK2FSDIj) | [▶️](https://youtube.com/watch?v=i6G3lsnAfBQ) |
 
-## Cicada (13首)
+## Cicada (15首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 夕阳消失之前 | 走入有雾的森林 | 3:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/002jaefh3NZVjb) | - |
@@ -396,16 +479,24 @@
 | 11 | 山屋里的小脚印 | 走入有雾的森林 | 2:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/001S7hHz2aaHLo) | - |
 | 12 | 踏出一条白色的路 | 走入有雾的森林 | 7:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/003rYwGY4fuCCq) | - |
 | 13 | 俯瞰我们的家 | 走入有雾的森林 | 4:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/0025YYJ00pmdxO) | - |
+| 14 | 以一种假装放荡的矜持 与你告别 | Over the Sea / Under the Water | 6:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/000lwYk92vrBv8) | - |
+| 15 | 越过海岸山脉 (Over Coastal Range) | 仰望海平面 | 5:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/0047QXrZ1gjjot) | - |
 
 ## Clairo (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Pretty Girl | Pretty Girl | 2:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/002tQHZk1b3ttd) | - |
+| 2 | it is over | moth girl | 2:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/003j9c1S33TtSQ) | - |
+| 3 | Add Up My Love | Charm | 3:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/004KtQl42rhCIp) | - |
+| 4 | Bags | Immunity (Explicit) | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ZqSJn2bEQE1) | - |
+| 5 | Just For Today | Sling | 3:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/004EgD1V2YL8NH) | - |
+| 6 | how did I ever | how did I ever | 2:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/000aLAYq1recqd) | - |
 
-## clammbon (1首 · YT:1)
+## clammbon (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 波よせて | clammbon - columbia best | 5:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Uz0BI0jM7I7) | [▶️](https://youtube.com/watch?v=2Xs9ijm9Jko) |
+| 2 | ナイトクルージング | clammbon - columbia best | 6:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/0028WTw80Julix) | - |
 
 ## Cleo Sol (10首 · YT:10)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -421,10 +512,30 @@
 | 9 | When I'm in Your Arms | Rose in the Dark | 5:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/003OjVhu40pVPd) | [▶️](https://youtube.com/watch?v=hp0KiJs0S5g) |
 | 10 | Why Don't You | Rose in the Dark | 3:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/001zpdur2eiy7l) | [▶️](https://youtube.com/watch?v=SMpMLTpEXVk) |
 
+## Coba (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 過ぎ去りし永遠の日々 | おしゃれカンケイ | 3:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/004CKntE0jM43B) | - |
+
+## Coldplay (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Charlie Brown | Mylo Xyloto | 4:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/003exDD32B4XP5) | - |
+| 2 | Paradise | Paradise | 4:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/000opCQL1V4Zoq) | - |
+| 3 | Every Teardrop Is a Waterfall | Every Teardrop Is a Waterfall | 4:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/000F4vDF2XmPzF) | - |
+| 4 | WE PRAY | Moon Music | 3:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ASmYb0j8Pg9) | - |
+| 5 | Cry Cry Cry | Everyday Life (Explicit) | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jIR8P0lZfw6) | - |
+| 6 | Everything's Not Lost | Parachutes | 7:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jpgj03QN8Kh) | - |
+
 ## College (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | A Real Hero | Drive (Original Motion Picture Soundtrack) | 4:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/000tDeX64NQu44) | - |
+
+## CORNELIUS (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Tone Twilight Zone | Point | 3:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/004dMkXO44a4lP) | - |
 
 ## corook (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -462,16 +573,24 @@
 | 3 | 友人A | アンサンブル・プレイ (Explicit) | 3:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/001WqQpv4Y2F4Q) | [▶️](https://youtube.com/watch?v=zNOe2fK1hM0) |
 | 4 | のびしろ - From THE FIRST TAKE | アンサンブル・プレイ (Explicit) | 3:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/001t8grO20xiPh) | - |
 
-## Cro (1首 · YT:1)
+## Crispy脆乐团 (0首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | Jetzt | Melodie (Deluxe-Premium Edition) [Explicit] | 2:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/004PcrtP0d4BSe) | [▶️](https://youtube.com/watch?v=jUTM97TK6sU) |
+| 1 | 这世界没有你想象的苦涩 | 玩伴 | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/003bXZG822iJCK) | - |
+| 2 | 装帧 | 装帧 | 4:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/00171PXo3XW2LF) | - |
+| 3 | 转圈圈 | 有多少光就有多少黑 | 4:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Hwr423EClSO) | - |
+| 4 | 宇宙的角落 | 有多少光就有多少黑 | 3:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/000w8o1G0n3x8D) | - |
+| 5 | 过曝 | 过曝 | 3:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Mo03q0dOpCD) | - |
 
 ## Cuco (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | We Had to End It | Songs4u | 5:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/003mIUru2PtkWB) | [▶️](https://youtube.com/watch?v=4I-qqGQgdN0) |
 | 2 | Dontmakemefallinlove | Chiquito | 3:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/0047hJIe1VcLLI) | - |
+| 3 | Pendant | Pendant | 3:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NB9zC4KiuXe) | - |
+| 4 | Do Better | Para Mi (Explicit) | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jo3nT2OxiaH) | - |
+| 5 | Bossa No Sé | Para Mi (Explicit) | 3:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/000VIQsR1lXb5A) | - |
+| 6 | Melting | Melting | 3:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Ccgnp1RNtvv) | - |
 
 ## Céline Dessberg (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -503,6 +622,11 @@
 |---|------|------|------|--------|---------|
 | 1 | oooWooo | Footprints I Found | 3:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/000KvPmc4Q5VOa) | [▶️](https://youtube.com/watch?v=-fVGJaPqqjI) |
 
+## deca joins (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 散去的时候 | 雾散去的时候 | 4:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/002sMfzj1pCcIM) | - |
+
 ## Deluxe (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -525,16 +649,22 @@
 | 1 | New Day | New Day & Cherry | 2:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/002vRxmB2XHA8X) | [▶️](https://youtube.com/watch?v=F6hCIEFGwsM) |
 | 2 | Wild Orchid | Wild Orchid | 3:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/00133oqQ2ragaQ) | [▶️](https://youtube.com/watch?v=Js-axOND9Dc) |
 
+## Diamond Pistols (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Time Machine | Time Machine (Explicit) | 3:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/002pI6rJ2yVLeg) | - |
+
 ## Diddy (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | I'll Be Missing You (feat. Faith Evans & 112) | No Way Out (2014 Remaster) | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/001owWwY4QSrD3) | - |
 
-## Din of Celestial Birds (2首 · YT:2)
+## Din of Celestial Birds (3首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Launch | The Night is for Dreamers | 5:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/004WXemk1jJ3OX) | [▶️](https://youtube.com/watch?v=1EwPeJjJxBs) |
 | 2 | Utopia | The Night is for Dreamers | 4:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/0037LBhA4SfrM6) | [▶️](https://youtube.com/watch?v=CQud7vGKKE8) |
+| 3 | This Transient Spring | The Night is for Dreamers | 5:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/001OzeXt4YckCL) | - |
 
 ## DooPiano (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -546,11 +676,6 @@
 |---|------|------|------|--------|---------|
 | 1 | From The Window Of My Room | About Everything And More | 6:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002z9rv20tgIR1) | [▶️](https://youtube.com/watch?v=eBG2JjW1hyM) |
 | 2 | Let Us Live | About Everything And More | 7:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/0032f3f143nQ0F) | - |
-
-## Dr. Dre (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Let Me Ride | The Chronic (Explicit) | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/0034VK6P24VYWL) | [▶️](https://youtube.com/watch?v=cKu3_3mp1U8) |
 
 ## Dragon Ash (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -577,11 +702,6 @@
 |---|------|------|------|--------|---------|
 | 1 | Far Away | Far Away | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/001nStVE0gi3fN) | [▶️](https://youtube.com/watch?v=PUtWTvyA1Pc) |
 
-## EDD-989 (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Cassiopeia | Cassiopeia | 9:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/000h1Jvh4ZOfhQ) | [▶️](https://youtube.com/watch?v=iwqPZLcVxC8) |
-
 ## Eels (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -592,7 +712,7 @@
 |---|------|------|------|--------|---------|
 | 1 | Dreams Today | Piramida | 3:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/002kir4k1YoDFP) | [▶️](https://youtube.com/watch?v=wDSpTKXyk_k) |
 
-## El Ten Eleven (11首)
+## El Ten Eleven (12首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Adam and Nathan Totally Kick A** | These Promises Are Being Videotaped | 4:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/001DCMxF0MfHVO) | - |
@@ -606,23 +726,21 @@
 | 9 | Paranoid Android | These Promises Are Being Videotaped | 2:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/004STzKW3c183N) | - |
 | 10 | Point Breeze | Fast Forward | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/002N2qDN3FdKfY) | - |
 | 11 | Thanks Bill | Thanks Bill | 4:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/003zUuoF0NDRsm) | - |
+| 12 | We Lost a Giant | Fast Forward | 2:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/004PHskn3wBv8K) | - |
 
 ## Ennio Morricone (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Gabriel's Oboe from The Mission | Appassionato [International Version] | 2:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ah6O0454i3H) | - |
 
-## Eric B. (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | I Ain't No Joke | Paid In Full (Deluxe Edition) | 3:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/004YT0ut4e2kMS) | - |
-
-## euphoria (3首 · YT:2)
+## euphoria (5首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | anemo | ホワイトパターン | 5:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/002jBS8E2qmhSe) | [▶️](https://youtube.com/watch?v=XJNJycSBk2k) |
 | 2 | butterfly track | サイレンスインエブリウェアー | 4:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002EODbq0Fm7ZF) | [▶️](https://youtube.com/watch?v=b8Eu1ekPqVs) |
 | 3 | summer | ワンデイ | 6:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000pFHhe41qTtL) | - |
+| 4 | silence in everywhere | サイレンスインエブリウェアー (silence in everywhere) | 10:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/004IeU4H0uCpM1) | - |
+| 5 | silent roar (silent roar) | サイレントロアー (silent roar) | 5:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/003kcj670A4FNH) | - |
 
 ## European Jazz Trio (2首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -630,10 +748,28 @@
 | 1 | Dancing Queen | Dancing Queen | 5:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/004SgqqV0Rqz2I) | [▶️](https://youtube.com/watch?v=LCbWL9JCyIE) |
 | 2 | Etude No. 3 Op. 10/3 | Chopinderful!: Chopin Meets Jazz | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/003X0nJo1xG3po) | [▶️](https://youtube.com/watch?v=UIvubSlPaiI) |
 
+## Evenings (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Favorite Maze | Yore | 2:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/000D0CB714neCt) | - |
+
 ## EVISBEATS (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 夢の続き feat. 田我流 | ムスヒ | 4:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/004G4lsa1K8FF0) | [▶️](https://youtube.com/watch?v=DDqqW0amAlg) |
+
+## Explosions in the Sky (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Your Hand in Mine | The Earth Is Not a Cold Dead Place | 8:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/002FsDHf2Z2l18) | - |
+
+## Ezra Collective (4首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Pure Shade | We Out Here | 6:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/003xubth3E8N7D) | - |
+| 2 | Reason in Disguise | Reason in Disguise | 3:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/003aIoZj4TSjPj) | - |
+| 3 | God Gave Me Feet For Dancing (feat. Yazmin Lacey) | God Gave Me Feet For Dancing (feat. Yazmin Lacey) | 3:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Tedn00IU7Hx) | - |
+| 4 | No One's Watching Me (feat. Olivia Dean) | Dance, No One's Watching | 4:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/0027MOU12Nk2F2) | - |
 
 ## Faded Paper Figures (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -650,21 +786,35 @@
 |---|------|------|------|--------|---------|
 | 1 | Better Distractions | I Know I'm Funny haha (Explicit) | 4:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jmECw24Ua46) | [▶️](https://youtube.com/watch?v=gYUB0O0No0A) |
 
-## Fayzz (4首 · YT:4)
+## Fayzz (6首 · YT:4)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Distance | Patch | 5:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/001neLbY2J9GCJ) | [▶️](https://youtube.com/watch?v=6nFmFxYcr4k) |
 | 2 | 人间风景 | demo | 6:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/00400umx31UH5p) | [▶️](https://youtube.com/watch?v=5X-T69nuPCU) |
 | 3 | 季风 (Monsoon) | Patch | 4:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/004gdY3S3vzhdj) | [▶️](https://youtube.com/watch?v=rAgrYfdbHXg) |
 | 4 | 美梦成空 (Dream fades) | Patch | 5:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/003NDIcA0XN7hw) | [▶️](https://youtube.com/watch?v=dwvzlX9IizM) |
+| 5 | The start is the end | Between | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Lzixr01ZuNr) | - |
+| 6 | 永恒的奥古斯都 (Semper Augustus) | Days Gone | 5:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/001WleLS0wyqmb) | - |
 
-## Fishmans (2首 · YT:2)
+## FINNEAS (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Life Moves On | Life Moves On | 4:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/004O1atc1yDZOZ) | - |
+| 2 | For Cryin' Out Loud! | For Cryin' Out Loud! | 3:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/003EJnRP4QnTfl) | - |
+| 3 | Medieval | Optimist | 2:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/004a8vE53RJ5vO) | - |
+| 4 | The Kids Are All Dying | Optimist | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/002hL2XJ2yGpak) | - |
+| 5 | Let's Fall in Love for the Night | Blood Harmony (Explicit) | 3:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/000l3Ux21CN8av) | - |
+| 6 | I Don't Miss You at All | Blood Harmony (Explicit) | 2:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/002x9hnT1XUxEY) | - |
+
+## Fishmans (4首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | BABY BLUE | 空中キャンプ | 6:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/002QRYfa0g0ycu) | [▶️](https://youtube.com/watch?v=1qLU1l2qXyo) |
 | 2 | いなごが飛んでる | いなごが飛んでる | 3:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/0034oDCf3KopG7) | [▶️](https://youtube.com/watch?v=Adl3RJfXkz4) |
+| 3 | バックビートにのっかって (跟上基调) | 宇宙 日本 世田谷 | 8:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ZeT5c4A69EW) | - |
+| 4 | ナイトクルージング (夜间巡航) | 空中キャンプ | 6:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/002XPNWh2J05to) | - |
 
-## FKJ (9首 · YT:9)
+## FKJ (10首 · YT:9)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 10 Years Ago | Ylang Ylang EP | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/000fOF2L4DQBCn) | [▶️](https://youtube.com/watch?v=rqScfATfNnc) |
@@ -676,6 +826,11 @@
 | 7 | Skyline | Skyline | 4:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/002RGulM17IOSF) | [▶️](https://youtube.com/watch?v=qU5FWU0SH0o) |
 | 8 | Sundays | Just Piano | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/000U7YQH3N6K4D) | [▶️](https://youtube.com/watch?v=hZgpqFWwdVQ) |
 | 9 | Us - A COLORS SHOW | Us - A COLORS SHOW | 6:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/002xV9Fi2BDhIi) | [▶️](https://youtube.com/watch?v=GKWj4OXnuUM) |
+| 10 | 100 Roses | Ylang Ylang EP | 4:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/004PwtHF4ZbDRp) | - |
+| 11 | Way Out | Way Out | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/000RE1ae3YbIR2) | - |
+| 12 | Waiting | Take Off | 4:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/002T9Y7w0WNlJS) | - |
+| 13 | Tadow | Jazzy Chill: Sweet Jazzy Infused Tunes to Chill Out | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/004gB41N4AcFak) | - |
+| 14 | Lying Together | French Kiwi Juice | 4:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/003baKUZ3jVHFK) | - |
 
 ## Flica (10首 · YT:10)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -742,6 +897,12 @@
 | 21 | 夜間航路 | Discovery | 3:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/000UbOVS329BZB) | [▶️](https://youtube.com/watch?v=ryrFFbyRaQ0) |
 | 22 | 疾走する閃光 | WALL | 3:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/001gD48L3PdBye) | [▶️](https://youtube.com/watch?v=3LNhVmlurGs) |
 
+## Frank Ocean (2首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | White Ferrari | Blonde | 4:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/001n2W7R2EK9FB) | - |
+| 2 | Biking | Biking | 4:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/003nkcQh1dJkHN) | - |
+
 ## Fritz Kreisler (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -762,6 +923,18 @@
 |---|------|------|------|--------|---------|
 | 1 | 门 | 物件，所在 | 4:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/0030sSjW17cSWD) | [▶️](https://youtube.com/watch?v=9B9ZZSsct7w) |
 
+## Galdive (8首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Cloud | Cloud | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/0004a6rq4VU3Xv) | - |
+| 2 | Sorbet | Sorbet | 3:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/0032RDKI2X8nxy) | - |
+| 3 | Puzzle | Puzzle | 2:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/001xKYZX4LW97l) | - |
+| 4 | Nescience | Nescience | 3:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/003I9a5K1Q2OdF) | - |
+| 5 | Sway | Sway | 3:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/001f6GI10FGsrg) | - |
+| 6 | Crazy Driving | Crazy Driving | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/000QmVRr2zBnsa) | - |
+| 7 | Maybe I | Maybe I | 3:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Pr9eO05rxMy) | - |
+| 8 | 5AM | 5AM | 3:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/001bKbqc2owNiG) | - |
+
 ## Genesis Owusu (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -779,7 +952,7 @@
 | 1 | 予感 | I KNOW HOW NOW | 4:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Z3IH00yodJr) | - |
 | 2 | BEST DAY EVER (feat. 青葉市子) | I KNOW HOW NOW | 6:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/001hZ8VQ45amtR) | - |
 
-## GoGo Penguin (12首 · YT:11)
+## GoGo Penguin (16首 · YT:11)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | An Unbroken Thread of Awareness | From the North - GoGo Penguin Live in Manchester | 3:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/001kDHTp1XwKpK) | [▶️](https://youtube.com/watch?v=X83F_Xp3DMI) |
@@ -794,6 +967,10 @@
 | 10 | Signal In The Noise | GoGo Penguin | 6:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/003n2OkW0FRgrp) | [▶️](https://youtube.com/watch?v=wyzF_Xrb8XQ) |
 | 11 | The Turn Within | Necessary Fictions | 5:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049LNIq2DJdpD) | [▶️](https://youtube.com/watch?v=ii5me8miSVo) |
 | 12 | To Drown in You | v2.0 | 6:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/000WLCgm0Wniyb) | [▶️](https://youtube.com/watch?v=g01C_CJnM2E) |
+| 13 | Raven | A Humdrum Star (Deluxe) | 4:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/000CKVbi1yJsSI) | - |
+| 14 | What We Are and What We Are Meant to Be | Necessary Fictions | 5:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/003hnhcs3QzHKs) | - |
+| 15 | Fallowfield Loops | Necessary Fictions | 4:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/001bs4c610T960) | - |
+| 16 | Luminous Giants | Necessary Fictions | 5:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/001dp1aM2aWpGm) | - |
 
 ## Goldmund (10首 · YT:10)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -819,6 +996,11 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Don't Come Home Today | Shawcross | 3:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/003cxef417It4Q) | [▶️](https://youtube.com/watch?v=scf1kVkkKkI) |
+
+## Goodbye, Kings (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Modalina Wears Blue | Au Cabaret Vert | 6:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/001BY0bS0zoQGV) | - |
 
 ## Gorillaz (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -859,7 +1041,7 @@
 |---|------|------|------|--------|---------|
 | 1 | Sonnet | Farewell In Paris | 3:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/001F8QWE2KnVdS) | - |
 
-## Hania Rani (20首 · YT:14)
+## Hania Rani (22首 · YT:14)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Come Back Home | Home | 4:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/000157T10Kf96g) | [▶️](https://youtube.com/watch?v=YoZ4sKxGiuA) |
@@ -882,6 +1064,8 @@
 | 18 | Thin Line | Ghosts | 4:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/000xsyAg32NiSk) | [▶️](https://youtube.com/watch?v=w_FXW_t-LOA) |
 | 19 | Whispering House | Ghosts | 4:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/001mOKAP3mtdZW) | - |
 | 20 | Woven Song — piano reworks | some kind of peace — piano reworks | 3:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/003lEgBs3VZWWD) | [▶️](https://youtube.com/watch?v=KbGQ7dRcHfA) |
+| 21 | Zero Hour | Home | 5:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/000bb6y31ke4DO) | - |
+| 22 | Buka | Home | 5:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/002V6dd03LPjXl) | - |
 
 ## Harrison Hudson (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -976,7 +1160,7 @@
 |---|------|------|------|--------|---------|
 | 1 | June | Horsebeach | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/0029Ycmh17zwmu) | [▶️](https://youtube.com/watch?v=37pisfXxlHU) |
 
-## Hotel New Tokyo (5首 · YT:3)
+## Hotel New Tokyo (6首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 3+1 | yes? | 4:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/000TwCQn1LrW4g) | [▶️](https://youtube.com/watch?v=-xXeaigAgZI) |
@@ -984,23 +1168,25 @@
 | 3 | プレイガール | ガウディの憂鬱 | 8:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/000NzQjw0WD8m9) | - |
 | 4 | ローラースケート☆ドリーム2 | ガウディの憂鬱 | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/001RioFX0rz0UJ) | - |
 | 5 | 東京ワルツ | ガウディの憂鬱 | 6:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/0046lNIa2q0FRB) | [▶️](https://youtube.com/watch?v=3rcuUASkhcU) |
+| 6 | Bison (野牛) | yes? | 8:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/004BSgJS1PWVAG) | - |
 
-## how to count one to ten (3首 · YT:2)
+## how to count one to ten (4首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | semiautomatic | Blue Building Blocks | 6:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/002aDDHQ1QwW6G) | [▶️](https://youtube.com/watch?v=-NoIjSqbGkk) |
 | 2 | showers with sunny intervals | Blue Building Blocks | 5:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/002rCRhp1lzt8z) | [▶️](https://youtube.com/watch?v=Jn-vCxVXwEQ) |
 | 3 | parallel | Blue Building Blocks | 3:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/00256HCz3C4GA4) | - |
-
-## Howie Lee (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 拨云 | 拨云 | 4:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ytEwm0ArJPe) | [▶️](https://youtube.com/watch?v=iX_tm8gaxPs) |
+| 4 | concrete foundation | Blue Building Blocks | 5:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ZWSOX3U3phs) | - |
 
 ## Hozier (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Would That I | Wasteland, Baby! (Explicit) | 4:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/001kz4h52xJzGe) | - |
+
+## hubris. (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Is | Is | 5:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/003oC7ZI2dLXub) | - |
 
 ## Hugar (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1012,10 +1198,11 @@
 |---|------|------|------|--------|---------|
 | 1 | あたたかな手 | 家族行進曲 | 4:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/001SxfqB3cSWpH) | - |
 
-## HYBS (1首)
+## HYBS (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Go Higher | Go Higher | 3:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ymFHT3sKEoR) | - |
+| 2 | Tip Toe | Tip Toe | 3:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/002jvC8X3kfeiQ) | - |
 
 ## I Am Waiting for You Last Summer (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1040,45 +1227,49 @@
 |---|------|------|------|--------|---------|
 | 1 | You So (Youth Soul) | OST | 5:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/002peuFy061AEO) | [▶️](https://youtube.com/watch?v=zBU4R1Jm46k) |
 
-## I Spell it Nature (3首 · YT:3)
+## I Spell it Nature (4首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Empty Places, Smiling Faces | A Story Of... | 5:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/002OP9r71u0qbq) | [▶️](https://youtube.com/watch?v=1A7g_E_5hfk) |
 | 2 | Explore the World | North | 6:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/004dSD1a3aiGA7) | [▶️](https://youtube.com/watch?v=ywSNewHUmuQ) |
 | 3 | The View from Here | North | 5:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NX5Us0nXRwp) | [▶️](https://youtube.com/watch?v=n5WtGSGShQM) |
+| 4 | Abandoned Hearts Club | A Story Of… | 7:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/00327XVD10xyR9) | - |
 
 ## Ice Cube (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | It Was A Good Day | The Predator | 4:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ERq4j3YlZEY) | - |
 
-## iimmune (3首 · YT:2)
+## iimmune (6首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Argentina | Ocean | 5:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jIgSk0m39aP) | - |
 | 2 | 数字天体 | 虚构集 | 5:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/002G2Chc1MB9Gm) | [▶️](https://youtube.com/watch?v=S-za4bxf5_M) |
 | 3 | 蝉 | 虚构集 | 5:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/001smf6l4Jw7Fx) | [▶️](https://youtube.com/watch?v=mPlFHsp5Jq4) |
+| 4 | Ocean | Ocean | 4:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NwcBh0KCVxh) | - |
+| 5 | Flamingo | Ocean | 4:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/000q0BJr3NbNOa) | - |
+| 6 | 行星 | 失常 | 5:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/001AW6Zs2nLh1c) | - |
 
 ## Imagine Dragons (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Zero | Origins (Deluxe) | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/003loUg33SsE5P) | - |
 | 2 | #1 | Mercury - Act 1 | 3:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ug9cK2cOjqZ) | - |
+| 3 | Blank Space/Stand By Me | Best Covers Ever (Explicit) | 5:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jRme62vImyv) | - |
+| 4 | Thunder | Evolve | 3:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/0020ndPY24CcOP) | - |
+| 5 | Waves | Mercury - Acts 1 & 2 | 3:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/004SfX0s1cROYY) | - |
+| 6 | Easy Come Easy Go | Mercury - Act 1 | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Lrscs3PTJWJ) | - |
+| 7 | Symphony | Mercury - Acts 1 & 2 | 2:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/003PW3GE2Bqm8d) | - |
 
-## iogi (1首 · YT:1)
+## Immanu El (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | bliss | everything's worth it | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/0019rAlJ2DTyB4) | [▶️](https://youtube.com/watch?v=oKHqBUwph0I) |
+| 1 | Voices | Hibernation | 6:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000rLUzd0pv3dl) | - |
 
 ## Isyana Sarasvati (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Feel So Right | AIR | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Ft6Kl1oRQU3) | - |
-
-## ITSOGOO (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 社会MTFK | IT'S ALL GOOD | 3:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/0002F7dJ2wmR0X) | - |
 
 ## iwamizu (19首 · YT:18)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1103,25 +1294,10 @@
 | 18 | 俗世 | Alone | 2:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000vWxRM3wbNwm) | - |
 | 19 | 悋気 | Alone | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/000b5w1649YZam) | [▶️](https://youtube.com/watch?v=ElpHxF9Z_1w) |
 
-## J. Cole (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Lights Please | Cole World: The Sideline Story | 3:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/0031jJvv3i66IO) | - |
-
 ## JABBERLOOP (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | MotherLake | NEW | 4:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/001b0tI90SIPKw) | [▶️](https://youtube.com/watch?v=btoOINNhbQQ) |
-
-## JahLove乐队 (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 假日指南 | 雷鬼的世界没有悲伤的表情 | 4:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/002OIAi33bgYjX) | - |
-
-## Jain (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Star | Souldier (Explicit) | 3:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MlQLI0qEndu) | - |
 
 ## Jamiroquai (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1163,6 +1339,11 @@
 | 2 | Island | Bookshelf | 4:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/000jYQMs0HPaDE) | [▶️](https://youtube.com/watch?v=sWX9e5Gbgd0) |
 | 3 | grandfather | marten | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/002yIzyd18Y8Nr) | - |
 
+## JNR Williams (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Here B4 | Here B4 | 3:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/000gcXSG440j5O) | - |
+
 ## Joakim Karud (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1182,6 +1363,15 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Save Room | Once Again | 3:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/003oI5Us2PYbRL) | [▶️](https://youtube.com/watch?v=iOmnGzAKLvg) |
+
+## Johnny Stimson (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | You Can Do It | You Can Do It | 3:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/001AGdoa1GVFVC) | - |
+| 2 | Flower | Flower | 2:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/0019Lb1m44iEIR) | - |
+| 3 | Butterflies | Butterflies | 2:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Fy4qv2KsHci) | - |
+| 4 | Pink Lemonade | Pink Lemonade | 2:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/001x7MLY0SKdfx) | - |
+| 5 | Zombies | Zombies | 2:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/003KTLrD0q77sy) | - |
 
 ## Jordan Critz (4首 · YT:4)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1220,6 +1410,11 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 日の出 | 石の糸 | 2:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ly1ww3DYheR) | - |
+
+## Kazumasa Hashimoto (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 月の光 Arranged by kazumasa hashimoto | Tokyo Sonata | 6:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ZONdS0IyrRX) | - |
 
 ## Keaton Simons (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1327,6 +1522,11 @@
 |---|------|------|------|--------|---------|
 | 1 | La routa Di Un Luna Park | La routa Di Un Luna Park (Will You Dance with Me Remake Version) | 2:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/001yDfsR28fPFJ) | - |
 
+## Laufey (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Mr. Eclectic | A Matter of Time (Explicit) | 2:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/001EKBWO1dQXsf) | - |
+
 ## Laurie Darmon (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1337,11 +1537,13 @@
 |---|------|------|------|--------|---------|
 | 1 | The Lamp Is Low | Classical Current | 2:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/0005xGb03LnpV3) | [▶️](https://youtube.com/watch?v=hKjoLnjjp5E) |
 
-## LAUSSE THE CAT (2首)
+## LAUSSE THE CAT (4首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Peonies for Breakfast | The Mocking Stars (Explicit) | 5:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/003cyCJ13XrEOW) | - |
 | 2 | Redstripe Rhapsody | Redstripe Rhapsody | 8:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/0048HO5a3sPChR) | - |
+| 3 | Space Cadet Cat (Explicit) | The Mocking Stars (Explicit) | 5:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/001gRM2c0hz8OW) | - |
+| 4 | Lotus Blossom (Explicit) | The Mocking Stars (Explicit) | 7:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MMEN82xrgsy) | - |
 
 ## LE SSERAFIM (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1390,6 +1592,11 @@
 |---|------|------|------|--------|---------|
 | 1 | July | Soul Below | 4:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/0021yyBl3YHc13) | - |
 
+## LLusion (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | walk but in a garden | walk but in a garden | 1:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/000PxqFJ2RkFJX) | - |
+
 ## Lola Young (2首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1419,12 +1626,17 @@
 |---|------|------|------|--------|---------|
 | 1 | Better Not | Better Not | 3:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/000SVpD03mWgWV) | [▶️](https://youtube.com/watch?v=u5kP_nfFVt4) |
 
+## Lowswimmer (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Can't Be By Myself | Can't Be By Myself | 2:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Xj1mz235nvk) | - |
+
 ## LUCKY TAPES (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Gun | The SHOW | 5:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/000FiYeD3sVSAe) | - |
 
-## Ludovico Einaudi (5首 · YT:5)
+## Ludovico Einaudi (9首 · YT:5)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 85mm | Sounds of Calm | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003RxRsH4Zmgfz) | [▶️](https://youtube.com/watch?v=_94Tegz87EQ) |
@@ -1432,6 +1644,10 @@
 | 3 | Nuvole Bianche | Una Mattina | 5:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/0010KTBl2uKXfc) | [▶️](https://youtube.com/watch?v=sR2W2scFS4Y) |
 | 4 | Rose Bay | The Summer Portraits | 4:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/0010YYK03xexiC) | [▶️](https://youtube.com/watch?v=TKzDeyvuKbg) |
 | 5 | Underwood | In A Time Lapse | 4:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/000rTqiI3xKa8N) | [▶️](https://youtube.com/watch?v=VS2Hv2a-WMU) |
+| 6 | Run (奔跑) | In A Time Lapse | 5:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/0022WCXQ2x4zgv) | - |
+| 7 | Einaudi - Eros (埃诺迪 - 爱神) | Nightbook (Exclusive) | 5:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/0031Me2d27LFCY) | - |
+| 8 | Einaudi - The Tower (埃诺迪 - 塔) (Live) | The Royal Albert Hall Concert | 8:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/003HUiOp0Scwhm) | - |
+| 9 | Pathos | The Summer Portraits | 7:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Fjyum29yGCx) | - |
 
 ## M.I.L.K. (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1443,13 +1659,21 @@
 |---|------|------|------|--------|---------|
 | 1 | Young Coconut | Some Other Ones | 2:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/003G6y610h7hO2) | [▶️](https://youtube.com/watch?v=5SxdWlxRPdY) |
 
-## Mac Miller (2首 · YT:2)
+## Mac Miller (4首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Love Lost | I Love Life, Thank You (Explicit) | 2:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/0038Vq2C02uayk) | [▶️](https://youtube.com/watch?v=9ZozITxuNKo) |
 | 2 | Surf | Circles (Explicit) | 5:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/004NOEGg1o7eUT) | [▶️](https://youtube.com/watch?v=blYo4WheVgA) |
+| 3 | 2009 (Explicit) | Swimming (Explicit) | 5:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/0012WHlL2LJa4K) | - |
+| 4 | Wings (Explicit) | Swimming (Explicit) | 4:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/0008FBUG1Sx2nk) | - |
+| 5 | Baby It's Cold Outside |  | 3:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/0024UbZ30SyWt7) | - |
+| 6 | Woods | Circles (Explicit) | 4:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/000UjogV0Bpltc) | - |
+| 7 | Circles | Circles (Explicit) | 2:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/003XpTPV1HVZ71) | - |
+| 8 | Good News | Circles (Explicit) | 5:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/00313TiP3NS2pq) | - |
+| 9 | ROS | GO:OD AM (Explicit) | 5:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014Stqd160SXY) | - |
+| 10 | Hand Me Downs | Circles (Explicit) | 4:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/004V4DWL3x50zs) | - |
 
-## Mammal Hands (22首 · YT:18)
+## Mammal Hands (24首 · YT:18)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | A Thread in the Dark | Circadia | 5:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/000g5EqJ0nmN5J) | [▶️](https://youtube.com/watch?v=nxOFzuYbBGA) |
@@ -1474,11 +1698,8 @@
 | 20 | Spinning the Wheel | Animalia | 4:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/00379HQN0zynlr) | - |
 | 21 | Window to Your World | Circadia | 5:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/003OQ4PA2wuDuy) | [▶️](https://youtube.com/watch?v=esDvcymB9Kg) |
 | 22 | Wringer | Shadow Work | 3:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/002VfHxa1tciDS) | [▶️](https://youtube.com/watch?v=ALUnl2wN52o) |
-
-## ManhanD (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 世界多古怪 | 慢行看世界 | 4:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/0018aG7x48kw7x) | [▶️](https://youtube.com/watch?v=etKHwGGaMio) |
+| 23 | Dimu | Gift from the Trees | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/002dPG222mhvVc) | - |
+| 24 | Floating World | Captured Spirits | 1:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/0002EBnj4JXDt4) | - |
 
 ## Martin Ermen (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1540,13 +1761,19 @@
 |---|------|------|------|--------|---------|
 | 1 | Rewrite | us | 4:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/002NT6Y52IjvTe) | [▶️](https://youtube.com/watch?v=-TKJVVeRD8Q) |
 | 2 | SEVENTH HEAVEN | visions (Explicit) | 3:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/003eUGY64JZILi) | - |
+| 3 | bliss |  | 1:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/003xgGtD2ya9cF) | - |
+| 4 | inside you | inside you EP | 3:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/002PQwAQ0OlanK) | - |
+| 5 | jam | visions (Explicit) | 3:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/001s7DY03qREDH) | - |
+| 6 | Walkin' In My Lane | Walkin' In My Lane | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/002jeqPM1W3pFm) | - |
+| 7 | Anytime Anywhere | Anytime Anywhere | 3:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/000rIL8M0OBbUD) | - |
+| 8 | One Reason | visions (Explicit) | 4:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/003lWHKJ2x2WqU) | - |
 
 ## MINSTA (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Min Flag | Min Flag | 3:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/0040uvS01ZVFsO) | - |
 
-## Mogwai (11首 · YT:10)
+## Mogwai (14首 · YT:10)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Black Spider | Zidane, a 21st Century Portrait, an Original Soundtrack by Mogwai | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/004e0mqB1HOzFV) | [▶️](https://youtube.com/watch?v=UPebS76e17c) |
@@ -1560,12 +1787,21 @@
 | 9 | Secret Pint | Rock Action | 3:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/0006aQVw4RReA0) | [▶️](https://youtube.com/watch?v=JSCb7H4kAIQ) |
 | 10 | The Sun Smells Too Loud | The Hawk Is Howling | 6:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/002r67X52ZtoO5) | [▶️](https://youtube.com/watch?v=sSZ--zPKN2U) |
 | 11 | Yes! I Am a Long Way from Home | Young Team | 5:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002Vup6o0UxIf1) | [▶️](https://youtube.com/watch?v=Wsfhm60ADp0) |
+| 12 | Helicon 1 | Ten Rapid | 6:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/002A7mrv0tSanI) | - |
+| 13 | Coolverine | Coolverine | 6:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Liu9M42thZp) | - |
+| 14 | Special N | Les Revenants | 3:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/002u8F5r324zQn) | - |
 
-## Mooncake (2首)
+## Mono (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Scarlet Holliday | Scarlet Holliday | 7:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/00027ZmZ0wkYWE) | - |
+
+## Mooncake (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Message From Arecibo | Lagrange Points | 5:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/002HOIZ30zzpQx) | - |
 | 2 | Rain In The Ashtray | Lagrange Points | 5:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002lcuyX4NpbDv) | - |
+| 3 | Mooncake | More Oxygen, I Said… | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ZRThK2lr9WK) | - |
 
 ## Mort Garson (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1582,6 +1818,11 @@
 |---|------|------|------|--------|---------|
 | 1 | Get Up | Dance And Cry (Explicit) | 3:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/003FwUep3lfCcU) | [▶️](https://youtube.com/watch?v=AHuHk37Db9Y) |
 
+## Mr.Hong (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | home | Home | 3:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/0008HDkv3ETuzO) | - |
+
 ## Mt. (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1593,16 +1834,25 @@
 | 1 | Autumn | Vibrant Colors | 4:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000w88dE0wlnEd) | [▶️](https://youtube.com/watch?v=GxakE_B1pus) |
 | 2 | Graduation Song | Murphy Radio | 5:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/003rblml4aVVri) | [▶️](https://youtube.com/watch?v=bKwPynQ7MLU) |
 
+## mxmtoon (4首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | cliché | cliché | 3:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/000QBao14F1Bhi) | - |
+| 2 | creep | creep | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/002lmIK828Wk7R) | - |
+| 3 | temporary nothing | temporary nothing | 3:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/0009GXpY466P3P) | - |
+| 4 | i feel like chet | plum blossom | 3:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Eg1y10icqLK) | - |
+
 ## My Best Friend Jacob (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | To Our Daughter(Lullaby) | To Our Daughter (Lullaby) | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004U5Nds1SvJpy) | [▶️](https://youtube.com/watch?v=hkJdYtU565A) |
 
-## Múm (2首)
+## Múm (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Eternity Is the Wait Between Breaths | Smilewound | 4:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/000bsRbI1klVq2) | - |
 | 2 | Underwater Snow | Smilewound | 4:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/003iIXxY0MZbgn) | - |
+| 3 | Green Grass of Tunnel | Finally We Are No One | 4:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/000IufJK1gHklw) | - |
 
 ## Nabes (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1631,6 +1881,18 @@
 |---|------|------|------|--------|---------|
 | 1 | In the Aeroplane over the Sea | In the Aeroplane over the Sea | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/002X0G2u48tm96) | [▶️](https://youtube.com/watch?v=r3DqBk9YNXA) |
 
+## NIKI (8首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Hallway Weather | Hallway Weather | 3:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/002Ng8JT0L6aJc) | - |
+| 2 | Pandemonium | MOONCHILD | 3:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/000c4u9c4e1WO9) | - |
+| 3 | Selene | Selene | 3:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/002RPCBe11RNHK) | - |
+| 4 | Vintage | Vintage | 2:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/000581G81LMFXd) | - |
+| 5 | lowkey | lowkey (Explicit) | 2:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/000G0dbq0S67cW) | - |
+| 6 | Say My Name | Zephyr | 3:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/002FwBwW1lUnrn) | - |
+| 7 | Chilly | Chilly | 3:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/001PNz9v29I8xi) | - |
+| 8 | I Like U | I Like U (Clean) | 4:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/002KRMWe0mpMcT) | - |
+
 ## Nitsua (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1646,6 +1908,20 @@
 |---|------|------|------|--------|---------|
 | 1 | The Last Day of the End of the World | NOAH (Explicit) | 3:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/003nzOeQ2mieuv) | [▶️](https://youtube.com/watch?v=RsX7zJl4aPg) |
 
+## Nothing But Thieves (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | If I Get High | Nothing But Thieves (Deluxe) | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/0018ozy63buj8I) | - |
+
+## Novo Amor (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Ontario | Heiress | 3:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/0012Nh6N230sq1) | - |
+| 2 | Euphor | Heiress | 4:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/002H0YMo0pTVdY) | - |
+| 3 | Terraform | Terraform | 4:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/004F6UH44asCey) | - |
+| 4 | Sleepless | Birthplace | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/001m5X8d0dYc8y) | - |
+| 5 | Weather | Woodgate, NY | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/000lW4sR0nwszy) | - |
+
 ## Nujabes (9首 · YT:7)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1658,6 +1934,11 @@
 | 7 | Luv(sic.)pt3 | modal soul | 5:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049PojS4Yt1ll) | - |
 | 8 | World's end Rhapsody | modal soul | 5:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/003UCgNC1uTuU1) | [▶️](https://youtube.com/watch?v=0XJFSTYryv4) |
 | 9 | reflection eternal | modal soul | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/000dpx1K39ZkOj) | - |
+
+## ODIE (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Where Do We Go? | N.F.A. DEMOS (Explicit) | 2:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/0041Ll4K3yOLk1) | - |
 
 ## OGRE YOU A**HOLE (5首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1697,11 +1978,24 @@
 |---|------|------|------|--------|---------|
 | 1 | Play Me | Play Me | 2:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ptCkP0XhwGC) | [▶️](https://youtube.com/watch?v=8he-hRTuv0U) |
 
-## Overhead (2首 · YT:2)
+## Overhead (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | Miss Na Kita | I Leave You This | 3:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/003MjyyI0uZsg7) | [▶️](https://youtube.com/watch?v=Lc_KNiqhoVU) |
-| 2 | Your Last Breath | I Leave You This | 8:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/001VVquP2F430i) | [▶️](https://youtube.com/watch?v=8h_li_wrJ7Y) |
+| 1 | Your Last Breath | I Leave You This | 8:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/001VVquP2F430i) | [▶️](https://youtube.com/watch?v=8h_li_wrJ7Y) |
+
+## Pajaro Sunrise (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Look What We've Become | Old Goodbyes | 2:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/004dcJ7k0vNsLn) | - |
+| 2 | A Dog Named Tan | Pajaro Sunrise | 4:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/003TvkRJ0VVQqG) | - |
+| 3 | Song for Evangeline | Old Goodbyes | 4:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/004gB7Jc2j8ytz) | - |
+| 4 | Romeo's Tune | Pajaro Sunrise | 3:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/002wyXGE2QO741) | - |
+| 5 | I Don't Want to Love You No More | Old Goodbyes | 3:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/002TLRNZ3CrRSP) | - |
+
+## PALLADIAN (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Walden | Ocra | 3:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/003533Qp0f4oZx) | - |
 
 ## Paniyolo (13首 · YT:13)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1735,11 +2029,6 @@
 |---|------|------|------|--------|---------|
 | 1 | Local Paradise | Local Paradise | 3:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/000CkyJi0yJSXv) | [▶️](https://youtube.com/watch?v=2671zh0vJrQ) |
 
-## Patrick Doyle (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Do the Hippogriff | Harry Potter And The Goblet Of Fire (Original Motion Picture Soundtrack) | 3:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/003syTGk33IVye) | - |
-
 ## Paul Partohap (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -1749,6 +2038,11 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Mariposa | Mariposa | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Tyoi212TbHC) | [▶️](https://youtube.com/watch?v=U3RjdVmny6A) |
+
+## Peachy! (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Falling for U | Falling for U | 2:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/001vGwSc3T8QQ6) | - |
 
 ## Penguin Cafe Orchestra (10首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1764,11 +2058,10 @@
 | 9 | Southern Jukebox Music | Signs of Life | 4:38 | [🔗](https://y.qq.com/n/ryqq_v2/songDetail/001wBr0t2SIS66) | - |
 | 10 | Bean Fields | Signs of Life | 4:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/000FSYyo1eypBE) | - |
 
-## Pete Rock (2首)
+## Pete Rock (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | The Life I Live | Center of Attention | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/003nN0gV3Z1q6W) | - |
-| 2 | Step Up | Center of Attention | 4:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/000JrdU14Y1Lbb) | - |
+| 1 | Step Up | Center of Attention | 4:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/000JrdU14Y1Lbb) | - |
 
 ## Peter Bence (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1785,12 +2078,23 @@
 |---|------|------|------|--------|---------|
 | 1 | Mindtrip | Oscillate | 5:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/003vdMYJ25sDer) | [▶️](https://youtube.com/watch?v=KF2nBKpPeOM) |
 
-## Polo & Pan (3首 · YT:2)
+## Phosphorescent (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Song for Zula | The Amazing Spider-Man 2 (The Original Motion Picture Soundtrack) [Deluxe] | 6:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/002XZTwP0jAOSM) | - |
+
+## Pogo (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Go Out And Love Someone | Wonderpuff | 3:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/002TFicq4AGTtE) | - |
+
+## Polo & Pan (4首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Aqualand | Caravelle (Deluxe) | 4:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/0002FfST4PkrDZ) | [▶️](https://youtube.com/watch?v=XQlEFwWRPxw) |
 | 2 | Cœur croisé | Caravelle (Deluxe) | 3:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/004StP7u0GX8V2) | [▶️](https://youtube.com/watch?v=uxnUeZ8QQYg) |
 | 3 | Dorothy | Caravelle (Deluxe) | 5:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/000kG02G0sNHnQ) | - |
+| 4 | Bakara | Caravelle (Deluxe) | 7:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/000KBDHP0FX7ei) | - |
 
 ## Portico Quartet (4首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1805,11 +2109,12 @@
 |---|------|------|------|--------|---------|
 | 1 | White Iverson | White Iverson | 4:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ppxla45GWRc) | [▶️](https://youtube.com/watch?v=SLsTskih7_I) |
 
-## Pray For Sound (2首 · YT:1)
+## Pray For Sound (3首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Anything Can Be | Everything Is Beautiful | 5:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/0010n11X1LhT3c) | - |
 | 2 | Julia | Waves | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/000NyxKm0ygx4E) | [▶️](https://youtube.com/watch?v=7EcqA_bPJi4) |
+| 3 | Ezra | Waves | 6:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/001v6tx01NTPHX) | - |
 
 ## Prince (5首 · YT:4)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1844,12 +2149,30 @@
 |---|------|------|------|--------|---------|
 | 1 | Dream | 『Deemo』Song Collection | 4:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/001I5qRB1fQ2qV) | [▶️](https://youtube.com/watch?v=_gsvE4Dy28o) |
 
+## Radiohead (3首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Daydreaming | Daydreaming | 6:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/0031ibiZ2TY17D) | - |
+| 2 | Codex | The King Of Limbs | 4:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/000djRVP3ZrJFD) | - |
+| 3 | Let Down | OK Computer | 4:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/001LpERl2mFd7F) | - |
+
+## RADWIMPS (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Tokyo feat.iri | FOREVER DAZE | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ycnTM3fZpJ6) | - |
+| 2 | 猫じゃらし | 猫じゃらし | 4:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/000icdEM1jz3ey) | - |
+| 3 | 週刊少年ジャンプ | 人間開花 | 5:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014TcJX0M2nNU) | - |
+| 4 | 正解 | ANTI ANTI GENERATION | 5:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/002qerLO2l6w7n) | - |
+| 5 | me me she | RADWIMPS 4 ～おかずのごはん～ | 4:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ERJ8K3jICFN) | - |
+| 6 | そっけない | ANTI ANTI GENERATION | 6:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/00374oyC1cx962) | - |
+| 7 | いいんですか? | RADWIMPS 4 ～おかずのごはん～ | 4:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/000UKYHt184Acs) | - |
+
 ## Raveena (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Headaches | Headaches (Explicit) | 5:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/001rMdT03B2VLY) | [▶️](https://youtube.com/watch?v=_gqpXVAY3fI) |
 
-## Re:Plus (17首 · YT:16)
+## Re:Plus (19首 · YT:16)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | A Fall and Rebirth | Ordinary Landscape | 5:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/001nzNs10VvmEX) | [▶️](https://youtube.com/watch?v=WndOOv-Mzz4) |
@@ -1869,6 +2192,8 @@
 | 15 | Spartacus Love Theme | miscellany | 4:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/000K72Bh3DYh4W) | [▶️](https://youtube.com/watch?v=rZco5daGPQY) |
 | 16 | We the People feat. Pismo | Everlasting Truth | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/004G8E3U1NiBPH) | [▶️](https://youtube.com/watch?v=6U3Qey1Jkoc) |
 | 17 | White Avenue | Everlasting Truth | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/004HtsOP2yp7xT) | [▶️](https://youtube.com/watch?v=iVNqvxl2xyo) |
+| 18 | snowscape | cure | 3:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/002aUyYw0ZCFlp) | - |
+| 19 | Evening glow | Prayer | 4:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/0004YywQ1WLVLa) | - |
 
 ## Red Hot Chili Peppers (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1974,10 +2299,12 @@
 |---|------|------|------|--------|---------|
 | 1 | The Idiot | Working Folk | 2:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/003zVwHk2xsG8w) | [▶️](https://youtube.com/watch?v=3TjygR8hPJ4) |
 
-## Shanghai Qiutian (1首)
+## Shanghai Qiutian (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | What If You Can't Talk (ft.张守望) | 家：革命 | 3:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Wo2hS1oAy5Q) | - |
+| 2 | 逝者如斯夫 | 新时代，共享未来 | 4:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/0023dcMo41gG5M) | - |
+| 3 | 家：意义 (ft.王博 ft.Shii) | 家：革命 | 5:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NpJhI3yU3py) | - |
 
 ## She Never Sings Our Songs (2首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -1998,15 +2325,11 @@
 | 1 | Sunday Am | ASDR | 4:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/00429FLu4LqiAx) | [▶️](https://youtube.com/watch?v=G6kS_NXaq3Q) |
 | 2 | Twice As Nice | Zone of Zen | 4:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/0002V6mJ2PMUhe) | [▶️](https://youtube.com/watch?v=YtKjb-ofg9o) |
 
-## Shyheim (1首)
+## Sigur Rós (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | One's 4 Da Money | Shyheim A.K.A. The Rugged Child (Explicit) | 3:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/002RGvU00z3Ru4) | - |
-
-## Sister Nancy (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Bam Bam | One Two | 3:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/0000tt6w4032wa) | - |
+| 1 | All alright | Með suð í eyrum við spilum endalaust (Explicit) | 6:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/002NT5hI1DPoYx) | - |
+| 2 | Hoppípolla | Takk... | 4:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/004RnXKd3IPwSp) | - |
 
 ## Sleeping At Last (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2028,10 +2351,11 @@
 | 3 | Protagonist | Slowly Rolling Camera | 5:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/0010OXu827iwuk) | [▶️](https://youtube.com/watch?v=KK9VnYb7pIg) |
 | 4 | Rolling Clouds | Slowly Rolling Camera | 7:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/003dHtzV0qMa13) | - |
 
-## Snowing (1首)
+## Snarky Puppy (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | Sam Rudich | F**k Your Emotional Bullshit | 2:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/00039I7i3IN90v) | - |
+| 1 | Only Here and Nowhere Else | Somni | 6:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/0024W4RZ2nOlWV) | - |
+| 2 | Ready Wednesday | Tell Your Friends (Remixed & Remastered) | 9:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/001cdbRN4DHkVY) | - |
 
 ## SOIL&"P**P"SESSIONS (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2043,15 +2367,33 @@
 |---|------|------|------|--------|---------|
 | 1 | Pure Imagination (arr. piano) | Pure Imagination | 3:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ipzof0bSetW) | [▶️](https://youtube.com/watch?v=zM4khV8_yi8) |
 
-## SoulFa 灵魂沙发 (1首)
+## Sophie Zelmani (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Oh Dear | Sing And Dance | 7:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014DtAP21sJ4h) | - |
+
+## SoulFa 灵魂沙发 (11首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 沙发上的白日梦 | So Far | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001hJlfG2bLQfk) | - |
+| 2 | 牛 | SoulFa | 4:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/003vCynU2L2zmL) | - |
+| 3 | 留一盏灯给漫漫长夜 | Slumber Days | 3:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/001tV5DQ15mp15) | - |
+| 4 | R.U.M.O.R.S | SoulFa | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004DMfBH1JY7Md) | - |
+| 5 | 44 Seconds Road Movie | 44 Seconds Road Movie | 4:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/00125UMq2lLe90) | - |
+| 6 | Nobody Else | Slumber Days | 4:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/003TJ9Mq0PD1gL) | - |
+| 7 | Survivor | SoulFa | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/003FNIks1GOWAJ) | - |
+| 8 | Hear Hear | Hear Hear | 4:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/0012pVwA2RyBzy) | - |
+| 9 | I wonder | SoulFa | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/001gzJrR48V2ib) | - |
+| 10 | Rose and i. | Rose and i. | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/003GcP261K5Z1l) | - |
+| 11 | 80°F | SoulFa | 3:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/00166OaY3yHBOe) | - |
 
-## sow (1首 · YT:1)
+## sow (4首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 10th sentimen | Route of migratory | 5:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/001IfO1Y2pBPvg) | [▶️](https://youtube.com/watch?v=AMR0P_VyJYc) |
+| 2 | to growth, for growth | to growth, for growth (トゥー グロウス, フォー グロウス) | 5:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ZClKa2oDony) | - |
+| 3 | 4seasons | to growth, for growth (トゥー グロウス, フォー グロウス) | 5:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/004PSGRQ0ngypI) | - |
+| 4 | city (城市) | to growth, for growth (トゥー グロウス, フォー グロウス) | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/004K8SLj0OPp0H) | - |
 
 ## Sports (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2068,16 +2410,16 @@
 |---|------|------|------|--------|---------|
 | 1 | Breakfast in Bed | Breakfast in Bed | 2:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/002qIVN52Tm5YO) | [▶️](https://youtube.com/watch?v=0CGjL5Ph3SY) |
 
-## Stevie Ray Vaughan (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Come On, Pt.3 | Soul To Soul | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jiyQt155zHR) | - |
-
 ## STUTS (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Summer Situation | ALLSEASON EP. | 4:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/0030kLf23uNKKo) | - |
 | 2 | 0℃の日曜 | ALLSEASON EP. | 4:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/000xesJ6409CZE) | - |
+
+## Stwo (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Middle Of Things, Beautiful Wife | Middle Of Things, Beautiful Wife (Stwo Remix) | 3:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/002zReeT1yjdtm) | - |
 
 ## sucola (4首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2107,10 +2449,18 @@
 |---|------|------|------|--------|---------|
 | 1 | cream soda | スリーアウトチェンジ | 3:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/004NOaGg2w9Ybc) | - |
 
-## Surfaces (1首 · YT:1)
+## Surfaces (9首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | June | Pacifico (Deluxe) | 2:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/0041Ewzh1B0xbc) | [▶️](https://youtube.com/watch?v=RuuOk0wyQec) |
+| 2 | Come With Me | Pacifico | 3:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/002nS2jx3ZcSDi) | - |
+| 3 | Sunny Side Up | Horizons | 2:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/000TKHIW3g3AIj) | - |
+| 4 | So Far Away | So Far Away | 3:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/002AZNj61WylXA) | - |
+| 5 | C'est La Vie | C'est La Vie | 2:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/000D6RQ10aqz1s) | - |
+| 6 | All Around | Horizons | 3:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/0024rjOp3DOK6z) | - |
+| 7 | Good Day | Good Day | 3:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/0036ksEw4He4p8) | - |
+| 8 | With You | Pacifico | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001BWQ7r4Kxi83) | - |
+| 9 | Lazy | Lazy | 3:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/002Y5RPi3QxmZC) | - |
 
 ## Svaneborg Kardyb (10首 · YT:10)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2126,10 +2476,20 @@
 | 9 | Sommer | Haven | 3:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/0000L5mT0zgAEy) | [▶️](https://youtube.com/watch?v=0_dVYUZmc74) |
 | 10 | Til Eline | Haven | 3:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049unWD4IqAdC) | [▶️](https://youtube.com/watch?v=MQbt8hvoFIY) |
 
+## Sweet William (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | からかひ | からかひ | 4:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/000dU93h3T7HoN) | - |
+
 ## T-SQUARE (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Samurai metropolis | BLUE IN RED | 7:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/001q7WVy00oNtn) | - |
+
+## Ta-ku (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Love Again | Love Again | 5:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ssbpB2B5GSN) | - |
 
 ## Tai Verdes (3首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2179,20 +2539,10 @@
 |---|------|------|------|--------|---------|
 | 1 | Let's Be Still | Let's Be Still | 4:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/001y0CgH0VM1qa) | [▶️](https://youtube.com/watch?v=-rKpmzRdWrs) |
 
-## The Honey Drippers (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Impeach the President | Impeach the President | 3:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/003T1cyp2Lnbbr) | - |
-
 ## The Jesus And Mary Chain (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Just Like Honey | 21 Singles (Explicit) | 3:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/0033emxf0XMSba) | [▶️](https://youtube.com/watch?v=9LoSpJF_YxE) |
-
-## The Killers (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | boy | boy | 3:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/002PZiHJ0kGRBJ) | - |
 
 ## The Knocks (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2205,22 +2555,19 @@
 | 1 | Ophelia | Cleopatra (Deluxe) | 2:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/004KWxyl19oG2x) | [▶️](https://youtube.com/watch?v=pTOC_q0NLTk) |
 | 2 | Sleep On The Floor | Cleopatra (Deluxe) | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004LDhTz0u2mJW) | [▶️](https://youtube.com/watch?v=v4pi1LxuDHc) |
 
-## The Meters (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Chicken Strut | The Essentials: The Meters | 2:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jOlKF2r6plo) | [▶️](https://youtube.com/watch?v=GbEnHAqmyzg) |
-
 ## The Rolling Stones (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Honky Tonk Women | Through The Past, Darkly (Big Hits Vol. 2) | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003h3zxG3NOVvt) | [▶️](https://youtube.com/watch?v=3BKTxntVBEA) |
 
-## The Shanghai Restoration Project (3首 · YT:3)
+## The Shanghai Restoration Project (5首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Preface | Story of a City | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/004AZA8W14oEXi) | [▶️](https://youtube.com/watch?v=QS8vloNXEAI) |
 | 2 | Swelling Time | Sketchbook 94 | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/004ar1DP0Wxs4k) | [▶️](https://youtube.com/watch?v=sJMAGYV_dlw) |
 | 3 | Swimming in Purple Clouds | Sketchbook 94 | 4:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/004PjgwB2XKeUD) | [▶️](https://youtube.com/watch?v=n2DmorXScLY) |
+| 4 | Balcony Garden | Brave New World Symphony | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/003sFFuz3RdbHE) | - |
+| 5 | Involuntary Prophet | Brave New World Symphony | 6:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/003aTi2C14wkTU) | - |
 
 ## The Strokes (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2238,10 +2585,20 @@
 |---|------|------|------|--------|---------|
 | 1 | Summer Lovin' | Summer Lovin' | 4:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/002LPSzH3j4F4P) | [▶️](https://youtube.com/watch?v=CJZo6qwz3SM) |
 
+## The Weeknd (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Die For You | Starboy (Explicit) | 4:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/004BdL7I39jc0f) | - |
+
 ## THEY. (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | In The Mood | In The Mood (Explicit) | 4:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/004MduO90on8Y8) | - |
+
+## Tiko Tiko (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Devotion | Devotion | 3:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/000HCour3UAKz0) | - |
 
 ## Timmy Albert (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2253,10 +2610,11 @@
 |---|------|------|------|--------|---------|
 | 1 | Morning Dew | Emotion - Cello Journey | 3:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NaJgM4Bygbc) | [▶️](https://youtube.com/watch?v=YNiehbCmuH4) |
 
-## Tinashe (1首 · YT:1)
+## Tinashe (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Needs | Needs (Explicit) | 2:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/003SdPJL0wjXuE) | [▶️](https://youtube.com/watch?v=1RFLY62LrH0) |
+| 2 | Popstar | Popstar (Explicit) | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/000sGB2h2Pg607) | - |
 
 ## toconoma (13首 · YT:12)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2275,10 +2633,11 @@
 | 12 | Yellow Surf | TENT | 6:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Yr0lf42iGF6) | [▶️](https://youtube.com/watch?v=yayU0yoXg7s) |
 | 13 | Open World | Open World | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/003TwR2S1Mr4dC) | - |
 
-## Toe (1首 · YT:1)
+## Toe (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | レイテストナンバー | Our Latest Number | 5:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/000eNgNg1QWVlJ) | [▶️](https://youtube.com/watch?v=TfDSgr8g6YQ) |
+| 2 | Dual Harmonics | Our Latest Number | 3:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ycsrS2zwXzF) | - |
 
 ## Tollan Kim (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2297,15 +2656,15 @@
 |---|------|------|------|--------|---------|
 | 1 | Ariana | Ariana | 9:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/0021LXlM0ABeNP) | [▶️](https://youtube.com/watch?v=ciqRQJqfQBA) |
 
-## Toothpick (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Road Trip | Road Trip (Explicit) | 3:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/000HBs5L4ewRWO) | - |
-
 ## Tortoise (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Madison Area | A Lazarus Taxon | 3:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/000v3iuY30F41F) | [▶️](https://youtube.com/watch?v=OnjYL9gFgAM) |
+
+## TOSHIKI HAYASHI (%C) (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | TIME IS OVER | TIME IS OVER EP | 4:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/0013b8pW1azVXM) | - |
 
 ## Trevor Kowalski (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2322,11 +2681,10 @@
 |---|------|------|------|--------|---------|
 | 1 | Hate Yourself | French Exit | 3:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/003bim293q4qHu) | [▶️](https://youtube.com/watch?v=9d_4Dltgrsg) |
 
-## twenty one pilots (2首 · YT:1)
+## twenty one pilots (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Snap Back | Clancy | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/004gYJSJ3VOcun) | [▶️](https://youtube.com/watch?v=eZptwvjKjk4) |
-| 2 | Overcompensate | Clancy | 3:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/001x1DVg0vtreA) | - |
 
 ## Two Door Cinema Club (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2343,25 +2701,34 @@
 |---|------|------|------|--------|---------|
 | 1 | Darling, I | CHROMAKOPIA (Explicit) | 4:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/004June21cxORq) | [▶️](https://youtube.com/watch?v=kZfz5UlsHlQ) |
 
+## Tyler, The Creator (8首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Tomorrow (Explicit) | CHROMAKOPIA (Explicit) | 3:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/003DjSHR38HYzn) | - |
+| 2 | Boredom (Explicit) | Flower Boy (Explicit) | 5:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/00322yQS1Ggksr) | - |
+| 3 | I'll Take Care of You | DON'T TAP THE GLASS (Explicit) | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/002nDLoh3vhtOH) | - |
+| 4 | Fucking Young / Perfect | Cherry Bomb | 6:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/0010pxck2ZeZcM) | - |
+| 5 | Lights On | Music Inspired by Illumination & Dr. Seuss' The Grinch | 2:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/001JPVNS42ud4y) | - |
+| 6 | EARFQUAKE | IGOR (Explicit) | 3:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/002OX0SW2YWARF) | - |
+| 7 | BEST INTEREST | BEST INTEREST (Explicit) | 2:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/0013Lh5q41GAat) | - |
+| 8 | ARE WE STILL FRIENDS? | IGOR (Explicit) | 4:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/003uWLt22gqO9y) | - |
+
 ## U137 (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Pearl Lakes | Dreamer On The Run | 5:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ZNXtw2erSq2) | [▶️](https://youtube.com/watch?v=E20uu32sgfY) |
 
-## Uhsgnǒd (1首 · YT:1)
+## Uhsgnǒd (3首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 半空日落色 | 半空日落色 | 4:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/002Dtbtf3ZIb3Y) | [▶️](https://youtube.com/watch?v=AeOhfns1RFs) |
+| 2 | 宇宙尽头的餐馆 | 泳客 (Re：visions) | 5:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/0028POzV0tg0HW) | - |
+| 3 | 汐 | 泳客 (Re：visions) | 5:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/003MduOW3ZUmwz) | - |
 
 ## Unwrapped (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 21 Questions | Hidden Beach Recordings Presents: Unwrapped, Vol. 4 | 4:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/001MXd5d1RwQSc) | [▶️](https://youtube.com/watch?v=rxeovQYmTh8) |
-
-## US3 (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | Cantaloop [Flip Fantasia] | The Best of Blue Note | 4:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049QRwv3k6Py7) | - |
 
 ## Uyama Hiroto (3首 · YT:2)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2380,10 +2747,12 @@
 |---|------|------|------|--------|---------|
 | 1 | Driftless | The Rolling, Driftless North | 3:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ampuH1DuCNn) | [▶️](https://youtube.com/watch?v=nV3UTJSKtBE) |
 
-## Vaudlow (1首 · YT:1)
+## Vaudlow (3首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Cascade | A Language Unspoken | 3:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/004QB8hg0dT1OL) | [▶️](https://youtube.com/watch?v=jDfxfP1777Q) |
+| 2 | What You Want | A Language Unspoken | 4:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/002JMbyD132PhI) | - |
+| 3 | Purify | A Language Unspoken | 5:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/000xzJik2MtZnD) | - |
 
 ## Vaundy (4首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2398,10 +2767,15 @@
 |---|------|------|------|--------|---------|
 | 1 | Miller Time | Live in America | 10:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/000CaK1p3SZWcc) | - |
 
-## Vince Staples (1首)
+## vietra (6首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | Home | Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture) | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Qi5vH0Wh7Eu) | - |
+| 1 | ineedyou. | ineedyou. | 2:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/0022eXLX02qLMS) | - |
+| 2 | fly | fly | 1:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/002QEfLC1rOo2t) | - |
+| 3 | imsoalone | imsoalone | 2:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Yrjyo1ICqXr) | - |
+| 4 | foryou | foryou | 2:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/0005JIy72oTlhs) | - |
+| 5 | in love | in love | 1:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/003fWl0o4enoKk) | - |
+| 6 | tired | tired | 1:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/000LoSd13j6j01) | - |
 
 ## Violet Palms (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2423,15 +2797,21 @@
 |---|------|------|------|--------|---------|
 | 1 | Acceptance Speech - 8Track | 8Tracks, Vol. 3: Black Sheep | 2:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/003A0eJs30RZmw) | [▶️](https://youtube.com/watch?v=YC16ItZujcA) |
 
+## Warner Chappell Production Music (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Varnish Reflections | The Cello's Maple Waves | 2:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/0035IJHB1DHfS2) | - |
+
 ## Wildson (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | One on One |  | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/000stu0v1vkqek) | [▶️](https://youtube.com/watch?v=RynBgb7COYI) |
 
-## World's End Girlfriend (1首)
+## World's End Girlfriend (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 光を映す影 | 空気人形 | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/001NWvDc0F2K1p) | - |
+| 2 | Two of Us | Starry Starry Night | 5:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/004S0JwN284Du8) | - |
 
 ## Yard Nule (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2450,19 +2830,22 @@
 |---|------|------|------|--------|---------|
 | 1 | Morning Sunrise | Morning Matters (Explicit) | 5:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/000md38x29CEas) | [▶️](https://youtube.com/watch?v=ylHBdhYm-ZE) |
 
-## Ye (侃爷) (5首)
+## Ye (侃爷) (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Ghost Town | ye | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MPW5o3vrlG6) | - |
 | 2 | Gone | Late Registration | 5:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/003jU74h1iNPXR) | - |
 | 3 | Hey Mama | Late Registration (Explicit) | 5:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/003OINAS0HgM7w) | - |
-| 4 | Champion | Graduation (Explicit) | 2:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/004HkKpj0sineU) | - |
-| 5 | See Me Now | My Beautiful Dark Twisted Fantasy (Explicit) | 6:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/0004FrqT0P03HY) | - |
 
 ## YĪN YĪN (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Slow Burner | Yatta! | 3:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/0007VCE245Eyd0) | - |
+
+## yonawo (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | tokyo (feat. suzuki mamiko, Skaai) | tokyo (feat. suzuki mamiko, Skaai) | 5:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/002B8b1G0ZWbjQ) | - |
 
 ## Yosi Horikawa (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2508,6 +2891,11 @@
 | 7 | opus - in the C - | still glow | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/0048oazT3R5Wqi) | - |
 | 8 | bed side | still glow | 1:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/001HtKbT1DM1jU) | - |
 
+## zild (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Medisina | Medisina | 5:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Mdwp74V34Lm) | - |
+
 ## Где Фантом? (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -2522,16 +2910,6 @@
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | つくる | つくる | 3:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/000OIFD64emJT4) | [▶️](https://youtube.com/watch?v=vDbENR4v9Qc) |
-
-## ぼくのりりっくのぼうよみ (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 罠 featuring SOIL&"PIMP"SESSIONS | 罠 featuring SOIL&"PIMP"SESSIONS | 4:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/0018P1Jh2iyPgW) | - |
-
-## ぼっちぼろまる (1首)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 鎌倉STYLE | 鎌倉STYLE | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001TAL6s22uV92) | - |
 
 ## やけのはら (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2584,19 +2962,19 @@
 |---|------|------|------|--------|---------|
 | 1 | Seeker | Alive | 7:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/004LcEAa3hGLGq) | - |
 
-## 东京酒吐座 (3首)
+## 东京酒吐座 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Just Alright | crystallize (remastered) | 3:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/000QG2qS1R1Lke) | - |
 | 2 | Open Air | Turnaround | 4:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/001hDf0i32mWUJ) | - |
-| 3 | silent roar | japan shoegazer as only one | 4:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/004WQerW0cH7Em) | - |
 
-## 中村佳穂 (1首)
+## 中村佳穂 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | そのいのち | AINOU | 4:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/0034yS3x0effNA) | - |
+| 2 | さよならクレール | さよならクレール | 3:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/001cpNSI1zyl0Q) | - |
 
-## 中村遥 (37首 · YT:29)
+## 中村遥 (36首 · YT:29)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Faraway | Twilight | 8:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/002eUSDL2ytPqV) | - |
@@ -2634,18 +3012,17 @@
 | 33 | enzo | MELODICA | 1:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/001g30Qn0eqmUp) | [▶️](https://youtube.com/watch?v=8tyI-7qc2IY) |
 | 34 | days | MELODICA | 1:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/003WtNS01hE28v) | [▶️](https://youtube.com/watch?v=o_8Z4UrSDlk) |
 | 35 | soar | MELODICA | 4:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/002WPQKv0DK82h) | [▶️](https://youtube.com/watch?v=Y-R-lLAyQu8) |
-| 36 | AURORA | MELODICA | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/0009v77J2FUFvx) | - |
-| 37 | Lamp | MELODICA | 6:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jzOWo2xqSAK) | - |
+| 36 | Lamp | MELODICA | 6:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jzOWo2xqSAK) | - |
 
-## 九连真人 (1首)
+## 五月天 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | 莫欺少年穷 | 莫欺少年穷 | 5:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ff9iU2WFJQf) | - |
+| 1 | 拥抱 (2013新录制作品) | 步步 自选作品辑 the Best of 1999-2013 | 4:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/001sYeaM3Te8Ve) | - |
 
-## 凋叶棕 (1首)
+## 出海部 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | 狂言「九十九星降」 | 伝 | 3:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jSZ4v1SVuwj) | - |
+| 1 | 对不起做梦大王 | 0332 | 5:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/001FTzqH42zaB3) | - |
 
 ## 北村英治 (16首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2677,15 +3054,26 @@
 |---|------|------|------|--------|---------|
 | 1 | ON | 迷航 | 1:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/000zOh2y0t2Qb8) | - |
 
-## 吴卓玲 (1首 · YT:1)
+## 叶喜儿 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 谅解备忘录 (The Memo) | 惫忘录 (The Memorandum) | 3:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/003M1hf42mU5hq) | - |
+
+## 吴卓玲 (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Overcast | Overcast | 6:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/003D1uIB0zqMXf) | [▶️](https://youtube.com/watch?v=7Im2w1oH8T0) |
+| 2 | Another Shore | Another Shore | 7:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/001jXpn72EvZtq) | - |
 
 ## 唾奇 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Made my day | Jasmine (Explicit) | 4:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/00172DC822gIId) | - |
+
+## 囍浪 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 缓慢味 | 缓慢味 | 4:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/000usshm3WwLLs) | - |
 
 ## 坂本龙一 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2705,10 +3093,12 @@
 |---|------|------|------|--------|---------|
 | 1 | 明天你依旧在我身旁 | 乐队的夏天2 第6期 | 4:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/003u54g41pPMoD) | - |
 
-## 大象体操 (1首)
+## 大象体操 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 银河 (feat. 高雄市管乐团) (Galaxy) | 世界 (World) | 5:48 | [🔗](https://y.qq.com/n/ryqq/songDetail/002FQK9r3qrVQF) | - |
+| 2 | Finger (Audiotree Live Version) | Elephant Gym on Audiotree Live | 4:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/004ZJkPD4dUxIS) | - |
+| 3 | 羽毛 (feat. 坏特 ?te) (Feather) | 世界 (World) | 3:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/002RG06N0T9zK8) | - |
 
 ## 天声乐队 (2首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2721,7 +3111,7 @@
 |---|------|------|------|--------|---------|
 | 1 | One more time, One more chance | 劇場映画「秒速5センチメートル」-Soundtracks | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/001RvSi60a5xaa) | - |
 
-## 孙燕姿 (5首)
+## 孙燕姿 (14首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Sweet Child O' Mine | 彩虹金刚 | 4:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/004RjKlW1MYcwk) | - |
@@ -2729,11 +3119,40 @@
 | 3 | 祝你开心 | Stefanie | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/001ApxMS0O2X0f) | - |
 | 4 | 种 | Stefanie | 4:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/000sPOPw1FgNDK) | - |
 | 5 | 年轻无极限 | 未完成 | 5:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Pbu1f0J7h6S) | - |
+| 6 | 梦游 | 逆光 | 3:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/003EKTkP016WaS) | - |
+| 7 | Honey Honey | 完美的一天 | 4:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/004aWZbE0cNWqG) | - |
+| 8 | 180度 | 是时候 | 5:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/001SfavE35orJR) | - |
+| 9 | 我怀念的 | 逆光 | 4:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/000BO3xy4fd8BJ) | - |
+| 10 | 银泰 | 克卜勒 | 4:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Tzowd3jxc4U) | - |
+| 11 | 我要的幸福 | 我要的幸福 | 3:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/000zD4ew1qBo82) | - |
+| 12 | 遇见 | The Moment | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/001xJbdb2MBaaz) | - |
+| 13 | 不同 | Leave | 3:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/001gXbnt1lETLJ) | - |
+| 14 | 一样的夏天 | Leave | 3:58 | [🔗](https://y.qq.com/n/ryqq/songDetail/001I4Ttn3qLWu5) | - |
 
 ## 宇宙コンビニ (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 8films | 染まる音を確認したら | 2:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/0037tbI82CO0jZ) | - |
+
+## 宇宙人 (11首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 浪费一整天 | 地球漫步 | 3:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/0021DfBb0ork24) | - |
+| 2 | 两人舞 | 右脑 | 4:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/002QcK7H0PM1jb) | - |
+| 3 | 不简单 | 不简单 | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/0035yqBp1lhVtZ) | - |
+| 4 | 无所事事 | 理想状态 | 5:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/001daVHr4QPiwA) | - |
+| 5 | 心向夏天 | 右脑 | 3:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/004CLghd1I9uBK) | - |
+| 6 | 蓝色的你 | 蓝色的你 | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/000oW60e4OTCxd) | - |
+| 7 | 一万小时 | 一万小时 | 5:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049zSIN15vTkZ) | - |
+| 8 | 两人雨天 | 一万小时 | 4:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/000ICYHO2drsye) | - |
+| 9 | 好野 | 理想状态 | 4:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/0029THp44clzl7) | - |
+| 10 | 那你呢 | 一万小时 | 4:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/003zbe2g2eKveF) | - |
+| 11 | 理想状态 | 理想状态 | 3:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/0030BbO44SNf65) | - |
+
+## 安佐里 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | アイ・ウィッシュ・ユー・ラヴ | ムーン・ダンス | 4:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/003M9SnS2HTmjW) | - |
 
 ## 小林香織 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2778,20 +3197,26 @@
 |---|------|------|------|--------|---------|
 | 1 | Sémillon | 不打烊的小酒馆 贰 | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/001nxeR53eekRp) | - |
 
-## 岛屿心情 (1首)
+## 岛屿心情 (6首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 热气球 | 小龙人 | 5:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/002EtqgT2oEyBZ) | - |
+| 2 | 蝼蚁 | ?1 | 5:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/001FcU6Y272VGE) | - |
+| 3 | 没有颜色的答案 | 小龙人 | 5:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/001bbfcT2Z9l3k) | - |
+| 4 | 影子 | ?1 | 4:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/002YyRM40cZ51T) | - |
+| 5 | 阿呆 | ？2 | 4:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/002bpw1K4dux8J) | - |
+| 6 | 玩具 | 纷纭 | 4:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/004LrVlR197AFB) | - |
 
 ## 嵐 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 5×10 | 5×10 All the BEST! 1999-2009 | 5:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/001pn5pl0ocFRu) | - |
 
-## 巧克力工厂 (1首)
+## 巧克力工厂 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 亲吻你的行星 (Kiss Your Planet) | 亲吻你的行星 | 4:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ZFB4X2c2p3g) | - |
+| 2 | It’s time for you | 孤单的泳池派对 | 5:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/000l58Wh1cinVC) | - |
 
 ## 平沢進 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2803,12 +3228,38 @@
 |---|------|------|------|--------|---------|
 | 1 | Beautiful Woman | 城市 | 4:29 | [🔗](https://y.qq.com/n/ryqq/songDetail/001T13Gu43Ufnu) | - |
 
-## 惘闻 (3首)
+## 张震岳 (6首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 破吉他 | 我是海雅谷慕 | 3:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/000J3Wc20ssHpI) | - |
+| 2 | 我会想念你 | 阿岳正传 | 5:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/0026nUBU1pOAF2) | - |
+| 3 | 小宇 | OK | 3:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/000VPWYA0RaRqq) | - |
+| 4 | 思念是一种病 | 中国新说唱2019 第10期 | 4:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/003dKmfv0gJ2h2) | - |
+| 5 | 思念是一种病 | OK | 4:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ilXfl3EWxcV) | - |
+| 6 | 没人爱俱乐部 | 我想要的感觉 | 2:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/001FIxjV4ANdZB) | - |
+
+## 恐龙的皮 The Dinosaur's Skin (2首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | If I Say I Love You | If I Say I Love You | 3:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/00073hOK283QII) | - |
+| 2 | Millions of Years Apart (feat. MANDARK) | Millions of Years Apart | 3:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/002duDwG2PwubO) | - |
+
+## 惊奇海洋（Marvel ocean） (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 5 | Neo song | 5:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/0024cFoZ3XRS2f) | - |
+
+## 惘闻 (8首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Rust inside | IV | 8:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/001edrrD1WZDDl) | - |
 | 2 | 水之湄 | 看不见的城市 | 6:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/001W3PzG2zIMBk) | - |
 | 3 | 醉忘川 | 十万个为什么 | 8:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/002HkoOT1quSzf) | - |
+| 4 | 抿嘴谣 | IV | 7:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/001xszNF0cvdvO) | - |
+| 5 | 污水塘 Polluted Pond (Live) | 昨日的聚会——惘闻25周年纪念现场Live合辑 All Yesterday's Parties (Wang Wen 25th Anniversary Live Collection) | 6:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/001fSEVh3xrTJP) | - |
+| 6 | Welcome to Utopia | 八匹马 | 9:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/0001lCI72yXQ4F) | - |
+| 7 | Rain Watcher | 0.7 | 5:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/0008P9ux0TC3ho) | - |
+| 8 | Lonely God | 0.7 | 9:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/003YDLNN4EIffX) | - |
 
 ## 押尾光太郎 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2820,33 +3271,46 @@
 |---|------|------|------|--------|---------|
 | 1 | 点绛唇 | 拜金小姐 2005 | 3:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/0033viuX0rxuw1) | - |
 
-## 文雀 (3首 · YT:3)
+## 文雀 (7首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Diamond Cut | Diamond Cut | 4:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/002dKeV033UOvU) | [▶️](https://youtube.com/watch?v=M0DJQws7uAQ) |
 | 2 | 南方 | 看风景的人 | 5:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/0029bARE21ML6j) | [▶️](https://youtube.com/watch?v=vsnJG3BEPTY) |
 | 3 | 神游夜话 | 神游夜话 | 6:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/0004sVx62fZsQj) | [▶️](https://youtube.com/watch?v=aPZ1rdsFzZE) |
-
-## 新裤子 (1首 · YT:1)
-| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
-|---|------|------|------|--------|---------|
-| 1 | 我爱你 | Disco Girl | 3:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/0028oSch1E2ChN) | [▶️](https://youtube.com/watch?v=qDS7oqrptc4) |
+| 4 | Double | 廟雨連珠 | 4:28 | [🔗](https://y.qq.com/n/ryqq/songDetail/003a8oi60gTRb9) | - |
+| 5 | 浮生若梦 | 廟雨連珠 | 7:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/001W1XJR49YEON) | - |
+| 6 | 一个人的快乐 | 廟雨連珠 | 5:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Hp3h12kfMvU) | - |
+| 7 | 寒心寺 | 彩虹山 | 6:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/002OSPum4c1ZsU) | - |
 
 ## 昆虫白 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 晕船的太空人 | 晕船的太空人 | 6:14 | [🔗](https://y.qq.com/n/ryqq/songDetail/0012t5Ex1rYW72) | - |
 
-## 晨曦光廊 (1首)
+## 晨曦光廊 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 光合作用 | 60km/h | 9:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/002tkktz4XAt1S) | - |
+| 2 | 60km/h | 60km/h | 7:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/0004rSqn1xwy70) | - |
 
-## 朴树 (2首)
+## 景德镇文艺复兴 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 满世 完结篇 | 满世 景德镇 | 5:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/000CNsZ20gAfcx) | - |
+
+## 曾柯淳 (3首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 太阳睡着了 (Demo) | Nefelibata 2 | 2:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/001uOGeQ2rZTPy) | - |
+| 2 | 枕头下的宇宙 | Nefelibata 2 | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003U4RLy1lRrzq) | - |
+| 3 | 一只死在春天的猫 | Nefelibata 2 | 2:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/004RnRy44FJO96) | - |
+
+## 朴树 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 召唤 | 我去2000年 | 5:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000RMp580QOCBV) | - |
 | 2 | NEW BOY | 我去2000年 | 3:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ic6jw1iwaBn) | - |
+| 3 | The Fear In My Heart | 猎户星座 | 6:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/000AvO4C4BeGbA) | - |
 
 ## 李闰珉 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2854,20 +3318,53 @@
 | 1 | b l ū - the blue between | b l ū - the blue between | 3:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003xntsb1q7guG) | - |
 | 2 | non è la fine | non è la fine | 4:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/004QJ7xe4FMbnN) | - |
 
-## 杨乃文 (1首)
+## 杨乃文 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Flow feat. Sunset Rollercoaster 落日飞车 | Flow | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/003KDs6p0Mctpz) | - |
+| 2 | Don't Mind Me feat. Crispy脆乐团 | Flow | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/003dNf1M2Boo0K) | - |
+| 3 | 不再 feat. 许钧 | 越美丽越看不见 | 6:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/001n0ZGX1DFuoB) | - |
+
+## 林忆莲 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 大好きな人生 | Open Up | 5:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/003YjTL42AQzNo) | - |
 
 ## 柏大輔 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | airport | program music II | 8:25 | [🔗](https://y.qq.com/n/ryqq/songDetail/000N6Kpg3JHeei) | - |
 
+## 梁博 (2首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 出现又离开 (Live) | 昼夜本色 第二季 | 7:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/0046RnQs2tSuVb) | - |
+| 2 | 黑夜中 (Live) | 昼夜本色 第二季 | 8:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/000zj5ZP3SgtgB) | - |
+
 ## 森水垚 (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 海边的曼彻斯特 | 治疗师Vol.6 | 3:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/003SIa8W0Su7m1) | [▶️](https://youtube.com/watch?v=s2RdDsTm0rc) |
+
+## 椅子乐团 The Chairs (16首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 幸存者 | 幸存者 | 3:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/000SOyer1d47h2) | - |
+| 2 | Sparklers In The Rain | The Great Escape Of Our Time | 4:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/004LDQ9a1E9IxH) | - |
+| 3 | 日常的镜头 | LOVELY SUNDAY | 4:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/0013rOTn0MlLu2) | - |
+| 4 | 树屋 | Real Love Is... | 3:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Ruzp13WbdUP) | - |
+| 5 | Maybe Maybe | Maybe Maybe | 3:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/003HbULt3PNvyI) | - |
+| 6 | Dreaming With You | Lemonade | 3:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/00274d6N1yo41u) | - |
+| 7 | Archie's Funeral | Archie's Funeral | 2:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/000MPjlp063Dgw) | - |
+| 8 | 进入下一层新的梦之前 | Shangri-La Is Calling | 2:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/003DOYuB12AScg) | - |
+| 9 | The Great Escape Of Our Time | The Great Escape Of Our Time | 3:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/001q9bHH3J1zFh) | - |
+| 10 | 风景 | Cheers!Land | 6:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/0042tAkF1k2Nji) | - |
+| 11 | 给 来自月球的L | Real Love Is... | 3:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/000yINPY10BFeP) | - |
+| 12 | 夏日最美的三十张拍立得相片 | 夏日最美的三十张拍立得相片 | 3:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/00368Hs82kwOia) | - |
+| 13 | 岛 | Cheers!Land | 4:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/000VjWHG34Xsuk) | - |
+| 14 | 城市潜水 | 城市潜水 | 3:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004IIRyP25kG3F) | - |
+| 15 | 后山舞曲 | Cheers!Land | 3:21 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ahqWI3x0nD2) | - |
+| 16 | Paradise... How Far? | Paradise... How Far? | 4:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/000p2ckA3glPhP) | - |
 
 ## 椎名林檎 (3首 · YT:3)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2875,21 +3372,40 @@
 | 1 | APPLE | 浮き名 | 3:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/001GQ6wt384CKt) | [▶️](https://youtube.com/watch?v=XpXgMW9mE5I) |
 | 2 | 丸ノ内サディスティック | 三文ゴシップ | 2:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003tLzbv0wmm8o) | [▶️](https://youtube.com/watch?v=4tlUwgtgdZA) |
 | 3 | 眩暈 | ここでキスして。 | 4:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/000B56f902p5Vj) | [▶️](https://youtube.com/watch?v=SyXV6VsrxWM) |
+| 4 | 殺し屋危機一髪 | 浮き名 | 2:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/001eGjo12otIm5) | - |
+| 5 | 紅海月の夜 | 人間として | 3:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/001D0nTV2iBIj5) | - |
+| 6 | i wanna be loved by you | 唄ひ手冥利 ～其ノ壱～ | 1:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/0006UqLs2sXHBg) | - |
+| 7 | IT WAS YOU | 浮き名 | 3:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ZBkM84EUFqx) | - |
+| 8 | 丸ノ内サディスティック | 無罪モラトリアム | 3:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/000xLw2D0E5Xjm) | - |
 
-## 水中スピカ (1首)
+## 沉默橙 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | MIYAKO | MIYAKO | 5:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004LMRgO42vmG7) | - |
+| 1 | 如梦重叠 | 梦游小憩 | 3:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/0008E2he3dUseC) | - |
 
 ## 沼泽乐队 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | 如果我失去了青春 | 如果我失去了青春 | 7:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/0025oZ351kzLu2) | - |
+| 1 | 失梦客 | 远 | 9:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/003aLpPN2fsNn1) | - |
+
+## 浅堤 (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 月光 | 不完整的村庄 | 3:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/0008vHqS43vS08) | - |
+| 2 | 我变了 | 好不容易我变了 | 2:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/0031PPPX2OTino) | - |
+| 3 | 好不容易 | 好不容易我变了 | 4:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/0037W3UE3f9w3y) | - |
+| 4 | 恒春花絮 | 婚礼之途 | 3:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/003YQybB2dZ4Mz) | - |
+| 5 | 礼物 | 婚礼之途 | 5:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/000c6CTs30ecVY) | - |
 
 ## 渡边贞夫 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Fire Fly | Rendezvous | 5:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/001QLzwK2zSpmz) | - |
+
+## 湯川潮音 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Storytelling | Starry Starry Night | 5:59 | [🔗](https://y.qq.com/n/ryqq/songDetail/003gaenC4WfeMN) | - |
 
 ## 澤野弘之 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2906,23 +3422,66 @@
 |---|------|------|------|--------|---------|
 | 1 | 时间回到秋天的下午 | 时间回到秋天的下午 | 4:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/000PFi7O2pxmSj) | - |
 
-## 琥珀乐队 (3首)
+## 现象师 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 云男 | 现象师 | 7:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ofB9D3ZLdlB) | - |
+
+## 琥珀 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 初 寒武 | 初 寒武 | 9:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ELhCg26xEdo) | - |
+
+## 琥珀乐队 (5首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 无意义的逃生不如歌唱 | 半平零三 | 7:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/000adBhd4SKCte) | - |
 | 2 | 阴转晴 | 宿醉之星 | 8:10 | [🔗](https://y.qq.com/n/ryqq/songDetail/00260sXv1K2vx6) | - |
 | 3 | 鹭屿 | 不歌唱 | 8:02 | [🔗](https://y.qq.com/n/ryqq/songDetail/001yPgcn3STB0R) | - |
+| 4 | 心中潮汐 | 心中潮汐 | 7:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/004dyusG23Cznh) | - |
+| 5 | 宿醉之星 | 琥珀 2nd Show | 7:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/0031mOVe3NEc5g) | - |
 
-## 甜梅号 (2首)
+## 甜梅号 (7首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | long martian trek | 是不是该谢谢你提醒我少了什么 | 5:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/000J69O20cYHDb) | - |
 | 2 | 体育 | 是不是少了什么 | 5:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/000xc7qx0ZuJQP) | - |
+| 3 | 站在太阳上 (Feet on the Sun) | 脑海群岛 | 7:54 | [🔗](https://y.qq.com/n/ryqq/songDetail/0037uaNi3f448N) | - |
+| 4 | 金玉良田 (Farms we used to cherish) | 金光之乡 | 12:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/004cHAAD2sv59s) | - |
+| 5 | 月娘总是照着我们 (Luna keeps an eye on every soul) | 金光之乡 | 12:32 | [🔗](https://y.qq.com/n/ryqq/songDetail/000R53G94DatTG) | - |
+| 6 | 一个人的永远 (Inst.) |  | 5:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/003DIjfz3r8ejJ) | - |
+| 7 | 南方蝶道 (Southern Butterfly Path) | 谢谢你提醒我 | 9:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/0028w8qh33PEbF) | - |
+
+## 痛仰乐队 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Rosemary | 过海 | 7:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/003H2wp53LOyj8) | - |
 
 ## 知浦伸司 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 和谐频率 | 平衡空间．奇迹音频疗愈 | 7:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/000wTvRi0NDbWq) | - |
+
+## 短跑小说 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 秘密爱人 - Steal love | 贫穷险中求 | 5:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/0046itwD3abzOM) | - |
+
+## 碎叠 (2首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 我独自过冬 | 朝往暮归 (There and Back Again) | 5:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Causn0xHMoT) | - |
+| 2 | 秋天降落 | 朝往暮归 (There and Back Again) | 6:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Ieejp1qL4s2) | - |
+
+## 福原美穂 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 绝え间なく | 未来-ミライ-/もしかして | 5:22 | [🔗](https://y.qq.com/n/ryqq/songDetail/003g41Ez0WmJNh) | - |
+
+## 稲垣次郎とソウル・メディア (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | ブリーズ | ファンキー・スタッフ | 4:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/003bMpC408RBLE) | - |
 
 ## 窦唯 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2939,7 +3498,12 @@
 |---|------|------|------|--------|---------|
 | 1 | 公路 | 北上列车 | 3:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/003crifO3O5IxC) | - |
 
-## 羊文学 (5首)
+## 绿橄榄 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 妳的烟熏到我没关系 | 2017.2 demo | 6:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/0026KSWG4SDs5B) | - |
+
+## 羊文学 (13首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Step | トンネルを抜けたら | 5:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ksCiR3KCvgT) | - |
@@ -2947,17 +3511,31 @@
 | 3 | ロマンス | ロマンス | 3:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/001tYInb2PUxT6) | - |
 | 4 | 夕凪 | ざわめき | 5:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/001PSEvr3fGPwu) | - |
 | 5 | 金色 | our hope | 4:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/003q0Ol72JP40X) | - |
+| 6 | more than words | more than words | 4:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014AXGx1Sp8aH) | - |
+| 7 | Blue.2 | トンネルを抜けたら | 5:44 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Wj9cd24piV4) | - |
+| 8 | hopi | our hope | 4:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/001KuATU2C1SLW) | - |
+| 9 | 光るとき | 光るとき | 5:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/002sHYGx2Ba6Bc) | - |
+| 10 | 優しさについて | きらめき | 4:12 | [🔗](https://y.qq.com/n/ryqq/songDetail/000WIHk34f2cxD) | - |
+| 11 | Burning | Burning | 3:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/001kSOtF0aLqPA) | - |
+| 12 | OOPARTS | OOPARTS | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/002WLW5x2kIPDG) | - |
+| 13 | GO!!! | GO!!! | 3:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/003Y3fCY4EquXQ) | - |
 
 ## 羊毛とおはな (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Don't Look Back In Anger | LIVE IN LIVING '09 | 4:55 | [🔗](https://y.qq.com/n/ryqq/songDetail/001By7Vt3CGYpK) | [▶️](https://youtube.com/watch?v=ASjN0QtBUz8) |
 
-## 花伦 (2首)
+## 肖骏 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | Surfing Rock | Atypical Airship | 3:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ep8yZ1z4efX) | - |
+
+## 花伦 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 大象 | 大象席地而坐 | 4:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/000U3p5432jPnC) | - |
 | 2 | 穿过火焰 | 大象席地而坐 | 2:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/0048E3sy3D8Svy) | - |
+| 3 | 穿过冰面 | 大象席地而坐 | 5:43 | [🔗](https://y.qq.com/n/ryqq/songDetail/000X16Yk2BC53v) | - |
 
 ## 花招 (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -2974,6 +3552,14 @@
 |---|------|------|------|--------|---------|
 | 1 | In Circles (feat. Tennyson) | Sessions: Vi | 3:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/000kHhMj2B3rvI) | - |
 
+## 荒山茉莉 (4首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 重生总在夕阳时 | 水没之都 | 6:52 | [🔗](https://y.qq.com/n/ryqq/songDetail/000AfObd05CAd7) | - |
+| 2 | 迂回的海 | 水没之都 | 6:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/002eRgVQ4eLv54) | - |
+| 3 | 漫漫 | 朔 | 6:18 | [🔗](https://y.qq.com/n/ryqq/songDetail/0048Jn2W1VALEr) | - |
+| 4 | 水没之都 | 水没之都 | 7:01 | [🔗](https://y.qq.com/n/ryqq/songDetail/001gbXuW0syTgn) | - |
+
 ## 菅野祐悟 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
@@ -2989,15 +3575,28 @@
 |---|------|------|------|--------|---------|
 | 1 | 逃 | 直立行走 | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/002JPySg1CvZIA) | - |
 
+## 藤井风 (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | ガーデン | LOVE ALL SERVE ALL | 3:49 | [🔗](https://y.qq.com/n/ryqq/songDetail/004IYjrI1S3U8r) | - |
+| 2 | Close to you | 何なんw EP | 3:38 | [🔗](https://y.qq.com/n/ryqq/songDetail/004PNj7W3P4nX3) | - |
+| 3 | 花 | 花 | 4:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/002mdBXj3BYeJz) | - |
+| 4 | Sunny | へでもねーよ EP | 3:08 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049JqVu3Fvmpj) | - |
+| 5 | Just the Two of Us | へでもねーよ EP | 3:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/002JSp8536Ra4c) | - |
+
 ## 蛙池 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 送你匕首 | 蛙池 2020-2021 | 4:05 | [🔗](https://y.qq.com/n/ryqq/songDetail/001OQBm730Pck8) | - |
 
-## 表情银行 (1首)
+## 表情银行 (5首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 启明星 (Phospherus) | 嘿！岛 (Black Island) | 6:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/000z56zv0x0WHI) | - |
+| 2 | 安全降落 | 安全降落（Safe Landing） | 5:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ctGMN0hsNmb) | - |
+| 3 | 小男孩 | 小男孩（Little Chinese Boy） | 4:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/000BzIpH1FTNrZ) | - |
+| 4 | Felix | 乒乓 | 5:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/0018SFFk2R8tgv) | - |
+| 5 | 苍蝇为什么要搓手 | 苍蝇为什么要搓手 | 4:36 | [🔗](https://y.qq.com/n/ryqq/songDetail/0044FgvG1zPAma) | - |
 
 ## 西原健一郎 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -3011,27 +3610,50 @@
 |---|------|------|------|--------|---------|
 | 1 | Gnomes' Campfire Dance Ritual at Dawn | In the Cave | 1:19 | [🔗](https://y.qq.com/n/ryqq/songDetail/001GZWug22bVQL) | - |
 
-## 许钧 (1首)
+## 许钧 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 乱来 | 万松岭 | 4:31 | [🔗](https://y.qq.com/n/ryqq/songDetail/004NdfcT2OwLBY) | - |
+| 2 | 筛子浪 Seaman's Diary | 期待集 OPEN IT | 5:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/003BhLbV0gunrC) | - |
+| 3 | 问题 | 美梦公司 | 5:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/0014diHF1G0DBX) | - |
+| 4 | 如果太阳落下 | 美梦公司 | 3:35 | [🔗](https://y.qq.com/n/ryqq/songDetail/002fEQJL0N0Kbj) | - |
+| 5 | 只有一个办法 | 美梦公司 | 1:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/002MHVtb1rNWgi) | - |
+| 6 | 29 | 29 | 6:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/004Nt4rq0splVF) | - |
 
-## 超级市场 (3首 · YT:1)
+## 超级市场 (5首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | M1 | Blackeclipse墨蚀 | 6:40 | [🔗](https://y.qq.com/n/ryqq/songDetail/004NconT3N8EKD) | - |
 | 2 | 六七八 | 5689 | 5:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/002ITtQI3t33ah) | - |
 | 3 | 我 | 有限无限 | 6:24 | [🔗](https://y.qq.com/n/ryqq/songDetail/0039Wfzs02rtu6) | [▶️](https://youtube.com/watch?v=kDIOG7_r_xI) |
+| 4 | 拾荒者 | 5689 | 4:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/001FAcNJ2Qasvh) | - |
+| 5 | 恐怖的房子 | 音乐会 | 7:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/000fbEhM2vgdOE) | - |
 
-## 路壹Lu1 (1首)
+## 逃跑计划 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
-| 1 | 焦点 / Highlight | 午夜列车上的告别 | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001HTyCF3ZTpHs) | - |
+| 1 | 重来 | 重来 | 5:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/003G0sVN0lWqid) | - |
 
 ## 郎朗 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Hungarian Rhapsody No. 2 in C-Sharp Minor, S. 244 | The Best & Rarities (Asia) | 9:07 | [🔗](https://y.qq.com/n/ryqq/songDetail/003gOw9r392aWb) | - |
+
+## 郑宜农 (7首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 贼 | 给天王星 (Explicit) | 4:20 | [🔗](https://y.qq.com/n/ryqq/songDetail/001Dqwem0PD8nd) | - |
+| 2 | 金黄色的 | 金黄色的 | 4:45 | [🔗](https://y.qq.com/n/ryqq/songDetail/002mpF6I3zDNyp) | - |
+| 3 | 太阳 | 海王星 | 3:13 | [🔗](https://y.qq.com/n/ryqq/songDetail/000Uh9kP1DHzAc) | - |
+| 4 | 做风台 | 水逆 | 3:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/003XDtQV2qHvpM) | - |
+| 5 | 人如何学会语言 | 水逆 | 5:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/001BlQQO1s2ZPU) | - |
+| 6 | 深深地 | 给天王星 (Explicit) | 4:23 | [🔗](https://y.qq.com/n/ryqq/songDetail/002tC9D64WkbX6) | - |
+| 7 | 最好的距离 | 水逆 | 4:06 | [🔗](https://y.qq.com/n/ryqq/songDetail/003TawFd2DTXPS) | - |
+
+## 重组乐队 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 晚霞的声音 | take2 | 5:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/003LQGBX43UaLB) | - |
 
 ## 重返袖珍时光 (2首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -3039,11 +3661,29 @@
 | 1 | Leave Me Alone | The Southern Side of The Mountain | 5:57 | [🔗](https://y.qq.com/n/ryqq/songDetail/003IBe5N0Kt1pY) | - |
 | 2 | 清秋 Late in the autumn | sunlight&moonlight | 3:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/000U0Flb4GMFHe) | - |
 
-## 铃木真海子 (2首)
+## 野岸刊 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 时过境迁feat.罗小黑 | 树影下流动的时间 | 8:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/001U5wNn266GDq) | - |
+
+## 铃木真海子 (3首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | Lazy river | Lazy river | 4:00 | [🔗](https://y.qq.com/n/ryqq/songDetail/000hPvJ00kV0lE) | - |
 | 2 | どっかの土曜日 | ms | 3:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/002fabwQ2tJNbu) | - |
+| 3 | kimochi | kimochi | 4:16 | [🔗](https://y.qq.com/n/ryqq/songDetail/001FigFM2goAOg) | - |
+| 4 | Lily feat. Rachel | Deep Green | 2:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/000LMNG21Zhnru) | - |
+| 5 | じゃむ(feat. iri) | ms | 4:50 | [🔗](https://y.qq.com/n/ryqq/songDetail/003zDUIn0e5cNT) | - |
+| 6 | Contact (Toshiki Hayashi (%C) Remix) | Deep Green | 2:53 | [🔗](https://y.qq.com/n/ryqq/songDetail/0019bDbh1WcWs5) | - |
+
+## 陈奕迅 (0首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 可一可再 | L.O.V.E. | 4:47 | [🔗](https://y.qq.com/n/ryqq/songDetail/003cN4kC3hK8QC) | - |
+| 2 | 疯狂的朋友 | L.O.V.E. | 3:56 | [🔗](https://y.qq.com/n/ryqq/songDetail/003trXaC48bskK) | - |
+| 3 | 娱乐天空 | rice & shine | 6:03 | [🔗](https://y.qq.com/n/ryqq/songDetail/000jDQWP4JiB3y) | - |
+| 4 | 积木 | ? | 4:17 | [🔗](https://y.qq.com/n/ryqq/songDetail/00230iSl1e4dVG) | - |
+| 5 | 吟游诗人 | ? | 4:46 | [🔗](https://y.qq.com/n/ryqq/songDetail/000bsqVZ2rdpuk) | - |
 
 ## 陈文非 (1首 · YT:1)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
@@ -3067,7 +3707,7 @@
 |---|------|------|------|--------|---------|
 | 1 | あの日のままのぼくら | TVアニメ『この素晴らしい世界に祝福を！3』エンディング・テーマ「あの日のままのぼくら」 | 3:11 | [🔗](https://y.qq.com/n/ryqq/songDetail/002cO90C3RuTSi) | - |
 
-## 青葉市子 (20首)
+## 青葉市子 (22首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | iam POD (0%) | 0 | 5:33 | [🔗](https://y.qq.com/n/ryqq/songDetail/0049u22W3RH5uq) | - |
@@ -3090,18 +3730,30 @@
 | 18 | 氷の鳥 | マホロボシヤ | 2:27 | [🔗](https://y.qq.com/n/ryqq/songDetail/001LgoxA1tVBuX) | - |
 | 19 | 神様のたくらみ | マホロボシヤ | 3:26 | [🔗](https://y.qq.com/n/ryqq/songDetail/003UXQSv0OiIBc) | - |
 | 20 | 鬼ヶ島 | マホロボシヤ | 2:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/001cbdt22DUrUu) | - |
+| 21 | 悲しみのラッキースター | ラヂヲ | 2:37 | [🔗](https://y.qq.com/n/ryqq/songDetail/000JsTfy2GCHon) | - |
+| 22 | Dawn in the Adan - roots ver. | Windswept Adan roots | 5:42 | [🔗](https://y.qq.com/n/ryqq/songDetail/000QKVvB2EXuCx) | - |
+
+## 顾忠山 (1首)
+| # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
+|---|------|------|------|--------|---------|
+| 1 | 绝招 | PROPER UP!正 | 7:41 | [🔗](https://y.qq.com/n/ryqq/songDetail/002tulXL1GCjhC) | - |
 
 ## 鬼否 (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 三下五除二 | 通用计算 | 3:30 | [🔗](https://y.qq.com/n/ryqq/songDetail/003WOB3O0YqxSG) | - |
 
-## 鲸鱼马戏团 (3首)
+## 鲸鱼马戏团 (8首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |
 |---|------|------|------|--------|---------|
 | 1 | 最初的爱情 (The Love Story) | 鲸鱼马戏团VOL.7 索拉里斯Solareti——时间与永恒 About Time And Eternity | 3:04 | [🔗](https://y.qq.com/n/ryqq/songDetail/000F8aV32nHJxf) | - |
 | 2 | 有时候 | 鲸鱼马戏团VOL.1 | 3:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/001He8N20yipDD) | - |
 | 3 | 落雨 | 鲸鱼马戏团VOL.1 | 4:09 | [🔗](https://y.qq.com/n/ryqq/songDetail/0003AT4M14g9re) | - |
+| 4 | 危险之旅 (A Dangerous Journey) | 鲸鱼马戏团VOL.7 索拉里斯Solareti——时间与永恒 About Time And Eternity | 5:39 | [🔗](https://y.qq.com/n/ryqq/songDetail/0013cpd92A3j1k) | - |
+| 5 | 废墟 | 鲸鱼马戏团 Vol.3 梦 | 5:51 | [🔗](https://y.qq.com/n/ryqq/songDetail/002eMECw1CE5vn) | - |
+| 6 | 艾维尼翁 | 鲸鱼马戏团 Vol.2 Whisper | 3:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/001vA3Ul3j8pZ0) | - |
+| 7 | 新世界进化论 (Neo-evolution) | 鲸鱼马戏团VOL.7 索拉里斯Solareti——时间与永恒 About Time And Eternity | 7:34 | [🔗](https://y.qq.com/n/ryqq/songDetail/004BC0eL3jhZa8) | - |
+| 8 | 乌托邦？神经网络的世界 (A Utopia? The World Of Neural Networks) | 鲸鱼马戏团VOL.7 索拉里斯Solareti——时间与永恒 About Time And Eternity | 6:15 | [🔗](https://y.qq.com/n/ryqq/songDetail/003ezzJd4MptHZ) | - |
 
 ## 鹤The Crane (1首)
 | # | 歌曲 | 专辑 | 时长 | QQ音乐 | YouTube |

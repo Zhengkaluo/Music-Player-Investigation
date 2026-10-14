@@ -1,5 +1,21 @@
 # SongBase 曲库维护说明
 
+> 2026-10-13 版本恢复：主数据、文档、导入凭据与主要页面已从保留的最新版本恢复。最近 232 首音源仍在正式目录，未重录、未覆盖。详见 [恢复记录](imports/2026-10-13-曲库版本恢复.md)。
+
+### 当前状态（2026-10-13）
+
+「咖啡厅」与「可以放」第三、四批116首已新增主库元数据，并正式写入`SongResources/`；连同第一、二批共232首已入库。当前主库1,553首、551位主艺人分组、本地可播1,550首、非空音频文件1,574个；主库缺源待录制0首、已录制待入库0首。仍仅有《自己做决定 feat.陈绮贞》《Prisoner》《寒心寺》3首QQ下架缺源；独立的待重录、待舍弃任务未因此执行。
+
+本轮107首自动验收、9首人工认可例外；6首按试听要求去掉最后1秒。完整原始录音、人工授权、来源与最终SHA-256均保留。元数据与音源逐曲记录见`imports/2026-10-13-歌单补充B03B04-116首元数据导入.json/.md`、`imports/2026-10-13-歌单补充B03B04-116首正式入档.json/.md`。第一、二批的2026-10-12清单继续作为历史记录保留。
+
+`it is over`与`Bossa No Sé`仅使用两首无回音重录批次。Bossa原单曲版`004a1aRp0WI3rt`已下架，用户确认改录《Para Mi (Explicit)》专辑版`000VIQsR1lXb5A`；主库写入实际MID与专辑，不改原歌单快照。《丸ノ内サディスティック》新《無罪モラトリアム》版与旧《三文ゴシップ》版分开保存，旧文件未覆盖。
+
+候选《8+8=8》《When Everything End》已核实QQ下架，保留为候选/下架记录，没有导入主库。原468首候选已完成前四批的232首入库，仍有234首未录制（B05–B08），本轮没有提前启动或导入这些曲目；见`reviews/468首候选曲目录制与入库进度-2026-10-12.json/.md`（更新至2026-10-13）。
+
+`qqmusic_playlists.json/.md`现在保存10份来源歌单、2695条歌单成员记录（未跨歌单去重）；完整来源档案不表示全部曲目已入主库。已有8份历史快照及链接保留。
+
+正式Tag仍为1,215首，候选0首，无正式Tag或候选338首；新116首进入待人工标注页面。SongBase可匹配历史人工ZMPD435首；联合标注队列1122首（334首两项都缺、4首只缺Tag、784首只缺ZMPD）。新增的《AWARDS SEASON》匹配到已有人工ZMPD，不是本次新增标注。本次未改正式Tag、ZMPD训练真值或1204首特征库，也未推断风格或语种。
+
 ## 当前主线
 
 `song_base_by_artist.json` 是当前歌曲级曲库的唯一主数据。推荐的数据流是：
@@ -17,10 +33,13 @@ song_base_by_artist.json
         ├── build_song_base_browser.py ── 生成 song_base_browser.html
         ├── song_tags.json ── 按 QQ Music MID 维护歌曲标签
         ├── build_song_tags_browser.py ── 生成 song_tags_browser.html
+　　　 ├── build_combined_annotation_browser.py ── 生成 Tag + ZMPD 联合标注页
         └── manage_albums.py ── 重建 song_base_by_artist.md
 ```
 
 `SongResources/` 是本地下载音频目录，不是曲库主数据。
+
+根目录分组、历史资料与补录来源位置见 [`INDEX.md`](INDEX.md)。
 
 ### 归档舍弃
 
@@ -52,6 +71,9 @@ python3 SongBase/archive_discarded_tracks.py \
 | `song_tag_mapping.json` | 平台原始标签 → SongTag 风格候选的长期映射规则 |
 | `new_albums_config.json` | 待追加或待补链接的专辑清单 |
 | `SongResources/` | 本地音频文件 |
+| `歌曲特征.json` | Flowset 可排序特征库；2026-10-11 已扩至 1,204 首，带完整双向衔接矩阵 |
+
+特征库的真值/预测边界、版本复核名单、验收和回退见 [1,204 首升级说明](歌曲特征库-1204首升级说明.md)。生成器中需重新选择新版 JSON，已加载的旧数据不会自动更新。
 
 ### 当前可用入口
 
@@ -61,11 +83,15 @@ python3 SongBase/archive_discarded_tracks.py \
 | `build_song_base_browser.py` | 从主数据生成离线浏览页 | 保留，由主入口调用 |
 | `build_song_tags_browser.py` | 合并曲库与标签，校验并生成标签浏览页 | 修改标签后运行 |
 | `build_manual_tagging_browser.py` | 生成无候选曲目的逐首手动标注子页面 | 候选无法定类时使用 |
+| `build_combined_annotation_browser.py` | 按曲目缺口生成 Tag + ZMPD 联合标注页 | 统一补齐两类人工标注 |
+| `import_combined_annotations.py` | 校验联合导出，写入正式 Tag 与 ZMPD 批次并保留快照 | 联合标注的唯一正式入库入口 |
+| `serve_songbase.py` | 以支持音频拖动的 HTTP Range 服务打开 SongBase 页面 | 试听标签页时使用 |
 | `generate_song_tag_candidates.py` | 从公开平台生成只读标签候选与复核报告 | 批量标注前运行 |
 | `song_tag_mapping_editor.html` | 可双击打开的离线映射规则编辑器 | 调整标签映射时使用 |
 | `sync_missing_audio.py` | 自动比较曲库与本地音频、下载缺失项并显示监控页面 | 作为当前音频同步入口 |
+| `import_supplemental_audio.py` | 导入经身份核验的本地补录批次，并生成可追溯清单 | 仅用于 2026-09-21 补录批次 |
+| `import_recording_delivery.py` | 按 QQ MID、曲名和完整歌手导入已验收录制，更新待录制清单 | 用于 flat-MP3 录制交付批次 |
 | `archive_discarded_tracks.py` | 将曲目统一归档舍弃并从全部主数据移除 | 舍弃曲目的唯一入口 |
-| `batch_down_pending.py` | 下载旧 `_pending_downloads.txt` 固定批次 | 仅保留为手动批次工具 |
 
 ### 维护歌曲标签
 
@@ -100,13 +126,38 @@ python3 SongBase/build_song_tags_browser.py
 
 构建程序会先检查主风格、副风格、语言、器乐字段以及歌曲 ID；发现无效值时停止生成并指出具体记录。成功后打开 `SongBase/song_tags_browser.html`，可以查看标注完成率、主副风格合计分布，并按进度、风格、主风格范围、语言和器乐性筛选曲目。
 
-标签浏览与候选纠错页都带有播放按钮。优先播放 `SongResources/` 中已同步的本地音频；若该曲尚未同步，按钮会打开它的 YouTube、Bilibili 或 QQ 音乐页面作为兜底。页面底部会显示当前曲目、播放/暂停与进度。
+标签浏览与候选纠错页都带有播放按钮。优先播放 `SongResources/` 中已同步的本地音频；生成页使用相对地址。运行下面的零依赖服务后访问页面，音频即可正常播放和拖动进度：
+
+```bash
+python3 SongBase/serve_songbase.py
+```
+
+默认入口为 `http://127.0.0.1:8770/song_tags_browser.html`。若该曲尚未同步，按钮会打开它的 YouTube、Bilibili 或 QQ 音乐页面作为兜底。页面底部会显示当前曲目、播放/暂停与进度。
 
 浏览器中的“候选纠错”页读取 `song_tag_candidates.json`，默认展示置信度 ≥65% 的风格候选。可逐首确认或改正主风格、选择最多两个副风格、补充语言和器乐性，并标明映射规则是正确、太宽泛、目标错误、缺少组合规则，还是来源不可靠。反馈先保存在浏览器本机，不会改写 `song_tags.json`、`song_tag_mapping.json` 或候选文件。
 
 点击“导出纠错 JSON”会生成 `song_tag_corrections_YYYY-MM-DD.json`。其中保留曲目、原候选、命中的映射规则、原始平台证据及人工反馈；把这份文件交给 agent，即可据此总结哪些词应保留、降权、改目标或增补组合规则。
 
 标签浏览器顶部的“无候选手动标注”进入独立子页面 `song_manual_tagging.html`。它只列出尚未正式标注、且没有形成主风格候选的曲目。主 Tag、副 Tag、语言、器乐状态和备注会自动作为草稿保存在当前浏览器本机；只有点击“完成本首并下一首”后，该曲才会计入完成进度与导出范围。完成一批后点击“导出已完成 JSON”，生成 `song_manual_tags_YYYY-MM-DD.json`，再交给 agent 写回正式库。该页面本身不会修改任何 JSON。
+
+2026-10-08 首批“只看有本地音源”完成的 50 首已正式写入 `song_tags.json`；原始导出和逐曲记录见 `imports/2026-10-08-无候选手动标注50首正式入档.json` 与同名 Markdown。
+
+同日剩余 6 首候选也已人工确认并正式入档，候选队列归零；修订后的导出和逐曲记录见 `imports/2026-10-08-候选纠错6首正式入档.json` 与同名 Markdown。此次没有映射规则反馈，因此 `song_tag_mapping.json` 保持不变。
+
+### Tag + ZMPD 联合标注
+
+`song_combined_annotation.html` 以 QQ MID 为稳定身份，只显示尚缺 Tag、ZMPD 或两者都缺的曲目。已有的一侧仅显示摘要，不会被重复覆盖。ZMPD 要求时段、能量、噪音、摇摆和负担五维完整；把握程度仅作审计信息。
+
+页面导出 `songbase.combined-annotations/v1` JSON，本身不改任何正式文件。入库时先不带 `--apply` 干跑，确认后再正式写入：
+
+```bash
+python3 SongBase/import_combined_annotations.py /path/to/song_combined_annotations_YYYY-MM-DD.json
+python3 SongBase/import_combined_annotations.py /path/to/song_combined_annotations_YYYY-MM-DD.json --apply
+```
+
+导入器会备份 `song_tags.json`，新建兼容 `flowset.annotations/v1` 的人工 ZMPD 批次，并统一重建主曲库 JSON/Markdown、曲库浏览页、标签与联合标注页、统计报告、ZMPD manifest 和缺口清单。它不会把曲目直接塞进尚未补齐双向转场的 Flowset catalog。
+
+2026-10-09 与 2026-10-10 两批联合导入共写入 64 首正式 Tag 和 64 份人工 ZMPD；导入审计见 `imports/2026-10-09-Tag-ZMPD联合标注14首正式入档.json` 与 `imports/2026-10-10-Tag-ZMPD联合标注50首正式入档.json`。
 
 ### 生成批量标签候选
 
@@ -194,6 +245,32 @@ python3 SongBase/sync_missing_audio.py --limit 5
 
 默认会自动寻找系统中的 `yt-dlp`、FFmpeg 和 Node.js；找不到时才使用当前电脑已有的兼容路径。可通过 `--yt-dlp`、`--ffmpeg` 和 `--node` 显式指定。
 
+### 导入已核验的补录音源
+
+`import_supplemental_audio.py` 仅对应 2026-09-21 的两个补录目录。它以规范化后的“曲名 + 完整歌手”识别曲库条目，拒绝仅同名匹配、重复匹配、未识别文件或与既有本地文件内容不同的覆盖；已归档舍弃曲目会明确排除。先预检，再执行导入：
+
+```bash
+python3 SongBase/import_supplemental_audio.py
+python3 SongBase/import_supplemental_audio.py --apply
+python3 SongBase/build_song_tags_browser.py
+```
+
+导入会在 `imports/` 创建 JSON 与 Markdown 清单，记录每首曲目的 QQ MID、来源路径、目标路径和 SHA-256。补录只增加 `SongResources/` 本地文件，不改写 `song_base_by_artist.json`、标签 JSON 或曲库 Markdown。
+
+2026-10-08 的剩余录制入档记录见 `imports/2026-10-08-剩余3首录制入档.json` 与同名 Markdown：`Luv (Sic) , Pt. 4` 自动验收通过，`Big Pimpin'` 与《点绛唇》由用户试听后以 `manual-approved-exception` 入档；三首源/目标 SHA-256 均一致。
+
+2026-10-09 的“缺失音源第一、二批”78 首入档记录见 `imports/2026-10-09-缺失音源第一二批78正式入档.json` 与同名 Markdown：77 首自动验收通过，`EL DORADO` 以 `manual-approved-exception` 入档，4 首根据用户试听决定去掉最后 1 秒。入档后待录制清单剩余 91 首可录制曲目和 2 首已确认下架曲目。
+
+2026-10-10 的“剩余90首录制”已正式入档，见 `imports/2026-10-10-剩余90首录制正式入档.json` 与同名 Markdown：89 首通过录制验收，`Die For You` 以 `manual-approved-exception` 入档；`White Ferrari`、`&burn`、`Die For You` 根据用户试听决定去掉最后 1 秒，原始录音保留。90 首源/目标 SHA-256 均一致，所有播放页面已重建。截至该轮（2026-10-10），主库1,321首、本地可播1,318首、音源文件1,342个；这些是当轮历史数字，当前规模见本文开头的最新状态。
+
+### QQ 歌单曲目元数据导入
+
+QQ 歌单导入以 `song_mid` 为主身份，同时核对曲名与完整歌手；不能用仅曲名匹配替代。导入清单保存在 `imports/`，逐首区分“已新增”“主库已存在并核对”和“命中舍弃归档”。元数据导入不会自动添加本地音源，也不会把任何风格候选写入正式标签。
+
+2026-10-05 的“门店潜在歌单”导入记录见 `imports/2026-10-05-门店潜在歌单导入.json` 与同名 Markdown：来源 39 首，其中 35 首新增、4 首已存在并核对。
+
+2026-10-08 的“门店city漫步补充”导入记录见 `imports/2026-10-08-门店city漫步补充导入.json` 与同名 Markdown：来源 183 首，其中 169 首新增、14 首按 QQ MID 确认已存在。本次仅导入元数据，没有自动增加本地音源或标签；完整歌单快照也已追加到 `qqmusic_playlists.json` 与 `qqmusic_playlists.md`。
+
 ### 自动生成文件
 
 | 文件 | 来源 |
@@ -202,10 +279,11 @@ python3 SongBase/sync_missing_audio.py --limit 5
 | `song_base_browser.html` | `build_song_base_browser.py` |
 | `song_tags_browser.html` | `build_song_tags_browser.py` |
 | `song_manual_tagging.html` | `build_manual_tagging_browser.py` |
+| `song_combined_annotation.html` | `build_combined_annotation_browser.py` |
+| `Flow衔接与ZMPD补标缺口清单.csv` / `.md` | `build_annotation_gap_report.py` |
 | `song_tag_mapping.json` | `generate_song_tag_candidates.py` |
 | `song_tag_candidates.json`、`song_tag_candidate_report.md` | `generate_song_tag_candidates.py` |
-| `_search_progress.json`、`_search_live.txt` | 搜索/下载监控 |
-| `SongResources/_download_log.txt` | 下载过程 |
+| `_audio_download_status.json`、`SongResources/_audio_download_log.txt` | `sync_missing_audio.py` 的运行状态；新的运行会自动生成 |
 
 不要手动编辑这些文件；应修改 JSON 主数据或配置后重新生成。
 
@@ -220,7 +298,7 @@ python3 SongBase/sync_missing_audio.py --limit 5
 - 排除 Live、Cover、Remix 等版本；
 - 把结果写回 JSON 并重建 Markdown。
 
-区别是它操作旧数据 `qqmusic_playlists.json`，而 `manage_albums.py` 操作当前主数据 `song_base_by_artist.json`。它已经移入 archive，不再是当前主线的一部分。7 个 QQ 歌单数据暂留原位，供来源与历史报告追溯；其中“早上嗨着听”于 2026-09-15 补录。
+区别是它操作歌单来源档案 `qqmusic_playlists.json`，而 `manage_albums.py` 操作当前主数据 `song_base_by_artist.json`。搜索脚本已经移入 archive，不再是当前主线的一部分；但当前10个 QQ 歌单数据仍保留在原位，用于来源与导入追溯。
 
 ### `archive/legacy-monitors/` 与 `manage_albums.py monitor`
 
@@ -235,12 +313,8 @@ python3 SongBase/sync_missing_audio.py --limit 5
 
 旧的 `batch_download_youtube.py` 与配套 `downloadscripts/` 仍指向项目根部的 `SongResources/`，但实际目录已经是 `SongBase/SongResources/`。这组脚本已移入 `archive/broken-download-pipeline/`，不再作为主入口。
 
-`batch_down_pending.py` 指向正确目录，可以继续使用。后续应把下载逻辑统一成一个带子命令的入口，再归档旧脚本。
-
-当前已经新增 `sync_missing_audio.py` 作为自动同步入口。原有的
-`gen_pending_downloads.py`、`batch_down_pending.py` 和 `download_monitor.py`
-仍保持不变，组成旧的“生成固定清单 → 下载 → 单独监控”流程；不要与新入口同时启动，
-尤其是两个监控默认都可能尝试使用端口 8766。新入口检测到端口占用时会自动改用空闲端口。
+当前自动同步入口是 `sync_missing_audio.py`。旧的“生成固定清单 → 下载 → 单独监控”流程已移入
+`archive/manual-pending-download/`，仅保留旧批次与日志追溯；不要作为日常入口运行。
 
 ### `archive/legacy-monitors/_dl_monitor.py`
 
@@ -259,7 +333,6 @@ python3 SongBase/sync_missing_audio.py --limit 5
 1. 修正 `manage_albums.py` 的艺人别名匹配和中文标题过滤问题。
 2. 将官方链接搜索规则抽成一个共享模块，停止复制两套实现。
 3. 将所有绝对路径改成基于脚本目录的相对路径。
-4. 确认旧 `qqmusic_playlists.*` 不再使用后，再决定是否归档旧数据。
-5. 新同步入口稳定运行后，归档旧的固定清单下载与独立监控脚本。
+4. 后续 QQ 歌单导入继续同时维护逐批 `imports/` 清单和 `qqmusic_playlists.*` 来源快照。
 
 旧搜索、旧监控和错误路径下载流程已整体归档；归档内的 `_watchdog.py` 等脚本仍保留原始硬编码，仅用于追溯。
