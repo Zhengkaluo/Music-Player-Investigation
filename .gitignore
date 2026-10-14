@@ -26,9 +26,10 @@ Notion Export.zip
 # Runtime config (auto-saved window position)
 music_display_config.json
 
-# SongBase downloaded media and runtime state
-# Existing tracked sample files are unaffected; new downloads stay local.
-SongBase/SongResources/*.mp3
+# MP3 audio: local-only, including SongBase/SongResources.
+*.[mM][pP]3
+
+# SongBase runtime state
 SongBase/SongResources/_download_log.txt
 SongBase/_search_live.txt
 SongBase/_search_progress.json
