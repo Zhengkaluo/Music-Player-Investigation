@@ -107,6 +107,15 @@ class LoudnessMeter:
         energy = sum(blocks) / len(blocks)
         return max(-120.0, -0.691 + 10 * math.log10(energy)) if energy > 0 else -120.0
 
+    def reset(self):
+        """Forget all windows and filter state, e.g. after the source went idle."""
+        for channel_filters in self.filters:
+            for biquad in channel_filters:
+                biquad.z1 = biquad.z2 = 0.0
+        self.block_energy = 0.0
+        self.block_count = 0
+        self.blocks.clear()
+
     def snapshot(self):
         blocks = list(self.blocks)
         return {

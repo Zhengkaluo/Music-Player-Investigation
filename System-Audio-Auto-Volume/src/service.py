@@ -19,15 +19,22 @@ from urllib.parse import urlsplit
 from controller import (STATE_SCHEMA, VolumeController, default_settings,
                         effective_output_lufs, validate_settings)
 from device_profiles import DeviceProfileStore, classify_points, stable_point
+from executor import EXECUTOR_VERSION, LowerOnlyExecutor
+from presets import DERIVED_KEYS, PRESET_KEYS, PresetTable, legacy_preset
 from source_contract import validate_source
 
 
 ROOT = Path(__file__).resolve().parents[1]
 UI = ROOT / "ui" / "index.html"
 SCENARIOS = ROOT / "fixtures" / "scenarios.json"
+PRESETS = ROOT / "config" / "simple-presets.json"
 DEFAULT_SETTINGS_PATH = ROOT / "runtime" / "settings.json"
 MAX_BODY = 64 * 1024
 SHADOW_EVENT_GROUP_MS = 30_000
+GROUPED_ACTION_KINDS = {"would-lower", "lower", "would-recover", "recover"}
+EXECUTING_MODES = {"lower-only", "automatic"}
+MODE_LABELS = {"monitor": "关闭", "shadow": "只提示", "lower-only": "自动压低",
+               "automatic": "自动调节"}
 
 
 def read_json(path):
@@ -178,7 +185,8 @@ class Simulator:
 
 class AppState:
     def __init__(self, settings_path=DEFAULT_SETTINGS_PATH, scenarios_path=SCENARIOS,
-                 tick_seconds=0.25, start_worker=True, source=None, profiles_path=None):
+                 tick_seconds=0.25, start_worker=True, source=None, profiles_path=None,
+                 presets_path=None):
         self.settings_path = Path(settings_path)
         self.tick_seconds = float(tick_seconds)
         self.lock = threading.RLock()
@@ -190,12 +198,20 @@ class AppState:
         self.calibration_session = None
         self.active_profile = None
         self.last_observation = None
+        self.presets = PresetTable(presets_path or PRESETS)
         self.settings = self._load_settings()
+        self.executor = None if self.source.simulated else LowerOnlyExecutor(self.source)
+        self.executor_notice = None
         if not self.source.simulated and self.settings["mode"] not in {"monitor", "shadow"}:
-            self.settings["mode"] = "monitor"
+            # Automatic writes never resume by themselves after a restart.
+            previous_mode = self.settings["mode"]
+            self.settings["mode"] = "shadow"
+            self.executor_notice = "启动时不会自动恢复“%s”；需要时请重新开启" % MODE_LABELS[previous_mode]
         self.controller = VolumeController(self.settings)
         self.shadow_log_path = self.settings_path.with_name(
             "%s-shadow-events.jsonl" % self.source.platform)
+        self.executor_log_path = self.settings_path.with_name(
+            "%s-executor-events.jsonl" % self.source.platform)
         self.shadow_event_count = 0
         self.shadow_log_error = None
         if self.shadow_log_path.exists():
@@ -219,15 +235,78 @@ class AppState:
     def _load_settings(self):
         if not self.settings_path.exists():
             return default_settings()
-        return validate_settings(read_json(self.settings_path))
+        raw = read_json(self.settings_path)
+        if isinstance(raw, dict) and "preset" not in raw:
+            merged = {**default_settings(), **raw}
+            try:
+                table = self.presets.table()
+            except (OSError, ValueError):
+                table = None
+            raw = {**raw, "preset": legacy_preset(merged, table)}
+        settings = validate_settings(raw)
+        if settings["preset"]["mode"] == "simple":
+            try:
+                settings = validate_settings(self.presets.derive(settings["preset"]), settings)
+            except (OSError, ValueError):
+                pass
+        return settings
 
     def close(self):
         self.stop_event.set()
         if self.worker:
             self.worker.join(timeout=2)
+        if self.executor is not None:
+            with self.lock:
+                result = self.executor.restore("服务退出")
+                if result:
+                    self._log_executor(result)
         close = getattr(self.source, "close", None)
         if close:
             close()
+
+    def _log_executor(self, result):
+        record = {"schemaVersion": "system-audio.executor-event/v1",
+                  "timestampMs": time.time() * 1000, **deepcopy(result)}
+        try:
+            self.executor_log_path.parent.mkdir(parents=True, exist_ok=True)
+            with self.executor_log_path.open("a", encoding="utf-8") as target:
+                target.write(json.dumps(record, ensure_ascii=False) + "\n")
+        except OSError:
+            pass
+
+    def _executor_event(self, timestamp_ms, kind, reason, result=None):
+        event = {
+            "schemaVersion": "system-audio.action/v1",
+            "timestampMs": timestamp_ms,
+            "state": "MONITORING",
+            "kind": kind,
+            "reason": reason,
+            "evidence": {"deviceId": None if not self.last_observation
+                         else self.last_observation.get("deviceId"),
+                         "executor": deepcopy(result)},
+            "beforeVolume": None if not result else result.get("beforeVolume"),
+            "recommendedVolume": None,
+            "beforeVolumeDb": None if not result else result.get("beforeVolumeDb"),
+            "recommendedVolumeDb": None,
+            "recommendedAttenuationDb": None,
+            "appliedVolume": None if not result else result.get("appliedVolume"),
+            "appliedVolumeDb": None if not result else result.get("appliedVolumeDb"),
+            "execute": bool(result and result.get("status") == "restored"),
+            "mode": self.settings["mode"],
+            "controllerVersion": EXECUTOR_VERSION,
+            "settingsUpdatedAt": self.settings["updatedAt"],
+        }
+        self.actions.appendleft(event)
+        self.last_action_event_key = None
+        self._log_executor({"status": kind, "reason": reason, "result": deepcopy(result)})
+
+    def _leave_lower_only(self, reason, timestamp_ms):
+        """Stop automatic writes, restore if still ours, and fall back to shadow."""
+        restored = self.executor.restore(reason)
+        self.settings = self.controller.update_settings({"mode": "shadow"})
+        write_json_atomic(self.settings_path, self.settings)
+        self.executor_notice = reason
+        self._executor_event(timestamp_ms, "executor-stopped", reason, restored)
 
     def _run(self):
         while not self.stop_event.wait(self.tick_seconds):
@@ -254,6 +333,34 @@ class AppState:
                             converter(action["recommendedVolumeDb"]), 3)
                     except (ValueError, RuntimeError, OSError):
                         action["recommendedVolume"] = None
+            if self.executor is not None:
+                if action["kind"] in {"manual-override", "device-change"}:
+                    self.executor.interrupt(action["reason"])
+                if self.settings["mode"] in EXECUTING_MODES:
+                    mode_label = MODE_LABELS[self.settings["mode"]]
+                    problem = (self.executor.disabled_reason
+                               or self.executor.gate(observation, self.settings["mode"]))
+                    if problem:
+                        action["execute"] = False
+                        self._leave_lower_only("%s已停止：%s" % (mode_label, problem), timestamp_ms)
+                    elif action["execute"] and action["kind"] in {"lower", "recover"}:
+                        result = self.executor.execute(action, observation, self.settings,
+                                                       timestamp_ms)
+                        action["evidence"]["executor"] = result
+                        if result["status"] == "applied":
+                            action["appliedVolume"] = round(result["appliedVolume"], 3)
+                            if result.get("appliedVolumeDb") is not None:
+                                action["appliedVolumeDb"] = round(result["appliedVolumeDb"], 3)
+                        else:
+                            action["execute"] = False
+                        if result["status"] in {"applied", "failed"}:
+                            self._log_executor(result)
+                        if self.executor.disabled_reason:
+                            self._leave_lower_only(
+                                "%s已停止：%s" % (mode_label, self.executor.disabled_reason),
+                                timestamp_ms)
+                    elif action["execute"]:
+                        action["execute"] = False
             peak_guard = deepcopy(observation.get("peakGuard"))
             if peak_guard:
                 trigger_count = int(peak_guard.get("triggerCount") or 0)
@@ -282,11 +389,12 @@ class AppState:
             else:
                 event_key = (action["kind"], action["reason"], action["state"],
                              action["evidence"]["deviceId"])
-                if action["kind"] != "would-lower":
+                grouped_kind = action["kind"] in GROUPED_ACTION_KINDS
+                if not grouped_kind:
                     event_key += (action["beforeVolumeDb"], action["recommendedVolumeDb"],
                                   action["appliedVolume"])
                 grouped = False
-                if action["kind"] == "would-lower" and self.actions:
+                if grouped_kind and self.actions:
                     previous = self.actions[0]
                     window = previous.get("eventWindow")
                     previous_key = (previous["kind"], previous["reason"], previous["state"],
@@ -312,10 +420,13 @@ class AppState:
                         previous["recommendedVolume"] = action["recommendedVolume"]
                         previous["recommendedVolumeDb"] = action["recommendedVolumeDb"]
                         previous["recommendedAttenuationDb"] = action["recommendedAttenuationDb"]
+                        if action["appliedVolume"] is not None:
+                            previous["appliedVolume"] = action["appliedVolume"]
+                            previous["appliedVolumeDb"] = action["appliedVolumeDb"]
                         grouped = True
                 if not grouped and event_key != self.last_action_event_key:
                     event = deepcopy(action)
-                    if action["kind"] == "would-lower":
+                    if grouped_kind:
                         event["eventWindow"] = {
                             "firstTimestampMs": timestamp_ms,
                             "lastTimestampMs": timestamp_ms,
@@ -373,6 +484,8 @@ class AppState:
                     "rmsDbfs": observation["rmsDbfs"],
                     "peakDbfs": observation["peakDbfs"],
                     "isSilent": observation["isSilent"],
+                    "captureIdle": observation.get("captureIdle", False),
+                    "idleReason": observation.get("idleReason"),
                     "sampleRate": observation.get("sampleRate"),
                     "channels": observation.get("channels"),
                     "callbacks": observation.get("callbacks"),
@@ -403,6 +516,10 @@ class AppState:
                 "controller": {
                     "state": action["state"],
                     "lastAction": deepcopy(action),
+                    "shadowOffsetDb": round(self.controller.shadow_offset_db, 3),
+                    "songLowered": self.controller.song_lowered,
+                    "debtDb": action["evidence"].get("debtDb"),
+                    "diagnostics": deepcopy(self.controller.diagnostics),
                 },
                 "manualVolumeTestPending": bool(
                     getattr(self.source, "volume_test_session", None)),
@@ -411,6 +528,13 @@ class AppState:
                     "enabled": self.settings["mode"] == "shadow",
                     "eventCount": self.shadow_event_count,
                     "logError": self.shadow_log_error,
+                },
+                "executor": None if self.executor is None else {
+                    **self.executor.status(),
+                    "enabled": self.settings["mode"] in EXECUTING_MODES,
+                    "gate": self.executor.gate(observation),
+                    "automaticGate": self.executor.gate(observation, "automatic"),
+                    "notice": self.executor_notice,
                 },
                 "settings": deepcopy(self.settings),
             }
@@ -432,6 +556,9 @@ class AppState:
                 "recommendedVolume": action["recommendedVolume"],
                 "recommendedVolumeDb": action["recommendedVolumeDb"],
                 "execute": action["execute"],
+                "debtDb": (self.controller.diagnostics or {}).get("raise", {}).get("debtDb"),
+                "predictedRepayLufs": (self.controller.diagnostics or {}).get("raise", {}).get(
+                    "predictedFullLufs"),
             })
             return deepcopy(self.snapshot)
 
@@ -504,14 +631,98 @@ class AppState:
             result["classification"] = classification
             return result
 
+    def _apply_preset_rules(self, partial):
+        """Expand simple-mode choices into raw settings, or mark hand edits as custom."""
+        partial = deepcopy(partial)
+        current = self.settings["preset"]
+        patch = partial.pop("preset", None)
+        if patch is not None:
+            if not isinstance(patch, dict):
+                raise ValueError("preset 必须是 JSON object")
+            unknown = set(patch) - PRESET_KEYS
+            if unknown:
+                raise ValueError("未知 preset 字段：%s" % ", ".join(sorted(unknown)))
+            preset = {**current, **patch}
+            if preset["mode"] == "simple":
+                partial.update(self.presets.derive(preset))
+            else:
+                self.presets.validate_preset(preset)
+            partial["preset"] = preset
+        elif current["mode"] == "simple":
+            edited = [key for key in partial
+                      if key in DERIVED_KEYS and partial[key] != self.settings[key]]
+            if edited:
+                partial["preset"] = {**current, "mode": "custom"}
+        return partial
+
     def update_settings(self, partial):
         with self.lock:
-            if (not self.source.simulated
-                    and partial.get("mode", self.settings["mode"]) not in {"monitor", "shadow"}):
-                raise ValueError("真实模式只允许 monitor 或 shadow，自动控制尚未开放")
+            if not isinstance(partial, dict):
+                raise ValueError("设置必须是 JSON object")
+            partial = self._apply_preset_rules(partial)
+            requested = partial.get("mode", self.settings["mode"])
+            previous = self.settings["mode"]
+            if not self.source.simulated and requested != previous:
+                if requested not in MODE_LABELS:
+                    raise ValueError("未知模式：%s" % requested)
+                if requested in EXECUTING_MODES:
+                    problem = self.executor.gate(self.last_observation, requested)
+                    if problem:
+                        raise ValueError("不能开启%s：%s" % (MODE_LABELS[requested], problem))
             self.settings = self.controller.update_settings(partial)
             write_json_atomic(self.settings_path, self.settings)
+            if self.executor is not None and requested != previous:
+                timestamp_ms = time.time() * 1000
+                if requested in EXECUTING_MODES and previous not in EXECUTING_MODES:
+                    self.executor.begin(self.last_observation)
+                    self.controller.set_baseline(self.last_observation)
+                    self.executor_notice = None
+                    self._executor_event(timestamp_ms, "executor-started",
+                                         "开启%s，记录当前音量为本次基准" % MODE_LABELS[requested])
+                elif requested in EXECUTING_MODES:
+                    self._executor_event(timestamp_ms, "executor-mode",
+                                         "切换为%s，沿用本次基准" % MODE_LABELS[requested])
+                elif previous in EXECUTING_MODES:
+                    restored = self.executor.restore("用户关闭%s" % MODE_LABELS[previous])
+                    self.executor_notice = None
+                    self._executor_event(timestamp_ms, "executor-stopped",
+                                         "用户关闭%s" % MODE_LABELS[previous], restored)
             return deepcopy(self.settings)
+
+    def preset_table(self):
+        return self.presets.public()
+
+    def capture_comfort(self, body):
+        """Use the median output loudness of the last few seconds as comfort level C."""
+        if set(body) != {"action"} or body.get("action") != "capture":
+            raise ValueError("舒适音量接口只接受 {\"action\": \"capture\"}")
+        table = self.presets.table()
+        window_ms = float(table["comfort"]["windowSeconds"]) * 1000
+        with self.lock:
+            rows = list(self.history_rows)
+            if not rows:
+                raise ValueError("还没有监测数据")
+            newest = rows[-1]["timestampMs"]
+            levels = sorted(row["effectiveLufs"] for row in rows
+                            if newest - row["timestampMs"] <= window_ms
+                            and row.get("effectiveLufs") is not None
+                            and not row.get("isSilent"))
+            needed = int(float(table["comfort"]["minSeconds"]) / self.tick_seconds)
+            if not levels:
+                observation = self.last_observation or {}
+                if observation.get("captureResponse") in {None, "unknown", "unreliable"}:
+                    raise ValueError("当前设备还没有有效的校准档案，无法得到输出估算；请先完成设备校准")
+                raise ValueError("最近没有可用的播放数据，请先播放一段音量舒适的内容")
+            if len(levels) < needed:
+                raise ValueError("请先以舒适的音量连续播放至少 %s 秒（当前只有 %.1f 秒有效数据）" % (
+                    table["comfort"]["minSeconds"], len(levels) * self.tick_seconds))
+            middle = len(levels) // 2
+            median_level = (levels[middle] if len(levels) % 2
+                            else (levels[middle - 1] + levels[middle]) / 2)
+            comfort = round(median_level, 1)
+            settings = self.update_settings({"preset": {"comfortLufs": comfort, "mode": "simple"}})
+            return {"comfortLufs": comfort, "seconds": round(len(levels) * self.tick_seconds, 2),
+                    "settings": settings}
 
     def set_mode(self, body):
         if set(body) != {"mode"}:
@@ -626,6 +837,7 @@ class Handler(BaseHTTPRequestHandler):
             "/api/history": self.server.app.history,
             "/api/settings": self.server.app.get_settings,
             "/api/calibration": self.server.app.calibration_status,
+            "/api/presets": self.server.app.preset_table,
         }
         if path in routes:
             return self.reply(200, routes[path]())
@@ -657,6 +869,7 @@ class Handler(BaseHTTPRequestHandler):
                 "/api/simulate": self.server.app.simulate,
                 "/api/volume-test": self.server.app.volume_test,
                 "/api/calibration": self.server.app.calibration,
+                "/api/comfort": self.server.app.capture_comfort,
             }
             if path not in routes:
                 return self.reply(404, {"error": "Not found"})
@@ -684,6 +897,8 @@ def serve(source, settings_path, port, banner):
     def stop_requested(_signum, _frame):
         raise KeyboardInterrupt
     signal.signal(signal.SIGTERM, stop_requested)
+    if hasattr(signal, "SIGBREAK"):
+        signal.signal(signal.SIGBREAK, stop_requested)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

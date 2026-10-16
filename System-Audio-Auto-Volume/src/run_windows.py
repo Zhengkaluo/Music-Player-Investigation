@@ -20,10 +20,10 @@ def main():
     from windows_monitor import WindowsMonitor
 
     return serve(
-        WindowsMonitor(),
+        WindowsMonitor(curve_path=ROOT / "runtime" / "windows-volume-curve.json"),
         args.settings or ROOT / "runtime" / "windows-settings.json",
         args.port,
-        "M8a Windows：真实影子建议不执行；只有界面人工测试按钮可以小幅写入并安全恢复音量。",
+        "Windows：默认只监控/影子；已校准设备可手动开启自动压低或自动调节（回升不超过开启时的音量，退出时安全恢复）。",
     )
 
 

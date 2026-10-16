@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "system-audio.simple-presets/v1",
+  "_说明": "简易设置的换算表。修改后无需重启服务：下次点击简易选项或“恢复简易推荐”时自动读取（简易模式下重启服务也会按此表重新换算）。所有响度值都以“舒适音量 C”（LUFS，输出估算）为基准做偏移。服务端会校验换算结果，不合法时拒绝保存并提示原因。",
+  "comfort": {
+    "_说明": "“就用现在的音量”取最近 windowSeconds 秒、非静音的输出估算中位数作为 C；有效数据少于 minSeconds 秒时拒绝。C 必须在 min..max 之间。",
+    "windowSeconds": 15,
+    "minSeconds": 5,
+    "min": -65,
+    "max": -8
+  },
+  "target": {
+    "_说明": "目标区间 = [C + lowOffset, C + highOffset]。highOffset 是停止压低的线，也是回升的参照：还回音量后，响部必须比它低 fixed.recoveryHeadroomLu。",
+    "lowOffset": -3,
+    "highOffset": 1
+  },
+  "sensitivity": {
+    "_说明": "灵敏度。压低：triggerOffset 决定触发线 C + triggerOffset（必须 ≥ target.highOffset），lowerSustainSeconds / sustainRatio 是偏响证据窗口和窗口内超阈值比例。回升：recoverySustainSeconds 是回升判定窗口，取窗口内响部（fixed.recoveryPercentile 百分位）预测还回音量后的响度；窗口越长越稳、回升越晚。",
+    "low": {"label": "迟钝", "triggerOffset": 5, "lowerSustainSeconds": 4.0, "sustainRatio": 0.85,
+            "recoverySustainSeconds": 30.0},
+    "standard": {"label": "标准", "triggerOffset": 3, "lowerSustainSeconds": 2.5, "sustainRatio": 0.8,
+                 "recoverySustainSeconds": 20.0},
+    "high": {"label": "灵敏", "triggerOffset": 2, "lowerSustainSeconds": 1.5, "sustainRatio": 0.7,
+             "recoverySustainSeconds": 14.0}
+  },
+  "speed": {
+    "_说明": "调节速度。lowerGain 是偏差转下降比例，maxLowerDbPerSecond 是每秒最多下降 dB；maxRaiseDbPerSecond 是每秒最多回升 dB（建议约为下降速度的 1/4）。",
+    "gentle": {"label": "柔和", "lowerGain": 0.4, "maxLowerDbPerSecond": 1.0, "maxRaiseDbPerSecond": 0.25},
+    "standard": {"label": "标准", "lowerGain": 0.7, "maxLowerDbPerSecond": 2.0, "maxRaiseDbPerSecond": 0.5},
+    "fast": {"label": "快速", "lowerGain": 1.0, "maxLowerDbPerSecond": 4.0, "maxRaiseDbPerSecond": 1.0}
+  },
+  "maxReductionDb": {
+    "_说明": "“最多压低”滑块的范围、步长和默认值，对应 maxAutoAttenuationDb。",
+    "min": 6,
+    "max": 20,
+    "step": 1,
+    "default": 12
+  },
+  "fixed": {
+    "_说明": "简易模式下固定使用的值。recoveryCooldownSeconds：压低后多少秒内不回升。recoveryPercentile / recoveryHeadroomLu：回升时用窗口内的哪个百分位当“响部”、还回后要比目标上沿低多少 LU。songGapSeconds：静音持续多久算换歌（本首歌压低过就保持到换歌）。songHoldMaxSeconds：一直没有换歌时最长保持多久（应对无缝播放、直播流）。fadeSlopeLuPerSecond：响度下滑快于此值视为淡出，暂不回升。",
+    "minSystemVolume": 5.0,
+    "silenceGateDbfs": -55.0,
+    "manualOverrideSeconds": 30.0,
+    "minLowerStepDb": 0.25,
+    "recoveryCooldownSeconds": 20.0,
+    "recoveryPercentile": 0.9,
+    "recoveryHeadroomLu": 1.0,
+    "songGapSeconds": 1.5,
+    "songHoldMaxSeconds": 240.0,
+    "fadeSlopeLuPerSecond": 0.4
+  }
+}

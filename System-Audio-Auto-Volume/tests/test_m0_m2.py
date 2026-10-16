@@ -21,7 +21,7 @@ from macos_monitor import MacOSMonitor
 from replay import replay
 from service import AppState, Simulator, build_server
 from source_contract import validate_source
-from windows_monitor import PCMWindow, WindowsMonitor, default_loopback
+from windows_monitor import PCMWindow, VolumeCurve, WindowsMonitor, default_loopback
 
 
 def observation(timestamp_ms, level=-12.0, volume=50.0, **changes):
@@ -131,13 +131,13 @@ class ControllerTests(unittest.TestCase):
 
     def test_m8_hysteresis_continues_below_trigger_until_target_high(self):
         controller = VolumeController(settings(
-            "shadow", lowerSustainSeconds=1.0, sustainRatio=1.0))
+            "lower-only", lowerSustainSeconds=1.0, sustainRatio=1.0))
         controller.step(observation(0, level=-12))
         self.assertEqual(controller.step(observation(1000, level=-12))["kind"],
-                         "would-lower")
+                         "lower")
         controller.step(observation(2000, level=-16))
         self.assertEqual(controller.step(observation(3000, level=-16))["kind"],
-                         "would-lower")
+                         "lower")
         self.assertEqual(controller.step(observation(4000, level=-17))["kind"], "none")
 
     def test_lower_only_executes_bounded_step(self):
@@ -165,10 +165,10 @@ class ControllerTests(unittest.TestCase):
         self.assertIn("-30.0 dBFS", action["reason"])
 
     def test_shadow_explains_when_effective_loudness_is_below_target(self):
-        controller = VolumeController(settings("shadow"))
+        controller = VolumeController(settings("shadow", recoveryCooldownSeconds=0))
         action = controller.step(observation(0, level=-27))
         self.assertEqual(action["kind"], "none")
-        self.assertIn("不生成升高建议", action["reason"])
+        self.assertIn("低于目标区间", action["reason"])
 
     def test_shadow_explains_hysteresis_gap_before_trigger(self):
         controller = VolumeController(settings("shadow"))
@@ -176,14 +176,124 @@ class ControllerTests(unittest.TestCase):
         self.assertEqual(action["kind"], "none")
         self.assertIn("尚未达到降低触发线", action["reason"])
 
-    def test_automatic_recovery_stops_at_user_baseline(self):
-        controller = VolumeController(settings("automatic"))
-        controller.step(observation(0, level=-19, volume=60))
-        controller.step(observation(1000, level=-27, volume=50))
-        action = controller.step(observation(3000, level=-27, volume=50))
-        self.assertEqual(action["kind"], "recover")
-        self.assertEqual(action["recommendedVolume"], 51)
-        self.assertTrue(action["execute"])
+    # --- M9 v2 recovery: debt repaid per song, bounded by the loud part -------------
+    # Targets are -21..-17 (trigger -15); with pre-volume capture the effective output
+    # loudness is source + endpoint dB, so a source of 2 at -20 dB is -18 LUFS.
+    LOUD, NORMAL, QUIET = 8.0, 2.0, -10.0
+
+    @staticmethod
+    def pre_obs(timestamp, source, db):
+        silent = source is None
+        return observation(timestamp, level=None if silent else source, systemVolumeDb=db,
+                           outputAttenuationDb=db, captureResponse="pre-volume",
+                           isSilent=silent, momentaryLufs=None if silent else source,
+                           rmsDbfs=-120.0 if silent else -18.0,
+                           peakDbfs=None if silent else -3.0)
+
+    def drive(self, controller, segments, db=-20.0, start=0, feed=True):
+        rows, now = [], start
+        for source, seconds in segments:
+            for index in range(int(seconds * 4)):
+                level = source(index / 4) if callable(source) else source
+                action = controller.step(self.pre_obs(now, level, db))
+                if feed and action["execute"] and action["recommendedVolumeDb"] is not None:
+                    db = action["recommendedVolumeDb"]
+                rows.append((now, action, db))
+                now += 250
+        return rows, db, now
+
+    def recovery_settings(self, mode="automatic", **changes):
+        return settings(mode, recoverySustainSeconds=20.0, **changes)
+
+    def test_lowered_song_holds_then_repays_after_song_gap(self):
+        controller = VolumeController(self.recovery_settings())
+        rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 60)])
+        self.assertAlmostEqual(db, -25.0, delta=0.3)
+        lowered = db
+        self.assertIn("保持到换歌", rows[-1][1]["reason"])
+        self.assertFalse(any(action["kind"] == "recover" for _t, action, _db in rows))
+        rows, db, _now = self.drive(controller, [(None, 2), (self.NORMAL, 40)], db, now)
+        recovers = [action for _t, action, _db in rows if action["kind"] == "recover"]
+        self.assertTrue(recovers)
+        self.assertTrue(all(action["recommendedAttenuationDb"] > 0 for action in recovers))
+        self.assertAlmostEqual(db, -20.0, places=2)
+        self.assertLessEqual(max(value for _t, _a, value in rows), -20.0 + 1e-9)
+
+    def test_repay_stops_where_the_loud_part_would_get_loud_again(self):
+        controller = VolumeController(self.recovery_settings())
+        _rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 10)])
+        # Next song: loud part 5 -> full repay would give -15 LUFS; limit is -18.
+        rows, db, _now = self.drive(controller, [(None, 2), (5.0, 40)], db, now)
+        self.assertAlmostEqual(db, -23.0, delta=0.3)
+        self.assertLessEqual(db, -23.0 + 1e-9)
+        self.assertIn("响部", rows[-1][1]["reason"])
+
+    def test_fade_out_never_triggers_recovery(self):
+        controller = VolumeController(self.recovery_settings())
+        _rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 10)])
+        rows, after, _now = self.drive(
+            controller, [(None, 2), (lambda second: self.NORMAL - second, 20)], db, now)
+        self.assertEqual(after, db)
+        self.assertFalse(any(action["kind"] == "recover" for _t, action, _db in rows))
+        self.assertTrue(any("淡出" in action["reason"] for _t, action, _db in rows))
+
+    def test_hold_max_repays_without_song_gap(self):
+        controller = VolumeController(self.recovery_settings(songHoldMaxSeconds=30.0))
+        rows, db, _now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 70)])
+        self.assertAlmostEqual(db, -20.0, places=2)
+        self.assertTrue(any(action["kind"] == "recover" for _t, action, _db in rows))
+
+    def test_recovery_never_raises_above_baseline_without_debt(self):
+        controller = VolumeController(self.recovery_settings())
+        rows, db, _now = self.drive(controller, [(self.QUIET, 60)])
+        self.assertEqual(db, -20.0)
+        self.assertTrue(all(action["recommendedVolumeDb"] is None for _t, action, _db in rows))
+        self.assertIn("不会升到", rows[-1][1]["reason"])
+
+    def test_lower_only_never_repays(self):
+        controller = VolumeController(self.recovery_settings("lower-only"))
+        _rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 10)])
+        rows, after, _now = self.drive(controller, [(None, 2), (self.NORMAL, 40)], db, now)
+        self.assertEqual(after, db)
+        self.assertLess(db, -24.0)
+        self.assertFalse(any(action["kind"] == "recover" for _t, action, _db in rows))
+
+    def test_shadow_simulates_lowering_and_repayment_without_writing(self):
+        controller = VolumeController(self.recovery_settings("shadow"))
+        rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 10)], feed=False)
+        self.assertEqual(db, -20.0)
+        offsets = [action["evidence"]["shadowOffsetDb"] for _t, action, _db in rows]
+        self.assertAlmostEqual(min(offsets), -5.0, delta=0.3)
+        self.assertTrue(any(action["kind"] == "would-lower" for _t, action, _db in rows))
+        rows, db, _now = self.drive(controller, [(None, 2), (self.NORMAL, 40)], db, now,
+                                    feed=False)
+        self.assertTrue(any(action["kind"] == "would-recover" for _t, action, _db in rows))
+        self.assertFalse(any(action["execute"] for _t, action, _db in rows))
+        self.assertEqual(rows[-1][1]["evidence"]["shadowOffsetDb"], 0.0)
+
+    def test_short_silence_inside_a_song_keeps_the_hold(self):
+        controller = VolumeController(self.recovery_settings())
+        _rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 10)])
+        rows, after, _now = self.drive(
+            controller, [(None, 1), (self.NORMAL, 30)], db, now)
+        self.assertEqual(after, db)
+        self.assertIn("保持到换歌", rows[-1][1]["reason"])
+
+    def test_diagnostics_report_lower_and_raise_progress(self):
+        controller = VolumeController(self.recovery_settings(lowerSustainSeconds=3.0,
+                                                             sustainRatio=0.8))
+        # Loud but evidence window not yet full: lower side is "approaching".
+        controller.step(self.pre_obs(0, self.LOUD, -20.0))
+        controller.step(self.pre_obs(250, self.LOUD, -20.0))
+        diag = controller.diagnostics
+        self.assertTrue(diag["lower"]["above"])
+        self.assertLess(diag["lower"]["windowSeconds"], diag["lower"]["requiredSeconds"])
+        self.assertEqual(diag["raise"]["debtDb"], 0.0)
+        # Drive through lowering, then a quiet tail: raise side holds for the song.
+        _rows, db, now = self.drive(controller, [(self.LOUD, 20), (self.NORMAL, 10)], start=500)
+        self.assertGreater(controller.diagnostics["raise"]["debtDb"], 0)
+        self.assertTrue(controller.diagnostics["raise"]["songLowered"])
+        self.assertIsNotNone(controller.diagnostics["raise"]["holdLeftSeconds"])
 
     def test_manual_override_and_device_change_block_control(self):
         controller = VolumeController(settings("lower-only", manualOverrideSeconds=30.0))
@@ -418,7 +528,9 @@ class ServiceTests(unittest.TestCase):
         self.assertIn("最近建议与控制事件", html)
         self.assertIn("输出估算（控制依据）", html)
         self.assertIn("row.effectiveLufs", html)
-        self.assertIn("按最近 15 秒生成起始参数", html)
+        self.assertIn("就用现在的音量", html)
+        self.assertIn("高级设置", html)
+        self.assertIn("恢复简易推荐", html)
 
 
 class FakeMacSource:
@@ -496,8 +608,10 @@ class MacReadOnlyTests(unittest.TestCase):
                 self.assertEqual(state["measurement"]["rmsDbfs"], -24)
                 self.assertEqual(state["volume"]["system"], 41)
                 self.assertEqual(app.set_mode({"mode": "shadow"})["mode"], "shadow")
-                with self.assertRaisesRegex(ValueError, "自动控制尚未开放"):
+                with self.assertRaisesRegex(ValueError, "尚未提供自动音量写入"):
                     app.set_mode({"mode": "lower-only"})
+                with self.assertRaisesRegex(ValueError, "尚未提供自动音量写入"):
+                    app.set_mode({"mode": "automatic"})
                 with self.assertRaisesRegex(ValueError, "不提供模拟动作"):
                     app.simulate({"action": "switch-device"})
             finally:
@@ -527,21 +641,18 @@ class MacReadOnlyTests(unittest.TestCase):
                 self.assertEqual(source.volume, 41)
                 log = path.with_name("macos-shadow-events.jsonl").read_text(encoding="utf-8")
                 self.assertIn('"kind": "would-lower"', log)
-                source_level = -14.0
-                original_observe = source.observe
-                source.observe = lambda timestamp: {
-                    **original_observe(timestamp),
-                    "shortTermLufs": source_level,
-                    "momentaryLufs": source_level,
-                }
+                self.assertEqual(state["controller"]["shadowOffsetDb"], -3.0)
                 app.tick(started + 500)
                 app.tick(started + 750)
                 grouped = app.history()["actions"][0]
                 self.assertEqual(grouped["eventWindow"]["occurrences"], 2)
                 self.assertEqual(grouped["eventWindow"]["durationSeconds"], 0.5)
-                self.assertEqual(grouped["eventWindow"]["recommendedVolumeDbMin"], -23.0)
-                self.assertEqual(grouped["eventWindow"]["recommendedVolumeDbMax"], -22.1)
-                self.assertEqual(grouped["recommendedVolumeDb"], -22.1)
+                # Shadow simulates its own suggestions: the second step starts from the
+                # virtual -23 dB and the virtual loudness (-15) is closer to the target.
+                self.assertEqual(grouped["eventWindow"]["recommendedVolumeDbMax"], -23.0)
+                self.assertEqual(grouped["eventWindow"]["recommendedVolumeDbMin"], -24.4)
+                self.assertEqual(grouped["recommendedVolumeDb"], -24.4)
+                self.assertEqual(source.volume, 41)
                 log = path.with_name("macos-shadow-events.jsonl").read_text(encoding="utf-8")
                 self.assertEqual(len(log.splitlines()), 1)
                 app.tick(started + 31000)
@@ -735,31 +846,7 @@ class WindowsReadOnlyTests(unittest.TestCase):
         self.assertFalse(monitor.observe(1700)["manualVolumeChanged"])
 
     def test_manual_windows_restore_refuses_user_override(self):
-        class COM:
-            @staticmethod
-            def CoInitialize(): pass
-            @staticmethod
-            def CoUninitialize(): pass
-
-        class Endpoint:
-            volume = 0.5
-            def GetMasterVolumeLevelScalar(self): return self.volume
-            def SetMasterVolumeLevelScalar(self, value, _context): self.volume = value
-            def GetMute(self): return False
-
-        endpoint = Endpoint()
-
-        class Device:
-            id = "endpoint-1"
-            FriendlyName = "Speakers"
-            EndpointVolume = endpoint
-
-        class Utilities:
-            @staticmethod
-            def GetSpeakers(): return Device()
-
-        loader = lambda: (None, COM, Utilities, None, None)
-        monitor = WindowsMonitor(dependency_loader=loader, start_worker=False)
+        monitor, endpoint = fake_windows_monitor()
         lowered = monitor.manual_volume_test("lower", 1)
         self.assertAlmostEqual(lowered["appliedVolume"], 49)
         endpoint.volume = 0.6
@@ -767,14 +854,560 @@ class WindowsReadOnlyTests(unittest.TestCase):
             monitor.manual_volume_test("restore")
         self.assertAlmostEqual(endpoint.volume, 0.6)
 
-    def test_windows_adapter_contains_only_manual_volume_write(self):
+    def test_windows_volume_calls_use_multithreaded_com(self):
+        monitor, _endpoint = fake_windows_monitor()
+        monitor.manual_volume_test("lower", 1)
+        self.assertEqual(FakeCOM.modes, [FakeCOM.COINIT_MULTITHREADED] * 2)
+
+    def test_apply_volume_db_only_lowers_and_reads_back(self):
+        monitor, endpoint = fake_windows_monitor()
+        endpoint.set_db(-20.0)
+        result = monitor.apply_volume_db(-22.0, "endpoint-1", -20.0, floor_percent=10)
+        self.assertAlmostEqual(result["beforeVolumeDb"], -20.0)
+        self.assertAlmostEqual(result["appliedVolumeDb"], -22.0)
+        self.assertLess(result["appliedVolume"], result["beforeVolume"])
+        with self.assertRaisesRegex(ValueError, "只允许降低"):
+            monitor.apply_volume_db(-21.0, "endpoint-1", -22.0)
+        with self.assertRaisesRegex(RuntimeError, "设备已切换"):
+            monitor.apply_volume_db(-23.0, "other", -22.0)
+        endpoint.set_db(-15.0)
+        with self.assertRaisesRegex(RuntimeError, "不一致"):
+            monitor.apply_volume_db(-23.0, "endpoint-1", -22.0)
+        endpoint.set_db(-20.0)
+        floored = monitor.apply_volume_db(-59.0, "endpoint-1", -20.0, floor_percent=30)
+        self.assertTrue(floored["floored"])
+        self.assertAlmostEqual(floored["appliedVolume"], 30, places=3)
+
+    def test_idle_loopback_is_silence_not_failure(self):
+        meter = PCMWindow(8000, 2)
+        from array import array
+        pcm = array("h", (round(v * 32767) for v in LoudnessMeterTests.tone(8000, 3, 0.1)))
+        meter.consume(pcm.tobytes(), frame_count=8000 * 3, status=0,
+                      callback_seconds=0.0, callback_at=1.0)
+        self.assertIsNotNone(meter.take()["shortTermLufs"])
+        idle = meter.idle_summary("endpoint-silent")
+        self.assertTrue(idle["captureIdle"])
+        self.assertIsNone(idle["shortTermLufs"])
+        self.assertEqual(meter.loudness.snapshot()["loudnessBlocks"], 0)
+        monitor = WindowsMonitor(start_worker=False)
+        monitor.latest = {**idle, "timestampMs": 1000, "systemVolume": 30.0,
+                          "volumeReadable": True, "volumeWritableCapability": True}
+        monitor.last_device = {"deviceId": "endpoint-1", "deviceName": "Speakers"}
+        value = monitor.observe(1200)
+        self.assertTrue(value["captureAvailable"])
+        self.assertTrue(value["isSilent"])
+        self.assertTrue(value["captureIdle"])
+        source = (ROOT / "src/windows_monitor.py").read_text(encoding="utf-8")
+        self.assertIn("GetPeakValue", source)
+        self.assertNotIn("回调超过 2 秒无数据", source)
+
+    def test_volume_curve_converts_only_inside_measured_points(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "curve.json"
+            curve = VolumeCurve(path)
+            curve.add("dev", 50.0, -10.0)
+            curve.add("dev", 45.0, -11.5)
+            self.assertAlmostEqual(curve.percent_for_db("dev", -10.75, -65, 0), 47.5)
+            self.assertIsNone(curve.percent_for_db("dev", -30.0, -65, 0))
+            curve.save()
+            reloaded = VolumeCurve(path)
+            self.assertAlmostEqual(reloaded.percent_for_db("dev", -11.5, -65, 0), 45.0)
+            curve.add("dev", 40.0, -9.0)
+            self.assertIsNone(curve.percent_for_db("dev", -10.0, -65, 0))
+
+    def test_windows_adapter_writes_only_through_two_audited_methods(self):
         source = (ROOT / "src/windows_monitor.py").read_text(encoding="utf-8")
         self.assertIn("GetMasterVolumeLevelScalar", source)
         self.assertIn("GetVolumeRange", source)
         self.assertIn("QueryHardwareSupport", source)
         self.assertIn("GetMute", source)
-        self.assertEqual(source.count("SetMasterVolumeLevelScalar"), 1)
+        self.assertEqual(source.count(".SetMasterVolumeLevelScalar("), 1)
+        self.assertEqual(source.count(".SetMasterVolumeLevel("), 1)
         self.assertNotIn("SetMute", source)
+        self.assertNotIn("CoInitialize()", source)
+
+
+class FakeCOM:
+    COINIT_MULTITHREADED = 0
+    modes = []
+
+    @classmethod
+    def CoInitializeEx(cls, mode):
+        cls.modes.append(mode)
+
+    @staticmethod
+    def CoUninitialize():
+        pass
+
+
+class FakeEndpoint:
+    """Linear 0..100 % ↔ -60..0 dB endpoint."""
+
+    def __init__(self, volume=0.5):
+        self.volume = volume
+
+    def set_db(self, db):
+        self.volume = (db + 60) / 60
+
+    def GetMasterVolumeLevelScalar(self):
+        return self.volume
+
+    def GetMasterVolumeLevel(self):
+        return self.volume * 60 - 60
+
+    def SetMasterVolumeLevelScalar(self, value, _context):
+        self.volume = value
+
+    def SetMasterVolumeLevel(self, db, _context):
+        self.set_db(max(-60.0, min(0.0, db)))
+
+    def GetVolumeRange(self):
+        return (-60.0, 0.0, 0.5)
+
+    def GetMute(self):
+        return False
+
+
+def fake_windows_monitor(volume=0.5):
+    FakeCOM.modes = []
+    endpoint = FakeEndpoint(volume)
+
+    class Device:
+        id = "endpoint-1"
+        FriendlyName = "Speakers"
+        EndpointVolume = endpoint
+
+    class Utilities:
+        @staticmethod
+        def GetSpeakers():
+            return Device()
+
+    loader = lambda: (None, FakeCOM, Utilities, None, None)
+    return WindowsMonitor(dependency_loader=loader, start_worker=False), endpoint
+
+
+class FakeWritableSource:
+    """Windows-like source with a linear endpoint and the M8b write interface."""
+
+    platform = "windows"
+    simulated = False
+    measurement_source = "test-writable"
+
+    def __init__(self, volume=0.9, level=-12.0):
+        self.endpoint = FakeEndpoint(volume)
+        self.level = level
+        self.silent = False
+        self.user_changed = False
+        self.fail_with = None
+        self.writes = []
+        self.volume_test_session = None
+
+    def observe(self, timestamp_ms):
+        manual, self.user_changed = self.user_changed, False
+        db = self.endpoint.GetMasterVolumeLevel()
+        level = None if self.silent else self.level
+        return observation(
+            timestamp_ms, level=level, volume=self.endpoint.volume * 100,
+            deviceId="endpoint-1", deviceName="Speakers", platform="windows",
+            environmentFingerprint="windows:test", systemVolumeDb=db,
+            volumeDbMin=-60.0, volumeDbMax=0.0, volumeDbStep=0.5,
+            outputAttenuationDb=db, volumeDbSource="test-db",
+            volumeDbMappingReliable=True, captureResponse="unknown",
+            manualVolumeChanged=manual, momentaryLufs=level, isSilent=self.silent,
+            rmsDbfs=-120.0 if self.silent else -16.0,
+            peakDbfs=None if self.silent else -2.0, scenarioId=None, scenarioLabel="test")
+
+    def close(self):
+        pass
+
+    def apply_volume_db(self, target_db, expected_device, expected_db, floor_percent=0.0):
+        if self.fail_with:
+            raise self.fail_with
+        before, before_db = self.endpoint.volume * 100, self.endpoint.GetMasterVolumeLevel()
+        if expected_device != "endpoint-1":
+            raise RuntimeError("输出设备已切换")
+        if abs(before_db - expected_db) > 0.6:
+            raise RuntimeError("当前音量与决策时不一致")
+        if target_db >= before_db - 0.01:
+            raise ValueError("自动执行只允许降低音量")
+        self.endpoint.SetMasterVolumeLevel(target_db, None)
+        floored = self.endpoint.volume * 100 < floor_percent
+        if floored:
+            self.endpoint.volume = floor_percent / 100
+        self.writes.append((before_db, self.endpoint.GetMasterVolumeLevel()))
+        return {"deviceId": "endpoint-1", "beforeVolume": before, "beforeVolumeDb": before_db,
+                "appliedVolume": self.endpoint.volume * 100,
+                "appliedVolumeDb": self.endpoint.GetMasterVolumeLevel(), "floored": floored}
+
+    def restore_volume(self, target_percent, expected_device, expected_percent):
+        current = self.endpoint.volume * 100
+        if abs(current - expected_percent) > 0.6:
+            raise RuntimeError("音量已被用户修改，拒绝覆盖当前音量")
+        self.endpoint.volume = target_percent / 100
+        return {"deviceId": "endpoint-1", "beforeVolume": current,
+                "appliedVolume": target_percent,
+                "appliedVolumeDb": self.endpoint.GetMasterVolumeLevel()}
+
+
+class FakeRaisingSource(FakeWritableSource):
+    """Adds the M9 recovery write; the base class intentionally omits it."""
+
+    def raise_volume_db(self, target_db, expected_device, expected_db, ceiling_percent):
+        if self.fail_with:
+            raise self.fail_with
+        before, before_db = self.endpoint.volume * 100, self.endpoint.GetMasterVolumeLevel()
+        if expected_device != "endpoint-1":
+            raise RuntimeError("输出设备已切换")
+        if abs(before_db - expected_db) > 0.6:
+            raise RuntimeError("当前音量与决策时不一致")
+        if target_db <= before_db + 0.01:
+            raise ValueError("回升写入只允许升高音量")
+        self.endpoint.SetMasterVolumeLevel(target_db, None)
+        capped = self.endpoint.volume * 100 > ceiling_percent
+        if capped:
+            self.endpoint.volume = ceiling_percent / 100
+        self.writes.append((before_db, self.endpoint.GetMasterVolumeLevel()))
+        return {"deviceId": "endpoint-1", "beforeVolume": before, "beforeVolumeDb": before_db,
+                "appliedVolume": self.endpoint.volume * 100,
+                "appliedVolumeDb": self.endpoint.GetMasterVolumeLevel(), "capped": capped}
+
+
+class SimplePresetTests(unittest.TestCase):
+    TABLE = ROOT / "config" / "simple-presets.json"
+
+    def test_default_settings_match_standard_preset(self):
+        from presets import PresetTable, default_preset
+        derived = PresetTable(self.TABLE).derive(default_preset())
+        defaults = default_settings()
+        self.assertEqual(defaults["preset"], default_preset())
+        for key, value in derived.items():
+            self.assertEqual(defaults[key], value, key)
+        self.assertEqual(defaults["minSystemVolume"], 5.0)
+
+    def test_every_preset_combination_produces_valid_settings(self):
+        from presets import SENSITIVITIES, SPEEDS, PresetTable
+        table = PresetTable(self.TABLE)
+        limits = table.table()["comfort"]
+        for comfort in (limits["min"], -40.0, limits["max"]):
+            for sensitivity in SENSITIVITIES:
+                for speed in SPEEDS:
+                    preset = {"mode": "simple", "comfortLufs": comfort, "sensitivity": sensitivity,
+                              "speed": speed, "maxReductionDb": 12.0}
+                    merged = {**default_settings(), **table.derive(preset), "preset": preset}
+                    value = validate_settings(merged)
+                    self.assertGreaterEqual(value["triggerLufs"], value["targetLufs"]["high"])
+
+    def test_table_rejects_trigger_below_target_high(self):
+        from presets import validate_table
+        table = json.loads(self.TABLE.read_text(encoding="utf-8"))
+        table["sensitivity"]["high"]["triggerOffset"] = 0
+        with self.assertRaisesRegex(ValueError, "triggerOffset"):
+            validate_table(table)
+
+    def make_app(self, folder, source=None):
+        return AppState(settings_path=Path(folder) / "settings.json", source=source,
+                        start_worker=False)
+
+    def test_simple_choices_derive_raw_and_advanced_edit_marks_custom(self):
+        with tempfile.TemporaryDirectory() as folder:
+            app = self.make_app(folder)
+            try:
+                value = app.update_settings({"preset": {"comfortLufs": -30.0, "sensitivity": "high",
+                                                        "speed": "gentle", "maxReductionDb": 8}})
+                self.assertEqual(value["preset"]["mode"], "simple")
+                self.assertEqual(value["triggerLufs"], -28.0)
+                self.assertEqual(value["targetLufs"], {"low": -33.0, "high": -29.0})
+                self.assertEqual(value["lowerSustainSeconds"], 1.5)
+                self.assertEqual(value["lowerGain"], 0.4)
+                self.assertEqual(value["maxLowerDbPerSecond"], 1.0)
+                self.assertEqual(value["maxAutoAttenuationDb"], 8.0)
+                unchanged = app.update_settings({"triggerLufs": -28.0, "mode": "shadow"})
+                self.assertEqual(unchanged["preset"]["mode"], "simple")
+                custom = app.update_settings({"triggerLufs": -25.0})
+                self.assertEqual(custom["preset"]["mode"], "custom")
+                self.assertEqual(custom["triggerLufs"], -25.0)
+                self.assertEqual(custom["preset"]["comfortLufs"], -30.0)
+                restored = app.update_settings({"preset": {"mode": "simple"}})
+                self.assertEqual(restored["preset"]["mode"], "simple")
+                self.assertEqual(restored["triggerLufs"], -28.0)
+                with self.assertRaisesRegex(ValueError, "灵敏度"):
+                    app.update_settings({"preset": {"sensitivity": "extreme"}})
+                with self.assertRaisesRegex(ValueError, "最多压低"):
+                    app.update_settings({"preset": {"maxReductionDb": 30}})
+                saved = json.loads(app.settings_path.read_text(encoding="utf-8"))
+                self.assertEqual(saved["preset"]["mode"], "simple")
+            finally:
+                app.close()
+
+    def test_comfort_capture_uses_recent_median_output_loudness(self):
+        with tempfile.TemporaryDirectory() as folder:
+            app = self.make_app(folder)
+            try:
+                base = app.status()["timestampMs"]
+                app.history_rows.clear()
+                for index in range(40):
+                    app.history_rows.append({"timestampMs": base + index * 250,
+                                             "effectiveLufs": -40.0 + (index % 3),
+                                             "isSilent": False})
+                result = app.capture_comfort({"action": "capture"})
+                self.assertEqual(result["comfortLufs"], -39.0)
+                self.assertEqual(result["settings"]["targetLufs"]["high"], -38.0)
+                self.assertEqual(result["settings"]["triggerLufs"], -36.0)
+                app.history_rows.clear()
+                app.history_rows.append({"timestampMs": base, "effectiveLufs": -40.0,
+                                         "isSilent": False})
+                with self.assertRaisesRegex(ValueError, "至少 5 秒"):
+                    app.capture_comfort({"action": "capture"})
+            finally:
+                app.close()
+
+    def test_legacy_settings_file_becomes_custom_and_keeps_values(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "settings.json"
+            legacy = default_settings()
+            del legacy["preset"]
+            legacy.update(triggerLufs=-40.0, targetLufs={"low": -47.0, "high": -43.0},
+                          minSystemVolume=20.0)
+            path.write_text(json.dumps(legacy), encoding="utf-8")
+            app = AppState(settings_path=path, start_worker=False)
+            try:
+                value = app.get_settings()
+                self.assertEqual(value["preset"]["mode"], "custom")
+                self.assertEqual(value["preset"]["comfortLufs"], -44.0)
+                self.assertEqual(value["triggerLufs"], -40.0)
+                self.assertEqual(value["minSystemVolume"], 20.0)
+                restored = app.update_settings({"preset": {"mode": "simple"}})
+                self.assertEqual(restored["triggerLufs"], -41.0)
+                self.assertEqual(restored["minSystemVolume"], 5.0)
+            finally:
+                app.close()
+
+    def test_min_lower_step_ends_lowering_instead_of_micro_steps(self):
+        controller = VolumeController(settings("lower-only", lowerSustainSeconds=1.0,
+                                               sustainRatio=1.0, minLowerStepDb=0.5))
+        controller.step(observation(0, level=-12))
+        self.assertEqual(controller.step(observation(1000, level=-12))["kind"], "lower")
+        for timestamp in (1250, 1500, 1750):
+            controller.step(observation(timestamp, level=-16.5))
+        action = controller.step(observation(2000, level=-16.5))
+        self.assertEqual(action["kind"], "none")
+        self.assertIn("最小下降步长", action["reason"])
+        self.assertFalse(controller.lowering_active)
+
+
+class LowerOnlyExecutorTests(unittest.TestCase):
+    def make_app(self, folder, source):
+        app = AppState(settings_path=Path(folder) / "settings.json", source=source,
+                       start_worker=False)
+        app.update_settings({"triggerLufs": -20.0, "targetLufs": {"low": -30.0, "high": -25.0},
+                             "lowerSustainSeconds": 0.5, "maxLowerDbPerSecond": 2.0,
+                             "maxAutoAttenuationDb": 6.0})
+        return app
+
+    def calibrate(self, app):
+        app.profile_store.save(app.last_observation, {
+            "captureResponse": "pre-volume", "confidence": "high",
+            "evidenceSummary": {"method": "test"}})
+
+    def run_ticks(self, app, start, count):
+        for index in range(count):
+            app.tick(start + index * 250)
+        return start + count * 250
+
+    def test_gate_requires_calibrated_profile(self):
+        with tempfile.TemporaryDirectory() as folder:
+            app = self.make_app(folder, FakeWritableSource())
+            try:
+                with self.assertRaisesRegex(ValueError, "三档校准"):
+                    app.set_mode({"mode": "lower-only"})
+                with self.assertRaisesRegex(ValueError, "自动回升写入"):
+                    app.set_mode({"mode": "automatic"})
+            finally:
+                app.close()
+
+    def test_lowers_with_rate_limit_and_session_cap_then_restores_on_exit(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeWritableSource(volume=0.9)
+            app = self.make_app(folder, source)
+            self.calibrate(app)
+            start = app.status()["timestampMs"] + 250
+            app.tick(start)
+            self.assertEqual(app.set_mode({"mode": "lower-only"})["mode"], "lower-only")
+            self.run_ticks(app, start + 250, 60)
+            self.assertTrue(source.writes)
+            for before, after in source.writes:
+                self.assertLess(after, before)
+                self.assertLessEqual(before - after, 0.5 + 1e-6)
+            final_db = source.endpoint.GetMasterVolumeLevel()
+            self.assertAlmostEqual(final_db, -12.0, places=3)
+            state = app.status()
+            self.assertEqual(state["settings"]["mode"], "lower-only")
+            self.assertIn("最多压低", state["controller"]["lastAction"]["reason"])
+            history = app.history()["actions"]
+            self.assertTrue(any(item["kind"] == "lower" and item["appliedVolume"] is not None
+                                for item in history))
+            log = Path(folder, "windows-executor-events.jsonl").read_text(encoding="utf-8")
+            self.assertIn('"status": "applied"', log)
+            app.close()
+            self.assertAlmostEqual(source.endpoint.volume * 100, 90.0, places=3)
+
+    def test_user_override_ends_session_and_is_never_overwritten(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeWritableSource(volume=0.9)
+            app = self.make_app(folder, source)
+            self.calibrate(app)
+            start = app.status()["timestampMs"] + 250
+            app.tick(start)
+            app.set_mode({"mode": "lower-only"})
+            now = self.run_ticks(app, start + 250, 8)
+            self.assertTrue(source.writes)
+            source.endpoint.volume = 0.95
+            source.user_changed = True
+            writes = len(source.writes)
+            now = self.run_ticks(app, now, 20)
+            self.assertEqual(len(source.writes), writes)
+            self.assertEqual(app.status()["controller"]["state"], "USER_OVERRIDE")
+            app.set_mode({"mode": "shadow"})
+            self.assertAlmostEqual(source.endpoint.volume, 0.95)
+            app.close()
+            self.assertAlmostEqual(source.endpoint.volume, 0.95)
+
+    def test_restore_refused_when_volume_moved_and_platform_failure_disables(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeWritableSource(volume=0.9)
+            app = self.make_app(folder, source)
+            self.calibrate(app)
+            start = app.status()["timestampMs"] + 250
+            app.tick(start)
+            app.set_mode({"mode": "lower-only"})
+            now = self.run_ticks(app, start + 250, 8)
+            source.endpoint.volume = 0.5  # moved by someone else, not yet observed
+            app.set_mode({"mode": "shadow"})
+            self.assertAlmostEqual(source.endpoint.volume, 0.5)
+            source.endpoint.volume = 0.9
+            app.tick(now)
+            app.set_mode({"mode": "lower-only"})
+            source.fail_with = OSError("COM failure")
+            self.run_ticks(app, now + 250, 8)
+            state = app.status()
+            self.assertEqual(state["settings"]["mode"], "shadow")
+            self.assertIn("写入失败", state["executor"]["notice"])
+            app.close()
+
+    def test_startup_never_resumes_lower_only(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "settings.json"
+            saved = default_settings()
+            saved["mode"] = "lower-only"
+            path.write_text(json.dumps(saved), encoding="utf-8")
+            app = AppState(settings_path=path, source=FakeWritableSource(), start_worker=False)
+            try:
+                self.assertEqual(app.status()["settings"]["mode"], "shadow")
+                self.assertIn("不会自动恢复", app.status()["executor"]["notice"])
+            finally:
+                app.close()
+
+
+class AutomaticRecoveryTests(unittest.TestCase):
+    def make_app(self, folder, source, **overrides):
+        app = AppState(settings_path=Path(folder) / "settings.json", source=source,
+                       start_worker=False)
+        app.profile_store.save(app.last_observation, {
+            "captureResponse": "pre-volume", "confidence": "high",
+            "evidenceSummary": {"method": "test"}})
+        settings = {"triggerLufs": -20.0, "targetLufs": {"low": -30.0, "high": -25.0},
+                    "lowerSustainSeconds": 0.5, "maxLowerDbPerSecond": 2.0,
+                    "maxAutoAttenuationDb": 20.0, "recoverySustainSeconds": 0.5,
+                    "maxRaiseDbPerSecond": 2.0, "recoveryCooldownSeconds": 0}
+        settings.update(overrides)
+        app.update_settings(settings)
+        return app
+
+    def run_ticks(self, app, start, count, **changes):
+        source = app.source
+        source.level = changes.get("level", source.level)
+        source.silent = changes.get("silent", False)
+        for index in range(count):
+            app.tick(start + index * 250)
+        return start + count * 250
+
+    def test_automatic_mode_requires_raise_capability(self):
+        with tempfile.TemporaryDirectory() as folder:
+            app = self.make_app(folder, FakeWritableSource(volume=0.5))
+            try:
+                with self.assertRaisesRegex(ValueError, "自动回升写入"):
+                    app.set_mode({"mode": "automatic"})
+            finally:
+                app.close()
+
+    def test_muted_device_is_never_written(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeRaisingSource(volume=0.6, level=5.0)
+            original = source.observe
+            source.observe = lambda timestamp: {**original(timestamp), "muted": True}
+            app = self.make_app(folder, source)
+            try:
+                start = app.status()["timestampMs"] + 250
+                app.tick(start)
+                app.set_mode({"mode": "automatic"})
+                self.run_ticks(app, start + 250, 24, level=5.0)
+                self.assertFalse(source.writes)
+                self.assertIn("静音", app.status()["executor"]["lastResult"]["reason"])
+            finally:
+                app.close()
+
+    def test_recovery_raises_toward_baseline_but_never_above(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeRaisingSource(volume=0.6, level=5.0)
+            app = self.make_app(folder, source)
+            try:
+                start = app.status()["timestampMs"] + 250
+                app.tick(start)
+                self.assertEqual(app.set_mode({"mode": "automatic"})["mode"], "automatic")
+                baseline_db = app.status()["volume"]["systemDb"]
+                # Loud (effective well above trigger): lower so there is headroom to recover.
+                now = self.run_ticks(app, start + 250, 24, level=5.0)
+                lowered = source.endpoint.GetMasterVolumeLevel()
+                self.assertLess(lowered, baseline_db)
+                self.assertTrue(any(item["kind"] == "lower" for item in app.history()["actions"]))
+                # Same song turns quiet: hold the lowered volume.
+                now = self.run_ticks(app, now, 20, level=-55.0)
+                self.assertEqual(source.endpoint.GetMasterVolumeLevel(), lowered)
+                # Song change (silence gap), then quiet content: repay the debt.
+                now = self.run_ticks(app, now, 8, silent=True)
+                now = self.run_ticks(app, now, 80, level=-55.0)
+                recovered = source.endpoint.GetMasterVolumeLevel()
+                self.assertGreater(recovered, lowered)
+                self.assertLessEqual(recovered, baseline_db + 0.6)
+                self.assertGreater(app.status()["executor"]["raiseCount"], 0)
+                self.assertTrue(any(item["kind"] == "recover" and item["appliedVolume"] is not None
+                                    for item in app.history()["actions"]))
+                raises = [item for item in app.history()["actions"] if item["kind"] == "recover"]
+                for item in raises:
+                    if item["appliedVolume"] is not None:
+                        self.assertLessEqual(item["appliedVolume"], 60 + 0.6)
+                log = Path(folder, "windows-executor-events.jsonl").read_text(encoding="utf-8")
+                self.assertIn('"direction": "raise"', log)
+            finally:
+                app.close()
+
+    def test_user_lowering_during_recovery_sets_new_ceiling(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeRaisingSource(volume=0.6, level=5.0)
+            app = self.make_app(folder, source)
+            try:
+                start = app.status()["timestampMs"] + 250
+                app.tick(start)
+                app.set_mode({"mode": "automatic"})
+                now = self.run_ticks(app, start + 250, 16, level=5.0)
+                # User turns it down; this becomes the new baseline/ceiling.
+                source.endpoint.volume = 0.3
+                source.user_changed = True
+                app.tick(now); now += 250
+                now = self.run_ticks(app, now, 80, level=-55.0)
+                self.assertLessEqual(source.endpoint.volume, 0.3 + 0.01)
+            finally:
+                app.close()
 
 
 if __name__ == "__main__":

@@ -61,7 +61,16 @@
     .legend-item { display: inline-flex; align-items: center; gap: 6px; }
     .legend-line, .legend-band { width: 18px; height: 3px; border-radius: 2px; background: var(--accent); }
     .legend-effective { background: var(--good); height: 4px; }
-    .legend-trigger { background: #d45b74; height: 2px; }
+      .legend-trigger { background: #d45b74; height: 2px; }
+      .legend-raise { background: #2f6bd6; height: 2px; }
+      .judging { margin-top: 8px; padding: 8px 10px; border-radius: 7px; background: color-mix(in srgb, var(--accent) 10%, transparent); line-height: 1.6; }
+      .trigger-lines { margin-top: 8px; display: grid; gap: 6px; font-size: 13px; color: var(--muted); }
+      .trigger-lines .line { display: flex; align-items: baseline; gap: 8px; padding: 6px 10px; border-radius: 7px; border: 1px solid var(--border, #393d41); }
+      .trigger-lines .swatch { flex: none; width: 18px; height: 0; border-top: 2px dashed; transform: translateY(-3px); }
+      .trigger-lines .down .swatch { border-color: #d45b74; }
+      .trigger-lines .up .swatch { border-color: #2f6bd6; }
+      .trigger-lines .band .swatch { height: 9px; border: none; transform: none; background: color-mix(in srgb, var(--good) 24%, transparent); }
+      .trigger-lines b { color: var(--text, inherit); font-weight: 600; }
     .legend-volume { background: var(--warn); height: 2px; }
     .legend-band { height: 9px; background: color-mix(in srgb, var(--good) 24%, transparent); }
     .chart-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-top: 8px; }
@@ -81,6 +90,51 @@
     .event-list li { display: grid; grid-template-columns: 78px 110px 1fr; gap: 10px; padding: 8px 0; border-top: 1px solid var(--border); font-size: 12px; }
     .event-list time, .event-kind { color: var(--muted); font-variant-numeric: tabular-nums; }
     .empty { color: var(--muted); padding: 8px 0; }
+    .field[data-help] > label { cursor: help; }
+    .simple { display: grid; gap: 12px; margin-top: 14px; }
+    .simple-row { display: grid; grid-template-columns: 72px 1fr; align-items: center; gap: 10px; }
+    .simple-label { font-size: 12px; color: var(--muted); cursor: help; }
+    .simple-row:hover .simple-label { color: var(--text); }
+    .simple-control { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; min-width: 0; }
+    .segmented { display: inline-flex; border: 1px solid var(--border); border-radius: 9px; overflow: hidden; }
+    .segmented button { border: 0; border-radius: 0; padding: 6px 12px; background: var(--panel-2); }
+    .segmented button + button { border-left: 1px solid var(--border); }
+    .segmented button.active { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+    .segmented button:disabled, .simple-control button:disabled, .simple-control input:disabled { opacity: .45; cursor: not-allowed; }
+    .comfort-value { font-variant-numeric: tabular-nums; font-weight: 600; }
+    .comfort-live { font-size: 12px; color: var(--muted); }
+    input[type="range"] { flex: 1; min-width: 120px; accent-color: var(--accent); }
+    .range-value { min-width: 48px; text-align: right; font-variant-numeric: tabular-nums; }
+    .preset-badge { font-size: 12px; padding: 3px 9px; border-radius: 999px; border: 1px solid var(--border); color: var(--good); white-space: nowrap; cursor: help; }
+    .preset-badge.custom { color: var(--warn); border-color: var(--warn); }
+    .simple-summary { font-size: 12px; color: var(--muted); line-height: 1.5; }
+    .custom-note { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 8px 10px; border-radius: 9px; border: 1px solid var(--warn); font-size: 12px; color: var(--warn); }
+    .custom-note[hidden] { display: none; }
+    .simple.is-custom .tunable { opacity: .55; }
+    details.advanced { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 10px; }
+    details.advanced > summary { cursor: pointer; color: var(--accent); font-size: 13px; list-style: none; user-select: none; }
+    details.advanced > summary::before { content: "▸ "; }
+    details.advanced[open] > summary::before { content: "▾ "; }
+    details.advanced > summary span { color: var(--muted); font-size: 12px; margin-left: 6px; }
+    .device-tools { margin-top: 14px; border-top: 1px solid var(--border); padding-top: 10px; }
+    .device-tools h3 { margin: 0 0 6px; font-size: 13px; }
+    .field[data-help] > label::after {
+      content: "?"; display: inline-grid; place-items: center; width: 14px; height: 14px;
+      margin-left: 5px; border: 1px solid var(--border); border-radius: 50%;
+      font-size: 10px; line-height: 1; color: var(--muted); vertical-align: 1px;
+    }
+    .field[data-help]:hover > label, .field[data-help]:focus-within > label { color: var(--text); }
+    .field[data-help]:hover > label::after, .field[data-help]:focus-within > label::after { border-color: var(--accent); color: var(--accent); }
+    #help-tip {
+      position: fixed; z-index: 50; max-width: 340px; padding: 10px 12px; border-radius: 9px;
+      border: 1px solid var(--border); background: var(--panel); color: var(--text);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .28); font-size: 12px; line-height: 1.55;
+      white-space: pre-line; pointer-events: none; opacity: 0; transition: opacity .12s;
+    }
+    #help-tip.show { opacity: 1; }
+    #help-tip strong { display: block; margin-bottom: 4px; font-size: 13px; }
+    #help-tip .tip-note { display: block; margin-top: 6px; color: var(--warn); }
+    #help-tip .tip-live { display: block; margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--border); color: var(--muted); font-variant-numeric: tabular-nums; }
     @media (max-width: 820px) {
       body { padding: 8px; }
       header { align-items: flex-start; flex-direction: column; }
@@ -102,7 +156,7 @@
         <div class="mark" aria-hidden="true">A</div>
         <div><div class="title">System Audio Auto Volume</div><div class="sub" id="device">正在连接本机服务…</div></div>
       </div>
-      <div class="header-actions"><span class="badge" id="state">连接中</span><select id="mode" aria-label="控制模式"><option value="monitor">只监控</option><option value="shadow">影子决策</option><option value="lower-only">模拟只压低</option><option value="automatic">模拟完整自动</option></select></div>
+      <div class="header-actions"><span class="badge" id="state">连接中</span></div>
     </header>
     <main>
       <div class="notice" id="notice">M0–M2 模拟模式：当前数据与系统音量均为模拟值，不会读取或修改电脑真实音量。</div>
@@ -118,30 +172,50 @@
         <section class="card chart-panel" aria-labelledby="history-title">
           <div class="panel-head"><div><h2 id="history-title">最近 60 秒</h2><div class="sub" id="chart-subtitle">模拟响度、目标区间和系统音量</div></div><div class="sub" id="scenario">—</div></div>
           <canvas id="chart" role="img" aria-label="最近六十秒模拟响度与系统音量趋势"></canvas>
-          <div class="chart-legend" aria-label="图表图例"><span class="legend-item"><i class="legend-line"></i>源 Short-term</span><span class="legend-item"><i class="legend-line legend-effective"></i>输出估算（控制依据）</span><span class="legend-item"><i class="legend-band"></i>输出估算目标区间</span><span class="legend-item"><i class="legend-line legend-trigger"></i>开始降低触发线</span><span class="legend-item"><i class="legend-line legend-volume"></i>系统音量趋势（非 LUFS 轴）</span></div>
+          <div class="chart-legend" aria-label="图表图例"><span class="legend-item"><i class="legend-line"></i>源 Short-term</span><span class="legend-item"><i class="legend-line legend-effective"></i>输出估算（控制依据）</span><span class="legend-item"><i class="legend-band"></i>输出估算目标区间</span><span class="legend-item"><i class="legend-line legend-trigger"></i>压低触发线</span><span class="legend-item"><i class="legend-line legend-raise"></i>回升上限（还回后响部不超过）</span><span class="legend-item"><i class="legend-line legend-volume"></i>系统音量趋势（非 LUFS 轴）</span></div>
           <div class="chart-foot"><div class="note" id="target-note">目标区间 —</div><div class="scenario-buttons" id="simulation-controls" aria-label="模拟场景"><button data-scenario="normal">目标范围</button><button data-scenario="loud">持续偏响</button><button data-scenario="quiet">持续偏轻</button><button data-scenario="peak">短峰值</button><button data-scenario="fade">渐弱</button><button data-scenario="silence">静音</button></div></div>
+          <div class="note judging" id="judging">—</div>
+          <div class="trigger-lines" id="comfort-lines" aria-label="触发线说明"></div>
         </section>
 
         <section class="card settings" aria-labelledby="settings-title">
-          <div class="panel-head"><div><h2 id="settings-title">控制设置</h2><div class="sub" id="settings-subtitle">服务端会重新校验所有输入</div></div><button type="button" id="suggest-settings" hidden>按最近 15 秒生成起始参数</button></div>
-          <form id="settings-form">
-            <div class="settings-grid">
-              <div class="field"><label for="trigger">输出估算触发响度 LUFS</label><input id="trigger" type="number" min="-70" max="0" step="0.5" required></div>
-              <div class="field"><label for="silence">静音门 dBFS</label><input id="silence" type="number" min="-100" max="-20" step="1" required></div>
-              <div class="field full"><label>输出估算目标区间 LUFS</label><div class="field-pair"><input id="target-low" aria-label="目标响度下沿" type="number" min="-70" max="0" step="0.5" required><input id="target-high" aria-label="目标响度上沿" type="number" min="-70" max="0" step="0.5" required></div></div>
-              <div class="field full"><label>系统音量范围 %</label><div class="field-pair"><input id="volume-min" aria-label="最低系统音量" type="number" min="0" max="100" step="1" required><input id="volume-max" aria-label="最高系统音量" type="number" min="0" max="100" step="1" required></div></div>
-              <input id="lower-step" type="hidden">
-              <div class="field"><label for="lower-gain">偏差转下降比例</label><input id="lower-gain" type="number" min="0.1" max="1" step="0.1" required></div>
-              <div class="field"><label for="lower-rate">每秒最多下降 dB</label><input id="lower-rate" type="number" min="0.1" max="12" step="0.1" required></div>
-              <div class="field"><label for="lower-db-step">最小下降建议 dB</label><input id="lower-db-step" type="number" min="0.1" max="3" step="0.05" required></div>
-              <div class="field"><label for="lower-wait">偏响证据窗口秒数</label><input id="lower-wait" type="number" min="0.25" max="60" step="0.25" required></div>
-              <div class="field"><label for="sustain-ratio">窗口超阈值比例 %</label><input id="sustain-ratio" type="number" min="50" max="100" step="1" required></div>
-              <div class="field"><label for="recovery-step">每次恢复 %</label><input id="recovery-step" type="number" min="0.1" max="10" step="0.1" required></div>
-              <div class="field"><label for="recovery-wait">偏轻持续秒数</label><input id="recovery-wait" type="number" min="1" max="300" step="1" required></div>
-              <div class="field full"><label for="override">手动调节后让路秒数</label><input id="override" type="number" min="0" max="600" step="1" required></div>
-            </div>
-            <div class="settings-actions"><div class="test-actions"><button type="button" id="switch-device">模拟切换设备</button><button type="button" id="test-volume" hidden>测试降低 1 个百分点</button><button type="button" id="restore-volume" hidden>安全恢复</button></div><button class="primary" type="submit">保存设置</button></div>
-          </form>
+          <div class="panel-head"><div><h2 id="settings-title">控制设置</h2><div class="sub" id="settings-subtitle">选好模式和舒适音量即可，其余参数自动换算</div></div><span class="preset-badge" id="preset-badge">简易推荐</span></div>
+          <div class="simple" id="simple-panel">
+            <div class="simple-row" id="row-mode"><div class="simple-label">模式</div><div class="simple-control"><div class="segmented" id="mode-group" role="group" aria-label="控制模式"><button type="button" data-value="monitor">关闭</button><button type="button" data-value="shadow">只提示</button><button type="button" data-value="lower-only">自动压低</button><button type="button" data-value="automatic">自动调节</button></div></div></div>
+            <div class="simple-row" id="row-comfort"><div class="simple-label">舒适音量</div><div class="simple-control tunable"><span class="comfort-value" id="comfort-value">—</span><button type="button" id="comfort-capture">就用现在的音量</button><span class="comfort-live" id="comfort-live"></span></div></div>
+
+            <div class="simple-row" id="row-sensitivity"><div class="simple-label">灵敏度</div><div class="simple-control tunable"><div class="segmented" id="sensitivity-group" role="group" aria-label="灵敏度"><button type="button" data-value="low">迟钝</button><button type="button" data-value="standard">标准</button><button type="button" data-value="high">灵敏</button></div></div></div>
+            <div class="simple-row" id="row-speed"><div class="simple-label">压低速度</div><div class="simple-control tunable"><div class="segmented" id="speed-group" role="group" aria-label="压低速度"><button type="button" data-value="gentle">柔和</button><button type="button" data-value="standard">标准</button><button type="button" data-value="fast">快速</button></div></div></div>
+            <div class="simple-row" id="row-max-reduction"><div class="simple-label">本次最多压低</div><div class="simple-control tunable"><input type="range" id="max-reduction" min="6" max="20" step="1" aria-label="本次最多压低 dB"><span class="range-value" id="max-reduction-value">— dB</span></div></div>
+            <div class="custom-note" id="custom-note" hidden><span>正在使用高级设置里的自定义参数，上面的简易选项暂不生效。</span><button type="button" id="restore-simple">恢复简易推荐</button></div>
+            <div class="simple-summary" id="simple-summary">—</div>
+          </div>
+          <details class="advanced" id="advanced">
+            <summary>高级设置<span>直接编辑原始参数，保存后标记为“自定义”</span></summary>
+            <form id="settings-form">
+              <div class="settings-grid">
+                <div class="field"><label for="trigger">输出估算触发响度 LUFS</label><input id="trigger" type="number" min="-70" max="0" step="0.5" required></div>
+                <div class="field"><label for="max-auto-attenuation">本次最多自动压低 dB</label><input id="max-auto-attenuation" type="number" min="1" max="40" step="0.5" required></div>
+                <div class="field full"><label>输出估算目标区间 LUFS</label><div class="field-pair"><input id="target-low" aria-label="目标响度下沿" type="number" min="-70" max="0" step="0.5" required><input id="target-high" aria-label="目标响度上沿" type="number" min="-70" max="0" step="0.5" required></div></div>
+                <div class="field"><label for="lower-gain">偏差转下降比例</label><input id="lower-gain" type="number" min="0.1" max="1" step="0.1" required></div>
+                <div class="field"><label for="lower-rate">每秒最多下降 dB</label><input id="lower-rate" type="number" min="0.1" max="12" step="0.1" required></div>
+                <div class="field"><label for="lower-wait">偏响证据窗口秒数</label><input id="lower-wait" type="number" min="0.25" max="60" step="0.25" required></div>
+                <div class="field"><label for="sustain-ratio">窗口超阈值比例 %</label><input id="sustain-ratio" type="number" min="50" max="100" step="1" required></div>
+                <div class="field"><label for="volume-min">最低系统音量 %</label><input id="volume-min" type="number" min="0" max="100" step="1" required></div>
+                <div class="field"><label for="silence">静音门 dBFS</label><input id="silence" type="number" min="-100" max="-20" step="1" required></div>
+                <div class="field"><label for="override">手动调节后让路秒数</label><input id="override" type="number" min="0" max="600" step="1" required></div>
+                <div class="field"><label for="recovery-wait">回升判定窗口秒数</label><input id="recovery-wait" type="number" min="0.5" max="300" step="0.5" required></div>
+                <div class="field"><label for="song-gap">换歌静音秒数</label><input id="song-gap" type="number" min="0.5" max="30" step="0.5" required></div>
+                <div class="field"><label for="song-hold">无换歌最长保持秒数</label><input id="song-hold" type="number" min="30" max="1800" step="10" required></div>
+                <div class="field"><label for="raise-rate">每秒最多回升 dB</label><input id="raise-rate" type="number" min="0.05" max="6" step="0.05" required></div>
+                <div class="field"><label for="cooldown">压低后冷却秒数</label><input id="cooldown" type="number" min="0" max="600" step="1" required></div>
+              </div>
+              <div class="settings-actions"><span class="sub" id="advanced-dirty"></span><button class="primary" type="submit">保存高级设置</button></div>
+            </form>
+          </details>
+          <div class="device-tools">
+            <h3>设备与测试</h3>
+            <div class="test-actions"><button type="button" id="switch-device">模拟切换设备</button><button type="button" id="test-volume" hidden>测试降低 1 个百分点</button><button type="button" id="restore-volume" hidden>安全恢复</button></div>
           <div id="calibration-panel" hidden>
             <h3>输出设备校准</h3>
             <div class="sub" id="calibration-status">尚未校准</div>
@@ -152,6 +226,7 @@
               <button type="button" id="calibration-cancel">取消</button>
             </div>
           </div>
+          </div>
         </section>
       </div>
 
@@ -159,11 +234,14 @@
     </main>
   </div>
 
+  <div id="help-tip" role="tooltip" aria-hidden="true"></div>
+
   <script>
     const $ = id => document.getElementById(id);
     let settingsLoaded = false;
     let rows = [];
     let simulated = true;
+    let liveSettings = null;
 
     async function api(path, options) {
       const response = await fetch(path, options);
@@ -175,30 +253,84 @@
     function stateLabel(value) {
       return ({MONITORING:'只监控', SHADOW:'影子决策', OBSERVING_HIGH:'确认偏响', OBSERVING_LOW:'确认偏轻', AUTO_HOLDING:'目标范围内', LOWERING:'正在压低', RECOVERING:'缓慢恢复', USER_OVERRIDE:'用户接管', RECALIBRATING:'重新校准', UNSUPPORTED:'设备不可控', SUSPENDED:'监测暂停'})[value] || value;
     }
-    function showError(error) { $('error').textContent = error.message || String(error); $('error').style.display = 'block'; }
-    function clearError() { $('error').style.display = 'none'; }
+    let errorUntil = 0;
+    function showError(error) { $('error').textContent = error.message || String(error); $('error').style.display = 'block'; errorUntil = Date.now() + 8000; }
+    function clearError() { errorUntil = 0; $('error').style.display = 'none'; }
+    function clearStaleError() { if (Date.now() > errorUntil) $('error').style.display = 'none'; }
 
+    let formDirty = false;
+    let populatedAt = null;
+    let presetTable = null;
     function populateSettings(settings) {
-      $('mode').value = settings.mode;
       $('trigger').value = settings.triggerLufs;
       $('target-low').value = settings.targetLufs.low;
       $('target-high').value = settings.targetLufs.high;
       $('volume-min').value = settings.minSystemVolume;
-      $('volume-max').value = settings.maxSystemVolume;
-      $('lower-step').value = settings.lowerStepPercent;
       $('lower-gain').value = settings.lowerGain;
       $('lower-rate').value = settings.maxLowerDbPerSecond;
-      $('lower-db-step').value = settings.minLowerStepDb;
-      $('recovery-step').value = settings.recoveryStepPercent;
+      $('max-auto-attenuation').value = settings.maxAutoAttenuationDb;
       $('lower-wait').value = settings.lowerSustainSeconds;
       $('sustain-ratio').value = Math.round(settings.sustainRatio * 100);
-      $('recovery-wait').value = settings.recoverySustainSeconds;
       $('override').value = settings.manualOverrideSeconds;
+      $('recovery-wait').value = settings.recoverySustainSeconds;
+      $('song-gap').value = settings.songGapSeconds;
+      $('song-hold').value = settings.songHoldMaxSeconds;
+      $('raise-rate').value = settings.maxRaiseDbPerSecond;
+      $('cooldown').value = settings.recoveryCooldownSeconds;
       $('silence').value = settings.silenceGateDbfs;
       settingsLoaded = true;
+      formDirty = false;
+      populatedAt = settings.updatedAt;
+      $('advanced-dirty').textContent = '';
+    }
+    function setActive(groupId, value) {
+      $(groupId).querySelectorAll('button').forEach(button => button.classList.toggle('active', button.dataset.value === value));
+    }
+    function renderSimple(status) {
+      const settings = status.settings;
+      const preset = settings.preset;
+      const custom = preset.mode === 'custom';
+      const executor = status.executor;
+      const lowerOnly = settings.mode === 'lower-only';
+      const executing = settings.mode === 'lower-only' || settings.mode === 'automatic';
+      const badge = $('preset-badge');
+      badge.textContent = custom ? '已自定义' : '简易推荐';
+      badge.classList.toggle('custom', custom);
+      $('simple-panel').classList.toggle('is-custom', custom);
+      $('custom-note').hidden = !custom;
+      setActive('mode-group', settings.mode);
+      $('mode-group').querySelectorAll('button').forEach(button => {
+        const value = button.dataset.value;
+        button.textContent = ({monitor:'关闭', shadow:'只提示', 'lower-only':'自动压低', automatic:'自动调节'})[value];
+        const gate = value === 'automatic' ? (executor && executor.automaticGate)
+          : value === 'lower-only' ? (executor && executor.gate) : null;
+        button.disabled = !simulated && Boolean(gate) && settings.mode !== value;
+        button.title = button.disabled ? `暂不可用：${gate}` : '';
+      });
+      $('comfort-value').textContent = `${number(preset.comfortLufs)} LUFS`;
+      const effective = status.measurement.effectiveLufs;
+      $('comfort-live').textContent = effective == null ? '' : `现在 ${number(effective)}`;
+      const canRaise = settings.mode === 'automatic' || settings.mode === 'shadow';
+      $('comfort-lines').innerHTML =
+        `<div class="line down"><i class="swatch"></i><span>输出估算高于 <b>${number(settings.triggerLufs)}</b> 持续 ${number(settings.lowerSustainSeconds)} 秒（占比 ${number(settings.sustainRatio * 100, 0)}%）→ 开始压低，压到目标上沿 <b>${number(settings.targetLufs.high)}</b> 停</span></div>`
+        + `<div class="line band"><i class="swatch"></i><span>目标区间 <b>${number(settings.targetLufs.low)}</b> 至 <b>${number(settings.targetLufs.high)}</b>，舒适音量 ${number(preset.comfortLufs)}</span></div>`
+        + `<div class="line up"><i class="swatch"></i><span>${canRaise
+          ? `有被压掉的音量时，换歌（静音 ≥ ${number(settings.songGapSeconds)} 秒）后开始回升；预测还回后最近 ${number(settings.recoverySustainSeconds, 0)} 秒的响部不超过回升上限 <b>${number(settings.targetLufs.high - settings.recoveryHeadroomLu)}</b> 才升，最多回到开启时的音量`
+          : '当前模式不回升（只有“自动调节”和“只提示”会回升或模拟回升）'}</span></div>`;
+      setActive('sensitivity-group', preset.sensitivity);
+      setActive('speed-group', preset.speed);
+      $('comfort-capture').disabled = custom;
+      document.querySelectorAll('#sensitivity-group button, #speed-group button').forEach(button => { button.disabled = custom; });
+      const slider = $('max-reduction');
+      if (presetTable) { slider.min = presetTable.maxReductionDb.min; slider.max = presetTable.maxReductionDb.max; slider.step = presetTable.maxReductionDb.step; }
+      slider.disabled = custom;
+      if (document.activeElement !== slider) { slider.value = preset.maxReductionDb; $('max-reduction-value').textContent = `${number(preset.maxReductionDb, 0)} dB`; }
+      $('simple-summary').textContent = `${custom ? '当前生效（自定义）' : '换算结果'}：触发 ${number(settings.triggerLufs)} · 目标 ${number(settings.targetLufs.low)} 至 ${number(settings.targetLufs.high)} LUFS · 证据 ${number(settings.lowerSustainSeconds)} 秒 / ${number(settings.sustainRatio * 100, 0)}% · 每秒最多降 ${number(settings.maxLowerDbPerSecond)} dB · 最多压低 ${number(settings.maxAutoAttenuationDb, 0)} dB · 回升每秒最多 ${number(settings.maxRaiseDbPerSecond)} dB（本首歌压低过则保持到换歌，静音 ≥ ${number(settings.songGapSeconds)} 秒算换歌；看最近 ${number(settings.recoverySustainSeconds, 0)} 秒响部）· 最低音量 ${number(settings.minSystemVolume, 0)}%`;
+      if (!settingsLoaded || (!formDirty && populatedAt !== settings.updatedAt)) populateSettings(settings);
     }
     function renderStatus(status) {
       simulated = status.simulated;
+      liveSettings = status.settings;
       const measurement = status.measurement;
       const volume = status.volume;
       const action = status.controller.lastAction;
@@ -219,7 +351,7 @@
       $('levels').textContent = simulated
         ? `Momentary ${number(measurement.momentaryLufs)} LUFS · RMS ${number(measurement.rmsDbfs)} dBFS · Peak ${number(measurement.peakDbfs)} dBFS`
         : `${effectiveText} · ${hasLoudness ? `Momentary ${number(measurement.momentaryLufs)} LUFS · ` : ''}RMS ${number(measurement.rmsDbfs)} dBFS · Peak ${number(measurement.peakDbfs)} dBFS · ${measurement.sampleRate ? `${number(measurement.sampleRate, 0)} Hz` : '采样率 —'} · 丢帧 ${measurement.droppedFrames ?? '—'}`;
-      $('volume-label').textContent = simulated ? '当前模拟系统音量' : '当前系统音量（只读）';
+      $('volume-label').textContent = simulated ? '当前模拟系统音量' : status.settings.mode === 'automatic' ? '当前系统音量（自动调节）' : status.settings.mode === 'lower-only' ? '当前系统音量（自动压低）' : '当前系统音量（只读）';
       $('volume').firstChild.textContent = `${number(volume.system, 0)}`;
       const responseLabel = ({'pre-volume':'音量前捕获','post-volume':'音量后捕获','unreliable':'捕获不可靠',unknown:'未校准'})[measurement.captureResponse] || measurement.captureResponse;
       $('baseline').textContent = simulated
@@ -227,14 +359,28 @@
         : `${status.device.volumeReadable ? `${status.platform === 'windows' ? 'EndpointVolume' : 'Core Audio'} 实际读数` : '设备未提供主音量读数'} · ${volume.dbMappingReliable ? `${number(volume.systemDb)} dB（范围 ${number(volume.dbMin)} 至 ${number(volume.dbMax)} dB）` : 'dB 映射不可用'} · ${responseLabel}`;
       const dbSuggestion = shadowEnabled ? volume.recommendedAttenuationDb : null;
       const correction = dbSuggestion ?? (shadowEnabled ? volume.recommendedCorrectionPercentPoints : volume.correctionPercentPoints);
-      $('correction-label').textContent = dbSuggestion != null ? '影子 dB 建议' : shadowEnabled ? '影子建议' : '自动修正';
-      $('correction-unit').textContent = dbSuggestion != null ? 'dB' : '个百分点';
-      $('correction').firstChild.textContent = correction == null ? '— ' : `${correction > 0 ? '+' : ''}${number(correction)} `;
-      $('reason').textContent = status.device.error || (shadowEnabled && volume.recommended != null
+      const ctl = status.controller;
+      const session = status.executor && status.executor.session;
+      if (!simulated && shadowEnabled && ctl.shadowOffsetDb != null) {
+        $('correction-label').textContent = '影子模拟：累计调整';
+        $('correction-unit').textContent = 'dB';
+        $('correction').firstChild.textContent = `${ctl.shadowOffsetDb > 0 ? '+' : ''}${number(ctl.shadowOffsetDb)} `;
+      } else if (!simulated && session && session.baselineVolumeDb != null && volume.systemDb != null) {
+        const delta = volume.systemDb - session.baselineVolumeDb;
+        $('correction-label').textContent = '相对开启时';
+        $('correction-unit').textContent = 'dB';
+        $('correction').firstChild.textContent = `${delta > 0.005 ? '+' : ''}${number(delta)} `;
+      } else {
+        $('correction-label').textContent = dbSuggestion != null ? '影子 dB 建议' : shadowEnabled ? '影子建议' : '自动修正';
+        $('correction-unit').textContent = dbSuggestion != null ? 'dB' : '个百分点';
+        $('correction').firstChild.textContent = correction == null ? '— ' : `${correction > 0 ? '+' : ''}${number(correction)} `;
+      }
+      const songNote = ctl.songLowered ? ' · 本首歌压低过' : '';
+      $('reason').textContent = status.device.error || (shadowEnabled && volume.recommendedDb != null
+        ? `${action.reason} · 模拟音量 ${number(action.beforeVolumeDb)} dB → ${number(volume.recommendedDb)} dB（未执行）`
+        : shadowEnabled && volume.recommended != null
         ? `${action.reason} · 实际 ${number(volume.system, 0)}% → 建议 ${number(volume.recommended, 0)}%（未执行）`
-        : shadowEnabled && volume.recommendedDb != null
-        ? `${action.reason} · ${number(volume.systemDb)} dB → ${number(volume.recommendedDb)} dB（未执行）`
-        : action.reason || '当前无需调整');
+        : (action.reason || '当前无需调整') + songNote);
       $('peak-guard').firstChild.textContent = guard == null ? '— ' : `${number(guard.suggestedAttenuationDb)} `;
       $('peak-guard-detail').textContent = guard == null ? '等待快速峰值数据'
         : `${({ARMED:'待命', ATTACK:'检测到爆音', HOLD:'建议保持', RELEASE:'建议释放'})[guard.state] || guard.state} · Peak ${number(guard.samplePeakDbfs)} dBFS · 快速 RMS ${number(guard.fastRmsDbfs)} dBFS · 跳升 ${number(guard.relativeJumpDb)} dB · 未执行`;
@@ -243,17 +389,22 @@
         : measurement.effectiveLufs != null
         ? `当前输出估算 ${number(measurement.effectiveLufs)} LUFS；目标 ${status.settings.targetLufs.low} 至 ${status.settings.targetLufs.high}，必须高于 ${status.settings.triggerLufs} 才开始判断${triggerGap > 8 ? `；触发线比目标上沿高 ${number(triggerGap)} LU，跨度可能过大` : ''}`
         : hasLoudness ? '蓝线是源响度；输出估算尚未校准，目标区间暂不参与判断' : '等待响度窗口预热';
+      $('judging').textContent = describeJudging(status);
+      const executor = status.executor;
+      const executingMode = !simulated && (status.settings.mode === 'lower-only' || status.settings.mode === 'automatic');
+      const modeName = status.settings.mode === 'automatic' ? '自动调节' : '自动压低';
+      const sessionBase = executor && executor.session ? number(executor.session.baselineVolume, 0) + '%' : '基准';
       $('notice').textContent = simulated
         ? 'M0–M2 模拟模式：当前数据与系统音量均为模拟值，不会读取或修改电脑真实音量。'
-        : `M8a ${status.platform === 'windows' ? 'Windows' : 'macOS'}：窗口证据只生成影子建议，绝不自动执行；只有下方人工校准按钮可以小幅写入并安全恢复。`;
+        : executingMode
+        ? `${modeName}已开启：${status.settings.mode === 'automatic' ? '偏响时压低、偏轻时在不超过基准的前提下回升' : '只会降低系统音量'}，本次最多压低 ${number(status.settings.maxAutoAttenuationDb)} dB，已写入 ${executor ? executor.writeCount : 0} 次（含回升 ${executor ? executor.raiseCount : 0} 次）；用户调音量、切换设备或校准失效会立即停止，关闭时若音量仍是程序写入值会恢复到 ${sessionBase}。`
+        : executor && executor.notice
+        ? `${executor.notice}。当前为${shadowEnabled ? '影子决策' : '只监控'}，不会自动写入。`
+        : `${status.platform === 'windows' ? 'Windows' : 'macOS'}：当前${shadowEnabled ? '影子决策只生成建议' : '只监控'}，不会自动写入。${executor && executor.gate ? `自动压低暂不可用：${executor.gate}` : '设备已校准，可在控制设置里切到“自动压低”或“自动调节”。'}`;
       $('chart-subtitle').textContent = simulated ? '模拟响度、目标区间和系统音量' : hasLoudness ? '蓝：源响度 · 青：输出估算（用于控制判断）' : '真实 RMS、Peak 与只读系统音量';
-      $('settings-subtitle').textContent = simulated ? '服务端会重新校验所有输入' : '响度阈值作用于青色输出估算线；蓝色源响度仅供对照';
-      $('mode').value = status.settings.mode;
-      $('mode').disabled = false;
-      Array.from($('mode').options).forEach(option => { option.disabled = !simulated && !['monitor', 'shadow'].includes(option.value); });
+      renderSimple(status);
       $('simulation-controls').hidden = !simulated;
       $('switch-device').hidden = !simulated;
-      $('suggest-settings').hidden = simulated;
       $('test-volume').hidden = simulated;
       $('restore-volume').hidden = simulated;
       $('test-volume').disabled = simulated || !status.device.volumeWritableCapability || status.manualVolumeTestPending;
@@ -270,7 +421,6 @@
       $('calibration-finish').disabled = simulated || !calibration.active || points < 3;
       $('calibration-cancel').disabled = simulated || !calibration.active;
       $('chart').setAttribute('aria-label', simulated ? '最近六十秒模拟响度与系统音量趋势' : hasLoudness ? '最近六十秒源响度、输出估算与系统音量趋势' : '最近六十秒真实 RMS 与系统音量趋势');
-      if (!settingsLoaded) populateSettings(status.settings);
     }
 
     function renderEvents(actions, peakGuardEvents) {
@@ -288,9 +438,12 @@
           ? `${new Date(eventWindow.firstTimestampMs).toLocaleTimeString()}–${new Date(eventWindow.lastTimestampMs).toLocaleTimeString()}`
           : new Date(action.timestampMs).toLocaleTimeString();
         const isPeakGuard = action.schemaVersion === 'system-audio.peak-guard-event/v1';
-        const kind = document.createElement('span'); kind.className = 'event-kind'; kind.textContent = isPeakGuard ? 'Peak Guard' : action.kind;
+        const kindLabels = {'would-lower':'影子建议（压低）', lower:'自动压低', 'would-recover':'影子建议（回升）', recover:'自动回升', 'executor-started':'开启自动调节', 'executor-stopped':'停止自动调节', 'executor-mode':'切换模式', 'manual-override':'用户接管', 'device-change':'设备切换'};
+        const kind = document.createElement('span'); kind.className = 'event-kind'; kind.textContent = isPeakGuard ? 'Peak Guard' : (kindLabels[action.kind] || action.kind);
         const reason = document.createElement('span');
+        const executed = action.appliedVolumeDb != null || action.appliedVolume != null;
         const change = isPeakGuard ? `（建议 ${number(action.suggestedAttenuationDb)} dB，未执行）`
+          : executed && action.appliedVolumeDb != null ? `（${number(action.beforeVolumeDb)} dB → ${number(action.appliedVolumeDb)} dB，已执行${action.appliedVolume != null ? `，${number(action.appliedVolume, 1)}%` : ''}）`
           : action.recommendedVolumeDb != null ? `（${number(action.beforeVolumeDb)} dB → ${number(action.recommendedVolumeDb)} dB${action.execute ? '' : '，未执行'}）`
           : action.recommendedVolume == null ? '' : `（${number(action.beforeVolume, 0)}% → ${number(action.recommendedVolume, 0)}%${action.execute ? '' : '，未执行'}）`;
         const grouped = eventWindow && eventWindow.occurrences > 1
@@ -299,6 +452,45 @@
         reason.textContent = `${grouped}${action.reason}${change}`;
         item.append(time, kind, reason); list.append(item);
       });
+    }
+
+    function describeJudging(status) {
+      if (status.simulated) return '模拟模式：不进行真实判断。';
+      const diag = status.controller && status.controller.diagnostics;
+      if (!diag) return '等待响度数据…';
+      const n = (v, d = 1) => v == null ? '—' : Number(v).toFixed(d);
+      const lo = diag.lower, rz = diag.raise;
+      // Already acting: say so plainly.
+      if (diag.kind === 'lower' || diag.kind === 'would-lower')
+        return `偏响判断已通过，正在${diag.kind === 'lower' ? '压低' : '模拟压低（只提示）'}：输出估算 ${n(lo.levelLufs)} 高于触发 ${n(lo.thresholdLufs)}。`;
+      if (diag.kind === 'recover' || diag.kind === 'would-recover')
+        return `回升条件已满足，正在${diag.kind === 'recover' ? '回升' : '模拟回升（只提示）'}：还有 ${n(rz.debtDb)} dB 压低未还，还回后响部约 ${n(rz.predictedFullLufs)}，仍低于上限 ${n(rz.limitLufs)}。`;
+      // Approaching lowering: above trigger but evidence window not yet met.
+      if (lo.enabled && lo.above) {
+        const needT = lo.windowSeconds < lo.requiredSeconds;
+        const needR = lo.ratio < lo.requiredRatio;
+        return `正在进入压低判断：输出估算 ${n(lo.levelLufs)} 高于触发 ${n(lo.thresholdLufs)}。`
+          + `持续 ${n(lo.windowSeconds)}/${n(lo.requiredSeconds)} 秒，窗口内超线占比 ${n(lo.ratio * 100, 0)}%/${n(lo.requiredRatio * 100, 0)}%。`
+          + (needT || needR ? `还差${needT ? '时长' : ''}${needT && needR ? '和' : ''}${needR ? '占比' : ''}，够了就开始压低。` : '条件已够，即将压低。');
+      }
+      // Has debt to repay: explain which gate recovery is waiting on.
+      if (rz.enabled && rz.debtDb >= 0.05) {
+        if (rz.songLowered && rz.holdLeftSeconds != null && rz.silenceSeconds < rz.songGapSeconds)
+          return `本首歌压低过 ${n(rz.debtDb)} dB，保持中：要静音 ≥ ${n(rz.songGapSeconds)} 秒算换歌才还音量（当前静音 ${n(rz.silenceSeconds)} 秒），或最长再等 ${n(rz.holdLeftSeconds, 0)} 秒。`;
+        if (rz.cooldownLeftSeconds > 0)
+          return `准备回升：压低后冷却中，还剩 ${n(rz.cooldownLeftSeconds, 0)} 秒。`;
+        if (rz.slopeLuPerSecond != null && rz.slopeLuPerSecond < rz.fadeLimitLuPerSecond)
+          return `准备回升，但响度正在下滑（${n(rz.slopeLuPerSecond)} LU/秒，像淡出），先不还音量。`;
+        if (rz.windowSeconds < rz.requiredSeconds)
+          return `准备回升：正在积累判定窗口 ${n(rz.windowSeconds)}/${n(rz.requiredSeconds)} 秒。`;
+        if (rz.roomDb != null && rz.roomDb < 0.25)
+          return `暂不回升：还回 ${n(rz.debtDb)} dB 会让响部到 ${n(rz.predictedFullLufs)}，超过上限 ${n(rz.limitLufs)}；等内容再轻一点。`;
+        return `条件接近满足，即将回升 ${n(rz.debtDb)} dB。`;
+      }
+      if (lo.levelLufs == null) return '响度窗口预热中…';
+      if (rz.enabled)
+        return `稳定区：输出估算 ${n(lo.levelLufs)}，在触发 ${n(lo.thresholdLufs)} 与回升线之间；没有待还的压低，不动音量。`;
+      return `稳定区：输出估算 ${n(lo.levelLufs)}，未达压低触发 ${n(lo.thresholdLufs)}。`;
     }
 
     function drawChart() {
@@ -315,18 +507,22 @@
       const targetBand = dark ? 'rgba(74, 196, 158, .18)' : 'rgba(28, 156, 120, .13)';
       const left = 46, right = width - 12, top = 12, bottom = height - 28;
       context.clearRect(0, 0, width, height);
-      const low = Number($('target-low').value || -21), high = Number($('target-high').value || -17);
-      const trigger = Number($('trigger').value || -15);
+      const live = liveSettings || {targetLufs: {low: -21, high: -17}, triggerLufs: -15, mode: 'monitor'};
+      const low = live.targetLufs.low, high = live.targetLufs.high;
+      const trigger = live.triggerLufs;
       const levels = rows.flatMap(row => [row.shortTermLufs ?? row.rmsDbfs, row.effectiveLufs]).filter(Number.isFinite);
       levels.push(low, high, trigger);
       const yMax = Math.min(0, Math.ceil((Math.max(...levels) + 3) / 10) * 10);
       let yMin = Math.max(-80, Math.floor((Math.min(...levels) - 3) / 10) * 10);
       if (yMax - yMin < 30) yMin = yMax - 30;
       const y = value => top + (yMax - value) / (yMax - yMin) * (bottom - top);
-      if (simulated || ($('mode').value === 'shadow')) { context.fillStyle = targetBand; context.fillRect(left, y(high), right - left, y(low) - y(high)); }
+      if (simulated || live.mode !== 'monitor') { context.fillStyle = targetBand; context.fillRect(left, y(high), right - left, y(low) - y(high)); }
       context.strokeStyle = border; context.fillStyle = muted; context.lineWidth = 1; context.font = '11px system-ui';
       for (let value = yMax; value >= yMin; value -= 10) { context.beginPath(); context.moveTo(left, y(value)); context.lineTo(right, y(value)); context.stroke(); context.fillText(`${value}`, 8, y(value) + 4); }
-      context.save(); context.strokeStyle = triggerColor; context.fillStyle = triggerColor; context.lineWidth = 1.5; context.setLineDash([6, 5]); context.beginPath(); context.moveTo(left, y(trigger)); context.lineTo(right, y(trigger)); context.stroke(); context.setLineDash([]); context.textAlign = 'right'; context.fillText(`触发 ${trigger}`, right, y(trigger) - 4); context.restore();
+      context.save(); context.strokeStyle = triggerColor; context.fillStyle = triggerColor; context.lineWidth = 1.5; context.setLineDash([6, 5]); context.beginPath(); context.moveTo(left, y(trigger)); context.lineTo(right, y(trigger)); context.stroke(); context.setLineDash([]); context.textAlign = 'right'; context.fillText(`压低触发 ${trigger}`, right, y(trigger) - 4); context.restore();
+      const raiseLine = dark ? '#86b8ff' : '#2f6bd6';
+      const raiseLimit = high - (live.recoveryHeadroomLu ?? 1);
+      context.save(); context.strokeStyle = raiseLine; context.fillStyle = raiseLine; context.lineWidth = 1.5; context.setLineDash([3, 4]); context.beginPath(); context.moveTo(left, y(raiseLimit)); context.lineTo(right, y(raiseLimit)); context.stroke(); context.setLineDash([]); context.textAlign = 'right'; context.fillText(`回升上限 ${number(raiseLimit)}`, right, y(raiseLimit) + 12); context.restore();
       if (rows.length > 1) {
         const x = index => left + index / Math.max(1, rows.length - 1) * (right - left);
         const line = (valueFor, color, width) => {
@@ -347,45 +543,66 @@
     }
 
     async function refreshStatus() {
-      try { renderStatus(await api('/api/status')); clearError(); } catch (error) { showError(error); }
+      try { renderStatus(await api('/api/status')); clearStaleError(); } catch (error) { showError(error); }
     }
     async function refreshHistory() {
       try { const value = await api('/api/history'); rows = value.rows; renderEvents(value.actions, value.peakGuardEvents || []); drawChart(); } catch (error) { showError(error); }
     }
+    const postJson = (path, body) => api(path, {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+    async function applySettings(body) {
+      try { await postJson('/api/settings', body); clearError(); } catch (error) { showError(error); }
+      await Promise.all([refreshStatus(), refreshHistory()]);
+    }
+    $('settings-form').addEventListener('input', () => { formDirty = true; $('advanced-dirty').textContent = '有未保存的修改'; });
     $('settings-form').addEventListener('submit', async event => {
       event.preventDefault();
       try {
-        const result = await api('/api/settings', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({
-          mode: $('mode').value,
+        const result = await postJson('/api/settings', {
           triggerLufs: Number($('trigger').value),
           targetLufs: {low:Number($('target-low').value), high:Number($('target-high').value)},
-          minSystemVolume: Number($('volume-min').value), maxSystemVolume: Number($('volume-max').value),
-          lowerStepPercent: Number($('lower-step').value), recoveryStepPercent: Number($('recovery-step').value),
+          minSystemVolume: Number($('volume-min').value),
           lowerGain: Number($('lower-gain').value), maxLowerDbPerSecond: Number($('lower-rate').value),
-          minLowerStepDb: Number($('lower-db-step').value),
-          lowerSustainSeconds: Number($('lower-wait').value), recoverySustainSeconds: Number($('recovery-wait').value),
+          maxAutoAttenuationDb: Number($('max-auto-attenuation').value),
+          lowerSustainSeconds: Number($('lower-wait').value),
           sustainRatio: Number($('sustain-ratio').value) / 100,
-          manualOverrideSeconds: Number($('override').value), silenceGateDbfs: Number($('silence').value)
-        })});
+          manualOverrideSeconds: Number($('override').value), silenceGateDbfs: Number($('silence').value),
+          recoverySustainSeconds: Number($('recovery-wait').value),
+          songGapSeconds: Number($('song-gap').value),
+          songHoldMaxSeconds: Number($('song-hold').value),
+          maxRaiseDbPerSecond: Number($('raise-rate').value),
+          recoveryCooldownSeconds: Number($('cooldown').value)
+        });
         populateSettings(result); clearError(); await refreshStatus();
       } catch (error) { showError(error); }
     });
-    $('suggest-settings').addEventListener('click', () => {
-      const recent = rows.filter(row => !row.isSilent && Number.isFinite(row.effectiveLufs)).slice(-60).map(row => row.effectiveLufs).sort((a, b) => a - b);
-      if (recent.length < 12) return showError(new Error('请先稳定播放一段你觉得音量舒适的内容至少 3 秒'));
-      const middle = Math.floor(recent.length / 2);
-      const median = recent.length % 2 ? recent[middle] : (recent[middle - 1] + recent[middle]) / 2;
-      const half = value => Math.round(value * 2) / 2;
-      $('target-low').value = half(median - 3);
-      $('target-high').value = half(median + 1);
-      $('trigger').value = half(median + 4);
-      $('silence').value = Math.min(Number($('silence').value), -55);
-      clearError(); drawChart();
-      $('target-note').textContent = `已按最近 ${Math.min(15, Math.round(recent.length / 4))} 秒的舒适听感填入目标、触发线和保守静音门；确认后点击“保存设置”`;
+    $('mode-group').addEventListener('click', async event => {
+      const button = event.target.closest('button'); if (!button || button.disabled) return;
+      try { await postJson('/api/mode', {mode: button.dataset.value}); clearError(); } catch (error) { showError(error); }
+      await Promise.all([refreshStatus(), refreshHistory()]);
     });
-    $('mode').addEventListener('change', async () => {
-      try { await api('/api/mode', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({mode:$('mode').value})}); clearError(); } catch (error) { showError(error); }
+    $('sensitivity-group').addEventListener('click', event => {
+      const button = event.target.closest('button'); if (!button || button.disabled) return;
+      applySettings({preset: {sensitivity: button.dataset.value}});
     });
+    $('speed-group').addEventListener('click', event => {
+      const button = event.target.closest('button'); if (!button || button.disabled) return;
+      applySettings({preset: {speed: button.dataset.value}});
+    });
+    $('max-reduction').addEventListener('input', () => { $('max-reduction-value').textContent = `${$('max-reduction').value} dB`; });
+    $('max-reduction').addEventListener('change', () => applySettings({preset: {maxReductionDb: Number($('max-reduction').value)}}));
+    $('restore-simple').addEventListener('click', () => applySettings({preset: {mode: 'simple'}}));
+    $('comfort-capture').addEventListener('click', async () => {
+      try {
+        const result = await postJson('/api/comfort', {action: 'capture'});
+        clearError();
+        $('target-note').textContent = `已把最近 ${number(result.seconds, 0)} 秒的输出估算中位数 ${number(result.comfortLufs)} LUFS 设为舒适音量，相关参数已自动换算`;
+      } catch (error) { showError(error); }
+      await Promise.all([refreshStatus(), refreshHistory()]);
+    });
+    const advanced = $('advanced');
+    advanced.open = localStorage.getItem('advancedOpen') === '1';
+    advanced.addEventListener('toggle', () => localStorage.setItem('advancedOpen', advanced.open ? '1' : '0'));
+    api('/api/presets').then(value => { presetTable = value; }).catch(() => {});
     document.querySelectorAll('[data-scenario]').forEach(button => button.addEventListener('click', async () => {
       try { await api('/api/simulate', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({action:'scenario', id:button.dataset.scenario, seconds:12})}); clearError(); await refreshStatus(); } catch (error) { showError(error); }
     }));
@@ -414,6 +631,153 @@
     $('calibration-capture').addEventListener('click', () => calibrationAction('capture'));
     $('calibration-finish').addEventListener('click', () => calibrationAction('finish'));
     $('calibration-cancel').addEventListener('click', () => calibrationAction('cancel'));
+
+    // ---- 参数悬停说明 ----
+    const fmt = (value, digits = 1) => value == null ? '—' : number(value, digits);
+    const FIELD_HELP = [
+      {ids: ['trigger'], title: '输出估算触发响度',
+        text: '开始压低的门槛。青线（输出估算，即耳机里实际多响）持续高于这个值，才开始压低。\n调低：更容易触发；调高：只在明显偏响时才动。',
+        note: '必须不低于目标区间上沿，否则保存会被拒绝。简易模式下：触发线 = 舒适音量 + 灵敏度偏移（迟钝 +5 / 标准 +3 / 灵敏 +2）。',
+        live: s => `${fmt(s.triggerLufs)} LUFS`},
+      {ids: ['silence'], title: '静音门',
+        text: '源信号 RMS 低于这个值就当作静音或暂停，期间禁止任何调整，避免在曲间空白、淡出时误动音量。\n一般保持 −55 即可。',
+        live: s => `${fmt(s.silenceGateDbfs, 0)} dBFS`},
+      {ids: ['target-low', 'target-high'], title: '输出估算目标区间',
+        text: '右侧上沿是“停止压低”的线：开始压低后，会一直压到青线回到上沿以下才停。\n上沿和触发线之间是缓冲区：已经在压就继续压，还没开始压不会因为进入这里而启动。\n左侧下沿只给自动回升使用。',
+        note: '下沿在“自动压低”模式下不生效。简易模式下：下沿 = 舒适音量 −3，上沿 = 舒适音量 +1。',
+        live: s => `${fmt(s.targetLufs.low)} 至 ${fmt(s.targetLufs.high)} LUFS`},
+      {ids: ['volume-min'], title: '最低系统音量',
+        text: '自动压低绝不会把系统音量压到这个值以下。你常用的音量离它太近时，只能压一点点就停住。\n通常靠“本次最多自动压低”防止降得过低，这里只作为兜底。',
+        live: s => `${fmt(s.minSystemVolume, 0)}%`},
+      {ids: ['lower-gain'], title: '偏差转下降比例',
+        text: '每次决策想压多少 = 青线超出目标上沿的 dB × 这个比例。\n例：超出 5 dB、比例 0.7，就想压 3.5 dB。\n1 表示一次补齐全部偏差；调小更温和。实际速度还受“每秒最多下降”限制。\n剩余偏差换算后小于 0.25 dB 时结束本轮压低，不做细碎微调。',
+        note: '简易模式由“压低速度”决定。',
+        live: s => fmt(s.lowerGain, 2)},
+      {ids: ['lower-rate'], title: '每秒最多下降',
+        text: '压低速度的上限。程序每 0.25 秒决策一次，所以每次最多降低“这个值 × 0.25” dB。\n决定压低听起来是渐进还是突然，建议 1 到 3。',
+        note: '简易模式由“压低速度”决定。',
+        live: s => `${fmt(s.maxLowerDbPerSecond)} dB/秒（每次最多 ${fmt(s.maxLowerDbPerSecond / 4, 2)} dB）`},
+      {ids: ['max-auto-attenuation'], title: '本次最多自动压低',
+        text: '以开启“自动压低”那一刻的音量为基准，这次开启期间最多比基准低这么多 dB，防止一路降到底。\n你中途手动调过音量的话，以你调的新音量重新计算。',
+        note: '简易模式对应“最多压低”滑块。',
+        live: s => `${fmt(s.maxAutoAttenuationDb)} dB`},
+      {ids: ['lower-wait'], title: '偏响证据窗口',
+        text: '判断“是否持续偏响”时，只看最近这么多秒的数据。\n调大：更稳，但反应更慢；调小：反应快，但容易被一两段高潮带动。',
+        note: '简易模式由“灵敏度”决定。',
+        live: s => `${fmt(s.lowerSustainSeconds, 2)} 秒`},
+      {ids: ['sustain-ratio'], title: '窗口超阈值比例',
+        text: '窗口内至少有这么多比例的时间超过触发线，才算持续偏响。\n这样鼓点间隙、短暂收拢不会把计时清零；单个爆点凑不够比例，也不会触发。',
+        note: '简易模式由“灵敏度”决定。',
+        live: s => `${fmt(s.sustainRatio * 100, 0)}%`},
+      {ids: ['override'], title: '手动调节后让路',
+        text: '检测到你手动调整系统音量后，程序停手这么多秒，并把你调的音量作为新基准。\n让路结束后如果仍然偏响，才会以新基准重新开始压低。0 表示不让路。',
+        live: s => `${fmt(s.manualOverrideSeconds, 0)} 秒`},
+      {ids: ['recovery-wait'], title: '回升判定窗口',
+        text: '只在“自动调节”模式用。准备还回音量时，看最近这么多秒里比较响的那部分（第 90 百分位）：还回之后它仍比目标上沿低 1 LU，才会回升。\n窗口越长，越不容易被一段安静的间奏骗到，但回升也越晚。',
+        note: '简易模式由“灵敏度”决定（迟钝 30 / 标准 20 / 灵敏 14 秒）。',
+        live: s => `${fmt(s.recoverySustainSeconds)} 秒`},
+      {ids: ['song-gap'], title: '换歌静音秒数',
+        text: '一首歌里只要压低过，就保持压低后的音量直到换歌，避免同一首歌里音量忽高忽低。\n静音持续这么久就认为换歌了，之后才开始还回音量。歌曲中间更短的停顿不算换歌。',
+        note: '无缝播放（歌曲之间没有静音）时，靠“无换歌最长保持秒数”兜底。',
+        live: s => `${fmt(s.songGapSeconds)} 秒`},
+      {ids: ['song-hold'], title: '无换歌最长保持秒数',
+        text: '距离上次压低超过这么久仍没有检测到换歌（比如无缝播放、直播、长视频），也允许开始还回音量。',
+        live: s => `${fmt(s.songHoldMaxSeconds, 0)} 秒`},
+      {ids: ['raise-rate'], title: '每秒最多回升',
+        text: '只在“自动调节”模式用。回升速度的上限，建议明显小于“每秒最多下降”，让升音量更缓。\n回升绝不会超过你开启自动调节时的音量。',
+        note: '简易模式由“压低速度”决定。',
+        live: s => `${fmt(s.maxRaiseDbPerSecond)} dB/秒`},
+      {ids: ['cooldown'], title: '压低后冷却',
+        text: '每次压低之后，这么多秒内不回升，避免“压完马上又升”的来回拉锯。',
+        note: '简易模式固定为 20 秒。',
+        live: s => `${fmt(s.recoveryCooldownSeconds, 0)} 秒`},
+    ];
+    const BUTTON_HELP = {
+      'row-mode': ['模式', '关闭：只显示数据，不做判断。\n只提示：模拟完整的压低和回升过程并给出建议，但不改音量。\n自动压低：偏响时实际降低音量，只降不升。\n自动调节：在自动压低基础上，把压掉的音量还回去。同一首歌压低过就保持到换歌，换歌后若还回去不会再过响才慢慢回升，绝不超过你开启时的音量。\n切回其他模式或退出程序时，若音量仍是程序写入值，会恢复到开启时的音量。', '设备未校准时自动压低/自动调节不可选，悬停按钮可看原因。'],
+      'row-comfort': ['舒适音量', '你听着刚好的响度（输出估算，LUFS），所有判断都以它为基准。它是可以配置的，不是固定值。\n设定方法有两种：先用你觉得舒服的音量播放内容 15 秒以上，点“就用现在的音量”自动取中位数；或在高级设置里直接改触发线和目标区间（会标记为“自定义”）。\n右侧“现在”是当前输出估算，便于对照。\n由它推算出：高于“触发线 = 舒适 + 灵敏度偏移”开始压低，压到目标上沿（舒适 +1）停；回升只还被压掉的音量，要等换歌，并且预测还回后响部不超过回升上限（舒适 +1 再减 1 LU）。具体数值见图表下方。', '换算表可在 config/simple-presets.json 调整。'],
+      'row-sensitivity': ['灵敏度', '控制多快、多容易判定为“偏响”，也一并决定回升判定窗口。\n迟钝：比舒适音量高 5 LU、持续约 4 秒才压低；回升看最近 30 秒，适合动态大的音乐。\n标准：高 3 LU、约 2.5 秒压低；回升看最近 20 秒。\n灵敏：高 2 LU、约 1.5 秒压低；回升看最近 14 秒，适合频繁切换来源。'],
+      'row-speed': ['压低速度', '控制音量变化听起来是渐进还是突然，回升速度一并由它决定（约为压低速度的 1/4，回升更慢更稳）。\n柔和：每秒最多降 1 dB、升 0.25 dB。\n标准：每秒最多降 2 dB、升 0.5 dB。\n快速：每秒最多降 4 dB、升 1 dB。'],
+      'row-max-reduction': ['本次最多压低', '每次开启后，最多比开启时的音量低这么多 dB，防止一路降到底。\n听感参考：约 10 dB 接近“响度减半”。\n这是“只减”的上限：自动调节的回升只会把这些被压掉的 dB 还回去，绝不会升到开启时的音量以上，所以不需要单独的“最多增加”。'],
+      'restore-simple': ['恢复简易推荐', '放弃高级设置里的自定义参数，按当前的简易选项（舒适音量、灵敏度、压低速度、最多压低）重新换算全部参数。'],
+      'preset-badge': ['简易推荐 / 已自定义', '简易推荐：所有参数由上面的简易选项自动换算。\n已自定义：你在高级设置里改过参数，简易选项暂不生效；点“恢复简易推荐”可以回到自动换算。'],
+      'test-volume': ['测试降低 1 个百分点', '手动验证程序能否写入系统音量：立即把系统音量降低 1 个百分点。与自动压低无关。'],
+      'restore-volume': ['安全恢复', '恢复到“测试降低”之前的音量。', '如果期间你改过音量或切换了设备，会拒绝恢复，以免覆盖你的设置。'],
+      'switch-device': ['模拟切换设备', '模拟模式专用：假装切换到另一个输出设备，用来观察程序如何重新校准。'],
+      'calibration-start': ['开始三档校准', '判断当前设备抓到的是调音量之前还是之后的信号。每个输出设备需要校准一次，否则无法开启“自动压低”。'],
+      'calibration-capture': ['记录当前档', '播放同一段稳定的内容，把系统音量调到一个档位并保持 3 秒以上，再点记录。', '三个档位之间合计至少相差 6 dB。'],
+      'calibration-finish': ['完成并分类', '记录满三档后点击，自动分类并保存为当前设备的档案。'],
+      'calibration-cancel': ['取消', '放弃本次校准，不保存任何结果。'],
+    };
+    const tip = $('help-tip');
+    function liveLine(entry) {
+      if (!liveSettings || !entry.live) return '';
+      const server = entry.live(liveSettings);
+      const formValues = entry.ids.map(id => $(id).value);
+      const saved = entry.ids.map(id => ({
+        'trigger': liveSettings.triggerLufs, 'silence': liveSettings.silenceGateDbfs,
+        'target-low': liveSettings.targetLufs.low, 'target-high': liveSettings.targetLufs.high,
+        'volume-min': liveSettings.minSystemVolume, 'volume-max': liveSettings.maxSystemVolume,
+        'lower-gain': liveSettings.lowerGain, 'lower-rate': liveSettings.maxLowerDbPerSecond,
+        'lower-db-step': liveSettings.minLowerStepDb, 'max-auto-attenuation': liveSettings.maxAutoAttenuationDb,
+        'lower-wait': liveSettings.lowerSustainSeconds, 'sustain-ratio': liveSettings.sustainRatio * 100,
+        'recovery-wait': liveSettings.recoverySustainSeconds, 'song-gap': liveSettings.songGapSeconds,
+        'song-hold': liveSettings.songHoldMaxSeconds,
+        'raise-rate': liveSettings.maxRaiseDbPerSecond, 'cooldown': liveSettings.recoveryCooldownSeconds,
+        'recovery-step': liveSettings.recoveryStepPercent, 'recovery-wait': liveSettings.recoverySustainSeconds,
+        'override': liveSettings.manualOverrideSeconds,
+      })[id]);
+      const dirty = formValues.some((value, index) => Math.abs(Number(value) - Number(saved[index])) > 1e-6);
+      return `服务端当前生效：${server}${dirty ? `\n表单里的 ${formValues.join(' / ')} 尚未保存` : ''}`;
+    }
+    function buildTip(title, text, note, live) {
+      tip.replaceChildren();
+      const head = document.createElement('strong'); head.textContent = title; tip.append(head);
+      tip.append(document.createTextNode(text));
+      if (note) { const n = document.createElement('span'); n.className = 'tip-note'; n.textContent = note; tip.append(n); }
+      if (live) { const l = document.createElement('span'); l.className = 'tip-live'; l.textContent = live; tip.append(l); }
+    }
+    let tipTarget = null;
+    function showTip(target) {
+      tipTarget = target;
+      const help = target._help;
+      if (help.entry) buildTip(help.entry.title, help.entry.text, help.entry.note, liveLine(help.entry));
+      else buildTip(...help.button);
+      const box = target.getBoundingClientRect();
+      tip.style.left = '0px'; tip.style.top = '0px';
+      tip.classList.add('show'); tip.setAttribute('aria-hidden', 'false');
+      const width = tip.offsetWidth, height = tip.offsetHeight, gap = 8;
+      let left = Math.min(Math.max(8, box.left), window.innerWidth - width - 8);
+      let top = box.bottom + gap;
+      if (top + height > window.innerHeight - 8) top = Math.max(8, box.top - height - gap);
+      tip.style.left = `${left}px`; tip.style.top = `${top}px`;
+    }
+    function hideTip() { tipTarget = null; tip.classList.remove('show'); tip.setAttribute('aria-hidden', 'true'); }
+    FIELD_HELP.forEach(entry => {
+      const field = $(entry.ids[0]).closest('.field');
+      field.dataset.help = entry.ids[0];
+      field._help = {entry};
+    });
+    Object.entries(BUTTON_HELP).forEach(([id, button]) => {
+      const element = $(id); if (!element) return;
+      element.dataset.help = id; element._help = {button};
+    });
+    const saveButton = document.querySelector('#settings-form button[type="submit"]');
+    saveButton.dataset.help = 'save';
+    saveButton._help = {button: ['保存高级设置', '把高级设置里的参数提交给服务端，服务端会重新校验。只要改动了任何一项，状态会变成“已自定义”。', '只要有一项不合规，整张表单都不会生效，页面顶部会显示原因。悬停各参数可以看到服务端当前实际生效的值。']};
+    document.addEventListener('pointerover', event => {
+      const target = event.target.closest('[data-help]');
+      if (target && target !== tipTarget) showTip(target);
+      else if (!target && tipTarget) hideTip();
+    });
+    document.addEventListener('focusin', event => {
+      const target = event.target.closest('[data-help]');
+      if (target) showTip(target); else hideTip();
+    });
+    document.addEventListener('focusout', hideTip);
+    window.addEventListener('scroll', hideTip, true);
+    document.addEventListener('keydown', event => { if (event.key === 'Escape') hideTip(); });
+    setInterval(() => { if (tipTarget && tipTarget._help.entry) showTip(tipTarget); }, 1000);
+
     window.addEventListener('resize', drawChart);
     Promise.all([refreshStatus(), refreshHistory()]);
     setInterval(refreshStatus, 250);

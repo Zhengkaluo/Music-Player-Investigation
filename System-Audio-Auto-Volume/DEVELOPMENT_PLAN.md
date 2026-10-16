@@ -376,6 +376,8 @@ M8a 的界面必须把“源 Short-term LUFS”与“有效输出响度”分开
 
 通过门禁：连续日常使用中没有意外上调、音量来回抖动或越界写入；用户手动操作立即生效。
 
+状态（2026-10-15）：Windows 已实现（`src/executor.py`），已在 Plantronics 耳机与 Realtek 扬声器上实机压低并恢复；macOS 尚未接入写入。设备静音时不写音量。连续日常使用门禁未验收。
+
 ### M9：可选的缓慢恢复
 
 任务：
@@ -388,6 +390,17 @@ M8a 的界面必须把“源 Short-term LUFS”与“有效输出响度”分开
 产物：`automatic` 模式。
 
 通过门禁：所有“音量爬升”测试通过，用户确认恢复节奏自然。
+
+状态（2026-10-15，controller-m9/v2）：已实现为“自动调节”模式，默认不开启，规则如下：
+
+- 只还“欠账”：回升上限是开启时（或用户手动调整后）的音量，从不升到它以上；没有被压低过就不回升；
+- 按首保持：一首歌里只要压低过，就保持到换歌（静音 ≥ `songGapSeconds`，默认 1.5 秒）；一直没有换歌时，最长保持 `songHoldMaxSeconds`（默认 240 秒）；
+- 预测再还：取最近 `recoverySustainSeconds`（标准档 20 秒）源响度的 `recoveryPercentile`（默认 P90），预测还回后的输出响度，要低于目标上沿 `recoveryHeadroomLu`（默认 1 LU）才回升；
+- 淡出保护：最近 4 秒响度下滑快于 `fadeSlopeLuPerSecond`（默认 0.4 LU/秒）时不回升；
+- 速度：每秒最多 `maxRaiseDbPerSecond`（标准档 0.5 dB），压低后 `recoveryCooldownSeconds` 内不回升；
+- 影子模式在虚拟音量上模拟压低和回升，输出 `would-lower` / `would-recover`，不写系统音量。
+
+离线场景（`runtime/m9v2_scenarios.py`）：歌中过响段在换歌后完全恢复；淡出、动态大的歌、主副歌交替均为 0 次来回调整；无缝播放在 240 秒后恢复。实机真实歌单影子复核未完成（试验中有用户手动调音量，回升阶段被打断），用户试听门禁未验收。
 
 ### M10：包装与日常运行
 
