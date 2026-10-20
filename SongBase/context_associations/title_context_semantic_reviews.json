@@ -1,6 +1,6 @@
 {
   "schema_version": "songbase.title-context-semantic-reviews/v1",
-  "review_version": "2026-10-12.3",
+  "review_version": "2026-10-19.1",
   "author_type": "agent_title_only_review",
   "user_approval": "not_reviewed",
   "notes": [
@@ -17,29 +17,23 @@
     {"title":"Cold Cold Cold","artist":"Cage The Elephant","tag":"weather.temperature_cold","action":"ambiguous","reason":"冷的修饰对象缺失，可能是情绪、身体或天气。"},
     {"title":"Cold Meteor Showers","artist":"The Breathing Effect","tag":"weather.rain","action":"exclude","reason":"Meteor showers 是流星雨，不是气象降雨，不能因 Showers 自动匹配雨天。"},
     {"title":"Cold Meteor Showers","artist":"The Breathing Effect","tag":"weather.temperature_cold","action":"ambiguous","reason":"冷修饰流星雨意象，未明确当地气温。"},
-    {"title":"0℃の日曜","artist":"STUTS, SIKK-O, 铃木真海子","tag":"weather.temperature_cold","action":"explicit","reason":"0℃ 明确是温度标题线索，但不设定温度触发阈值或真实天气事实。","trigger_hint":{"kind":"temperature_reference","value_celsius":0,"enabled":false}},
     {"title":"Cool","artist":"Daniel Caesar","tag":"weather.temperature_cool","action":"ambiguous","reason":"Cool 孤立词存在酷、冷静、凉爽等含义，不能自动匹配降温。"},
     {"title":"Cool with You","artist":"Her's","tag":"weather.temperature_cool","action":"exclude","reason":"Cool with You 更可能是态度或关系表达，没有凉爽天气依据。"},
     {"title":"I Like Van Halen Because My Sister Says They Are Cool","artist":"El Ten Eleven","tag":"weather.temperature_cool","action":"exclude","reason":"They Are Cool 明确评价人物，不描述天气凉爽。"},
-    {"title":"i miss your warm hands","artist":"i don't like mirrors","tag":"weather.temperature_warm","action":"exclude","reason":"Warm 修饰对方的手，不是天气；温暖听感需另行试听判断。"},
-    {"title":"あたたかな手","artist":"Humbert Humbert","tag":"weather.temperature_warm","action":"exclude","reason":"温暖的手是身体／关系意象，不自动建立天气温暖标签。"},
     {"title":"春に微熱","artist":"クボタカイ","tag":"weather.temperature_hot","action":"exclude","reason":"微熱 通常是微热／发热表达，不等同炎热天气；春季标题关联另行保留。"},
     {"title":"常熱","artist":"Vaundy","tag":"weather.temperature_hot","action":"ambiguous","reason":"常熱 可能是情绪或词语创作，不直接判断实际高温。"},
     {"title":"HOT","artist":"LE SSERAFIM","tag":"weather.temperature_hot","action":"ambiguous","reason":"孤立 Hot 可指热度、热情等，天气含义未确认。"},
     {"title":"Sea Gets Hotter","artist":"Durand Jones, Durand Jones & The Indications, Aaron Frazer","tag":"weather.temperature_hot","action":"ambiguous","reason":"写到海变热，但无法只凭标题判断真实天气或比喻。"},
     {"title":"Blue Sky","artist":"GYVUS","tag":"weather.clear","action":"explicit","reason":"Blue Sky 的蓝天字面意象明确，不推断作品听感。"},
-    {"title":"Sunburst","artist":"All India Radio","tag":"light.sun","action":"ambiguous","reason":"可指太阳放射状光，也有图案等用法，保留太阳线索待复核。"},
-    {"title":"Helios","artist":"fox capture plan","tag":"light.sun","action":"ambiguous","reason":"太阳神名称不等同作品描绘实际太阳，需复核。"},
-    {"title":"Helios","artist":"Mammal Hands","tag":"light.sun","action":"ambiguous","reason":"太阳神名称不等同作品描绘实际太阳，需复核。"},
-    {"title":"The Sun Smells Too Loud","artist":"Mogwai","tag":"light.sun","action":"ambiguous","reason":"太阳闻起来太响是通感／超现实表达，不直接绑定阳光天气。"},
-    {"title":"Raisins Under the Sun","artist":"Yussef Dayes","tag":"light.sun","action":"ambiguous","reason":"太阳字面出现，但完整短语可能有其他语义，未查询作品背景。"},
-    {"title":"Golden Hour","artist":"Matthew Pinder","tag":"light.golden_hour","action":"ambiguous","reason":"摄影天光时刻和比喻均可能，尚不能定为日落。"},
     {"title":"May Ninth","artist":"Khruangbin","tag":"calendar.month05","action":"explicit","reason":"May Ninth 是完整月份加序数日期表达，明确是五月九日标题线索。","trigger_hint":{"kind":"month","month":5,"calendar":"gregorian_title_convention","enabled":false}},
     {"title":"Mars 2027","artist":"青葉市子","tag":"calendar.month03","action":"exclude","reason":"Mars 加年份可能指火星，也可能是法语三月；当前标题不足以认定月份，暂不保留月份关联。"},
-    {"title":"弥生之春","artist":"Youzee Music","tag":"calendar.traditional_month03","action":"ambiguous","reason":"弥生 的历法及用法未确认，保留传统三月名补查线索，不直接按公历三月触发。"},
     {"title":"Sunday Am","artist":"Shing02, Chimp Beams","tag":"calendar.sunday","action":"explicit","reason":"Sunday 明确是星期日；Am 也可能为其他缩写，保留午前的待确认线索。","add":[{"tag":"time.before_noon","category":"time_light","label":"午前／上午候选","matched_text":"Am","strength":"ambiguous","note":"Sunday Am 可能指星期日上午，但 AM 缩写用法未查询作品背景，暂不设播放时段。"}]},
     {"title":"ゆめしぐれ","artist":"青葉市子","tag":"weather.rain","action":"ambiguous","reason":"しぐれ 常指时雨，和梦组合后仍有诗意歧义；不推成某一季节。"},
-    {"title":"夕凪","artist":"羊文学","tag":"time.evening","action":"explicit","reason":"夕凪 是傍晚风暂歇的词，保留傍晚标题意象，不推成日落。","add":[{"tag":"weather.wind_lull","category":"weather","label":"傍晚风歇意象","matched_text":"夕凪","strength":"explicit","note":"无风／风暂歇不是起风，实际触发条件待配置。"}]}
+    {"title":"夕凪","artist":"羊文学","tag":"time.evening","action":"explicit","reason":"夕凪 是傍晚风暂歇的词，保留傍晚标题意象，不推成日落。"},
+    {"title":"Let's Fall in Love for the Night","artist":"FINNEAS","tag":"season.autumn","action":"exclude","reason":"Fall in love 为恋爱短语，不支持秋季关联；night 在排除清单，不能补回。"},
+    {"title":"Right As Rain","artist":"Adele","tag":"weather.rain","action":"exclude","reason":"完整短语的惯用义为恢复健康／状态良好，标题不足以支持雨关联；不是断言歌词完全没有雨。"},
+    {"title":"Sunny Side Up","artist":"Surfaces","tag":"weather.clear","action":"exclude","reason":"完整短语有单面煎蛋的固定用法，不能只凭 Sunny 标为明确晴天；暂移出天气候选，歌词或官方资料可另建证据。"},
+    {"title":"Tone Twilight Zone","artist":"CORNELIUS","tag":"time.dusk","action":"ambiguous","reason":"Twilight zone 也指过渡／模糊状态，不能仅提取 Twilight 视作明确黄昏；降为歧义，未确认作者意图。"}
   ],
   "title_safeguards": [
     {"title":"Flow feat. Sunset Rollercoaster 落日飞车","artist":"杨乃文, 落日飛車","reason":"Sunset Rollercoaster／落日飞车来自明确合作艺人段，不是歌曲标题内容。"},
@@ -52,7 +46,7 @@
     {"title":"如果我失去了青春","artist":"沼泽乐队","reason":"青春 不是春季。"},
     {"title":"热气球","artist":"岛屿心情","reason":"热气球 是物体名称，不等于当天炎热。"},
     {"title":"The Man Who Took My Sunglasses","artist":"Khruangbin","reason":"Sunglasses 为太阳镜，不推成晴天。"},
-    {"title":"roses & sunflowers","artist":"Timmy Albert","reason":"Sunflowers 为向日葵，不拆出 Sun 当太阳；花主题待后续范围扩展。"},
+    {"title":"roses & sunflowers","artist":"Timmy Albert","reason":"Sunflowers 不拆出 Sun；植物和花不建立门店日常情境标签。"},
     {"title":"Etude No. 3 Op. 10/3","artist":"European Jazz Trio","reason":"10/3 为作品编号／作品分项，不是十月三日。"},
     {"title":"10th sentimen","artist":"sow","reason":"只有序数，没有月份或日期语境，不认定某月十日。"},
     {"title":"Miller Time","artist":"Victor Wooten","reason":"Time 泛指时刻或短语，未提供明确播放时段。"},
@@ -61,6 +55,7 @@
     {"title":"蝉","artist":"iimmune","reason":"仅作为夏季间接线索，不凭艺人名或蝉物候自动确认夏季。"},
     {"title":"Harmonie Du Soir","artist":"haruka nakamura","reason":"Soir 为傍晚／夜晚的标题词义，不使用同名诗歌或作品介绍额外推断。"},
     {"title":"vermelho do sol","artist":"toconoma","reason":"Sol 为葡萄牙语太阳，仅记录标题意象，不强推日落。"},
-    {"title":"朝が来る（示例，非当前曲库）","artist":"","reason":"示例仅说明后续词表可扩展，本次不创建不存在的歌曲记录。"}
+    {"title":"朝が来る（示例，非当前曲库）","artist":"","reason":"示例仅说明后续词表可扩展，本次不创建不存在的歌曲记录。"},
+    {"title":"0℃の日曜","artist":"STUTS, SIKK-O, 铃木真海子","reason":"温度数字保留在原标题证据中，不单独推出偏冷天气关联；星期日关联保留。"}
   ]
 }

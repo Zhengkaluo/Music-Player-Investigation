@@ -1,0 +1,274 @@
+{
+  "schemaVersion": "flowset.weekly-request/v1",
+  "playlists": [
+    {
+      "playlistId": "jingtian-2026-10-20-r002",
+      "startAt": "2026-10-20T09:30:00+08:00",
+      "durationMinutes": 540,
+      "segments": [
+        {
+          "id": "opening",
+          "durationMinutes": 30,
+          "energy": [
+            "平静",
+            "渐进"
+          ],
+          "genres": [
+            "Ambient / Neo-Classical",
+            "Jazz / Soul",
+            "Hip-Hop / R&B"
+          ],
+          "curves": {
+            "noise": [
+              2.5,
+              2.6,
+              2.7
+            ],
+            "swing": [
+              2.5,
+              2.66666667,
+              2.83333333
+            ],
+            "burden": [
+              2.5,
+              2.5,
+              2.5
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "morning",
+          "durationMinutes": 60,
+          "energy": [
+            "平静",
+            "渐进"
+          ],
+          "genres": [
+            "Ambient / Neo-Classical",
+            "Jazz / Soul",
+            "Hip-Hop / R&B"
+          ],
+          "curves": {
+            "noise": [
+              2.7,
+              2.86666667,
+              3.0
+            ],
+            "swing": [
+              2.83333333,
+              3.1,
+              3.3
+            ],
+            "burden": [
+              2.5,
+              2.6,
+              2.8
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "sunny",
+          "durationMinutes": 30,
+          "energy": [
+            "平静",
+            "渐进"
+          ],
+          "genres": [
+            "Jazz / Soul",
+            "Hip-Hop / R&B",
+            "Electronic"
+          ],
+          "curves": {
+            "noise": [
+              3.0,
+              3.05,
+              3.1
+            ],
+            "swing": [
+              3.3,
+              3.33333333,
+              3.36666667
+            ],
+            "burden": [
+              2.8,
+              2.83333333,
+              2.86666667
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "midday",
+          "durationMinutes": 150,
+          "energy": [
+            "平静",
+            "渐进"
+          ],
+          "genres": [
+            "Jazz / Soul",
+            "Hip-Hop / R&B",
+            "Electronic"
+          ],
+          "curves": {
+            "noise": [
+              3.1,
+              3.33333333,
+              3.5
+            ],
+            "swing": [
+              3.36666667,
+              3.55,
+              3.8
+            ],
+            "burden": [
+              2.86666667,
+              3.0,
+              3.0
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "afternoon",
+          "durationMinutes": 180,
+          "energy": [
+            "渐进",
+            "有冲劲"
+          ],
+          "genres": [
+            "Hip-Hop / R&B",
+            "Jazz / Soul",
+            "Post-Rock / Cinematic"
+          ],
+          "curves": {
+            "noise": [
+              3.5,
+              3.7,
+              3.0
+            ],
+            "swing": [
+              3.8,
+              4.0,
+              3.0
+            ],
+            "burden": [
+              3.0,
+              3.0,
+              2.5
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "evening-early",
+          "durationMinutes": 30,
+          "energy": [
+            "平静"
+          ],
+          "genres": [
+            "Ambient / Neo-Classical",
+            "Jazz / Soul"
+          ],
+          "curves": {
+            "noise": [
+              3.0,
+              2.75,
+              2.5
+            ],
+            "swing": [
+              3.0,
+              2.75,
+              2.5
+            ],
+            "burden": [
+              2.5,
+              2.4,
+              2.3
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "sunset",
+          "durationMinutes": 30,
+          "energy": [
+            "平静"
+          ],
+          "genres": [
+            "Ambient / Neo-Classical",
+            "Jazz / Soul"
+          ],
+          "curves": {
+            "noise": [
+              2.5,
+              2.25,
+              2.0
+            ],
+            "swing": [
+              2.5,
+              2.25,
+              2.0
+            ],
+            "burden": [
+              2.3,
+              2.15,
+              2.0
+            ]
+          },
+          "tolerance": 1
+        },
+        {
+          "id": "closing",
+          "durationMinutes": 30,
+          "energy": [
+            "平静"
+          ],
+          "genres": [
+            "Ambient / Neo-Classical",
+            "Jazz / Soul"
+          ],
+          "curves": {
+            "noise": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "swing": [
+              2.0,
+              2.0,
+              2.0
+            ],
+            "burden": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          },
+          "tolerance": 1
+        }
+      ],
+      "requirements": [
+        {
+          "type": "song",
+          "songId": "qq:000v9QqY2s2bHc",
+          "count": 1,
+          "segmentId": "opening"
+        },
+        {
+          "type": "song",
+          "songId": "qq:000NYjiu04EmeE",
+          "count": 1,
+          "segmentId": "sunny"
+        },
+        {
+          "type": "song",
+          "songId": "qq:002jaefh3NZVjb",
+          "count": 1,
+          "segmentId": "sunset"
+        }
+      ]
+    }
+  ]
+}

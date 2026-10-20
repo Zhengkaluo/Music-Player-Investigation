@@ -1,0 +1,4752 @@
+{
+  "status": "curation-proposal-only; no playlist generated or confirmed",
+  "targetDate": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "collectedAt": "2026-10-19T19:18:57+08:00",
+  "venue": {
+    "name": "深圳景田咖啡店",
+    "longitude": 114.04,
+    "latitude": 22.56,
+    "timezone": "Asia/Shanghai",
+    "opening_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "periods": [
+      {
+        "tag": "time.morning",
+        "start": "08:00",
+        "end": "11:00"
+      },
+      {
+        "tag": "time.midday",
+        "start": "11:00",
+        "end": "14:00"
+      },
+      {
+        "tag": "time.afternoon",
+        "start": "14:00",
+        "end": "18:00"
+      }
+    ]
+  },
+  "sources": {
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/周歌单专用特征-1103首-raw416.json": "559530248afcec51de28d4eb87eb1a01170143da7cc0c8d705be05f8f23864d4",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/scans/2026-10-19/title_context_candidates.json": "dfeda69aae2eb7547bf6d696f2711a4d2aee6b989855fc27a5f50dddad56c755",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+    "/Users/kaluozheng/Music-Player-Investigation/ZMPD-模型预测开发/manifests/training-manifest.json": "aaf87b3ffc5b2c2d45ca7ae40bf92fe0be1781e5a150ba04e162edb7fc5a6dc4"
+  },
+  "weather": {
+    "source": "https://www.weather.com.cn/weather/101280603.shtml",
+    "date": "2026-10-20",
+    "sky": "晴",
+    "lowC": 25,
+    "highC": 32,
+    "windLevel": "<3",
+    "precision": "district daily forecast; no verified hourly weather; weather update time not exposed for target block"
+  },
+  "calendar": {
+    "source": "https://www.hko.gov.hk/tc/gts/time/calendar/text/files/T2026c.txt",
+    "weekday": "星期二",
+    "lunarDate": "九月十一",
+    "nextSolarTerm": {
+      "name": "霜降",
+      "date": "2026-10-23"
+    },
+    "matchedExactDateOrTuesdayOrOctoberTitleCandidates": 0
+  },
+  "solar": {
+    "method": "NOAA fractional-year approximation at noon; zenith 90.833 degrees",
+    "source": "https://www.gml.noaa.gov/grad/solcalc/solareqns.PDF",
+    "latitude": 22.56,
+    "longitude": 114.04,
+    "sunriseApprox": "06:22",
+    "sunsetApprox": "17:55",
+    "sunriseMinutes": 381.7123297301122,
+    "sunsetMinutes": 1075.2605265102848,
+    "eveningSegment": "17:00–18:00 is a proposed editorial window, not a fixed rule or actual afterglow observation"
+  },
+  "catalog": {
+    "tracks": 1103,
+    "tracksWithAttachedHumanTruth": 0,
+    "modelVersion": "raw-baseline-416-20261010"
+  },
+  "selectedSongIds": [
+    "qq:000v9QqY2s2bHc",
+    "qq:000TQcC94CIZvg",
+    "qq:000NYjiu04EmeE",
+    "qq:0025m6Oq20gi6p",
+    "qq:000NCAYD2o8kMk",
+    "qq:000PFi7O2pxmSj",
+    "qq:002jaefh3NZVjb",
+    "qq:0002W4XM3jqEeg",
+    "qq:000nNWD4350LJQ",
+    "qq:000LHut30evEZX",
+    "qq:000gnR5f0L9CqV"
+  ],
+  "segments": [
+    {
+      "id": "morning",
+      "start": "08:00",
+      "end": "11:00",
+      "minutes": 180,
+      "noise": [
+        2.5,
+        2.8,
+        3.0
+      ],
+      "swing": [
+        2.5,
+        3.0,
+        3.3
+      ],
+      "burden": [
+        2.5,
+        2.5,
+        2.8
+      ],
+      "energy": [
+        "平静",
+        "渐进"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "required": [
+        "qq:000v9QqY2s2bHc"
+      ],
+      "tolerance": 1
+    },
+    {
+      "id": "midday",
+      "start": "11:00",
+      "end": "14:00",
+      "minutes": 180,
+      "noise": [
+        3.0,
+        3.3,
+        3.5
+      ],
+      "swing": [
+        3.3,
+        3.5,
+        3.8
+      ],
+      "burden": [
+        2.8,
+        3.0,
+        3.0
+      ],
+      "energy": [
+        "平静",
+        "渐进"
+      ],
+      "genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B",
+        "Electronic"
+      ],
+      "required": [
+        "qq:000NYjiu04EmeE"
+      ],
+      "tolerance": 1
+    },
+    {
+      "id": "afternoon",
+      "start": "14:00",
+      "end": "17:00",
+      "minutes": 180,
+      "noise": [
+        3.5,
+        3.7,
+        3.0
+      ],
+      "swing": [
+        3.8,
+        4.0,
+        3.0
+      ],
+      "burden": [
+        3.0,
+        3.0,
+        2.5
+      ],
+      "energy": [
+        "渐进",
+        "有冲劲"
+      ],
+      "genres": [
+        "Hip-Hop / R&B",
+        "Jazz / Soul",
+        "Post-Rock / Cinematic"
+      ],
+      "required": [],
+      "tolerance": 1
+    },
+    {
+      "id": "evening",
+      "start": "17:00",
+      "end": "18:00",
+      "minutes": 60,
+      "noise": [
+        3.0,
+        2.5,
+        2.0
+      ],
+      "swing": [
+        3.0,
+        2.5,
+        2.0
+      ],
+      "burden": [
+        2.5,
+        2.3,
+        2.0
+      ],
+      "energy": [
+        "平静"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul"
+      ],
+      "required": [
+        "qq:002jaefh3NZVjb"
+      ],
+      "tolerance": 1
+    }
+  ],
+  "humanReferences": {
+    "qq:000TQcC94CIZvg": {
+      "noise": 3.0,
+      "swing": 3.0,
+      "burden": 2.0,
+      "energy": [
+        "平静"
+      ],
+      "time": [
+        "8-11"
+      ],
+      "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+      "sourceSHA256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353",
+      "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第四波测试/Morning Horizon - Nitsua.mp3",
+      "audioSHA256": "e99e0b8fafcdf91cd6800d27c07afae859e5321873dda8c98c301d0289a870cb",
+      "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+    },
+    "qq:002jaefh3NZVjb": {
+      "noise": 2.0,
+      "swing": 2.0,
+      "burden": 2.0,
+      "energy": [
+        "平静"
+      ],
+      "time": [
+        "8-11",
+        "17-20",
+        "11-14",
+        "14-17"
+      ],
+      "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+      "sourceSHA256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353",
+      "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第四波测试/夕阳消失之前 - Cicada.mp3",
+      "audioSHA256": "c2d1d0a7f8495c036d2e97898e5d318352c2154ba0aade996da78932158f13c5",
+      "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+    },
+    "qq:000nNWD4350LJQ": {
+      "noise": 3.0,
+      "swing": 2.0,
+      "burden": 4.0,
+      "energy": [
+        "平静"
+      ],
+      "time": [
+        "11-14",
+        "14-17"
+      ],
+      "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json",
+      "sourceSHA256": "98ec3e1e9fa2ebaa492f06fb961a2d332ed4f208c4898ce6663764c7f0413440",
+      "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第六波测试/Ante Meridiem - Men I Trust.mp3",
+      "audioSHA256": "3ee29cacd97b032bf9491ca75fd7bed577d712893983e7922b6ad554e4f8ef3e",
+      "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+    }
+  },
+  "allContextCandidatesForReview": [
+    {
+      "songId": "qq:003mSMTO49SmOq",
+      "title": "Fall",
+      "artists": "Chon",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "孤立 Fall 有秋季、下落、衰败等词义，标题不足以确认秋季。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Fall",
+              "matched_text": "Fall",
+              "span": [
+                0,
+                4
+              ],
+              "matched_alias": "fall",
+              "rule_id": "season.autumn-fall",
+              "source_tag": "season.autumn",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "ambiguous",
+              "reason": "孤立 Fall 有秋季、下落、衰败等词义，标题不足以确认秋季。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Fall",
+                  "matched_text": "Fall",
+                  "span": [
+                    0,
+                    4
+                  ],
+                  "matched_alias": "fall",
+                  "rule_id": "season.autumn-fall"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 4]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-27",
+        "note": "艺人完整复核：主风格 Post-Rock / Cinematic；副风格 Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+      },
+      "predicted": {
+        "noise": 4.3484,
+        "swing": 4.4634,
+        "burden": 3.4143,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.06669,
+          "渐进": 0.56863,
+          "有冲劲": 0.91342,
+          "爆发": 0.54981
+        },
+        "timeScores": {
+          "8-11": 0.18384,
+          "11-14": 0.09816,
+          "14-17": 0.78488,
+          "17-20": 0.89449
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002jaefh3NZVjb",
+      "title": "夕阳消失之前",
+      "artists": "Cicada",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "夕阳消失之前",
+              "matched_text": "夕阳",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "夕阳",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "夕阳消失之前",
+                  "matched_text": "夕阳",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "夕阳",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-24",
+        "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 65%。 已按人工判断移除 Electronic 副风格；俯瞰我们的家补充 Post-Rock / Cinematic。"
+      },
+      "predicted": {
+        "noise": 2.0813,
+        "swing": 2.1519,
+        "burden": 1.9966,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.90201,
+          "渐进": 0.35383,
+          "有冲劲": 0.13377,
+          "爆发": 0.13269
+        },
+        "timeScores": {
+          "8-11": 0.78674,
+          "11-14": 0.84755,
+          "14-17": 0.31728,
+          "17-20": 0.16313
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": {
+        "noise": 2.0,
+        "swing": 2.0,
+        "burden": 2.0,
+        "energy": [
+          "平静"
+        ],
+        "time": [
+          "8-11",
+          "17-20",
+          "11-14",
+          "14-17"
+        ],
+        "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+        "sourceSHA256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353",
+        "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第四波测试/夕阳消失之前 - Cicada.mp3",
+        "audioSHA256": "c2d1d0a7f8495c036d2e97898e5d318352c2154ba0aade996da78932158f13c5",
+        "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+      },
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:004dMkXO44a4lP",
+      "title": "Tone Twilight Zone",
+      "artists": "CORNELIUS",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "Twilight zone 也指过渡／模糊状态，不能仅提取 Twilight 视作明确黄昏；降为歧义，未确认作者意图。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Tone Twilight Zone",
+              "matched_text": "Twilight",
+              "span": [
+                5,
+                13
+              ],
+              "matched_alias": "twilight",
+              "rule_id": "time.dusk",
+              "source_tag": "time.dusk",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "time.dusk",
+              "label": "黄昏／暮色",
+              "title_judgment": "ambiguous",
+              "reason": "Twilight zone 也指过渡／模糊状态，不能仅提取 Twilight 视作明确黄昏；降为歧义，未确认作者意图。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Tone Twilight Zone",
+                  "matched_text": "Twilight",
+                  "span": [
+                    5,
+                    13
+                  ],
+                  "matched_alias": "twilight",
+                  "rule_id": "time.dusk"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[5, 13]"
+          ]
+        }
+      ],
+      "tags": null,
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:00228A1v0s2cAf",
+      "title": "Sea Gets Hotter",
+      "artists": "Durand Jones, Durand Jones & The Indications, Aaron Frazer",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.temperature_hot",
+          "category": "weather",
+          "label": "偏热",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "写到海变热，但无法只凭标题判断真实天气或比喻。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Sea Gets Hotter",
+              "matched_text": "Hotter",
+              "span": [
+                9,
+                15
+              ],
+              "matched_alias": "hotter",
+              "rule_id": "weather.temperature_hot",
+              "source_tag": "weather.temperature_hot",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "weather.temperature_hot",
+              "label": "炎热候选",
+              "title_judgment": "ambiguous",
+              "reason": "写到海变热，但无法只凭标题判断真实天气或比喻。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Sea Gets Hotter",
+                  "matched_text": "Hotter",
+                  "span": [
+                    9,
+                    15
+                  ],
+                  "matched_alias": "hotter",
+                  "rule_id": "weather.temperature_hot"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[9, 15]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Folk / Singer-Songwriter",
+        "secondary_genres": [
+          "Rock / Alternative",
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-10-04",
+        "note": "候选纠错页确认当前人工结果：主风格 Folk / Singer-Songwriter（原候选置信度 65%）；副风格 Rock / Alternative、Jazz / Soul；语言 默认（中文 / 英文）；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 3.3707,
+        "swing": 3.5478,
+        "burden": 2.8837,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.13605,
+          "渐进": 0.49765,
+          "有冲劲": 0.53416,
+          "爆发": 0.06577
+        },
+        "timeScores": {
+          "8-11": 0.42983,
+          "11-14": 0.33634,
+          "14-17": 0.83326,
+          "17-20": 0.80478
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001Dmb1d1hpNH4",
+      "title": "Image-Autumn-Womb",
+      "artists": "Goldmund",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Image-Autumn-Womb",
+              "matched_text": "Autumn",
+              "span": [
+                6,
+                12
+              ],
+              "matched_alias": "autumn",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Image-Autumn-Womb",
+                  "matched_text": "Autumn",
+                  "span": [
+                    6,
+                    12
+                  ],
+                  "matched_alias": "autumn",
+                  "rule_id": "season.autumn"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[6, 12]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-24",
+        "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 85%。"
+      },
+      "predicted": {
+        "noise": 1.5693,
+        "swing": 1.9275,
+        "burden": 2.6246,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.89148,
+          "渐进": 0.27933,
+          "有冲劲": 0.12614,
+          "爆发": 0.10212
+        },
+        "timeScores": {
+          "8-11": 0.81357,
+          "11-14": 0.84116,
+          "14-17": 0.27739,
+          "17-20": 0.18728
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000NYjiu04EmeE",
+      "title": "Blue Sky",
+      "artists": "GYVUS",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "Blue Sky 的蓝天字面意象明确，不推断作品听感。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Blue Sky",
+              "matched_text": "Blue Sky",
+              "span": [
+                0,
+                8
+              ],
+              "matched_alias": "blue sky",
+              "rule_id": "weather.clear",
+              "source_tag": "weather.clear",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "weather.clear",
+              "label": "晴／晴空意象",
+              "title_judgment": "explicit",
+              "reason": "Blue Sky 的蓝天字面意象明确，不推断作品听感。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Blue Sky",
+                  "matched_text": "Blue Sky",
+                  "span": [
+                    0,
+                    8
+                  ],
+                  "matched_alias": "blue sky",
+                  "rule_id": "weather.clear"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 8]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Electronic",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-19",
+        "note": "候选纠错页人工复核：主风格由候选 Electronic 修正为 Hip-Hop / R&B（原候选置信度 65%）；副风格 Electronic、Ambient / Neo-Classical；器乐性 Instrumental。"
+      },
+      "predicted": {
+        "noise": 2.9131,
+        "swing": 3.3001,
+        "burden": 2.9382,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.77564,
+          "渐进": 0.57199,
+          "有冲劲": 0.12213,
+          "爆发": 0.13393
+        },
+        "timeScores": {
+          "8-11": 0.81739,
+          "11-14": 0.83528,
+          "14-17": 0.45375,
+          "17-20": 0.30285
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000WCQJX2WtTkx",
+      "title": "Morning Glow",
+      "artists": "Heavenstamp",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Morning Glow",
+              "matched_text": "Morning",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "morning",
+              "rule_id": "time.morning",
+              "source_tag": "time.morning",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "explicit",
+              "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Morning Glow",
+                  "matched_text": "Morning",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "morning",
+                  "rule_id": "time.morning"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": "Japanese",
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-22",
+        "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 Japanese；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 5.5381,
+        "swing": 4.7122,
+        "burden": 3.3008,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.15002,
+          "渐进": 0.62882,
+          "有冲劲": 0.77913,
+          "爆发": 0.60216
+        },
+        "timeScores": {
+          "8-11": 0.35671,
+          "11-14": 0.21175,
+          "14-17": 0.72202,
+          "17-20": 0.74865
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001F06id4BjbVK",
+      "title": "Dance PM",
+      "artists": "Hiroshi Yoshimura",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.afternoon",
+          "category": "time_light",
+          "label": "下午（14–18 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "PM 覆盖午后至晚间，只考虑其与 08:00–18:00 的交集；不是精确钟点。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Dance PM",
+              "matched_text": "PM",
+              "span": [
+                6,
+                8
+              ],
+              "matched_alias": "pm",
+              "rule_id": "time.after_noon",
+              "source_tag": "time.after_noon",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "14:00",
+            "end": "18:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.after_noon",
+              "label": "午后至晚间（PM）",
+              "title_judgment": "explicit",
+              "reason": "PM 覆盖午后至晚间，只考虑其与 08:00–18:00 的交集；不是精确钟点。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Dance PM",
+                  "matched_text": "PM",
+                  "span": [
+                    6,
+                    8
+                  ],
+                  "matched_alias": "pm",
+                  "rule_id": "time.after_noon"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[6, 8]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Electronic"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-21",
+        "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Electronic；原候选置信度 85%。"
+      },
+      "predicted": {
+        "noise": 1.5714,
+        "swing": 1.564,
+        "burden": 2.1861,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.69521,
+          "渐进": 0.37603,
+          "有冲劲": 0.28054,
+          "爆发": 0.22864
+        },
+        "timeScores": {
+          "8-11": 0.65633,
+          "11-14": 0.66851,
+          "14-17": 0.43726,
+          "17-20": 0.33944
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002rCRhp1lzt8z",
+      "title": "showers with sunny intervals",
+      "artists": "how to count one to ten",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。；优先保留天气过程，不把晴与雨看成三个独立加分理由。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "showers with sunny intervals",
+              "matched_text": "sunny",
+              "span": [
+                13,
+                18
+              ],
+              "matched_alias": "sunny",
+              "rule_id": "weather.clear",
+              "source_tag": "weather.clear",
+              "source_judgment": "explicit"
+            },
+            {
+              "type": "title",
+              "source_title": "showers with sunny intervals",
+              "matched_text": "showers with sunny intervals",
+              "span": [
+                0,
+                28
+              ],
+              "matched_alias": "showers with sunny intervals",
+              "rule_id": "weather.rain_then_clear",
+              "source_tag": "weather.rain_then_clear",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "weather.clear",
+              "label": "晴／晴空意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "showers with sunny intervals",
+                  "matched_text": "sunny",
+                  "span": [
+                    13,
+                    18
+                  ],
+                  "matched_alias": "sunny",
+                  "rule_id": "weather.clear"
+                }
+              ]
+            },
+            {
+              "tag": "weather.rain_then_clear",
+              "label": "阵雨间歇转晴／雨晴交替",
+              "title_judgment": "explicit",
+              "reason": "优先保留天气过程，不把晴与雨看成三个独立加分理由。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "showers with sunny intervals",
+                  "matched_text": "showers with sunny intervals",
+                  "span": [
+                    0,
+                    28
+                  ],
+                  "matched_alias": "showers with sunny intervals",
+                  "rule_id": "weather.rain_then_clear"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "weather.rain_then_clear:[0, 28]"
+          ],
+          "weather_changes": [
+            {
+              "components": [
+                "weather.rain",
+                "weather.clear"
+              ],
+              "label": "雨后放晴／雨晴交替",
+              "source_tag": "weather.rain_then_clear"
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-28",
+        "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。人工确认现有标签无误。"
+      },
+      "predicted": {
+        "noise": 3.8285,
+        "swing": 3.913,
+        "burden": 3.235,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.09009,
+          "渐进": 0.37923,
+          "有冲劲": 0.83261,
+          "爆发": 0.48424
+        },
+        "timeScores": {
+          "8-11": 0.30918,
+          "11-14": 0.15758,
+          "14-17": 0.74588,
+          "17-20": 0.86328
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001ly1ww3DYheR",
+      "title": "日の出",
+      "artists": "kanekoayano",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.sunrise",
+          "category": "time_light",
+          "label": "日出",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "日の出",
+              "matched_text": "日の出",
+              "span": [
+                0,
+                3
+              ],
+              "matched_alias": "日の出",
+              "rule_id": "light.sunrise",
+              "source_tag": "light.sunrise",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "opening_image",
+            "start": "08:00",
+            "end": "11:00",
+            "requires_actual_sunrise_overlap": false,
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunrise",
+              "label": "日出",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "日の出",
+                  "matched_text": "日の出",
+                  "span": [
+                    0,
+                    3
+                  ],
+                  "matched_alias": "日の出",
+                  "rule_id": "light.sunrise"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 3]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": "Japanese",
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-18",
+        "note": "候选纠错页人工复核：主风格由候选 Folk / Singer-Songwriter 修正为 Rock / Alternative（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；器乐性 非器乐。语言 Japanese。"
+      },
+      "predicted": {
+        "noise": 4.206,
+        "swing": 3.9587,
+        "burden": 2.5137,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.07814,
+          "渐进": 0.46341,
+          "有冲劲": 0.87091,
+          "爆发": 0.47424
+        },
+        "timeScores": {
+          "8-11": 0.2503,
+          "11-14": 0.11274,
+          "14-17": 0.75966,
+          "17-20": 0.86032
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:003cyCJ13XrEOW",
+      "title": "Peonies for Breakfast",
+      "artists": "LAUSSE THE CAT",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "indirect",
+          "judgment_label": "间接线索",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早餐仅为上午的间接线索，不证明听感适合早晨。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Peonies for Breakfast",
+              "matched_text": "Breakfast",
+              "span": [
+                12,
+                21
+              ],
+              "matched_alias": "breakfast",
+              "rule_id": "time.breakfast",
+              "source_tag": "time.morning",
+              "source_judgment": "indirect"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "indirect",
+              "reason": "早餐仅为上午的间接线索，不证明听感适合早晨。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Peonies for Breakfast",
+                  "matched_text": "Breakfast",
+                  "span": [
+                    12,
+                    21
+                  ],
+                  "matched_alias": "breakfast",
+                  "rule_id": "time.breakfast"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[12, 21]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false,
+        "source": "human_candidate_review",
+        "updated_at": "2026-10-08",
+        "note": "候选人工复核：确认主风格 Hip-Hop / R&B；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 3.5805,
+        "swing": 3.7607,
+        "burden": 2.9134,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.05876,
+          "渐进": 0.47408,
+          "有冲劲": 0.73404,
+          "爆发": 0.2869
+        },
+        "timeScores": {
+          "8-11": 0.17492,
+          "11-14": 0.10841,
+          "14-17": 0.85716,
+          "17-20": 0.88232
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000xuQkh0Df42Y",
+      "title": "HOT",
+      "artists": "LE SSERAFIM",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.temperature_hot",
+          "category": "weather",
+          "label": "偏热",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "孤立 Hot 可指热度、热情等，天气含义未确认。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "HOT",
+              "matched_text": "HOT",
+              "span": [
+                0,
+                3
+              ],
+              "matched_alias": "hot",
+              "rule_id": "weather.temperature_hot",
+              "source_tag": "weather.temperature_hot",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "weather.temperature_hot",
+              "label": "炎热候选",
+              "title_judgment": "ambiguous",
+              "reason": "孤立 Hot 可指热度、热情等，天气含义未确认。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "HOT",
+                  "matched_text": "HOT",
+                  "span": [
+                    0,
+                    3
+                  ],
+                  "matched_alias": "hot",
+                  "rule_id": "weather.temperature_hot"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 3]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Rock / Alternative"
+        ],
+        "language": null,
+        "instrumental": false,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-09-09",
+        "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Rock / Alternative；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 4.6298,
+        "swing": 4.4754,
+        "burden": 2.9345,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.07593,
+          "渐进": 0.45479,
+          "有冲劲": 0.89813,
+          "爆发": 0.72513
+        },
+        "timeScores": {
+          "8-11": 0.25336,
+          "11-14": 0.10908,
+          "14-17": 0.74013,
+          "17-20": 0.8669
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:004MW3K31ntIbj",
+      "title": "Siesta Freestyle",
+      "artists": "Lewis OfMan, Alicia te quiero",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.afternoon",
+          "category": "time_light",
+          "label": "下午（14–18 点）",
+          "title_judgment": "indirect",
+          "judgment_label": "间接线索",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "午休是午后活动的间接线索，不是明确播放钟点或听感适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Siesta Freestyle",
+              "matched_text": "Siesta",
+              "span": [
+                0,
+                6
+              ],
+              "matched_alias": "siesta",
+              "rule_id": "time.siesta",
+              "source_tag": "time.afternoon",
+              "source_judgment": "indirect"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "14:00",
+            "end": "18:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.afternoon",
+              "label": "下午",
+              "title_judgment": "indirect",
+              "reason": "午休是午后活动的间接线索，不是明确播放钟点或听感适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Siesta Freestyle",
+                  "matched_text": "Siesta",
+                  "span": [
+                    0,
+                    6
+                  ],
+                  "matched_alias": "siesta",
+                  "rule_id": "time.siesta"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 6]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [],
+        "language": "Other Languages",
+        "instrumental": false,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-09-09",
+        "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 无；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 4.3738,
+        "swing": 4.333,
+        "burden": 3.2425,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.06302,
+          "渐进": 0.47384,
+          "有冲劲": 0.879,
+          "爆发": 0.33346
+        },
+        "timeScores": {
+          "8-11": 0.26683,
+          "11-14": 0.08872,
+          "14-17": 0.72693,
+          "17-20": 0.85888
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000gnR5f0L9CqV",
+      "title": "SUNSET",
+      "artists": "LITE, Yvette Young",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "SUNSET",
+              "matched_text": "SUNSET",
+              "span": [
+                0,
+                6
+              ],
+              "matched_alias": "sunset",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "SUNSET",
+                  "matched_text": "SUNSET",
+                  "span": [
+                    0,
+                    6
+                  ],
+                  "matched_alias": "sunset",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 6]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-28",
+        "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 65%。人工确认现有标签无误。"
+      },
+      "predicted": {
+        "noise": 3.8599,
+        "swing": 4.1786,
+        "burden": 3.2661,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.05638,
+          "渐进": 0.74698,
+          "有冲劲": 0.89609,
+          "爆发": 0.3455
+        },
+        "timeScores": {
+          "8-11": 0.13712,
+          "11-14": 0.08536,
+          "14-17": 0.82978,
+          "17-20": 0.90792
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000nNWD4350LJQ",
+      "title": "Ante Meridiem",
+      "artists": "Men I Trust",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Ante Meridiem",
+              "matched_text": "Ante Meridiem",
+              "span": [
+                0,
+                13
+              ],
+              "matched_alias": "ante meridiem",
+              "rule_id": "time.before_noon",
+              "source_tag": "time.before_noon",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.before_noon",
+              "label": "午前／上午",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Ante Meridiem",
+                  "matched_text": "Ante Meridiem",
+                  "span": [
+                    0,
+                    13
+                  ],
+                  "matched_alias": "ante meridiem",
+                  "rule_id": "time.before_noon"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 13]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Electronic",
+        "secondary_genres": [
+          "Rock / Alternative",
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-28",
+        "note": "艺人 / 曲目复核：主风格 Electronic；副风格 Rock / Alternative、Jazz / Soul；原候选置信度 85%。人工确认现有标签无误。"
+      },
+      "predicted": {
+        "noise": 2.893,
+        "swing": 3.4296,
+        "burden": 2.7369,
+        "energyLabel": "渐进",
+        "energyScores": {
+          "平静": 0.36777,
+          "渐进": 0.46323,
+          "有冲劲": 0.14313,
+          "爆发": 0.09453
+        },
+        "timeScores": {
+          "8-11": 0.65256,
+          "11-14": 0.68489,
+          "14-17": 0.66287,
+          "17-20": 0.47304
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": {
+        "noise": 3.0,
+        "swing": 2.0,
+        "burden": 4.0,
+        "energy": [
+          "平静"
+        ],
+        "time": [
+          "11-14",
+          "14-17"
+        ],
+        "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本·第六波均衡补标100首-郑卡罗-2026-10-03.json",
+        "sourceSHA256": "98ec3e1e9fa2ebaa492f06fb961a2d332ed4f208c4898ce6663764c7f0413440",
+        "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第六波测试/Ante Meridiem - Men I Trust.mp3",
+        "audioSHA256": "3ee29cacd97b032bf9491ca75fd7bed577d712893983e7922b6ad554e4f8ef3e",
+        "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+      },
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000w88dE0wlnEd",
+      "title": "Autumn",
+      "artists": "Murphy Radio",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Autumn",
+              "matched_text": "Autumn",
+              "span": [
+                0,
+                6
+              ],
+              "matched_alias": "autumn",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Autumn",
+                  "matched_text": "Autumn",
+                  "span": [
+                    0,
+                    6
+                  ],
+                  "matched_alias": "autumn",
+                  "rule_id": "season.autumn"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 6]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-19",
+        "note": "候选纠错页人工复核：主风格由候选 Rock / Alternative 修正为 Post-Rock / Cinematic（原候选置信度 65%）；副风格 无；器乐性 Instrumental。"
+      },
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000TQcC94CIZvg",
+      "title": "Morning Horizon",
+      "artists": "Nitsua",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Morning Horizon",
+              "matched_text": "Morning",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "morning",
+              "rule_id": "time.morning",
+              "source_tag": "time.morning",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "explicit",
+              "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Morning Horizon",
+                  "matched_text": "Morning",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "morning",
+                  "rule_id": "time.morning"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Jazz / Soul",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-22",
+        "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul、Ambient / Neo-Classical；语言 默认（中文 / 英文）；器乐性 Instrumental。"
+      },
+      "predicted": {
+        "noise": 3.1532,
+        "swing": 3.5854,
+        "burden": 3.1832,
+        "energyLabel": "渐进",
+        "energyScores": {
+          "平静": 0.22906,
+          "渐进": 0.48518,
+          "有冲劲": 0.2344,
+          "爆发": 0.10766
+        },
+        "timeScores": {
+          "8-11": 0.80615,
+          "11-14": 0.48944,
+          "14-17": 0.63395,
+          "17-20": 0.56946
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": {
+        "noise": 3.0,
+        "swing": 3.0,
+        "burden": 2.0,
+        "energy": [
+          "平静"
+        ],
+        "time": [
+          "8-11"
+        ],
+        "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+        "sourceSHA256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353",
+        "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第四波测试/Morning Horizon - Nitsua.mp3",
+        "audioSHA256": "e99e0b8fafcdf91cd6800d27c07afae859e5321873dda8c98c301d0289a870cb",
+        "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+      },
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000LHut30evEZX",
+      "title": "Sunshine",
+      "artists": "OneRepublic",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "并入晴天／阳光标题关联，不证明当地实况或店内光照。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Sunshine",
+              "matched_text": "Sunshine",
+              "span": [
+                0,
+                8
+              ],
+              "matched_alias": "sunshine",
+              "rule_id": "light.sunlight",
+              "source_tag": "light.sunlight",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunlight",
+              "label": "阳光意象",
+              "title_judgment": "explicit",
+              "reason": "并入晴天／阳光标题关联，不证明当地实况或店内光照。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Sunshine",
+                  "matched_text": "Sunshine",
+                  "span": [
+                    0,
+                    8
+                  ],
+                  "matched_alias": "sunshine",
+                  "rule_id": "light.sunlight"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 8]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-10-04",
+        "note": "候选纠错页确认当前人工结果：主风格 Rock / Alternative（原候选置信度 65%）；副风格 无；语言 默认（中文 / 英文）；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 4.7631,
+        "swing": 4.498,
+        "burden": 3.0098,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.07994,
+          "渐进": 0.6973,
+          "有冲劲": 0.90531,
+          "爆发": 0.7438
+        },
+        "timeScores": {
+          "8-11": 0.1844,
+          "11-14": 0.11429,
+          "14-17": 0.79095,
+          "17-20": 0.86064
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:0004YywQ1WLVLa",
+      "title": "Evening glow",
+      "artists": "Re:Plus, 島裕介",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Evening glow",
+              "matched_text": "Evening",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "evening",
+              "rule_id": "time.evening",
+              "source_tag": "time.evening",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.evening",
+              "label": "傍晚",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Evening glow",
+                  "matched_text": "Evening",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "evening",
+                  "rule_id": "time.evening"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "tags": null,
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000v9QqY2s2bHc",
+      "title": "Sunrise",
+      "artists": "RIOPY",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.sunrise",
+          "category": "time_light",
+          "label": "日出",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Sunrise",
+              "matched_text": "Sunrise",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "sunrise",
+              "rule_id": "light.sunrise",
+              "source_tag": "light.sunrise",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "opening_image",
+            "start": "08:00",
+            "end": "11:00",
+            "requires_actual_sunrise_overlap": false,
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunrise",
+              "label": "日出",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Sunrise",
+                  "matched_text": "Sunrise",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "sunrise",
+                  "rule_id": "light.sunrise"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-20",
+        "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 75%。"
+      },
+      "predicted": {
+        "noise": 2.6993,
+        "swing": 2.9218,
+        "burden": 2.5012,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.67875,
+          "渐进": 0.44815,
+          "有冲劲": 0.09758,
+          "爆发": 0.15453
+        },
+        "timeScores": {
+          "8-11": 0.78111,
+          "11-14": 0.81941,
+          "14-17": 0.34309,
+          "17-20": 0.1559
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002ThPp80OctaY",
+      "title": "秋水",
+      "artists": "She Never Sings Our Songs",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "秋水也可为诗意比喻，不能直接认定真实秋季。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "秋水",
+              "matched_text": "秋水",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "秋水",
+              "rule_id": "season.autumn-water",
+              "source_tag": "season.autumn",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "ambiguous",
+              "reason": "秋水也可为诗意比喻，不能直接认定真实秋季。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "秋水",
+                  "matched_text": "秋水",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "秋水",
+                  "rule_id": "season.autumn-water"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-21",
+        "note": "艺人批量复核：主风格 Post-Rock / Cinematic；副风格 无；原候选置信度 80%。"
+      },
+      "predicted": {
+        "noise": 4.4248,
+        "swing": 4.4982,
+        "burden": 3.6212,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.06583,
+          "渐进": 0.53227,
+          "有冲劲": 0.92688,
+          "爆发": 0.74987
+        },
+        "timeScores": {
+          "8-11": 0.20087,
+          "11-14": 0.09458,
+          "14-17": 0.74493,
+          "17-20": 0.88284
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:00429FLu4LqiAx",
+      "title": "Sunday Am",
+      "artists": "Shing02, Chimp Beams",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "Sunday Am 可能指星期日上午，但 AM 缩写用法未查询作品背景，暂不设播放时段。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Sunday Am",
+              "matched_text": "Am",
+              "span": [
+                7,
+                9
+              ],
+              "rule_id": "agent_title_phrase_review",
+              "source_tag": "time.before_noon",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.before_noon",
+              "label": "午前／上午候选",
+              "title_judgment": "ambiguous",
+              "reason": "Sunday Am 可能指星期日上午，但 AM 缩写用法未查询作品背景，暂不设播放时段。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Sunday Am",
+                  "matched_text": "Am",
+                  "span": [
+                    7,
+                    9
+                  ],
+                  "rule_id": "agent_title_phrase_review"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[7, 9]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": "Japanese",
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-10-04",
+        "note": "候选纠错页确认当前人工结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Jazz / Soul；语言 Japanese；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 3.8323,
+        "swing": 4.0509,
+        "burden": 2.9114,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.06003,
+          "渐进": 0.43893,
+          "有冲劲": 0.89532,
+          "爆发": 0.68936
+        },
+        "timeScores": {
+          "8-11": 0.18589,
+          "11-14": 0.09042,
+          "14-17": 0.76592,
+          "17-20": 0.90293
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002qIVN52Tm5YO",
+      "title": "Breakfast in Bed",
+      "artists": "Stephanie Poetri",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "indirect",
+          "judgment_label": "间接线索",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早餐仅为上午的间接线索，不证明听感适合早晨。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Breakfast in Bed",
+              "matched_text": "Breakfast",
+              "span": [
+                0,
+                9
+              ],
+              "matched_alias": "breakfast",
+              "rule_id": "time.breakfast",
+              "source_tag": "time.morning",
+              "source_judgment": "indirect"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "indirect",
+              "reason": "早餐仅为上午的间接线索，不证明听感适合早晨。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Breakfast in Bed",
+                  "matched_text": "Breakfast",
+                  "span": [
+                    0,
+                    9
+                  ],
+                  "matched_alias": "breakfast",
+                  "rule_id": "time.breakfast"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 9]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter",
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-19",
+        "note": "候选纠错页人工复核：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter、Ambient / Neo-Classical；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 2.9963,
+        "swing": 3.2254,
+        "burden": 2.0575,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.5535,
+          "渐进": 0.42361,
+          "有冲劲": 0.24372,
+          "爆发": 0.14834
+        },
+        "timeScores": {
+          "8-11": 0.64884,
+          "11-14": 0.69388,
+          "14-17": 0.81774,
+          "17-20": 0.44891
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001yNCBj2IVF8g",
+      "title": "morning time",
+      "artists": "Tai Verdes",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "morning time",
+              "matched_text": "morning",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "morning",
+              "rule_id": "time.morning",
+              "source_tag": "time.morning",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "explicit",
+              "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "morning time",
+                  "matched_text": "morning",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "morning",
+                  "rule_id": "time.morning"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-22",
+        "note": "候选纠错页采用当前人工修正结果：主风格 Hip-Hop / R&B（原候选置信度 65%）；副风格 Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 3.539,
+        "swing": 3.608,
+        "burden": 2.9658,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.09115,
+          "渐进": 0.40146,
+          "有冲劲": 0.70239,
+          "爆发": 0.10293
+        },
+        "timeScores": {
+          "8-11": 0.49094,
+          "11-14": 0.1921,
+          "14-17": 0.80711,
+          "17-20": 0.88987
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001NaJgM4Bygbc",
+      "title": "Morning Dew",
+      "artists": "Timothée Couteau",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Morning Dew",
+              "matched_text": "Morning",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "morning",
+              "rule_id": "time.morning",
+              "source_tag": "time.morning",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "explicit",
+              "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Morning Dew",
+                  "matched_text": "Morning",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "morning",
+                  "rule_id": "time.morning"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-09-09",
+        "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical；器乐性 Instrumental。"
+      },
+      "predicted": {
+        "noise": 2.5732,
+        "swing": 2.5673,
+        "burden": 2.7365,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.7452,
+          "渐进": 0.47353,
+          "有冲劲": 0.06273,
+          "爆发": 0.10621
+        },
+        "timeScores": {
+          "8-11": 0.89574,
+          "11-14": 0.81036,
+          "14-17": 0.56822,
+          "17-20": 0.25486
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002Dtbtf3ZIb3Y",
+      "title": "半空日落色",
+      "artists": "Uhsgnǒd",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "半空日落色",
+              "matched_text": "日落",
+              "span": [
+                2,
+                4
+              ],
+              "matched_alias": "日落",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "半空日落色",
+                  "matched_text": "日落",
+                  "span": [
+                    2,
+                    4
+                  ],
+                  "matched_alias": "日落",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[2, 4]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-09-09",
+        "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；器乐性 Instrumental。"
+      },
+      "predicted": {
+        "noise": 4.2059,
+        "swing": 3.9791,
+        "burden": 3.0134,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.08534,
+          "渐进": 0.70602,
+          "有冲劲": 0.86615,
+          "爆发": 0.77391
+        },
+        "timeScores": {
+          "8-11": 0.24213,
+          "11-14": 0.12852,
+          "14-17": 0.80956,
+          "17-20": 0.83931
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000NCAYD2o8kMk",
+      "title": "81 autumn",
+      "artists": "Uyama Hiroto",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "81 autumn",
+              "matched_text": "autumn",
+              "span": [
+                3,
+                9
+              ],
+              "matched_alias": "autumn",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "81 autumn",
+                  "matched_text": "autumn",
+                  "span": [
+                    3,
+                    9
+                  ],
+                  "matched_alias": "autumn",
+                  "rule_id": "season.autumn"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[3, 9]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Jazz / Soul"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-31",
+        "note": "艺人批量复核：主风格 Hip-Hop / R&B；副风格 Jazz / Soul；器乐性 Instrumental；原候选置信度 65%。"
+      },
+      "predicted": {
+        "noise": 3.5461,
+        "swing": 3.9888,
+        "burden": 3.2193,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.08457,
+          "渐进": 0.48132,
+          "有冲劲": 0.77258,
+          "爆发": 0.24649
+        },
+        "timeScores": {
+          "8-11": 0.35333,
+          "11-14": 0.1637,
+          "14-17": 0.81598,
+          "17-20": 0.82727
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002QAigR2LzEFn",
+      "title": "常熱",
+      "artists": "Vaundy",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.temperature_hot",
+          "category": "weather",
+          "label": "偏热",
+          "title_judgment": "ambiguous",
+          "judgment_label": "语义待确认",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "常熱 可能是情绪或词语创作，不直接判断实际高温。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "常熱",
+              "matched_text": "常熱",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "常热",
+              "rule_id": "weather.temperature_hot",
+              "source_tag": "weather.temperature_hot",
+              "source_judgment": "ambiguous"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "weather.temperature_hot",
+              "label": "炎热候选",
+              "title_judgment": "ambiguous",
+              "reason": "常熱 可能是情绪或词语创作，不直接判断实际高温。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "常熱",
+                  "matched_text": "常熱",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "常热",
+                  "rule_id": "weather.temperature_hot"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Hip-Hop / R&B",
+        "secondary_genres": [
+          "Folk / Singer-Songwriter",
+          "Rock / Alternative"
+        ],
+        "language": "Japanese",
+        "instrumental": false,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-10-04",
+        "note": "无候选手动标注：主风格 Hip-Hop / R&B；副风格 Folk / Singer-Songwriter、Rock / Alternative；语言 Japanese；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 4.2556,
+        "swing": 4.2136,
+        "burden": 3.1405,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.05409,
+          "渐进": 0.51495,
+          "有冲劲": 0.93433,
+          "爆发": 0.74821
+        },
+        "timeScores": {
+          "8-11": 0.18465,
+          "11-14": 0.07038,
+          "14-17": 0.76134,
+          "17-20": 0.89046
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000md38x29CEas",
+      "title": "Morning Sunrise",
+      "artists": "Yazmin Lacey",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "time.morning",
+          "category": "time_light",
+          "label": "上午（8–11 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Morning Sunrise",
+              "matched_text": "Morning",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "morning",
+              "rule_id": "time.morning",
+              "source_tag": "time.morning",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "08:00",
+            "end": "11:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.morning",
+              "label": "早晨",
+              "title_judgment": "explicit",
+              "reason": "早晨标题对应开店上午区间；不要求实际日出落在营业时间内。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Morning Sunrise",
+                  "matched_text": "Morning",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "morning",
+                  "rule_id": "time.morning"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        },
+        {
+          "tag": "light.sunrise",
+          "category": "time_light",
+          "label": "日出",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Morning Sunrise",
+              "matched_text": "Sunrise",
+              "span": [
+                8,
+                15
+              ],
+              "matched_alias": "sunrise",
+              "rule_id": "light.sunrise",
+              "source_tag": "light.sunrise",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "opening_image",
+            "start": "08:00",
+            "end": "11:00",
+            "requires_actual_sunrise_overlap": false,
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunrise",
+              "label": "日出",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Morning Sunrise",
+                  "matched_text": "Sunrise",
+                  "span": [
+                    8,
+                    15
+                  ],
+                  "matched_alias": "sunrise",
+                  "rule_id": "light.sunrise"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[8, 15]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [
+          "Hip-Hop / R&B",
+          "Folk / Singer-Songwriter"
+        ],
+        "language": null,
+        "instrumental": false,
+        "source": "human_candidate_confirmed",
+        "updated_at": "2026-09-22",
+        "note": "候选纠错页确认当前人工结果：主风格 Jazz / Soul（原候选置信度 65%）；副风格 Hip-Hop / R&B、Folk / Singer-Songwriter；语言 默认（中文 / 英文）；器乐性 非器乐。"
+      },
+      "predicted": {
+        "noise": 4.1316,
+        "swing": 4.0076,
+        "burden": 3.3585,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.05342,
+          "渐进": 0.61055,
+          "有冲劲": 0.90127,
+          "爆发": 0.44993
+        },
+        "timeScores": {
+          "8-11": 0.17064,
+          "11-14": 0.07165,
+          "14-17": 0.79776,
+          "17-20": 0.90959
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:0002W4XM3jqEeg",
+      "title": "an evening",
+      "artists": "Yutaka Hirasaka",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "an evening",
+              "matched_text": "evening",
+              "span": [
+                3,
+                10
+              ],
+              "matched_alias": "evening",
+              "rule_id": "time.evening",
+              "source_tag": "time.evening",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.evening",
+              "label": "傍晚",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "an evening",
+                  "matched_text": "evening",
+                  "span": [
+                    3,
+                    10
+                  ],
+                  "matched_alias": "evening",
+                  "rule_id": "time.evening"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[3, 10]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-28",
+        "note": "艺人完整复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。已按人工判断移除 Electronic 副风格。"
+      },
+      "predicted": {
+        "noise": 2.6242,
+        "swing": 3.1323,
+        "burden": 2.1473,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.86897,
+          "渐进": 0.30779,
+          "有冲劲": 0.09802,
+          "爆发": 0.10162
+        },
+        "timeScores": {
+          "8-11": 0.78098,
+          "11-14": 0.87467,
+          "14-17": 0.43347,
+          "17-20": 0.17411
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:0012XJ5X3P0Zft",
+      "title": "Twilight",
+      "artists": "haruka nakamura",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Twilight",
+              "matched_text": "Twilight",
+              "span": [
+                0,
+                8
+              ],
+              "matched_alias": "twilight",
+              "rule_id": "time.dusk",
+              "source_tag": "time.dusk",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.dusk",
+              "label": "黄昏／暮色",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Twilight",
+                  "matched_text": "Twilight",
+                  "span": [
+                    0,
+                    8
+                  ],
+                  "matched_alias": "twilight",
+                  "rule_id": "time.dusk"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 8]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-20",
+        "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+      },
+      "predicted": {
+        "noise": 2.8572,
+        "swing": 3.3348,
+        "burden": 3.2635,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.66941,
+          "渐进": 0.35208,
+          "有冲劲": 0.08148,
+          "爆发": 0.15479
+        },
+        "timeScores": {
+          "8-11": 0.78701,
+          "11-14": 0.83594,
+          "14-17": 0.2892,
+          "17-20": 0.15488
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:0042Q9Y131Uj0w",
+      "title": "Harmonie Du Soir",
+      "artists": "haruka nakamura",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Harmonie Du Soir",
+              "matched_text": "Soir",
+              "span": [
+                12,
+                16
+              ],
+              "matched_alias": "soir",
+              "rule_id": "time.evening",
+              "source_tag": "time.evening",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.evening",
+              "label": "傍晚",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Harmonie Du Soir",
+                  "matched_text": "Soir",
+                  "span": [
+                    12,
+                    16
+                  ],
+                  "matched_alias": "soir",
+                  "rule_id": "time.evening"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[12, 16]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-20",
+        "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+      },
+      "predicted": {
+        "noise": 1.6236,
+        "swing": 1.6206,
+        "burden": 2.1277,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.81815,
+          "渐进": 0.34583,
+          "有冲劲": 0.09057,
+          "爆发": 0.08025
+        },
+        "timeScores": {
+          "8-11": 0.82246,
+          "11-14": 0.78504,
+          "14-17": 0.32977,
+          "17-20": 0.26072
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001Tv8T80mmUC3",
+      "title": "夕べの祈り",
+      "artists": "haruka nakamura",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "夕べの祈り",
+              "matched_text": "夕べ",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "夕べ",
+              "rule_id": "time.evening",
+              "source_tag": "time.evening",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.evening",
+              "label": "傍晚",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "夕べの祈り",
+                  "matched_text": "夕べ",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "夕べ",
+                  "rule_id": "time.evening"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-20",
+        "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 无；原候选置信度 80%。"
+      },
+      "predicted": {
+        "noise": 1.3939,
+        "swing": 1.147,
+        "burden": 1.9846,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.77528,
+          "渐进": 0.35651,
+          "有冲劲": 0.15328,
+          "爆发": 0.11829
+        },
+        "timeScores": {
+          "8-11": 0.81595,
+          "11-14": 0.73704,
+          "14-17": 0.39927,
+          "17-20": 0.29569
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:003xf9O01xLZPD",
+      "title": "SUNSET LINE",
+      "artists": "haruka nakamura",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "SUNSET LINE",
+              "matched_text": "SUNSET",
+              "span": [
+                0,
+                6
+              ],
+              "matched_alias": "sunset",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "SUNSET LINE",
+                  "matched_text": "SUNSET",
+                  "span": [
+                    0,
+                    6
+                  ],
+                  "matched_alias": "sunset",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 6]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Hip-Hop / R&B"
+        ],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-20",
+        "note": "艺人批量复核：主风格 Ambient / Neo-Classical；副风格 Hip-Hop / R&B；原候选置信度 65%。 副风格已按人工判断修正。"
+      },
+      "predicted": {
+        "noise": 2.8982,
+        "swing": 3.2565,
+        "burden": 3.0807,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.21793,
+          "渐进": 0.44569,
+          "有冲劲": 0.59524,
+          "爆发": 0.41941
+        },
+        "timeScores": {
+          "8-11": 0.6088,
+          "11-14": 0.46292,
+          "14-17": 0.64078,
+          "17-20": 0.44267
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:0025m6Oq20gi6p",
+      "title": "ON THE SUNNY SIDE OF THE STREET",
+      "artists": "北村英治",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "ON THE SUNNY SIDE OF THE STREET",
+              "matched_text": "SUNNY",
+              "span": [
+                7,
+                12
+              ],
+              "matched_alias": "sunny",
+              "rule_id": "weather.clear",
+              "source_tag": "weather.clear",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "weather.clear",
+              "label": "晴／晴空意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "ON THE SUNNY SIDE OF THE STREET",
+                  "matched_text": "SUNNY",
+                  "span": [
+                    7,
+                    12
+                  ],
+                  "matched_alias": "sunny",
+                  "rule_id": "weather.clear"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[7, 12]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Jazz / Soul",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-24",
+        "note": "艺人批量复核：主风格 Jazz / Soul；副风格 无；原候选置信度 65%%。"
+      },
+      "predicted": {
+        "noise": 2.5025,
+        "swing": 2.6538,
+        "burden": 2.6902,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.82789,
+          "渐进": 0.46482,
+          "有冲劲": 0.16835,
+          "爆发": 0.16426
+        },
+        "timeScores": {
+          "8-11": 0.74284,
+          "11-14": 0.79286,
+          "14-17": 0.49941,
+          "17-20": 0.28079
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000PFi7O2pxmSj",
+      "title": "时间回到秋天的下午",
+      "artists": "狄奥尼索斯乐队",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "时间回到秋天的下午",
+              "matched_text": "秋天",
+              "span": [
+                4,
+                6
+              ],
+              "matched_alias": "秋天",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "时间回到秋天的下午",
+                  "matched_text": "秋天",
+                  "span": [
+                    4,
+                    6
+                  ],
+                  "matched_alias": "秋天",
+                  "rule_id": "season.autumn"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[4, 6]"
+          ]
+        },
+        {
+          "tag": "time.afternoon",
+          "category": "time_light",
+          "label": "下午（14–18 点）",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "时间回到秋天的下午",
+              "matched_text": "下午",
+              "span": [
+                7,
+                9
+              ],
+              "matched_alias": "下午",
+              "rule_id": "time.afternoon",
+              "source_tag": "time.afternoon",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "store_period",
+            "start": "14:00",
+            "end": "18:00",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "time.afternoon",
+              "label": "下午",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "时间回到秋天的下午",
+                  "matched_text": "下午",
+                  "span": [
+                    7,
+                    9
+                  ],
+                  "matched_alias": "下午",
+                  "rule_id": "time.afternoon"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[7, 9]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Ambient / Neo-Classical",
+        "secondary_genres": [
+          "Post-Rock / Cinematic"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-09-09",
+        "note": "无候选手动标注：主风格 Ambient / Neo-Classical；副风格 Post-Rock / Cinematic；器乐性 Instrumental。"
+      },
+      "predicted": {
+        "noise": 2.2784,
+        "swing": 2.8134,
+        "burden": 3.4409,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.85978,
+          "渐进": 0.35129,
+          "有冲劲": 0.10314,
+          "爆发": 0.10755
+        },
+        "timeScores": {
+          "8-11": 0.82321,
+          "11-14": 0.87226,
+          "14-17": 0.40286,
+          "17-20": 0.15527
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:00260sXv1K2vx6",
+      "title": "阴转晴",
+      "artists": "琥珀乐队",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "阴转晴",
+              "matched_text": "阴转晴",
+              "span": [
+                0,
+                3
+              ],
+              "matched_alias": "阴转晴",
+              "rule_id": "weather.cloud_then_clear",
+              "source_tag": "weather.cloud_then_clear",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "weather.cloud_then_clear",
+              "label": "阴转晴",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "阴转晴",
+                  "matched_text": "阴转晴",
+                  "span": [
+                    0,
+                    3
+                  ],
+                  "matched_alias": "阴转晴",
+                  "rule_id": "weather.cloud_then_clear"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "weather.cloud_then_clear:[0, 3]"
+          ],
+          "weather_changes": [
+            {
+              "components": [
+                "weather.overcast",
+                "weather.clear"
+              ],
+              "label": "阴转晴",
+              "source_tag": "weather.cloud_then_clear"
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_manual_no_candidate_review",
+        "updated_at": "2026-09-09",
+        "note": "无候选手动标注：主风格 Post-Rock / Cinematic；副风格 无；器乐性 Instrumental。"
+      },
+      "predicted": {
+        "noise": 4.1276,
+        "swing": 3.9886,
+        "burden": 3.1494,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.06373,
+          "渐进": 0.50136,
+          "有冲劲": 0.90622,
+          "爆发": 0.87088
+        },
+        "timeScores": {
+          "8-11": 0.14403,
+          "11-14": 0.0905,
+          "14-17": 0.81187,
+          "17-20": 0.88667
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001Ieejp1qL4s2",
+      "title": "秋天降落",
+      "artists": "碎叠",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "秋天降落",
+              "matched_text": "秋天",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "秋天",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "秋天降落",
+                  "matched_text": "秋天",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "秋天",
+                  "rule_id": "season.autumn"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_combined_tag_zmpd_review",
+        "updated_at": "2026-10-10",
+        "note": "Tag + ZMPD 联合标注确认入档。"
+      },
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:001PSEvr3fGPwu",
+      "title": "夕凪",
+      "artists": "羊文学",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "夕凪 是傍晚风暂歇的词，保留傍晚标题意象，不推成日落。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "夕凪",
+              "matched_text": "夕凪",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "夕凪",
+              "rule_id": "time.evening",
+              "source_tag": "time.evening",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "time.evening",
+              "label": "傍晚",
+              "title_judgment": "explicit",
+              "reason": "夕凪 是傍晚风暂歇的词，保留傍晚标题意象，不推成日落。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "夕凪",
+                  "matched_text": "夕凪",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "夕凪",
+                  "rule_id": "time.evening"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Rock / Alternative",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": null,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-28",
+        "note": "艺人 / 曲目复核：主风格 Rock / Alternative；副风格 无；原候选置信度 75%。人工确认现有标签无误。"
+      },
+      "predicted": {
+        "noise": 3.8777,
+        "swing": 4.1205,
+        "burden": 3.5967,
+        "energyLabel": "有冲劲",
+        "energyScores": {
+          "平静": 0.05514,
+          "渐进": 0.77262,
+          "有冲劲": 0.90154,
+          "爆发": 0.49816
+        },
+        "timeScores": {
+          "8-11": 0.16367,
+          "11-14": 0.08483,
+          "14-17": 0.84124,
+          "17-20": 0.90542
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000AfObd05CAd7",
+      "title": "重生总在夕阳时",
+      "artists": "荒山茉莉",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "重生总在夕阳时",
+              "matched_text": "夕阳",
+              "span": [
+                4,
+                6
+              ],
+              "matched_alias": "夕阳",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "重生总在夕阳时",
+                  "matched_text": "夕阳",
+                  "span": [
+                    4,
+                    6
+                  ],
+                  "matched_alias": "夕阳",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[4, 6]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [],
+        "language": null,
+        "instrumental": true,
+        "source": "human_combined_tag_zmpd_review",
+        "updated_at": "2026-10-09",
+        "note": "Tag + ZMPD 联合标注确认入档。"
+      },
+      "predicted": {
+        "noise": 3.1444,
+        "swing": 3.2172,
+        "burden": 3.1264,
+        "energyLabel": "渐进",
+        "energyScores": {
+          "平静": 0.4034,
+          "渐进": 0.51073,
+          "有冲劲": 0.27847,
+          "爆发": 0.12254
+        },
+        "timeScores": {
+          "8-11": 0.26397,
+          "11-14": 0.59543,
+          "14-17": 0.37173,
+          "17-20": 0.34322
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:0049JqVu3Fvmpj",
+      "title": "Sunny",
+      "artists": "藤井风",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Sunny",
+              "matched_text": "Sunny",
+              "span": [
+                0,
+                5
+              ],
+              "matched_alias": "sunny",
+              "rule_id": "weather.clear",
+              "source_tag": "weather.clear",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "weather.clear",
+              "label": "晴／晴空意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Sunny",
+                  "matched_text": "Sunny",
+                  "span": [
+                    0,
+                    5
+                  ],
+                  "matched_alias": "sunny",
+                  "rule_id": "weather.clear"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 5]"
+          ]
+        }
+      ],
+      "tags": null,
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:002fEQJL0N0Kbj",
+      "title": "如果太阳落下",
+      "artists": "许钧",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "如果太阳落下",
+              "matched_text": "太阳落下",
+              "span": [
+                2,
+                6
+              ],
+              "matched_alias": "太阳落下",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "如果太阳落下",
+                  "matched_text": "太阳落下",
+                  "span": [
+                    2,
+                    6
+                  ],
+                  "matched_alias": "太阳落下",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[2, 6]"
+          ]
+        }
+      ],
+      "tags": null,
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:003LQGBX43UaLB",
+      "title": "晚霞的声音",
+      "artists": "重组乐队",
+      "inCurrentUICatalog": false,
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "晚霞的声音",
+              "matched_text": "晚霞",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "晚霞",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "晚霞的声音",
+                  "matched_text": "晚霞",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "晚霞",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "tags": null,
+      "predicted": null,
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    },
+    {
+      "songId": "qq:000U0Flb4GMFHe",
+      "title": "清秋 Late in the autumn",
+      "artists": "重返袖珍时光",
+      "inCurrentUICatalog": true,
+      "associations": [
+        {
+          "tag": "season.autumn",
+          "category": "calendar",
+          "label": "秋季意象",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "清秋 Late in the autumn",
+              "matched_text": "清秋",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "清秋",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            },
+            {
+              "type": "title",
+              "source_title": "清秋 Late in the autumn",
+              "matched_text": "autumn",
+              "span": [
+                15,
+                21
+              ],
+              "matched_alias": "autumn",
+              "rule_id": "season.autumn",
+              "source_tag": "season.autumn",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "source_associations": [
+            {
+              "tag": "season.autumn",
+              "label": "秋季意象",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "清秋 Late in the autumn",
+                  "matched_text": "清秋",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "清秋",
+                  "rule_id": "season.autumn"
+                },
+                {
+                  "type": "title",
+                  "source_title": "清秋 Late in the autumn",
+                  "matched_text": "autumn",
+                  "span": [
+                    15,
+                    21
+                  ],
+                  "matched_alias": "autumn",
+                  "rule_id": "season.autumn"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]",
+            "title:[15, 21]"
+          ]
+        }
+      ],
+      "tags": {
+        "genre": "Post-Rock / Cinematic",
+        "secondary_genres": [
+          "Ambient / Neo-Classical"
+        ],
+        "language": null,
+        "instrumental": true,
+        "source": "human_artist_batch_review",
+        "updated_at": "2026-08-28",
+        "note": "艺人 / 曲目复核：主风格 Post-Rock / Cinematic；副风格 Ambient / Neo-Classical；原候选置信度 65%。已按人工判断调整主副风格。"
+      },
+      "predicted": {
+        "noise": 2.4321,
+        "swing": 2.5133,
+        "burden": 3.0691,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.79935,
+          "渐进": 0.45633,
+          "有冲劲": 0.11948,
+          "爆发": 0.14704
+        },
+        "timeScores": {
+          "8-11": 0.75567,
+          "11-14": 0.84629,
+          "14-17": 0.39274,
+          "17-20": 0.17909
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "originalAudioHumanReference": null,
+      "currentUICatalogTruth": null
+    }
+  ],
+  "approval": "all source context associations remain pending; proposals do not approve them",
+  "feasibility": "catalog validated in preceding check; no full scheduler run, transition/cooldown/full-day coverage not yet verified"
+}

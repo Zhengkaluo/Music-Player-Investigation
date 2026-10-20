@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-10-19T22:57:48+08:00",
+  "page": "完整歌单.html",
+  "sha256": "7e184d59903f20925cd2ceedda09b843fee97e376ddfff548224587d73ddbc2e",
+  "backup": "完整歌单-原阅读版.html",
+  "backupSHA256": "b03bd98aec318a22779ae3ff613930eea1f42858111e4995790bcd5a462ab044",
+  "playlistUnchanged": true,
+  "sourceAudioEdited": false,
+  "cdCommitted": false,
+  "source": "127 local files uniquely matched by filename; current catalogue has no audio hashes",
+  "automatedChecks": [
+    "127 local file paths exist",
+    "continuous timeline and exact song boundaries",
+    "playhead clock at scene positions",
+    "previous and next controls",
+    "automatic advance from timeupdate and ended",
+    "no stale ended double advance",
+    "seek and resume across tracks",
+    "final planned trim at18:30",
+    "ambiguous filename rejection"
+  ],
+  "browserCheck": {
+    "browser": "Google Chrome native UI",
+    "urlScheme": "file",
+    "metadataLoaded": true,
+    "observedPlaybackClock": "09:30:19",
+    "observedSong": 1,
+    "visualLayoutChecked": true,
+    "fullNineHourAudition": false
+  },
+  "testCommand": "node player.test.mjs"
+}

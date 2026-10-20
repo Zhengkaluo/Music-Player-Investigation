@@ -10,6 +10,32 @@ STORE_EXCLUDED_TAGS = {
     "weather.clouds", "weather.snow", "weather.wind", "time.night",
     "light.sky", "light.moon", "time.predawn", "time.dawn",
     "time.clock_unspecified", "light.aurora", "light.generic",
+    'season.all',
+    'weather.fog',
+    'weather.storm',
+    'weather.thunder',
+    'weather.frost',
+    'weather.temperature_warm',
+    'weather.wind_lull',
+    'weather.temperature_reference',
+    'holiday.birthday',
+    'holiday.generic',
+    'holiday.celebration',
+    'calendar.traditional_month03',
+    'time.midnight',
+    'light.sun',
+    'light.moonlight',
+    'light.golden_hour',
+    'activity.food_drink',
+    'activity.picnic',
+    'activity.work',
+    'activity.cycling',
+    'activity.dance',
+    'place.window',
+    'place.veranda',
+    'place.mountain_forest',
+    'nature.plants',
+    'event.gifting',
 }
 
 
@@ -43,7 +69,7 @@ class TitleContextTests(unittest.TestCase):
         self.assertFalse(self.associations("Song (feat. April Rain)"))
         self.assertFalse(self.associations("Song [Live at Night]"))
         self.assertIn("season.summer", self.associations("Song (Summer)"))
-        self.assertIn("light.sunset", self.associations("Song (Sunset)"))
+        self.assertIn("light.evening", self.associations("Song (Sunset)"))
 
     def test_artist_never_used_for_matching(self):
         self.assertFalse(self.associations("Soulmate", "April Rain"))
@@ -54,7 +80,7 @@ class TitleContextTests(unittest.TestCase):
         self.assertIn("season.summer", self.associations("ＳＵＭＭＥＲ"))
         item = self.associations("ＳＵＭＭＥＲ")["season.summer"]
         self.assertEqual(item["evidence"][0]["matched_text"], "ＳＵＭＭＥＲ")
-        self.assertIn("weather.fog", self.associations("走入有霧的森林"))
+        self.assertFalse(self.associations("走入有霧的森林"))
         self.assertIn("solar_term.jingzhe", self.associations("驚蟄"))
 
     def test_dates(self):
@@ -82,32 +108,81 @@ class TitleContextTests(unittest.TestCase):
         self.assertNotIn("time.night", tags)
         tags = self.associations("穿过雾雨森林", "Cicada")
         self.assertIn("weather.rain", tags)
-        self.assertIn("weather.fog", tags)
+        self.assertNotIn("weather.fog", tags)
 
     def test_no_cascading_inference(self):
         self.assertNotIn("season.autumn", self.associations("September"))
         self.assertNotIn("holiday.christmas", self.associations("Snowy Sky"))
         self.assertNotIn("season.winter", self.associations("Urban Snow"))
         self.assertNotIn("solar_term.bailu", self.associations("Morning Dew"))
-        self.assertNotIn("weather.clear", self.associations("Sunshine"))
+        self.assertIn("weather.clear", self.associations("Sunshine"))
+        self.assertFalse(self.associations("Sun"))
         self.assertFalse(any(tag.startswith("calendar.date.") for tag in self.associations("Red Moon")))
 
     def test_weather_idioms(self):
         self.assertNotIn("weather.clear", self.associations("東京晴れ舞台", "sucola"))
         self.assertNotIn("weather.rain", self.associations("Cold Meteor Showers", "The Breathing Effect"))
         self.assertNotIn("weather.temperature_warm", self.associations("i miss your warm hands", "i don't like mirrors"))
-        self.assertIn("weather.cloud_then_clear", self.associations("阴转晴"))
-        self.assertIn("weather.rain_then_clear", self.associations("showers with sunny intervals"))
+        self.assertEqual(set(self.associations("阴转晴")), {"weather.overcast", "weather.clear"})
+        self.assertEqual(set(self.associations("showers with sunny intervals")), {"weather.rain", "weather.clear"})
 
     def test_clocks_and_units(self):
         for title, tag in [("2AM in New York", "time.clock.02:00"), ("5Am Waltz", "time.clock.05:00"), ("pm7:42", "time.clock.19:42")]:
-            self.assertIn(tag, self.associations(title))
+            self.assertNotIn(tag, self.associations(title))
         self.assertNotIn("time.clock_unspecified", self.associations("4:55"))
-        self.assertIn("weather.temperature_cold", self.associations("0℃の日曜", "STUTS, SIKK-O, 铃木真海子"))
+        self.assertNotIn("weather.temperature_cold", self.associations("0℃の日曜", "STUTS, SIKK-O, 铃木真海子"))
         self.assertNotIn("weather.temperature_cold", self.associations("10℃の日曜"))
         self.assertFalse(self.associations("Before Dawn", "Men I Trust"))
         self.assertIn("light.sunrise", self.associations("Morning Sunrise", "Yazmin Lacey"))
         self.assertIn("time.morning", self.associations("Morning Sunrise", "Yazmin Lacey"))
+
+    def test_confirmed_store_groups(self):
+        tags = self.associations("傍晚 黄昏 暮色 日落 夕阳 晚霞", "fixture")
+        self.assertEqual(set(tags), {"light.evening"})
+        self.assertEqual(tags["light.evening"]["label"], "傍晚天光")
+        self.assertGreater(len(tags["light.evening"]["evidence"]), 5)
+        self.assertGreater(len(tags["light.evening"]["source_associations"]), 1)
+        self.assertTrue(tags["light.evening"]["trigger_hint"]["requires_opening_hours_overlap"])
+        self.assertFalse(self.associations("Sunrise")["light.sunrise"]["trigger_hint"]["requires_actual_sunrise_overlap"])
+        self.assertEqual(set(self.associations("Cold Cool")), {"weather.temperature_cold"})
+        self.assertEqual(set(self.associations("Morning Ante Meridiem")), {"time.morning"})
+        self.assertEqual(set(self.associations("Noon")), {"time.midday"})
+        self.assertEqual(set(self.associations("Afternoon PM")), {"time.afternoon"})
+        self.assertEqual(self.associations("Siesta Freestyle")["time.afternoon"]["title_judgment"], "indirect")
+        for title in ["Four Seasons", "4seasons", "月の光", "Moonlight", "Sun", "Living Frost", "Happy Birthday", "Holiday", "弥生", "Plantasia", "山行", "Coffee", "80°F"]:
+            self.assertFalse(self.associations(title), title)
+
+    def test_clock_window_and_period_boundaries(self):
+        for title, expected in [("8 AM", "time.morning"), ("10:59 AM", "time.morning"), ("11 AM", "time.midday"), ("1 PM", "time.midday"), ("2 PM", "time.afternoon"), ("5:59 PM", "time.afternoon")]:
+            tags = self.associations(title)
+            self.assertEqual(set(tags), {expected}, title)
+            self.assertEqual(tags[expected]["source_associations"][0]["trigger_hint"]["kind"], "clock_reference")
+        for title in ["7:59 AM", "6 PM", "7 PM", "2 AM", "5 AM"]:
+            self.assertFalse(self.associations(title), title)
+
+    def test_weather_change_shares_evidence_group(self):
+        for title in ["showers with sunny intervals", "雨后放晴", "阴转晴"]:
+            items = self.associations(title)
+            self.assertEqual(len(items), 2, title)
+            groups = {g for a in items.values() for g in a["scoring_groups"]}
+            self.assertEqual(len(groups), 1, title)
+            self.assertTrue(any(a.get("weather_changes") for a in items.values()))
+            self.assertFalse(any(t in items for t in ["weather.rain_then_clear", "weather.cloud_then_clear"]))
+        for title in ["May Ninth", "Sunday Weekend"]:
+            items = self.associations(title)
+            self.assertEqual(len({g for a in items.values() for g in a["scoring_groups"]}), 1, title)
+
+    def test_title_false_positives_remain_unapproved(self):
+        for title, artist in [("Right As Rain", "Adele"), ("Sunny Side Up", "Surfaces"), ("Let's Fall in Love for the Night", "FINNEAS")]:
+            self.assertFalse(self.associations(title, artist), title)
+        item = self.associations("Tone Twilight Zone", "CORNELIUS")["light.evening"]
+        self.assertEqual(item["title_judgment"], "ambiguous")
+        self.assertEqual(item["source_associations"][0]["tag"], "time.dusk")
+        self.assertEqual(self.associations("Avril 14th")["calendar.date.04-14"]["title_judgment"], "explicit")
+        self.assertIn("season.winter", self.associations("我独自过冬"))
+        self.assertEqual(len([r for r in self.config["rules"] if r["id"].startswith("solar_term.")]), 24)
+        self.assertEqual(len([r for r in self.config["rules"] if r["id"].startswith("holiday.")]), 10)
+        self.assertEqual(self.config["manual_themes"][0]["activation"], "manual_only")
 
     def test_removed_store_contexts(self):
         blocked = STORE_EXCLUDED_TAGS
@@ -121,10 +196,10 @@ class TitleContextTests(unittest.TestCase):
         self.assertIn("solar_term.bailu", self.associations("白露"))
         self.assertIn("solar_term.xiaoxue", self.associations("小雪"))
         self.assertIn("weather.clear", self.associations("Blue Sky", "GYVUS"))
-        self.assertIn("weather.storm", self.associations("Night Squall", "Balmorhea"))
-        self.assertIn("light.moonlight", self.associations("Moonlight Becomes You", "北村英治"))
-        self.assertIn("light.sunset", self.associations("夕阳消失之前", "Cicada"))
-        self.assertIn("weather.wind_lull", self.associations("夕凪", "羊文学"))
+        self.assertFalse(self.associations("Night Squall", "Balmorhea"))
+        self.assertFalse(self.associations("Moonlight Becomes You", "北村英治"))
+        self.assertIn("light.evening", self.associations("夕阳消失之前", "Cicada"))
+        self.assertEqual(set(self.associations("夕凪", "羊文学")), {"light.evening"})
         added_rule = {"id": "weather.wind", "category": "weather", "label": "风意象", "match_mode": "word", "aliases": ["winds"], "strength": "explicit"}
         compiled = scan.compile_rules(dict(self.config, rules=self.config["rules"] + [added_rule]))
         result, _, _ = scan.scan_title("Summer Winds", "fixture", self.config, compiled, self.reviews)
@@ -140,10 +215,13 @@ class TitleContextTests(unittest.TestCase):
         before = scan.digest(source)
         result = scan.build_scan(source, self.config, self.reviews)
         self.assertEqual(scan.digest(source), before)
-        self.assertEqual(len(result["tracks"]), 1161)
-        self.assertEqual(result["summary"]["input_rows"], 1162)
-        self.assertEqual(result["summary"]["duplicate_rows_collapsed"], 1)
-        self.assertEqual(result["summary"]["tracks_with_candidates"] + result["summary"]["tracks_without_candidates"], 1161)
+        library = scan.load_json(source)
+        rows = [song for singer in library["singers"] for song in singer["songs"]]
+        unique_ids = {scan.MID_RE.search(song["qq_music"]).group(1) for song in rows}
+        self.assertEqual(len(result["tracks"]), len(unique_ids))
+        self.assertEqual(result["summary"]["input_rows"], len(rows))
+        self.assertEqual(result["summary"]["duplicate_rows_collapsed"], len(rows) - len(unique_ids))
+        self.assertEqual(result["summary"]["tracks_with_candidates"] + result["summary"]["tracks_without_candidates"], len(unique_ids))
         self.assertEqual(len(result["tracks"]["qq:000dpx1K39ZkOj"]["source_records"]), 2)
         for tid, track in result["tracks"].items():
             self.assertEqual(tid, track["track_id"])

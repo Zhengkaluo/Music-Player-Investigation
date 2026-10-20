@@ -13,11 +13,11 @@
 <main>
 <div class="eyebrow">SONGBASE / CONTEXT DISCOVERY / TITLE ONLY</div>
 <h1>让歌曲标题，回应今天</h1>
-<p class="intro">第一轮全库情境关联扫描。按四季、天气、节日、日期、节气和天光分组，保留具体命中文字与标题判断理由。明确标题关联仍不等于歌词主题或播放适配。</p>
+<p class="intro">全库标题情境关联扫描。按日历、天气体感、营业时段与天光分组，保留具体命中文字与标题判断理由。明确标题关联仍不等于歌词主题或播放适配。</p>
 <div class="stamp">规则 @@VERSION@@ · 生成于 @@GENERATED@@</div>
 <div class="metrics"><div class="metric"><b>@@TOTAL@@</b><span>扫描的唯一歌曲</span></div><div class="metric"><b>@@TRACKS@@</b><span>具有标题候选的歌曲</span></div><div class="metric"><b>@@ASSOCIATIONS@@</b><span>候选关联，类别可重叠</span></div><div class="metric"><b>@@EXPLICIT@@</b><span>至少一条明确标题关联</span></div></div>
 <div class="notice">全部为待用户复核的候选，本页面只浏览和筛选，不写回正式曲库、曲风标签或歌单。没有标题命中，不代表作品没有情境主题；不从雪推圣诞、从九月推秋季、从月亮推满月。</div>
-<div class="toolbar"><input id="query" type="search" aria-label="搜索标题、艺人、情境或理由" placeholder="搜索标题、艺人、情境或理由"><select id="category" aria-label="情境类别"><option value="all">全部情境</option><option value="season">四季</option><option value="weather">天气与体感</option><option value="holiday">节日与纪念情境</option><option value="calendar">月份与日期</option><option value="solar_term">二十四节气</option><option value="time_light">时段与天光</option></select><select id="kind" aria-label="标题判断"><option value="all">全部标题判断</option><option value="explicit">明确标题关联</option><option value="indirect">间接线索</option><option value="ambiguous">语义待确认</option></select><button id="reset" type="button">重置筛选</button><span id="count" class="count"></span></div>
+<div class="toolbar"><input id="query" type="search" aria-label="搜索标题、艺人、情境或理由" placeholder="搜索标题、艺人、情境或理由"><select id="category" aria-label="情境类别"><option value="all">全部情境</option>@@CATEGORY_OPTIONS@@</select><select id="kind" aria-label="标题判断"><option value="all">全部标题判断</option><option value="explicit">明确标题关联</option><option value="indirect">间接线索</option><option value="ambiguous">语义待确认</option></select><button id="reset" type="button">重置筛选</button><span id="count" class="count"></span></div>
 <div class="links"><a href="title_context_candidates.json" download>完整候选与全库审计 JSON</a><a href="title_context_candidates.csv" download>候选明细 CSV</a><a href="title_context_report.md" download>文字报告 Markdown</a></div>
 @@GROUPS@@
 <details><summary>语义排除与防误命中记录</summary><p class="intro">以下是 Agent 对标题的初审理由，不是用户正式否决，也不声称作品内容没有关联。</p><ul>@@AUDIT@@</ul></details>

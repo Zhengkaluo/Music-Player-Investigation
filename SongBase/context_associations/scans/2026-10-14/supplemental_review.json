@@ -1,0 +1,1765 @@
+{
+  "schema_version": "songbase.context-supplement-review/v1",
+  "review_date": "2026-10-14",
+  "source": {
+    "path": "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_base_by_artist.json",
+    "sha256": "351fe9a977a1b2a2b2b48f9221850c3fbd566d34ba1bcc5fd0f2b1989401e836",
+    "declared_unique_songs": 1553
+  },
+  "generator_catalogue_sha256": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea",
+  "scope": "full_current_library_rule_scan_plus_agent_title_review_and_limited_primary_source_checks",
+  "approval_status": "all_proposals_pending_user_review",
+  "baseline_summary": {
+    "input_rows": 1554,
+    "unique_tracks_scanned": 1553,
+    "duplicate_rows_collapsed": 1,
+    "tracks_with_candidates": 125,
+    "tracks_without_candidates": 1428,
+    "total_associations": 140,
+    "associations_by_judgment": {
+      "explicit": 114,
+      "ambiguous": 21,
+      "indirect": 5
+    },
+    "tracks_with_explicit_candidates": 101,
+    "tracks_only_indirect_or_ambiguous": 24,
+    "excluded_associations": 9,
+    "categories": {
+      "season": {
+        "label": "四季",
+        "tracks": 33,
+        "associations": 33
+      },
+      "weather": {
+        "label": "天气与体感",
+        "tracks": 31,
+        "associations": 34
+      },
+      "holiday": {
+        "label": "节日与纪念情境",
+        "tracks": 1,
+        "associations": 1
+      },
+      "calendar": {
+        "label": "月份与日期",
+        "tracks": 20,
+        "associations": 26
+      },
+      "solar_term": {
+        "label": "二十四节气",
+        "tracks": 1,
+        "associations": 1
+      },
+      "time_light": {
+        "label": "时段与天光",
+        "tracks": 44,
+        "associations": 45
+      }
+    }
+  },
+  "library_diff": {
+    "added_track_ids": [
+      "qq:0000h7en0ypOJq",
+      "qq:0001lCI72yXQ4F",
+      "qq:00027ZmZ0wkYWE",
+      "qq:0002EBnj4JXDt4",
+      "qq:0003PBrR2QwQEs",
+      "qq:0004YywQ1WLVLa",
+      "qq:0004a6rq4VU3Xv",
+      "qq:0004rSqn1xwy70",
+      "qq:00057UGO34f6bd",
+      "qq:000581G81LMFXd",
+      "qq:0005JIy72oTlhs",
+      "qq:0006UqLs2sXHBg",
+      "qq:00073hOK283QII",
+      "qq:0007mBvO3we7zt",
+      "qq:0008E2he3dUseC",
+      "qq:0008FBUG1Sx2nk",
+      "qq:0008HDkv3ETuzO",
+      "qq:0008P9ux0TC3ho",
+      "qq:0008vHqS43vS08",
+      "qq:0009GXpY466P3P",
+      "qq:000AfObd05CAd7",
+      "qq:000AvO4C4BeGbA",
+      "qq:000BO3xy4fd8BJ",
+      "qq:000BzIpH1FTNrZ",
+      "qq:000CKVbi1yJsSI",
+      "qq:000CNsZ20gAfcx",
+      "qq:000Causn0xHMoT",
+      "qq:000Ccgnp1RNtvv",
+      "qq:000D0CB714neCt",
+      "qq:000D6RQ10aqz1s",
+      "qq:000Eg1y10icqLK",
+      "qq:000F4vDF2XmPzF",
+      "qq:000G0dbq0S67cW",
+      "qq:000HCour3UAKz0",
+      "qq:000Hwr423EClSO",
+      "qq:000ICYHO2drsye",
+      "qq:000IufJK1gHklw",
+      "qq:000J3Wc20ssHpI",
+      "qq:000JsTfy2GCHon",
+      "qq:000KBDHP0FX7ei",
+      "qq:000LMNG21Zhnru",
+      "qq:000LoSd13j6j01",
+      "qq:000MByuH0SyXGN",
+      "qq:000MMEN82xrgsy",
+      "qq:000MPjlp063Dgw",
+      "qq:000MZWRs31PFIm",
+      "qq:000PxqFJ2RkFJX",
+      "qq:000QBao14F1Bhi",
+      "qq:000QKVvB2EXuCx",
+      "qq:000QmVRr2zBnsa",
+      "qq:000R53G94DatTG",
+      "qq:000RE1ae3YbIR2",
+      "qq:000Ruzp13WbdUP",
+      "qq:000SOyer1d47h2",
+      "qq:000TKHIW3g3AIj",
+      "qq:000UKYHt184Acs",
+      "qq:000Uh9kP1DHzAc",
+      "qq:000UjogV0Bpltc",
+      "qq:000VIQsR1lXb5A",
+      "qq:000VPWYA0RaRqq",
+      "qq:000VjWHG34Xsuk",
+      "qq:000WIHk34f2cxD",
+      "qq:000Wj9cd24piV4",
+      "qq:000X16Yk2BC53v",
+      "qq:000aLAYq1recqd",
+      "qq:000bb6y31ke4DO",
+      "qq:000bsqVZ2rdpuk",
+      "qq:000c4u9c4e1WO9",
+      "qq:000c6CTs30ecVY",
+      "qq:000dU93h3T7HoN",
+      "qq:000djRVP3ZrJFD",
+      "qq:000eTEfD05visO",
+      "qq:000fbEhM2vgdOE",
+      "qq:000gcXSG440j5O",
+      "qq:000icdEM1jz3ey",
+      "qq:000jDQWP4JiB3y",
+      "qq:000l3Ux21CN8av",
+      "qq:000l58Wh1cinVC",
+      "qq:000lW4sR0nwszy",
+      "qq:000lwYk92vrBv8",
+      "qq:000n3MUQ2H4e4L",
+      "qq:000oW60e4OTCxd",
+      "qq:000opCQL1V4Zoq",
+      "qq:000p2ckA3glPhP",
+      "qq:000q0BJr3NbNOa",
+      "qq:000rIL8M0OBbUD",
+      "qq:000rLUzd0pv3dl",
+      "qq:000sGB2h2Pg607",
+      "qq:000sNlEo1mhR6a",
+      "qq:000ssbpB2B5GSN",
+      "qq:000usshm3WwLLs",
+      "qq:000w8o1G0n3x8D",
+      "qq:000xLw2D0E5Xjm",
+      "qq:000xzJik2MtZnD",
+      "qq:000yINPY10BFeP",
+      "qq:000zD4ew1qBo82",
+      "qq:000zj5ZP3SgtgB",
+      "qq:0010pxck2ZeZcM",
+      "qq:00125UMq2lLe90",
+      "qq:0012Nh6N230sq1",
+      "qq:0012O1JW32BMUj",
+      "qq:0012WHlL2LJa4K",
+      "qq:0012pVwA2RyBzy",
+      "qq:0013Lh5q41GAat",
+      "qq:0013b8pW1azVXM",
+      "qq:0013cpd92A3j1k",
+      "qq:0013rOTn0MlLu2",
+      "qq:0014AXGx1Sp8aH",
+      "qq:0014DtAP21sJ4h",
+      "qq:0014Stqd160SXY",
+      "qq:0014TcJX0M2nNU",
+      "qq:0014diHF1G0DBX",
+      "qq:00166OaY3yHBOe",
+      "qq:00171PXo3XW2LF",
+      "qq:0018SFFk2R8tgv",
+      "qq:0018ozy63buj8I",
+      "qq:0019Lb1m44iEIR",
+      "qq:0019bDbh1WcWs5",
+      "qq:001AGdoa1GVFVC",
+      "qq:001ASmYb0j8Pg9",
+      "qq:001AW6Zs2nLh1c",
+      "qq:001BWQ7r4Kxi83",
+      "qq:001BY0bS0zoQGV",
+      "qq:001BlQQO1s2ZPU",
+      "qq:001D0nTV2iBIj5",
+      "qq:001Dqwem0PD8nd",
+      "qq:001EKBWO1dQXsf",
+      "qq:001FAcNJ2Qasvh",
+      "qq:001FIxjV4ANdZB",
+      "qq:001FTzqH42zaB3",
+      "qq:001FcU6Y272VGE",
+      "qq:001FigFM2goAOg",
+      "qq:001Fy4qv2KsHci",
+      "qq:001I4Ttn3qLWu5",
+      "qq:001Ieejp1qL4s2",
+      "qq:001JPVNS42ud4y",
+      "qq:001KuATU2C1SLW",
+      "qq:001LpERl2mFd7F",
+      "qq:001Lrscs3PTJWJ",
+      "qq:001Lzixr01ZuNr",
+      "qq:001Mdwp74V34Lm",
+      "qq:001Mo03q0dOpCD",
+      "qq:001NB9zC4KiuXe",
+      "qq:001NoV0A0SHEIT",
+      "qq:001NpJhI3yU3py",
+      "qq:001NwcBh0KCVxh",
+      "qq:001OzeXt4YckCL",
+      "qq:001PNz9v29I8xi",
+      "qq:001Pr9eO05rxMy",
+      "qq:001SfavE35orJR",
+      "qq:001U5wNn266GDq",
+      "qq:001W1XJR49YEON",
+      "qq:001WjPT61tjkne",
+      "qq:001WleLS0wyqmb",
+      "qq:001Yrjyo1ICqXr",
+      "qq:001ZRThK2lr9WK",
+      "qq:001ZqSJn2bEQE1",
+      "qq:001bKbqc2owNiG",
+      "qq:001bbfcT2Z9l3k",
+      "qq:001bs4c610T960",
+      "qq:001cdbRN4DHkVY",
+      "qq:001cpNSI1zyl0Q",
+      "qq:001daVHr4QPiwA",
+      "qq:001dp1aM2aWpGm",
+      "qq:001dxYiJ0AA0Na",
+      "qq:001eDYE44L0Mvn",
+      "qq:001eGjo12otIm5",
+      "qq:001etTqc0layUE",
+      "qq:001f6GI10FGsrg",
+      "qq:001fSEVh3xrTJP",
+      "qq:001gRM2c0hz8OW",
+      "qq:001gXbnt1lETLJ",
+      "qq:001gbXuW0syTgn",
+      "qq:001gzJrR48V2ib",
+      "qq:001jIR8P0lZfw6",
+      "qq:001jXpn72EvZtq",
+      "qq:001jpgj03QN8Kh",
+      "qq:001kSOtF0aLqPA",
+      "qq:001kuDLZ350njw",
+      "qq:001m5X8d0dYc8y",
+      "qq:001n0ZGX1DFuoB",
+      "qq:001n2G2V1XrrwZ",
+      "qq:001n2W7R2EK9FB",
+      "qq:001q9bHH3J1zFh",
+      "qq:001s7DY03qREDH",
+      "qq:001sYeaM3Te8Ve",
+      "qq:001tV5DQ15mp15",
+      "qq:001uOGeQ2rZTPy",
+      "qq:001v6tx01NTPHX",
+      "qq:001vA3Ul3j8pZ0",
+      "qq:001vGwSc3T8QQ6",
+      "qq:001x7MLY0SKdfx",
+      "qq:001xJbdb2MBaaz",
+      "qq:001xKYZX4LW97l",
+      "qq:001xszNF0cvdvO",
+      "qq:001y27Va342IXs",
+      "qq:001yoUMK0ibs4P",
+      "qq:0020ndPY24CcOP",
+      "qq:0021DfBb0ork24",
+      "qq:0021VK6I2P9wuK",
+      "qq:0022WCXQ2x4zgv",
+      "qq:0022eXLX02qLMS",
+      "qq:00230iSl1e4dVG",
+      "qq:0023dcMo41gG5M",
+      "qq:0024UbZ30SyWt7",
+      "qq:0024W4RZ2nOlWV",
+      "qq:0024cFoZ3XRS2f",
+      "qq:0024rjOp3DOK6z",
+      "qq:0026KSWG4SDs5B",
+      "qq:0026nUBU1pOAF2",
+      "qq:00274d6N1yo41u",
+      "qq:0027MOU12Nk2F2",
+      "qq:0027zDei3XGzHO",
+      "qq:00287xxv1N2ezt",
+      "qq:0028POzV0tg0HW",
+      "qq:0028WTw80Julix",
+      "qq:0028w8qh33PEbF",
+      "qq:0029THp44clzl7",
+      "qq:002A7mrv0tSanI",
+      "qq:002A8lVn1DkTj8",
+      "qq:002AZNj61WylXA",
+      "qq:002B8b1G0ZWbjQ",
+      "qq:002CZyfr1u39Qu",
+      "qq:002ELhCg26xEdo",
+      "qq:002ERJ8K3jICFN",
+      "qq:002FsDHf2Z2l18",
+      "qq:002FwBwW1lUnrn",
+      "qq:002H0YMo0pTVdY",
+      "qq:002JMbyD132PhI",
+      "qq:002JSp8536Ra4c",
+      "qq:002KRMWe0mpMcT",
+      "qq:002MHVtb1rNWgi",
+      "qq:002NT5hI1DPoYx",
+      "qq:002Ng8JT0L6aJc",
+      "qq:002OSPum4c1ZsU",
+      "qq:002OX0SW2YWARF",
+      "qq:002PQwAQ0OlanK",
+      "qq:002QEfLC1rOo2t",
+      "qq:002QcK7H0PM1jb",
+      "qq:002RG06N0T9zK8",
+      "qq:002RPCBe11RNHK",
+      "qq:002T9Y7w0WNlJS",
+      "qq:002TFicq4AGTtE",
+      "qq:002TLRNZ3CrRSP",
+      "qq:002UPJ6h4R4CZu",
+      "qq:002V2peX1YZpo8",
+      "qq:002V6dd03LPjXl",
+      "qq:002WLW5x2kIPDG",
+      "qq:002XPNWh2J05to",
+      "qq:002XZTwP0jAOSM",
+      "qq:002Y5RPi3QxmZC",
+      "qq:002YyRM40cZ51T",
+      "qq:002ZClKa2oDony",
+      "qq:002ZONdS0IyrRX",
+      "qq:002ZeT5c4A69EW",
+      "qq:002aUyYw0ZCFlp",
+      "qq:002ahqWI3x0nD2",
+      "qq:002bpw1K4dux8J",
+      "qq:002ctGMN0hsNmb",
+      "qq:002dPG222mhvVc",
+      "qq:002dUbjB2ZqY96",
+      "qq:002duDwG2PwubO",
+      "qq:002eMECw1CE5vn",
+      "qq:002eRgVQ4eLv54",
+      "qq:002ep8yZ1z4efX",
+      "qq:002fEQJL0N0Kbj",
+      "qq:002hL2XJ2yGpak",
+      "qq:002iMCar2KMyAe",
+      "qq:002jPi7U1o6SGv",
+      "qq:002jeqPM1W3pFm",
+      "qq:002jvC8X3kfeiQ",
+      "qq:002lmIK828Wk7R",
+      "qq:002mdBXj3BYeJz",
+      "qq:002mpF6I3zDNyp",
+      "qq:002nDLoh3vhtOH",
+      "qq:002nG6hp3wbhFD",
+      "qq:002nS2jx3ZcSDi",
+      "qq:002ofB9D3ZLdlB",
+      "qq:002pI6rJ2yVLeg",
+      "qq:002qerLO2l6w7n",
+      "qq:002sHYGx2Ba6Bc",
+      "qq:002sMfzj1pCcIM",
+      "qq:002tC9D64WkbX6",
+      "qq:002tulXL1GCjhC",
+      "qq:002u8F5r324zQn",
+      "qq:002wyXGE2QO741",
+      "qq:002x9hnT1XUxEY",
+      "qq:002ycnTM3fZpJ6",
+      "qq:002zNIpE2OWF50",
+      "qq:002zReeT1yjdtm",
+      "qq:0030BbO44SNf65",
+      "qq:00313TiP3NS2pq",
+      "qq:0031Me2d27LFCY",
+      "qq:0031PPPX2OTino",
+      "qq:0031ibiZ2TY17D",
+      "qq:0031mOVe3NEc5g",
+      "qq:00322yQS1Ggksr",
+      "qq:00327XVD10xyR9",
+      "qq:0032RDKI2X8nxy",
+      "qq:003533Qp0f4oZx",
+      "qq:0035IJHB1DHfS2",
+      "qq:0035yqBp1lhVtZ",
+      "qq:00368Hs82kwOia",
+      "qq:0036ksEw4He4p8",
+      "qq:00374oyC1cx962",
+      "qq:0037W3UE3f9w3y",
+      "qq:0037uaNi3f448N",
+      "qq:003AJPVU2EgJy4",
+      "qq:003BhLbV0gunrC",
+      "qq:003DIjfz3r8ejJ",
+      "qq:003DOYuB12AScg",
+      "qq:003DjSHR38HYzn",
+      "qq:003EJnRP4QnTfl",
+      "qq:003EKTkP016WaS",
+      "qq:003FNIks1GOWAJ",
+      "qq:003G0sVN0lWqid",
+      "qq:003GcP261K5Z1l",
+      "qq:003H2wp53LOyj8",
+      "qq:003HUiOp0Scwhm",
+      "qq:003HbULt3PNvyI",
+      "qq:003I9a5K1Q2OdF",
+      "qq:003KTLrD0q77sy",
+      "qq:003LQGBX43UaLB",
+      "qq:003Liu9M42thZp",
+      "qq:003M1hf42mU5hq",
+      "qq:003M9SnS2HTmjW",
+      "qq:003MduOW3ZUmwz",
+      "qq:003PW3GE2Bqm8d",
+      "qq:003TJ9Mq0PD1gL",
+      "qq:003TawFd2DTXPS",
+      "qq:003Tedn00IU7Hx",
+      "qq:003TvkRJ0VVQqG",
+      "qq:003U4RLy1lRrzq",
+      "qq:003XDtQV2qHvpM",
+      "qq:003Xj1mz235nvk",
+      "qq:003XpTPV1HVZ71",
+      "qq:003Y3fCY4EquXQ",
+      "qq:003YDLNN4EIffX",
+      "qq:003YQybB2dZ4Mz",
+      "qq:003YjTL42AQzNo",
+      "qq:003Yxqjy30eCQY",
+      "qq:003ZBkM84EUFqx",
+      "qq:003ZWSOX3U3phs",
+      "qq:003a8oi60gTRb9",
+      "qq:003aIoZj4TSjPj",
+      "qq:003aLpPN2fsNn1",
+      "qq:003aTi2C14wkTU",
+      "qq:003bJwBg1Vk3fw",
+      "qq:003bMpC408RBLE",
+      "qq:003bXZG822iJCK",
+      "qq:003baKUZ3jVHFK",
+      "qq:003bpVPA2Rp69Q",
+      "qq:003cN4kC3hK8QC",
+      "qq:003dKmfv0gJ2h2",
+      "qq:003dNf1M2Boo0K",
+      "qq:003eslBe24CuOd",
+      "qq:003exDD32B4XP5",
+      "qq:003ezzJd4MptHZ",
+      "qq:003fWl0o4enoKk",
+      "qq:003g41Ez0WmJNh",
+      "qq:003gaenC4WfeMN",
+      "qq:003hnhcs3QzHKs",
+      "qq:003ilXfl3EWxcV",
+      "qq:003j9c1S33TtSQ",
+      "qq:003jRme62vImyv",
+      "qq:003jmQh20aRW8r",
+      "qq:003jo3nT2OxiaH",
+      "qq:003kcj670A4FNH",
+      "qq:003lWHKJ2x2WqU",
+      "qq:003nkcQh1dJkHN",
+      "qq:003oC7ZI2dLXub",
+      "qq:003qtjfJ3xJNmA",
+      "qq:003sFFuz3RdbHE",
+      "qq:003trXaC48bskK",
+      "qq:003uWLt22gqO9y",
+      "qq:003uzHJL1QO0cH",
+      "qq:003vCynU2L2zmL",
+      "qq:003xgGtD2ya9cF",
+      "qq:003xubth3E8N7D",
+      "qq:003ycsrS2zwXzF",
+      "qq:003ynfi94MNd4t",
+      "qq:003zDUIn0e5cNT",
+      "qq:003zbe2g2eKveF",
+      "qq:0041Ll4K3yOLk1",
+      "qq:0042dlZn0Bfu1m",
+      "qq:0042tAkF1k2Nji",
+      "qq:0044FgvG1zPAma",
+      "qq:0046RnQs2tSuVb",
+      "qq:0046itwD3abzOM",
+      "qq:0047QXrZ1gjjot",
+      "qq:0047w50Z2xR9D2",
+      "qq:0048Jn2W1VALEr",
+      "qq:0048VoOX3bYSTw",
+      "qq:0049JqVu3Fvmpj",
+      "qq:0049zSIN15vTkZ",
+      "qq:004BC0eL3jhZa8",
+      "qq:004BSgJS1PWVAG",
+      "qq:004BdL7I39jc0f",
+      "qq:004CKntE0jM43B",
+      "qq:004CLghd1I9uBK",
+      "qq:004DMfBH1JY7Md",
+      "qq:004EgD1V2YL8NH",
+      "qq:004F52ih3w6pZN",
+      "qq:004F6UH44asCey",
+      "qq:004Fjyum29yGCx",
+      "qq:004Hp3h12kfMvU",
+      "qq:004IIRyP25kG3F",
+      "qq:004IYjrI1S3U8r",
+      "qq:004IeU4H0uCpM1",
+      "qq:004K8SLj0OPp0H",
+      "qq:004KtQl42rhCIp",
+      "qq:004LDQ9a1E9IxH",
+      "qq:004LrVlR197AFB",
+      "qq:004Nt4rq0splVF",
+      "qq:004O1atc1yDZOZ",
+      "qq:004PHskn3wBv8K",
+      "qq:004PNj7W3P4nX3",
+      "qq:004PSGRQ0ngypI",
+      "qq:004PwtHF4ZbDRp",
+      "qq:004RnRy44FJO96",
+      "qq:004RnXKd3IPwSp",
+      "qq:004S0JwN284Du8",
+      "qq:004SfX0s1cROYY",
+      "qq:004Tzowd3jxc4U",
+      "qq:004V4DWL3x50zs",
+      "qq:004YieBS0k9t2k",
+      "qq:004ZJkPD4dUxIS",
+      "qq:004a8vE53RJ5vO",
+      "qq:004aWZbE0cNWqG",
+      "qq:004cHAAD2sv59s",
+      "qq:004czUII1kqlDj",
+      "qq:004dMkXO44a4lP",
+      "qq:004dcJ7k0vNsLn",
+      "qq:004dyusG23Cznh",
+      "qq:004gB41N4AcFak",
+      "qq:004gB7Jc2j8ytz"
+    ],
+    "removed_track_ids": [
+      "qq:0000tt6w4032wa",
+      "qq:0002F7dJ2wmR0X",
+      "qq:00039I7i3IN90v",
+      "qq:0004FrqT0P03HY",
+      "qq:0009v77J2FUFvx",
+      "qq:000HBs5L4ewRWO",
+      "qq:000MlQLI0qEndu",
+      "qq:000ff9iU2WFJQf",
+      "qq:000h1Jvh4ZOfhQ",
+      "qq:000zd8Ei2CXQ5z",
+      "qq:0014o7Ta4HLLAF",
+      "qq:0018P1Jh2iyPgW",
+      "qq:0018aG7x48kw7x",
+      "qq:0019rAlJ2DTyB4",
+      "qq:001HTyCF3ZTpHs",
+      "qq:001I2LuN0X9HCE",
+      "qq:001TAL6s22uV92",
+      "qq:001jOlKF2r6plo",
+      "qq:001jSZ4v1SVuwj",
+      "qq:001x1DVg0vtreA",
+      "qq:0025oZ351kzLu2",
+      "qq:0028oSch1E2ChN",
+      "qq:002OIAi33bgYjX",
+      "qq:002PZiHJ0kGRBJ",
+      "qq:002RGvU00z3Ru4",
+      "qq:002ytEwm0ArJPe",
+      "qq:0031jJvv3i66IO",
+      "qq:0034VK6P24VYWL",
+      "qq:003ENAdr0nUkZ9",
+      "qq:003HKm8c2ForNG",
+      "qq:003MjyyI0uZsg7",
+      "qq:003T1cyp2Lnbbr",
+      "qq:003jiyQt155zHR",
+      "qq:003nN0gV3Z1q6W",
+      "qq:003oVhrZ3d2FFj",
+      "qq:003syTGk33IVye",
+      "qq:0049QRwv3k6Py7",
+      "qq:004HkKpj0sineU",
+      "qq:004LMRgO42vmG7",
+      "qq:004OQtyb1MUdV5",
+      "qq:004PcrtP0d4BSe",
+      "qq:004Qi5vH0Wh7Eu",
+      "qq:004WQerW0cH7Em",
+      "qq:004YT0ut4e2kMS"
+    ],
+    "added_associations": [
+      [
+        "qq:0004YywQ1WLVLa",
+        "time.evening"
+      ],
+      [
+        "qq:0008P9ux0TC3ho",
+        "weather.rain"
+      ],
+      [
+        "qq:0008vHqS43vS08",
+        "light.moonlight"
+      ],
+      [
+        "qq:000AfObd05CAd7",
+        "light.sunset"
+      ],
+      [
+        "qq:000ICYHO2drsye",
+        "weather.rain"
+      ],
+      [
+        "qq:000TKHIW3g3AIj",
+        "weather.clear"
+      ],
+      [
+        "qq:000Uh9kP1DHzAc",
+        "light.sun"
+      ],
+      [
+        "qq:000l3Ux21CN8av",
+        "season.autumn"
+      ],
+      [
+        "qq:001I4Ttn3qLWu5",
+        "season.summer"
+      ],
+      [
+        "qq:001Ieejp1qL4s2",
+        "season.autumn"
+      ],
+      [
+        "qq:001OzeXt4YckCL",
+        "season.spring"
+      ],
+      [
+        "qq:001PNz9v29I8xi",
+        "weather.temperature_cold"
+      ],
+      [
+        "qq:001bKbqc2owNiG",
+        "time.clock.05:00"
+      ],
+      [
+        "qq:001cdbRN4DHkVY",
+        "calendar.wednesday"
+      ],
+      [
+        "qq:001uOGeQ2rZTPy",
+        "light.sun"
+      ],
+      [
+        "qq:0020ndPY24CcOP",
+        "weather.thunder"
+      ],
+      [
+        "qq:0024UbZ30SyWt7",
+        "weather.temperature_cold"
+      ],
+      [
+        "qq:002fEQJL0N0Kbj",
+        "light.sun"
+      ],
+      [
+        "qq:00368Hs82kwOia",
+        "season.summer"
+      ],
+      [
+        "qq:0037uaNi3f448N",
+        "light.sun"
+      ],
+      [
+        "qq:003Yxqjy30eCQY",
+        "calendar.month09"
+      ],
+      [
+        "qq:003uzHJL1QO0cH",
+        "weather.rain"
+      ],
+      [
+        "qq:0049JqVu3Fvmpj",
+        "weather.clear"
+      ],
+      [
+        "qq:004CLghd1I9uBK",
+        "season.summer"
+      ],
+      [
+        "qq:004LDQ9a1E9IxH",
+        "weather.rain"
+      ],
+      [
+        "qq:004RnRy44FJO96",
+        "season.spring"
+      ],
+      [
+        "qq:004dMkXO44a4lP",
+        "time.dusk"
+      ]
+    ],
+    "removed_associations": [
+      [
+        "qq:002OIAi33bgYjX",
+        "holiday.generic"
+      ],
+      [
+        "qq:003HKm8c2ForNG",
+        "light.sun"
+      ]
+    ]
+  },
+  "title_additions": [
+    {
+      "track_id": "qq:001NoV0A0SHEIT",
+      "title": "Avril 14th",
+      "artist": "Aphex Twin",
+      "album": "Drukqs (Unique UPC for Amazon)",
+      "tag": "calendar.month04",
+      "label": "四月",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Avril 14th",
+          "matched_text": "Avril",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "reason": "法语 Avril 表示四月；现词表缺少此别名。月份和日期来自同一依据，不重复加分。",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/french-english/avril",
+        "https://aphextwin.warp.net/release/86961-aphex-twin-drukqs?lang=en_US"
+      ],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001NoV0A0SHEIT",
+      "title": "Avril 14th",
+      "artist": "Aphex Twin",
+      "album": "Drukqs (Unique UPC for Amazon)",
+      "tag": "calendar.date.04-14",
+      "label": "4 月 14 日",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Avril 14th",
+          "matched_text": "Avril 14th",
+          "span": [
+            0,
+            10
+          ]
+        }
+      ],
+      "reason": "法语月份与英语序数构成标题日期；原解析器仅覆盖英语月份。不是发行日期；年度复现仍未配置。",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/french-english/avril",
+        "https://aphextwin.warp.net/release/86961-aphex-twin-drukqs?lang=en_US"
+      ],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:004PSGRQ0ngypI",
+      "title": "4seasons",
+      "artist": "sow",
+      "album": "to growth, for growth (トゥー グロウス, フォー グロウス)",
+      "tag": "season.all",
+      "label": "四季整体／季节流转",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "4seasons",
+          "matched_text": "4seasons",
+          "span": [
+            0,
+            8
+          ]
+        }
+      ],
+      "reason": "数字与英文连写表达四季；现规则仅有 four seasons / all seasons / 四季，不补成四个独立季节。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:002ZONdS0IyrRX",
+      "title": "月の光 Arranged by kazumasa hashimoto",
+      "artist": "Kazumasa Hashimoto",
+      "album": "Tokyo Sonata",
+      "tag": "light.moonlight",
+      "label": "月光意象",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "月の光 Arranged by kazumasa hashimoto",
+          "matched_text": "月の光",
+          "span": [
+            0,
+            3
+          ]
+        }
+      ],
+      "reason": "日语短语字面为月光，属于已保留的月光关联；不恢复已排除的月亮标签，也不推断夜晚。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:000Causn0xHMoT",
+      "title": "我独自过冬",
+      "artist": "碎叠",
+      "album": "朝往暮归 (There and Back Again)",
+      "tag": "season.winter",
+      "label": "冬季意象",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "我独自过冬",
+          "matched_text": "过冬",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "reason": "过冬是明确冬季语义；现词表仅识别冬天、冬季、冬日、冬の等，不包含此短语。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:002fEQJL0N0Kbj",
+      "title": "如果太阳落下",
+      "artist": "许钧",
+      "album": "美梦公司",
+      "tag": "light.sunset",
+      "label": "日落／夕阳",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "如果太阳落下",
+          "matched_text": "太阳落下",
+          "span": [
+            2,
+            6
+          ]
+        }
+      ],
+      "reason": "现扫描仅识别太阳，遗漏落下的完整日落表达；标题带条件句，不代表当地日落事实。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:003LQGBX43UaLB",
+      "title": "晚霞的声音",
+      "artist": "重组乐队",
+      "album": "take2",
+      "tag": "time.dusk",
+      "label": "黄昏／暮色",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "晚霞的声音",
+          "matched_text": "晚霞",
+          "span": [
+            0,
+            2
+          ]
+        }
+      ],
+      "reason": "晚霞是傍晚天光线索；现词表缺少此表达。不作为天空泛意象回流，也不固定为日落的某一分钟。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:00166OaY3yHBOe",
+      "title": "80°F",
+      "artist": "SoulFa 灵魂沙发",
+      "album": "SoulFa",
+      "tag": "weather.temperature_reference",
+      "label": "温度数值意象：80°F（约 26.7°C）",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "80°F",
+          "matched_text": "80°F",
+          "span": [
+            0,
+            4
+          ]
+        }
+      ],
+      "reason": "明确温度数值，现规则未解析华氏。数值换算不证明描述天气；不自动归为炎热或设置阈值。此通用温度标签是建议补充，未加入规则。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:004RnXKd3IPwSp",
+      "title": "Hoppípolla",
+      "artist": "Sigur Rós",
+      "album": "Takk...",
+      "tag": "weather.rain",
+      "label": "雨／雨后积水的间接线索",
+      "title_judgment": "indirect",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Hoppípolla",
+          "matched_text": "Hoppípolla",
+          "span": [
+            0,
+            10
+          ]
+        }
+      ],
+      "reason": "乐队官方解释标题为跳进水洼；水洼仅提供雨或雨后联想，不证明正在降雨。此项使用官方标题释义，须与纯本地字面扫描区分。",
+      "sources": [
+        "https://sigurros.com/news/2005/hopppolla-video/"
+      ],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001BOd8C1F9Et5",
+      "title": "Umbrella",
+      "artist": "I Don't Like Mondays.",
+      "album": "RUNWAY",
+      "tag": "weather.rain",
+      "label": "雨伞相关的雨天补查线索",
+      "title_judgment": "ambiguous",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Umbrella",
+          "matched_text": "Umbrella",
+          "span": [
+            0,
+            8
+          ]
+        }
+      ],
+      "reason": "伞也可用于遮阳或比喻，不能直接断定雨天；仅列为补查，不读取艺人名中的 Mondays 建立星期一关联。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    }
+  ],
+  "title_corrections": [
+    {
+      "track_id": "qq:000l3Ux21CN8av",
+      "title": "Let's Fall in Love for the Night",
+      "artist": "FINNEAS",
+      "album": "Blood Harmony (Explicit)",
+      "tag": "season.autumn",
+      "label": "秋季意象",
+      "title_judgment": "ambiguous",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Let's Fall in Love for the Night",
+          "matched_text": "Fall",
+          "span": [
+            6,
+            10
+          ]
+        }
+      ],
+      "reason": "Fall in love 为恋爱短语，不支持秋季关联；night 在排除清单，不能补回。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      },
+      "action": "exclude"
+    },
+    {
+      "track_id": "qq:003uzHJL1QO0cH",
+      "title": "Right As Rain",
+      "artist": "Adele",
+      "album": "19 (Explicit)",
+      "tag": "weather.rain",
+      "label": "雨意象",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Right As Rain",
+          "matched_text": "Rain",
+          "span": [
+            9,
+            13
+          ]
+        }
+      ],
+      "reason": "完整短语的惯用义为恢复健康／状态良好，标题不足以支持雨关联；不是断言歌词完全没有雨。",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/be-as-right-as-rain?topic=fit-and-healthy"
+      ],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      },
+      "action": "exclude"
+    },
+    {
+      "track_id": "qq:000TKHIW3g3AIj",
+      "title": "Sunny Side Up",
+      "artist": "Surfaces",
+      "album": "Horizons",
+      "tag": "weather.clear",
+      "label": "晴／晴空意象",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Sunny Side Up",
+          "matched_text": "Sunny",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "reason": "完整短语有单面煎蛋的固定用法，不能只凭 Sunny 标为明确晴天；暂移出天气候选，歌词或官方资料可另建证据。",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/sunny-side-up"
+      ],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      },
+      "action": "exclude"
+    },
+    {
+      "track_id": "qq:004dMkXO44a4lP",
+      "title": "Tone Twilight Zone",
+      "artist": "CORNELIUS",
+      "album": "Point",
+      "tag": "time.dusk",
+      "label": "黄昏／暮色待确认",
+      "title_judgment": "ambiguous",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Tone Twilight Zone",
+          "matched_text": "Twilight",
+          "span": [
+            5,
+            13
+          ]
+        }
+      ],
+      "reason": "Twilight zone 也指过渡／模糊状态，不能仅提取 Twilight 视作明确黄昏；降为歧义，未确认作者意图。",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/twilight-zone"
+      ],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      },
+      "action": "reclassify"
+    },
+    {
+      "track_id": "qq:004MW3K31ntIbj",
+      "title": "Siesta Freestyle",
+      "artist": "Lewis OfMan, Alicia te quiero",
+      "album": "Dancy Party",
+      "tag": "time.afternoon",
+      "label": "午休／午后活动线索",
+      "title_judgment": "indirect",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Siesta Freestyle",
+          "matched_text": "Siesta",
+          "span": [
+            0,
+            6
+          ]
+        }
+      ],
+      "reason": "Siesta 是午休活动线索，类似 Breakfast，不是明确播放钟点；建议从明确关联改为间接线索。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      },
+      "action": "reclassify"
+    }
+  ],
+  "proposed_new_theme_candidates": [
+    {
+      "track_id": "qq:002a4Uef1G98uI",
+      "title": "アイスカフェラテ",
+      "artist": "Forest306",
+      "album": "navigation il mare",
+      "tag": "activity.tea_coffee",
+      "label": "咖啡／茶",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "アイスカフェラテ",
+          "matched_text": "カフェラテ",
+          "span": [
+            3,
+            8
+          ]
+        }
+      ],
+      "reason": "冰拿铁标题；冷饮不恢复冰意象，不推出季节。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:0015LB9F4ePo5B",
+      "title": "Sleepy Tea",
+      "artist": "Chon",
+      "album": "Homey",
+      "tag": "activity.tea_coffee",
+      "label": "咖啡／茶",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Sleepy Tea",
+          "matched_text": "Tea",
+          "span": [
+            7,
+            10
+          ]
+        }
+      ],
+      "reason": "茶的标题意象；不因此推下午适配。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001mFQ2V2rKzQ9",
+      "title": "二人でお茶を",
+      "artist": "北村英治",
+      "album": "不滅のベスト TRIO RECORDS編",
+      "tag": "activity.tea_coffee",
+      "label": "咖啡／茶",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "二人でお茶を",
+          "matched_text": "お茶",
+          "span": [
+            3,
+            5
+          ]
+        }
+      ],
+      "reason": "两人喝茶的标题线索；适合茶主题策展，不默认下午时段。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001eDYE44L0Mvn",
+      "title": "I Drink Wine",
+      "artist": "Adele",
+      "album": "30",
+      "tag": "activity.food_drink",
+      "label": "餐饮／酒饮",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "I Drink Wine",
+          "matched_text": "Wine",
+          "span": [
+            8,
+            12
+          ]
+        }
+      ],
+      "reason": "酒饮主题标题。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001nxeR53eekRp",
+      "title": "Sémillon",
+      "artist": "尚先生",
+      "album": "不打烊的小酒馆 贰",
+      "tag": "activity.food_drink",
+      "label": "餐饮／酒饮",
+      "title_judgment": "ambiguous",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Sémillon",
+          "matched_text": "Sémillon",
+          "span": [
+            0,
+            8
+          ]
+        }
+      ],
+      "reason": "葡萄品种名的词义尚需独立来源核对；不要仅从专辑小酒馆推断歌曲内容。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001x7MLY0SKdfx",
+      "title": "Pink Lemonade",
+      "artist": "Johnny Stimson",
+      "album": "Pink Lemonade",
+      "tag": "activity.food_drink",
+      "label": "餐饮／酒饮",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Pink Lemonade",
+          "matched_text": "Lemonade",
+          "span": [
+            5,
+            13
+          ]
+        }
+      ],
+      "reason": "柠檬饮品标题；不自动推出夏季。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001yoUMK0ibs4P",
+      "title": "picnic-perfect",
+      "artist": "A Picture Of Her",
+      "album": "C",
+      "tag": "activity.picnic",
+      "label": "野餐",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "picnic-perfect",
+          "matched_text": "picnic",
+          "span": [
+            0,
+            6
+          ]
+        }
+      ],
+      "reason": "野餐活动标题；只在相应门店活动或主题中考虑。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:002OyBdX0eSznT",
+      "title": "GO TO WORK",
+      "artist": "KOHEI JAPAN",
+      "album": "The Adventures of KOHEI JAPAN",
+      "tag": "activity.work",
+      "label": "工作／通勤",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "GO TO WORK",
+          "matched_text": "WORK",
+          "span": [
+            6,
+            10
+          ]
+        }
+      ],
+      "reason": "去工作的标题线索；时段听感独立检查。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:003nkcQh1dJkHN",
+      "title": "Biking",
+      "artist": "Frank Ocean, JAŸ-Z, Tyler, The Creator",
+      "album": "Biking",
+      "tag": "activity.cycling",
+      "label": "骑行",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Biking",
+          "matched_text": "Biking",
+          "span": [
+            0,
+            6
+          ]
+        }
+      ],
+      "reason": "骑行标题；不推固定速度或能量。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:003Tedn00IU7Hx",
+      "title": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+      "artist": "Ezra Collective, Yazmin Lacey",
+      "album": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+      "tag": "activity.dance",
+      "label": "舞动",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "God Gave Me Feet For Dancing (feat. Yazmin Lacey)",
+          "matched_text": "Dancing",
+          "span": [
+            21,
+            28
+          ]
+        }
+      ],
+      "reason": "跳舞标题；节奏适配需听感依据。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:003ZhGYP2XBpwS",
+      "title": "窓辺",
+      "artist": "haruka nakamura",
+      "album": "Twilight",
+      "tag": "place.window",
+      "label": "窗边／阳台",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "窓辺",
+          "matched_text": "窓辺",
+          "span": [
+            0,
+            2
+          ]
+        }
+      ],
+      "reason": "日语窗边标题；不从 Twilight 专辑继承黄昏。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:004NCC9Q1SOacX",
+      "title": "ベランダにて",
+      "artist": "haruka nakamura",
+      "album": "Twilight",
+      "tag": "place.veranda",
+      "label": "窗边／阳台",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "ベランダにて",
+          "matched_text": "ベランダ",
+          "span": [
+            0,
+            4
+          ]
+        }
+      ],
+      "reason": "阳台／露台标题；不从专辑标题继承时段。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:001S7hHz2aaHLo",
+      "title": "山屋里的小脚印",
+      "artist": "Cicada",
+      "album": "走入有雾的森林",
+      "tag": "place.mountain_forest",
+      "label": "山林／步行",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "山屋里的小脚印",
+          "matched_text": "山屋",
+          "span": [
+            0,
+            2
+          ]
+        }
+      ],
+      "reason": "山屋地点标题；没有天气关联也可有自然场所主题。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:0047QXrZ1gjjot",
+      "title": "越过海岸山脉 (Over Coastal Range)",
+      "artist": "Cicada",
+      "album": "仰望海平面",
+      "tag": "place.mountain_forest",
+      "label": "山林／步行",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "越过海岸山脉 (Over Coastal Range)",
+          "matched_text": "山脉",
+          "span": [
+            4,
+            6
+          ]
+        }
+      ],
+      "reason": "山脉标题；背景和实际地域应另证。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:00133oqQ2ragaQ",
+      "title": "Wild Orchid",
+      "artist": "Devon Rea, Etymology Records",
+      "album": "Wild Orchid",
+      "tag": "nature.plants",
+      "label": "植物／园艺",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Wild Orchid",
+          "matched_text": "Orchid",
+          "span": [
+            5,
+            11
+          ]
+        }
+      ],
+      "reason": "兰花标题；不能统一当成春季物候。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:003cyCJ13XrEOW",
+      "title": "Peonies for Breakfast",
+      "artist": "LAUSSE THE CAT",
+      "album": "The Mocking Stars (Explicit)",
+      "tag": "nature.plants",
+      "label": "植物／园艺",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Peonies for Breakfast",
+          "matched_text": "Peonies",
+          "span": [
+            0,
+            7
+          ]
+        }
+      ],
+      "reason": "牡丹／芍药类标题线索；花期和种类需进一步核对，不自动绑定月份。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:000MMEN82xrgsy",
+      "title": "Lotus Blossom (Explicit)",
+      "artist": "LAUSSE THE CAT",
+      "album": "The Mocking Stars (Explicit)",
+      "tag": "nature.plants",
+      "label": "植物／园艺",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Lotus Blossom (Explicit)",
+          "matched_text": "Lotus",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "reason": "莲花标题；仅植物主题，不自动推出夏季。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:002mdBXj3BYeJz",
+      "title": "花",
+      "artist": "藤井风",
+      "album": "花",
+      "tag": "nature.plants",
+      "label": "植物／园艺",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "花",
+          "matched_text": "花",
+          "span": [
+            0,
+            1
+          ]
+        }
+      ],
+      "reason": "泛花意象，主题较宽；不自动转为春季。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:000c6CTs30ecVY",
+      "title": "礼物",
+      "artist": "浅堤, HUSH",
+      "album": "婚礼之途",
+      "tag": "event.gifting",
+      "label": "送礼／店庆",
+      "title_judgment": "explicit",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "礼物",
+          "matched_text": "礼物",
+          "span": [
+            0,
+            2
+          ]
+        }
+      ],
+      "reason": "送礼主题标题；不证明具体生日、店庆日期。",
+      "sources": [],
+      "generator_catalogue_present": false,
+      "trigger_hint": {
+        "enabled": false
+      }
+    },
+    {
+      "track_id": "qq:0025L1kw4cJAFl",
+      "title": "Gifts",
+      "artist": "Goldmund",
+      "album": "The Malady of Elegance",
+      "tag": "event.gifting",
+      "label": "送礼／店庆",
+      "title_judgment": "ambiguous",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "evidence": [
+        {
+          "type": "title",
+          "source_title": "Gifts",
+          "matched_text": "Gifts",
+          "span": [
+            0,
+            5
+          ]
+        }
+      ],
+      "reason": "既可礼物也可天赋，需补查；不匹配具体节日。",
+      "sources": [],
+      "generator_catalogue_present": true,
+      "trigger_hint": {
+        "enabled": false
+      }
+    }
+  ],
+  "official_background_candidates": [
+    {
+      "track_id": "qq:002SZbAh35SPNF",
+      "title": "Plantasia",
+      "artist": "Mort Garson",
+      "album": "Mother Earth's Plantasia",
+      "tag": "nature.plants",
+      "label": "植物／园艺",
+      "evidence_type": "official_background",
+      "evidence_scope": "album",
+      "sources": [
+        "https://mort-garson.com/products/sbr3030-mort-garson-mother-earths-plantasia"
+      ],
+      "reason": "官方介绍确认此专辑为植物及喜爱植物的人创作。建议在植物主题活动中优先复核本库的同名曲；不宣称促进植物生长。",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "generator_catalogue_present": true
+    },
+    {
+      "track_id": "qq:001S7hHz2aaHLo",
+      "title": "山屋里的小脚印",
+      "artist": "Cicada",
+      "album": "走入有雾的森林",
+      "tag": "place.mountain_forest",
+      "label": "山林／步行",
+      "evidence_type": "official_background",
+      "evidence_scope": "album",
+      "sources": [
+        "https://flau.jp/releases/hiking-in-the-mist/"
+      ],
+      "reason": "FLAU 专辑介绍明确山行记录和山屋野生动物相遇。作为专辑级背景证据，不继承整张专辑所有天气标签。",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "generator_catalogue_present": true
+    },
+    {
+      "track_id": "qq:002kUgQ21HBnKX",
+      "title": "降落在金黄色草坡",
+      "artist": "Cicada",
+      "album": "走入有雾的森林",
+      "tag": "place.mountain_forest",
+      "label": "山林／步行",
+      "evidence_type": "official_background",
+      "evidence_scope": "album",
+      "sources": [
+        "https://flau.jp/releases/hiking-in-the-mist/"
+      ],
+      "reason": "FLAU 专辑介绍明确台湾山行背景。英文曲目 Sunlit Grassland 可能提供阳光依据，但尚未核实与本地中文曲名的唯一版本对应，本次不补阳光标签。",
+      "review_status": "pending",
+      "auto_lock_allowed": false,
+      "generator_catalogue_present": true
+    }
+  ],
+  "hypothetical_summary_if_proposals_adopted": {
+    "tracks_with_candidates": 130,
+    "total_associations": 147,
+    "associations_by_judgment": {
+      "explicit": 118,
+      "ambiguous": 22,
+      "indirect": 7
+    },
+    "generator_catalogue_candidate_tracks": 107
+  },
+  "policy": {
+    "approval": "candidates_only",
+    "excluded_tags": [
+      "weather.ice",
+      "weather.dew",
+      "holiday.graduation",
+      "weather.clouds",
+      "weather.snow",
+      "weather.wind",
+      "time.night",
+      "light.sky",
+      "light.moon",
+      "time.predawn",
+      "time.dawn",
+      "time.clock_unspecified",
+      "light.aurora",
+      "light.generic"
+    ],
+    "auto_lock_allowed": false,
+    "infer_lyrics_or_mood": false,
+    "infer_season_from_month_or_weather": false,
+    "infer_holiday_from_month": false,
+    "infer_solar_term_from_weather": false,
+    "infer_release_date_from_title_date": false,
+    "annual_recurrence_default": "unset_requires_user_review",
+    "empty_result_means": "本词表在标题中未发现关联，不代表歌曲内容没有情境关联。"
+  },
+  "source_integrity": {
+    "protected_files_unchanged": true,
+    "count": 9
+  }
+}

@@ -1,0 +1,1586 @@
+{
+  "schemaVersion": "context-playlist-brief/v1",
+  "runId": "2026-10-20-r002",
+  "revision": "r002",
+  "supersedes": {
+    "runId": "2026-10-20-r001",
+    "reason": "用户确认09:30–18:30及风格能量方案，并授权脚本试生成；增加半小时情景窗口"
+  },
+  "targetDate": "2026-10-20",
+  "timezone": "Asia/Shanghai",
+  "collectedAt": "2026-10-19T22:48:12+08:00",
+  "venue": {
+    "name": "深圳景田咖啡店",
+    "longitude": 114.04,
+    "latitude": 22.56
+  },
+  "playback": {
+    "startAt": "2026-10-20T09:30:00+08:00",
+    "endAt": "2026-10-20T18:30:00.000+08:00",
+    "durationMinutes": 540,
+    "source": "explicit user instruction"
+  },
+  "status": "draft-generated",
+  "execution": {
+    "generated": true,
+    "generator": "existing weekly_playlist.mjs generate",
+    "confirmed": false,
+    "cdCommitted": false,
+    "played": false,
+    "browserUsed": false,
+    "originalAudioEdited": false
+  },
+  "authorization": "开店时间我们改为早上九点半到下午六点半，其他没问题可以生成一份出来看看",
+  "inputs": {
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/周歌单专用特征-1103首-raw416.json": "559530248afcec51de28d4eb87eb1a01170143da7cc0c8d705be05f8f23864d4",
+    "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/weekly-playlists/测试空CD历史-2026-10-19.json": "803ef653cc31dcda9ee4b65efa15f24821cea5623dc8fbb5c90c35d23f8200c6",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/title_context_rules.json": "cfb53bd6a27eecd59378299a18c3b8bbe8560680ed18b1deadf4ec1a197ed3dc",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/scans/2026-10-19/title_context_candidates.json": "dfeda69aae2eb7547bf6d696f2711a4d2aee6b989855fc27a5f50dddad56c755",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/request.json": "2933eaced82585b92cae28e88700550c266df65ceb9d0c8446381e26c1c004b4",
+    "/Users/kaluozheng/MusicPlayer-FlowSystem/tools/weekly_playlist.mjs": "440c36b44741391b873b12c6c870696c39b2610feb4ef5488de2b27d4a6232f6",
+    "/Users/kaluozheng/MusicPlayer-FlowSystem/apps/playlist-generator/weekly-core.js": "08baf224d86a7ee30aad5a9c688ec16d0d2eb13cdccdc3026762cedefae98ab1",
+    "/Users/kaluozheng/MusicPlayer-FlowSystem/apps/playlist-generator/usage-ledger.js": "e524318e212c0730cb65fba09f14c45a1684bf4ee9ee5912227e53911ae1c441",
+    "/Users/kaluozheng/MusicPlayer-FlowSystem/apps/playlist-generator/optimizer-core.js": "64b4e3d143b724672b721f7352c4cd99712eb8f82f6f2a26d4c810811d1bae63",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/draft.json": "8c98250316551d2a74bd6e8d2266028acc2a043778fbdd5fdd1671ddcc74ddcf"
+  },
+  "contexts": {
+    "weather": {
+      "source": "https://www.weather.com.cn/weather/101280603.shtml",
+      "date": "2026-10-20",
+      "sky": "晴",
+      "lowC": 25,
+      "highC": 32,
+      "windLevel": "<3",
+      "precision": "district daily forecast; no verified hourly weather; weather update time not exposed for target block",
+      "recheckedAt": "2026-10-19T22:44:35+08:00",
+      "sourcePublishedAt": null,
+      "rawTargetDayText": "20日（明天） 晴 32/25℃ <3级"
+    },
+    "calendar": {
+      "source": "https://www.hko.gov.hk/tc/gts/time/calendar/text/files/T2026c.txt",
+      "weekday": "星期二",
+      "lunarDate": "九月十一",
+      "nextSolarTerm": {
+        "name": "霜降",
+        "date": "2026-10-23"
+      },
+      "matchedExactDateOrTuesdayOrOctoberTitleCandidates": 0
+    },
+    "solar": {
+      "method": "NOAA fractional-year approximation at noon; zenith 90.833 degrees",
+      "source": "https://www.gml.noaa.gov/grad/solcalc/solareqns.PDF",
+      "latitude": 22.56,
+      "longitude": 114.04,
+      "sunriseApprox": "06:22",
+      "sunsetApprox": "17:55",
+      "sunriseMinutes": 381.7123297301122,
+      "sunsetMinutes": 1075.2605265102848,
+      "eveningSegment": "17:00–18:00 is a proposed editorial window, not a fixed rule or actual afterglow observation"
+    },
+    "operatingHoursOverride": {
+      "priorScanHours": "08:00–18:00",
+      "runHours": "09:30–18:30",
+      "note": "本轮按用户新时段生成；复用的扫描快照仍保留旧营业口径，未重扫新增18点后钟点标题；三个指定窗口均处于旧保留区间内"
+    },
+    "season": "不固定秋季锚点",
+    "curveResampling": "原确认曲线按新段落边界重采样并保持共享边界连续；18:00以后维持原终点2/2/2"
+  },
+  "sources": {
+    "weather": "https://www.weather.com.cn/weather/101280603.shtml",
+    "calendar": "https://www.hko.gov.hk/tc/gts/time/calendar/text/files/T2026c.txt",
+    "solarMethod": "https://www.gml.noaa.gov/grad/solcalc/solareqns.PDF"
+  },
+  "candidates": [
+    {
+      "number": 3,
+      "songId": "qq:000v9QqY2s2bHc",
+      "title": "Sunrise",
+      "artists": [
+        "RIOPY"
+      ],
+      "context": "日出开场意象",
+      "windowStart": "2026-10-20T09:30:00.000+08:00",
+      "windowEnd": "2026-10-20T10:00:00.000+08:00",
+      "startAt": "2026-10-20T09:39:41.914+08:00",
+      "endAt": "2026-10-20T09:42:34.102+08:00",
+      "satisfied": true,
+      "predicted": {
+        "noise": 2.6993,
+        "swing": 2.9218,
+        "burden": 2.5012,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.67875,
+          "渐进": 0.44815,
+          "有冲劲": 0.09758,
+          "爆发": 0.15453
+        },
+        "timeScores": {
+          "8-11": 0.78111,
+          "11-14": 0.81941,
+          "14-17": 0.34309,
+          "17-20": 0.1559
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "currentCatalogHumanTruth": null,
+      "originalAudioHumanReference": null,
+      "associations": [
+        {
+          "tag": "light.sunrise",
+          "category": "time_light",
+          "label": "日出",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Sunrise",
+              "matched_text": "Sunrise",
+              "span": [
+                0,
+                7
+              ],
+              "matched_alias": "sunrise",
+              "rule_id": "light.sunrise",
+              "source_tag": "light.sunrise",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "opening_image",
+            "start": "08:00",
+            "end": "11:00",
+            "requires_actual_sunrise_overlap": false,
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunrise",
+              "label": "日出",
+              "title_judgment": "explicit",
+              "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Sunrise",
+                  "matched_text": "Sunrise",
+                  "span": [
+                    0,
+                    7
+                  ],
+                  "matched_alias": "sunrise",
+                  "rule_id": "light.sunrise"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 7]"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "number": 25,
+      "songId": "qq:000NYjiu04EmeE",
+      "title": "Blue Sky",
+      "artists": [
+        "GYVUS"
+      ],
+      "context": "晴天／阳光",
+      "windowStart": "2026-10-20T11:00:00.000+08:00",
+      "windowEnd": "2026-10-20T11:30:00.000+08:00",
+      "startAt": "2026-10-20T11:00:25.875+08:00",
+      "endAt": "2026-10-20T11:03:53.192+08:00",
+      "satisfied": true,
+      "predicted": {
+        "noise": 2.9131,
+        "swing": 3.3001,
+        "burden": 2.9382,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.77564,
+          "渐进": 0.57199,
+          "有冲劲": 0.12213,
+          "爆发": 0.13393
+        },
+        "timeScores": {
+          "8-11": 0.81739,
+          "11-14": 0.83528,
+          "14-17": 0.45375,
+          "17-20": 0.30285
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "currentCatalogHumanTruth": null,
+      "originalAudioHumanReference": null,
+      "associations": [
+        {
+          "tag": "weather.clear",
+          "category": "weather",
+          "label": "晴天／阳光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "Blue Sky 的蓝天字面意象明确，不推断作品听感。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "Blue Sky",
+              "matched_text": "Blue Sky",
+              "span": [
+                0,
+                8
+              ],
+              "matched_alias": "blue sky",
+              "rule_id": "weather.clear",
+              "source_tag": "weather.clear",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "enabled": false,
+            "recurrence": "not_configured"
+          },
+          "agent_review": true,
+          "source_associations": [
+            {
+              "tag": "weather.clear",
+              "label": "晴／晴空意象",
+              "title_judgment": "explicit",
+              "reason": "Blue Sky 的蓝天字面意象明确，不推断作品听感。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "Blue Sky",
+                  "matched_text": "Blue Sky",
+                  "span": [
+                    0,
+                    8
+                  ],
+                  "matched_alias": "blue sky",
+                  "rule_id": "weather.clear"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 8]"
+          ]
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "number": 115,
+      "songId": "qq:002jaefh3NZVjb",
+      "title": "夕阳消失之前",
+      "artists": [
+        "Cicada"
+      ],
+      "context": "傍晚天光",
+      "windowStart": "2026-10-20T17:30:00.000+08:00",
+      "windowEnd": "2026-10-20T18:00:00.000+08:00",
+      "startAt": "2026-10-20T17:34:54.003+08:00",
+      "endAt": "2026-10-20T17:38:23.877+08:00",
+      "satisfied": true,
+      "predicted": {
+        "noise": 2.0813,
+        "swing": 2.1519,
+        "burden": 1.9966,
+        "energyLabel": "平静",
+        "energyScores": {
+          "平静": 0.90201,
+          "渐进": 0.35383,
+          "有冲劲": 0.13377,
+          "爆发": 0.13269
+        },
+        "timeScores": {
+          "8-11": 0.78674,
+          "11-14": 0.84755,
+          "14-17": 0.31728,
+          "17-20": 0.16313
+        },
+        "timeLabels": [],
+        "modelVersion": "raw-baseline-416-20261010",
+        "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+      },
+      "currentCatalogHumanTruth": null,
+      "originalAudioHumanReference": {
+        "noise": 2.0,
+        "swing": 2.0,
+        "burden": 2.0,
+        "energy": [
+          "平静"
+        ],
+        "time": [
+          "8-11",
+          "17-20",
+          "11-14",
+          "14-17"
+        ],
+        "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+        "sourceSHA256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353",
+        "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第四波测试/夕阳消失之前 - Cicada.mp3",
+        "audioSHA256": "c2d1d0a7f8495c036d2e97898e5d318352c2154ba0aade996da78932158f13c5",
+        "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+      },
+      "associations": [
+        {
+          "tag": "light.evening",
+          "category": "time_light",
+          "label": "傍晚天光",
+          "title_judgment": "explicit",
+          "judgment_label": "明确标题关联",
+          "review_status": "pending",
+          "auto_lock_allowed": false,
+          "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+          "evidence": [
+            {
+              "type": "title",
+              "source_title": "夕阳消失之前",
+              "matched_text": "夕阳",
+              "span": [
+                0,
+                2
+              ],
+              "matched_alias": "夕阳",
+              "rule_id": "light.sunset",
+              "source_tag": "light.sunset",
+              "source_judgment": "explicit"
+            }
+          ],
+          "trigger_hint": {
+            "kind": "local_evening_light",
+            "requires_opening_hours_overlap": true,
+            "requires_target_date": true,
+            "solar_window_tolerance_minutes": null,
+            "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+            "enabled": false
+          },
+          "source_associations": [
+            {
+              "tag": "light.sunset",
+              "label": "日落／夕阳",
+              "title_judgment": "explicit",
+              "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+              "trigger_hint": {
+                "enabled": false,
+                "recurrence": "not_configured"
+              },
+              "evidence": [
+                {
+                  "type": "title",
+                  "source_title": "夕阳消失之前",
+                  "matched_text": "夕阳",
+                  "span": [
+                    0,
+                    2
+                  ],
+                  "matched_alias": "夕阳",
+                  "rule_id": "light.sunset"
+                }
+              ]
+            }
+          ],
+          "scoring_groups": [
+            "title:[0, 2]"
+          ]
+        }
+      ],
+      "warnings": [
+        {
+          "code": "TRANSITION_COST_EXCEEDED",
+          "segmentId": "sunset",
+          "songId": "qq:002jaefh3NZVjb",
+          "cost": 0.66601,
+          "threshold": 0.65
+        }
+      ]
+    }
+  ],
+  "recommendations": {
+    "selectedAnchors": [
+      {
+        "number": 3,
+        "songId": "qq:000v9QqY2s2bHc",
+        "title": "Sunrise",
+        "artists": [
+          "RIOPY"
+        ],
+        "context": "日出开场意象",
+        "windowStart": "2026-10-20T09:30:00.000+08:00",
+        "windowEnd": "2026-10-20T10:00:00.000+08:00",
+        "startAt": "2026-10-20T09:39:41.914+08:00",
+        "endAt": "2026-10-20T09:42:34.102+08:00",
+        "satisfied": true,
+        "predicted": {
+          "noise": 2.6993,
+          "swing": 2.9218,
+          "burden": 2.5012,
+          "energyLabel": "平静",
+          "energyScores": {
+            "平静": 0.67875,
+            "渐进": 0.44815,
+            "有冲劲": 0.09758,
+            "爆发": 0.15453
+          },
+          "timeScores": {
+            "8-11": 0.78111,
+            "11-14": 0.81941,
+            "14-17": 0.34309,
+            "17-20": 0.1559
+          },
+          "timeLabels": [],
+          "modelVersion": "raw-baseline-416-20261010",
+          "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+        },
+        "currentCatalogHumanTruth": null,
+        "originalAudioHumanReference": null,
+        "associations": [
+          {
+            "tag": "light.sunrise",
+            "category": "time_light",
+            "label": "日出",
+            "title_judgment": "explicit",
+            "judgment_label": "明确标题关联",
+            "review_status": "pending",
+            "auto_lock_allowed": false,
+            "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+            "evidence": [
+              {
+                "type": "title",
+                "source_title": "Sunrise",
+                "matched_text": "Sunrise",
+                "span": [
+                  0,
+                  7
+                ],
+                "matched_alias": "sunrise",
+                "rule_id": "light.sunrise",
+                "source_tag": "light.sunrise",
+                "source_judgment": "explicit"
+              }
+            ],
+            "trigger_hint": {
+              "kind": "opening_image",
+              "start": "08:00",
+              "end": "11:00",
+              "requires_actual_sunrise_overlap": false,
+              "enabled": false
+            },
+            "source_associations": [
+              {
+                "tag": "light.sunrise",
+                "label": "日出",
+                "title_judgment": "explicit",
+                "reason": "标题明确出现该词语或短语；只认定标题意象，不推断歌词、情绪或播放适配。",
+                "trigger_hint": {
+                  "enabled": false,
+                  "recurrence": "not_configured"
+                },
+                "evidence": [
+                  {
+                    "type": "title",
+                    "source_title": "Sunrise",
+                    "matched_text": "Sunrise",
+                    "span": [
+                      0,
+                      7
+                    ],
+                    "matched_alias": "sunrise",
+                    "rule_id": "light.sunrise"
+                  }
+                ]
+              }
+            ],
+            "scoring_groups": [
+              "title:[0, 7]"
+            ]
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "number": 25,
+        "songId": "qq:000NYjiu04EmeE",
+        "title": "Blue Sky",
+        "artists": [
+          "GYVUS"
+        ],
+        "context": "晴天／阳光",
+        "windowStart": "2026-10-20T11:00:00.000+08:00",
+        "windowEnd": "2026-10-20T11:30:00.000+08:00",
+        "startAt": "2026-10-20T11:00:25.875+08:00",
+        "endAt": "2026-10-20T11:03:53.192+08:00",
+        "satisfied": true,
+        "predicted": {
+          "noise": 2.9131,
+          "swing": 3.3001,
+          "burden": 2.9382,
+          "energyLabel": "平静",
+          "energyScores": {
+            "平静": 0.77564,
+            "渐进": 0.57199,
+            "有冲劲": 0.12213,
+            "爆发": 0.13393
+          },
+          "timeScores": {
+            "8-11": 0.81739,
+            "11-14": 0.83528,
+            "14-17": 0.45375,
+            "17-20": 0.30285
+          },
+          "timeLabels": [],
+          "modelVersion": "raw-baseline-416-20261010",
+          "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+        },
+        "currentCatalogHumanTruth": null,
+        "originalAudioHumanReference": null,
+        "associations": [
+          {
+            "tag": "weather.clear",
+            "category": "weather",
+            "label": "晴天／阳光",
+            "title_judgment": "explicit",
+            "judgment_label": "明确标题关联",
+            "review_status": "pending",
+            "auto_lock_allowed": false,
+            "reason": "Blue Sky 的蓝天字面意象明确，不推断作品听感。",
+            "evidence": [
+              {
+                "type": "title",
+                "source_title": "Blue Sky",
+                "matched_text": "Blue Sky",
+                "span": [
+                  0,
+                  8
+                ],
+                "matched_alias": "blue sky",
+                "rule_id": "weather.clear",
+                "source_tag": "weather.clear",
+                "source_judgment": "explicit"
+              }
+            ],
+            "trigger_hint": {
+              "enabled": false,
+              "recurrence": "not_configured"
+            },
+            "agent_review": true,
+            "source_associations": [
+              {
+                "tag": "weather.clear",
+                "label": "晴／晴空意象",
+                "title_judgment": "explicit",
+                "reason": "Blue Sky 的蓝天字面意象明确，不推断作品听感。",
+                "trigger_hint": {
+                  "enabled": false,
+                  "recurrence": "not_configured"
+                },
+                "evidence": [
+                  {
+                    "type": "title",
+                    "source_title": "Blue Sky",
+                    "matched_text": "Blue Sky",
+                    "span": [
+                      0,
+                      8
+                    ],
+                    "matched_alias": "blue sky",
+                    "rule_id": "weather.clear"
+                  }
+                ]
+              }
+            ],
+            "scoring_groups": [
+              "title:[0, 8]"
+            ]
+          }
+        ],
+        "warnings": []
+      },
+      {
+        "number": 115,
+        "songId": "qq:002jaefh3NZVjb",
+        "title": "夕阳消失之前",
+        "artists": [
+          "Cicada"
+        ],
+        "context": "傍晚天光",
+        "windowStart": "2026-10-20T17:30:00.000+08:00",
+        "windowEnd": "2026-10-20T18:00:00.000+08:00",
+        "startAt": "2026-10-20T17:34:54.003+08:00",
+        "endAt": "2026-10-20T17:38:23.877+08:00",
+        "satisfied": true,
+        "predicted": {
+          "noise": 2.0813,
+          "swing": 2.1519,
+          "burden": 1.9966,
+          "energyLabel": "平静",
+          "energyScores": {
+            "平静": 0.90201,
+            "渐进": 0.35383,
+            "有冲劲": 0.13377,
+            "爆发": 0.13269
+          },
+          "timeScores": {
+            "8-11": 0.78674,
+            "11-14": 0.84755,
+            "14-17": 0.31728,
+            "17-20": 0.16313
+          },
+          "timeLabels": [],
+          "modelVersion": "raw-baseline-416-20261010",
+          "modelSHA256": "201f11cfcc08ddf4fa089fc286d8afb0b4ad9c1d23b0fabc856a02027e0e10b0"
+        },
+        "currentCatalogHumanTruth": null,
+        "originalAudioHumanReference": {
+          "noise": 2.0,
+          "swing": 2.0,
+          "burden": 2.0,
+          "energy": [
+            "平静"
+          ],
+          "time": [
+            "8-11",
+            "17-20",
+            "11-14",
+            "14-17"
+          ],
+          "source": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/Flowset-个人审美样本-郑卡罗-2026-09-25.json",
+          "sourceSHA256": "c8c992930a34ac4069f591fac94fa16302c356f000a61d2a03cf3454a12d3353",
+          "audio": "/Users/kaluozheng/Music-Player-Investigation/Flowset-个人审美打标-Demo/音乐第四波测试/夕阳消失之前 - Cicada.mp3",
+          "audioSHA256": "c2d1d0a7f8495c036d2e97898e5d318352c2154ba0aade996da78932158f13c5",
+          "currentUICatalogBinding": "unverified: current catalogue has no audio hash; original annotation audio hash verified"
+        },
+        "associations": [
+          {
+            "tag": "light.evening",
+            "category": "time_light",
+            "label": "傍晚天光",
+            "title_judgment": "explicit",
+            "judgment_label": "明确标题关联",
+            "review_status": "pending",
+            "auto_lock_allowed": false,
+            "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+            "evidence": [
+              {
+                "type": "title",
+                "source_title": "夕阳消失之前",
+                "matched_text": "夕阳",
+                "span": [
+                  0,
+                  2
+                ],
+                "matched_alias": "夕阳",
+                "rule_id": "light.sunset",
+                "source_tag": "light.sunset",
+                "source_judgment": "explicit"
+              }
+            ],
+            "trigger_hint": {
+              "kind": "local_evening_light",
+              "requires_opening_hours_overlap": true,
+              "requires_target_date": true,
+              "solar_window_tolerance_minutes": null,
+              "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。",
+              "enabled": false
+            },
+            "source_associations": [
+              {
+                "tag": "light.sunset",
+                "label": "日落／夕阳",
+                "title_judgment": "explicit",
+                "reason": "统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。",
+                "trigger_hint": {
+                  "enabled": false,
+                  "recurrence": "not_configured"
+                },
+                "evidence": [
+                  {
+                    "type": "title",
+                    "source_title": "夕阳消失之前",
+                    "matched_text": "夕阳",
+                    "span": [
+                      0,
+                      2
+                    ],
+                    "matched_alias": "夕阳",
+                    "rule_id": "light.sunset"
+                  }
+                ]
+              }
+            ],
+            "scoring_groups": [
+              "title:[0, 2]"
+            ]
+          }
+        ],
+        "warnings": [
+          {
+            "code": "TRANSITION_COST_EXCEEDED",
+            "segmentId": "sunset",
+            "songId": "qq:002jaefh3NZVjb",
+            "cost": 0.66601,
+            "threshold": 0.65
+          }
+        ]
+      }
+    ],
+    "incidentalContextTitles": [
+      {
+        "number": 20,
+        "songId": "qq:003n9kj63R1CsX",
+        "title": "骤雨",
+        "artists": [
+          "Cicada"
+        ],
+        "startAt": "2026-10-20T10:39:14.605+08:00",
+        "associations": [
+          {
+            "tag": "weather.rain",
+            "label": "下雨",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 31,
+        "songId": "qq:00228A1v0s2cAf",
+        "title": "Sea Gets Hotter",
+        "artists": [
+          "Durand Jones, Durand Jones & The Indications, Aaron Frazer"
+        ],
+        "startAt": "2026-10-20T11:21:05.572+08:00",
+        "associations": [
+          {
+            "tag": "weather.temperature_hot",
+            "label": "偏热",
+            "judgment": "ambiguous"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 50,
+        "songId": "qq:0025m6Oq20gi6p",
+        "title": "ON THE SUNNY SIDE OF THE STREET",
+        "artists": [
+          "北村英治"
+        ],
+        "startAt": "2026-10-20T12:48:28.555+08:00",
+        "associations": [
+          {
+            "tag": "weather.clear",
+            "label": "晴天／阳光",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 61,
+        "songId": "qq:003D1uIB0zqMXf",
+        "title": "Overcast",
+        "artists": [
+          "吴卓玲"
+        ],
+        "startAt": "2026-10-20T13:36:46.325+08:00",
+        "associations": [
+          {
+            "tag": "weather.overcast",
+            "label": "阴天",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 73,
+        "songId": "qq:000gnR5f0L9CqV",
+        "title": "SUNSET",
+        "artists": [
+          "LITE, Yvette Young"
+        ],
+        "startAt": "2026-10-20T14:30:42.065+08:00",
+        "associations": [
+          {
+            "tag": "light.evening",
+            "label": "傍晚天光",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 89,
+        "songId": "qq:002Dtbtf3ZIb3Y",
+        "title": "半空日落色",
+        "artists": [
+          "Uhsgnǒd"
+        ],
+        "startAt": "2026-10-20T15:50:08.707+08:00",
+        "associations": [
+          {
+            "tag": "light.evening",
+            "label": "傍晚天光",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 102,
+        "songId": "qq:000DdmbL0PJlHm",
+        "title": "週末京都現実逃避",
+        "artists": [
+          "しゃろう"
+        ],
+        "startAt": "2026-10-20T16:47:08.376+08:00",
+        "associations": [
+          {
+            "tag": "calendar.weekend",
+            "label": "周末",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 108,
+        "songId": "qq:000Zejvx4D6slx",
+        "title": "ゆめしぐれ",
+        "artists": [
+          "青葉市子"
+        ],
+        "startAt": "2026-10-20T17:06:56.109+08:00",
+        "associations": [
+          {
+            "tag": "weather.rain",
+            "label": "下雨",
+            "judgment": "ambiguous"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 113,
+        "songId": "qq:0024ZNSr3YU6OP",
+        "title": "Summer",
+        "artists": [
+          "Hania Rani"
+        ],
+        "startAt": "2026-10-20T17:22:34.616+08:00",
+        "associations": [
+          {
+            "tag": "season.summer",
+            "label": "夏季意象",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      },
+      {
+        "number": 117,
+        "songId": "qq:001F06id4BjbVK",
+        "title": "Dance PM",
+        "artists": [
+          "Hiroshi Yoshimura"
+        ],
+        "startAt": "2026-10-20T17:43:50.570+08:00",
+        "associations": [
+          {
+            "tag": "time.afternoon",
+            "label": "下午（14–18 点）",
+            "judgment": "explicit"
+          }
+        ],
+        "selectionRole": "ordinary algorithm selection; no context time requirement"
+      }
+    ],
+    "ordinarySelectionContextPolicy": "Only the three chosen anchors have context requirements; ordinary songs are not globally filtered by title contexts."
+  },
+  "segments": [
+    {
+      "id": "opening",
+      "durationMinutes": 30,
+      "energy": [
+        "平静",
+        "渐进"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "curves": {
+        "noise": [
+          2.5,
+          2.6,
+          2.7
+        ],
+        "swing": [
+          2.5,
+          2.66666667,
+          2.83333333
+        ],
+        "burden": [
+          2.5,
+          2.5,
+          2.5
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "morning",
+      "durationMinutes": 60,
+      "energy": [
+        "平静",
+        "渐进"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul",
+        "Hip-Hop / R&B"
+      ],
+      "curves": {
+        "noise": [
+          2.7,
+          2.86666667,
+          3.0
+        ],
+        "swing": [
+          2.83333333,
+          3.1,
+          3.3
+        ],
+        "burden": [
+          2.5,
+          2.6,
+          2.8
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "sunny",
+      "durationMinutes": 30,
+      "energy": [
+        "平静",
+        "渐进"
+      ],
+      "genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B",
+        "Electronic"
+      ],
+      "curves": {
+        "noise": [
+          3.0,
+          3.05,
+          3.1
+        ],
+        "swing": [
+          3.3,
+          3.33333333,
+          3.36666667
+        ],
+        "burden": [
+          2.8,
+          2.83333333,
+          2.86666667
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "midday",
+      "durationMinutes": 150,
+      "energy": [
+        "平静",
+        "渐进"
+      ],
+      "genres": [
+        "Jazz / Soul",
+        "Hip-Hop / R&B",
+        "Electronic"
+      ],
+      "curves": {
+        "noise": [
+          3.1,
+          3.33333333,
+          3.5
+        ],
+        "swing": [
+          3.36666667,
+          3.55,
+          3.8
+        ],
+        "burden": [
+          2.86666667,
+          3.0,
+          3.0
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "afternoon",
+      "durationMinutes": 180,
+      "energy": [
+        "渐进",
+        "有冲劲"
+      ],
+      "genres": [
+        "Hip-Hop / R&B",
+        "Jazz / Soul",
+        "Post-Rock / Cinematic"
+      ],
+      "curves": {
+        "noise": [
+          3.5,
+          3.7,
+          3.0
+        ],
+        "swing": [
+          3.8,
+          4.0,
+          3.0
+        ],
+        "burden": [
+          3.0,
+          3.0,
+          2.5
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "evening-early",
+      "durationMinutes": 30,
+      "energy": [
+        "平静"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul"
+      ],
+      "curves": {
+        "noise": [
+          3.0,
+          2.75,
+          2.5
+        ],
+        "swing": [
+          3.0,
+          2.75,
+          2.5
+        ],
+        "burden": [
+          2.5,
+          2.4,
+          2.3
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "sunset",
+      "durationMinutes": 30,
+      "energy": [
+        "平静"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul"
+      ],
+      "curves": {
+        "noise": [
+          2.5,
+          2.25,
+          2.0
+        ],
+        "swing": [
+          2.5,
+          2.25,
+          2.0
+        ],
+        "burden": [
+          2.3,
+          2.15,
+          2.0
+        ]
+      },
+      "tolerance": 1
+    },
+    {
+      "id": "closing",
+      "durationMinutes": 30,
+      "energy": [
+        "平静"
+      ],
+      "genres": [
+        "Ambient / Neo-Classical",
+        "Jazz / Soul"
+      ],
+      "curves": {
+        "noise": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "swing": [
+          2.0,
+          2.0,
+          2.0
+        ],
+        "burden": [
+          2.0,
+          2.0,
+          2.0
+        ]
+      },
+      "tolerance": 1
+    }
+  ],
+  "segmentTimes": [
+    {
+      "id": "opening",
+      "start": "09:30",
+      "end": "10:00",
+      "minutes": 30,
+      "requiredSongId": "qq:000v9QqY2s2bHc"
+    },
+    {
+      "id": "morning",
+      "start": "10:00",
+      "end": "11:00",
+      "minutes": 60,
+      "requiredSongId": null
+    },
+    {
+      "id": "sunny",
+      "start": "11:00",
+      "end": "11:30",
+      "minutes": 30,
+      "requiredSongId": "qq:000NYjiu04EmeE"
+    },
+    {
+      "id": "midday",
+      "start": "11:30",
+      "end": "14:00",
+      "minutes": 150,
+      "requiredSongId": null
+    },
+    {
+      "id": "afternoon",
+      "start": "14:00",
+      "end": "17:00",
+      "minutes": 180,
+      "requiredSongId": null
+    },
+    {
+      "id": "evening-early",
+      "start": "17:00",
+      "end": "17:30",
+      "minutes": 30,
+      "requiredSongId": null
+    },
+    {
+      "id": "sunset",
+      "start": "17:30",
+      "end": "18:00",
+      "minutes": 30,
+      "requiredSongId": "qq:002jaefh3NZVjb"
+    },
+    {
+      "id": "closing",
+      "start": "18:00",
+      "end": "18:30",
+      "minutes": 30,
+      "requiredSongId": null
+    }
+  ],
+  "summary": {
+    "durationSeconds": 32400,
+    "targetDurationSeconds": 32400,
+    "trackCount": 127,
+    "uniqueSongCount": 127,
+    "meanCurveCost": 0.0032134500143313123,
+    "meanTransitionCost": 0.44108269841269854,
+    "meanAcousticTransitionCost": 0.28580055555555556
+  },
+  "checks": {
+    "status": "passed",
+    "continuousCoverage": true,
+    "noSongRepeats": true,
+    "allThreeStartWindowsSatisfied": true,
+    "anchorTracksUntrimmed": true,
+    "matrixRiskBelowHalf": true,
+    "sourcePredictionsUnchanged": true,
+    "segmentCurvesContinuous": true,
+    "sourceLedgerUnchanged": true,
+    "requiredCounts": [
+      {
+        "type": "song",
+        "songId": "qq:000v9QqY2s2bHc",
+        "segmentId": "opening",
+        "requested": 1,
+        "actual": 1,
+        "satisfied": true
+      },
+      {
+        "type": "song",
+        "songId": "qq:000NYjiu04EmeE",
+        "segmentId": "sunny",
+        "requested": 1,
+        "actual": 1,
+        "satisfied": true
+      },
+      {
+        "type": "song",
+        "songId": "qq:002jaefh3NZVjb",
+        "segmentId": "sunset",
+        "requested": 1,
+        "actual": 1,
+        "satisfied": true
+      }
+    ],
+    "catalogValidation": {
+      "status": "valid",
+      "tracks": 1103
+    },
+    "warningCounts": {
+      "ENERGY_FALLBACK": 13,
+      "GENRE_FALLBACK": 1,
+      "TRANSITION_COST_EXCEEDED": 1
+    },
+    "warnings": [
+      {
+        "number": 26,
+        "title": "Meet Me Halfway",
+        "artists": [
+          "Black Eyed Peas"
+        ],
+        "startAt": "2026-10-20T11:03:53.192+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "sunny",
+            "songId": "qq:0048buGv2Ed4db",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 27,
+        "title": "Phantom Troupe",
+        "artists": [
+          "iwamizu"
+        ],
+        "startAt": "2026-10-20T11:08:42.524+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "sunny",
+            "songId": "qq:003EUURg3WbJlq",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 31,
+        "title": "Sea Gets Hotter",
+        "artists": [
+          "Durand Jones, Durand Jones & The Indications, Aaron Frazer"
+        ],
+        "startAt": "2026-10-20T11:21:05.572+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "sunny",
+            "songId": "qq:00228A1v0s2cAf",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 32,
+        "title": "La routa Di Un Luna Park",
+        "artists": [
+          "Lalinea, Sémø, Silke"
+        ],
+        "startAt": "2026-10-20T11:24:22.799+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "sunny",
+            "songId": "qq:001yDfsR28fPFJ",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "title": "Ultraviolet",
+        "artists": [
+          "Portico Quartet"
+        ],
+        "startAt": "2026-10-20T12:15:59.556+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:002Ue7gj1EHY3a",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "title": "好日",
+        "artists": [
+          "BLU-SWING"
+        ],
+        "startAt": "2026-10-20T12:21:12.153+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:000xKZ403aD12K",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 48,
+        "title": "Elementary Stream",
+        "artists": [
+          "fox capture plan"
+        ],
+        "startAt": "2026-10-20T12:37:24.611+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:000JmsYC41Mtvs",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 51,
+        "title": "Musicology",
+        "artists": [
+          "Prince"
+        ],
+        "startAt": "2026-10-20T12:52:46.112+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:0040UVDj4bZZ3N",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 53,
+        "title": "Spartacus Love Theme",
+        "artists": [
+          "SOIL&\"P**P\"SESSIONS"
+        ],
+        "startAt": "2026-10-20T13:01:26.368+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:004Qvc0R3esF61",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 61,
+        "title": "Overcast",
+        "artists": [
+          "吴卓玲"
+        ],
+        "startAt": "2026-10-20T13:36:46.325+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:003D1uIB0zqMXf",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 65,
+        "title": "3+1",
+        "artists": [
+          "Hotel New Tokyo"
+        ],
+        "startAt": "2026-10-20T13:52:11.306+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:000TwCQn1LrW4g",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 66,
+        "title": "anemo",
+        "artists": [
+          "euphoria"
+        ],
+        "startAt": "2026-10-20T13:56:51.653+08:00",
+        "warnings": [
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "midday",
+            "songId": "qq:002jBS8E2qmhSe",
+            "requested": [
+              "平静",
+              "渐进"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 105,
+        "title": "a slice of peach",
+        "artists": [
+          "牛尾憲輔"
+        ],
+        "startAt": "2026-10-20T16:58:16.101+08:00",
+        "warnings": [
+          {
+            "code": "GENRE_FALLBACK",
+            "segmentId": "evening-early",
+            "songId": "qq:003JrvIu3v8psF",
+            "requested": [
+              "Ambient / Neo-Classical",
+              "Jazz / Soul"
+            ],
+            "actual": [
+              "Hip-Hop / R&B",
+              "Electronic"
+            ],
+            "reason": "required-count-or-schedule-tradeoff"
+          },
+          {
+            "code": "ENERGY_FALLBACK",
+            "segmentId": "evening-early",
+            "songId": "qq:003JrvIu3v8psF",
+            "requested": [
+              "平静"
+            ],
+            "actual": "有冲劲"
+          }
+        ]
+      },
+      {
+        "number": 115,
+        "title": "夕阳消失之前",
+        "artists": [
+          "Cicada"
+        ],
+        "startAt": "2026-10-20T17:34:54.003+08:00",
+        "warnings": [
+          {
+            "code": "TRANSITION_COST_EXCEEDED",
+            "segmentId": "sunset",
+            "songId": "qq:002jaefh3NZVjb",
+            "cost": 0.66601,
+            "threshold": 0.65
+          }
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "未逐首实际试听；特征及衔接分数不是人工听感验收。",
+    "当前曲库没有音频hash和已绑定人工真值；原录音人工参考不能替代当前真值。",
+    "能量与风格为偏好，本版有明确偏离提示；没有将偏好改成硬限制。",
+    "最后一首按18:30计划截短，未修改原音频文件。",
+    "实际播放须按顺序与计划时间执行，草稿不代表已播放。"
+  ],
+  "outputs": {
+    "request": "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/request.json",
+    "draft": "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/draft.json",
+    "report": "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/情景与手动配置建议.md",
+    "fullPlaylist": "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/完整歌单.html",
+    "evidence": "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/evidence.json"
+  }
+}

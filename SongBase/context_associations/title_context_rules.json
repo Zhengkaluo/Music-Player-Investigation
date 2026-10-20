@@ -1,10 +1,51 @@
 {
   "schema_version": "songbase.title-context-rules/v1",
-  "rule_version": "2026-10-12.3",
+  "rule_version": "2026-10-19.1",
   "scope": "song_title_only",
   "policy": {
     "approval": "candidates_only",
-    "excluded_tags": ["weather.ice", "weather.dew", "holiday.graduation", "weather.clouds", "weather.snow", "weather.wind", "time.night", "light.sky", "light.moon", "time.predawn", "time.dawn", "time.clock_unspecified", "light.aurora", "light.generic"],
+    "excluded_tags": [
+      "weather.ice",
+      "weather.dew",
+      "holiday.graduation",
+      "weather.clouds",
+      "weather.snow",
+      "weather.wind",
+      "time.night",
+      "light.sky",
+      "light.moon",
+      "time.predawn",
+      "time.dawn",
+      "time.clock_unspecified",
+      "light.aurora",
+      "light.generic",
+      "season.all",
+      "weather.fog",
+      "weather.storm",
+      "weather.thunder",
+      "weather.frost",
+      "weather.temperature_warm",
+      "weather.wind_lull",
+      "weather.temperature_reference",
+      "holiday.birthday",
+      "holiday.generic",
+      "holiday.celebration",
+      "calendar.traditional_month03",
+      "time.midnight",
+      "light.sun",
+      "light.moonlight",
+      "light.golden_hour",
+      "activity.food_drink",
+      "activity.picnic",
+      "activity.work",
+      "activity.cycling",
+      "activity.dance",
+      "place.window",
+      "place.veranda",
+      "place.mountain_forest",
+      "nature.plants",
+      "event.gifting"
+    ],
     "auto_lock_allowed": false,
     "infer_lyrics_or_mood": false,
     "infer_season_from_month_or_weather": false,
@@ -12,64 +53,219 @@
     "infer_solar_term_from_weather": false,
     "infer_release_date_from_title_date": false,
     "annual_recurrence_default": "unset_requires_user_review",
-    "empty_result_means": "本词表在标题中未发现关联，不代表歌曲内容没有情境关联。"
+    "empty_result_means": "本词表在标题中未发现关联，不代表歌曲内容没有情境关联。",
+    "taxonomy_approval": "user_confirmed_2026-10-19",
+    "song_associations_approval": "still_pending_individual_review",
+    "deduplicate_scoring": [
+      "same_title_evidence",
+      "date_and_month",
+      "weekday_and_weekend",
+      "weather_change_components"
+    ],
+    "numeric_temperature_is_weather_evidence": false,
+    "holidays_require_store_opt_in": true,
+    "season_priority": "secondary",
+    "season_calendar_basis": "not_configured_requires_local_policy",
+    "runtime_matching_implemented": false
   },
   "categories": {
-    "season": "四季",
+    "calendar": "日历",
     "weather": "天气与体感",
-    "holiday": "节日与纪念情境",
-    "calendar": "月份与日期",
-    "solar_term": "二十四节气",
-    "time_light": "时段与天光"
+    "time_light": "营业时段与天光"
   },
   "normalization": {
     "unicode": "NFKC",
     "case": "casefold",
     "chinese_conversion": "仅转换词表涉及的常见繁体字，不声称完整繁简转换",
-    "traditional_pairs": {"霧":"雾","風":"风","陰":"阴","陽":"阳","聖":"圣","誕":"诞","節":"节","驚":"惊","蟄":"蛰","滿":"满","處":"处","穀":"谷","曉":"晓","熱":"热","氣":"气","臘":"腊","週":"周","雲":"云","彌":"弥","憶":"忆","氷":"冰"},
+    "traditional_pairs": {
+      "霧": "雾",
+      "風": "风",
+      "陰": "阴",
+      "陽": "阳",
+      "聖": "圣",
+      "誕": "诞",
+      "節": "节",
+      "驚": "惊",
+      "蟄": "蛰",
+      "滿": "满",
+      "處": "处",
+      "穀": "谷",
+      "曉": "晓",
+      "熱": "热",
+      "氣": "气",
+      "臘": "腊",
+      "週": "周",
+      "雲": "云",
+      "彌": "弥",
+      "憶": "忆",
+      "氷": "冰"
+    },
     "credit_segments": "仅屏蔽 feat/ft/featuring 等明确合作艺人段",
     "version_segments": "仅屏蔽明确的 Live/Remix/Remaster/Explicit 等技术版本括号段；保留译名、Monsoon、Hey Oh 等内容括号"
   },
+  "venue": {
+    "name": "深圳景田咖啡店",
+    "longitude": 114.04,
+    "latitude": 22.56,
+    "timezone": "Asia/Shanghai",
+    "opening_hours": {
+      "start": "08:00",
+      "end": "18:00"
+    },
+    "periods": [
+      {
+        "tag": "time.morning",
+        "start": "08:00",
+        "end": "11:00"
+      },
+      {
+        "tag": "time.midday",
+        "start": "11:00",
+        "end": "14:00"
+      },
+      {
+        "tag": "time.afternoon",
+        "start": "14:00",
+        "end": "18:00"
+      }
+    ]
+  },
+  "tag_aliases": {
+    "weather.temperature_cool": "weather.temperature_cold",
+    "light.sunlight": "weather.clear",
+    "time.before_noon": "time.morning",
+    "time.noon": "time.midday",
+    "time.after_noon": "time.afternoon",
+    "time.evening": "light.evening",
+    "time.dusk": "light.evening",
+    "light.sunset": "light.evening"
+  },
+  "association_groups": {
+    "weather.rain": {
+      "label": "下雨",
+      "category": "weather"
+    },
+    "weather.clear": {
+      "label": "晴天／阳光",
+      "category": "weather"
+    },
+    "weather.overcast": {
+      "label": "阴天",
+      "category": "weather"
+    },
+    "weather.temperature_cold": {
+      "label": "偏冷／凉爽",
+      "category": "weather"
+    },
+    "weather.temperature_hot": {
+      "label": "偏热",
+      "category": "weather"
+    },
+    "time.morning": {
+      "label": "上午（8–11 点）",
+      "category": "time_light",
+      "trigger_hint": {
+        "kind": "store_period",
+        "start": "08:00",
+        "end": "11:00"
+      }
+    },
+    "time.midday": {
+      "label": "午间（11–14 点）",
+      "category": "time_light",
+      "trigger_hint": {
+        "kind": "store_period",
+        "start": "11:00",
+        "end": "14:00"
+      }
+    },
+    "time.afternoon": {
+      "label": "下午（14–18 点）",
+      "category": "time_light",
+      "trigger_hint": {
+        "kind": "store_period",
+        "start": "14:00",
+        "end": "18:00"
+      }
+    },
+    "light.sunrise": {
+      "label": "日出",
+      "category": "time_light",
+      "trigger_hint": {
+        "kind": "opening_image",
+        "start": "08:00",
+        "end": "11:00",
+        "requires_actual_sunrise_overlap": false
+      }
+    },
+    "light.evening": {
+      "label": "傍晚天光",
+      "category": "time_light",
+      "trigger_hint": {
+        "kind": "local_evening_light",
+        "requires_opening_hours_overlap": true,
+        "requires_target_date": true,
+        "solar_window_tolerance_minutes": null,
+        "note": "按目标日期与门店坐标计算；傍晚、晚霞和日落保留各自原义，窗口容差待定，不固定全年钟点。"
+      }
+    }
+  },
+  "weather_changes": {
+    "weather.rain_then_clear": {
+      "components": [
+        "weather.rain",
+        "weather.clear"
+      ],
+      "label": "雨后放晴／雨晴交替"
+    },
+    "weather.cloud_then_clear": {
+      "components": [
+        "weather.overcast",
+        "weather.clear"
+      ],
+      "label": "阴转晴"
+    }
+  },
+  "manual_themes": [
+    {
+      "tag": "theme.coffee_tea",
+      "label": "咖啡／茶",
+      "activation": "manual_only",
+      "enabled": false,
+      "note": "手动策展主题，不进入标题自动扫描或日常加分。"
+    }
+  ],
   "rules": [
-    {"id":"season.spring","category":"season","label":"春季意象","match_mode":"mixed","aliases":["春天","春季","春日","之春","春に","春の","spring","printemps","primavera","frühling"],"strength":"explicit"},
-    {"id":"season.summer","category":"season","label":"夏季意象","match_mode":"mixed","aliases":["夏天","夏季","夏日","盛夏","夏の","夏に","summer","summers","sommer","été","verano","estate"],"strength":"explicit"},
-    {"id":"season.autumn","category":"season","label":"秋季意象","match_mode":"mixed","aliases":["秋天","秋季","清秋","秋日","秋の","autumn","automne","herbst","otoño"],"strength":"explicit"},
-    {"id":"season.autumn-fall","tag":"season.autumn","category":"season","label":"秋季意象","match_mode":"word","aliases":["fall"],"strength":"ambiguous","note":"Fall 可指秋季、下落或衰败，必须结合完整标题复核。"},
-    {"id":"season.autumn-water","tag":"season.autumn","category":"season","label":"秋季意象","match_mode":"substring","aliases":["秋水"],"strength":"ambiguous","note":"秋水也可为诗意比喻，不能直接认定真实秋季。"},
-    {"id":"season.winter","category":"season","label":"冬季意象","match_mode":"mixed","aliases":["冬天","冬季","冬日","冬の","winter","hiver","invierno","inverno"],"strength":"explicit"},
-    {"id":"season.all","category":"season","label":"四季整体／季节流转","match_mode":"mixed","aliases":["四季","four seasons","all seasons"],"strength":"explicit","note":"整体四季意象，不等同于在四个季节分别加分。"},
-    {"id":"season.spring-blossom","tag":"season.spring","category":"season","label":"春季意象","match_mode":"mixed","aliases":["sakura","桜","樱花","櫻花","cherry blossom"],"strength":"indirect","note":"花的标题意象可作为春季补查线索，物候因地区而异，尚未认定季节主题。"},
-    {"id":"season.summer-cicada","tag":"season.summer","category":"season","label":"夏季意象","match_mode":"exact","aliases":["蝉","蟬","cicada"],"strength":"indirect","note":"蝉可联想夏季，但不代表标题明确写夏季，须人工确认。"},
+    {"id":"season.spring","category":"calendar","label":"春季意象","match_mode":"mixed","aliases":["春天","春季","春日","之春","春に","春の","spring","printemps","primavera","frühling"],"strength":"explicit"},
+    {"id":"season.summer","category":"calendar","label":"夏季意象","match_mode":"mixed","aliases":["夏天","夏季","夏日","盛夏","夏の","夏に","summer","summers","sommer","été","verano","estate"],"strength":"explicit"},
+    {"id":"season.autumn","category":"calendar","label":"秋季意象","match_mode":"mixed","aliases":["秋天","秋季","清秋","秋日","秋の","autumn","automne","herbst","otoño"],"strength":"explicit"},
+    {"id":"season.autumn-fall","tag":"season.autumn","category":"calendar","label":"秋季意象","match_mode":"word","aliases":["fall"],"strength":"ambiguous","note":"Fall 可指秋季、下落或衰败，必须结合完整标题复核。"},
+    {"id":"season.autumn-water","tag":"season.autumn","category":"calendar","label":"秋季意象","match_mode":"substring","aliases":["秋水"],"strength":"ambiguous","note":"秋水也可为诗意比喻，不能直接认定真实秋季。"},
+    {"id":"season.winter","category":"calendar","label":"冬季意象","match_mode":"mixed","aliases":["冬天","冬季","冬日","冬の","winter","hiver","invierno","inverno","过冬"],"strength":"explicit"},
+    {"id":"season.spring-blossom","tag":"season.spring","category":"calendar","label":"春季意象","match_mode":"mixed","aliases":["sakura","桜","樱花","櫻花","cherry blossom"],"strength":"indirect","note":"花的标题意象可作为春季补查线索，物候因地区而异，尚未认定季节主题。"},
+    {"id":"season.summer-cicada","tag":"season.summer","category":"calendar","label":"夏季意象","match_mode":"exact","aliases":["蝉","蟬","cicada"],"strength":"indirect","note":"蝉可联想夏季，但不代表标题明确写夏季，须人工确认。"},
     {"id":"weather.rain","category":"weather","label":"雨意象","match_mode":"mixed","aliases":["下雨","雨天","雨中","雨后","雨夜","雨声","落雨","骤雨","雾雨","雨水","rain","rains","rainy","rainfall","raining","showers","雨の日","雨降り","時雨","しぐれ","pluie","lluvia","pioggia"],"strength":"explicit"},
-    {"id":"weather.fog","category":"weather","label":"雾意象","match_mode":"mixed","aliases":["雾","霧","fog","foggy","mist","misty","brume"],"strength":"explicit"},
-    {"id":"weather.storm","category":"weather","label":"风暴／骤风雨意象","match_mode":"mixed","aliases":["暴风雨","风暴","storm","storms","stormy","squall","tempest"],"strength":"explicit"},
-    {"id":"weather.thunder","category":"weather","label":"雷电意象","match_mode":"mixed","aliases":["雷雨","雷声","闪电","thunder","thunderstorm","lightning"],"strength":"explicit"},
-    {"id":"weather.frost","category":"weather","label":"霜意象","match_mode":"mixed","aliases":["霜","frost","frosty"],"strength":"explicit"},
     {"id":"weather.clear","category":"weather","label":"晴／晴空意象","match_mode":"mixed","aliases":["晴天","晴空","晴朗","晴れ","sunny","blue sky","clear sky"],"strength":"explicit"},
     {"id":"weather.overcast","category":"weather","label":"阴天意象","match_mode":"mixed","aliases":["阴天","阴云","overcast","曇り"],"strength":"explicit"},
     {"id":"weather.rain_then_clear","category":"weather","label":"阵雨间歇转晴／雨晴交替","match_mode":"mixed","aliases":["雨过天晴","雨后放晴","showers with sunny intervals"],"strength":"explicit","note":"优先保留天气过程，不把晴与雨看成三个独立加分理由。"},
     {"id":"weather.cloud_then_clear","category":"weather","label":"阴转晴","match_mode":"substring","aliases":["阴转晴","阴轉晴"],"strength":"explicit"},
-    {"id":"weather.temperature_cold","category":"weather","label":"冷／低温候选","match_mode":"mixed","aliases":["寒冷","冷天","低温","cold","chilly","0°c","0℃"],"strength":"ambiguous","note":"冷可能描述身体、情感、其他物体或天气；仅标题候选。"},
+    {"id":"weather.temperature_cold","category":"weather","label":"冷／低温候选","match_mode":"mixed","aliases":["寒冷","冷天","低温","cold","chilly"],"strength":"ambiguous","note":"冷可能描述身体、情感、其他物体或天气；仅标题候选。"},
     {"id":"weather.temperature_cool","category":"weather","label":"凉爽候选","match_mode":"mixed","aliases":["凉爽","清凉","cool"],"strength":"ambiguous","note":"Cool 常为酷、赞或冷静，不能直接理解成凉爽天气。"},
-    {"id":"weather.temperature_warm","category":"weather","label":"温暖候选","match_mode":"mixed","aliases":["温暖","暖阳","あたたかな","warm","warmth"],"strength":"ambiguous","note":"温暖可能指手、情感或天气，不推断歌曲温暖听感。"},
     {"id":"weather.temperature_hot","category":"weather","label":"炎热候选","match_mode":"mixed","aliases":["炎热","酷热","高温","暑い","微热","微熱","常热","hot","hotter","heat"],"strength":"ambiguous","note":"热可指热情、发热或气温，必须检查修饰对象。"},
-    {"id":"holiday.christmas","category":"holiday","label":"圣诞","match_mode":"mixed","aliases":["圣诞","聖誕","christmas","xmas","noël","noel","クリスマス"],"strength":"explicit"},
-    {"id":"holiday.new_year","category":"holiday","label":"新年（历法待确认）","match_mode":"mixed","aliases":["新年","跨年","new year","new year's","new years","お正月"],"strength":"explicit","note":"不默认公历元旦或农历新年，须确认历法。"},
-    {"id":"holiday.lunar_new_year","category":"holiday","label":"农历新年／春节","match_mode":"mixed","aliases":["春节","春節","除夕","lunar new year","chinese new year"],"strength":"explicit"},
-    {"id":"holiday.lantern_festival","category":"holiday","label":"元宵","match_mode":"mixed","aliases":["元宵","lantern festival"],"strength":"explicit"},
-    {"id":"holiday.dragon_boat","category":"holiday","label":"端午","match_mode":"mixed","aliases":["端午","dragon boat festival"],"strength":"explicit"},
-    {"id":"holiday.qixi","category":"holiday","label":"七夕","match_mode":"mixed","aliases":["七夕","qixi","tanabata"],"strength":"explicit"},
-    {"id":"holiday.mid_autumn","category":"holiday","label":"中秋","match_mode":"mixed","aliases":["中秋","mid autumn festival","mid-autumn festival"],"strength":"explicit"},
-    {"id":"holiday.double_ninth","category":"holiday","label":"重阳","match_mode":"mixed","aliases":["重阳","重陽","double ninth festival"],"strength":"explicit"},
-    {"id":"holiday.halloween","category":"holiday","label":"万圣节","match_mode":"mixed","aliases":["万圣","萬聖","halloween","ハロウィン"],"strength":"explicit"},
-    {"id":"holiday.valentine","category":"holiday","label":"情人节","match_mode":"mixed","aliases":["情人节","情人節","valentine","valentine's","valentines","バレンタイン"],"strength":"explicit"},
-    {"id":"holiday.birthday","category":"holiday","label":"生日庆祝（非艺人生日事实）","match_mode":"mixed","aliases":["生日","birthday","誕生日","诞生日"],"strength":"explicit"},
-    {"id":"holiday.generic","category":"holiday","label":"泛假日／休假情境","match_mode":"mixed","aliases":["假日","holiday","holidays","vacation"],"strength":"explicit","note":"没有具体节日或日期，不绑定圣诞、春节等节日。"},
-    {"id":"holiday.celebration","category":"holiday","label":"泛庆祝／祝贺线索","match_mode":"mixed","aliases":["おめでとう","庆祝","慶祝","congratulations"],"strength":"indirect","note":"没有指明祝贺对象，不推成生日或新年。"},
+    {"id":"holiday.christmas","category":"calendar","label":"圣诞","match_mode":"mixed","aliases":["圣诞","聖誕","christmas","xmas","noël","noel","クリスマス"],"strength":"explicit"},
+    {"id":"holiday.new_year","category":"calendar","label":"元旦／新年（历法待确认）","match_mode":"mixed","aliases":["新年","跨年","new year","new year's","new years","お正月","元旦","new year's day"],"strength":"explicit","note":"不默认公历元旦或农历新年，须确认历法。"},
+    {"id":"holiday.lunar_new_year","category":"calendar","label":"农历新年／春节","match_mode":"mixed","aliases":["春节","春節","除夕","lunar new year","chinese new year"],"strength":"explicit"},
+    {"id":"holiday.lantern_festival","category":"calendar","label":"元宵","match_mode":"mixed","aliases":["元宵","lantern festival"],"strength":"explicit"},
+    {"id":"holiday.dragon_boat","category":"calendar","label":"端午","match_mode":"mixed","aliases":["端午","dragon boat festival"],"strength":"explicit"},
+    {"id":"holiday.qixi","category":"calendar","label":"七夕","match_mode":"mixed","aliases":["七夕","qixi","tanabata"],"strength":"explicit"},
+    {"id":"holiday.mid_autumn","category":"calendar","label":"中秋","match_mode":"mixed","aliases":["中秋","mid autumn festival","mid-autumn festival"],"strength":"explicit"},
+    {"id":"holiday.double_ninth","category":"calendar","label":"重阳","match_mode":"mixed","aliases":["重阳","重陽","double ninth festival"],"strength":"explicit"},
+    {"id":"holiday.halloween","category":"calendar","label":"万圣节","match_mode":"mixed","aliases":["万圣","萬聖","halloween","ハロウィン"],"strength":"explicit"},
+    {"id":"holiday.valentine","category":"calendar","label":"情人节","match_mode":"mixed","aliases":["情人节","情人節","valentine","valentine's","valentines","バレンタイン"],"strength":"explicit"},
     {"id":"calendar.month01","category":"calendar","label":"一月","match_mode":"mixed","aliases":["一月","1月","january","jan."],"strength":"explicit"},
     {"id":"calendar.month02","category":"calendar","label":"二月","match_mode":"mixed","aliases":["二月","2月","february","feb."],"strength":"explicit"},
     {"id":"calendar.month03","category":"calendar","label":"三月候选","match_mode":"mixed","aliases":["三月","3月","march","mar.","mars"],"strength":"ambiguous","note":"March 可指行进曲，Mars 可为法语三月或火星；不能只凭词汇定月份。"},
-    {"id":"calendar.month04","category":"calendar","label":"四月","match_mode":"mixed","aliases":["四月","4月","april","apr."],"strength":"explicit"},
+    {"id":"calendar.month04","category":"calendar","label":"四月","match_mode":"mixed","aliases":["四月","4月","april","apr.","avril"],"strength":"explicit"},
     {"id":"calendar.month05","category":"calendar","label":"五月候选","match_mode":"mixed","aliases":["五月","5月","may"],"strength":"ambiguous","note":"May 可为月份、名字或情态动词；明确日期短语可增强证据。"},
     {"id":"calendar.month06","category":"calendar","label":"六月","match_mode":"mixed","aliases":["六月","6月","june","jun."],"strength":"explicit"},
     {"id":"calendar.month07","category":"calendar","label":"七月","match_mode":"mixed","aliases":["七月","7月","july","jul."],"strength":"explicit"},
@@ -78,7 +274,6 @@
     {"id":"calendar.month10","category":"calendar","label":"十月","match_mode":"mixed","aliases":["十月","10月","october","oct."],"strength":"explicit"},
     {"id":"calendar.month11","category":"calendar","label":"十一月","match_mode":"mixed","aliases":["十一月","11月","november","nov."],"strength":"explicit"},
     {"id":"calendar.month12","category":"calendar","label":"十二月","match_mode":"mixed","aliases":["十二月","12月","december","dec."],"strength":"explicit"},
-    {"id":"calendar.traditional_month03","category":"calendar","label":"弥生／传统三月名（历法待确认）","match_mode":"mixed","aliases":["弥生","彌生","yayoi"],"strength":"ambiguous","note":"传统月名与现代月份用法并存，未确认农历／公历，不直接匹配公历三月。"},
     {"id":"calendar.monday","category":"calendar","label":"星期一","match_mode":"mixed","aliases":["星期一","周一","月曜日","monday","mondays"],"strength":"explicit"},
     {"id":"calendar.tuesday","category":"calendar","label":"星期二","match_mode":"mixed","aliases":["星期二","周二","火曜日","tuesday","tuesdays"],"strength":"explicit"},
     {"id":"calendar.wednesday","category":"calendar","label":"星期三","match_mode":"mixed","aliases":["星期三","周三","水曜日","wednesday","wednesdays"],"strength":"explicit"},
@@ -87,45 +282,41 @@
     {"id":"calendar.saturday","category":"calendar","label":"星期六","match_mode":"mixed","aliases":["星期六","周六","土曜日","saturday","saturdays"],"strength":"explicit"},
     {"id":"calendar.sunday","category":"calendar","label":"星期日／星期天","match_mode":"mixed","aliases":["星期日","星期天","周日","日曜","sunday","sundays"],"strength":"explicit"},
     {"id":"calendar.weekend","category":"calendar","label":"周末","match_mode":"mixed","aliases":["周末","週末","weekend","weekends"],"strength":"explicit","note":"周末不是法定休息日判定，不处理调休。"},
-    {"id":"solar_term.lichun","category":"solar_term","label":"立春","match_mode":"mixed","aliases":["立春","start of spring"],"strength":"explicit"},
-    {"id":"solar_term.yushui","category":"solar_term","label":"雨水节气候选","match_mode":"mixed","aliases":["雨水","rain water"],"strength":"ambiguous","note":"词语也有普通天气含义，需确认是否指节气。"},
-    {"id":"solar_term.jingzhe","category":"solar_term","label":"惊蛰","match_mode":"mixed","aliases":["惊蛰","驚蟄","awakening of insects"],"strength":"explicit"},
-    {"id":"solar_term.chunfen","category":"solar_term","label":"春分","match_mode":"mixed","aliases":["春分","spring equinox","vernal equinox"],"strength":"explicit"},
-    {"id":"solar_term.qingming","category":"solar_term","label":"清明节气候选","match_mode":"mixed","aliases":["清明","clear and bright"],"strength":"ambiguous","note":"区分节气、节日及清明的其他词义。"},
-    {"id":"solar_term.guyu","category":"solar_term","label":"谷雨","match_mode":"mixed","aliases":["谷雨","穀雨","grain rain"],"strength":"explicit"},
-    {"id":"solar_term.lixia","category":"solar_term","label":"立夏","match_mode":"mixed","aliases":["立夏","start of summer"],"strength":"explicit"},
-    {"id":"solar_term.xiaoman","category":"solar_term","label":"小满","match_mode":"mixed","aliases":["小满","小滿","grain buds"],"strength":"explicit"},
-    {"id":"solar_term.mangzhong","category":"solar_term","label":"芒种","match_mode":"mixed","aliases":["芒种","芒種","grain in ear"],"strength":"explicit"},
-    {"id":"solar_term.xiazhi","category":"solar_term","label":"夏至","match_mode":"mixed","aliases":["夏至","summer solstice"],"strength":"explicit"},
-    {"id":"solar_term.xiaoshu","category":"solar_term","label":"小暑","match_mode":"mixed","aliases":["小暑","minor heat"],"strength":"explicit"},
-    {"id":"solar_term.dashu","category":"solar_term","label":"大暑","match_mode":"mixed","aliases":["大暑","major heat"],"strength":"explicit"},
-    {"id":"solar_term.liqiu","category":"solar_term","label":"立秋","match_mode":"mixed","aliases":["立秋","start of autumn"],"strength":"explicit"},
-    {"id":"solar_term.chushu","category":"solar_term","label":"处暑","match_mode":"mixed","aliases":["处暑","處暑","end of heat"],"strength":"explicit"},
-    {"id":"solar_term.bailu","category":"solar_term","label":"白露节气候选","match_mode":"mixed","aliases":["白露","white dew"],"strength":"ambiguous","note":"露水或名字与节气同词，需要确认。"},
-    {"id":"solar_term.qiufen","category":"solar_term","label":"秋分","match_mode":"mixed","aliases":["秋分","autumn equinox","autumnal equinox"],"strength":"explicit"},
-    {"id":"solar_term.hanlu","category":"solar_term","label":"寒露节气候选","match_mode":"mixed","aliases":["寒露","cold dew"],"strength":"ambiguous"},
-    {"id":"solar_term.shuangjiang","category":"solar_term","label":"霜降节气候选","match_mode":"mixed","aliases":["霜降","frost descent"],"strength":"ambiguous"},
-    {"id":"solar_term.lidong","category":"solar_term","label":"立冬","match_mode":"mixed","aliases":["立冬","start of winter"],"strength":"explicit"},
-    {"id":"solar_term.xiaoxue","category":"solar_term","label":"小雪节气候选","match_mode":"mixed","aliases":["小雪","minor snow","light snow"],"strength":"ambiguous","note":"也可指实际降雪或名字，不能直接绑定节气。"},
-    {"id":"solar_term.daxue","category":"solar_term","label":"大雪节气候选","match_mode":"mixed","aliases":["大雪","major snow","heavy snow"],"strength":"ambiguous"},
-    {"id":"solar_term.dongzhi","category":"solar_term","label":"冬至","match_mode":"mixed","aliases":["冬至","winter solstice"],"strength":"explicit"},
-    {"id":"solar_term.xiaohan","category":"solar_term","label":"小寒节气候选","match_mode":"mixed","aliases":["小寒","minor cold"],"strength":"ambiguous"},
-    {"id":"solar_term.dahan","category":"solar_term","label":"大寒节气候选","match_mode":"mixed","aliases":["大寒","major cold"],"strength":"ambiguous"},
-    {"id":"time.morning","category":"time_light","label":"早晨","match_mode":"mixed","aliases":["早晨","清晨","晨间","morning","matin"],"strength":"explicit"},
+    {"id":"solar_term.lichun","category":"calendar","label":"立春","match_mode":"mixed","aliases":["立春","start of spring"],"strength":"explicit"},
+    {"id":"solar_term.yushui","category":"calendar","label":"雨水节气候选","match_mode":"mixed","aliases":["雨水","rain water"],"strength":"ambiguous","note":"词语也有普通天气含义，需确认是否指节气。"},
+    {"id":"solar_term.jingzhe","category":"calendar","label":"惊蛰","match_mode":"mixed","aliases":["惊蛰","驚蟄","awakening of insects"],"strength":"explicit"},
+    {"id":"solar_term.chunfen","category":"calendar","label":"春分","match_mode":"mixed","aliases":["春分","spring equinox","vernal equinox"],"strength":"explicit"},
+    {"id":"solar_term.qingming","category":"calendar","label":"清明节气候选","match_mode":"mixed","aliases":["清明","clear and bright"],"strength":"ambiguous","note":"区分节气、节日及清明的其他词义。"},
+    {"id":"solar_term.guyu","category":"calendar","label":"谷雨","match_mode":"mixed","aliases":["谷雨","穀雨","grain rain"],"strength":"explicit"},
+    {"id":"solar_term.lixia","category":"calendar","label":"立夏","match_mode":"mixed","aliases":["立夏","start of summer"],"strength":"explicit"},
+    {"id":"solar_term.xiaoman","category":"calendar","label":"小满","match_mode":"mixed","aliases":["小满","小滿","grain buds"],"strength":"explicit"},
+    {"id":"solar_term.mangzhong","category":"calendar","label":"芒种","match_mode":"mixed","aliases":["芒种","芒種","grain in ear"],"strength":"explicit"},
+    {"id":"solar_term.xiazhi","category":"calendar","label":"夏至","match_mode":"mixed","aliases":["夏至","summer solstice"],"strength":"explicit"},
+    {"id":"solar_term.xiaoshu","category":"calendar","label":"小暑","match_mode":"mixed","aliases":["小暑","minor heat"],"strength":"explicit"},
+    {"id":"solar_term.dashu","category":"calendar","label":"大暑","match_mode":"mixed","aliases":["大暑","major heat"],"strength":"explicit"},
+    {"id":"solar_term.liqiu","category":"calendar","label":"立秋","match_mode":"mixed","aliases":["立秋","start of autumn"],"strength":"explicit"},
+    {"id":"solar_term.chushu","category":"calendar","label":"处暑","match_mode":"mixed","aliases":["处暑","處暑","end of heat"],"strength":"explicit"},
+    {"id":"solar_term.bailu","category":"calendar","label":"白露节气候选","match_mode":"mixed","aliases":["白露","white dew"],"strength":"ambiguous","note":"露水或名字与节气同词，需要确认。"},
+    {"id":"solar_term.qiufen","category":"calendar","label":"秋分","match_mode":"mixed","aliases":["秋分","autumn equinox","autumnal equinox"],"strength":"explicit"},
+    {"id":"solar_term.hanlu","category":"calendar","label":"寒露节气候选","match_mode":"mixed","aliases":["寒露","cold dew"],"strength":"ambiguous"},
+    {"id":"solar_term.shuangjiang","category":"calendar","label":"霜降节气候选","match_mode":"mixed","aliases":["霜降","frost descent"],"strength":"ambiguous"},
+    {"id":"solar_term.lidong","category":"calendar","label":"立冬","match_mode":"mixed","aliases":["立冬","start of winter"],"strength":"explicit"},
+    {"id":"solar_term.xiaoxue","category":"calendar","label":"小雪节气候选","match_mode":"mixed","aliases":["小雪","minor snow","light snow"],"strength":"ambiguous","note":"也可指实际降雪或名字，不能直接绑定节气。"},
+    {"id":"solar_term.daxue","category":"calendar","label":"大雪节气候选","match_mode":"mixed","aliases":["大雪","major snow","heavy snow"],"strength":"ambiguous"},
+    {"id":"solar_term.dongzhi","category":"calendar","label":"冬至","match_mode":"mixed","aliases":["冬至","winter solstice"],"strength":"explicit"},
+    {"id":"solar_term.xiaohan","category":"calendar","label":"小寒节气候选","match_mode":"mixed","aliases":["小寒","minor cold"],"strength":"ambiguous"},
+    {"id":"solar_term.dahan","category":"calendar","label":"大寒节气候选","match_mode":"mixed","aliases":["大寒","major cold"],"strength":"ambiguous"},
+    {"id":"time.morning","category":"time_light","label":"早晨","match_mode":"mixed","aliases":["早晨","清晨","晨间","morning","matin"],"strength":"explicit","note":"早晨标题对应开店上午区间；不要求实际日出落在营业时间内。"},
     {"id":"time.before_noon","category":"time_light","label":"午前／上午","match_mode":"mixed","aliases":["ante meridiem","午前"],"strength":"explicit"},
-    {"id":"time.after_noon","category":"time_light","label":"午后至晚间（PM）","match_mode":"mixed","aliases":["post meridiem","pm"],"strength":"explicit"},
+    {"id":"time.after_noon","category":"time_light","label":"午后至晚间（PM）","match_mode":"mixed","aliases":["post meridiem","pm"],"strength":"explicit","note":"PM 覆盖午后至晚间，只考虑其与 08:00–18:00 的交集；不是精确钟点。"},
     {"id":"time.noon","category":"time_light","label":"正午","match_mode":"mixed","aliases":["正午","中午","noon","midday","midi"],"strength":"explicit"},
-    {"id":"time.afternoon","category":"time_light","label":"下午","match_mode":"mixed","aliases":["下午","午后","afternoon","siesta"],"strength":"explicit"},
+    {"id":"time.afternoon","category":"time_light","label":"下午","match_mode":"mixed","aliases":["下午","午后","afternoon"],"strength":"explicit"},
     {"id":"time.evening","category":"time_light","label":"傍晚","match_mode":"mixed","aliases":["傍晚","夕べ","evening","soir","夕凪"],"strength":"explicit"},
     {"id":"time.dusk","category":"time_light","label":"黄昏／暮色","match_mode":"mixed","aliases":["黄昏","暮色","twilight","dusk","crepuscule","crépuscule"],"strength":"explicit"},
-    {"id":"time.midnight","category":"time_light","label":"午夜","match_mode":"mixed","aliases":["午夜","midnight","minuit"],"strength":"explicit"},
-    {"id":"time.breakfast","tag":"time.morning","category":"time_light","label":"早晨","match_mode":"mixed","aliases":["早餐","breakfast"],"strength":"indirect","note":"早餐是常见早晨活动，但不是明确播放时刻。"},
+    {"id":"time.breakfast","tag":"time.morning","category":"time_light","label":"早晨","match_mode":"mixed","aliases":["早餐","breakfast"],"strength":"indirect","note":"早餐仅为上午的间接线索，不证明听感适合早晨。"},
     {"id":"light.sunrise","category":"time_light","label":"日出","match_mode":"mixed","aliases":["日出","日の出","sunrise","sun rise"],"strength":"explicit"},
-    {"id":"light.sunset","category":"time_light","label":"日落／夕阳","match_mode":"mixed","aliases":["日落","夕阳","落日","sunset","sun set"],"strength":"explicit"},
-    {"id":"light.sun","category":"time_light","label":"太阳意象","match_mode":"mixed","aliases":["太阳","太陽","sun","soleil","sol"],"strength":"explicit","note":"太阳意象不自动代表晴天或日落。"},
-    {"id":"light.sunburst","tag":"light.sun","category":"time_light","label":"太阳意象","match_mode":"word","aliases":["sunburst","helios"],"strength":"ambiguous","note":"Sunburst 及太阳神名称具有其他用法，待复核。"},
-    {"id":"light.sunlight","category":"time_light","label":"阳光意象","match_mode":"mixed","aliases":["阳光","sunshine","sunlight","sunlit"],"strength":"explicit","note":"阳光标题不自动判断当天无雨。"},
-    {"id":"light.moonlight","category":"time_light","label":"月光意象","match_mode":"mixed","aliases":["月光","moonlight","clair de lune"],"strength":"explicit"},
-    {"id":"light.golden_hour","category":"time_light","label":"黄金时刻候选","match_mode":"word","aliases":["golden hour"],"strength":"ambiguous","note":"可能是摄影天光，也可能是比喻；不能只凭标题定日落。"}
+    {"id":"light.sunset","category":"time_light","label":"日落／夕阳","match_mode":"mixed","aliases":["日落","夕阳","落日","sunset","sun set","晚霞","太阳落下"],"strength":"explicit","note":"统一归入傍晚天光；保留命中的具体词义，实际适用窗口须与营业时间重叠。"},
+    {"id":"light.sunlight","category":"weather","label":"阳光意象","match_mode":"mixed","aliases":["阳光","sunshine","sunlight","sunlit"],"strength":"explicit","note":"并入晴天／阳光标题关联，不证明当地实况或店内光照。"},
+    {"id":"time.siesta","tag":"time.afternoon","category":"time_light","label":"下午","match_mode":"word","aliases":["siesta"],"strength":"indirect","note":"午休是午后活动的间接线索，不是明确播放钟点或听感适配。"}
   ]
 }

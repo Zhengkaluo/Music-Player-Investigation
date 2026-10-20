@@ -1,0 +1,11 @@
+{
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_base_by_artist.json": "351fe9a977a1b2a2b2b48f9221850c3fbd566d34ba1bcc5fd0f2b1989401e836",
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_tag_candidates.json": "6c0624eff0b11c63f1dcbad4f789ba60a1c9f4a7b23c3ab570ee7183aba985bb",
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_tag_mapping.json": "5bc6e96191348aff87ed096666e61290f350dcbf9b944e418cf065858ac7dcf5",
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/歌曲特征.json": "1f2d21ec69f0a83c28114ff2fceff30fdab3f880b8b00febb36d388bfa8f1bea",
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/title_context_rules.json": "e1c1e983d9a00d2d954b7008795b350090e1eb097e633fd2e7dd6d87826feb90",
+  "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/title_context_semantic_reviews.json": "c73104f30f9f13f5a3b5009e8e1a7574c10a6c96e0400053ec056711c523b7f7",
+  "/Users/kaluozheng/Music-Player-Investigation/cafe-playlist/data/albums.json": "88cd11b83d366ccff6c1530b4503da41b6cc9ef2dd532726f1d8dc1e2ae8bf16",
+  "/Users/kaluozheng/Music-Player-Investigation/cafe-playlist/data/play_history.json": "be42f7c2ffe23a6d5e29a8aac06dfcc456648ea6bde89d355e2aa97f8e84f06a"
+}

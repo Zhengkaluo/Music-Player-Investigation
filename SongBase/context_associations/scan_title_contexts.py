@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import csv
 import hashlib
 import html
@@ -116,12 +117,14 @@ def candidate(tag, category, label, strength, evidence, reason, trigger=None):
     return {"tag": tag, "category": category, "label": label, "title_judgment": strength, "judgment_label": STRENGTH_LABELS[strength], "review_status": "pending", "auto_lock_allowed": False, "reason": reason, "evidence": evidence, "trigger_hint": trigger or {"enabled": False, "recurrence": "not_configured"}}
 
 
-def date_matches(title, text, offsets):
+def date_matches(title, text, offsets, config):
     associations = []
     day_pattern = "|".join(re.escape(w) for w in sorted(DAY_WORDS, key=len, reverse=True))
     for month, name in enumerate(MONTH_NAMES, 1):
         short = "sept" if month == 9 else name[:3]
         month_pattern = re.escape(name) + "|" + re.escape(short) + r"\."
+        if month == 4 and any("avril" in rule["aliases"] for rule in config["rules"] if rule["id"] == "calendar.month04"):
+            month_pattern += "|avril"
         pattern = re.compile(r"(?<!\w)(?:" + month_pattern + r")\s*(?P<day>\d{1,2}(?:st|nd|rd|th)?|" + day_pattern + r")(?!\w)(?:\s*,?\s+(?P<year>\d{4})(?!\d))?")
         for match in pattern.finditer(text):
             raw_day = match["day"]
@@ -160,6 +163,81 @@ def clock_matches(title, text, offsets):
     return associations
 
 
+def merge_candidate(found, item):
+    """Keep a single canonical tag without losing evidence or semantic judgments."""
+    tag = item["tag"]
+    if tag not in found:
+        found[tag] = item
+        return
+    current = found[tag]
+    for key in ("evidence", "source_associations", "scoring_groups", "weather_changes"):
+        current.setdefault(key, [])
+        current[key].extend(x for x in item.get(key, []) if x not in current[key])
+    if STRENGTH_ORDER[item["title_judgment"]] < STRENGTH_ORDER[current["title_judgment"]]:
+        current["title_judgment"] = item["title_judgment"]
+        current["judgment_label"] = item["judgment_label"]
+    current["reason"] = "；".join(dict.fromkeys([current["reason"], item["reason"]]))
+
+
+def apply_store_policy(items, config):
+    policy = config.get("policy", {})
+    blocked = set(policy.get("excluded_tags", []))
+    aliases = config.get("tag_aliases", {})
+    groups = config.get("association_groups", {})
+    changes = config.get("weather_changes", {})
+    venue = config.get("venue", {})
+    periods = venue.get("periods", [])
+    minutes = lambda clock: sum(int(n) * factor for n, factor in zip(clock.split(":"), (60, 1)))
+    clock_spans = [e["span"] for a in items if a["tag"].startswith("time.clock.") for e in a["evidence"]]
+    shared_spans = [(a["tag"], e["span"]) for a in items if a["tag"] in changes or a["tag"].startswith("calendar.date.") for e in a["evidence"]]
+    weekday_tags = {"calendar." + name for name in ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday", "weekend")}
+    found, filtered = {}, []
+    for original in items:
+        item = copy.deepcopy(original)
+        raw_tag = item["tag"]
+        if raw_tag in blocked:
+            filtered.append(dict(item, exclusion_reason="门店已移出的情境关联。"))
+            continue
+        tag = aliases.get(raw_tag, raw_tag)
+        if raw_tag.startswith("time.clock.") and periods:
+            clock = minutes(raw_tag.removeprefix("time.clock."))
+            period = next((p for p in periods if minutes(p["start"]) <= clock < minutes(p["end"])), None)
+            if period is None:
+                filtered.append(dict(item, exclusion_reason="标题钟点不在门店 08:00–18:00 营业区间。"))
+                continue
+            tag = period["tag"]
+        elif raw_tag.startswith("time.") and clock_spans:
+            # A marker in "7 PM" must not re-enter as a generic afternoon candidate.
+            item["evidence"] = [e for e in item["evidence"] if not any(left <= e["span"][0] and e["span"][1] <= right for left, right in clock_spans)]
+            if not item["evidence"]:
+                continue
+        item["source_associations"] = [{k: copy.deepcopy(item[k]) for k in ("tag", "label", "title_judgment", "reason", "trigger_hint", "evidence")}]
+        item["scoring_groups"] = []
+        for evidence in item["evidence"]:
+            evidence["source_tag"] = raw_tag
+            evidence["source_judgment"] = item["title_judgment"]
+            span = evidence["span"]
+            shared = next(((source, bounds) for source, bounds in shared_spans if bounds[0] <= span[0] and span[1] <= bounds[1]), None)
+            key = f"{shared[0]}:{shared[1]}" if shared else f"title:{span}"
+            if tag in weekday_tags:
+                key = "calendar:weekday_and_weekend"
+            if key not in item["scoring_groups"]:
+                item["scoring_groups"].append(key)
+        if raw_tag in changes:
+            item["weather_changes"] = [dict(changes[raw_tag], source_tag=raw_tag)]
+        for target in changes.get(raw_tag, {}).get("components", [tag]):
+            if target in blocked:
+                continue
+            result = copy.deepcopy(item)
+            result["tag"] = target
+            group = groups.get(target, {})
+            result.update({k: group[k] for k in ("label", "category") if k in group})
+            if "trigger_hint" in group:
+                result["trigger_hint"] = dict(group["trigger_hint"], enabled=False)
+            merge_candidate(found, result)
+    return list(found.values()), filtered
+
+
 def scan_title(title, artist, config, compiled, reviews):
     text, offsets, ignored = title_view(title, config["normalization"]["traditional_pairs"])
     found = {}
@@ -181,7 +259,7 @@ def scan_title(title, artist, config, compiled, reviews):
             found[tag] = candidate(tag, rule["category"], rule["label"], rule["strength"], evidence, reason)
         if rule.get("suppresses"):
             found[tag]["suppresses"] = rule["suppresses"]
-    for item in date_matches(title, text, offsets) + clock_matches(title, text, offsets):
+    for item in date_matches(title, text, offsets, config) + clock_matches(title, text, offsets):
         found[item["tag"]] = item
     suppressed = {tag for item in found.values() for tag in item.pop("suppresses", [])}
     excluded = []
@@ -211,10 +289,10 @@ def scan_title(title, artist, config, compiled, reviews):
             ev = {"type": "title", "source_title": title, "matched_text": raw, "span": [start, start + len(raw)], "rule_id": "agent_title_phrase_review"}
             found[addition["tag"]] = candidate(addition["tag"], addition["category"], addition["label"], addition["strength"], [ev], addition["note"])
     excluded_tags = set(config.get("policy", {}).get("excluded_tags", []))
-    found = {tag: item for tag, item in found.items() if tag not in excluded_tags}
+    associations, store_filtered = apply_store_policy(list(found.values()), config)
     excluded = [item for item in excluded if item["tag"] not in excluded_tags]
     safeguards = [x["reason"] for x in reviews["title_safeguards"] if x["title"] == title and x["artist"] == artist]
-    return list(found.values()), excluded, {"source_title": title, "search_title": text.strip(), "ignored_segments": ignored, "safeguards": safeguards}
+    return associations, excluded, {"source_title": title, "search_title": text.strip(), "ignored_segments": ignored, "safeguards": safeguards, "store_filtered": store_filtered}
 
 
 def load_tracks(library):
@@ -249,16 +327,17 @@ def build_scan(library_path, config, reviews):
             by_tag = {a["tag"]: a for a in track["associations"]}
             for association in associations:
                 if association["tag"] in by_tag:
-                    by_tag[association["tag"]]["evidence"].extend(association["evidence"])
+                    merge_candidate(by_tag, association)
                 else:
                     track["associations"].append(association)
+                    by_tag[association["tag"]] = association
             track["excluded_associations"].extend(exclusions)
             track["title_audit"].append(audit)
         track["scan_status"] = "has_title_candidates" if track["associations"] else "no_title_match"
     candidate_tracks = [t for t in tracks.values() if t["associations"]]
     counts = Counter(a["title_judgment"] for t in tracks.values() for a in t["associations"])
     summary = {"input_rows": row_count, "unique_tracks_scanned": len(tracks), "duplicate_rows_collapsed": row_count - len(tracks), "tracks_with_candidates": len(candidate_tracks), "tracks_without_candidates": len(tracks) - len(candidate_tracks), "total_associations": sum(counts.values()), "associations_by_judgment": dict(counts), "tracks_with_explicit_candidates": sum(any(a["title_judgment"] == "explicit" for a in t["associations"]) for t in tracks.values()), "tracks_only_indirect_or_ambiguous": sum(not any(a["title_judgment"] == "explicit" for a in t["associations"]) for t in candidate_tracks), "excluded_associations": sum(len(t["excluded_associations"]) for t in tracks.values()), "categories": {key: {"label": label, "tracks": sum(any(a["category"] == key for a in t["associations"]) for t in tracks.values()), "associations": sum(a["category"] == key for t in tracks.values() for a in t["associations"])} for key, label in config["categories"].items()}}
-    return {"schema_version": "songbase.context-title-scan/v1", "generated_at": datetime.now().astimezone().isoformat(), "rule_version": config["rule_version"], "semantic_review_version": reviews["review_version"], "scope": "full_library_song_titles_only", "approval_status": "all_candidates_pending_user_review", "source": {"path": str(Path(library_path).resolve()), "sha256": digest(library_path), "declared_unique_songs": library.get("total_unique_songs")}, "policy": config["policy"], "summary": summary, "tracks": tracks}
+    return {"schema_version": "songbase.context-title-scan/v1", "generated_at": datetime.now().astimezone().isoformat(), "rule_version": config["rule_version"], "semantic_review_version": reviews["review_version"], "scope": "full_library_song_titles_only", "approval_status": "all_candidates_pending_user_review", "source": {"path": str(Path(library_path).resolve()), "sha256": digest(library_path), "declared_unique_songs": library.get("total_unique_songs")}, "policy": config["policy"], "venue": config.get("venue"), "summary": summary, "tracks": tracks}
 
 
 def category_rows(scan, category):
@@ -287,7 +366,8 @@ def markdown_report(scan):
         reasons.extend(reason for audit in track["title_audit"] for reason in audit["safeguards"])
         if reasons:
             lines.append(f"- {track['title']} · {track['artist']}：" + "；".join(dict.fromkeys(reasons)))
-    lines.extend(["", "## 数据边界", "", "- 同一 QQ MID 合并扫描，原始重复记录保留在 JSON 中；不去重或改写主数据。", "- 所有候选 review_status=pending，auto_lock_allowed=false；后续人工确认不应直接编辑扫描产物。", "- 标题日期保留年份，年度复现未配置；标题日期不是发行日期。", "- 不从月份推季节、从雪推圣诞、从月亮推满月、从雨推悲伤。", "- JSON 保存全部歌曲及无命中审计；CSV 一行一条候选关联。", "- 日期解析首版覆盖英语月份日期与常见中文／日文月份词；没有承诺所有语言日期覆盖。", ""])
+    lines.extend(["", "## 数据边界", "", "- 同一 QQ MID 合并扫描，原始重复记录保留在 JSON 中；不去重或改写主数据。", "- 所有候选 review_status=pending，auto_lock_allowed=false；后续人工确认不应直接编辑扫描产物。", "- 标题日期保留年份，年度复现未配置；标题日期不是发行日期。", "- 不从月份推季节、从雪推圣诞、从月亮推满月、从雨推悲伤。", "- JSON 保存全部歌曲及无命中审计；CSV 一行一条候选关联。", "- 日期解析覆盖英语月份日期、Avril 日期与常见中文／日文月份词；没有承诺所有语言日期覆盖。", ""])
+    lines.extend(["- 门店：深圳景田，东经 114.04°、北纬 22.56°，Asia/Shanghai，08:00–18:00。", "- 日出为开店意象；傍晚天光仍需运行时核对与营业时间的交集。", "- source_associations 保留合并前词义与判断，scoring_groups 标明共享依据；关联条数不等于独立加分次数。", "- 咖啡／茶仅为手动主题；未实现天气采集、运行时匹配、排名加分或自动锁曲。", ""])
     return "\n".join(lines)
 
 
@@ -310,6 +390,7 @@ def html_report(scan):
             audit_rows.append('<li><b>' + html.escape(track["title"] + " · " + track["artist"]) + '</b><p>' + html.escape("；".join(dict.fromkeys(reasons))) + '</p></li>')
     template = (BASE / "title_context_report_template.html").read_text(encoding="utf-8")
     values = {"@@GROUPS@@": "".join(groups), "@@AUDIT@@": "".join(audit_rows), "@@TOTAL@@": str(scan["summary"]["unique_tracks_scanned"]), "@@TRACKS@@": str(scan["summary"]["tracks_with_candidates"]), "@@ASSOCIATIONS@@": str(scan["summary"]["total_associations"]), "@@EXPLICIT@@": str(scan["summary"]["tracks_with_explicit_candidates"]), "@@VERSION@@": html.escape(scan["rule_version"]), "@@GENERATED@@": html.escape(scan["generated_at"])}
+    values["@@CATEGORY_OPTIONS@@"] = "".join('<option value="' + html.escape(key, quote=True) + '">' + html.escape(stats["label"]) + '</option>' for key, stats in scan["summary"]["categories"].items())
     for token, value in values.items():
         template = template.replace(token, value)
     return template

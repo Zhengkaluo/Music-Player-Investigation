@@ -1,0 +1,76 @@
+{
+  "runId": "2026-10-20-r003",
+  "collectedAt": "2026-10-19T23:02:19+08:00",
+  "inputs": {
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/周歌单专用特征-1103首-raw416.json": "559530248afcec51de28d4eb87eb1a01170143da7cc0c8d705be05f8f23864d4",
+    "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/weekly-playlists/测试空CD历史-2026-10-19.json": "803ef653cc31dcda9ee4b65efa15f24821cea5623dc8fbb5c90c35d23f8200c6",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/song_tags.json": "07bee3be20828f5c1fc58830686bf874e0da944a739062482b32c5d1be8f7ab8",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/title_context_rules.json": "cfb53bd6a27eecd59378299a18c3b8bbe8560680ed18b1deadf4ec1a197ed3dc",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/scans/2026-10-19/title_context_candidates.json": "dfeda69aae2eb7547bf6d696f2711a4d2aee6b989855fc27a5f50dddad56c755",
+    "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r003/request.json": "2fc0325c53d0bb0a7045411f94a8f4712ae09ba2c68fe65e1b7c1c0b8a0684c1"
+  },
+  "catalog": "/Users/kaluozheng/Music-Player-Investigation/SongBase/周歌单专用特征-1103首-raw416.json",
+  "ledger": "/Users/kaluozheng/MusicPlayer-FlowSystem/workspace/weekly-playlists/测试空CD历史-2026-10-19.json",
+  "segments": [
+    {
+      "id": "opening",
+      "start": "09:30",
+      "end": "10:00",
+      "minutes": 30,
+      "requiredSongId": "qq:000v9QqY2s2bHc"
+    },
+    {
+      "id": "morning",
+      "start": "10:00",
+      "end": "11:00",
+      "minutes": 60,
+      "requiredSongId": null
+    },
+    {
+      "id": "sunny",
+      "start": "11:00",
+      "end": "11:30",
+      "minutes": 30,
+      "requiredSongId": "qq:000NYjiu04EmeE"
+    },
+    {
+      "id": "midday",
+      "start": "11:30",
+      "end": "14:00",
+      "minutes": 150,
+      "requiredSongId": null
+    },
+    {
+      "id": "afternoon",
+      "start": "14:00",
+      "end": "17:00",
+      "minutes": 180,
+      "requiredSongId": null
+    },
+    {
+      "id": "evening-early",
+      "start": "17:00",
+      "end": "17:30",
+      "minutes": 30,
+      "requiredSongId": null
+    },
+    {
+      "id": "sunset",
+      "start": "17:30",
+      "end": "18:00",
+      "minutes": 30,
+      "requiredSongId": "qq:002jaefh3NZVjb"
+    },
+    {
+      "id": "closing",
+      "start": "18:00",
+      "end": "18:30",
+      "minutes": 30,
+      "requiredSongId": null
+    }
+  ],
+  "userAuthorization": "每个音乐段使用用户提供的两类TAG；能量沿用，09:30–18:30及三个半小时情景窗口保持不变。",
+  "curvePolicy": "原确认曲线按新段落边界重采样并保持共享边界连续；18:00以后维持原终点2/2/2",
+  "priorReport": "/Users/kaluozheng/Music-Player-Investigation/SongBase/context_associations/briefs/2026-10-20/r002/情景与手动配置建议.md",
+  "previousRun": "2026-10-20-r002"
+}
