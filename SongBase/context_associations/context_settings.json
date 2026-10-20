@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "context-collector-settings/v1",
+  "venueName": "深圳景田咖啡店",
+  "latitude": 22.56,
+  "longitude": 114.04,
+  "timezone": "Asia/Shanghai",
+  "start": "09:30",
+  "end": "18:30",
+  "userAgent": "FlowsetCafeContext/1.0 (https://github.com/Nanze-Chen/flowset)",
+  "weatherMaxAgeHours": 12,
+  "enabledHolidays": [],
+  "coldAtOrBelowC": null,
+  "hotAtOrAboveC": null,
+  "seasonBasis": null,
+  "eveningBeforeMinutes": null,
+  "eveningAfterMinutes": null
+}

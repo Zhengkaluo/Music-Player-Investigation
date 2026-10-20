@@ -38,3 +38,7 @@ SongBase/_audio_download_log.txt
 SongBase/SongResources/_audio_download_log.txt
 SongBase/downloadscripts/_*.json
 SongBase/downloadscripts/*_log.txt
+
+# Fixed-source context HTTP cache and local development verification
+SongBase/context_associations/.context-cache/
+outputs/context-workflow-verification-*/

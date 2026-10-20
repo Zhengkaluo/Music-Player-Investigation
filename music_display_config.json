@@ -1,10 +1,10 @@
 {
   "theme_id": "adaptive",
   "window": {
-    "width": 1618,
-    "height": 794,
-    "x": 440,
-    "y": 370,
+    "width": 1603,
+    "height": 756,
+    "x": 162,
+    "y": 406,
     "alpha": 0.95,
     "topmost": true
   },
@@ -40,7 +40,7 @@
   "custom_content": {
     "enabled": true,
     "type": "text",
-    "source": "不是的\n",
+    "source": "惘闻\n\n2026/7/19 深圳 演出",
     "follow_theme": true,
     "fit": "cover",
     "position": "right",
@@ -55,7 +55,7 @@
       "cols": 12,
       "rows": 8
     },
-    "edit": true,
+    "edit": false,
     "snap": true,
     "overlap": false
   },
@@ -85,7 +85,7 @@
       },
       "content": {
         "kind": "text",
-        "source": "不是的\n",
+        "source": "惘闻\n\n2026/7/19 深圳 演出",
         "follow_theme": true,
         "fit": "cover"
       }
@@ -103,7 +103,7 @@
       },
       "content": {
         "kind": "text",
-        "source": "今日上线\n",
+        "source": "埃塞水洗\n",
         "follow_theme": false,
         "fit": "cover"
       }
