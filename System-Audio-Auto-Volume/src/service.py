@@ -186,7 +186,7 @@ class Simulator:
 class AppState:
     def __init__(self, settings_path=DEFAULT_SETTINGS_PATH, scenarios_path=SCENARIOS,
                  tick_seconds=0.25, start_worker=True, source=None, profiles_path=None,
-                 presets_path=None):
+                 presets_path=None, auto_calibration_wait_seconds=3.5):
         self.settings_path = Path(settings_path)
         self.tick_seconds = float(tick_seconds)
         self.lock = threading.RLock()
@@ -196,6 +196,10 @@ class AppState:
         self.profile_store = DeviceProfileStore(
             profiles_path or self.settings_path.with_name("device-profiles.json"))
         self.calibration_session = None
+        self.calibration_last_result = None
+        self.calibration_cancel = threading.Event()
+        self.calibration_thread = None
+        self.auto_calibration_wait_seconds = float(auto_calibration_wait_seconds)
         self.active_profile = None
         self.last_observation = None
         self.presets = PresetTable(presets_path or PRESETS)
@@ -252,6 +256,9 @@ class AppState:
         return settings
 
     def close(self):
+        self.calibration_cancel.set()
+        if self.calibration_thread:
+            self.calibration_thread.join(timeout=5)
         self.stop_event.set()
         if self.worker:
             self.worker.join(timeout=2)
@@ -580,6 +587,7 @@ class AppState:
         return {
             "active": self.calibration_session is not None,
             "session": deepcopy(self.calibration_session),
+            "lastResult": deepcopy(self.calibration_last_result),
             "profile": profile,
             "status": (None if self.last_observation is None else
                        self.last_observation.get("profileStatus")),
@@ -589,8 +597,8 @@ class AppState:
         if self.source.simulated:
             raise ValueError("模拟模式不保存真实设备校准")
         if not isinstance(body, dict) or body.get("action") not in {
-                "start", "capture", "finish", "cancel"}:
-            raise ValueError("校准 action 必须是 start、capture、finish 或 cancel")
+                "start", "auto-start", "capture", "finish", "cancel"}:
+            raise ValueError("校准 action 必须是 start、auto-start、capture、finish 或 cancel")
         if set(body) != {"action"}:
             raise ValueError("校准接口只接受 action 字段")
         with self.lock:
@@ -598,12 +606,48 @@ class AppState:
             if observation is None or not observation.get("captureAvailable"):
                 raise ValueError("当前没有可用的系统音频数据")
             if body["action"] == "cancel":
-                self.calibration_session = None
+                if self.calibration_session and self.calibration_session.get("mode") == "auto":
+                    self.calibration_session["stage"] = "正在取消并恢复原音量"
+                    self.calibration_cancel.set()
+                else:
+                    self.calibration_session = None
                 return self.calibration_status()
-            if body["action"] == "start":
+            if body["action"] in {"start", "auto-start"}:
+                if self.calibration_session is not None:
+                    raise ValueError("已有校准正在进行")
                 if not observation.get("volumeDbMappingReliable"):
                     raise ValueError("当前设备没有可靠的 dB 映射，不能开始校准")
+                if self.settings["mode"] not in {"monitor", "shadow"}:
+                    raise ValueError("请先关闭自动音量执行，再开始设备校准")
+                self.calibration_last_result = None
+                if body["action"] == "auto-start":
+                    begin = getattr(self.source, "calibration_begin", None)
+                    change = getattr(self.source, "calibration_set_volume_db", None)
+                    restore = getattr(self.source, "calibration_restore", None)
+                    if not all(callable(method) for method in (begin, change, restore)):
+                        raise ValueError("当前平台尚不支持自动三档校准，可使用手动校准")
+                    baseline_db = observation.get("systemVolumeDb")
+                    db_min = observation.get("volumeDbMin")
+                    if baseline_db is None or db_min is None or baseline_db - db_min < 8:
+                        raise ValueError("当前音量过低，无法安全向下完成 8 dB 三档校准")
+                    begin_result = begin()
+                    self.calibration_cancel.clear()
+                    self.calibration_session = {
+                        "mode": "auto", "deviceId": observation["deviceId"],
+                        "deviceName": observation.get("deviceName"),
+                        "startedAtMs": observation["timestampMs"], "points": [],
+                        "levelsDb": [baseline_db, baseline_db - 4, baseline_db - 8],
+                        "levelIndex": 0, "stage": "准备第 1/3 档固定测试音",
+                        "baselineVolume": begin_result.get("beforeVolume"),
+                        "instruction": "请保持页面打开；程序只向下降低两档，完成后自动恢复原音量",
+                    }
+                    self.calibration_thread = threading.Thread(
+                        target=self._run_auto_calibration,
+                        name="auto-device-calibration", daemon=True)
+                    self.calibration_thread.start()
+                    return self.calibration_status()
                 self.calibration_session = {
+                    "mode": "manual",
                     "deviceId": observation["deviceId"],
                     "deviceName": observation.get("deviceName"),
                     "startedAtMs": observation["timestampMs"],
@@ -630,6 +674,70 @@ class AppState:
             result = self.calibration_status()
             result["classification"] = classification
             return result
+
+    def _run_auto_calibration(self):
+        restored = None
+        try:
+            for index in range(3):
+                with self.lock:
+                    session = self.calibration_session
+                    if session is None or session.get("mode") != "auto":
+                        raise RuntimeError("自动校准状态已丢失")
+                    target_db = session["levelsDb"][index]
+                    device_id = session["deviceId"]
+                    session["levelIndex"] = index
+                    session["stage"] = "第 %s/3 档：等待测试音稳定" % (index + 1)
+                if index:
+                    self.source.calibration_set_volume_db(target_db)
+                stage_started = time.time() * 1000
+                if self.calibration_cancel.wait(self.auto_calibration_wait_seconds):
+                    raise InterruptedError("用户取消自动校准")
+                with self.lock:
+                    observation = self.last_observation
+                    if observation is None or observation.get("deviceId") != device_id:
+                        raise RuntimeError("输出设备已切换")
+                    point = stable_point(
+                        list(self.history_rows), device_id, seconds=3,
+                        since_ms=stage_started)
+                    if abs(point["systemVolumeDb"] - target_db) > 0.6:
+                        raise RuntimeError("校准期间系统音量被手动改变")
+                    self.calibration_session["points"].append(point)
+                    self.calibration_session["stage"] = "第 %s/3 档记录完成" % (index + 1)
+            with self.lock:
+                observation = self.last_observation
+                classification = classify_points(self.calibration_session["points"])
+                profile = self.profile_store.save(observation, classification)
+                self.active_profile = profile
+                reliable = classification["captureResponse"] != "unreliable"
+                self.calibration_last_result = {
+                    "status": "complete" if reliable else "unreliable",
+                    "message": ("自动三档校准完成" if reliable else
+                                "自动校准完成，但测量不稳定；请暂停其他声音后重试"),
+                    "classification": classification,
+                }
+        except InterruptedError as error:
+            with self.lock:
+                self.calibration_last_result = {"status": "cancelled", "message": str(error)}
+        except Exception as error:
+            with self.lock:
+                self.calibration_last_result = {"status": "error", "message": str(error)}
+        finally:
+            try:
+                restored = self.source.calibration_restore()
+            except Exception as error:
+                with self.lock:
+                    current = self.calibration_last_result or {}
+                    self.calibration_last_result = {
+                        "status": "error",
+                        "message": "%s；恢复原音量失败：%s" % (
+                            current.get("message", "自动校准中止"), error),
+                    }
+            with self.lock:
+                if self.calibration_last_result is not None:
+                    self.calibration_last_result["restored"] = restored is not None
+                self.calibration_session = None
+                self.calibration_thread = None
+                self.calibration_cancel.clear()
 
     def _apply_preset_rules(self, partial):
         """Expand simple-mode choices into raw settings, or mark hand edits as custom."""

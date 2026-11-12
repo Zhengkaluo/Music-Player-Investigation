@@ -28,6 +28,8 @@ M8a-1 已补齐统一的设备 dB 能力字段。macOS 本机只读验证得到�
 
 M8a-2～M8a-4 已完成：界面提供三档引导校准，稳定窗口取中位数后把设备分成 `pre-volume`、`post-volume` 或 `unreliable`；共享控制器只在档案与 dB 映射都可靠时计算 `effectiveLufs`，并按比例、每秒限速和最小步长生成 dB 建议。macOS 负责 dB ↔ scalar 转换，Windows 负责 EndpointVolume dB 能力；两端都只生成影子建议，不自动写音量。
 
+三档校准现在提供“自动试音并校准”：由浏览器播放约 12 秒的低电平固定测试音，服务依次采集当前档、低 4 dB、低 8 dB 三档并自动分类。流程只向下降低音量；完成、取消或测量失败后会尝试恢复起始音量。设备切换、用户手动改音量、音量过低或自动执行模式仍在运行时会中止；如果无法确认当前值仍是程序写入值，则拒绝覆盖用户音量。手动三档校准保留为备用入口，档案仍不保存 PCM。
+
 M8a-5 的代码门禁和 macOS 内建扬声器实机门禁已通过。Windows 实机、macOS 蓝牙/USB/HDMI，以及 Windows 扬声器/耳机/蓝牙/exclusive-mode 仍需在相应硬件上补测，因此尚不开放 M8b。结果见 [`M8A_ACCEPTANCE_REPORT.md`](M8A_ACCEPTANCE_REPORT.md)。
 
 两个系统使用隔离入口，共用同一份 `AudioSource` 接口、控制器、HTTP 服务、状态契约和界面：

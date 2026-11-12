@@ -250,6 +250,41 @@ func lowerVolumeForTest(step: Double) throws -> [String: Any] {
             "muted": booleanProperty(device, kAudioDevicePropertyMute) as Any? ?? NSNull()]
 }
 
+func setVolumeDbForCalibration(targetDb: Double, expectedPercent: Double,
+                               deviceID: String) throws -> [String: Any] {
+    let device = try defaultOutput()
+    let currentID = try stringProperty(device, kAudioDevicePropertyDeviceUID, "Read output UID")
+    guard currentID == deviceID else {
+        throw NSError(domain: "SystemAudioMonitor", code: 18,
+                      userInfo: [NSLocalizedDescriptionKey: "Output device changed; refusing calibration write"])
+    }
+    guard let scalar = scalarProperty(device, kAudioDevicePropertyVolumeScalar),
+          let currentDb = (scalarProperty(device, kAudioDevicePropertyVolumeDecibels)
+                           ?? scalarToDecibels(device, scalar)) else {
+        throw NSError(domain: "SystemAudioMonitor", code: 19,
+                      userInfo: [NSLocalizedDescriptionKey: "Current output volume is not readable"])
+    }
+    let currentPercent = Double(scalar) * 100
+    guard abs(currentPercent - expectedPercent) <= 0.6 else {
+        throw NSError(domain: "SystemAudioMonitor", code: 20,
+                      userInfo: [NSLocalizedDescriptionKey: "Volume changed during calibration; refusing write"])
+    }
+    guard targetDb.isFinite, targetDb < Double(currentDb) - 0.01,
+          let targetScalar = decibelsToScalar(device, Float32(targetDb)) else {
+        throw NSError(domain: "SystemAudioMonitor", code: 21,
+                      userInfo: [NSLocalizedDescriptionKey: "Calibration may only lower to a convertible dB target"])
+    }
+    let actual = try setVolume(device, percent: Double(targetScalar) * 100)
+    let actualScalar = scalarProperty(device, kAudioDevicePropertyVolumeScalar)
+    let actualDb = scalarProperty(device, kAudioDevicePropertyVolumeDecibels)
+        ?? actualScalar.flatMap { scalarToDecibels(device, $0) }
+    return ["schemaVersion": schema, "event": "volume-calibration-set",
+            "timestampMs": Date().timeIntervalSince1970 * 1000,
+            "deviceId": currentID, "beforeVolume": currentPercent,
+            "beforeVolumeDb": Double(currentDb), "appliedVolume": actual,
+            "appliedVolumeDb": actualDb.map { Double($0) } as Any? ?? NSNull()]
+}
+
 func restoreVolumeAfterTest(baseline: Double, written: Double, deviceID: String) throws -> [String: Any] {
     let device = try defaultOutput()
     let currentID = try stringProperty(device, kAudioDevicePropertyDeviceUID, "Read output UID")
@@ -732,6 +767,15 @@ do {
     if CommandLine.arguments.count == 3 && CommandLine.arguments[1] == "--volume-lower",
        let step = Double(CommandLine.arguments[2]) {
         emit(try lowerVolumeForTest(step: step))
+        exit(0)
+    }
+    if CommandLine.arguments.count == 6 && CommandLine.arguments[1] == "--volume-calibration-set",
+       let targetDb = Double(CommandLine.arguments[2]),
+       let expectedPercent = Double(CommandLine.arguments[3]),
+       CommandLine.arguments[4] == "--device" {
+        emit(try setVolumeDbForCalibration(targetDb: targetDb,
+                                           expectedPercent: expectedPercent,
+                                           deviceID: CommandLine.arguments[5]))
         exit(0)
     }
     if CommandLine.arguments.count == 6 && CommandLine.arguments[1] == "--volume-restore",

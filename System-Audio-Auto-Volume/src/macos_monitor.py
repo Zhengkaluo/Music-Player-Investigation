@@ -202,6 +202,36 @@ class MacOSMonitor:
         result = self._volume_command("--volume-convert-db", target_db)
         return float(result["targetVolume"])
 
+    def calibration_begin(self):
+        with self.lock:
+            if self.volume_test_session:
+                raise RuntimeError("已有音量测试或校准尚未恢复")
+            state = self._volume_command("--volume-state")
+            self.volume_test_session = {
+                "deviceId": state["deviceId"],
+                "baseline": state["systemVolume"],
+                "written": state["systemVolume"],
+            }
+            return {"deviceId": state["deviceId"],
+                    "beforeVolume": state["systemVolume"],
+                    "beforeVolumeDb": state.get("systemVolumeDb")}
+
+    def calibration_set_volume_db(self, target_db):
+        with self.lock:
+            if not self.volume_test_session:
+                raise RuntimeError("自动校准尚未开始")
+            session = self.volume_test_session
+            result = self._volume_command(
+                "--volume-calibration-set", target_db, session["written"],
+                "--device", session["deviceId"])
+            session["written"] = result["appliedVolume"]
+            self.last_program_volume = result["appliedVolume"]
+            self.last_program_at = time.monotonic()
+            return result
+
+    def calibration_restore(self):
+        return self.manual_volume_test("restore")
+
     def manual_volume_test(self, action, step=1.0):
         with self.lock:
             if action == "lower":

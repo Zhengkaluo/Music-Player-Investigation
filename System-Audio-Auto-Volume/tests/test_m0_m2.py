@@ -531,6 +531,7 @@ class ServiceTests(unittest.TestCase):
         self.assertIn("就用现在的音量", html)
         self.assertIn("高级设置", html)
         self.assertIn("恢复简易推荐", html)
+        self.assertIn("自动试音并校准", html)
 
 
 class FakeMacSource:
@@ -585,6 +586,7 @@ class FakeCalibrationSource(FakeShadowSource):
     def __init__(self):
         super().__init__()
         self.db = -30.0
+        self.calibration_restores = 0
 
     def observe(self, timestamp_ms):
         value = super().observe(timestamp_ms)
@@ -594,6 +596,39 @@ class FakeCalibrationSource(FakeShadowSource):
                      volumeDbSource="test-db", volumeDbMappingReliable=True,
                      shortTermLufs=-20.0, momentaryLufs=-20.0)
         return value
+
+    def calibration_begin(self):
+        if self.volume_test_session:
+            raise RuntimeError("已有校准")
+        self.volume_test_session = {
+            "baseline": self.volume, "baselineDb": self.db,
+            "written": self.volume,
+        }
+        return {"deviceId": "mac-device", "beforeVolume": self.volume,
+                "beforeVolumeDb": self.db}
+
+    def calibration_set_volume_db(self, target_db):
+        session = self.volume_test_session
+        if not session:
+            raise RuntimeError("自动校准尚未开始")
+        before = self.volume
+        self.db = float(target_db)
+        self.volume = max(0.0, session["baseline"] + self.db - session["baselineDb"])
+        session["written"] = self.volume
+        return {"deviceId": "mac-device", "beforeVolume": before,
+                "appliedVolume": self.volume, "appliedVolumeDb": self.db}
+
+    def calibration_restore(self):
+        session = self.volume_test_session
+        if not session:
+            raise RuntimeError("没有待恢复的校准音量")
+        before = self.volume
+        self.volume = session["baseline"]
+        self.db = session["baselineDb"]
+        self.volume_test_session = None
+        self.calibration_restores += 1
+        return {"deviceId": "mac-device", "beforeVolume": before,
+                "appliedVolume": self.volume, "appliedVolumeDb": self.db}
 
 
 class MacReadOnlyTests(unittest.TestCase):
@@ -691,6 +726,53 @@ class MacReadOnlyTests(unittest.TestCase):
             finally:
                 app.close()
 
+    def test_auto_calibration_records_three_levels_and_restores(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeCalibrationSource()
+            app = AppState(
+                settings_path=Path(folder) / "settings.json", source=source,
+                tick_seconds=0.01, start_worker=True,
+                auto_calibration_wait_seconds=0.08)
+            try:
+                started = app.calibration({"action": "auto-start"})
+                self.assertEqual(started["session"]["mode"], "auto")
+                deadline = time.monotonic() + 3
+                while app.calibration_status()["active"] and time.monotonic() < deadline:
+                    time.sleep(0.01)
+                result = app.calibration_status()
+                self.assertFalse(result["active"])
+                self.assertEqual(result["lastResult"]["status"], "complete")
+                self.assertTrue(result["lastResult"]["restored"])
+                self.assertEqual(result["profile"]["captureResponse"], "pre-volume")
+                self.assertEqual(len(result["profile"]["evidenceSummary"]["points"]), 3)
+                self.assertEqual(source.db, -30.0)
+                self.assertEqual(source.volume, 41.0)
+                self.assertEqual(source.calibration_restores, 1)
+            finally:
+                app.close()
+
+    def test_auto_calibration_cancel_restores_baseline(self):
+        with tempfile.TemporaryDirectory() as folder:
+            source = FakeCalibrationSource()
+            app = AppState(
+                settings_path=Path(folder) / "settings.json", source=source,
+                tick_seconds=0.01, start_worker=True,
+                auto_calibration_wait_seconds=0.5)
+            try:
+                app.calibration({"action": "auto-start"})
+                app.calibration({"action": "cancel"})
+                deadline = time.monotonic() + 3
+                while app.calibration_status()["active"] and time.monotonic() < deadline:
+                    time.sleep(0.01)
+                result = app.calibration_status()
+                self.assertEqual(result["lastResult"]["status"], "cancelled")
+                self.assertTrue(result["lastResult"]["restored"])
+                self.assertEqual(source.db, -30.0)
+                self.assertEqual(source.volume, 41.0)
+                self.assertEqual(source.calibration_restores, 1)
+            finally:
+                app.close()
+
     def test_manual_volume_api_is_explicit_and_reversible(self):
         with tempfile.TemporaryDirectory() as folder:
             source = FakeMacSource()
@@ -757,6 +839,7 @@ class MacReadOnlyTests(unittest.TestCase):
         self.assertNotIn("ExtAudioFile", source)
         self.assertEqual(source.count("AudioObjectSetPropertyData"), 1)
         self.assertIn("--volume-lower", source)
+        self.assertIn("--volume-calibration-set", source)
         self.assertIn("refusing restore", source)
 
 
@@ -853,6 +936,18 @@ class WindowsReadOnlyTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "用户修改"):
             monitor.manual_volume_test("restore")
         self.assertAlmostEqual(endpoint.volume, 0.6)
+
+    def test_windows_auto_calibration_write_is_lower_only_and_restored(self):
+        monitor, endpoint = fake_windows_monitor()
+        started = monitor.calibration_begin()
+        self.assertAlmostEqual(started["beforeVolume"], 50)
+        lowered = monitor.calibration_set_volume_db(-34.0)
+        self.assertAlmostEqual(lowered["appliedVolumeDb"], -34.0)
+        self.assertLess(endpoint.volume, 0.5)
+        restored = monitor.calibration_restore()
+        self.assertAlmostEqual(restored["appliedVolume"], 50)
+        self.assertAlmostEqual(endpoint.volume, 0.5)
+        self.assertIsNone(monitor.volume_test_session)
 
     def test_windows_volume_calls_use_multithreaded_com(self):
         monitor, _endpoint = fake_windows_monitor()

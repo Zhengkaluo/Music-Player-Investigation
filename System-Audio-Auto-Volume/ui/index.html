@@ -219,8 +219,10 @@
           <div id="calibration-panel" hidden>
             <h3>输出设备校准</h3>
             <div class="sub" id="calibration-status">尚未校准</div>
+            <div class="sub">自动校准会播放约 12 秒的轻声测试音，只向下降低两档，结束或出错时恢复原音量。开始前请暂停其他声音。</div>
             <div class="test-actions">
-              <button type="button" id="calibration-start">开始三档校准</button>
+              <button type="button" class="primary" id="calibration-auto">自动试音并校准</button>
+              <button type="button" id="calibration-start">手动三档校准</button>
               <button type="button" id="calibration-capture">记录当前档</button>
               <button type="button" id="calibration-finish">完成并分类</button>
               <button type="button" id="calibration-cancel">取消</button>
@@ -242,6 +244,8 @@
     let rows = [];
     let simulated = true;
     let liveSettings = null;
+    let calibrationTone = null;
+    let autoCalibrationSeen = false;
 
     async function api(path, options) {
       const response = await fetch(path, options);
@@ -411,14 +415,24 @@
       $('restore-volume').disabled = simulated || !status.manualVolumeTestPending;
       $('calibration-panel').hidden = simulated;
       const points = calibration.session ? calibration.session.points.length : 0;
+      const autoCalibration = calibration.active && calibration.session.mode === 'auto';
+      if (autoCalibration) autoCalibrationSeen = true;
+      if (!calibration.active && autoCalibrationSeen && calibrationTone) stopCalibrationTone();
       $('calibration-status').textContent = calibration.active
-        ? `正在校准：已记录 ${points}/3 档。每次手动调节后播放同一稳定片段至少 3 秒。`
+        ? autoCalibration
+          ? `${calibration.session.stage}；已记录 ${points}/3 档，请保持页面打开。`
+          : `正在手动校准：已记录 ${points}/3 档。每次手动调节后播放同一稳定片段至少 3 秒。`
+        : calibration.lastResult
+        ? `${calibration.lastResult.message}${calibration.lastResult.restored ? '；原音量已恢复' : ''}`
         : calibration.profile
         ? `${responseLabel} · 置信度 ${calibration.profile.confidence} · ${calibration.status}`
         : `尚无有效档案 · ${calibration.status || 'missing'}`;
-      $('calibration-start').disabled = simulated || calibration.active || !volume.dbMappingReliable;
-      $('calibration-capture').disabled = simulated || !calibration.active || points >= 3;
-      $('calibration-finish').disabled = simulated || !calibration.active || points < 3;
+      $('calibration-auto').disabled = simulated || calibration.active || !volume.dbMappingReliable || executingMode;
+      $('calibration-start').disabled = simulated || calibration.active || !volume.dbMappingReliable || executingMode;
+      $('calibration-capture').hidden = autoCalibration;
+      $('calibration-finish').hidden = autoCalibration;
+      $('calibration-capture').disabled = simulated || !calibration.active || autoCalibration || points >= 3;
+      $('calibration-finish').disabled = simulated || !calibration.active || autoCalibration || points < 3;
       $('calibration-cancel').disabled = simulated || !calibration.active;
       $('chart').setAttribute('aria-label', simulated ? '最近六十秒模拟响度与系统音量趋势' : hasLoudness ? '最近六十秒源响度、输出估算与系统音量趋势' : '最近六十秒真实 RMS 与系统音量趋势');
     }
@@ -627,10 +641,39 @@
         clearError(); await Promise.all([refreshStatus(), refreshHistory()]);
       } catch (error) { showError(error); }
     }
+    function stopCalibrationTone() {
+      if (!calibrationTone) return;
+      try { calibrationTone.oscillator.stop(); } catch (_error) {}
+      calibrationTone.context.close();
+      calibrationTone = null;
+    }
+    async function startCalibrationTone() {
+      stopCalibrationTone();
+      const AudioContext = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContext) throw new Error('当前浏览器不支持自动试音，请使用手动三档校准');
+      const context = new AudioContext();
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+      oscillator.type = 'sine'; oscillator.frequency.value = 440; gain.gain.value = 0.012;
+      oscillator.connect(gain).connect(context.destination); oscillator.start();
+      await context.resume();
+      calibrationTone = {context, oscillator};
+    }
+    $('calibration-auto').addEventListener('click', async () => {
+      try {
+        await startCalibrationTone();
+        await postJson('/api/calibration', {action: 'auto-start'});
+        autoCalibrationSeen = true; clearError();
+        await Promise.all([refreshStatus(), refreshHistory()]);
+      } catch (error) { stopCalibrationTone(); showError(error); }
+    });
     $('calibration-start').addEventListener('click', () => calibrationAction('start'));
     $('calibration-capture').addEventListener('click', () => calibrationAction('capture'));
     $('calibration-finish').addEventListener('click', () => calibrationAction('finish'));
-    $('calibration-cancel').addEventListener('click', () => calibrationAction('cancel'));
+    $('calibration-cancel').addEventListener('click', () => {
+      stopCalibrationTone();
+      calibrationAction('cancel');
+    });
 
     // ---- 参数悬停说明 ----
     const fmt = (value, digits = 1) => value == null ? '—' : number(value, digits);
@@ -703,7 +746,8 @@
       'test-volume': ['测试降低 1 个百分点', '手动验证程序能否写入系统音量：立即把系统音量降低 1 个百分点。与自动压低无关。'],
       'restore-volume': ['安全恢复', '恢复到“测试降低”之前的音量。', '如果期间你改过音量或切换了设备，会拒绝恢复，以免覆盖你的设置。'],
       'switch-device': ['模拟切换设备', '模拟模式专用：假装切换到另一个输出设备，用来观察程序如何重新校准。'],
-      'calibration-start': ['开始三档校准', '判断当前设备抓到的是调音量之前还是之后的信号。每个输出设备需要校准一次，否则无法开启“自动压低”。'],
+      'calibration-auto': ['自动试音并校准', '播放约 12 秒的轻声固定测试音，自动记录当前音量、低 4 dB、低 8 dB 三档，再恢复原音量并保存设备分类。', '开始前请暂停其他声音；校准中不要手动调音量或切换输出设备。'],
+      'calibration-start': ['手动三档校准', '自动试音不可用时的备用方式：判断当前设备抓到的是调音量之前还是之后的信号。每个输出设备需要校准一次，否则无法开启“自动压低”。'],
       'calibration-capture': ['记录当前档', '播放同一段稳定的内容，把系统音量调到一个档位并保持 3 秒以上，再点记录。', '三个档位之间合计至少相差 6 dB。'],
       'calibration-finish': ['完成并分类', '记录满三档后点击，自动分类并保存为当前设备的档案。'],
       'calibration-cancel': ['取消', '放弃本次校准，不保存任何结果。'],
@@ -779,6 +823,7 @@
     setInterval(() => { if (tipTarget && tipTarget._help.entry) showTip(tipTarget); }, 1000);
 
     window.addEventListener('resize', drawChart);
+    window.addEventListener('beforeunload', stopCalibrationTone);
     Promise.all([refreshStatus(), refreshHistory()]);
     setInterval(refreshStatus, 250);
     setInterval(refreshHistory, 1000);

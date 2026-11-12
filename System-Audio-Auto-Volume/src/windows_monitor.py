@@ -675,6 +675,35 @@ class WindowsMonitor:
                                      result["appliedVolumeDb"])
             return result
 
+    def calibration_begin(self):
+        with self.lock:
+            if self.volume_test_session:
+                raise RuntimeError("已有音量测试或校准尚未恢复")
+            current = self._volume_operation()
+            self.volume_test_session = {
+                "deviceId": current["deviceId"],
+                "baseline": current["beforeVolume"],
+                "written": current["beforeVolume"],
+                "writtenDb": current.get("beforeVolumeDb"),
+            }
+            return current
+
+    def calibration_set_volume_db(self, target_db):
+        with self.lock:
+            if not self.volume_test_session:
+                raise RuntimeError("自动校准尚未开始")
+            session = self.volume_test_session
+            if session.get("writtenDb") is None:
+                raise RuntimeError("无法读取当前设备 dB，拒绝自动校准")
+            result = self.apply_volume_db(
+                target_db, session["deviceId"], session["writtenDb"], 0)
+            session["written"] = result["appliedVolume"]
+            session["writtenDb"] = result["appliedVolumeDb"]
+            return result
+
+    def calibration_restore(self):
+        return self.manual_volume_test("restore")
+
     def manual_volume_test(self, action, step=1.0):
         with self.lock:
             if action == "lower":

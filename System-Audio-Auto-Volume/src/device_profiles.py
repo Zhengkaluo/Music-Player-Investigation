@@ -175,12 +175,13 @@ class DeviceProfileStore:
         return deepcopy(profile)
 
 
-def stable_point(rows, device_id, seconds=4):
+def stable_point(rows, device_id, seconds=4, since_ms=None):
     candidates = [row for row in rows
                   if row.get("deviceId") == device_id
                   and row.get("shortTermLufs") is not None
                   and row.get("systemVolumeDb") is not None
-                  and not row.get("isSilent")]
+                  and not row.get("isSilent")
+                  and (since_ms is None or row.get("timestampMs", 0) >= since_ms)]
     if not candidates:
         raise ValueError("最近没有可用于校准的 Short-term 数据")
     newest = candidates[-1]["timestampMs"]
